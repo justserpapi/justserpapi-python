@@ -1,6 +1,6 @@
 [project]
 name = "justserpapi"
-version = "1.0.0"
+version = "1.0.1"
 description = "Professional Python SDK for JustSerpAPI"
 authors = [
   {name = "JustSerpAPI Team", email = "support@justserpapi.com"},
