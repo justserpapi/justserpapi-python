@@ -93,7 +93,7 @@ client.close()
 
 ## OpenAPI Control Plane
 
-This repository is driven by the canonical OpenAPI document plus the SDK control-plane files in `config/`, `scripts/`, and `overlays/`.
+This repository only owns the Python SDK. The canonical OpenAPI document plus the Python-specific control-plane files in `config/`, `scripts/`, and `overlays/python/` drive generation and validation.
 
 - If `openapi/justserpapi.openapi.json` is committed, local generation is fully reproducible.
 - If it is not committed, CI can fetch and cache it by running `python scripts/sdkctl.py fetch-spec` with `JUSTSERPAPI_API_KEY` configured.
@@ -105,6 +105,19 @@ python scripts/sdkctl.py validate-examples
 python scripts/sdkctl.py validate-spec --skip-generator-validate
 python scripts/sdkctl.py generate --clean
 ```
+
+## Release
+
+Official releases are tag-driven:
+
+```bash
+python scripts/sdkctl.py verify-release --tag vX.Y.Z
+git push origin vX.Y.Z
+```
+
+- The package version comes from `justserpapi/_version.py`
+- If `openapi/justserpapi.openapi.json` is committed, its `info.version` must match the tag and package version
+- GitHub Actions publishes tagged releases to PyPI through Trusted Publishing
 
 ## License
 

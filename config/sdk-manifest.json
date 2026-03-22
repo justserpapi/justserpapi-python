@@ -2,7 +2,7 @@
   "service": {
     "name": "justserpapi",
     "display_name": "JustSerpAPI",
-    "description": "OpenAPI-first SDK release control plane for JustSerpAPI.",
+    "description": "OpenAPI-first Python SDK release tooling for JustSerpAPI.",
     "default_server_url": "https://api.justserpapi.com"
   },
   "spec": {
@@ -15,10 +15,7 @@
     "cache_dir": ".cache/openapi-generator"
   },
   "release": {
-    "generated_dir": ".generated",
-    "repositories_dir": ".repositories",
-    "commit_message": "chore: regenerate SDKs from OpenAPI {{SPEC_VERSION}}",
-    "tag_name": "v{{SPEC_VERSION}}"
+    "generated_dir": ".generated"
   },
   "languages": {
     "python": {
@@ -35,42 +32,6 @@
         "remote": "git@github.com:justserpapi/justserpapi-python.git",
         "default_branch": "main"
       }
-    },
-    "java": {
-      "generator": "java",
-      "output_subdir": "java",
-      "config_template": "config/generators/java.json",
-      "overlay_dir": "overlays/java",
-      "package": {
-        "name": "justserpapi-java",
-        "registry": "maven-central"
-      },
-      "repo": {
-        "name": "justserpapi-java",
-        "remote": "git@github.com:justserpapi/justserpapi-java.git",
-        "default_branch": "main"
-      },
-      "group_id": "com.justserpapi",
-      "artifact_id": "justserpapi",
-      "invoker_package": "com.justserpapi.client",
-      "api_package": "com.justserpapi.client.api",
-      "model_package": "com.justserpapi.client.model"
-    },
-    "go": {
-      "generator": "go",
-      "output_subdir": "go",
-      "config_template": "config/generators/go.json",
-      "overlay_dir": "overlays/go",
-      "package": {
-        "name": "justserpapi",
-        "registry": "go-proxy"
-      },
-      "repo": {
-        "name": "justserpapi-go",
-        "remote": "git@github.com:justserpapi/justserpapi-go.git",
-        "default_branch": "main"
-      },
-      "module_name": "github.com/justserpapi/justserpapi-go"
     }
   }
 }

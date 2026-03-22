@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""OpenAPI-first SDK orchestration for multi-repo releases."""
+"""OpenAPI-first Python SDK tooling."""
 
 from __future__ import annotations
 
@@ -17,7 +17,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Set, Tuple
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 try:
@@ -29,6 +28,8 @@ except ImportError:  # pragma: no cover - optional dependency for YAML specs.
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_MANIFEST_PATH = ROOT / "config" / "sdk-manifest.json"
 HTTP_METHODS = ("get", "put", "post", "delete", "options", "head", "patch", "trace")
+RELEASE_TAG_PATTERN = re.compile(r"^v(?P<version>\d+\.\d+\.\d+)$")
+VERSION_PATTERN = re.compile(r"""^__version__\s*=\s*['"]([^'"]+)['"]\s*$""", re.MULTILINE)
 
 
 class CLIError(RuntimeError):
@@ -106,12 +107,8 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     breaking_parser.add_argument("--base", help="Override the baseline spec path.")
     breaking_parser.add_argument("--head", help="Override the head spec path.")
 
-    generate_parser = subparsers.add_parser("generate", help="Generate SDK workspaces for one or more languages.")
+    generate_parser = subparsers.add_parser("generate", help="Generate the Python SDK workspace.")
     generate_parser.add_argument("--spec", help="Override the spec path.")
-    generate_parser.add_argument(
-        "--languages",
-        help="Comma separated language list. Defaults to all configured languages.",
-    )
     generate_parser.add_argument(
         "--workspace",
         help="Override the generation workspace directory.",
@@ -122,28 +119,23 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
         help="Delete previous workspace outputs before generation.",
     )
 
-    sync_parser = subparsers.add_parser("sync-repos", help="Sync generated SDKs into target Git repositories.")
-    sync_parser.add_argument(
-        "--languages",
-        help="Comma separated language list. Defaults to all configured languages.",
+    release_parser = subparsers.add_parser(
+        "verify-release",
+        help="Verify that a Git release tag matches the Python package version.",
     )
-    sync_parser.add_argument(
-        "--workspace",
-        help="Override the generation workspace directory.",
+    release_parser.add_argument(
+        "--tag",
+        help="Release tag to validate. Defaults to GITHUB_REF_NAME or GITHUB_REF.",
     )
-    sync_parser.add_argument("--spec", help="Override the spec path.")
-    sync_parser.add_argument(
-        "--repos-dir",
-        help="Override the local repositories cache directory.",
+    release_parser.add_argument(
+        "--spec",
+        help="Optional spec path to validate against when the canonical spec is committed.",
     )
-    sync_parser.add_argument("--push", action="store_true", help="Push commits to remotes after syncing.")
-    sync_parser.add_argument("--tag", action="store_true", help="Create and push a release tag in each repo.")
-    sync_parser.add_argument(
-        "--github-token-env",
-        default="SDK_REPO_PUSH_TOKEN",
-        help="Environment variable containing a GitHub token for authenticated pushes.",
+    release_parser.add_argument(
+        "--version-file",
+        default="justserpapi/_version.py",
+        help="Path to the Python version file.",
     )
-    sync_parser.add_argument("--dry-run", action="store_true", help="Render actions without mutating repos.")
 
     return parser.parse_args(argv)
 
@@ -163,8 +155,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             breaking_check_command(args, manifest)
         elif args.command == "generate":
             generate_command(args, manifest)
-        elif args.command == "sync-repos":
-            sync_repos_command(args, manifest)
+        elif args.command == "verify-release":
+            verify_release_command(args, manifest)
         else:  # pragma: no cover - argparse ensures this never happens.
             raise CLIError("Unknown command: %s" % args.command)
     except CLIError as exc:
@@ -177,8 +169,11 @@ def load_manifest(path: Path) -> Dict[str, Any]:
     if not path.exists():
         raise CLIError("Manifest not found: %s" % path)
     manifest = load_json(path)
-    if "languages" not in manifest or not manifest["languages"]:
-        raise CLIError("Manifest must define at least one language.")
+    languages = manifest.get("languages", {})
+    if not isinstance(languages, dict) or not languages:
+        raise CLIError("Manifest must define the python language.")
+    if set(languages.keys()) != {"python"}:
+        raise CLIError("This repository only supports the python SDK.")
     return manifest
 
 
@@ -202,17 +197,6 @@ def resolve_spec_path(manifest: Dict[str, Any], override: Optional[str] = None) 
     if not path.exists():
         raise CLIError("Spec file not found: %s" % path)
     return path
-
-
-def resolve_languages(manifest: Dict[str, Any], raw_languages: Optional[str] = None) -> List[str]:
-    configured = list(manifest["languages"].keys())
-    if not raw_languages:
-        return configured
-    requested = [item.strip() for item in raw_languages.split(",") if item.strip()]
-    unknown = [name for name in requested if name not in manifest["languages"]]
-    if unknown:
-        raise CLIError("Unknown languages requested: %s" % ", ".join(unknown))
-    return requested
 
 
 def load_spec(path: Path) -> Dict[str, Any]:
@@ -248,6 +232,77 @@ def spec_version(spec: Dict[str, Any]) -> str:
     if not version:
         raise CLIError("Spec info.version is required.")
     return str(version)
+
+
+def load_package_version(version_file: Path) -> str:
+    if not version_file.exists():
+        raise CLIError("Version file not found: %s" % version_file)
+    match = VERSION_PATTERN.search(read_text(version_file))
+    if not match:
+        raise CLIError("Unable to parse __version__ from %s" % version_file)
+    return match.group(1)
+
+
+def parse_release_tag(tag: str) -> str:
+    match = RELEASE_TAG_PATTERN.fullmatch(tag.strip())
+    if not match:
+        raise CLIError("Release tag must match vX.Y.Z, found %r." % tag)
+    return match.group("version")
+
+
+def validate_release_versions(
+    release_version: str,
+    package_version_value: str,
+    spec_version_value: Optional[str] = None,
+) -> None:
+    if package_version_value != release_version:
+        raise CLIError(
+            "Release version %s does not match package version %s."
+            % (release_version, package_version_value)
+        )
+    if spec_version_value is not None and spec_version_value != release_version:
+        raise CLIError(
+            "Release version %s does not match canonical spec version %s."
+            % (release_version, spec_version_value)
+        )
+
+
+def release_tag_from_environment() -> Optional[str]:
+    ref_name = os.getenv("GITHUB_REF_NAME")
+    if ref_name:
+        return ref_name
+    ref = os.getenv("GITHUB_REF")
+    if ref and ref.startswith("refs/tags/"):
+        return ref.rsplit("/", 1)[-1]
+    return None
+
+
+def verify_release_command(args: argparse.Namespace, manifest: Dict[str, Any]) -> None:
+    raw_tag = args.tag or release_tag_from_environment()
+    if not raw_tag:
+        raise CLIError("Release tag is required. Pass --tag or set GITHUB_REF_NAME.")
+
+    release_version = parse_release_tag(raw_tag)
+    version_file = resolve_path(args.version_file)
+    package_version_value = load_package_version(version_file)
+
+    spec_path = resolve_path(args.spec or manifest["spec"]["path"])
+    spec_version_value: Optional[str] = None
+    if spec_path.exists():
+        spec_version_value = spec_version(load_spec(spec_path))
+
+    validate_release_versions(release_version, package_version_value, spec_version_value)
+
+    if spec_version_value is None:
+        log(
+            "Release verification passed for %s with package version %s; canonical spec not present."
+            % (raw_tag, package_version_value)
+        )
+    else:
+        log(
+            "Release verification passed for %s with package version %s and spec version %s."
+            % (raw_tag, package_version_value, spec_version_value)
+        )
 
 
 def fetch_spec(args: argparse.Namespace, manifest: Dict[str, Any]) -> None:
@@ -568,7 +623,7 @@ def generate_command(args: argparse.Namespace, manifest: Dict[str, Any]) -> None
     spec_path = resolve_spec_path(manifest, args.spec)
     spec = load_spec(spec_path)
     version = spec_version(spec)
-    languages = resolve_languages(manifest, args.languages)
+    languages = ["python"]
     workspace = resolve_path(
         args.workspace or manifest["release"].get("generated_dir", ".generated")
     )
@@ -590,7 +645,7 @@ def generate_command(args: argparse.Namespace, manifest: Dict[str, Any]) -> None
             workspace=workspace,
             jar_path=jar_path,
         )
-    log("Generated SDK workspaces under %s" % workspace)
+    log("Generated Python SDK workspace under %s" % workspace)
 
 
 def generate_language(
@@ -793,46 +848,6 @@ if __name__ == "__main__":
     unittest.main()
 """
         write_text(smoke_path, render_template_text(smoke, context))
-    elif language == "java":
-        invoker_package = context["INVOKER_PACKAGE"]
-        package_path = invoker_package.replace(".", "/")
-        smoke_path = output_dir / "src" / "test" / "java" / package_path / "ApiClientSmokeTest.java"
-        smoke = """package {{INVOKER_PACKAGE}};
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import org.junit.jupiter.api.Test;
-
-class ApiClientSmokeTest {
-    @Test
-    void supportsBasePathAndApiKeyConfiguration() {
-        ApiClient client = new ApiClient();
-        client.setBasePath("{{DEFAULT_SERVER_URL}}");
-        client.setApiKey("test-api-key");
-        assertEquals("{{DEFAULT_SERVER_URL}}", client.getBasePath());
-    }
-}
-"""
-        write_text(smoke_path, render_template_text(smoke, context))
-    elif language == "go":
-        smoke_path = output_dir / "client_smoke_test.go"
-        smoke = """package {{PACKAGE_NAME}}
-
-import "testing"
-
-func TestClientConfigurationSmoke(t *testing.T) {
-    cfg := NewConfiguration()
-    if cfg == nil {
-        t.Fatal("expected configuration")
-    }
-
-    client := NewAPIClient(cfg)
-    if client == nil {
-        t.Fatal("expected API client")
-    }
-}
-"""
-        write_text(smoke_path, render_template_text(smoke, context))
 
 
 def write_metadata(
@@ -850,117 +865,6 @@ def write_metadata(
         "generatorVersion": manifest["generator"]["version"],
     }
     write_text(output_dir / "sdk-origin.json", json.dumps(metadata, indent=2, sort_keys=True) + "\n")
-
-
-def sync_repos_command(args: argparse.Namespace, manifest: Dict[str, Any]) -> None:
-    workspace = resolve_path(
-        args.workspace or manifest["release"].get("generated_dir", ".generated")
-    )
-    repos_dir = resolve_path(
-        args.repos_dir or manifest["release"].get("repositories_dir", ".repositories")
-    )
-    languages = resolve_languages(manifest, args.languages)
-    spec_path = resolve_spec_path(manifest, args.spec)
-    version = spec_version(load_spec(spec_path))
-    commit_message = render_template_text(
-        manifest["release"]["commit_message"], {"SPEC_VERSION": version}
-    )
-    tag_name = render_template_text(manifest["release"]["tag_name"], {"SPEC_VERSION": version})
-
-    token = os.getenv(args.github_token_env)
-    for language in languages:
-        language_cfg = manifest["languages"][language]
-        output_dir = workspace / language_cfg.get("output_subdir", language)
-        if not output_dir.exists():
-            raise CLIError("Generated workspace missing for %s: %s" % (language, output_dir))
-
-        repo_cfg = language_cfg["repo"]
-        checkout_dir = repos_dir / repo_cfg["name"]
-        if args.dry_run:
-            log(
-                "[dry-run] would sync %s -> %s (%s)"
-                % (output_dir, checkout_dir, repo_cfg["remote"])
-            )
-            continue
-
-        prepare_checkout(
-            checkout_dir=checkout_dir,
-            remote=repo_cfg["remote"],
-            branch=repo_cfg.get("default_branch", "main"),
-            push=args.push,
-            token=token,
-        )
-        sync_directory(output_dir, checkout_dir)
-        if not git_has_changes(checkout_dir):
-            log("No repo changes for %s" % language)
-            continue
-
-        run(["git", "add", "--all"], cwd=checkout_dir)
-        run(["git", "commit", "-m", commit_message], cwd=checkout_dir)
-
-        if args.tag:
-            run(["git", "tag", "-f", tag_name], cwd=checkout_dir)
-
-        if args.push:
-            run(["git", "push", "origin", repo_cfg.get("default_branch", "main")], cwd=checkout_dir)
-            if args.tag:
-                run(["git", "push", "--force", "origin", tag_name], cwd=checkout_dir)
-
-
-def prepare_checkout(
-    checkout_dir: Path,
-    remote: str,
-    branch: str,
-    push: bool,
-    token: Optional[str],
-) -> None:
-    if not checkout_dir.exists():
-        checkout_dir.parent.mkdir(parents=True, exist_ok=True)
-        clone_remote = authenticated_remote(remote, token) if push else remote
-        run(["git", "clone", "--branch", branch, clone_remote, str(checkout_dir)], cwd=ROOT)
-        return
-
-    run(["git", "fetch", "origin"], cwd=checkout_dir)
-    run(["git", "checkout", branch], cwd=checkout_dir)
-    run(["git", "pull", "--ff-only", "origin", branch], cwd=checkout_dir)
-
-
-def authenticated_remote(remote: str, token: Optional[str]) -> str:
-    if not token:
-        return remote
-    parsed = urlparse(remote)
-    if remote.startswith("git@github.com:"):
-        repo_path = remote.split("git@github.com:", 1)[1]
-        return "https://x-access-token:%s@github.com/%s" % (token, repo_path)
-    if parsed.scheme in ("http", "https") and parsed.netloc == "github.com":
-        return "https://x-access-token:%s@github.com%s" % (token, parsed.path)
-    return remote
-
-
-def sync_directory(source_dir: Path, target_dir: Path) -> None:
-    protected = {".git"}
-    for item in target_dir.iterdir():
-        if item.name in protected:
-            continue
-        remove_path(item)
-
-    for item in source_dir.iterdir():
-        destination = target_dir / item.name
-        if item.is_dir():
-            shutil.copytree(item, destination)
-        else:
-            shutil.copy2(item, destination)
-
-
-def git_has_changes(repo_dir: Path) -> bool:
-    result = subprocess.run(
-        ["git", "status", "--porcelain"],
-        cwd=repo_dir,
-        check=True,
-        capture_output=True,
-        text=True,
-    )
-    return bool(result.stdout.strip())
 
 
 def run(command: Sequence[str], cwd: Path) -> None:

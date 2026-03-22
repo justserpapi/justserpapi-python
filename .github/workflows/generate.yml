@@ -1,4 +1,4 @@
-name: generate-sdks
+name: generate-python-sdk
 
 on:
   workflow_dispatch:
@@ -42,7 +42,7 @@ jobs:
         if: ${{ hashFiles('openapi/justserpapi.openapi.json') != '' }}
         uses: actions/upload-artifact@v4
         with:
-          name: generated-sdks
+          name: generated-python-sdk
           path: |
             .generated
             openapi/justserpapi.openapi.json

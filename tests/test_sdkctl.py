@@ -43,6 +43,29 @@ class GovernanceValidationTest(unittest.TestCase):
         self.assertEqual("package justserpapi version 1.2.3", rendered)
 
 
+class ReleaseVerificationTest(unittest.TestCase):
+    def test_parse_release_tag_extracts_version(self) -> None:
+        self.assertEqual("2.0.0", sdkctl.parse_release_tag("v2.0.0"))
+
+    def test_parse_release_tag_rejects_invalid_format(self) -> None:
+        with self.assertRaisesRegex(sdkctl.CLIError, "vX.Y.Z"):
+            sdkctl.parse_release_tag("2.0.0")
+
+    def test_load_package_version_from_version_file(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir_name:
+            version_file = Path(temp_dir_name) / "_version.py"
+            version_file.write_text('__version__ = "2.1.3"\n', encoding="utf-8")
+            self.assertEqual("2.1.3", sdkctl.load_package_version(version_file))
+
+    def test_validate_release_versions_rejects_package_mismatch(self) -> None:
+        with self.assertRaisesRegex(sdkctl.CLIError, "package version"):
+            sdkctl.validate_release_versions("2.0.0", "2.0.1")
+
+    def test_validate_release_versions_rejects_spec_mismatch(self) -> None:
+        with self.assertRaisesRegex(sdkctl.CLIError, "canonical spec version"):
+            sdkctl.validate_release_versions("2.0.0", "2.0.0", "2.1.0")
+
+
 class MetadataTest(unittest.TestCase):
     def test_write_metadata_file(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir_name:

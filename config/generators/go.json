@@ -1,8 +1,0 @@
-{
-  "packageName": "{{PACKAGE_NAME}}",
-  "moduleName": "{{MODULE_NAME}}",
-  "packageVersion": "{{SPEC_VERSION}}",
-  "hideGenerationTimestamp": true,
-  "enumClassPrefix": true,
-  "generateInterfaces": true
-}

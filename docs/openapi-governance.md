@@ -1,6 +1,6 @@
 # OpenAPI Governance
 
-The canonical OpenAPI document is the product. Every language SDK is a derivative artifact.
+The canonical OpenAPI document is the product. This repository owns the Python SDK derived from it.
 
 ## Required conventions
 
@@ -30,5 +30,5 @@ The canonical OpenAPI document is the product. Every language SDK is a derivativ
 
 ## Repository policy
 
-- `justserpapi/`, `docs/`, and the current root Python package are legacy generated artifacts and not the future source of truth.
-- Future releases must come from `openapi/` plus `config/`, `scripts/`, and `overlays/`.
+- This repository is Python-only; it does not orchestrate Java, Go, or other SDK releases.
+- Future Python releases must come from `openapi/` plus `config/`, `scripts/`, and `overlays/python/`.

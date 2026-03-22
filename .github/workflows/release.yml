@@ -1,35 +1,60 @@
-name: release-sdks
+name: release-python
 
 on:
-  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+  id-token: write
 
 jobs:
-  sync-and-push:
+  publish:
     runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/project/justserpapi/
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: "21"
-      - name: Install orchestration dependencies
-        run: python -m pip install --upgrade pip
-      - name: Fetch canonical spec when it is not committed
-        if: ${{ hashFiles('openapi/justserpapi.openapi.json') == '' }}
-        env:
-          JUSTSERPAPI_API_KEY: ${{ secrets.JUSTSERPAPI_API_KEY }}
-        run: python scripts/sdkctl.py fetch-spec
-      - name: Require canonical spec
-        run: test -f openapi/justserpapi.openapi.json
-      - name: Generate release artifacts
+      - name: Install release dependencies
         run: |
-          python scripts/sdkctl.py validate-examples
-          python scripts/sdkctl.py validate-spec
-          python scripts/sdkctl.py generate --clean
-      - name: Sync SDK repositories
+          python -m pip install --upgrade pip
+          pip install -r test-requirements.txt
+          pip install .
+      - name: Verify tag and package version
+        run: python scripts/sdkctl.py verify-release --tag "${GITHUB_REF_NAME}"
+      - name: Validate docs
+        run: python scripts/sdkctl.py validate-examples
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Build distribution artifacts
+        run: python -m build
+      - name: Check distribution metadata
+        run: python -m twine check dist/*
+      - name: Smoke install built wheel
         env:
-          SDK_REPO_PUSH_TOKEN: ${{ secrets.SDK_REPO_PUSH_TOKEN }}
-        run: python scripts/sdkctl.py sync-repos --push --tag
+          RELEASE_VERSION: ${{ github.ref_name }}
+        run: |
+          python -m venv .release-venv
+          . .release-venv/bin/activate
+          pip install dist/*.whl
+          python - <<'PY'
+          import os
+          import justserpapi
+
+          expected = os.environ["RELEASE_VERSION"].removeprefix("v")
+          assert justserpapi.__version__ == expected
+
+          client = justserpapi.Client(api_key="test-api-key")
+          assert type(client).__name__ == "Client"
+          assert type(client.google).__name__ == "GoogleResource"
+          client.close()
+          PY
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
