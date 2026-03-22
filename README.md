@@ -94,12 +94,25 @@ This repository only owns the Python SDK. The canonical OpenAPI document plus th
 - If `openapi/justserpapi.openapi.json` is committed, local generation is fully reproducible.
 - If it is not committed, CI can fetch and cache it by running `python scripts/sdkctl.py fetch-spec` with `JUSTSERPAPI_API_KEY` configured.
 
-Typical maintenance flow:
+If the API changes, update these files:
+
+- `openapi/justserpapi.openapi.json`: the current canonical spec used to validate and generate the SDK
+- `openapi/baseline/justserpapi.openapi.json`: the previous released spec snapshot used only for breaking-change checks
+
+Typical maintenance flow after an API change:
 
 ```bash
+cp /path/to/latest-openapi.json openapi/justserpapi.openapi.json
 python scripts/sdkctl.py validate-examples
-python scripts/sdkctl.py validate-spec --skip-generator-validate
+python scripts/sdkctl.py validate-spec
+python scripts/sdkctl.py breaking-check
 python scripts/sdkctl.py generate --clean
+```
+
+If this new spec is the one you are about to release, update the baseline after validation:
+
+```bash
+cp openapi/justserpapi.openapi.json openapi/baseline/justserpapi.openapi.json
 ```
 
 ## Release
@@ -107,6 +120,9 @@ python scripts/sdkctl.py generate --clean
 Official releases are tag-driven:
 
 ```bash
+python scripts/sdkctl.py validate-examples
+python scripts/sdkctl.py verify-release --tag vX.Y.Z
+python -m build
 python scripts/sdkctl.py verify-release --tag vX.Y.Z
 git push origin vX.Y.Z
 ```
