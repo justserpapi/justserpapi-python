@@ -1,9 +1,9 @@
 # coding: utf-8
 
 # flake8: noqa
+
 """Model exports for the JustSerpAPI SDK."""
 
-# import models into model package
 from justserpapi.models.responses import AutocompleteSuggestion as AutocompleteSuggestion
 from justserpapi.models.responses import BasePayloadModel as BasePayloadModel
 from justserpapi.models.responses import BaseSearchResponse as BaseSearchResponse

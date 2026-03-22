@@ -19,110 +19,93 @@
   </a>
 </p>
 
-<p align="center">
-  <strong>The most reliable and high-performance SERP API for Google Search, Maps, News, Shopping, and more.</strong>
-</p>
+OpenAPI-driven Python SDK for JustSerpAPI with a stable high-level `Client` as the public entrypoint.
 
----
-
-## 🌐 Quick Links
-
-- **Official Website**: [justserpapi.com](https://justserpapi.com)
-- **API Documentation**: [docs.justserpapi.com](https://docs.justserpapi.com)
-- **User Dashboard**: [dashboard.justserpapi.com](https://dashboard.justserpapi.com)
-- **Support**: [support@justserpapi.com](mailto:support@justserpapi.com)
-
----
-
-## 🚀 Overview
-
-JustSerpAPI provides a comprehensive suite of tools to scrape and parse search engine results in real-time. This Python SDK allows you to integrate Google Search, Maps, Images, News, Shopping, and AI-powered overviews directly into your Python applications with full type safety and high performance.
-
-### Key Features
-- **Full Google Coverage**: Search, Maps, News, Shopping, Finance, Images, and Patents.
-- **AI-Powered**: Access Google AI Overviews and AI Search modes.
-- **Easy Integration**: Built-in authentication, automatic retries, and clean models.
-- **Type Safety**: Full PEP 484 type hints support for a great developer experience.
-
----
-
-## 🛠 Installation
-
-Install the package via `pip`:
+## Installation
 
 ```bash
 pip install justserpapi
 ```
 
----
-
-## 📖 Getting Started
-
-To start using the SDK, you need an **API Key**. You can get one from the [User Dashboard](https://dashboard.justserpapi.com).
-
-### Simple Search Example
+## Quick Start
 
 ```python
-import justserpapi
-from justserpapi.api.google_api_api import GoogleAPIApi
-from pprint import pprint
+from justserpapi import Client
 
-# Configure the SDK
-configuration = justserpapi.Configuration(
-    host="https://api.justserpapi.com"
+with Client(api_key="YOUR_API_KEY") as client:
+    response = client.google.search(
+        query="coffee shops in New York",
+        location="New York, NY",
+        language="en",
+    )
+    print(response.organic_results)
+```
+
+## Promoted High-Level API
+
+The high-level surface is designed to be the default entrypoint:
+
+```python
+from justserpapi import Client
+
+client = Client(api_key="YOUR_API_KEY", timeout=20.0)
+
+search = client.google.search(query="best espresso beans", language="en")
+maps = client.google.maps.search(query="espresso bars", location="Shanghai")
+news = client.google.news.search(query="OpenAI", language="en")
+images = client.google.images.search(query="espresso machine")
+shopping = client.google.shopping.search(query="espresso tamper")
+overview = client.google.ai.overview(url="https://example.com/ai-overview")
+
+client.close()
+```
+
+Promoted high-level responses are parsed into Pydantic models:
+
+- `GoogleSearchResponse`
+- `GoogleMapsSearchResponse`
+- `GoogleNewsSearchResponse`
+- `GoogleImagesSearchResponse`
+- `GoogleShoppingSearchResponse`
+- `GoogleAIOverviewResponse`
+
+## Configuration
+
+The public client exposes the common knobs directly:
+
+```python
+from justserpapi import Client
+from urllib3.util.retry import Retry
+
+client = Client(
+    api_key="YOUR_API_KEY",
+    base_url="https://api.justserpapi.com",
+    timeout=(5.0, 30.0),
+    retries=Retry(total=5, backoff_factor=0.5),
 )
-configuration.api_key['ApiKeyAuth'] = 'YOUR_API_KEY_HERE'
-
-# Initialize the API client
-with justserpapi.ApiClient(configuration) as api_client:
-    # Create an instance of the Google API
-    api_instance = GoogleAPIApi(api_client)
-    
-    try:
-        # Search for "coffee shops in New York"
-        response = api_instance.search(
-            query="coffee shops in New York",
-            location="New York,NY",
-            language="en"
-        )
-        pprint(response)
-    except justserpapi.ApiException as e:
-        print(f"Exception when calling API: {e}")
+client.close()
 ```
 
----
+- `api_key`: value sent in the `X-API-Key` header
+- `base_url`: API host, defaults to `https://api.justserpapi.com`
+- `timeout`: default request timeout injected into promoted high-level methods
+- `retries`: `urllib3` retry configuration; defaults to a conservative retry strategy for the high-level client
 
-## 🍱 Supported APIs
+## OpenAPI Control Plane
 
-| Service | Method | Description |
-| :--- | :--- | :--- |
-| **Google Search** | `search()` | Core Google search results (Organic, Ads, etc.) |
-| **Google Maps** | `maps_search()` | Local business listings and place details |
-| **Google AI** | `ai_overview()` | Extract AI-generated summaries from Google |
-| **Google Images** | `images_search()` | High-quality image search results |
-| **Google News** | `news_search()` | Real-time news results |
-| **Google Shopping**| `shopping_search()`| Comprehensive product and price data |
+This repository is driven by the canonical OpenAPI document plus the SDK control-plane files in `config/`, `scripts/`, and `overlays/`.
 
-Check out the [Full Documentation](https://docs.justserpapi.com) for a complete list of endpoints and parameters.
+- If `openapi/justserpapi.openapi.json` is committed, local generation is fully reproducible.
+- If it is not committed, CI can fetch and cache it by running `python scripts/sdkctl.py fetch-spec` with `JUSTSERPAPI_API_KEY` configured.
 
----
+Typical maintenance flow:
 
-## 🛡️ Authentication
-
-The API uses an API Key passed in the `X-API-Key` header. In the SDK, this is managed via the `Configuration` object:
-
-```python
-configuration.api_key['ApiKeyAuth'] = 'YOUR_API_KEY'
+```bash
+python scripts/sdkctl.py validate-examples
+python scripts/sdkctl.py validate-spec --skip-generator-validate
+python scripts/sdkctl.py generate --clean
 ```
 
----
-
-## ⚖️ License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-<p align="center">
-  Proudly maintained by the <a href="https://justserpapi.com">JustSerpAPI Team</a>.
-</p>

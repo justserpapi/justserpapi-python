@@ -1,0 +1,60 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Breaking Base",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.justserpapi.com"
+    }
+  ],
+  "paths": {
+    "/widgets": {
+      "get": {
+        "tags": [
+          "Widgets"
+        ],
+        "operationId": "listWidgets",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Widget list"
+          }
+        }
+      }
+    },
+    "/widgets/{widgetId}": {
+      "get": {
+        "tags": [
+          "Widgets"
+        ],
+        "operationId": "getWidget",
+        "parameters": [
+          {
+            "name": "widgetId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Widget"
+          }
+        }
+      }
+    }
+  }
+}

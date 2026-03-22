@@ -54,6 +54,7 @@ justserpapi = ["py.typed"]
 files = [
   "justserpapi",
   "test",
+  "tests",
 ]
 warn_unused_configs = true
 warn_redundant_casts = true

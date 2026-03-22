@@ -1,0 +1,10 @@
+{
+  "packageName": "{{PACKAGE_NAME}}",
+  "projectName": "{{REPO_NAME}}",
+  "packageVersion": "{{SPEC_VERSION}}",
+  "packageUrl": "{{REPO_REMOTE}}",
+  "httpUserAgent": "{{PACKAGE_NAME}}/{{SPEC_VERSION}}/python",
+  "library": "urllib3",
+  "hideGenerationTimestamp": true,
+  "generateSourceCodeOnly": false
+}

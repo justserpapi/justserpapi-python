@@ -1,0 +1,25 @@
+# {{SERVICE_DISPLAY_NAME}} Python SDK
+
+OpenAPI-driven Python SDK generated from the canonical spec and wrapped with a stable high-level client.
+
+## Install
+
+```bash
+pip install {{PACKAGE_NAME}}
+```
+
+## Quick start
+
+```python
+from {{PACKAGE_NAME}} import Client
+
+with Client(api_key="YOUR_API_KEY", base_url="{{DEFAULT_SERVER_URL}}") as client:
+    response = client.google.search(query="coffee shops", language="en")
+    print(response.organic_results)
+```
+
+## Release contract
+
+- Canonical spec version: `{{SPEC_VERSION}}`
+- Generator version: `{{GENERATOR_VERSION}}`
+- Source repository: `{{REPO_REMOTE}}`

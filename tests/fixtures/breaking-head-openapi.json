@@ -1,0 +1,37 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Breaking Head",
+    "version": "1.1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.justserpapi.com"
+    }
+  ],
+  "paths": {
+    "/widgets": {
+      "get": {
+        "tags": [
+          "Widgets"
+        ],
+        "operationId": "listWidgets",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Widget list"
+          }
+        }
+      }
+    }
+  }
+}

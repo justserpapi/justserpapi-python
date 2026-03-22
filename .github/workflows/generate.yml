@@ -1,0 +1,48 @@
+name: generate-sdks
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "config/**"
+      - "openapi/**"
+      - "overlays/**"
+      - "scripts/**"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - name: Install orchestration dependencies
+        run: python -m pip install --upgrade pip
+      - name: Fetch canonical spec when it is not committed
+        if: ${{ hashFiles('openapi/justserpapi.openapi.json') == '' && secrets.JUSTSERPAPI_API_KEY != '' }}
+        env:
+          JUSTSERPAPI_API_KEY: ${{ secrets.JUSTSERPAPI_API_KEY }}
+        run: python scripts/sdkctl.py fetch-spec
+      - name: Validate examples and canonical spec when available
+        run: |
+          python scripts/sdkctl.py validate-examples
+          if [ ! -f openapi/justserpapi.openapi.json ]; then
+            echo "Canonical spec not available; generation skipped."
+            exit 0
+          fi
+          python scripts/sdkctl.py validate-spec
+          python scripts/sdkctl.py generate --clean
+      - name: Upload generation artifacts
+        if: ${{ hashFiles('openapi/justserpapi.openapi.json') != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-sdks
+          path: |
+            .generated
+            openapi/justserpapi.openapi.json

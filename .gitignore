@@ -66,6 +66,7 @@ target/
 # IDEs
 .idea/
 .vscode/
+.DS_Store
 
 # Project specific excludes
 .output.txt
@@ -78,3 +79,6 @@ git_push.sh
 temp-openapi-google.json
 check_responses.py
 restore_files.py
+.generated/
+.repositories/
+.cache/openapi-generator/

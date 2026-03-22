@@ -1,0 +1,17 @@
+{
+  "groupId": "{{GROUP_ID}}",
+  "artifactId": "{{ARTIFACT_ID}}",
+  "artifactVersion": "{{SPEC_VERSION}}",
+  "artifactDescription": "{{SERVICE_DISPLAY_NAME}} Java SDK generated from the canonical OpenAPI document.",
+  "invokerPackage": "{{INVOKER_PACKAGE}}",
+  "apiPackage": "{{API_PACKAGE}}",
+  "modelPackage": "{{MODEL_PACKAGE}}",
+  "library": "okhttp-gson",
+  "dateLibrary": "java8",
+  "hideGenerationTimestamp": true,
+  "developerName": "{{SERVICE_DISPLAY_NAME}}",
+  "developerEmail": "support@justserpapi.com",
+  "scmConnection": "scm:git:{{REPO_REMOTE}}",
+  "scmDeveloperConnection": "scm:git:{{REPO_REMOTE}}",
+  "scmUrl": "{{REPO_REMOTE}}"
+}
