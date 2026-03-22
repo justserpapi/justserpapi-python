@@ -123,7 +123,6 @@ Official releases are tag-driven:
 python scripts/sdkctl.py validate-examples
 python scripts/sdkctl.py verify-release --tag vX.Y.Z
 python -m build
-python scripts/sdkctl.py verify-release --tag vX.Y.Z
 git push origin vX.Y.Z
 ```
 
