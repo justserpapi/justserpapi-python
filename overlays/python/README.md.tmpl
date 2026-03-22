@@ -15,7 +15,8 @@ from {{PACKAGE_NAME}} import Client
 
 with Client(api_key="YOUR_API_KEY", base_url="{{DEFAULT_SERVER_URL}}") as client:
     response = client.google.search(query="coffee shops", language="en")
-    print(response.organic_results)
+    print(response)
+    print(response["data"])
 ```
 
 ## Release contract

@@ -38,7 +38,8 @@ with Client(api_key="YOUR_API_KEY") as client:
         location="New York, NY",
         language="en",
     )
-    print(response.organic_results)
+    print(response)
+    print(response["data"])
 ```
 
 ## Promoted High-Level API
@@ -57,17 +58,12 @@ images = client.google.images.search(query="espresso machine")
 shopping = client.google.shopping.search(query="espresso tamper")
 overview = client.google.ai.overview(url="https://example.com/ai-overview")
 
+print(search["data"])
+
 client.close()
 ```
 
-Promoted high-level responses are parsed into Pydantic models:
-
-- `GoogleSearchResponse`
-- `GoogleMapsSearchResponse`
-- `GoogleNewsSearchResponse`
-- `GoogleImagesSearchResponse`
-- `GoogleShoppingSearchResponse`
-- `GoogleAIOverviewResponse`
+Promoted high-level responses are plain Python dictionaries that mirror the API's JSON response envelope. The SDK does not auto-unpack `data`.
 
 ## Configuration
 

@@ -2,26 +2,16 @@
 
 from __future__ import annotations
 
-from typing import Any, Optional, Tuple, Type, TypeVar, Union
+from typing import Any, Dict, Optional, Tuple, Union
 
 from urllib3.util.retry import Retry
 
 from justserpapi.api.google_api_api import GoogleAPIApi
 from justserpapi.api_client import ApiClient
 from justserpapi.configuration import Configuration
-from justserpapi.models.responses import (
-    BasePayloadModel,
-    GoogleAIOverviewResponse,
-    GoogleAutocompleteResponse,
-    GoogleImagesSearchResponse,
-    GoogleMapsSearchResponse,
-    GoogleNewsSearchResponse,
-    GoogleSearchResponse,
-    GoogleShoppingSearchResponse,
-)
 
 TimeoutValue = Optional[Union[float, Tuple[float, float]]]
-T = TypeVar("T", bound=BasePayloadModel)
+JSONDict = Dict[str, Any]
 
 DEFAULT_HOST = "https://api.justserpapi.com"
 DEFAULT_TIMEOUT: TimeoutValue = 30.0
@@ -52,41 +42,42 @@ class _GoogleBaseResource:
             kwargs["_request_timeout"] = self._timeout
         return kwargs
 
-    def _typed_call(self, method_name: str, response_model: Type[T], **kwargs: Any) -> T:
+    def _json_call(self, method_name: str, **kwargs: Any) -> JSONDict:
         payload = getattr(self._api, method_name)(**self._with_timeout(kwargs))
-        if isinstance(payload, response_model):
-            return payload
         if isinstance(payload, dict):
-            return response_model.model_validate(payload)
-        return response_model.model_validate({"payload": payload})
+            return payload
+        raise TypeError(
+            "%s returned %s instead of a JSON object."
+            % (method_name, type(payload).__name__)
+        )
 
 
 class GoogleMapsResource(_GoogleBaseResource):
-    def search(self, *, query: str, **kwargs: Any) -> GoogleMapsSearchResponse:
-        return self._typed_call("maps_search", GoogleMapsSearchResponse, query=query, **kwargs)
+    def search(self, *, query: str, **kwargs: Any) -> JSONDict:
+        return self._json_call("maps_search", query=query, **kwargs)
 
 
 class GoogleNewsResource(_GoogleBaseResource):
-    def search(self, *, query: str, **kwargs: Any) -> GoogleNewsSearchResponse:
-        return self._typed_call("news_search", GoogleNewsSearchResponse, query=query, **kwargs)
+    def search(self, *, query: str, **kwargs: Any) -> JSONDict:
+        return self._json_call("news_search", query=query, **kwargs)
 
 
 class GoogleImagesResource(_GoogleBaseResource):
-    def search(self, *, query: str, **kwargs: Any) -> GoogleImagesSearchResponse:
-        return self._typed_call("images_search", GoogleImagesSearchResponse, query=query, **kwargs)
+    def search(self, *, query: str, **kwargs: Any) -> JSONDict:
+        return self._json_call("images_search", query=query, **kwargs)
 
 
 class GoogleShoppingResource(_GoogleBaseResource):
-    def search(self, *, query: str, **kwargs: Any) -> GoogleShoppingSearchResponse:
-        return self._typed_call("shopping_search", GoogleShoppingSearchResponse, query=query, **kwargs)
+    def search(self, *, query: str, **kwargs: Any) -> JSONDict:
+        return self._json_call("shopping_search", query=query, **kwargs)
 
 
 class GoogleAIResource(_GoogleBaseResource):
-    def overview(self, *, url: str, **kwargs: Any) -> GoogleAIOverviewResponse:
-        return self._typed_call("ai_overview", GoogleAIOverviewResponse, url=url, **kwargs)
+    def overview(self, *, url: str, **kwargs: Any) -> JSONDict:
+        return self._json_call("ai_overview", url=url, **kwargs)
 
-    def mode(self, *, query: str, **kwargs: Any) -> GoogleAIOverviewResponse:
-        return self._typed_call("ai_mode", GoogleAIOverviewResponse, query=query, **kwargs)
+    def mode(self, *, query: str, **kwargs: Any) -> JSONDict:
+        return self._json_call("ai_mode", query=query, **kwargs)
 
 
 class GoogleResource(_GoogleBaseResource):
@@ -101,11 +92,11 @@ class GoogleResource(_GoogleBaseResource):
         self.shopping = GoogleShoppingResource(api, timeout)
         self.ai = GoogleAIResource(api, timeout)
 
-    def search(self, *, query: str, **kwargs: Any) -> GoogleSearchResponse:
-        return self._typed_call("search", GoogleSearchResponse, query=query, **kwargs)
+    def search(self, *, query: str, **kwargs: Any) -> JSONDict:
+        return self._json_call("search", query=query, **kwargs)
 
-    def autocomplete(self, *, query: str, **kwargs: Any) -> GoogleAutocompleteResponse:
-        return self._typed_call("autocomplete", GoogleAutocompleteResponse, query=query, **kwargs)
+    def autocomplete(self, *, query: str, **kwargs: Any) -> JSONDict:
+        return self._json_call("autocomplete", query=query, **kwargs)
 
 
 class Client:

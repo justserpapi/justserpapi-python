@@ -16,13 +16,6 @@ __all__ = [
     "ApiKeyError",
     "ApiAttributeError",
     "ApiException",
-    "GoogleSearchResponse",
-    "GoogleMapsSearchResponse",
-    "GoogleNewsSearchResponse",
-    "GoogleImagesSearchResponse",
-    "GoogleShoppingSearchResponse",
-    "GoogleAIOverviewResponse",
-    "GoogleAutocompleteResponse",
 ]
 
 # import high-level client
@@ -35,12 +28,3 @@ from justserpapi.exceptions import ApiValueError as ApiValueError
 from justserpapi.exceptions import ApiKeyError as ApiKeyError
 from justserpapi.exceptions import ApiAttributeError as ApiAttributeError
 from justserpapi.exceptions import ApiException as ApiException
-
-# import models into sdk package
-from justserpapi.models import GoogleAIOverviewResponse as GoogleAIOverviewResponse
-from justserpapi.models import GoogleAutocompleteResponse as GoogleAutocompleteResponse
-from justserpapi.models import GoogleImagesSearchResponse as GoogleImagesSearchResponse
-from justserpapi.models import GoogleMapsSearchResponse as GoogleMapsSearchResponse
-from justserpapi.models import GoogleNewsSearchResponse as GoogleNewsSearchResponse
-from justserpapi.models import GoogleSearchResponse as GoogleSearchResponse
-from justserpapi.models import GoogleShoppingSearchResponse as GoogleShoppingSearchResponse
