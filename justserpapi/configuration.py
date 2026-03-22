@@ -7,7 +7,7 @@ import logging
 from logging import FileHandler
 import multiprocessing
 import sys
-from justserpapi import __version__
+from justserpapi._version import __version__
 from typing import Any, ClassVar, Dict, List, Literal, Optional, TypedDict, Union
 from typing_extensions import NotRequired, Self
 

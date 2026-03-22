@@ -4,8 +4,7 @@
 
 """JustSerpAPI Python SDK."""
 
-
-__version__ = "1.0.4"
+from justserpapi._version import __version__
 
 # Define package exports
 __all__ = [

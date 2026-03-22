@@ -45,7 +45,7 @@ include-package-data = true
 include = ["justserpapi*"]
 
 [tool.setuptools.dynamic]
-version = {attr = "justserpapi.__init__.__version__"}
+version = {attr = "justserpapi._version.__version__"}
 
 [tool.setuptools.package-data]
 justserpapi = ["py.typed"]

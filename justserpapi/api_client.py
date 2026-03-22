@@ -16,7 +16,7 @@ import uuid
 from urllib.parse import quote
 from typing import Tuple, Optional, List, Dict, Union
 from pydantic import SecretStr
-from justserpapi import __version__
+from justserpapi._version import __version__
 
 from justserpapi.configuration import Configuration
 from justserpapi.api_response import ApiResponse, T as ApiResponseT
