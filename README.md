@@ -11,7 +11,7 @@
   <a href="https://pypi.org/project/justserpapi/">
     <img src="https://img.shields.io/pypi/pyversions/justserpapi?style=flat-square" alt="Python Versions">
   </a>
-  <a href="https://docs.justserpapi.com">
+  <a href="https://docs.justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme">
     <img src="https://img.shields.io/badge/docs-latest-brightgreen?style=flat-square" alt="Documentation">
   </a>
   <a href="LICENSE">
