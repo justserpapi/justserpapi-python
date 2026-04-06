@@ -21,6 +21,12 @@
 
 OpenAPI-driven Python SDK for JustSerpAPI with a stable high-level `Client` as the public entrypoint.
 
+Official Python SDK for [JustSerpAPI](https://justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme).
+
+Use this SDK to access JustSerpAPI from Python and fetch structured Google search results without building raw HTTP requests by hand.
+
+Get your API key, product docs, and pricing at [justserpapi.com](https://justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme).
+
 ## Installation
 
 ```bash
