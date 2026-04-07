@@ -11,7 +11,7 @@
   <a href="https://pypi.org/project/justserpapi/">
     <img src="https://img.shields.io/pypi/pyversions/justserpapi?style=flat-square" alt="Python Versions">
   </a>
-  <a href="https://docs.justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme">
+  <a href="https://docs.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme">
     <img src="https://img.shields.io/badge/docs-latest-brightgreen?style=flat-square" alt="Documentation">
   </a>
   <a href="LICENSE">
@@ -21,11 +21,11 @@
 
 OpenAPI-driven Python SDK for JustSerpAPI with a stable high-level `Client` as the public entrypoint.
 
-Official Python SDK for [JustSerpAPI](https://justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme).
+Official Python SDK for [JustSerpAPI](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme).
 
 Use this SDK to access JustSerpAPI from Python and fetch structured Google search results without building raw HTTP requests by hand.
 
-Get your API key, product docs, and pricing at [justserpapi.com](https://justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme).
+Get your API key, product docs, and pricing at [justserpapi.com](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme).
 
 ## Installation
 
