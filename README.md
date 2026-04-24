@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://justserpapi.com/logo/whiteBgColor.png" alt="JustSerpAPI Logo" width="200">
+  <img src="https://justserpapi.com/logo/whiteBgColor.webp" alt="JustSerpAPI Logo" width="200">
 </p>
 
 <h1 align="center">JustSerpAPI Python SDK</h1>
