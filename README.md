@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://justserpapi.com/logo/whiteBgColor.webp" alt="JustSerpAPI Logo" width="200">
+  <a href="https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_logo">
+    <img src="https://justserpapi.com/logo/whiteBgColor.webp" alt="JustSerpAPI Logo" width="200">
+  </a>
 </p>
 
 <h1 align="center">JustSerpAPI Python SDK</h1>
@@ -11,7 +13,7 @@
   <a href="https://pypi.org/project/justserpapi/">
     <img src="https://img.shields.io/pypi/pyversions/justserpapi?style=flat-square" alt="Python Versions">
   </a>
-  <a href="https://docs.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme">
+  <a href="https://docs.justserpapi.com">
     <img src="https://img.shields.io/badge/docs-latest-brightgreen?style=flat-square" alt="Documentation">
   </a>
   <a href="LICENSE">
@@ -19,13 +21,17 @@
   </a>
 </p>
 
-OpenAPI-driven Python SDK for JustSerpAPI with a stable high-level `Client` as the public entrypoint.
+OpenAPI-driven Python SDK for [JustSerpAPI](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme) with a stable high-level `Client` as the public entrypoint.
 
-Official Python SDK for [JustSerpAPI](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme).
+## Platform Overview
 
-Use this SDK to access JustSerpAPI from Python and fetch structured Google search results without building raw HTTP requests by hand.
+The documentation center helps you browse endpoint health, versioned API paths, request parameters, and SERP-specific usage notes.
 
-Get your API key, product docs, and pricing at [justserpapi.com](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme).
+[![JustSerpAPI documentation overview](docs/images/readme/api-docs-en.jpg)](https://docs.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_docs_image)
+
+The console provides API key management, subscription status, credit visibility, request logs, usage trends, and credit consumption analytics.
+
+[![JustSerpAPI console overview](docs/images/readme/console-en.jpg)](https://dashboard.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_dashboard_image)
 
 ## Installation
 
@@ -135,6 +141,107 @@ git push origin vX.Y.Z
 - The package version comes from `justserpapi/_version.py`
 - If `openapi/justserpapi.openapi.json` is committed, its `info.version` must match the tag and package version
 - GitHub Actions publishes tagged releases to PyPI through Trusted Publishing
+
+## Service Overview
+
+The API list below is generated from OpenAPI and shows the current public API categories and endpoint names. See the [online API documentation](https://docs.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list) for full request and response details.
+
+<!-- API_LIST_START -->
+
+### Google Search API
+
+- [Search API](https://docs.justserpapi.com/api/v1/google/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Light Search API](https://docs.justserpapi.com/api/v1/google/search/light?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Mobile Search API](https://docs.justserpapi.com/api/v1/google/search/mobile?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google AI Mode API
+
+- [AI Mode API](https://docs.justserpapi.com/api/v1/google/ai-mode?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google AI Overview API
+
+- [AI Overview API](https://docs.justserpapi.com/api/v1/google/ai-overview?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Maps API
+
+- [Maps Search API](https://docs.justserpapi.com/api/v1/google/maps/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Maps Posts API](https://docs.justserpapi.com/api/v1/google/maps/posts?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Maps Photos API](https://docs.justserpapi.com/api/v1/google/maps/photos?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Maps Reviews API](https://docs.justserpapi.com/api/v1/google/maps/reviews?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Maps Place Details API](https://docs.justserpapi.com/api/v1/google/maps/places?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Images API
+
+- [Images Search API](https://docs.justserpapi.com/api/v1/google/images/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google News API
+
+- [News Search API](https://docs.justserpapi.com/api/v1/google/news/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Videos API
+
+- [Videos Search API](https://docs.justserpapi.com/api/v1/google/videos/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Shorts API
+
+- [Shorts Search API](https://docs.justserpapi.com/api/v1/google/shorts/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Finance API
+
+- [Finance Search API](https://docs.justserpapi.com/api/v1/google/finance/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Trends API
+
+- [Google Trends Search API](https://docs.justserpapi.com/api/v1/google/trends/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Google Trends Autocomplete API](https://docs.justserpapi.com/api/v1/google/trends/autocomplete?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Google Trends Trending Now API](https://docs.justserpapi.com/api/v1/google/trends/trending-now?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Shopping API
+
+- [Shopping Search API](https://docs.justserpapi.com/api/v1/google/shopping/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Immersive Product API
+
+- [Immersive Product API](https://docs.justserpapi.com/api/v1/google/immersive/product?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Autocomplete API
+
+- [Autocomplete API](https://docs.justserpapi.com/api/v1/google/autocomplete?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Scholar API
+
+- [Google Scholar Search API](https://docs.justserpapi.com/api/v1/google/scholar/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Google Scholar Author API](https://docs.justserpapi.com/api/v1/google/scholar/author?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Google Scholar Cite API](https://docs.justserpapi.com/api/v1/google/scholar/cite/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Lens API
+
+- [Lens API](https://docs.justserpapi.com/api/v1/google/lens?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Jobs API
+
+- [Jobs Search API](https://docs.justserpapi.com/api/v1/google/jobs/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Local API
+
+- [Local Search API](https://docs.justserpapi.com/api/v1/google/local/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Patents API
+
+- [Google Patents Search API](https://docs.justserpapi.com/api/v1/google/patents/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Google Patents Details API](https://docs.justserpapi.com/api/v1/google/patents/details?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Google Hotels API
+
+- [Hotels Search API](https://docs.justserpapi.com/api/v1/google/hotels/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+### Web API
+
+- [Crawl Webpage (HTML)](https://docs.justserpapi.com/api/v1/web/html?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Crawl Webpage (Rendered HTML)](https://docs.justserpapi.com/api/v1/web/rendered-html?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+- [Crawl Webpage (Markdown)](https://docs.justserpapi.com/api/v1/web/markdown?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
+
+<!-- API_LIST_END -->
 
 ## License
 
