@@ -30,6 +30,11 @@ jobs:
 
       - name: Update README API list
         env:
+          OPENAPI_API_KEY: ${{ secrets.OPENAPI_API_KEY }}
+          JUSTSERPAPI_API_KEY: ${{ secrets.JUSTSERPAPI_API_KEY }}
+          OPENAPI_BEARER_TOKEN: ${{ secrets.OPENAPI_BEARER_TOKEN }}
+          OPENAPI_TOKEN: ${{ secrets.OPENAPI_TOKEN }}
+          JUSTSERPAPI_BEARER_TOKEN: ${{ secrets.JUSTSERPAPI_BEARER_TOKEN }}
           OPENAPI_BASIC_AUTH_USER: ${{ secrets.OPENAPI_BASIC_AUTH_USER }}
           OPENAPI_BASIC_AUTH_PASS: ${{ secrets.OPENAPI_BASIC_AUTH_PASS }}
           OPENAPI_BASIC_AUTH_USERNAME: ${{ secrets.OPENAPI_BASIC_AUTH_USERNAME }}

@@ -4,7 +4,7 @@ import path from "node:path";
 const README_FILE = process.env.README_FILE || "README.md";
 const OPENAPI_FILE = process.env.OPENAPI_FILE || "";
 const OPENAPI_URL =
-  process.env.OPENAPI_URL?.trim() || "http://api.justserpapi.com/v3/api-docs/gateway";
+  process.env.OPENAPI_URL?.trim() || "https://api.justserpapi.com/v3/api-docs/gateway";
 const FETCH_TIMEOUT_MS = Number.parseInt(process.env.OPENAPI_FETCH_TIMEOUT_MS || "30000", 10);
 const DOCS_BASE_URL = (process.env.DOCS_BASE_URL || "https://docs.justserpapi.com").replace(/\/+$/, "");
 const UTM_CONTENT = process.env.UTM_CONTENT || "repo_readme_api_list";
@@ -88,18 +88,43 @@ function getEnvValue(...names) {
   return "";
 }
 
-function requireEnv(...names) {
-  const value = getEnvValue(...names);
-  if (!value) {
-    throw new Error(`${names.join(" or ")} is required.`);
+function buildAuthHeaders() {
+  const apiKey = getEnvValue("OPENAPI_API_KEY", "JUSTSERPAPI_API_KEY");
+  if (apiKey) {
+    return { "X-API-Key": apiKey };
   }
-  return value;
+
+  const bearerToken = getEnvValue(
+    "OPENAPI_BEARER_TOKEN",
+    "OPENAPI_TOKEN",
+    "JUSTSERPAPI_BEARER_TOKEN",
+  );
+  if (bearerToken) {
+    const authorization = /^Bearer\s+/i.test(bearerToken) ? bearerToken : `Bearer ${bearerToken}`;
+    return { Authorization: authorization };
+  }
+
+  const username = getEnvValue("OPENAPI_BASIC_AUTH_USER", "OPENAPI_BASIC_AUTH_USERNAME");
+  const password = getEnvValue("OPENAPI_BASIC_AUTH_PASS", "OPENAPI_BASIC_AUTH_PASSWORD");
+
+  if (!username && !password) {
+    throw new Error(
+      "OPENAPI_API_KEY or JUSTSERPAPI_API_KEY, OPENAPI_BEARER_TOKEN/OPENAPI_TOKEN/JUSTSERPAPI_BEARER_TOKEN, or OPENAPI_BASIC_AUTH_USER/PASS is required.",
+    );
+  }
+
+  if (!username || !password) {
+    throw new Error(
+      "Both OPENAPI_BASIC_AUTH_USER/OPENAPI_BASIC_AUTH_USERNAME and OPENAPI_BASIC_AUTH_PASS/OPENAPI_BASIC_AUTH_PASSWORD are required for Basic Auth.",
+    );
+  }
+
+  const auth = Buffer.from(`${username}:${password}`, "utf8").toString("base64");
+  return { Authorization: `Basic ${auth}` };
 }
 
 async function fetchOpenApi() {
-  const username = requireEnv("OPENAPI_BASIC_AUTH_USER", "OPENAPI_BASIC_AUTH_USERNAME");
-  const password = requireEnv("OPENAPI_BASIC_AUTH_PASS", "OPENAPI_BASIC_AUTH_PASSWORD");
-  const auth = Buffer.from(`${username}:${password}`, "utf8").toString("base64");
+  const authHeaders = buildAuthHeaders();
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
 
@@ -107,7 +132,7 @@ async function fetchOpenApi() {
     const response = await fetch(OPENAPI_URL, {
       headers: {
         Accept: "application/json",
-        Authorization: `Basic ${auth}`,
+        ...authHeaders,
       },
       redirect: "follow",
       signal: controller.signal,
