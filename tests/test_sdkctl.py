@@ -61,10 +61,6 @@ class ReleaseVerificationTest(unittest.TestCase):
         with self.assertRaisesRegex(sdkctl.CLIError, "package version"):
             sdkctl.validate_release_versions("2.0.0", "2.0.1")
 
-    def test_validate_release_versions_rejects_spec_mismatch(self) -> None:
-        with self.assertRaisesRegex(sdkctl.CLIError, "canonical spec version"):
-            sdkctl.validate_release_versions("2.0.0", "2.0.0", "2.1.0")
-
 
 class MetadataTest(unittest.TestCase):
     def test_write_metadata_file(self) -> None:

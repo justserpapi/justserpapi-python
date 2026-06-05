@@ -145,10 +145,6 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
         help="Release tag to validate. Defaults to GITHUB_REF_NAME or GITHUB_REF.",
     )
     release_parser.add_argument(
-        "--spec",
-        help="Optional spec path to validate against when the canonical spec is committed.",
-    )
-    release_parser.add_argument(
         "--version-file",
         default="justserpapi/_version.py",
         help="Path to the Python version file.",
@@ -270,17 +266,11 @@ def parse_release_tag(tag: str) -> str:
 def validate_release_versions(
     release_version: str,
     package_version_value: str,
-    spec_version_value: Optional[str] = None,
 ) -> None:
     if package_version_value != release_version:
         raise CLIError(
             "Release version %s does not match package version %s."
             % (release_version, package_version_value)
-        )
-    if spec_version_value is not None and spec_version_value != release_version:
-        raise CLIError(
-            "Release version %s does not match canonical spec version %s."
-            % (release_version, spec_version_value)
         )
 
 
@@ -303,23 +293,12 @@ def verify_release_command(args: argparse.Namespace, manifest: Dict[str, Any]) -
     version_file = resolve_path(args.version_file)
     package_version_value = load_package_version(version_file)
 
-    spec_path = resolve_path(args.spec or manifest["spec"]["path"])
-    spec_version_value: Optional[str] = None
-    if spec_path.exists():
-        spec_version_value = spec_version(load_spec(spec_path))
+    validate_release_versions(release_version, package_version_value)
 
-    validate_release_versions(release_version, package_version_value, spec_version_value)
-
-    if spec_version_value is None:
-        log(
-            "Release verification passed for %s with package version %s; canonical spec not present."
-            % (raw_tag, package_version_value)
-        )
-    else:
-        log(
-            "Release verification passed for %s with package version %s and spec version %s."
-            % (raw_tag, package_version_value, spec_version_value)
-        )
+    log(
+        "Release verification passed for %s with package version %s."
+        % (raw_tag, package_version_value)
+    )
 
 
 def fetch_spec(args: argparse.Namespace, manifest: Dict[str, Any]) -> None:
