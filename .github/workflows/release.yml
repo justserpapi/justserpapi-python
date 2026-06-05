@@ -5,16 +5,12 @@ on:
     tags:
       - "v*"
 
-permissions:
-  contents: read
-  id-token: write
-
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: pypi
-      url: https://pypi.org/project/justserpapi/
+    permissions:
+      contents: read
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -32,7 +28,7 @@ jobs:
       - name: Validate docs
         run: python scripts/sdkctl.py validate-examples
       - name: Run tests
-        run: python -m unittest discover -s tests -v
+        run: python -m pytest
       - name: Build distribution artifacts
         run: python -m build
       - name: Check distribution metadata
@@ -56,5 +52,36 @@ jobs:
           assert type(client.google).__name__ == "GoogleResource"
           client.close()
           PY
+      - name: Upload distribution artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-dist
+          path: dist/*
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/project/justserpapi/
+    permissions:
+      contents: write
+      id-token: write
+
+    steps:
+      - name: Download distribution artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: python-dist
+          path: dist
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          skip-existing: true
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          files: dist/*
+          generate_release_notes: true
