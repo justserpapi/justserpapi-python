@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import ast
+import keyword
 import json
 import os
 import re
@@ -40,6 +41,22 @@ class CLIError(RuntimeError):
 class ValidationResult:
     errors: List[str]
     warnings: List[str]
+
+
+@dataclass
+class PythonHighLevelEndpoint:
+    api_path: str
+    method_name: str
+    required_params: List[str]
+    summary: str
+
+
+@dataclass
+class PythonHighLevelNode:
+    name: str
+    class_name: str
+    endpoint: Optional[PythonHighLevelEndpoint]
+    children: Dict[str, "PythonHighLevelNode"]
 
 
 def log(message: str) -> None:
@@ -702,6 +719,8 @@ def generate_language(
 
     overlay_dir = resolve_path(language_cfg["overlay_dir"])
     render_overlay_tree(overlay_dir, output_dir, context)
+    if language == "python":
+        write_python_high_level_client(output_dir, spec, context)
     write_smoke_tests(language, output_dir, context)
     write_metadata(output_dir, manifest, language, spec_path, spec_version_value)
 
@@ -783,6 +802,356 @@ def render_overlay_tree(overlay_dir: Path, output_dir: Path, context: Dict[str, 
             write_text(target_path, rendered)
         else:
             shutil.copy2(source, target_path)
+
+
+def write_python_high_level_client(
+    output_dir: Path,
+    spec: Dict[str, Any],
+    context: Dict[str, str],
+) -> None:
+    write_text(
+        output_dir / str(context["PACKAGE_NAME"]) / "client.py",
+        render_python_high_level_client(spec, context),
+    )
+
+
+def render_python_high_level_client(spec: Dict[str, Any], context: Dict[str, str]) -> str:
+    package_name = context["PACKAGE_NAME"]
+    roots = build_python_high_level_roots(spec)
+    if not roots:
+        raise CLIError("Unable to generate high-level Python client: no /api/v1 operations found.")
+
+    api_imports = [
+        "from %s.api.%s import %s"
+        % (
+            package_name,
+            top_level_api_module_name(group_name),
+            top_level_api_class_name(group_name),
+        )
+        for group_name in sorted(roots)
+    ]
+    resource_classes: List[str] = []
+    for group_name in sorted(roots):
+        resource_classes.extend(render_python_resource_classes(roots[group_name]))
+
+    client_resource_assignments = "\n".join(
+        "        self.%s = %s(%s(self.api_client), timeout)"
+        % (
+            python_identifier(group_name),
+            roots[group_name].class_name,
+            top_level_api_class_name(group_name),
+        )
+        for group_name in sorted(roots)
+    )
+
+    return "\n".join(
+        [
+            '"""High-level JustSerpAPI client generated from OpenAPI."""',
+            "",
+            "from __future__ import annotations",
+            "",
+            "from typing import Any, Dict, Optional, Tuple, Union",
+            "",
+            "from urllib3.util.retry import Retry",
+            "",
+            *api_imports,
+            "from %s.api_client import ApiClient" % package_name,
+            "from %s.configuration import Configuration" % package_name,
+            "",
+            "TimeoutValue = Optional[Union[float, Tuple[float, float]]]",
+            "JSONDict = Dict[str, Any]",
+            "",
+            'DEFAULT_HOST = "https://api.justserpapi.com"',
+            "DEFAULT_TIMEOUT: TimeoutValue = 30.0",
+            "",
+            "",
+            "def default_retry_strategy() -> Retry:",
+            '    """Return the SDK\'s default retry strategy."""',
+            "",
+            "    return Retry(",
+            "        total=3,",
+            "        connect=3,",
+            "        read=3,",
+            "        status=3,",
+            "        backoff_factor=0.2,",
+            "        status_forcelist=(429, 500, 502, 503, 504),",
+            "        allowed_methods=frozenset({",
+            '            "DELETE",',
+            '            "GET",',
+            '            "HEAD",',
+            '            "OPTIONS",',
+            '            "PUT",',
+            '            "TRACE",',
+            "        }),",
+            "        respect_retry_after_header=True,",
+            "    )",
+            "",
+            "",
+            "class _BaseResource:",
+            "    def __init__(self, api: Any, timeout: TimeoutValue) -> None:",
+            "        self._api = api",
+            "        self._timeout = timeout",
+            "",
+            "    def _with_timeout(self, kwargs: dict[str, Any]) -> dict[str, Any]:",
+            '        if "_request_timeout" not in kwargs and self._timeout is not None:',
+            '            kwargs["_request_timeout"] = self._timeout',
+            "        return kwargs",
+            "",
+            "    def _json_call(self, method_name: str, **kwargs: Any) -> JSONDict:",
+            "        payload = getattr(self._api, method_name)(**self._with_timeout(kwargs))",
+            "        if isinstance(payload, dict):",
+            "            return payload",
+            "        raise TypeError(",
+            '            "%s returned %s instead of a JSON object."',
+            "            % (method_name, type(payload).__name__)",
+            "        )",
+            "",
+            "",
+            *resource_classes,
+            "class Client:",
+            '    """High-level JustSerpAPI SDK entrypoint."""',
+            "",
+            "    def __init__(",
+            "        self,",
+            "        *,",
+            "        api_key: Optional[str] = None,",
+            "        base_url: str = DEFAULT_HOST,",
+            "        timeout: TimeoutValue = DEFAULT_TIMEOUT,",
+            "        retries: Optional[Union[int, Retry]] = None,",
+            "        configuration: Optional[Configuration] = None,",
+            "    ) -> None:",
+            "        if configuration is None:",
+            "            configuration = Configuration(",
+            "                host=base_url,",
+            "                retries=default_retry_strategy() if retries is None else retries,",
+            "            )",
+            "        else:",
+            "            if base_url != DEFAULT_HOST:",
+            "                configuration.host = base_url",
+            "            if retries is not None:",
+            "                configuration.retries = retries",
+            "            elif configuration.retries is None:",
+            "                configuration.retries = default_retry_strategy()",
+            "",
+            "        if api_key is not None:",
+            '            configuration.api_key["ApiKeyAuth"] = api_key',
+            "",
+            "        self.configuration = configuration",
+            "        self.api_client = ApiClient(configuration)",
+            client_resource_assignments,
+            "",
+            "    def close(self) -> None:",
+            '        close = getattr(self.api_client, "close", None)',
+            "        if callable(close):",
+            "            close()",
+            "            return",
+            "",
+            '        rest_client = getattr(self.api_client, "rest_client", None)',
+            '        pool_manager = getattr(rest_client, "pool_manager", None)',
+            "        if pool_manager is not None:",
+            "            pool_manager.clear()",
+            "",
+            '    def __enter__(self) -> "Client":',
+            "        return self",
+            "",
+            "    def __exit__(self, exc_type, exc_value, traceback) -> None:",
+            "        self.close()",
+            "",
+            "",
+            "JustSerpAPI = Client",
+            "",
+        ]
+    )
+
+
+def build_python_high_level_roots(spec: Dict[str, Any]) -> Dict[str, PythonHighLevelNode]:
+    roots: Dict[str, PythonHighLevelNode] = {}
+    for api_path, method, operation, path_item in iter_operations(spec):
+        if method.lower() != "get" or not api_path.startswith("/api/v1/"):
+            continue
+        parts = python_high_level_parts(api_path)
+        if len(parts) < 2:
+            continue
+
+        group_name = parts[0]
+        root = roots.setdefault(
+            group_name,
+            PythonHighLevelNode(
+                name=python_identifier(group_name),
+                class_name="%sResource" % class_name_prefix([group_name]),
+                endpoint=None,
+                children={},
+            ),
+        )
+        node = root
+        for raw_part in parts[1:]:
+            child_name = python_identifier(raw_part)
+            node = node.children.setdefault(
+                child_name,
+                PythonHighLevelNode(
+                    name=child_name,
+                    class_name="",
+                    endpoint=None,
+                    children={},
+                ),
+            )
+        if node.endpoint is not None:
+            raise CLIError("Duplicate high-level Python endpoint for %s." % api_path)
+        node.endpoint = PythonHighLevelEndpoint(
+            api_path=api_path,
+            method_name=normalize_operation_id(str(operation.get("operationId", ""))),
+            required_params=python_required_query_params(path_item, operation),
+            summary=normalize_docstring(
+                str(operation.get("summary") or operation.get("operationId") or api_path)
+            ),
+        )
+
+    for root in roots.values():
+        refresh_python_resource_class_names(root, [])
+    return roots
+
+
+def refresh_python_resource_class_names(node: PythonHighLevelNode, prefix: List[str]) -> None:
+    node.class_name = "%sResource" % class_name_prefix(prefix + [node.name])
+    for child in node.children.values():
+        refresh_python_resource_class_names(child, prefix + [node.name])
+
+
+def python_high_level_parts(api_path: str) -> List[str]:
+    raw_parts = api_path.removeprefix("/api/v1/").split("/")
+    parts: List[str] = []
+    for index, part in enumerate(raw_parts):
+        if index == 1 and part.startswith("ai-"):
+            parts.extend(["ai", part.removeprefix("ai-")])
+        else:
+            parts.append(part)
+    return parts
+
+
+def python_required_query_params(
+    path_item: Dict[str, Any],
+    operation: Dict[str, Any],
+) -> List[str]:
+    params = []
+    for param in merged_parameters(path_item, operation):
+        if param.get("in") != "query" or not param.get("required"):
+            continue
+        name = str(param.get("name", "")).strip()
+        if not name:
+            continue
+        params.append(python_identifier(name))
+    return params
+
+
+def python_identifier(value: str) -> str:
+    identifier = re.sub(r"[^0-9a-zA-Z_]+", "_", value).strip("_").lower()
+    identifier = re.sub(r"_+", "_", identifier)
+    if not identifier:
+        identifier = "resource"
+    if identifier[0].isdigit():
+        identifier = "_%s" % identifier
+    if keyword.iskeyword(identifier):
+        identifier = "%s_" % identifier
+    return identifier
+
+
+def class_name_prefix(parts: Sequence[str]) -> str:
+    return "".join(class_name_token(part) for part in parts)
+
+
+def class_name_token(value: str) -> str:
+    acronyms = {
+        "ai": "AI",
+        "api": "API",
+        "html": "HTML",
+        "id": "ID",
+    }
+    tokens = python_identifier(value).split("_")
+    return "".join(acronyms.get(token, token.capitalize()) for token in tokens)
+
+
+def top_level_api_class_name(group_name: str) -> str:
+    return "%sAPIApi" % class_name_prefix([group_name])
+
+
+def top_level_api_module_name(group_name: str) -> str:
+    return "%s_api_api" % python_identifier(group_name)
+
+
+def normalize_docstring(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip().replace('"""', r"\"\"\"")
+
+
+def render_python_resource_classes(node: PythonHighLevelNode) -> List[str]:
+    rendered: List[str] = []
+    for child in sorted(node.children.values(), key=lambda child: child.name):
+        if child.children:
+            rendered.extend(render_python_resource_classes(child))
+
+    lines = ["class %s(_BaseResource):" % node.class_name]
+    init_child_nodes = [
+        child
+        for child in sorted(node.children.values(), key=lambda child: child.name)
+        if child.children
+    ]
+    if init_child_nodes:
+        lines.extend(
+            [
+                "    def __init__(self, api: Any, timeout: TimeoutValue) -> None:",
+                "        super().__init__(api=api, timeout=timeout)",
+            ]
+        )
+        for child in init_child_nodes:
+            lines.append("        self.%s = %s(api, timeout)" % (child.name, child.class_name))
+        lines.append("")
+
+    if node.endpoint is not None:
+        method_name = "__call__" if node.children else node.name
+        if method_name == node.name:
+            # Leaf endpoints are rendered by their parent, not as standalone classes.
+            pass
+        else:
+            lines.extend(render_python_endpoint_method(method_name, node.endpoint))
+            lines.append("")
+
+    leaf_children = [
+        child
+        for child in sorted(node.children.values(), key=lambda child: child.name)
+        if not child.children and child.endpoint is not None
+    ]
+    for child in leaf_children:
+        lines.extend(render_python_endpoint_method(child.name, child.endpoint))
+        lines.append("")
+
+    if len(lines) == 1:
+        lines.append("    pass")
+        lines.append("")
+
+    rendered.append("\n".join(lines).rstrip() + "\n\n")
+    return rendered
+
+
+def render_python_endpoint_method(
+    method_name: str,
+    endpoint: PythonHighLevelEndpoint,
+) -> List[str]:
+    if not endpoint.required_params:
+        return [
+            "    def %s(self, **kwargs: Any) -> JSONDict:" % method_name,
+            '        """%s."""' % endpoint.summary,
+            '        return self._json_call("%s", **kwargs)' % endpoint.method_name,
+        ]
+
+    lines = ["    def %s(" % method_name, "        self,", "        *,"]
+    lines.extend("        %s: Any," % name for name in endpoint.required_params)
+    lines.extend(["        **kwargs: Any,", "    ) -> JSONDict:"])
+    lines.append('        """%s."""' % endpoint.summary)
+    lines.append("        return self._json_call(")
+    lines.append('            "%s",' % endpoint.method_name)
+    lines.extend("            %s=%s," % (name, name) for name in endpoint.required_params)
+    lines.append("            **kwargs,")
+    lines.append("        )")
+    return lines
 
 
 PYTHON_SNIPPET_PATTERN = re.compile(r"```python\s*\n(.*?)```", re.DOTALL)

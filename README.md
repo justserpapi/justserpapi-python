@@ -54,9 +54,9 @@ with Client(api_key="YOUR_API_KEY") as client:
     print(response["data"])
 ```
 
-## Promoted High-Level API
+## Generated High-Level API
 
-The high-level surface is designed to be the default entrypoint:
+The high-level surface is generated from OpenAPI and designed to be the default entrypoint:
 
 ```python
 from justserpapi import Client
@@ -64,10 +64,13 @@ from justserpapi import Client
 client = Client(api_key="YOUR_API_KEY", timeout=20.0)
 
 search = client.google.search(query="best espresso beans", language="en")
+light = client.google.search.light(query="best espresso beans", language="en")
 maps = client.google.maps.search(query="espresso bars", location="Shanghai")
 news = client.google.news.search(query="OpenAI", language="en")
 images = client.google.images.search(query="espresso machine")
 shopping = client.google.shopping.search(query="espresso tamper")
+finance = client.google.finance.search(query="NASDAQ:GOOGL")
+scholar = client.google.scholar.search(query="machine learning", language="en")
 overview = client.google.ai.overview(url="https://example.com/ai-overview")
 
 print(search["data"])
@@ -75,7 +78,7 @@ print(search["data"])
 client.close()
 ```
 
-Promoted high-level responses are plain Python dictionaries that mirror the API's JSON response envelope. The SDK does not auto-unpack `data`.
+High-level responses are plain Python dictionaries that mirror the API's JSON response envelope. The SDK does not auto-unpack `data`.
 
 ## Configuration
 
@@ -96,7 +99,7 @@ client.close()
 
 - `api_key`: value sent in the `X-API-Key` header
 - `base_url`: API host, defaults to `https://api.justserpapi.com`
-- `timeout`: default request timeout injected into promoted high-level methods
+- `timeout`: default request timeout injected into high-level methods
 - `retries`: `urllib3` retry configuration; defaults to a conservative retry strategy for the high-level client
 
 ## OpenAPI Control Plane

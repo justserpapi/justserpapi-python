@@ -1,4 +1,4 @@
-"""High-level JustSerpAPI client with stable entrypoints."""
+"""High-level JustSerpAPI client generated from OpenAPI."""
 
 from __future__ import annotations
 
@@ -27,13 +27,20 @@ def default_retry_strategy() -> Retry:
         status=3,
         backoff_factor=0.2,
         status_forcelist=(429, 500, 502, 503, 504),
-        allowed_methods=frozenset({"DELETE", "GET", "HEAD", "OPTIONS", "PUT", "TRACE"}),
+        allowed_methods=frozenset({
+            "DELETE",
+            "GET",
+            "HEAD",
+            "OPTIONS",
+            "PUT",
+            "TRACE",
+        }),
         respect_retry_after_header=True,
     )
 
 
-class _GoogleBaseResource:
-    def __init__(self, api: GoogleAPIApi, timeout: TimeoutValue) -> None:
+class _BaseResource:
+    def __init__(self, api: Any, timeout: TimeoutValue) -> None:
         self._api = api
         self._timeout = timeout
 
@@ -52,51 +59,461 @@ class _GoogleBaseResource:
         )
 
 
-class GoogleMapsResource(_GoogleBaseResource):
-    def search(self, *, query: str, **kwargs: Any) -> JSONDict:
-        return self._json_call("maps_search", query=query, **kwargs)
+class GoogleAIResource(_BaseResource):
+    def mode(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google AI Mode API."""
+        return self._json_call(
+            "ai_mode",
+            query=query,
+            **kwargs,
+        )
+
+    def overview(
+        self,
+        *,
+        url: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google AI Overview API."""
+        return self._json_call(
+            "ai_overview",
+            url=url,
+            **kwargs,
+        )
 
 
-class GoogleNewsResource(_GoogleBaseResource):
-    def search(self, *, query: str, **kwargs: Any) -> JSONDict:
-        return self._json_call("news_search", query=query, **kwargs)
+class GoogleFinanceResource(_BaseResource):
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Finance Search API."""
+        return self._json_call(
+            "finance_search",
+            query=query,
+            **kwargs,
+        )
 
 
-class GoogleImagesResource(_GoogleBaseResource):
-    def search(self, *, query: str, **kwargs: Any) -> JSONDict:
-        return self._json_call("images_search", query=query, **kwargs)
+class GoogleHotelsResource(_BaseResource):
+    def search(
+        self,
+        *,
+        query: Any,
+        check_in_date: Any,
+        check_out_date: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Hotels Search API."""
+        return self._json_call(
+            "hotels_search",
+            query=query,
+            check_in_date=check_in_date,
+            check_out_date=check_out_date,
+            **kwargs,
+        )
 
 
-class GoogleShoppingResource(_GoogleBaseResource):
-    def search(self, *, query: str, **kwargs: Any) -> JSONDict:
-        return self._json_call("shopping_search", query=query, **kwargs)
+class GoogleImagesResource(_BaseResource):
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Images Search API."""
+        return self._json_call(
+            "images_search",
+            query=query,
+            **kwargs,
+        )
 
 
-class GoogleAIResource(_GoogleBaseResource):
-    def overview(self, *, url: str, **kwargs: Any) -> JSONDict:
-        return self._json_call("ai_overview", url=url, **kwargs)
+class GoogleImmersiveResource(_BaseResource):
+    def product(
+        self,
+        *,
+        page_token: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Immersive Product API."""
+        return self._json_call(
+            "immersive_product",
+            page_token=page_token,
+            **kwargs,
+        )
 
-    def mode(self, *, query: str, **kwargs: Any) -> JSONDict:
-        return self._json_call("ai_mode", query=query, **kwargs)
+
+class GoogleJobsResource(_BaseResource):
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Jobs Search API."""
+        return self._json_call(
+            "jobs_search",
+            query=query,
+            **kwargs,
+        )
 
 
-class GoogleResource(_GoogleBaseResource):
-    """Promoted Google entrypoints."""
+class GoogleLocalResource(_BaseResource):
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Local Search API."""
+        return self._json_call(
+            "local_search",
+            query=query,
+            **kwargs,
+        )
 
-    def __init__(self, api_client: ApiClient, timeout: TimeoutValue) -> None:
-        api = GoogleAPIApi(api_client)
+
+class GoogleMapsResource(_BaseResource):
+    def photos(
+        self,
+        *,
+        data_id: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Maps Photos API."""
+        return self._json_call(
+            "maps_photos",
+            data_id=data_id,
+            **kwargs,
+        )
+
+    def places(self, **kwargs: Any) -> JSONDict:
+        """Google Maps Places API."""
+        return self._json_call("maps_places", **kwargs)
+
+    def posts(
+        self,
+        *,
+        data_id: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Maps Posts API."""
+        return self._json_call(
+            "maps_posts",
+            data_id=data_id,
+            **kwargs,
+        )
+
+    def reviews(
+        self,
+        *,
+        data_id: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Maps Reviews API."""
+        return self._json_call(
+            "maps_reviews",
+            data_id=data_id,
+            **kwargs,
+        )
+
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Maps Search API."""
+        return self._json_call(
+            "maps_search",
+            query=query,
+            **kwargs,
+        )
+
+
+class GoogleNewsResource(_BaseResource):
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google News Search API."""
+        return self._json_call(
+            "news_search",
+            query=query,
+            **kwargs,
+        )
+
+
+class GooglePatentsResource(_BaseResource):
+    def details(
+        self,
+        *,
+        patent_id: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Patents Details API."""
+        return self._json_call(
+            "patent_details",
+            patent_id=patent_id,
+            **kwargs,
+        )
+
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Patents Search API."""
+        return self._json_call(
+            "patent_search",
+            query=query,
+            **kwargs,
+        )
+
+
+class GoogleScholarCiteResource(_BaseResource):
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Scholar Cite Search API."""
+        return self._json_call(
+            "scholar_cite_search",
+            query=query,
+            **kwargs,
+        )
+
+
+class GoogleScholarResource(_BaseResource):
+    def __init__(self, api: Any, timeout: TimeoutValue) -> None:
         super().__init__(api=api, timeout=timeout)
+        self.cite = GoogleScholarCiteResource(api, timeout)
+
+    def author(
+        self,
+        *,
+        author_id: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Scholar Author API."""
+        return self._json_call(
+            "scholar_author",
+            author_id=author_id,
+            **kwargs,
+        )
+
+    def profiles(
+        self,
+        *,
+        mauthors: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Scholar Profiles API."""
+        return self._json_call(
+            "scholar_profiles",
+            mauthors=mauthors,
+            **kwargs,
+        )
+
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Scholar Search API."""
+        return self._json_call(
+            "scholar_search",
+            query=query,
+            **kwargs,
+        )
+
+
+class GoogleSearchResource(_BaseResource):
+    def __call__(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Search API."""
+        return self._json_call(
+            "search",
+            query=query,
+            **kwargs,
+        )
+
+    def light(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Light Search API."""
+        return self._json_call(
+            "search_light",
+            query=query,
+            **kwargs,
+        )
+
+    def mobile(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Mobile Search API."""
+        return self._json_call(
+            "search_mobile",
+            query=query,
+            **kwargs,
+        )
+
+
+class GoogleShoppingResource(_BaseResource):
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Shopping Search API."""
+        return self._json_call(
+            "shopping_search",
+            query=query,
+            **kwargs,
+        )
+
+
+class GoogleShortsResource(_BaseResource):
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Shorts Search API."""
+        return self._json_call(
+            "shorts_search",
+            query=query,
+            **kwargs,
+        )
+
+
+class GoogleTrendsResource(_BaseResource):
+    def autocomplete(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Trends Autocomplete API."""
+        return self._json_call(
+            "trends_autocomplete",
+            query=query,
+            **kwargs,
+        )
+
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Trends Search API."""
+        return self._json_call(
+            "trends_search",
+            query=query,
+            **kwargs,
+        )
+
+    def trending_now(
+        self,
+        *,
+        geo: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Trends Trending Now API."""
+        return self._json_call(
+            "trends_trending_now",
+            geo=geo,
+            **kwargs,
+        )
+
+
+class GoogleVideosResource(_BaseResource):
+    def search(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Videos Search API."""
+        return self._json_call(
+            "videos_search",
+            query=query,
+            **kwargs,
+        )
+
+
+class GoogleResource(_BaseResource):
+    def __init__(self, api: Any, timeout: TimeoutValue) -> None:
+        super().__init__(api=api, timeout=timeout)
+        self.ai = GoogleAIResource(api, timeout)
+        self.finance = GoogleFinanceResource(api, timeout)
+        self.hotels = GoogleHotelsResource(api, timeout)
+        self.images = GoogleImagesResource(api, timeout)
+        self.immersive = GoogleImmersiveResource(api, timeout)
+        self.jobs = GoogleJobsResource(api, timeout)
+        self.local = GoogleLocalResource(api, timeout)
         self.maps = GoogleMapsResource(api, timeout)
         self.news = GoogleNewsResource(api, timeout)
-        self.images = GoogleImagesResource(api, timeout)
+        self.patents = GooglePatentsResource(api, timeout)
+        self.scholar = GoogleScholarResource(api, timeout)
+        self.search = GoogleSearchResource(api, timeout)
         self.shopping = GoogleShoppingResource(api, timeout)
-        self.ai = GoogleAIResource(api, timeout)
+        self.shorts = GoogleShortsResource(api, timeout)
+        self.trends = GoogleTrendsResource(api, timeout)
+        self.videos = GoogleVideosResource(api, timeout)
 
-    def search(self, *, query: str, **kwargs: Any) -> JSONDict:
-        return self._json_call("search", query=query, **kwargs)
+    def autocomplete(
+        self,
+        *,
+        query: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Autocomplete API."""
+        return self._json_call(
+            "autocomplete",
+            query=query,
+            **kwargs,
+        )
 
-    def autocomplete(self, *, query: str, **kwargs: Any) -> JSONDict:
-        return self._json_call("autocomplete", query=query, **kwargs)
+    def lens(
+        self,
+        *,
+        url: Any,
+        **kwargs: Any,
+    ) -> JSONDict:
+        """Google Lens API."""
+        return self._json_call(
+            "lens",
+            url=url,
+            **kwargs,
+        )
 
 
 class Client:
@@ -129,7 +546,7 @@ class Client:
 
         self.configuration = configuration
         self.api_client = ApiClient(configuration)
-        self.google = GoogleResource(self.api_client, timeout)
+        self.google = GoogleResource(GoogleAPIApi(self.api_client), timeout)
 
     def close(self) -> None:
         close = getattr(self.api_client, "close", None)
@@ -137,7 +554,8 @@ class Client:
             close()
             return
 
-        pool_manager = getattr(getattr(self.api_client, "rest_client", None), "pool_manager", None)
+        rest_client = getattr(self.api_client, "rest_client", None)
+        pool_manager = getattr(rest_client, "pool_manager", None)
         if pool_manager is not None:
             pool_manager.clear()
 

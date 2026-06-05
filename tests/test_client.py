@@ -1,4 +1,5 @@
 import unittest
+from contextlib import ExitStack
 from unittest.mock import patch
 from typing import Any, Dict
 
@@ -88,6 +89,44 @@ class ClientDelegationTest(unittest.TestCase):
         self.assertEqual("coffee shops", autocomplete["data"]["suggestions"][0]["value"])
         self.assertIsInstance(overview, dict)
         self.assertEqual("Coffee shops are local businesses.", overview["data"]["answer"])
+
+    def test_openapi_generated_high_level_resources_delegate_to_generated_api(self) -> None:
+        payload = {"code": 200, "data": {"ok": True}}
+
+        with ExitStack() as stack:
+            finance_mock = stack.enter_context(
+                patch.object(GoogleAPIApi, "finance_search", return_value=payload)
+            )
+            scholar_mock = stack.enter_context(
+                patch.object(GoogleAPIApi, "scholar_search", return_value=payload)
+            )
+            cite_mock = stack.enter_context(
+                patch.object(GoogleAPIApi, "scholar_cite_search", return_value=payload)
+            )
+            light_mock = stack.enter_context(
+                patch.object(GoogleAPIApi, "search_light", return_value=payload)
+            )
+            trends_mock = stack.enter_context(
+                patch.object(GoogleAPIApi, "trends_trending_now", return_value=payload)
+            )
+
+            with justserpapi.Client(api_key="test-api-key", timeout=None) as client:
+                finance = client.google.finance.search(query="NASDAQ:GOOGL")
+                scholar = client.google.scholar.search(query="machine learning")
+                cite = client.google.scholar.cite.search(query="machine learning")
+                light = client.google.search.light(query="coffee")
+                trends = client.google.trends.trending_now(geo="US")
+
+        self.assertEqual({"ok": True}, finance["data"])
+        self.assertEqual({"ok": True}, scholar["data"])
+        self.assertEqual({"ok": True}, cite["data"])
+        self.assertEqual({"ok": True}, light["data"])
+        self.assertEqual({"ok": True}, trends["data"])
+        finance_mock.assert_called_once_with(query="NASDAQ:GOOGL")
+        scholar_mock.assert_called_once_with(query="machine learning")
+        cite_mock.assert_called_once_with(query="machine learning")
+        light_mock.assert_called_once_with(query="coffee")
+        trends_mock.assert_called_once_with(geo="US")
 
 
 if __name__ == "__main__":

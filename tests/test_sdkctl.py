@@ -82,5 +82,31 @@ class MetadataTest(unittest.TestCase):
             self.assertEqual("1.0.0", payload["specVersion"])
 
 
+class PythonHighLevelClientGenerationTest(unittest.TestCase):
+    def test_generates_callable_resources_for_endpoint_path_conflicts(self) -> None:
+        spec = sdkctl.load_spec(FIXTURES / "sample-openapi.json")
+        search_light = json.loads(json.dumps(spec["paths"]["/api/v1/google/search"]))
+        search_light["get"]["operationId"] = "searchGoogleLight"
+        search_light["get"]["summary"] = "Google Light Search API"
+        spec["paths"]["/api/v1/google/search/light"] = search_light
+
+        rendered = sdkctl.render_python_high_level_client(
+            spec,
+            {"PACKAGE_NAME": "justserpapi"},
+        )
+
+        self.assertIn("class GoogleSearchResource(_BaseResource):", rendered)
+        self.assertIn("def __call__(", rendered)
+        self.assertIn('"search_google",', rendered)
+        self.assertIn("def light(", rendered)
+        self.assertIn('"search_google_light",', rendered)
+        self.assertIn("self.search = GoogleSearchResource(api, timeout)", rendered)
+        self.assertIn("self.maps = GoogleMapsResource(api, timeout)", rendered)
+        self.assertIn(
+            "self.google = GoogleResource(GoogleAPIApi(self.api_client), timeout)",
+            rendered,
+        )
+
+
 if __name__ == "__main__":
     unittest.main()
