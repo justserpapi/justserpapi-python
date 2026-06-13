@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-13 18:10:02",
+    "checkedAt": "2026-06-13 19:10:03",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.58,
-          "total_results": 2980000,
+          "time_taken": 0.25,
+          "total_results": 174,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -18,182 +18,60 @@
           "original_query_yields_zero_results": false,
           "url": "https://www.google.com/search?q=coffee&oq=coffee&gl=us&hl=en&safe=off&sourceid=chrome&ie=UTF-8"
         },
-        "ai_overview": {
-          "text_blocks": [
-            {
-              "type": "paragraph",
-              "snippet": "Coffee is a globally popular, brewed beverage made from roasted coffee beans. It is celebrated for its rich flavor and stimulating effects, acting as a natural energy boost. Coffee is highly versatile, consumed steaming hot or chilled over ice, and can be customized with various types of milk and sweeteners.",
-              "snippet_highlighted_words": [
-                "a globally popular, brewed beverage made from roasted coffee beans"
-              ]
-            },
-            {
-              "type": "heading",
-              "snippet": "Core Beverage Types"
-            },
-            {
-              "type": "list",
-              "list": [
-                {
-                  "snippet": "Espresso: A concentrated shot of bold coffee that serves as the foundation for most café drinks."
-                },
-                {
-                  "snippet": "Latte: Espresso combined with steamed milk and topped with a light layer of foam."
-                },
-                {
-                  "snippet": "Americano: Espresso diluted with hot water for a smooth, black coffee profile."
-                },
-                {
-                  "snippet": "Cold Brew: Coffee grounds steeped in cold water over many hours, resulting in a smooth, low-acidity, and highly caffeinated drink ."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "snippet": "Popular Add-ins & Variations"
-            },
-            {
-              "type": "paragraph",
-              "snippet": "The taste and texture of your coffee can be adapted to any preference using:"
-            },
-            {
-              "type": "list",
-              "list": [
-                {
-                  "snippet": "Milk alternatives: Options range from whole milk and half-and-half to plant-based choices like oat, almond, soy, and coconut milk."
-                },
-                {
-                  "snippet": "Sweeteners & Syrups: Common add-ins include vanilla, caramel, and mocha."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "snippet": "Popular Ready-To-Drink Options"
-            },
-            {
-              "type": "paragraph",
-              "snippet": "For a convenient, on-the-go beverage, you can easily pick up canned and bottled coffees. Some top-rated ready-to-drink options include:"
-            },
-            {
-              "type": "list",
-              "list": [
-                {
-                  "snippet": "Starbucks Frappuccino: A creamy, low-fat blend of coffee and milk that is perfect served chilled."
-                },
-                {
-                  "snippet": "La Colombe Draft Latte: A canned latte with a frothy layer of silky milk foam, available in flavors like vanilla, mocha, and caramel."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "snippet": "Check out the Folgers Coffee Guide for a comprehensive look at global styles, or explore at-home espresso and drip recipes on Starbucks at Home."
-            }
-          ],
-          "references": [
-            {
-              "title": "Types of Coffee Drinks. Opens in new tab.",
-              "link": "https://www.folgerscoffee.com/coffee/articles/types-of-coffee",
-              "snippet": "Iced Coffee. Home All Coffee Coffee Articles. Types of Coffee Drinks. By: Folgers Coffee (Folgerscoffee.com) Are you looking to ex...",
-              "source": "Folgers Coffee",
-              "logo": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-              "index": 0
-            },
-            {
-              "title": "A Barista's Guide To (not boring) Coffee Drinks. Opens in new tab.",
-              "link": "https://morgandrinkscoffee.substack.com/p/a-baristas-guide-to-not-boring-coffee",
-              "snippet": "Espresso: Strong, intense flavor and body. Can often be used as a 1:1 spirit replacement in cocktail templates. Cold brew & concen...",
-              "source": "Coffee For Here | Morgan Eckroth",
-              "logo": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-              "index": 1
-            },
-            {
-              "title": "List of coffee drinks - Wikipedia. Opens in new tab.",
-              "link": "https://en.wikipedia.org/wiki/List_of_coffee_drinks",
-              "snippet": "Contents. 1 Infused. 1.1 Drip or filtered. 1.2 French press or cafetière. 1.3 Cold brew. 1.4 Flash brew. 2 Boiled. 2.1 Turkish. 2.",
-              "source": "Wikipedia",
-              "logo": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-              "index": 2
-            },
-            {
-              "title": "Types of Coffee Drinks Explained. Opens in new tab.",
-              "link": "https://esquirescoffee.co.uk/news/beginners-guide-coffee-drinks/",
-              "snippet": "You might recognise Arabica and Robusta from your local coffee shops. Arabica is predicted to be the source of 60% of the entire p...",
-              "source": "Esquires Coffee",
-              "logo": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-              "index": 3
-            },
-            {
-              "title": "Different Types of Coffee Drinks Explained with a Chart. Opens in new tab.",
-              "link": "https://procoffeegear.com/blogs/articles/coffee-drinks-chart-explained",
-              "snippet": "Understanding Coffee Drinks * Espresso – A single 1 oz. shot of concentrated coffee. * Ristretto – A shorter, more concentrated es...",
-              "source": "Pro Coffee Gear",
-              "logo": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-              "index": 4
-            },
-            {
-              "title": "",
-              "link": "",
-              "snippet": "A lowfat, creamy blend of coffee and milk. With other natural flavors. Shake well. Serve chilled or over ice. Refrigerate after op...",
-              "source": "Google",
-              "logo": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-              "index": 5
-            },
-            {
-              "title": "",
-              "link": "",
-              "snippet": "A lowfat, creamy blend of coffee and milk. Shake well. Serve chilled or over ice. Refrigerate after opening.",
-              "source": "Google",
-              "logo": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-              "index": 6
-            },
-            {
-              "title": "",
-              "link": "",
-              "snippet": "Fill Your Fridge With The Best Of La Colombe's Lattes This Season. These Customer Favorite Flavors Are Finally Together In One Var...",
-              "source": "Google",
-              "logo": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-              "index": 7
-            }
-          ]
-        },
         "knowledge_graph": {
           "title": "Coffee"
         },
         "local_results": [
           {
             "position": 1,
-            "title": "Kafen House",
-            "rating": "4.8",
-            "reviews": "115",
-            "address": "4.8(115) · $1–10 · Coffee shop",
-            "hours": "Middlesex, NJ",
+            "title": "Luckin Coffee",
+            "rating": "5.0",
+            "reviews": "2",
+            "address": "5.0(2) · Coffee shop",
+            "hours": "Quarry Bay, Hong Kong",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Godwit Coffee",
-            "rating": "4.9",
-            "reviews": "116",
-            "address": "4.9(116) · $1–10 · Cafe",
-            "hours": "Scotch Plains, NJ",
+            "title": "Rev N Roast Coffee Roaster",
+            "rating": "4.7",
+            "reviews": "12",
+            "address": "4.7(12) · HK$50–100 · Coffee shop",
+            "hours": "Chai Wan, Hong Kong",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Safwa Coffee & Teahouse",
-            "rating": "4.8",
-            "reviews": "732",
-            "address": "4.8(732) · $10–20 · Coffee shop",
-            "hours": "Somerset, NJ",
+            "title": "Slow Coffee Club (Causeway Bay)",
+            "rating": "4.7",
+            "reviews": "18",
+            "address": "4.7(18) · Coffee shop",
+            "hours": "Causeway Bay, Hong Kong",
             "links": {}
+          }
+        ],
+        "peopleAlsoAskedFor": [
+          {
+            "question": "Does coffee reduce swelling?",
+            "rank": 1
+          },
+          {
+            "question": "What is coffee called in Colombia?",
+            "rank": 2
+          },
+          {
+            "question": "What kind of coffee is good for the liver?",
+            "rank": 3
+          },
+          {
+            "question": "What coffee is good for gastritis?",
+            "rank": 4
           }
         ],
         "organic_results": [
           {
             "title": "Coffee",
-            "link": "https://en.wikipedia.org/wiki/Coffee",
+            "link": "/goto?url=CAESXAHuR6pN9d5-QBwFKXaDm6tncaCGk0YNYKQJCxF6EDjJxUcosi4l7Hd08L72O2BR-SySFkfPq37ECYv8M2REa4n3So3hvNFJJ2F_qxoi_uXKqtFRKEg5jOp31NpY",
             "displayed_link": "https://en.wikipedia.org › wiki › Coffee",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAnklEQVR4AeTNIQiDQABG4b+u17X1aF6PK3YEO9iMJqPVau82y4FgMezS0oVLhqsHtrcqeqzDXv3CEz/6L4yTtZM3dnHmPTtjzXZAXKYVo4agkU2GI2Lloc6JDez1+flswMu1EQZ3xlE7lK8eKDkjtwE+crBMV+wesKmCiisGGepZIfQJpMj9SNb2MYWrChjVkULuCyCfRvsdmBieyQQAsoDk/9ryhFMAAAAASUVORK5CYII=",
             "source": "Wikipedia",
@@ -211,34 +89,34 @@
             "page_rank": 1
           },
           {
-            "title": "Starbucks Coffee Company",
-            "link": "https://www.starbucks.com/",
-            "displayed_link": "https://www.starbucks.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUAqGIdqmY1r3EAp18ApFiUzqyt2L4Ao1ZfuYRTtn7q9e/3/PotrWzH5NP////W695BsXUAn0zf8OYApVtMtHrk8utvwJIAnEX6/fwAoVFivY2e0rPL59i/4c3+/v623cal1biOyaNsvo98xZuGyKGAxp1Ptn+w3MO6/E0wAAABrUlEQVR4AWKgEgDUQR9YkoJQFEBRJAjyVFAMiKHQnv3vcKjJkQz3kH5R/pdoxbig/9kma6Vr2fxrG6EGObV5+OfurhO0z2p7J8rhd3UFRj/Ns8ayWnTuV+1CwYDWUtG2AHfs294vbbUh7oDSegRwwFZfybsvfSa9ccZOozM37y1OEpSUOlcFUxfTZQzriyHyKi/RAgSxf12JLIO8FXLSaZUL9ZdfOMiuNXA26d6GK+TRVW/pKRkwq4w78PThkDHnM3bRcx9DvwLYCQC2yHu7+cdzmSOllZ0mpeXJQJi/hTs/2ieeADRw8GDk4cTjGXmCIO4YVDmvQORAUvU4xIoIdhPk3oU0dmNSyns7S13ovJM4DvL+L/0w15EdykJuLJzH673akPCOVDU2ysGVZht6lLa22YhjJLrci7FQAo7JOiwo7DC6N3Ii3htDOBgbHXIqW562+1NezpQoobV92QbNhhyRlmJon9Y7Ql9kpaRSzez0dWfLGjyELnXeI4kjrjZ3rDGprzhP8Gc4vMtkps7GZAYs9iuqCevBuBqmT6TRwE51MZ6vr3hf2mmaV+fhM60UJgvTnxtEAAAAAElFTkSuQmCC",
-            "source": "Starbucks Coffee",
-            "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
+            "title": "All Coffee and Espresso",
+            "link": "/goto?url=CAESaQHuR6pNLnUGhpYVNvWNwnmyEXAASfxiIuG6eacP63M1V7gKcN2VZnUDkh8ogoWTg06Te9EXiS_q6UDxo-SSHykh3ZKdd7CvjOsYEzBSQ7KtlnmsbhbmoJYNDrWvsNzcqKBeRFG2UYnu9g==",
+            "displayed_link": "https://www.intelligentsia.com › collections › coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEzUKSfUKSfUKSfUKSfUKSfUKSfUKSfVKSfUKijUKSfUKSfUKSbUKSfUKSfUKSfUKSeAx3/MAAAAEXRSTlMAO5nwJf9/5BcP9kUFzSpfu+f5/RsAAACPSURBVHgBjZAJCoUwDAXT5dX82u3+p/1UqsFowGENAwMv9B3nyMZ7sgnBdhGIpkxAMuUGbJZjAGC7CiS7qrrMv0XEQTxvZooZBnnO8u9uPWt/czstStWqFrVC0HtaEBUaKbrITpoqsmpXAKE8q3Z3YOIcJkPJNW5NflaTTO6qmts1Oavu/Ry4VaUjt8G58w/CwQc98fZzoAAAAABJRU5ErkJggg==",
+            "source": "Intelligentsia Coffee",
+            "snippet": "Premium Instant Espresso. Freeze-dried instant coffee with notes of dark chocolate, raw sugar, and marshmallow. Discover. Quick Add. Quick Add Instant Espresso ...Read more",
             "highlighted_keywords": [
-              "Explore our menu of handcrafted drinks"
+              "Freeze-dried instant coffee with notes of dark chocolate, raw sugar, and marshmallow"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$13",
+                  "price_to": "$59",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$13 to $59",
+                  "Free delivery"
+                ]
+              }
+            },
             "rank": 2,
             "page_rank": 2
           },
           {
-            "title": "Buy Coffee, Tea, Powders Online | The Coffee Bean & Tea ...",
-            "link": "https://www.coffeebean.com/",
-            "displayed_link": "https://www.coffeebean.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEVHcExTLG1TLG1TLG1TLW1TLG1TLG1TLW1TLG1TLG1TLG30H49eAAAAC3RSTlMAFT5uyLedLN38V4AViBkAAADiSURBVHgBlZAlYgIAAAAPl4JLm3Zcy1zifGtzLbi2uaQ5UnC+iWvk2sU7JkfrcMxAH93qweWatW+yJ49GE3kKAgCpEwBjBgBkeeI5K/iCmADzifL96QukS5FnwEnyaXMRBAdrNhCskHz/DSJzrZXUINxAeVVCeLFbT0yDaBs0QtnmndpQVLf0FEj6r8Fopavx2gdpDB3dFtSe00HhC4YiILxzrU9D9IH5aUC5txsUzFAt4gJ0e5dquLD5ETwCRx79CSR/rUgXgRCyHxC4i62EscCvfv7qWD66vf6c/jr/DBPTBBH3MWVXMDuJAAAAAElFTkSuQmCC",
-            "source": "The Coffee Bean & Tea Leaf",
-            "snippet": "Buy exceptional coffee, tea, powders, equipment and drinkware at The Coffee Bean & Tea Leaf® online store to enjoy our globally sourced products at home.",
-            "highlighted_keywords": [
-              "Buy exceptional coffee, tea, powders, equipment and drinkware"
-            ],
-            "rank": 3,
-            "page_rank": 3
-          },
-          {
             "title": "What is coffee? - NCA",
-            "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
+            "link": "/goto?url=CAESawHuR6pNVPC1aT9fLPV3z7LDO01QIb-jOcmqb_fQ8PBkT9JmldSyFSGbEgw_d42_dGZRLAA0gGEcK8hsLpPiKUnymL1x_l2K88jzcI-Hga5qN3Yux4KssalVEhg74mFluovlHk1S4WQHdoxT",
             "displayed_link": "https://www.aboutcoffee.org › Origins",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAk1BMVEX////6+vv5+frp6uzq6+3t7vDx8fPz9PWxtLuTmKBja3iipq7U1trk5eg0QVUAEjMAHTkfMEcpOE0AACpOWGi5vcIXKkI/S10AGTd+hI/LztIEIDuGjJZocHwACS+doalxeIMAFjUAACi1uL4RJj/loaIjPVLPIyXu9PbtmZmHMDzskpHvtbaLBBzJtbmkMzzKrbGTXXfdAAABBklEQVR4Aa3SVWKDUBBA0Txm5g3EcXetd/+rK1LB/pqboAeHwz8TSp8QYhdhESLNkfAnkpIQYWY8rh5HqnY80RIB8Xy6MNH1dtcJN0iGaV3sm+64vIO2d/eDW2hGLBeojGg6+sXTzooaA8o/lL1J1hIvPQs7SXyJOEc6ZykHeXZRPSdfXi4DSuPmBhedcufmAiKIXxSAFJhOUapaUQWMPSpzRI6SykrjAPiyxEOPyKer6XNUxpHsUSwRJZ/jLO832Nmzr27M5EqIy0c0GbSWfZY4Jv5wXNM9Pb90NBnwCun1rZ5siQwDvn90uINixNMnLXBxRTQYjKEyQ4LvSI7xzhcqxOExfQGirBAhUMQZRwAAAABJRU5ErkJggg==",
             "source": "About Coffee - National Coffee Association",
@@ -246,54 +124,51 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
+            "rank": 3,
+            "page_rank": 3
+          },
+          {
+            "title": "Coffee Review - The World's Leading Coffee Guide",
+            "link": "/goto?url=CAESVQHuR6pNDeDrFIGRrBysGDWWctxF5q3NIt4NwYJ46bbzSwvih1jpoJUbsU5tX_mVCJa_ZwuUtucmtflLTuMHb6WZwttaERrC8Xtjlo4LZbC9lGRjWBg=",
+            "displayed_link": "https://www.coffeereview.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA81BMVEVHcEyVXiRSOCC5dDCucCudZSh2TyLQfhyscC3OfhnNeRyrayrYhC2/cSnCfjHBfjLLfS+MWCdpSB4fHyGxYwcbFxfDeSrTm2K0axsHAgbCdTEbDhTeuZFuZF23aBVRMhO+ezI3IxfQl1nevpsrKSbBhEZBKhe/gDm/dCNhPyIJDgpLRDzYsYZ6cW1VTkU4My3exZ+Vg3S4byTEezwsFw7pwqdCOjdkV0h9a1XEqY7DiErTvJ3w28Cmj3eSjYWtqaKLdmfXxrXSoXHmzK/Gs5u5dSb659LSv7Hl0a/DkFZtUTmxnYS/lnKvWQCEbGr//faufizLH4eyAAAAE3RSTlMAvv1OdJzmCGUEFYwQWz8xH9L4noRMTwAAAitJREFUKJFlk2l3ojAYhSOCoK1aG4OERUD2XRQF97VatZ2Z//9rJtZuM73n5NNzzk3e+94A8CH2vknTHN1gWfBDXOnRznQ9UytM/V/CNlu2Ha9TCU0KwlsP39gDrVJK+rLe++a8mCxi/7H86X3P2LFi2JNECYKzN6EuF13l3ilL6/6zt0bpcSbLxn6NJ+c0Ucs32FCLS5Eru62jETnbTZyn69yrvZlWMLlmKTsaLxLxojWKCiNHpSu8089Kupa1oTgQul1h4DrDUZ4sCpUDoNbKwsV4NxTd7psE4UmzRkE4wQwLHjwpUhZbXmx32+9y+bC4rPIKCzgb+mij8YPeybEsa2p1Th1rusc+ohqAySAO5CHf7sudq3rPv4+Hl5kpIZ0GjLlS8hvs3WD4eno2xsulzYG7bLOMZdH9gnNhJxvmapURaGIYGMOntrGb9oimh83c+NM3EbLp64Mg7A81QTzM+7PZ8TB/7bqnPYaQapJRIPQXHe2pK2xDWQ5f2gLPh5EEERmlVkIQJiOH5HOb8hrCUYIwY6okPuKLI8Ph3YEgkPTca0AEUtdCsBWEFH9JKM+75PDT0S9TQbfgQYNKIuSTlVniQHSm4SbGpuI/vq0MVGkVKwlE6cwYGbN9hPFqLHnlj5rcqchcBZIEx2Md42VgQo/7LFGN9qRASsdRgKQIxgk6l6vf+tdsqZIJiTk0oUSV7v8rdb1UUXVdt70KUwY/Rb4DV683ql+OfwGBXlYv8CjG/wAAAABJRU5ErkJggg==",
+            "source": "Coffee Review",
+            "snippet": "Discover exceptional coffees that have earned 94-points or more TOP-RATED COFFEES nearly 10,000 objective coffee reviews since 1997,",
+            "highlighted_keywords": [
+              "have earned 94-points or more TOP-RATED COFFEES"
+            ],
             "rank": 4,
             "page_rank": 4
           },
           {
-            "title": "Coffee and Tea Buying Guides",
-            "link": "https://www.seriouseats.com/coffee-and-tea-buying-guides-7105482",
-            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
-            "source": "Serious Eats",
-            "snippet": "These buying guides will you help decide which coffee and tea gear you need to make the perfect cup and how to get the most out of the gadgets you own.",
+            "title": "Coffee Coffee - Bel Air",
+            "link": "/goto?url=CAESXAHuR6pNaEUcCJtBZeQoepW58CU3MkDKRwXfpw_UFvjGOipRFTlEY3XNbUlI2Y-LnJ2NkGNYhZvUJUUuKJthQg9-mUXu4WJyayIDHLGcmu1SMJbOSRJhb5ucy_u9",
+            "displayed_link": "https://www.coffeecoffee-online.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXElEQVR4AeyRgaaDUBjHgz1CzzEA1iZEgO5QJUlQCeUuSVV6hg2gp7h7k7vnCAxA8N3vzL2ZK/ejs81FHz9n7Oz8f/v+wpypqkqs6/odz0/G92dReOZ0XbdqmuYNgz7KshwQ+MXAvmN32N2HBbdtu8aHj0g/hhGwu8iR/ZZ7xWQgAV0RvWJOiIroFfNCVGTb9jWKIsjzHF4lkGUZuK4LiqJcBV3XgWEYBnieB0mSQFEUDw9lbwZBAJqmgSRJsNlsbowC91iWBb7vQ5qm3MFxHN/+nCzLYygyJTCN4zhAVzS9YlVV78PmCZAVESvmFqAqolbMKUBDhywCi8AisAgsAovAfxewLGttGMYJ6V8lIElSj+dpu92uhZ8Jw3BlmuYeHz2jzPAEgQGDz7vdbs+yhL8GBUR8/IDnhVcAQy/IAYNFYcZQFdEr5hyqImLFXENXhEJfu2dnZ3ePkiAGAOIqkJS3QoqOAAAAAElFTkSuQmCC",
+            "source": "coffeecoffee-online.com",
+            "snippet": "Coffee Coffee, repeatedly voted Harford County's BEST, is your go-to spot for freshly roasted coffee, tea and foodie products, breakfast and lunch, unique ...Read more",
             "highlighted_keywords": [
-              "decide which coffee and tea gear you need"
+              "freshly roasted coffee, tea and foodie products"
             ],
             "rank": 5,
             "page_rank": 5
           },
           {
-            "title": "Rook Coffee",
-            "link": "https://rookcoffee.com/collections/coffee?srsltid=AfmBOorNMEBqG5My3m4GX1jfYG1DKD1inW_kOU9zyqUy8NABJ1oeJMPE",
-            "displayed_link": "https://rookcoffee.com › collections › coffee",
-            "favicon": "data:image/png;base64,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",
-            "source": "Rook Coffee",
-            "snippet": "Fresh roasted coffee packed here at our roastery and shipped to your doorstep! Available in 12 oz. or 5 lb. bags. Tired of running out of coffee?",
+            "title": "Types of Coffee Drinks",
+            "link": "/goto?url=CAESdQHuR6pNE2RPwnqwKXNGeOaYTEB8Vs0gD-fmbBcfuTi1r9GJhak8BzhR83erVQC4IB5kWXkejjPd6EgZsHMXo1VDZ9Ze8dmNyPh-QiTm4w-btFl_EGxeRE6cFh7YJEg2YHXsBfV-Yd0Q8kuSMoMALm2ACm4d_Q==",
+            "displayed_link": "https://www.folgerscoffee.com › coffee › articles › type...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEX/////lJn/AAD/ur7/7/D/x8r/UVv/ABf/DCP/ABv/AAX/AB//sbX/VF7//P3/6uz/pKj/ByH/IDL/1tj/hoz/RFD/eoH/5Ob/9/f/q6//Kzr/Mj//mJ7/GS3/N0T/PUn/anL/XGX/3uD/8/Oj3ubQAAAAkUlEQVR4Ab3SVQKEIBRAUcDu7tb9r9FuH07P/T1Ko8/C5BKzIsvxgtgnTSArIlHRLjKYhvQ+QxUl2dyjYo04pdsyhnHIIS4dkefDuAVg4IZ0jAhLxxhGJUmxm0kgTickiDAquRqZuXA3Z0FBHvWpdxjgkIpDf0JhQA82fXgmlgCSUY4PTKjq8O5pWhcMmy30bB3mYgrufwH5GAAAAABJRU5ErkJggg==",
+            "source": "Folgers Coffee",
+            "snippet": "From a strong and bold espresso to a smooth and creamy latte, there's a coffee drink for every taste preference.Read more",
             "highlighted_keywords": [
-              "Fresh roasted coffee packed here at our roastery and shipped to your doorstep"
+              "there's a coffee drink for every taste preference"
             ],
-            "inline_snippet": "4.7",
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$19",
-                  "price_to": "$20",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "4.7 store rating (953)",
-                  "4.7",
-                  "$19 to $20",
-                  "30-day returns"
-                ]
-              }
-            },
             "rank": 6,
             "page_rank": 6
           },
           {
             "title": "Coffee - Walmart.com",
-            "link": "https://www.walmart.com/cp/coffee/1086446",
+            "link": "/goto?url=CAESYQHuR6pNujPeLV1bWTfGVAlZt0IyZm_WwA0VPq3ixJpGw7e4JowjQ5S_MeGg7IsV69kFTOu_xnPVLmtPvwRR7aW0zpC3vsaDmNbEinduMCUL0hec9r9eaKYWzJiRIbJIxjg=",
             "displayed_link": "https://www.walmart.com › coffee",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEz/wRz/wR7/wh//wh//wBn/wh//wiD/wR7/wh//wh7/wh7/wR//wh//wR3/wh//wh7/wh//wh5JC3qUAAAAE3RSTlMADS92+AfR/8e5YYeZnhflTOw/6JuIewAAAKFJREFUeAG1koURA0EIANHn7bT/YsPEjXj2XFF4GSTC8JBFODrTwWzATw5h9EOImMwmuGIWW7aT1SxtJ4vJDFvyZP6CfMa2vUXbjbw9xGROmRGqSAWcizkJYQul5itZsjIrLuKLlgj2YF/8uHRwevGjpSOcUOJhzeDkdWBSuEJ1P24fvXwYfxsrFJvy3Amx+2LHByGLg/2HHGIxhgglQniVDZyEB/jjfAsrAAAAAElFTkSuQmCC",
             "source": "Walmart",
@@ -305,40 +180,41 @@
             "page_rank": 7
           },
           {
-            "title": "La Colombe Coffee Workshop - Buy Coffee Online",
-            "link": "https://www.lacolombe.com/?srsltid=AfmBOoqTNfLfjHhPocn0z1RjgsyFIeRSiffYez2csK9uDpqh4alydxy5",
-            "displayed_link": "https://www.lacolombe.com",
-            "favicon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhAIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Ljc3Nzc3Ly03Nzc1LTc3Ljc3LTc3Nys3LTc1NzcuKzc3Ny01Kzc1KysrN//AABEIABwAHAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAHBQEGAP/EACYQAAEDAwMEAgMAAAAAAAAAAAECAwQABRESITEGB1FhIkEygYL/xAAXAQEAAwAAAAAAAAAAAAAAAAACAQME/8QAGxEAAgIDAQAAAAAAAAAAAAAAAQIAEQMSMSH/2gAMAwEAAhEDEQA/AC7YbniklfaaXMtTdxsd0ZkIeaDiWnxpO4zjUCRmuJ6ZtYvd/YthWpsSllBcQMlHxJ1Y9Y3ps7cNmxSXOl3r7BuC2Gy82zGZUFNDUM61ZIG5Hx5rXlYryUot9ghLs8uEX25jZYkw1hLzK+Rng+6n7fe1MXeyzOMWtE+LHaEdUvXLdLmXFLUAlIwR+Ix5/XJod4p422FwsKNTQopOUqIPkHFVukr4505fmbi0t1LTawH0NYy43n5JwdjmpFePFIi/JEXO83VEW4WSHAgO6xKUmY55CADpBH0STn+aI9vdaok7kk/W5rKKLqKEljZuf//Z",
-            "source": "La Colombe Coffee Workshop",
-            "snippet": "Looking to buy coffee online? La Colombe Coffee Workshop has you covered with our wide variety of products and brewing equipment. Shop now for your coffee ...",
+            "title": "Coffee | Origin, Types, Uses, History, & Facts",
+            "link": "/goto?url=CAESXwHuR6pNlkWQs4Lq__lymwM_R1rnKGfZNeM1lqW7paZmR7V3gyAY675K_l_oz5RG-QgdSdAZh8xuOAuqB1abcAFEzBsOiUf-qqeWn3xaMFm5hoi_x5I3TPxcKHXY9Jio",
+            "displayed_link": "https://www.britannica.com › ... › Food",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
+            "source": "Britannica",
+            "snippet": "Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three most popular ...",
             "highlighted_keywords": [
-              "La Colombe Coffee Workshop"
+              "Coffee"
             ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Free delivery over $50",
-                  "30-day returns"
-                ]
-              }
-            },
             "rank": 8,
             "page_rank": 8
           },
           {
-            "title": "Coffee | Origin, Types, Uses, History, & Facts",
-            "link": "https://www.britannica.com/topic/coffee",
-            "displayed_link": "https://www.britannica.com › ... › Food",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
-            "source": "Britannica",
-            "snippet": "What is coffee? Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three ...Read more",
+            "title": "Counter Culture Coffee",
+            "link": "/goto?url=CAESmgEB7keqTXna0w8wezJHTC74fXy_eCSVsJGEySt2v_OONkMAHL_nDBjF3ZD_teLDF5SIKP4FyNDEOkHMS_sCxHJlsJU0j4X27HfWfYeem2QNUNEch_v9V7BaEdztf7VzVhSWpCim4wV5_JVYb10wtgd_vZvVGgJ9S0WSkVoKlmI5ALILKk79ICf9X-EXRcqIIef5fMRra5ItgXKL",
+            "displayed_link": "https://counterculturecoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACu0lEQVR4AWKgAmAFYm4g5gFiNgY6AA5A6fUAK0kQRWE4XTNr27YZrG3biJbB2rZt27Zt27Zt9f5JKslNJdNvKn2SL7V9213YeSiPpHq7AkagB+rrmkIz5NTbjmit4yCg/50QB7AbUXStDLZiKRrqWj7cwknkhoyyu7mOeIi82IMYogt6YQRi6Vpr3MVKcVx0JA77S4gbNkZt4+lrIjFCJQZyo6qozcZ55LXtjlw4g9niZDMKCJkG+IiRyB7OA0RCNLFdER0t+9ERx8XBcOQ3vq5nn69GozC6SXnUzGsGEWGC6IVGOIcM8mSPz6c8th3bUd8YBzEZUTwuXB1LcRUPcRqTkB++Ex2RjAdTYj3YBjeEfxiHKLBKHKSBjGO0sXEJLn7iD1zhu25vIK44N6w53xN1URrV5VuLdh5cfNPtL6zHBOyDiwuIY7PyKdGnu3EI+XRNiTfIht/4CxdPUAAyNZBKvJh1iomLOsYM6Cg+vYtqYr+yX/Pt/x+YCld7gFgwj1U2004ZF8iIqqiIILwe6i/+gfBAPiLfcAJeYylkgrrtLgaeixK6HtlzBbR4gH44hRmIB3NNLwAXv3V7BSkhU9B2BshER3wEPD7/emMavsEEdMQCuNgF4zz7pICMEvWnctGRRPccRnRYJysqYi0KhliMMuGCufwa26sRA8RuRtTBMzxHPTEIzeMioT2O4BXe4Qk2oKqfLoiMLsjuMZDMWhwkRzSPGwegfI8HGY/BSt1fHERDLvTA7DB+3zsevxOjoiuq23bLBLww1gQdq8/bHIOwzxzY4aSFWFjSYjvSICG8Uh45jHGyU9QcWM+QIXiB/eLPsPgYgOri+HaYj83Ioms5UcTPzRXqYiieihHfEauxTyzLkzESS1HYe6zYJ4HxI2QQWmIZ0oivMkysB46m4CsBmG+SQMuEIKzyH3WCk3OyXiwRAAAAAElFTkSuQmCC",
+            "source": "Counter Culture Coffee",
+            "snippet": "Counter Culture Coffee is a specialty coffee roaster sourcing exceptional single-origin and specialty coffee. Fresh-roasted coffee to your doorstep.",
             "highlighted_keywords": [
-              "coffee",
-              "Coffee",
-              "coffee",
-              "Coffee"
+              "Counter Culture Coffee"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$16",
+                  "price_to": "$99",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$16 to $99",
+                  "Free delivery over $30"
+                ]
+              }
+            },
             "rank": 9,
             "page_rank": 9
           }
@@ -349,16 +225,12 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
           },
           {
-            "query": "Coffee nearby",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
+            "query": "Coffee Pic",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Pic"
           },
           {
-            "query": "Coffee brands",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
-          },
-          {
-            "query": "Coffee beans",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           },
           {
             "query": "Coffee name",
@@ -369,33 +241,37 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
           },
           {
-            "query": "Coffee benefits",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
+            "query": "Coffee beans",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
-            "query": "Coffee Bean menu",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
+            "query": "Coffee nearby",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
+          },
+          {
+            "query": "Coffee brands",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
           }
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1aa2181320e8cba3&gl=us&hl=en&ei=-JwtavfhFKqnptQP1cihqAM&start=10&sa=N&sstk=AU9db-DhxyBWoK255A8JjW6xIPt95aoV0TIwUyq9P79zc9gXUTF1P2qGC34sy_M7coChTLH0GIMvnVZ5StQ_W88pisu_hVgomrYDfA&ved=2ahUKEwj3vbGD6ISVAxWqk4kEHVVkCDUQ8NMDegQIWBAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=adfdac7335d782b2&gl=us&hl=en&ei=CastarQC1Kfaug-byLiQAQ&start=10&sa=N&sstk=AU9db-DrUKhA3vXH0rc0SoglCqhl0tksPTV0vVyEGmGculGaaQWQppdrrqAfmLrURW_Qb2gAOUpOsFPRmMd-N_i61Z5R6iszW6iIEg&ved=2ahUKEwj0qqi49YSVAxXUk1YBHRskDhIQ8NMDegQIUhAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1aa2181320e8cba3&gl=us&hl=en&ei=-JwtavfhFKqnptQP1cihqAM&start=10&sa=N&sstk=AU9db-DhxyBWoK255A8JjW6xIPt95aoV0TIwUyq9P79zc9gXUTF1P2qGC34sy_M7coChTLH0GIMvnVZ5StQ_W88pisu_hVgomrYDfA&ved=2ahUKEwj3vbGD6ISVAxWqk4kEHVVkCDUQ8tMDegQIWBAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1aa2181320e8cba3&gl=us&hl=en&ei=-JwtavfhFKqnptQP1cihqAM&start=20&sa=N&sstk=AU9db-DhxyBWoK255A8JjW6xIPt95aoV0TIwUyq9P79zc9gXUTF1P2qGC34sy_M7coChTLH0GIMvnVZ5StQ_W88pisu_hVgomrYDfA&ved=2ahUKEwj3vbGD6ISVAxWqk4kEHVVkCDUQ8tMDegQIWBAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1aa2181320e8cba3&gl=us&hl=en&ei=-JwtavfhFKqnptQP1cihqAM&start=30&sa=N&sstk=AU9db-DhxyBWoK255A8JjW6xIPt95aoV0TIwUyq9P79zc9gXUTF1P2qGC34sy_M7coChTLH0GIMvnVZ5StQ_W88pisu_hVgomrYDfA&ved=2ahUKEwj3vbGD6ISVAxWqk4kEHVVkCDUQ8tMDegQIWBAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1aa2181320e8cba3&gl=us&hl=en&ei=-JwtavfhFKqnptQP1cihqAM&start=40&sa=N&sstk=AU9db-DhxyBWoK255A8JjW6xIPt95aoV0TIwUyq9P79zc9gXUTF1P2qGC34sy_M7coChTLH0GIMvnVZ5StQ_W88pisu_hVgomrYDfA&ved=2ahUKEwj3vbGD6ISVAxWqk4kEHVVkCDUQ8tMDegQIWBAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1aa2181320e8cba3&gl=us&hl=en&ei=-JwtavfhFKqnptQP1cihqAM&start=50&sa=N&sstk=AU9db-DhxyBWoK255A8JjW6xIPt95aoV0TIwUyq9P79zc9gXUTF1P2qGC34sy_M7coChTLH0GIMvnVZ5StQ_W88pisu_hVgomrYDfA&ved=2ahUKEwj3vbGD6ISVAxWqk4kEHVVkCDUQ8tMDegQIWBAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1aa2181320e8cba3&gl=us&hl=en&ei=-JwtavfhFKqnptQP1cihqAM&start=60&sa=N&sstk=AU9db-DhxyBWoK255A8JjW6xIPt95aoV0TIwUyq9P79zc9gXUTF1P2qGC34sy_M7coChTLH0GIMvnVZ5StQ_W88pisu_hVgomrYDfA&ved=2ahUKEwj3vbGD6ISVAxWqk4kEHVVkCDUQ8tMDegQIWBAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1aa2181320e8cba3&gl=us&hl=en&ei=-JwtavfhFKqnptQP1cihqAM&start=70&sa=N&sstk=AU9db-DhxyBWoK255A8JjW6xIPt95aoV0TIwUyq9P79zc9gXUTF1P2qGC34sy_M7coChTLH0GIMvnVZ5StQ_W88pisu_hVgomrYDfA&ved=2ahUKEwj3vbGD6ISVAxWqk4kEHVVkCDUQ8tMDegQIWBAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1aa2181320e8cba3&gl=us&hl=en&ei=-JwtavfhFKqnptQP1cihqAM&start=80&sa=N&sstk=AU9db-DhxyBWoK255A8JjW6xIPt95aoV0TIwUyq9P79zc9gXUTF1P2qGC34sy_M7coChTLH0GIMvnVZ5StQ_W88pisu_hVgomrYDfA&ved=2ahUKEwj3vbGD6ISVAxWqk4kEHVVkCDUQ8tMDegQIWBAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1aa2181320e8cba3&gl=us&hl=en&ei=-JwtavfhFKqnptQP1cihqAM&start=90&sa=N&sstk=AU9db-DhxyBWoK255A8JjW6xIPt95aoV0TIwUyq9P79zc9gXUTF1P2qGC34sy_M7coChTLH0GIMvnVZ5StQ_W88pisu_hVgomrYDfA&ved=2ahUKEwj3vbGD6ISVAxWqk4kEHVVkCDUQ8tMDegQIWBAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=adfdac7335d782b2&gl=us&hl=en&ei=CastarQC1Kfaug-byLiQAQ&start=10&sa=N&sstk=AU9db-DrUKhA3vXH0rc0SoglCqhl0tksPTV0vVyEGmGculGaaQWQppdrrqAfmLrURW_Qb2gAOUpOsFPRmMd-N_i61Z5R6iszW6iIEg&ved=2ahUKEwj0qqi49YSVAxXUk1YBHRskDhIQ8tMDegQIUhAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=adfdac7335d782b2&gl=us&hl=en&ei=CastarQC1Kfaug-byLiQAQ&start=20&sa=N&sstk=AU9db-DrUKhA3vXH0rc0SoglCqhl0tksPTV0vVyEGmGculGaaQWQppdrrqAfmLrURW_Qb2gAOUpOsFPRmMd-N_i61Z5R6iszW6iIEg&ved=2ahUKEwj0qqi49YSVAxXUk1YBHRskDhIQ8tMDegQIUhAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=adfdac7335d782b2&gl=us&hl=en&ei=CastarQC1Kfaug-byLiQAQ&start=30&sa=N&sstk=AU9db-DrUKhA3vXH0rc0SoglCqhl0tksPTV0vVyEGmGculGaaQWQppdrrqAfmLrURW_Qb2gAOUpOsFPRmMd-N_i61Z5R6iszW6iIEg&ved=2ahUKEwj0qqi49YSVAxXUk1YBHRskDhIQ8tMDegQIUhAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=adfdac7335d782b2&gl=us&hl=en&ei=CastarQC1Kfaug-byLiQAQ&start=40&sa=N&sstk=AU9db-DrUKhA3vXH0rc0SoglCqhl0tksPTV0vVyEGmGculGaaQWQppdrrqAfmLrURW_Qb2gAOUpOsFPRmMd-N_i61Z5R6iszW6iIEg&ved=2ahUKEwj0qqi49YSVAxXUk1YBHRskDhIQ8tMDegQIUhAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=adfdac7335d782b2&gl=us&hl=en&ei=CastarQC1Kfaug-byLiQAQ&start=50&sa=N&sstk=AU9db-DrUKhA3vXH0rc0SoglCqhl0tksPTV0vVyEGmGculGaaQWQppdrrqAfmLrURW_Qb2gAOUpOsFPRmMd-N_i61Z5R6iszW6iIEg&ved=2ahUKEwj0qqi49YSVAxXUk1YBHRskDhIQ8tMDegQIUhAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=adfdac7335d782b2&gl=us&hl=en&ei=CastarQC1Kfaug-byLiQAQ&start=60&sa=N&sstk=AU9db-DrUKhA3vXH0rc0SoglCqhl0tksPTV0vVyEGmGculGaaQWQppdrrqAfmLrURW_Qb2gAOUpOsFPRmMd-N_i61Z5R6iszW6iIEg&ved=2ahUKEwj0qqi49YSVAxXUk1YBHRskDhIQ8tMDegQIUhAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=adfdac7335d782b2&gl=us&hl=en&ei=CastarQC1Kfaug-byLiQAQ&start=70&sa=N&sstk=AU9db-DrUKhA3vXH0rc0SoglCqhl0tksPTV0vVyEGmGculGaaQWQppdrrqAfmLrURW_Qb2gAOUpOsFPRmMd-N_i61Z5R6iszW6iIEg&ved=2ahUKEwj0qqi49YSVAxXUk1YBHRskDhIQ8tMDegQIUhAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=adfdac7335d782b2&gl=us&hl=en&ei=CastarQC1Kfaug-byLiQAQ&start=80&sa=N&sstk=AU9db-DrUKhA3vXH0rc0SoglCqhl0tksPTV0vVyEGmGculGaaQWQppdrrqAfmLrURW_Qb2gAOUpOsFPRmMd-N_i61Z5R6iszW6iIEg&ved=2ahUKEwj0qqi49YSVAxXUk1YBHRskDhIQ8tMDegQIUhAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=adfdac7335d782b2&gl=us&hl=en&ei=CastarQC1Kfaug-byLiQAQ&start=90&sa=N&sstk=AU9db-DrUKhA3vXH0rc0SoglCqhl0tksPTV0vVyEGmGculGaaQWQppdrrqAfmLrURW_Qb2gAOUpOsFPRmMd-N_i61Z5R6iszW6iIEg&ved=2ahUKEwj0qqi49YSVAxXUk1YBHRskDhIQ8tMDegQIUhAU"
           }
         }
       }
     }
   },
-  "requestId": "b0e6fd2f-a26a-49fa-ac3e-ff101aa20d8e",
-  "timestamp": 1781377203093,
-  "recordTime": "2026-06-14 03:00:02"
+  "requestId": "1d27b38a-3056-4775-877f-6374001374c4",
+  "timestamp": 1781380803031,
+  "recordTime": "2026-06-14 04:00:02"
 }
