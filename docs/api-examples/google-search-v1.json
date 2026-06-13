@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-13 21:10:02",
+    "checkedAt": "2026-06-13 22:10:06",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.39,
-          "total_results": 3030000,
+          "time_taken": 0.44,
+          "total_results": 192,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,30 +24,48 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Aromas",
-            "rating": "5.0",
-            "reviews": "81",
-            "address": "5.0(81) · $10–20 · Coffee shop",
-            "hours": "Union City, NJ",
+            "title": "Blue Sparrow Coffee",
+            "rating": "4.7",
+            "reviews": "190",
+            "address": "4.7(190) · $1–10 · Coffee shop",
+            "hours": "1576 Sherman St",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Haute Dulce",
-            "rating": "4.9",
-            "reviews": "1.6K",
-            "address": "4.9(1.6K) · $10–20 · Coffee shop",
-            "hours": "Secaucus, NJ",
+            "title": "Vibe Coffee and Wine",
+            "rating": "4.5",
+            "reviews": "595",
+            "address": "4.5(595) · $10–20 · Coffee shop",
+            "hours": "1490 Curtis Street",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Solo coffee",
-            "rating": "5.0",
-            "reviews": "257",
-            "address": "5.0(257) · $1–10 · Coffee shop",
-            "hours": "Jersey City, NJ",
+            "title": "The Drip Cafe",
+            "rating": "4.6",
+            "reviews": "920",
+            "address": "4.6(920) · Coffee shop",
+            "hours": "869 Santa Fe Dr",
             "links": {}
+          }
+        ],
+        "peopleAlsoAskedFor": [
+          {
+            "question": "Does coffee reduce swelling?",
+            "rank": 1
+          },
+          {
+            "question": "What is coffee called in Colombia?",
+            "rank": 2
+          },
+          {
+            "question": "What kind of coffee is good for the liver?",
+            "rank": 3
+          },
+          {
+            "question": "What coffee is good for gastritis?",
+            "rank": 4
           }
         ],
         "organic_results": [
@@ -71,82 +89,120 @@
             "page_rank": 1
           },
           {
-            "title": "r/Coffee",
-            "link": "https://www.reddit.com/r/Coffee/",
-            "displayed_link": "2.4M+ followers",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAhFBMVEVHcEz/RQD/RQD/RQD/RQD/RQD/RQD/RQD/RQD/PQD/NgD+XS32dlf5vK3////64dusLADUz9H+jXLOPAoSHiFrLBm3uLn3/f7jVS/b6e77pJDJo6H718//RQDw9ffs5+jm8fPIXlHqKwD5+PjolIP/VgP/SQLQ2uAyODvQ4ekABAhqcHK4ptuCAAAAHnRSTlMAPobB7P9mHdb//////////////////////////8J6YdtgAAABWUlEQVR4AWySYZNDMBCGWyw2SI9TGnWqILT////dm6Enc+MZH8Qz2V3Je/rj7Lgekec659N/fIgPnn+yCULaYaYwsCqShYhiQXQ+dJxIedltQDZfqZQyY6K1st3vO78WsiyNDI3zySK/caJUygTMzN7eTnxdBXMcb3+0TsMC30RUJfciqSIs8JCZycHwWV1n2UVuXDKzxsDOySWu5AGVoB/TUh5imhJFpQTNfav7uDcSlBERJLUN9LOLewn6LnpCNS0EyvKg+vLRjVRLUIuxe8hSDYyyLqatyr68jdO6cxpvWGIeDOQQujagNs7YuumbJmYiZz0E3aJvMc95Ps8F+rV6PQQ0JY4XpVqVv0Cu2lYps9HbDp6HRS9Kv1+vt1Z4HeDI/1yZiFMNFIzWqYkChftl8zSkegE6HSYmENgxYYQHRGzUHiLHyh3ModvZo7nHxA71ofwdSnYAAPpVIo4RUPiIAAAAAElFTkSuQmCC",
-            "source": "Reddit · r/Coffee",
-            "snippet": "thread where you can share what you are brewing or ask for bean recommendations. This is a place to share and talk about your favorite coffee roasters or beans.Read more",
+            "title": "Lost Coffee | Denver Specialty Coffee - Castle Rock",
+            "link": "https://www.lostcoffee.com/?srsltid=AfmBOorOYyA8YkfxTNfUf08eS9nONCft2pkIsh5VCYiq14XlkEmSBsk4",
+            "displayed_link": "https://www.lostcoffee.com",
+            "favicon": "data:image/png;base64,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",
+            "source": "Lost Coffee",
+            "snippet": "Specialty coffee, small-batch roasted in Colorado. No stale beans. Choose weekly, biweekly, monthly, or every 2-3 months",
             "highlighted_keywords": [
-              "thread where you can share what you are brewing"
+              "Specialty coffee, small-batch roasted in Colorado"
             ],
             "rank": 2,
             "page_rank": 2
           },
           {
-            "title": "Fresh Coffee Beans, Roasted-to-Order!",
-            "link": "https://brooklynlabcoffee.com/collections/all-coffee?srsltid=AfmBOop4ovpLjm2s612rHc20M9omhUuzUnmpx5k9E8uz2LT5_cCuDizE",
-            "displayed_link": "https://brooklynlabcoffee.com › collections › all-coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABNklEQVR4AdTMIWzDMBAF0G+ffcgwtLicBBSWFQUFmgRHMgsJMg2Ygo0DDctlEBAYZByucDx3YJOmanyf3N1/0uF9BARg/g/ihUJLSQQthVKClFFlyLKUrQIRAwzBihWMAbNgLQnlKFDy6z2Z77JZJvcx910c6rDcBtf7R2+HMLimoD9TzOu6TnEPYc15SP3jjOnIAxfcU84xp/55+uHYjjnN2Ge/nyMAm5apq5c2+Tpt99CGWKjtXLAAGgcsVxv9BT8xFwYM1BQxnGM4NgeSDEW4NN3o+vFuAL/Z574+c/JgaEiJm2u9teMNgI1zcHMIUwtoBjNqW9vm0V4NWFaVBipjFJPS+uUAAaWDhvk62chXSVKwKqZYF4TQmkmAlIAhkC7CpKUUBd9HkPgDpfgcqToRkrSzEwDVQ13mbIZpgQAAAABJRU5ErkJggg==",
-            "source": "Brooklyn Lab Coffee",
-            "snippet": "11 products · Brooklyn Blend, City Roast Sumatra Coffee 412°F · Peru Medium Roast Coffee, 408°F · Brazil Medium Roast Coffee, 408°F · Manhattan Blend, City ...Read more",
+            "title": "Corvus Coffee Roasters • Denver based specialty coffee ...",
+            "link": "https://www.corvuscoffee.com/?srsltid=AfmBOopu64MQ8uhaL76aMXhPgvSLau76fduVY0VeTp_9fXStej3XqAeg",
+            "displayed_link": "https://www.corvuscoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAMFBMVEVHcEwaHx8aHh4bHh4bHh4aHh4aHh4bHx8bHh4aHh4bHx8bHh4bHh4bHx8aHh4bHx9AkRjQAAAAD3RSTlMA3ipLdlcXmciG+Qdpre7BUNhNAAAAvElEQVQokZ2SQRLDIAhFgxBBY+T+t604jSZGF+1fOT7hA7Jtf4tUAUDcnGJWk18EnwbDKnUsMC+Yr3kXrlzhPodQoUzZESvUPIvd9RK+YWgwvoty2nW+gs8Oo0IYZgX6kDwqczooh5s7PVC0TJD8PLEE4nLDQ+LYfQ/XKhdFHyK4DUsIkVhbzZdy7cmOyX7IUaIOwQb5deFhL9gM9usO4bixVPvuq+KpzcBjKj+HnPr7diIWLGVK4MU2/K4Pcr4Mdb21p4MAAAAASUVORK5CYII=",
+            "source": "Corvus Coffee Roasters",
+            "snippet": "Learn. Taste. Brew. Join our hands-on classes to refine your skills, explore new flavors, and deepen your love for coffee. UPCOMING EVENTS ...Read more",
             "highlighted_keywords": [
-              "Brooklyn Blend, City Roast Sumatra Coffee 412°F"
+              "Learn. Taste. Brew"
             ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$18",
-                  "price_to": "$100",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "$18 to $100",
-                  "Free delivery over $99"
-                ]
-              }
-            },
             "rank": 3,
             "page_rank": 3
           },
           {
-            "title": "Starbucks Coffee Company",
-            "link": "https://www.starbucks.com/",
-            "displayed_link": "https://www.starbucks.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUAqGIdqmY1r3EAp18ApFiUzqyt2L4Ao1ZfuYRTtn7q9e/3/PotrWzH5NP////W695BsXUAn0zf8OYApVtMtHrk8utvwJIAnEX6/fwAoVFivY2e0rPL59i/4c3+/v623cal1biOyaNsvo98xZuGyKGAxp1Ptn+w3MO6/E0wAAABrUlEQVR4AWKgEgDUQR9YkoJQFEBRJAjyVFAMiKHQnv3vcKjJkQz3kH5R/pdoxbig/9kma6Vr2fxrG6EGObV5+OfurhO0z2p7J8rhd3UFRj/Ns8ayWnTuV+1CwYDWUtG2AHfs294vbbUh7oDSegRwwFZfybsvfSa9ccZOozM37y1OEpSUOlcFUxfTZQzriyHyKi/RAgSxf12JLIO8FXLSaZUL9ZdfOMiuNXA26d6GK+TRVW/pKRkwq4w78PThkDHnM3bRcx9DvwLYCQC2yHu7+cdzmSOllZ0mpeXJQJi/hTs/2ieeADRw8GDk4cTjGXmCIO4YVDmvQORAUvU4xIoIdhPk3oU0dmNSyns7S13ovJM4DvL+L/0w15EdykJuLJzH673akPCOVDU2ysGVZht6lLa22YhjJLrci7FQAo7JOiwo7DC6N3Ii3htDOBgbHXIqW562+1NezpQoobV92QbNhhyRlmJon9Y7Ql9kpaRSzez0dWfLGjyELnXeI4kjrjZ3rDGprzhP8Gc4vMtkps7GZAYs9iuqCevBuBqmT6TRwE51MZ6vr3hf2mmaV+fhM60UJgvTnxtEAAAAAElFTkSuQmCC",
-            "source": "Starbucks Coffee",
-            "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
+            "title": "The Sprudge Guide To Coffee In Denver",
+            "link": "https://sprudge.com/the-sprudge-guide-to-coffee-in-denver-248769.html",
+            "displayed_link": "https://sprudge.com › the-sprudge-guide-to-coffee-in-d...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAWlBMVEVHcEwxMTFYWFh8fHwyMjItLS0uLi48PDwzMzNiYmI5OTkkJCQ8PDwhISEeHh4MDAwYGBjf39+NjY1UVFRra2upqak+Pj64uLh5eXmdnZ2kpKSXl5fLy8vU1NS3xpq1AAAADXRSTlMAvDMTyfrmjtQjc/ao3RZCbgAAAPBJREFUKJGN0tdyxCAMBVAXbLz2XkBUt/z/bwaXiQvOJhqGlzMjJKEs+1e8OKuAivFXQkUDCGzRFFd74xL8bLW4IpoPBvGj78Si7pmLlJbYim6eka39PRtQRuTxASlkPEooFW9IpeKNNiKDqJzXGoP1pveDkaMxg1XII1aQYXAUhpl6TX0g7chNRqCOCChLksK44Fc8kzbOeYFuRcjJkfY02x1pHHdc0uqZpAlkw5p2PNJuBfXSW1tN9lbQ1orC1setlY9D+G18+d+Dz/jDlx3L0KSfzY5VuOvZ1n4ec+5by051pptbtnnddXXelgk9xjeYqx6L3HJ78AAAAABJRU5ErkJggg==",
+            "source": "Sprudge",
+            "snippet": "A nationally notable specialty coffee scene has been present in Denver for many years, in tandem with the city's nonstop 21st Century growth.Read more",
             "highlighted_keywords": [
-              "Explore our menu of handcrafted drinks"
+              "A nationally notable specialty coffee scene"
             ],
             "rank": 4,
             "page_rank": 4
           },
           {
-            "title": "What Happens to Your Body When You Drink Coffee Every ...",
-            "link": "https://www.health.com/effects-of-drinking-coffee-every-morning-11993027",
-            "displayed_link": "https://www.health.com › Wellness › Nutrition › Eat Well",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEX////+/P+Zevd+VfV8U/Wrkvh3TPRMAPGObPZ5UPRTEfJRCvKRcPaUdPa9qvl/WvTTxvuFXvWFYfWynfhXGvLp4/3FtPrLvftjL/Py7f759v9rPvOKafaghfexmvmjiPepdfgnAAAAbElEQVR4Ac0RtQGAMAyP4e78fyW0Kw5TLe6xTD2243r+pTIAwEslsYS/lZEVYxKlp0rOchAGKM6UZQkAGlZnSqG6yaQE/yxs21lWP5wUpgsaNYHCZF+1EpqrPFkZAgQH5TSOsybmcVy00sizAQsVBuK3sYPUAAAAAElFTkSuQmCC",
-            "source": "Health: Trusted and Empathetic Health and Wellness Information",
-            "snippet": "Coffee can boost energy, support heart health, lower diabetes risk, and may even help you live longer. But too much coffee can trigger digestive issues, ...Read more",
+            "title": "Coffee - Walmart.com",
+            "link": "https://www.walmart.com/cp/coffee/1086446",
+            "displayed_link": "https://www.walmart.com › coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEz/wRz/wR7/wh//wh//wBn/wh//wiD/wR7/wh//wh7/wh7/wR//wh//wR3/wh//wh7/wh//wh5JC3qUAAAAE3RSTlMADS92+AfR/8e5YYeZnhflTOw/6JuIewAAAKFJREFUeAG1koURA0EIANHn7bT/YsPEjXj2XFF4GSTC8JBFODrTwWzATw5h9EOImMwmuGIWW7aT1SxtJ4vJDFvyZP6CfMa2vUXbjbw9xGROmRGqSAWcizkJYQul5itZsjIrLuKLlgj2YF/8uHRwevGjpSOcUOJhzeDkdWBSuEJ1P24fvXwYfxsrFJvy3Amx+2LHByGLg/2HHGIxhgglQniVDZyEB/jjfAsrAAAAAElFTkSuQmCC",
+            "source": "Walmart",
+            "snippet": "Shop for Coffee at Walmart.com. Buy Ground coffee, coffee pods, instant coffee, and whole bean coffee. Save money. Live better.",
             "highlighted_keywords": [
-              "Coffee can boost energy, support heart health, lower diabetes risk"
+              "Shop for Coffee at Walmart.com"
             ],
             "rank": 5,
             "page_rank": 5
           },
           {
-            "title": "Buy Coffee, Tea, Powders Online | The Coffee Bean & Tea ...",
-            "link": "https://www.coffeebean.com/",
-            "displayed_link": "https://www.coffeebean.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEVHcExTLG1TLG1TLG1TLW1TLG1TLG1TLW1TLG1TLG1TLG30H49eAAAAC3RSTlMAFT5uyLedLN38V4AViBkAAADiSURBVHgBlZAlYgIAAAAPl4JLm3Zcy1zifGtzLbi2uaQ5UnC+iWvk2sU7JkfrcMxAH93qweWatW+yJ49GE3kKAgCpEwBjBgBkeeI5K/iCmADzifL96QukS5FnwEnyaXMRBAdrNhCskHz/DSJzrZXUINxAeVVCeLFbT0yDaBs0QtnmndpQVLf0FEj6r8Fopavx2gdpDB3dFtSe00HhC4YiILxzrU9D9IH5aUC5txsUzFAt4gJ0e5dquLD5ETwCRx79CSR/rUgXgRCyHxC4i62EscCvfv7qWD66vf6c/jr/DBPTBBH3MWVXMDuJAAAAAElFTkSuQmCC",
-            "source": "The Coffee Bean & Tea Leaf",
-            "snippet": "Buy exceptional coffee, tea, powders, equipment and drinkware at The Coffee Bean & Tea Leaf® online store to enjoy our globally sourced products at home.",
+            "title": "Coffee and Tea Buying Guides",
+            "link": "https://www.seriouseats.com/coffee-and-tea-buying-guides-7105482",
+            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
+            "source": "Serious Eats",
+            "snippet": "These buying guides will you help decide which coffee and tea gear you need to make the perfect cup and how to get the most out of the gadgets you own.",
             "highlighted_keywords": [
-              "Buy exceptional coffee, tea, powders, equipment and drinkware"
+              "decide which coffee and tea gear you need"
             ],
             "rank": 6,
             "page_rank": 6
+          },
+          {
+            "title": "Little Owl Coffee",
+            "link": "https://www.littleowlcoffee.com/",
+            "displayed_link": "https://www.littleowlcoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAASFBMVEVHcEx8fHyPj4+GhoYqKioAAAC1tbUpKSlUVFQbGxsRERFAQEBXV1cbGxtGRkYKCgo1NTUuLi4vLy////8sLCwnJycmJiYRERHNUDbtAAAAGHRSTlMAFSYxrP8LnzLZ+T4gw0j/inZYA2WCle54kXITAAAA0UlEQVR4AeWRR5LEMAzEZFlwIJ3j/1+6yYHS5jkPLkqoFqva/YfM578LAYpfhfLphKqsBalL/V5oWi7q5huh66Fvh3Fo3zfTF0F7CNnRTgC6T8IsMN53C0iRCiuUzthgSwWhn12EIHMsqAXcEZ0JuR9g9Pk7/rjtYDUhJhy33oYI3wv2Z9V1nW4wavdOddyqffHOrHfiOftqQx707C5mp087LtPI8RgmIuvjTIU+cykTlrECUZ2WipTLtJRCXJyhOxe7um+ZWgGk/RpvFFnhHuEVT8EKI2MWo0MAAAAASUVORK5CYII=",
+            "source": "Little Owl Coffee",
+            "snippet": "Roastery in Denver, Colorado. Free shipping on orders over $50 / Applies automagically at checkout. Mostly Coffee | Some nonsense |",
+            "highlighted_keywords": [
+              "Roastery in Denver, Colorado"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$20",
+                  "price_to": "$50",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$20 to $50",
+                  "Free delivery over $50"
+                ]
+              }
+            },
+            "rank": 7,
+            "page_rank": 7
+          },
+          {
+            "title": "Denver Coffee Shops Denver, CO - Last Updated June 2026",
+            "link": "https://www.yelp.com/search?find_desc=Denver+Coffee+Shops&find_loc=Denver%2C+CO",
+            "displayed_link": "https://www.yelp.com › Food › Coffee Shops",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAflBMVEX0DRX0AAr0AAD0BhD3U1j5ioz5lZf2R0z8xcb+6uv+9fX/+Pn93N31GiH6pKb////4fX/0AAX1LzX8wML4hIb0ERn1KTD+5eX5kJP3XmL4bnH+8PH91db3PkX1HSb7t7r3T1X9ztD3Zmn6qKv4anD1NTz5dnr7r7H3Wl77tLUFH9U+AAAA4UlEQVR4AbTRRWKAMBAFUPKRUmxwd+f+Fyyzwpf9m8iLR/r/CEB8EGRF1X7eVSj6r2FaeEXboT3mO8I1dzS8V5T9gBFcfSpCgxjlKH6qHOtECWQ71bPbzkKWkBdUwtZMSq6Iqga8hgKofK78rKKlomkRdUrPRuoZoXKXoSIKyCiG8bIsNOKUtZjGGLhtORtJGThZL7tDXt/fN3KzCXCKaaFiWXFTeAKuQUpfECXb44XRWkSTvdAe7/FADRH5/BL0mLn3MgrPoUXI95nTUpgm9i+J2W4RUqbN7z/G8QDpb/QAAKRZDoQhpaGVAAAAAElFTkSuQmCC",
+            "source": "Yelp",
+            "snippet": "Coffee Shops Denver, CO · 1. Blue Sparrow Coffee · 2. Lavender Coffee Boutique · 3. Crema Coffee House · 4. Coffeegraph · 5. Little Owl Coffee · 6. Hearth · 7.Read more",
+            "highlighted_keywords": [
+              "1. Blue Sparrow Coffee"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "rating": "4.4",
+                  "reviews": "15,340"
+                },
+                "extensions": [
+                  "4.4",
+                  "(15,340)"
+                ]
+              }
+            },
+            "rank": 8,
+            "page_rank": 8
           },
           {
             "title": "What is coffee? - NCA",
@@ -158,62 +214,6 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 7,
-            "page_rank": 7
-          },
-          {
-            "title": "Rook Coffee",
-            "link": "https://rookcoffee.com/collections/coffee?srsltid=AfmBOooOrnwXRjCxS23qJxX4rUQa2Vut1H16ETY1WM5DrTfG_g44NpnK",
-            "displayed_link": "https://rookcoffee.com › collections › coffee",
-            "favicon": "data:image/png;base64,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",
-            "source": "Rook Coffee",
-            "snippet": "Fresh roasted coffee packed here at our roastery and shipped to your doorstep! Available in 12 oz. or 5 lb. bags. Tired of running out of coffee?",
-            "highlighted_keywords": [
-              "Fresh roasted coffee packed here at our roastery and shipped to your doorstep"
-            ],
-            "inline_snippet": "4.7",
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$19",
-                  "price_to": "$20",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "4.7 store rating (953)",
-                  "4.7",
-                  "$19 to $20",
-                  "30-day returns"
-                ]
-              }
-            },
-            "rank": 8,
-            "page_rank": 8
-          },
-          {
-            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
-            "link": "https://www.discountcoffee.com/",
-            "displayed_link": "https://www.discountcoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
-            "source": "DiscountCoffee.com",
-            "snippet": "Buy Breakroom Coffee Supplies, Starbucks, k-cup, pods, tea, sugar, creamer, hot chocolate, cappuccino. Free UPS Ground to homes & businesses nationwide.",
-            "highlighted_keywords": [
-              "Breakroom Coffee Supplies"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$5",
-                  "price_to": "$139",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "$5 to $139",
-                  "Free delivery over $59",
-                  "30-day returns"
-                ]
-              }
-            },
             "rank": 9,
             "page_rank": 9
           }
@@ -224,16 +224,12 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
           },
           {
-            "query": "Coffee brands",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
-          },
-          {
             "query": "Coffee types",
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
           },
           {
-            "query": "Coffee Walmart",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
+            "query": "Coffee brands",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
           },
           {
             "query": "Coffee beans",
@@ -244,33 +240,37 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
-            "query": "Coffee starbucks",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+starbucks"
-          },
-          {
             "query": "Coffee powder",
             "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
+          },
+          {
+            "query": "Coffee benefits",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
+          },
+          {
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           }
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=10&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8NMDegQITxAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0769902f71503f71&gl=us&hl=en&ei=PNUtavfoL9XY5NoPtNDA0A0&start=10&sa=N&sstk=AU9db-Bw4Qz8tXyGLgcfNi8_JjXNP2KXpqn-eamCRu4xJIBmLwM3vwdl7ub3qckbiwA5WiYGTTqzWs8eTn-IqnGfIzsON7WprTh1pQ&ved=2ahUKEwj39vrXnYWVAxVVLFkFHTQoENoQ8NMDegQIZBAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=10&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=20&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=30&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=40&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=50&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=60&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=70&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=80&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=90&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0769902f71503f71&gl=us&hl=en&ei=PNUtavfoL9XY5NoPtNDA0A0&start=10&sa=N&sstk=AU9db-Bw4Qz8tXyGLgcfNi8_JjXNP2KXpqn-eamCRu4xJIBmLwM3vwdl7ub3qckbiwA5WiYGTTqzWs8eTn-IqnGfIzsON7WprTh1pQ&ved=2ahUKEwj39vrXnYWVAxVVLFkFHTQoENoQ8tMDegQIZBAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0769902f71503f71&gl=us&hl=en&ei=PNUtavfoL9XY5NoPtNDA0A0&start=20&sa=N&sstk=AU9db-Bw4Qz8tXyGLgcfNi8_JjXNP2KXpqn-eamCRu4xJIBmLwM3vwdl7ub3qckbiwA5WiYGTTqzWs8eTn-IqnGfIzsON7WprTh1pQ&ved=2ahUKEwj39vrXnYWVAxVVLFkFHTQoENoQ8tMDegQIZBAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0769902f71503f71&gl=us&hl=en&ei=PNUtavfoL9XY5NoPtNDA0A0&start=30&sa=N&sstk=AU9db-Bw4Qz8tXyGLgcfNi8_JjXNP2KXpqn-eamCRu4xJIBmLwM3vwdl7ub3qckbiwA5WiYGTTqzWs8eTn-IqnGfIzsON7WprTh1pQ&ved=2ahUKEwj39vrXnYWVAxVVLFkFHTQoENoQ8tMDegQIZBAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0769902f71503f71&gl=us&hl=en&ei=PNUtavfoL9XY5NoPtNDA0A0&start=40&sa=N&sstk=AU9db-Bw4Qz8tXyGLgcfNi8_JjXNP2KXpqn-eamCRu4xJIBmLwM3vwdl7ub3qckbiwA5WiYGTTqzWs8eTn-IqnGfIzsON7WprTh1pQ&ved=2ahUKEwj39vrXnYWVAxVVLFkFHTQoENoQ8tMDegQIZBAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0769902f71503f71&gl=us&hl=en&ei=PNUtavfoL9XY5NoPtNDA0A0&start=50&sa=N&sstk=AU9db-Bw4Qz8tXyGLgcfNi8_JjXNP2KXpqn-eamCRu4xJIBmLwM3vwdl7ub3qckbiwA5WiYGTTqzWs8eTn-IqnGfIzsON7WprTh1pQ&ved=2ahUKEwj39vrXnYWVAxVVLFkFHTQoENoQ8tMDegQIZBAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0769902f71503f71&gl=us&hl=en&ei=PNUtavfoL9XY5NoPtNDA0A0&start=60&sa=N&sstk=AU9db-Bw4Qz8tXyGLgcfNi8_JjXNP2KXpqn-eamCRu4xJIBmLwM3vwdl7ub3qckbiwA5WiYGTTqzWs8eTn-IqnGfIzsON7WprTh1pQ&ved=2ahUKEwj39vrXnYWVAxVVLFkFHTQoENoQ8tMDegQIZBAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0769902f71503f71&gl=us&hl=en&ei=PNUtavfoL9XY5NoPtNDA0A0&start=70&sa=N&sstk=AU9db-Bw4Qz8tXyGLgcfNi8_JjXNP2KXpqn-eamCRu4xJIBmLwM3vwdl7ub3qckbiwA5WiYGTTqzWs8eTn-IqnGfIzsON7WprTh1pQ&ved=2ahUKEwj39vrXnYWVAxVVLFkFHTQoENoQ8tMDegQIZBAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0769902f71503f71&gl=us&hl=en&ei=PNUtavfoL9XY5NoPtNDA0A0&start=80&sa=N&sstk=AU9db-Bw4Qz8tXyGLgcfNi8_JjXNP2KXpqn-eamCRu4xJIBmLwM3vwdl7ub3qckbiwA5WiYGTTqzWs8eTn-IqnGfIzsON7WprTh1pQ&ved=2ahUKEwj39vrXnYWVAxVVLFkFHTQoENoQ8tMDegQIZBAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0769902f71503f71&gl=us&hl=en&ei=PNUtavfoL9XY5NoPtNDA0A0&start=90&sa=N&sstk=AU9db-Bw4Qz8tXyGLgcfNi8_JjXNP2KXpqn-eamCRu4xJIBmLwM3vwdl7ub3qckbiwA5WiYGTTqzWs8eTn-IqnGfIzsON7WprTh1pQ&ved=2ahUKEwj39vrXnYWVAxVVLFkFHTQoENoQ8tMDegQIZBAU"
           }
         }
       }
     }
   },
-  "requestId": "df77d496-9bf2-461e-802a-22df33806a48",
-  "timestamp": 1781385440752,
-  "recordTime": "2026-06-14 05:17:20"
+  "requestId": "f887b17c-7fd4-4e3f-9dfc-8bcfa90c3832",
+  "timestamp": 1781389407588,
+  "recordTime": "2026-06-14 06:23:27"
 }
