@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-13 20:10:03",
+    "checkedAt": "2026-06-13 21:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.62,
-          "total_results": 3010000,
+          "time_taken": 0.39,
+          "total_results": 3030000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,20 +24,20 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Haute Dulce",
-            "rating": "4.9",
-            "reviews": "1.6K",
-            "address": "4.9(1.6K) · $10–20 · Coffee shop",
-            "hours": "700 Plaza Dr Ste 137d",
+            "title": "Aromas",
+            "rating": "5.0",
+            "reviews": "81",
+            "address": "5.0(81) · $10–20 · Coffee shop",
+            "hours": "Union City, NJ",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Roast & C.R.E.A.M.",
-            "rating": "4.6",
-            "reviews": "236",
-            "address": "4.6(236) · $10–20 · Coffee shop",
-            "hours": "Union City, NJ",
+            "title": "Haute Dulce",
+            "rating": "4.9",
+            "reviews": "1.6K",
+            "address": "4.9(1.6K) · $10–20 · Coffee shop",
+            "hours": "Secaucus, NJ",
             "links": {}
           },
           {
@@ -71,8 +71,21 @@
             "page_rank": 1
           },
           {
+            "title": "r/Coffee",
+            "link": "https://www.reddit.com/r/Coffee/",
+            "displayed_link": "2.4M+ followers",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAhFBMVEVHcEz/RQD/RQD/RQD/RQD/RQD/RQD/RQD/RQD/PQD/NgD+XS32dlf5vK3////64dusLADUz9H+jXLOPAoSHiFrLBm3uLn3/f7jVS/b6e77pJDJo6H718//RQDw9ffs5+jm8fPIXlHqKwD5+PjolIP/VgP/SQLQ2uAyODvQ4ekABAhqcHK4ptuCAAAAHnRSTlMAPobB7P9mHdb//////////////////////////8J6YdtgAAABWUlEQVR4AWySYZNDMBCGWyw2SI9TGnWqILT////dm6Enc+MZH8Qz2V3Je/rj7Lgekec659N/fIgPnn+yCULaYaYwsCqShYhiQXQ+dJxIedltQDZfqZQyY6K1st3vO78WsiyNDI3zySK/caJUygTMzN7eTnxdBXMcb3+0TsMC30RUJfciqSIs8JCZycHwWV1n2UVuXDKzxsDOySWu5AGVoB/TUh5imhJFpQTNfav7uDcSlBERJLUN9LOLewn6LnpCNS0EyvKg+vLRjVRLUIuxe8hSDYyyLqatyr68jdO6cxpvWGIeDOQQujagNs7YuumbJmYiZz0E3aJvMc95Ps8F+rV6PQQ0JY4XpVqVv0Cu2lYps9HbDp6HRS9Kv1+vt1Z4HeDI/1yZiFMNFIzWqYkChftl8zSkegE6HSYmENgxYYQHRGzUHiLHyh3ModvZo7nHxA71ofwdSnYAAPpVIo4RUPiIAAAAAElFTkSuQmCC",
+            "source": "Reddit · r/Coffee",
+            "snippet": "thread where you can share what you are brewing or ask for bean recommendations. This is a place to share and talk about your favorite coffee roasters or beans.Read more",
+            "highlighted_keywords": [
+              "thread where you can share what you are brewing"
+            ],
+            "rank": 2,
+            "page_rank": 2
+          },
+          {
             "title": "Fresh Coffee Beans, Roasted-to-Order!",
-            "link": "https://brooklynlabcoffee.com/collections/all-coffee?srsltid=AfmBOop23JLI6iz7O2YG1rzT8Bp-kO3ChHeYbThlm2XXbZD9CDY2NqIn",
+            "link": "https://brooklynlabcoffee.com/collections/all-coffee?srsltid=AfmBOop4ovpLjm2s612rHc20M9omhUuzUnmpx5k9E8uz2LT5_cCuDizE",
             "displayed_link": "https://brooklynlabcoffee.com › collections › all-coffee",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABNklEQVR4AdTMIWzDMBAF0G+ffcgwtLicBBSWFQUFmgRHMgsJMg2Ygo0DDctlEBAYZByucDx3YJOmanyf3N1/0uF9BARg/g/ihUJLSQQthVKClFFlyLKUrQIRAwzBihWMAbNgLQnlKFDy6z2Z77JZJvcx910c6rDcBtf7R2+HMLimoD9TzOu6TnEPYc15SP3jjOnIAxfcU84xp/55+uHYjjnN2Ge/nyMAm5apq5c2+Tpt99CGWKjtXLAAGgcsVxv9BT8xFwYM1BQxnGM4NgeSDEW4NN3o+vFuAL/Z574+c/JgaEiJm2u9teMNgI1zcHMIUwtoBjNqW9vm0V4NWFaVBipjFJPS+uUAAaWDhvk62chXSVKwKqZYF4TQmkmAlIAhkC7CpKUUBd9HkPgDpfgcqToRkrSzEwDVQ13mbIZpgQAAAABJRU5ErkJggg==",
             "source": "Brooklyn Lab Coffee",
@@ -93,8 +106,8 @@
                 ]
               }
             },
-            "rank": 2,
-            "page_rank": 2
+            "rank": 3,
+            "page_rank": 3
           },
           {
             "title": "Starbucks Coffee Company",
@@ -106,21 +119,34 @@
             "highlighted_keywords": [
               "Explore our menu of handcrafted drinks"
             ],
-            "rank": 3,
-            "page_rank": 3
-          },
-          {
-            "title": "Coffee and Tea Buying Guides",
-            "link": "https://www.seriouseats.com/coffee-and-tea-buying-guides-7105482",
-            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
-            "source": "Serious Eats",
-            "snippet": "These buying guides will you help decide which coffee and tea gear you need to make the perfect cup and how to get the most out of the gadgets you own.",
-            "highlighted_keywords": [
-              "decide which coffee and tea gear you need"
-            ],
             "rank": 4,
             "page_rank": 4
+          },
+          {
+            "title": "What Happens to Your Body When You Drink Coffee Every ...",
+            "link": "https://www.health.com/effects-of-drinking-coffee-every-morning-11993027",
+            "displayed_link": "https://www.health.com › Wellness › Nutrition › Eat Well",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEX////+/P+Zevd+VfV8U/Wrkvh3TPRMAPGObPZ5UPRTEfJRCvKRcPaUdPa9qvl/WvTTxvuFXvWFYfWynfhXGvLp4/3FtPrLvftjL/Py7f759v9rPvOKafaghfexmvmjiPepdfgnAAAAbElEQVR4Ac0RtQGAMAyP4e78fyW0Kw5TLe6xTD2243r+pTIAwEslsYS/lZEVYxKlp0rOchAGKM6UZQkAGlZnSqG6yaQE/yxs21lWP5wUpgsaNYHCZF+1EpqrPFkZAgQH5TSOsybmcVy00sizAQsVBuK3sYPUAAAAAElFTkSuQmCC",
+            "source": "Health: Trusted and Empathetic Health and Wellness Information",
+            "snippet": "Coffee can boost energy, support heart health, lower diabetes risk, and may even help you live longer. But too much coffee can trigger digestive issues, ...Read more",
+            "highlighted_keywords": [
+              "Coffee can boost energy, support heart health, lower diabetes risk"
+            ],
+            "rank": 5,
+            "page_rank": 5
+          },
+          {
+            "title": "Buy Coffee, Tea, Powders Online | The Coffee Bean & Tea ...",
+            "link": "https://www.coffeebean.com/",
+            "displayed_link": "https://www.coffeebean.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEVHcExTLG1TLG1TLG1TLW1TLG1TLG1TLW1TLG1TLG1TLG30H49eAAAAC3RSTlMAFT5uyLedLN38V4AViBkAAADiSURBVHgBlZAlYgIAAAAPl4JLm3Zcy1zifGtzLbi2uaQ5UnC+iWvk2sU7JkfrcMxAH93qweWatW+yJ49GE3kKAgCpEwBjBgBkeeI5K/iCmADzifL96QukS5FnwEnyaXMRBAdrNhCskHz/DSJzrZXUINxAeVVCeLFbT0yDaBs0QtnmndpQVLf0FEj6r8Fopavx2gdpDB3dFtSe00HhC4YiILxzrU9D9IH5aUC5txsUzFAt4gJ0e5dquLD5ETwCRx79CSR/rUgXgRCyHxC4i62EscCvfv7qWD66vf6c/jr/DBPTBBH3MWVXMDuJAAAAAElFTkSuQmCC",
+            "source": "The Coffee Bean & Tea Leaf",
+            "snippet": "Buy exceptional coffee, tea, powders, equipment and drinkware at The Coffee Bean & Tea Leaf® online store to enjoy our globally sourced products at home.",
+            "highlighted_keywords": [
+              "Buy exceptional coffee, tea, powders, equipment and drinkware"
+            ],
+            "rank": 6,
+            "page_rank": 6
           },
           {
             "title": "What is coffee? - NCA",
@@ -132,25 +158,12 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 5,
-            "page_rank": 5
-          },
-          {
-            "title": "Kobrick Coffee | Fresh Roasted Coffee | Small Batch ... - NYC",
-            "link": "https://www.kobricks.com/",
-            "displayed_link": "https://www.kobricks.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABiUlEQVR4AXzRIYysMBSF4eOTJhN8kCjMqLomNShGVY6oJ/hgVmHQdauQ2FH4pApZiUOicLXta4cSVr3f3XziNr3w/+lE982n0nShXbRejkv3MJk4JZSUtmsyN3LK1e4v9BLotm2Z51mvMw/D6m5skDW9YGVRvLoKGA7vb2yRCQZk+fNNAVGrzbqEVnE82snYY18Eyd4CyD4JD5VRkJ9llJSULyG0aXJl/RfdpwTF41URzimraF5Nh9rSzq0BGAgVQ89K2s99+fGHO9FpikaAyHl6AdK4bbYBTrQjwSzDzqkG0Mff8zcqlKYBYRQhtlxyYb40iFU58F6ddTdOOUYZiMh9AjK1jsa7hN5UYFWw5+9u48O7Qtp1T3gMD9BgjHXTbwE8Rb+26jjRmXfEdpRlTuugw9yiGG3EoEsdUa9G60VxLiqAjkfEqIcEYZw3alSyyAAM6SrpnoRzfHvkRf3xsRvR6Ul1XTdMY1dgsn+wLZ4/uz9bZVkK7W40Whub0K1a6+0P/hsWQJEkAEJtEmLxNKraAAAAAElFTkSuQmCC",
-            "source": "Kobrick Coffee",
-            "snippet": "Fresh roasted coffee direct from the roasting plant. Barista Shop. Hand roasted in small batches by four generations of Kobricks.",
-            "highlighted_keywords": [
-              "Fresh roasted coffee direct from the roasting plant"
-            ],
-            "rank": 6,
-            "page_rank": 6
+            "rank": 7,
+            "page_rank": 7
           },
           {
             "title": "Rook Coffee",
-            "link": "https://rookcoffee.com/collections/coffee?srsltid=AfmBOoogyZK9GZyZDic4Ma68Letq5pjsPC6L8b1CbhOi6AJxKa9K0mF-",
+            "link": "https://rookcoffee.com/collections/coffee?srsltid=AfmBOooOrnwXRjCxS23qJxX4rUQa2Vut1H16ETY1WM5DrTfG_g44NpnK",
             "displayed_link": "https://rookcoffee.com › collections › coffee",
             "favicon": "data:image/png;base64,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",
             "source": "Rook Coffee",
@@ -174,64 +187,38 @@
                 ]
               }
             },
-            "rank": 7,
-            "page_rank": 7
-          },
-          {
-            "title": "Coffee | Origin, Types, Uses, History, & Facts",
-            "link": "https://www.britannica.com/topic/coffee",
-            "displayed_link": "https://www.britannica.com › ... › Food",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
-            "source": "Britannica",
-            "snippet": "Coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant of African origin. Coffee is one of the ...",
-            "highlighted_keywords": [
-              "Coffee",
-              "coffee",
-              "Coffee"
-            ],
             "rank": 8,
             "page_rank": 8
           },
           {
-            "title": "Scooter's Coffee | Be Amazing",
-            "link": "https://www.scooterscoffee.com/",
-            "displayed_link": "https://www.scooterscoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAHhklEQVR4AdVXA7T0Wg+9z7Zt27Zt27bt9z7bto1r27bNYUftTNv9Z6+5q/f//IyslUEPsrOTc5JG/KcEwA6ih4peIvqw6Mv9+pjo5aJHiO74Zxul7id6r+lyTw0Vl1doqyJd6twlIf/wCfAPHQd1zmJdW7FOCRWW1ph25xyYJsEdKPqHje8qm91vtHUkqPOW+D0vvAPnFbfDceaVcJx22YZ6xhVwXnYrlKdfR2D6PFVvasmAYTwBYPffa/xQ0+sbpa2OdCsPvwDHWVfR0K/TM6+A+96noC5a4TXdynQAR4n+JuNHGzb7av+Qsbrzohs38NJ1w33wvPkJ/KMmQZ23FOr8ZfCPmQLvO5/DdfODG7DjPO86+L4eZAiD8QBOF/1Vxg+jcd83gwzH2f1en3453Hc9jsDk2QjlFMBoaYPR1QPJCYiH/A2jtQOh/GIEZi2E+4FnCdYC7XnrU9NobU8AcOw2Yy60j/EPGaNbxs++Gt7Pf0QorwhGZzdkHDBNbCKmCdPng9HRBUlG+L4bAuf511sgfF/9YpgO52wAe205203zIW3lesV54Q2Wcf/gMdCr6+gtjeDXiKl4oNc3ITBpJpwXhEE4z72G4QpA158HsN3mAOwv1Ka4H3zWot33xU80Tq9B4W+9ph56bQP0xmYCosfQq2oRKiqzxilmQIVe1wDfTyOsvHDf9gjnFDMpNwVgmg9K/FRr8j1PMqZhz/tFXbYGWmwStPVxCKZmwVRVhEoroUXGcQzCHtSFKwDDAMX0eKGXVUJ5/BXLqcC4aSHoxssALM/vFH1ZDMUqz77JiUSMwLR5jPmG1NqdMPrskFiGgWmagBAVhugxqTdsjg3WMEHVBcvhOOeasGP3PS3PunMAvCr6QEQwIzegxSQSvRylz+B58R143/8KekU1TL8ff1TIEsPl+/Jn7g3P6x9BXbwStBlMSA1GBONTiB5Knw3O7h4ugOrxwC7/FUWBaZpQAwHY7XaoMkYxhGKXywW32w1d1+GwO2Cz2ahcA1tfH+fD5/PxN1xOJ3TZg/v7hD1bRyeCwhrDFRFMTENTYyPWrF6N/Px8tLW1ISU5GU1NTchMz0BZaRkyMzJQV1uLFcuWo7u7G2mpqfyPpMQkxMfGITcnF7NnzuI8KqZNnYr8vDxUVlRg1IiRSExI4J5YMG8+li5ezDHuI0ysCgNoa23FoJ9/lgWVmDVjBooKC0Ghx9OnTkN9XT0oUesjMXrkSKxYvhwUp3g2cvhwBMS7+XPn0mt0d3Vjwrhx3AMOhwNDBg0mYKxft05A12HMqFECXOgPBgcAhEIhMVKHQT/9jB+++w4F+QWgkF4uqCgvByUxPgEjhg3HjGnTGRrSjYnjx0suagQApyMciskTJ6G6qooA8ctPP2HalKmoqa5m6NAnIRk7ejSys7IGADQ0NKCkuARzZ89GTnY2li9bhmYJAX9npKdj6ZIlYJgS4uPR2dmJxQsXoaSkhFRKiEpBADOnT0dXVxc6OjqEgfF0SFgokhCMQGlJiVC/BD09PcjKzETk+vUoLCjsBxCXDNXpQk9LC5TeXjDzFZsdvRIjUkjUDqG2XXKDyUi2vF4vCKRH5pB+MtHW2gbOZ2ISPMEwUXtlT01V4eqRb7eCPtnH1t4B3cckXI6IUEm5J5iaqUuTYXpeeg/Kk6/JMfwSvNF4OmgsLzeXYRDUBSgqKgITKiEuHmQqOjIKy4QhxphMkZV1a9dKCKoBisRaChG8cqtyb+W5t6AuXW3SZigrzxcB4DrRx+WCSVIeedGqAVLLYfT0gfTFxsSATERFRhII4yuxnyCxngiOkXKOjRs7Fsz8WTNngjGnGL190FZHWTXBffsj0Ctr6uQ2HSEX2p1WIRILz/nlmuR1yYnKU6+B12hnfQNWr1yJ+vp6xERHIy4mlglEL6nM9vARzsvHEjlizHge12JhSlMUGoPn5fetHsE/aLShNzQPkgp5pfzf5f+L0eFSKArdtz1sXcf+YeOg1zXCLZnL7Ga8mdmKxJmXDOPt9/vD3/Kf8WYe8Nspa/TmVukhZoGVkHu6rrmbpboBpnmq/N9edINquB10/TUpSAHHOVeDC9gNsSawtJo+P36tMHekskoYV7KHHKgv46eHoGmfANh+Sz3B3lJwFno//tYUiiwQbL9IpSGZzKTaogRDYMxZngNT5gwYP/0yeF79gKU7CsDB2+qKTjGaW3O4wHFGOB/YHXmefxssWOwFpMejIVY/llz5bYPR3gmOaWujacyincaVJ16hAyUAzhH9Ve8B5wuIfO97X5o0bjWZ518ntf1l+H4YhsDMhQhKb8BiJu8F8P08Esozb8B54UATS9o9r3wglVWMm+aVG3RCvwLE6eLlKqFSc11/L/pPh6X8Ty+pm4yJuq6+E/6xU3VhJgbAub/S+KZtmsT8XXkbqpYW3XDf8Sj6E3SzSrbYmvt+HG5KN9Ukpf0zAIfQod8tRC56IkKh9/Wm1hQtKt4WmDRLly4Xnjc+BhsM9o6BCTMMuVwcen1jlmQ6DZ8uusOf/Y64N/ND9AkY5ptSN36R4zkYhvEWgKdFLxbdD6T7vyL/A9802mUZpwIWAAAAAElFTkSuQmCC",
-            "source": "Scooter's Coffee",
-            "snippet": "Wake up to the ahhh-mazing aroma of quality. Subscribe to Scooter's Coffee® delivery and enjoy 100% Arabica beans, sourced directly from farmers.Read more",
+            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
+            "link": "https://www.discountcoffee.com/",
+            "displayed_link": "https://www.discountcoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
+            "source": "DiscountCoffee.com",
+            "snippet": "Buy Breakroom Coffee Supplies, Starbucks, k-cup, pods, tea, sugar, creamer, hot chocolate, cappuccino. Free UPS Ground to homes & businesses nationwide.",
             "highlighted_keywords": [
-              "100% Arabica beans, sourced directly from farmers"
+              "Breakroom Coffee Supplies"
             ],
             "rich_snippet": {
               "bottom": {
-                "detected_extensions": {},
+                "detected_extensions": {
+                  "price_from": "$5",
+                  "price_to": "$139",
+                  "currency": "$"
+                },
                 "extensions": [
-                  "Free delivery over $39"
+                  "$5 to $139",
+                  "Free delivery over $59",
+                  "30-day returns"
                 ]
               }
             },
             "rank": 9,
             "page_rank": 9
-          },
-          {
-            "title": "What Happens to Your Body When You Drink Coffee Every ...",
-            "link": "https://www.health.com/effects-of-drinking-coffee-every-morning-11993027",
-            "displayed_link": "https://www.health.com › Wellness › Nutrition › Eat Well",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEX////+/P+Zevd+VfV8U/Wrkvh3TPRMAPGObPZ5UPRTEfJRCvKRcPaUdPa9qvl/WvTTxvuFXvWFYfWynfhXGvLp4/3FtPrLvftjL/Py7f759v9rPvOKafaghfexmvmjiPepdfgnAAAAbElEQVR4Ac0RtQGAMAyP4e78fyW0Kw5TLe6xTD2243r+pTIAwEslsYS/lZEVYxKlp0rOchAGKM6UZQkAGlZnSqG6yaQE/yxs21lWP5wUpgsaNYHCZF+1EpqrPFkZAgQH5TSOsybmcVy00sizAQsVBuK3sYPUAAAAAElFTkSuQmCC",
-            "source": "Health: Trusted and Empathetic Health and Wellness Information",
-            "snippet": "Coffee can boost energy, support heart health, lower diabetes risk, and may even help you live longer. But too much coffee can trigger digestive issues, ...Read more",
-            "highlighted_keywords": [
-              "Coffee can boost energy, support heart health, lower diabetes risk"
-            ],
-            "rank": 10,
-            "page_rank": 10
           }
         ],
         "relatedSearches": [
-          {
-            "query": "Coffee types",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+types"
-          },
           {
             "query": "Coffee nearby",
             "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
@@ -239,6 +226,14 @@
           {
             "query": "Coffee brands",
             "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
+          },
+          {
+            "query": "Coffee types",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+types"
+          },
+          {
+            "query": "Coffee Walmart",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
           },
           {
             "query": "Coffee beans",
@@ -249,37 +244,33 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
+            "query": "Coffee starbucks",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+starbucks"
+          },
+          {
             "query": "Coffee powder",
             "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
-          },
-          {
-            "query": "Coffee benefits",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
-          },
-          {
-            "query": "Coffee NESCAFÉ",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           }
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=48277157c5478a00&gl=us&hl=en&ei=Gbktat7VErik5NoPotGZ6As&start=10&sa=N&sstk=AU9db-Bk2_aN5Ieu0zPKJ1X5dbvEx0RTL8qKpsQHsWnynEZP6DGwDFG0BL3VJCQaZhPZ0aHn6uxp9BizfyYF--8exUxLThAQdgO6vQ&ved=2ahUKEwiexontgoWVAxU4ElkFHaJoBr0Q8NMDegQITRAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=10&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8NMDegQITxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=48277157c5478a00&gl=us&hl=en&ei=Gbktat7VErik5NoPotGZ6As&start=10&sa=N&sstk=AU9db-Bk2_aN5Ieu0zPKJ1X5dbvEx0RTL8qKpsQHsWnynEZP6DGwDFG0BL3VJCQaZhPZ0aHn6uxp9BizfyYF--8exUxLThAQdgO6vQ&ved=2ahUKEwiexontgoWVAxU4ElkFHaJoBr0Q8tMDegQITRAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=48277157c5478a00&gl=us&hl=en&ei=Gbktat7VErik5NoPotGZ6As&start=20&sa=N&sstk=AU9db-Bk2_aN5Ieu0zPKJ1X5dbvEx0RTL8qKpsQHsWnynEZP6DGwDFG0BL3VJCQaZhPZ0aHn6uxp9BizfyYF--8exUxLThAQdgO6vQ&ved=2ahUKEwiexontgoWVAxU4ElkFHaJoBr0Q8tMDegQITRAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=48277157c5478a00&gl=us&hl=en&ei=Gbktat7VErik5NoPotGZ6As&start=30&sa=N&sstk=AU9db-Bk2_aN5Ieu0zPKJ1X5dbvEx0RTL8qKpsQHsWnynEZP6DGwDFG0BL3VJCQaZhPZ0aHn6uxp9BizfyYF--8exUxLThAQdgO6vQ&ved=2ahUKEwiexontgoWVAxU4ElkFHaJoBr0Q8tMDegQITRAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=48277157c5478a00&gl=us&hl=en&ei=Gbktat7VErik5NoPotGZ6As&start=40&sa=N&sstk=AU9db-Bk2_aN5Ieu0zPKJ1X5dbvEx0RTL8qKpsQHsWnynEZP6DGwDFG0BL3VJCQaZhPZ0aHn6uxp9BizfyYF--8exUxLThAQdgO6vQ&ved=2ahUKEwiexontgoWVAxU4ElkFHaJoBr0Q8tMDegQITRAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=48277157c5478a00&gl=us&hl=en&ei=Gbktat7VErik5NoPotGZ6As&start=50&sa=N&sstk=AU9db-Bk2_aN5Ieu0zPKJ1X5dbvEx0RTL8qKpsQHsWnynEZP6DGwDFG0BL3VJCQaZhPZ0aHn6uxp9BizfyYF--8exUxLThAQdgO6vQ&ved=2ahUKEwiexontgoWVAxU4ElkFHaJoBr0Q8tMDegQITRAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=48277157c5478a00&gl=us&hl=en&ei=Gbktat7VErik5NoPotGZ6As&start=60&sa=N&sstk=AU9db-Bk2_aN5Ieu0zPKJ1X5dbvEx0RTL8qKpsQHsWnynEZP6DGwDFG0BL3VJCQaZhPZ0aHn6uxp9BizfyYF--8exUxLThAQdgO6vQ&ved=2ahUKEwiexontgoWVAxU4ElkFHaJoBr0Q8tMDegQITRAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=48277157c5478a00&gl=us&hl=en&ei=Gbktat7VErik5NoPotGZ6As&start=70&sa=N&sstk=AU9db-Bk2_aN5Ieu0zPKJ1X5dbvEx0RTL8qKpsQHsWnynEZP6DGwDFG0BL3VJCQaZhPZ0aHn6uxp9BizfyYF--8exUxLThAQdgO6vQ&ved=2ahUKEwiexontgoWVAxU4ElkFHaJoBr0Q8tMDegQITRAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=48277157c5478a00&gl=us&hl=en&ei=Gbktat7VErik5NoPotGZ6As&start=80&sa=N&sstk=AU9db-Bk2_aN5Ieu0zPKJ1X5dbvEx0RTL8qKpsQHsWnynEZP6DGwDFG0BL3VJCQaZhPZ0aHn6uxp9BizfyYF--8exUxLThAQdgO6vQ&ved=2ahUKEwiexontgoWVAxU4ElkFHaJoBr0Q8tMDegQITRAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=48277157c5478a00&gl=us&hl=en&ei=Gbktat7VErik5NoPotGZ6As&start=90&sa=N&sstk=AU9db-Bk2_aN5Ieu0zPKJ1X5dbvEx0RTL8qKpsQHsWnynEZP6DGwDFG0BL3VJCQaZhPZ0aHn6uxp9BizfyYF--8exUxLThAQdgO6vQ&ved=2ahUKEwiexontgoWVAxU4ElkFHaJoBr0Q8tMDegQITRAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=10&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=20&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=30&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=40&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=50&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=60&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=70&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=80&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=06a710407300764b&gl=us&hl=en&ei=KMctaturN-ajptQP_OjWIA&start=90&sa=N&sstk=AU9db-BydodDJK94Ove8eIGCULPvQsDPOJzdX1ttU5s0UBp7nZkx5XBvz9hnP0KnJYQ6cV_HT7fwzNfW6a9uSjw5FMcCQS0HUXjhgw&ved=2ahUKEwjb37-hkIWVAxXmkYkEHXy0FQQQ8tMDegQITxAU"
           }
         }
       }
     }
   },
-  "requestId": "b838d325-d9d7-42d4-948d-e7a1bb5c9a9c",
-  "timestamp": 1781384404155,
-  "recordTime": "2026-06-14 05:00:03"
+  "requestId": "df77d496-9bf2-461e-802a-22df33806a48",
+  "timestamp": 1781385440752,
+  "recordTime": "2026-06-14 05:17:20"
 }
