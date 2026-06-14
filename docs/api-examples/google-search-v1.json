@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-14 14:10:02",
+    "checkedAt": "2026-06-14 15:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.47,
-          "total_results": 2960000,
+          "time_taken": 0.43,
+          "total_results": 3010000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,29 +24,29 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Ludlow Coffee Co.",
-            "rating": "4.7",
-            "reviews": "80",
-            "address": "4.7(80) · $10–20 · Coffee shop",
-            "hours": "Ludlow, MA",
+            "title": "EL TINY CAFE",
+            "rating": "4.9",
+            "reviews": "156",
+            "address": "4.9(156) · $10–20 · Coffee shop",
+            "hours": "Berkeley, CA",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Mocha Coffee Trade Company",
-            "rating": "4.6",
-            "reviews": "28",
-            "address": "4.6(28) · $1–10 · Coffee shop",
-            "hours": "Springfield, MA",
+            "title": "The Line Coffee",
+            "rating": "4.7",
+            "reviews": "112",
+            "address": "4.7(112) · $1–10 · Coffee shop",
+            "hours": "Berkeley, CA",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Monsoon Roastery Specialty Coffee Roasters",
-            "rating": "4.9",
-            "reviews": "249",
-            "address": "4.9(249) · Coffee roastery",
-            "hours": "Springfield, MA",
+            "title": "Nomad Cafe",
+            "rating": "4.6",
+            "reviews": "345",
+            "address": "4.6(345) · $10–20 · Coffee shop",
+            "hours": "Oakland, CA",
             "links": {}
           }
         ],
@@ -60,11 +60,11 @@
             "rank": 2
           },
           {
-            "question": "What kind of coffee is good for the liver?",
+            "question": "What coffee is good for gastritis?",
             "rank": 3
           },
           {
-            "question": "What coffee is good for gastritis?",
+            "question": "Is coffee good for fatty liver?",
             "rank": 4
           }
         ],
@@ -128,17 +128,75 @@
             "page_rank": 4
           },
           {
-            "title": "Coffee Emporium | Enjoy Quality Coffee - Join Us ... - Cincinnati",
-            "link": "https://www.coffee-emporium.com/",
-            "displayed_link": "https://www.coffee-emporium.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAMAAABn0dyjAAAAb1BMVEVHcEwjIyMeHh4FBQUAAAADAwMcHBxlZWXIyMiUlJTp6ekgICAeHh4WFhYEBAQQEBAtLS0aGhobGxsjIyMAAAA+Pj4iIiI7OzswMDAUFBQSEhIrKyssLCxGRkYDAwM/Pz9sbGwfHx8REREzMzPY2NgkbiD6AAAAJXRSTlMAb9T8//aUIwcTAoeuwP/RU+mdwe05zZfU7/jJRgfgFxPw/2IQEJS6nQAAASNJREFUeAFtkQeugzAQRB8x1SEOP/ROyv2vmLJiJRB/KN4ZPXcAvJPx/eAURojixMZRYoEkATgbX5UCcPHdt3bGOElSf6MLwHUTpGT+Th7wt/E3cmmLsnRSVAoEtSijkTyDUIoWbPcrekSsQAKDFAWMbgdMklsYZOmNArkCxTowzF8twGh0x6Lg5+5sNEqUM8dxrIA5An7nuketUzh7BL6pu+kILt4Czlf9DywCmGvfp0+gF8cB6LFgLeRyroDKzv7uHHoFWObX6wVER0DWYI17PB75AcjFRpDobS7+7iRvYs/w1Hx0ukNAL9F4XiDFU687jcd5iaIRWn8jZ8He11p+kG0BDwVUwBCouZQAo1oFIEtPk5nOCyIb5tVUTH3e902TfgCYcBRJJM8rZgAAAABJRU5ErkJggg==",
-            "source": "Coffee Emporium",
-            "snippet": "We invest in relationships from seed to cup. We buy coffee directly from farmers to ensure that they receive top dollar for their hard work and quality coffee.Read more",
+            "title": "Coffee | Origin, Types, Uses, History, & Facts",
+            "link": "https://www.britannica.com/topic/coffee",
+            "displayed_link": "https://www.britannica.com › ... › Food",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
+            "source": "Britannica",
+            "snippet": "What is coffee? Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three ...Read more",
             "highlighted_keywords": [
-              "We buy coffee directly from farmers"
+              "coffee",
+              "Coffee",
+              "coffee",
+              "Coffee"
             ],
             "rank": 5,
             "page_rank": 5
+          },
+          {
+            "title": "Black Rifle Coffee Company",
+            "link": "https://www.blackriflecoffee.com/?srsltid=AfmBOooJNbflrgmrXBa6nMvAsYFUc2ChpEfYbXJfQ6sakOI-j7xr7VWO",
+            "displayed_link": "https://www.blackriflecoffee.com",
+            "source": "Black Rifle Coffee Company",
+            "snippet": "Official Site of Black Rifle — America's Fastest Growing Coffee Brand. Coffee, Apparel & Gear for those who love freedom. Serving Premium Coffee & Culture ...",
+            "highlighted_keywords": [
+              "America's Fastest Growing Coffee Brand"
+            ],
+            "rank": 6,
+            "page_rank": 6
+          },
+          {
+            "title": "La Colombe Coffee Workshop - Buy Coffee Online",
+            "link": "https://www.lacolombe.com/?srsltid=AfmBOopm7j6fSYjBUWpJ7Bt47bggGk4G8bXHnf6XuASuDfe-iTVRjl84",
+            "displayed_link": "https://www.lacolombe.com",
+            "favicon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhAIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Ljc3Nzc3Ly03Nzc1LTc3Ljc3LTc3Nys3LTc1NzcuKzc3Ny01Kzc1KysrN//AABEIABwAHAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAHBQEGAP/EACYQAAEDAwMEAgMAAAAAAAAAAAECAwQABRESITEGB1FhIkEygYL/xAAXAQEAAwAAAAAAAAAAAAAAAAACAQME/8QAGxEAAgIDAQAAAAAAAAAAAAAAAQIAEQMSMSH/2gAMAwEAAhEDEQA/AC7YbniklfaaXMtTdxsd0ZkIeaDiWnxpO4zjUCRmuJ6ZtYvd/YthWpsSllBcQMlHxJ1Y9Y3ps7cNmxSXOl3r7BuC2Gy82zGZUFNDUM61ZIG5Hx5rXlYryUot9ghLs8uEX25jZYkw1hLzK+Rng+6n7fe1MXeyzOMWtE+LHaEdUvXLdLmXFLUAlIwR+Ix5/XJod4p422FwsKNTQopOUqIPkHFVukr4505fmbi0t1LTawH0NYy43n5JwdjmpFePFIi/JEXO83VEW4WSHAgO6xKUmY55CADpBH0STn+aI9vdaok7kk/W5rKKLqKEljZuf//Z",
+            "source": "La Colombe Coffee Workshop",
+            "snippet": "Looking to buy coffee online? La Colombe Coffee Workshop has you covered with our wide variety of products and brewing equipment. Shop now for your coffee ...",
+            "highlighted_keywords": [
+              "La Colombe Coffee Workshop"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {},
+                "extensions": [
+                  "Free delivery over $50",
+                  "30-day returns"
+                ]
+              }
+            },
+            "rank": 7,
+            "page_rank": 7
+          },
+          {
+            "title": "Counter Culture Coffee",
+            "link": "https://counterculturecoffee.com/?srsltid=AfmBOoqxPuPSYTZCTclCJIMn-yZ27_kovz0oUHop1TO31n3J6GMVdSW6",
+            "displayed_link": "https://counterculturecoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACu0lEQVR4AWKgAmAFYm4g5gFiNgY6AA5A6fUAK0kQRWE4XTNr27YZrG3biJbB2rZt27Zt27Zt9f5JKslNJdNvKn2SL7V9213YeSiPpHq7AkagB+rrmkIz5NTbjmit4yCg/50QB7AbUXStDLZiKRrqWj7cwknkhoyyu7mOeIi82IMYogt6YQRi6Vpr3MVKcVx0JA77S4gbNkZt4+lrIjFCJQZyo6qozcZ55LXtjlw4g9niZDMKCJkG+IiRyB7OA0RCNLFdER0t+9ERx8XBcOQ3vq5nn69GozC6SXnUzGsGEWGC6IVGOIcM8mSPz6c8th3bUd8YBzEZUTwuXB1LcRUPcRqTkB++Ex2RjAdTYj3YBjeEfxiHKLBKHKSBjGO0sXEJLn7iD1zhu25vIK44N6w53xN1URrV5VuLdh5cfNPtL6zHBOyDiwuIY7PyKdGnu3EI+XRNiTfIht/4CxdPUAAyNZBKvJh1iomLOsYM6Cg+vYtqYr+yX/Pt/x+YCld7gFgwj1U2004ZF8iIqqiIILwe6i/+gfBAPiLfcAJeYylkgrrtLgaeixK6HtlzBbR4gH44hRmIB3NNLwAXv3V7BSkhU9B2BshER3wEPD7/emMavsEEdMQCuNgF4zz7pICMEvWnctGRRPccRnRYJysqYi0KhliMMuGCufwa26sRA8RuRtTBMzxHPTEIzeMioT2O4BXe4Qk2oKqfLoiMLsjuMZDMWhwkRzSPGwegfI8HGY/BSt1fHERDLvTA7DB+3zsevxOjoiuq23bLBLww1gQdq8/bHIOwzxzY4aSFWFjSYjvSICG8Uh45jHGyU9QcWM+QIXiB/eLPsPgYgOri+HaYj83Ioms5UcTPzRXqYiieihHfEauxTyzLkzESS1HYe6zYJ4HxI2QQWmIZ0oivMkysB46m4CsBmG+SQMuEIKzyH3WCk3OyXiwRAAAAAElFTkSuQmCC",
+            "source": "Counter Culture Coffee",
+            "snippet": "Counter Culture Coffee is a specialty coffee roaster sourcing exceptional single-origin and specialty coffee. Fresh-roasted coffee to your doorstep.",
+            "highlighted_keywords": [
+              "Counter Culture Coffee"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {},
+                "extensions": [
+                  "Free delivery over $30"
+                ]
+              }
+            },
+            "rank": 8,
+            "page_rank": 8
           },
           {
             "title": "Scooter's Coffee | Be Amazing",
@@ -158,65 +216,6 @@
                 ]
               }
             },
-            "rank": 6,
-            "page_rank": 6
-          },
-          {
-            "title": "Counter Culture Coffee",
-            "link": "https://counterculturecoffee.com/?srsltid=AfmBOorLVIZGFuEBhog4C4zxDH4tdQfaatUrn7Etq1Ns6-bpW1Mj8vBR",
-            "displayed_link": "https://counterculturecoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACu0lEQVR4AWKgAmAFYm4g5gFiNgY6AA5A6fUAK0kQRWE4XTNr27YZrG3biJbB2rZt27Zt27Zt9f5JKslNJdNvKn2SL7V9213YeSiPpHq7AkagB+rrmkIz5NTbjmit4yCg/50QB7AbUXStDLZiKRrqWj7cwknkhoyyu7mOeIi82IMYogt6YQRi6Vpr3MVKcVx0JA77S4gbNkZt4+lrIjFCJQZyo6qozcZ55LXtjlw4g9niZDMKCJkG+IiRyB7OA0RCNLFdER0t+9ERx8XBcOQ3vq5nn69GozC6SXnUzGsGEWGC6IVGOIcM8mSPz6c8th3bUd8YBzEZUTwuXB1LcRUPcRqTkB++Ex2RjAdTYj3YBjeEfxiHKLBKHKSBjGO0sXEJLn7iD1zhu25vIK44N6w53xN1URrV5VuLdh5cfNPtL6zHBOyDiwuIY7PyKdGnu3EI+XRNiTfIht/4CxdPUAAyNZBKvJh1iomLOsYM6Cg+vYtqYr+yX/Pt/x+YCld7gFgwj1U2004ZF8iIqqiIILwe6i/+gfBAPiLfcAJeYylkgrrtLgaeixK6HtlzBbR4gH44hRmIB3NNLwAXv3V7BSkhU9B2BshER3wEPD7/emMavsEEdMQCuNgF4zz7pICMEvWnctGRRPccRnRYJysqYi0KhliMMuGCufwa26sRA8RuRtTBMzxHPTEIzeMioT2O4BXe4Qk2oKqfLoiMLsjuMZDMWhwkRzSPGwegfI8HGY/BSt1fHERDLvTA7DB+3zsevxOjoiuq23bLBLww1gQdq8/bHIOwzxzY4aSFWFjSYjvSICG8Uh45jHGyU9QcWM+QIXiB/eLPsPgYgOri+HaYj83Ioms5UcTPzRXqYiieihHfEauxTyzLkzESS1HYe6zYJ4HxI2QQWmIZ0oivMkysB46m4CsBmG+SQMuEIKzyH3WCk3OyXiwRAAAAAElFTkSuQmCC",
-            "source": "Counter Culture Coffee",
-            "snippet": "Counter Culture Coffee is a specialty coffee roaster sourcing exceptional single-origin and specialty coffee. Fresh-roasted coffee to your doorstep.",
-            "highlighted_keywords": [
-              "Counter Culture Coffee"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Free delivery over $30"
-                ]
-              }
-            },
-            "rank": 7,
-            "page_rank": 7
-          },
-          {
-            "title": "La Colombe Coffee Workshop - Buy Coffee Online",
-            "link": "https://www.lacolombe.com/?srsltid=AfmBOoqgnJ6jAAlv6cV0nXVij9ZP-J1PVQ78-VEYMeskyBbVrH9UkFX9",
-            "displayed_link": "https://www.lacolombe.com",
-            "favicon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhAIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Ljc3Nzc3Ly03Nzc1LTc3Ljc3LTc3Nys3LTc1NzcuKzc3Ny01Kzc1KysrN//AABEIABwAHAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAHBQEGAP/EACYQAAEDAwMEAgMAAAAAAAAAAAECAwQABRESITEGB1FhIkEygYL/xAAXAQEAAwAAAAAAAAAAAAAAAAACAQME/8QAGxEAAgIDAQAAAAAAAAAAAAAAAQIAEQMSMSH/2gAMAwEAAhEDEQA/AC7YbniklfaaXMtTdxsd0ZkIeaDiWnxpO4zjUCRmuJ6ZtYvd/YthWpsSllBcQMlHxJ1Y9Y3ps7cNmxSXOl3r7BuC2Gy82zGZUFNDUM61ZIG5Hx5rXlYryUot9ghLs8uEX25jZYkw1hLzK+Rng+6n7fe1MXeyzOMWtE+LHaEdUvXLdLmXFLUAlIwR+Ix5/XJod4p422FwsKNTQopOUqIPkHFVukr4505fmbi0t1LTawH0NYy43n5JwdjmpFePFIi/JEXO83VEW4WSHAgO6xKUmY55CADpBH0STn+aI9vdaok7kk/W5rKKLqKEljZuf//Z",
-            "source": "La Colombe Coffee Workshop",
-            "snippet": "Looking to buy coffee online? La Colombe Coffee Workshop has you covered with our wide variety of products and brewing equipment. Shop now for your coffee ...",
-            "highlighted_keywords": [
-              "La Colombe Coffee Workshop"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Free delivery over $50",
-                  "30-day returns"
-                ]
-              }
-            },
-            "rank": 8,
-            "page_rank": 8
-          },
-          {
-            "title": "Coffee | Origin, Types, Uses, History, & Facts",
-            "link": "https://www.britannica.com/topic/coffee",
-            "displayed_link": "https://www.britannica.com › ... › Food",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
-            "source": "Britannica",
-            "snippet": "What is coffee? Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three ...Read more",
-            "highlighted_keywords": [
-              "coffee",
-              "Coffee",
-              "coffee",
-              "Coffee"
-            ],
             "rank": 9,
             "page_rank": 9
           }
@@ -227,28 +226,28 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
           },
           {
-            "query": "Coffee brands",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
-          },
-          {
             "query": "Coffee types",
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
+          },
+          {
+            "query": "Coffee brands",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
           },
           {
             "query": "Coffee Walmart",
             "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
           },
           {
-            "query": "Coffee beans",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
-          },
-          {
             "query": "Coffee name",
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
-            "query": "Coffee Amazon",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Amazon"
+            "query": "Coffee beans",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
+          },
+          {
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           },
           {
             "query": "Coffee - wikipedia",
@@ -257,23 +256,23 @@
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8af115e11c874c1b&gl=us&hl=en&ei=OLYuat_GFKmpptQPw7mGQQ&start=10&sa=N&sstk=AU9db-Acj3qvCadF2K4U5UYluw4GvwXla_QcprUW5-JxfdZHIVbNCzLBPQS83vRC6CMhLcZA1GtD2YEp6smmmT60gdU2v9VG3VMVjQ&ved=2ahUKEwjfwtSf9IaVAxWplIkEHcOcIQgQ8NMDegQIVxAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f6ab685adb5b71a7&gl=us&hl=en&ei=SMQuavexDMmnptQPnPOPiAs&start=10&sa=N&sstk=AU9db-A85GTweci-Vc6d1uMCfz0bQDgflO7YEbP3hqMsKhDvU30Ok5FSLi-aq67vsm7HhOSiDvHIYgcSrsQGNs2GKUCrGW6V-HPvMA&ved=2ahUKEwj39ZrUgYeVAxXJk4kEHZz5A7EQ8NMDegUI1QEQFg",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8af115e11c874c1b&gl=us&hl=en&ei=OLYuat_GFKmpptQPw7mGQQ&start=10&sa=N&sstk=AU9db-Acj3qvCadF2K4U5UYluw4GvwXla_QcprUW5-JxfdZHIVbNCzLBPQS83vRC6CMhLcZA1GtD2YEp6smmmT60gdU2v9VG3VMVjQ&ved=2ahUKEwjfwtSf9IaVAxWplIkEHcOcIQgQ8tMDegQIVxAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8af115e11c874c1b&gl=us&hl=en&ei=OLYuat_GFKmpptQPw7mGQQ&start=20&sa=N&sstk=AU9db-Acj3qvCadF2K4U5UYluw4GvwXla_QcprUW5-JxfdZHIVbNCzLBPQS83vRC6CMhLcZA1GtD2YEp6smmmT60gdU2v9VG3VMVjQ&ved=2ahUKEwjfwtSf9IaVAxWplIkEHcOcIQgQ8tMDegQIVxAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8af115e11c874c1b&gl=us&hl=en&ei=OLYuat_GFKmpptQPw7mGQQ&start=30&sa=N&sstk=AU9db-Acj3qvCadF2K4U5UYluw4GvwXla_QcprUW5-JxfdZHIVbNCzLBPQS83vRC6CMhLcZA1GtD2YEp6smmmT60gdU2v9VG3VMVjQ&ved=2ahUKEwjfwtSf9IaVAxWplIkEHcOcIQgQ8tMDegQIVxAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8af115e11c874c1b&gl=us&hl=en&ei=OLYuat_GFKmpptQPw7mGQQ&start=40&sa=N&sstk=AU9db-Acj3qvCadF2K4U5UYluw4GvwXla_QcprUW5-JxfdZHIVbNCzLBPQS83vRC6CMhLcZA1GtD2YEp6smmmT60gdU2v9VG3VMVjQ&ved=2ahUKEwjfwtSf9IaVAxWplIkEHcOcIQgQ8tMDegQIVxAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8af115e11c874c1b&gl=us&hl=en&ei=OLYuat_GFKmpptQPw7mGQQ&start=50&sa=N&sstk=AU9db-Acj3qvCadF2K4U5UYluw4GvwXla_QcprUW5-JxfdZHIVbNCzLBPQS83vRC6CMhLcZA1GtD2YEp6smmmT60gdU2v9VG3VMVjQ&ved=2ahUKEwjfwtSf9IaVAxWplIkEHcOcIQgQ8tMDegQIVxAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8af115e11c874c1b&gl=us&hl=en&ei=OLYuat_GFKmpptQPw7mGQQ&start=60&sa=N&sstk=AU9db-Acj3qvCadF2K4U5UYluw4GvwXla_QcprUW5-JxfdZHIVbNCzLBPQS83vRC6CMhLcZA1GtD2YEp6smmmT60gdU2v9VG3VMVjQ&ved=2ahUKEwjfwtSf9IaVAxWplIkEHcOcIQgQ8tMDegQIVxAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8af115e11c874c1b&gl=us&hl=en&ei=OLYuat_GFKmpptQPw7mGQQ&start=70&sa=N&sstk=AU9db-Acj3qvCadF2K4U5UYluw4GvwXla_QcprUW5-JxfdZHIVbNCzLBPQS83vRC6CMhLcZA1GtD2YEp6smmmT60gdU2v9VG3VMVjQ&ved=2ahUKEwjfwtSf9IaVAxWplIkEHcOcIQgQ8tMDegQIVxAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8af115e11c874c1b&gl=us&hl=en&ei=OLYuat_GFKmpptQPw7mGQQ&start=80&sa=N&sstk=AU9db-Acj3qvCadF2K4U5UYluw4GvwXla_QcprUW5-JxfdZHIVbNCzLBPQS83vRC6CMhLcZA1GtD2YEp6smmmT60gdU2v9VG3VMVjQ&ved=2ahUKEwjfwtSf9IaVAxWplIkEHcOcIQgQ8tMDegQIVxAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8af115e11c874c1b&gl=us&hl=en&ei=OLYuat_GFKmpptQPw7mGQQ&start=90&sa=N&sstk=AU9db-Acj3qvCadF2K4U5UYluw4GvwXla_QcprUW5-JxfdZHIVbNCzLBPQS83vRC6CMhLcZA1GtD2YEp6smmmT60gdU2v9VG3VMVjQ&ved=2ahUKEwjfwtSf9IaVAxWplIkEHcOcIQgQ8tMDegQIVxAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f6ab685adb5b71a7&gl=us&hl=en&ei=SMQuavexDMmnptQPnPOPiAs&start=10&sa=N&sstk=AU9db-A85GTweci-Vc6d1uMCfz0bQDgflO7YEbP3hqMsKhDvU30Ok5FSLi-aq67vsm7HhOSiDvHIYgcSrsQGNs2GKUCrGW6V-HPvMA&ved=2ahUKEwj39ZrUgYeVAxXJk4kEHZz5A7EQ8tMDegUI1QEQBA",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f6ab685adb5b71a7&gl=us&hl=en&ei=SMQuavexDMmnptQPnPOPiAs&start=20&sa=N&sstk=AU9db-A85GTweci-Vc6d1uMCfz0bQDgflO7YEbP3hqMsKhDvU30Ok5FSLi-aq67vsm7HhOSiDvHIYgcSrsQGNs2GKUCrGW6V-HPvMA&ved=2ahUKEwj39ZrUgYeVAxXJk4kEHZz5A7EQ8tMDegUI1QEQBg",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f6ab685adb5b71a7&gl=us&hl=en&ei=SMQuavexDMmnptQPnPOPiAs&start=30&sa=N&sstk=AU9db-A85GTweci-Vc6d1uMCfz0bQDgflO7YEbP3hqMsKhDvU30Ok5FSLi-aq67vsm7HhOSiDvHIYgcSrsQGNs2GKUCrGW6V-HPvMA&ved=2ahUKEwj39ZrUgYeVAxXJk4kEHZz5A7EQ8tMDegUI1QEQCA",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f6ab685adb5b71a7&gl=us&hl=en&ei=SMQuavexDMmnptQPnPOPiAs&start=40&sa=N&sstk=AU9db-A85GTweci-Vc6d1uMCfz0bQDgflO7YEbP3hqMsKhDvU30Ok5FSLi-aq67vsm7HhOSiDvHIYgcSrsQGNs2GKUCrGW6V-HPvMA&ved=2ahUKEwj39ZrUgYeVAxXJk4kEHZz5A7EQ8tMDegUI1QEQCg",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f6ab685adb5b71a7&gl=us&hl=en&ei=SMQuavexDMmnptQPnPOPiAs&start=50&sa=N&sstk=AU9db-A85GTweci-Vc6d1uMCfz0bQDgflO7YEbP3hqMsKhDvU30Ok5FSLi-aq67vsm7HhOSiDvHIYgcSrsQGNs2GKUCrGW6V-HPvMA&ved=2ahUKEwj39ZrUgYeVAxXJk4kEHZz5A7EQ8tMDegUI1QEQDA",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f6ab685adb5b71a7&gl=us&hl=en&ei=SMQuavexDMmnptQPnPOPiAs&start=60&sa=N&sstk=AU9db-A85GTweci-Vc6d1uMCfz0bQDgflO7YEbP3hqMsKhDvU30Ok5FSLi-aq67vsm7HhOSiDvHIYgcSrsQGNs2GKUCrGW6V-HPvMA&ved=2ahUKEwj39ZrUgYeVAxXJk4kEHZz5A7EQ8tMDegUI1QEQDg",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f6ab685adb5b71a7&gl=us&hl=en&ei=SMQuavexDMmnptQPnPOPiAs&start=70&sa=N&sstk=AU9db-A85GTweci-Vc6d1uMCfz0bQDgflO7YEbP3hqMsKhDvU30Ok5FSLi-aq67vsm7HhOSiDvHIYgcSrsQGNs2GKUCrGW6V-HPvMA&ved=2ahUKEwj39ZrUgYeVAxXJk4kEHZz5A7EQ8tMDegUI1QEQEA",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f6ab685adb5b71a7&gl=us&hl=en&ei=SMQuavexDMmnptQPnPOPiAs&start=80&sa=N&sstk=AU9db-A85GTweci-Vc6d1uMCfz0bQDgflO7YEbP3hqMsKhDvU30Ok5FSLi-aq67vsm7HhOSiDvHIYgcSrsQGNs2GKUCrGW6V-HPvMA&ved=2ahUKEwj39ZrUgYeVAxXJk4kEHZz5A7EQ8tMDegUI1QEQEg",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f6ab685adb5b71a7&gl=us&hl=en&ei=SMQuavexDMmnptQPnPOPiAs&start=90&sa=N&sstk=AU9db-A85GTweci-Vc6d1uMCfz0bQDgflO7YEbP3hqMsKhDvU30Ok5FSLi-aq67vsm7HhOSiDvHIYgcSrsQGNs2GKUCrGW6V-HPvMA&ved=2ahUKEwj39ZrUgYeVAxXJk4kEHZz5A7EQ8tMDegUI1QEQFA"
           }
         }
       }
     }
   },
-  "requestId": "31ee64f2-5fa6-41bd-81bb-07b7d143c857",
-  "timestamp": 1781449202992,
-  "recordTime": "2026-06-14 23:00:02"
+  "requestId": "860ef123-f972-43aa-9d55-451e7744d961",
+  "timestamp": 1781450292483,
+  "recordTime": "2026-06-14 23:18:12"
 }
