@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-14 21:10:04",
+    "checkedAt": "2026-06-14 22:10:03",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 1.2,
-          "total_results": 3010000,
+          "time_taken": 0.39,
+          "total_results": 2980000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -18,70 +18,35 @@
           "original_query_yields_zero_results": false,
           "url": "https://www.google.com/search?q=coffee&oq=coffee&gl=us&hl=en&safe=off&sourceid=chrome&ie=UTF-8"
         },
-        "ads": [
-          {
-            "position": 1,
-            "block_position": "bottom",
-            "title": "Nespresso Coffee Pods | Free Shipping & Coffee Samples",
-            "snippet": "A World of Coffee to Discover. Shop Nespresso's Wide Variety of Coffee Pods...",
-            "displayed_link": "https://www.nespresso.com",
-            "link": "https://www.nespresso.com/us/en/vertuo-coffee-pods",
-            "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwilu56Q0oeVAxXlRv8BHWtkAcgYACICCAIQABoCbWQ&ae=2&co=1&ase=2&gclid=EAIaIQobChMIpbuekNKHlQMV5Ub_AR1rZAHIEAMYASAAEgLOl_D_BwE&cid=CAASugHkaEzq6u9h_DYBZCYZRgtNLMMqTY3Z4_wLnoe3GK1DqLEtZF5CzMLDCahzUe-aJ9fRz193MPTovNnu8YY3w5F_C914Q9jG8zqHFw5OduXi-YzCNGGuzDi16eMZstL-GH_3W_fnTALcfVbSPCzCe099oxk9D6o8_huyfsTamrIE5BHsy0kmttQq7NBkIq6GDWcrA0FqQup9TRZg6nhdPtUmfCyoOHsovdkPnEvvx5FLgNCiwNGT_kFnKm8&cce=2&category=acrcp_v1_71&sig=AOD64_1rWP449nP1uhWSx_9-i5oHWG8Kwg&q&nis=4&adurl",
-            "source": "Nespresso®",
-            "sitelinks": [
-              {
-                "title": "Rating",
-                "link": "https://www.google.com/shopping/ratings/account/metrics?q=nespresso.com&c=US&v=19"
-              },
-              {
-                "title": "Explore Coffee Blends",
-                "link": "/aclk?sa=L&ai=DChsSEwilu56Q0oeVAxXlRv8BHWtkAcgYACICCAIQBBoCbWQ&ae=2&co=1&ase=2&gclid=EAIaIQobChMIpbuekNKHlQMV5Ub_AR1rZAHIEAMYASAEEgJ5HfD_BwE&cid=CAASugHkaEzq6u9h_DYBZCYZRgtNLMMqTY3Z4_wLnoe3GK1DqLEtZF5CzMLDCahzUe-aJ9fRz193MPTovNnu8YY3w5F_C914Q9jG8zqHFw5OduXi-YzCNGGuzDi16eMZstL-GH_3W_fnTALcfVbSPCzCe099oxk9D6o8_huyfsTamrIE5BHsy0kmttQq7NBkIq6GDWcrA0FqQup9TRZg6nhdPtUmfCyoOHsovdkPnEvvx5FLgNCiwNGT_kFnKm8&cce=2&category=acrcp_v1_71&sig=AOD64_1ledZmGRFGjpSdcDwfS1Wyzo3jUA&adurl=&q="
-              },
-              {
-                "title": "Brew Delicious Coffee",
-                "link": "/aclk?sa=L&ai=DChsSEwilu56Q0oeVAxXlRv8BHWtkAcgYACICCAIQBRoCbWQ&ae=2&co=1&ase=2&gclid=EAIaIQobChMIpbuekNKHlQMV5Ub_AR1rZAHIEAMYASAFEgKa-PD_BwE&cid=CAASugHkaEzq6u9h_DYBZCYZRgtNLMMqTY3Z4_wLnoe3GK1DqLEtZF5CzMLDCahzUe-aJ9fRz193MPTovNnu8YY3w5F_C914Q9jG8zqHFw5OduXi-YzCNGGuzDi16eMZstL-GH_3W_fnTALcfVbSPCzCe099oxk9D6o8_huyfsTamrIE5BHsy0kmttQq7NBkIq6GDWcrA0FqQup9TRZg6nhdPtUmfCyoOHsovdkPnEvvx5FLgNCiwNGT_kFnKm8&cce=2&category=acrcp_v1_71&sig=AOD64_23uFiWrfHWj_ruxa1aWm58isS7nA&adurl=&q="
-              },
-              {
-                "title": "Explore Coffee Capsules",
-                "link": "https://www.nespresso.com/us/en/vertuo-coffee-pods"
-              },
-              {
-                "title": "Find Your Perfect Machine",
-                "link": "https://www.nespresso.com/us/en/choose-your-technology"
-              }
-            ],
-            "extensions": ""
-          }
-        ],
         "knowledge_graph": {
           "title": "Coffee"
         },
         "local_results": [
           {
             "position": 1,
-            "title": "MoQana",
+            "title": "Haute Dulce",
             "rating": "4.9",
-            "reviews": "509",
-            "address": "4.9(509) · $1–10 · Coffee shop",
-            "hours": "Edmond, OK",
+            "reviews": "1.7K",
+            "address": "4.9(1.7K) · $10–20 · Coffee shop",
+            "hours": "Secaucus, NJ",
             "links": {}
           },
           {
             "position": 2,
-            "title": "White Buffalo Coffee Bar",
-            "rating": "4.9",
-            "reviews": "303",
-            "address": "4.9(303) · $1–10 · Coffee shop",
-            "hours": "Oklahoma City, OK",
+            "title": "Aromas",
+            "rating": "5.0",
+            "reviews": "81",
+            "address": "5.0(81) · $10–20 · Coffee shop",
+            "hours": "Union City, NJ",
             "links": {}
           },
           {
             "position": 3,
-            "title": "7 Brew Coffee",
-            "rating": "4.7",
-            "reviews": "67",
-            "address": "4.7(67) · $1–10 · Coffee shop",
-            "hours": "Oklahoma City, OK",
+            "title": "Shambhu Coffee & Gelato",
+            "rating": "5.0",
+            "reviews": "31",
+            "address": "5.0(31) · $1–10 · Coffee shop",
+            "hours": "Jersey City, NJ",
             "links": {}
           }
         ],
@@ -106,25 +71,39 @@
             "page_rank": 1
           },
           {
-            "title": "Flavored Coffee",
-            "link": "https://www.neighborscoffeeroasters.com/product-category/flavored-coffee/?srsltid=AfmBOoo00WkKkUNS7w7COQp_urMwP4aBj1qhVeYuAX2GctBo7oKthdN4",
-            "displayed_link": "https://www.neighborscoffeeroasters.com › flavored-coffee",
-            "source": "neighborscoffeeroasters.com",
-            "snippet": "Flavored Coffee ; Almond Colada Coffee ; Amaretto Coffee ; Apricot Creme Coffee ; Banana Bliss Coffee ; Banana Nut Split Coffee ...Read more",
+            "title": "Starbucks Coffee Company",
+            "link": "https://www.starbucks.com/",
+            "displayed_link": "https://www.starbucks.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUAqGIdqmY1r3EAp18ApFiUzqyt2L4Ao1ZfuYRTtn7q9e/3/PotrWzH5NP////W695BsXUAn0zf8OYApVtMtHrk8utvwJIAnEX6/fwAoVFivY2e0rPL59i/4c3+/v623cal1biOyaNsvo98xZuGyKGAxp1Ptn+w3MO6/E0wAAABrUlEQVR4AWKgEgDUQR9YkoJQFEBRJAjyVFAMiKHQnv3vcKjJkQz3kH5R/pdoxbig/9kma6Vr2fxrG6EGObV5+OfurhO0z2p7J8rhd3UFRj/Ns8ayWnTuV+1CwYDWUtG2AHfs294vbbUh7oDSegRwwFZfybsvfSa9ccZOozM37y1OEpSUOlcFUxfTZQzriyHyKi/RAgSxf12JLIO8FXLSaZUL9ZdfOMiuNXA26d6GK+TRVW/pKRkwq4w78PThkDHnM3bRcx9DvwLYCQC2yHu7+cdzmSOllZ0mpeXJQJi/hTs/2ieeADRw8GDk4cTjGXmCIO4YVDmvQORAUvU4xIoIdhPk3oU0dmNSyns7S13ovJM4DvL+L/0w15EdykJuLJzH673akPCOVDU2ysGVZht6lLa22YhjJLrci7FQAo7JOiwo7DC6N3Ii3htDOBgbHXIqW562+1NezpQoobV92QbNhhyRlmJon9Y7Ql9kpaRSzez0dWfLGjyELnXeI4kjrjZ3rDGprzhP8Gc4vMtkps7GZAYs9iuqCevBuBqmT6TRwE51MZ6vr3hf2mmaV+fhM60UJgvTnxtEAAAAAElFTkSuQmCC",
+            "source": "Starbucks Coffee",
+            "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
             "highlighted_keywords": [
-              "Flavored Coffee"
+              "Explore our menu of handcrafted drinks"
+            ],
+            "rank": 2,
+            "page_rank": 2
+          },
+          {
+            "title": "Single Origin, Blends, Espresso - Shop - Joe Coffee ...",
+            "link": "https://joecoffeecompany.com/collections/coffee?srsltid=AfmBOoqO8xUz92g4BM0Ew2swLMq5jJLEd7QJBUn_C1p4d0Jco_hA8ovT",
+            "displayed_link": "https://joecoffeecompany.com › collections › coffee",
+            "favicon": "data:image/png;base64,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",
+            "source": "Joe Coffee Company",
+            "snippet": "Shop for single origin, espresso, blends, decaf, and specialty instant coffee in the Joe Coffee Company store.",
+            "highlighted_keywords": [
+              "coffee",
+              "Coffee"
             ],
             "rich_snippet": {
               "bottom": {
                 "detected_extensions": {},
                 "extensions": [
-                  "Free delivery",
-                  "10-day returns"
+                  "Free delivery over $65"
                 ]
               }
             },
-            "rank": 2,
-            "page_rank": 2
+            "rank": 3,
+            "page_rank": 3
           },
           {
             "title": "What is coffee? - NCA",
@@ -136,12 +115,12 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 3,
-            "page_rank": 3
+            "rank": 4,
+            "page_rank": 4
           },
           {
             "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoo0AQAfv9FGp0HcTLPwXasV_uQ3T6bFGSNCzEQ80KTQeCsdk9_m",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoqd75rLpie85Tg-EwH93rwR2u1XXXexRVzpPhqsVwxcq5rHVVwC",
             "displayed_link": "https://www.stumptowncoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
             "source": "Stumptown Coffee",
@@ -149,53 +128,32 @@
             "highlighted_keywords": [
               "fresh beans, cold brew, and good vibes"
             ],
-            "rank": 4,
-            "page_rank": 4
-          },
-          {
-            "title": "Coffee Shops in OKC | Cool Cafés & Locally Roasted Beans",
-            "link": "https://www.visitokc.com/restaurants/coffee-shops/",
-            "displayed_link": "https://www.visitokc.com › restaurants › coffee-shops",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEX////7/v/p9fnO5u++3emt1eT0+vzh7/XE3+uYydyy1eOq0OGYxtukzd/e7fQTjrdXqMdJoMLY6/KQxdkAhrJztc+Jv9UAdqhhq8kki7QAf615uNFqss0ykLcAfq0/oMJsqshksMwdk7pEmL0VBXg2AAAA+UlEQVR4AYzQBZLEIBAF0I9DHGIbT9j7n3HchRpKux6t+PmRENIQshByEkAhQ6hCyADQ99raRBIxByQnLEmzR0vytLAyjgGXllVS5/putGqgWhGVQCmqP8jO3tG1BrQf9AgUvK+BKb+jPuJcswWqYPMB7UMmP+HqcujaHVHKN1QzmuiEwBvSllrm5uEzzpGlX7HaCnzHbvqS2RdN37eD6z9i5XtjZ3NEQh4xJWn/zytKbdcNIN4/4DxY36/UA9T6BuTxfMz7hs0rHQEobw54z3S1r2XcCiWO0bhJPTcXIkxQVyw2BXXHmJralvKC+zGCGWyMEBaUTRgAANyYEZkMmT5DAAAAAElFTkSuQmCC",
-            "source": "Visit Oklahoma City",
-            "snippet": "Fuel your day with local coffee in Oklahoma City, from quiet study corners to stylish cafés with great beans and atmosphere.",
-            "highlighted_keywords": [
-              "local coffee in Oklahoma City"
-            ],
             "rank": 5,
             "page_rank": 5
           },
           {
-            "title": "Starbucks Coffee Company",
-            "link": "https://www.starbucks.com/",
-            "displayed_link": "https://www.starbucks.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUAqGIdqmY1r3EAp18ApFiUzqyt2L4Ao1ZfuYRTtn7q9e/3/PotrWzH5NP////W695BsXUAn0zf8OYApVtMtHrk8utvwJIAnEX6/fwAoVFivY2e0rPL59i/4c3+/v623cal1biOyaNsvo98xZuGyKGAxp1Ptn+w3MO6/E0wAAABrUlEQVR4AWKgEgDUQR9YkoJQFEBRJAjyVFAMiKHQnv3vcKjJkQz3kH5R/pdoxbig/9kma6Vr2fxrG6EGObV5+OfurhO0z2p7J8rhd3UFRj/Ns8ayWnTuV+1CwYDWUtG2AHfs294vbbUh7oDSegRwwFZfybsvfSa9ccZOozM37y1OEpSUOlcFUxfTZQzriyHyKi/RAgSxf12JLIO8FXLSaZUL9ZdfOMiuNXA26d6GK+TRVW/pKRkwq4w78PThkDHnM3bRcx9DvwLYCQC2yHu7+cdzmSOllZ0mpeXJQJi/hTs/2ieeADRw8GDk4cTjGXmCIO4YVDmvQORAUvU4xIoIdhPk3oU0dmNSyns7S13ovJM4DvL+L/0w15EdykJuLJzH673akPCOVDU2ysGVZht6lLa22YhjJLrci7FQAo7JOiwo7DC6N3Ii3htDOBgbHXIqW562+1NezpQoobV92QbNhhyRlmJon9Y7Ql9kpaRSzez0dWfLGjyELnXeI4kjrjZ3rDGprzhP8Gc4vMtkps7GZAYs9iuqCevBuBqmT6TRwE51MZ6vr3hf2mmaV+fhM60UJgvTnxtEAAAAAElFTkSuQmCC",
-            "source": "Starbucks Coffee",
-            "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
+            "title": "9 Reasons Why (the Right Amount of) Coffee Is Good for You",
+            "link": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-reasons-why-the-right-amount-of-coffee-is-good-for-you",
+            "displayed_link": "https://www.hopkinsmedicine.org › health › 9-reasons-w...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAABnRSTlMAAAAAAABupgeRAAAFbklEQVR4Ac2WA5BcQRRFf2zbtm3btrFmrLVi28masW1Mpiaz3th2svbZ6lTHZlfXVE/P73tfv3vf+6P8dyPwyvM/Bf3w8SvPHeoh5psmz9r66k3kb0a/fvvJWo/T673Omtn5thy4SH+Gx72HL34beti1h6tdT0Lg7Kc2sNzeS3d1p5HLh0/YDOtvQL98/dEK5xOgr/NUb/bV2MxZ1m6kc1/DdXAMNtv4qxycF7GDvtI9MPREv6SwNPPn6rcd5S04uMeT529+XlWgJXrYiR6J2lQ3jmRLuqwsWqAjOVAlIjLmh9E547pVRfgIu8I9JOhYv6Rg5cGxrA4WjSFgPXuOkeBoO3Sp0/J9P0yw52gwqQd9uVuY6qAhiIJg+pTmgiAuIO0Ua4uOoz0Ex7YD/j+AHhB6d/nm4yL2/bvnJwWkIjngHnAuXb3F2BfnMgm+5+dzjhi3pKuOC77qrrPqewWniIAm9as9tO6+e6IvZpMEHssr9+/fN2R3XtZiJ2BP5c5j3XobbEAMCvC7CPYdDxHJQdg7ZxoQKQRgBe7Mn77cRKX4tLrtRpAfNsX+plUDpBic/Qb6nQfPZepP7LMQ6EwWD89krdl6lFLYQt+wY0JoKrkfo01nMGU2iSJLuPZNePTXCHYcDEgxvpfG2edIpCaXQHmbolvKxPGtlJz2R1xLJF1T2JGpU22vJdWmX31X+Nojw2T4ksDMrC0ESM2aHfkTT1rZT4ZDXuJr1iR8tI29mFmiMwnZb12FLOUmkaKKzXTuHM8udJZKBO2tiNriEqThM+jPX4bjHBG+5vBoGT4ooCNAnyG9mnUZ0q73gAYdhltOayaqQSaK9XTbaXB0HbPS1MbnMwQq7U3Cpyts9DoRrs4n0QFSbylUs4mOjl5HUlS7xZi5dg1g6jmg7yt1BnDlY6f86pOlPgZrsWzgpXsfE/js1iAvlXV4j+P75gGlTGM9Ja/18DFd8tUwVQpYiXsoWR2h5HIyjVGadGMmLOyht7n9sKVAfYD+6Olr2XZunGopCRBz5ZzagBapZzhKp3PqMpMzVpjIGqcqJadSFlf25SZ2qcSqpcPbj/ZCat5IsXHxihyaoNsiPy4+B0TpyosTLAQNOw7rP6wHoFkqjYeDXOXhNoUtFjjWJwhJoNlVDRnIEhy8SD7wDzegdGXn4VN0txxVzQHq3K9fl/59KWMI+Jxg3rp4fQP2oZc3YEZcyEx3Eln6oP3RmbEQ+Qk4Ovh9+0cHpsU8uUpN3bS4msqvMBowcdETdeZBI3qwv9ipniQQXrJ1nIDU6Dx79QFFDmFQKuCxqoZE5+n7J7Ohge3U5m7LquzcUNbJupHt9KZLZ9bZ6VxW7Puuroi28ghkXht6ChmMrb0VMV5HJiKA2zati+9x2gM5FUHhENonbiEnyMBkwSQzmIpPJqrcO5pVdO8UR91TMGtXXS9k4I2tiHH/aayz33nrBXsqtXWs1WqorWUTskFcoh9QBHw961PklFfRE57FxGTNDvu0WKJh8pLY61La2KRduca65Vo5cAOq+kV4osI4o31Qrb2DUtwoTWkTIiKuNGUn0Q/IMiYB7ubhHG9U6UXSZAGDGLYvz+7NZahqLIB3xeU4m66saYZyZoUbzLh6J1xhXLv9fLDx+lzVJyoF9ZSiBvyGVbC8OMAnfseU2IboIKbugMNdYL3/DKeAVgrpM0s0spg+Z7vy/uCfGq/JtoMXw8QTkHEnDmSskGJ8zgMHK5MFX5n8RDTcm7BEcIXqTRtgtP5rHZtx8+4zXGto4dmo1zwOAMFJQfn+ZIcIiLp0MytcT7wU08/8R7r3OPpC0MO9J6667QzEx6s8LvDptTvo4Jmb/NMWMn5lJAP4xPCjyd4KsgAAAABJRU5ErkJggg==",
+            "source": "Johns Hopkins Medicine",
+            "snippet": "Drinking one to two cups of coffee a day may help ward off heart failure, when a weakened heart has difficulty pumping enough blood to the body. You ...Read more",
             "highlighted_keywords": [
-              "Explore our menu of handcrafted drinks"
+              "Drinking one to two cups of coffee a day may help ward off heart failure"
             ],
             "rank": 6,
             "page_rank": 6
           },
           {
-            "title": "Clarity Coffee • OKC Roaster & Cafe - Oklahoma City",
-            "link": "https://claritycoffee.com/?srsltid=AfmBOopmvgIfqcdXJAXsYS3xIqkJHyZ3f6OqwmMqkRiJIpZYQNwF2m11",
-            "displayed_link": "https://claritycoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAQlBMVEVHcEwHGYQDDUUHGYUKIa0KIKsMJ8wJIKYIGocLJscKI7YJH6ULI7oKIawKIa0MKdMMJscMJ8kMJ8sOLOMNKdcNKtv/pOZCAAAAFnRSTlMAFwojeIt9aluKXlCbLj/fwazP/+79IuY+PwAAASxJREFUeAGN0EWCBCEMQNEfSEjhpfc/6rhrvw1OhNuJSOAnUS354pq18EVtJfCim358H20Asbr7MgTEKq+qQre5+oixl7Y6VH09c6K1JryQbS0M51FX1HVAz+ucexvg3vAIYFjUTpnHi7NgoUUFam9hVNbjgzY6pkDSSA7nw9a1pVq9PU7XQV8htIL4fhyz8KLO4xJowBqQh7PMB+uMhBVo8PBp4SPZNDUD9o7sGT6SHVIG1JBFOx/FPY9tAls0DH3tdRiAbA8Z78BZpA1F1NJSkvkcINfDYQP2S9BmQIgRUBUo27w6oMcZ6W1PEaCn1ZxHAjzWcRUIQ7NZTrW1hXfj4f9ZeaXF+aA+hj83H70Pb6ctfNTn8cFc+KycH04LX428zvOceyvCzwK3uweAEhBLe2MiwgAAAABJRU5ErkJggg==",
-            "source": "Clarity Coffee",
-            "snippet": "At Clarity Coffee, we source, roast, and serve coffee with an obsessive attention to detail—and a steady commitment to sustainability at every step.",
+            "title": "Kobrick Coffee | Fresh Roasted Coffee | Small Batch ... - NYC",
+            "link": "https://www.kobricks.com/",
+            "displayed_link": "https://www.kobricks.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABiUlEQVR4AXzRIYysMBSF4eOTJhN8kCjMqLomNShGVY6oJ/hgVmHQdauQ2FH4pApZiUOicLXta4cSVr3f3XziNr3w/+lE982n0nShXbRejkv3MJk4JZSUtmsyN3LK1e4v9BLotm2Z51mvMw/D6m5skDW9YGVRvLoKGA7vb2yRCQZk+fNNAVGrzbqEVnE82snYY18Eyd4CyD4JD5VRkJ9llJSULyG0aXJl/RfdpwTF41URzimraF5Nh9rSzq0BGAgVQ89K2s99+fGHO9FpikaAyHl6AdK4bbYBTrQjwSzDzqkG0Mff8zcqlKYBYRQhtlxyYb40iFU58F6ddTdOOUYZiMh9AjK1jsa7hN5UYFWw5+9u48O7Qtp1T3gMD9BgjHXTbwE8Rb+26jjRmXfEdpRlTuugw9yiGG3EoEsdUa9G60VxLiqAjkfEqIcEYZw3alSyyAAM6SrpnoRzfHvkRf3xsRvR6Ul1XTdMY1dgsn+wLZ4/uz9bZVkK7W40Whub0K1a6+0P/hsWQJEkAEJtEmLxNKraAAAAAElFTkSuQmCC",
+            "source": "Kobrick Coffee",
+            "snippet": "Fresh roasted coffee direct from the roasting plant. Barista Shop. Hand roasted in small batches by four generations of Kobricks.",
             "highlighted_keywords": [
-              "source, roast, and serve coffee"
+              "Fresh roasted coffee direct from the roasting plant"
             ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Free delivery over $50"
-                ]
-              }
-            },
             "rank": 7,
             "page_rank": 7
           },
@@ -215,15 +173,31 @@
             "page_rank": 8
           },
           {
-            "title": "9 Reasons Why (the Right Amount of) Coffee Is Good for You",
-            "link": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-reasons-why-the-right-amount-of-coffee-is-good-for-you",
-            "displayed_link": "https://www.hopkinsmedicine.org › health › 9-reasons-w...",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAABnRSTlMAAAAAAABupgeRAAAFbklEQVR4Ac2WA5BcQRRFf2zbtm3btrFmrLVi28masW1Mpiaz3th2svbZ6lTHZlfXVE/P73tfv3vf+6P8dyPwyvM/Bf3w8SvPHeoh5psmz9r66k3kb0a/fvvJWo/T673Omtn5thy4SH+Gx72HL34beti1h6tdT0Lg7Kc2sNzeS3d1p5HLh0/YDOtvQL98/dEK5xOgr/NUb/bV2MxZ1m6kc1/DdXAMNtv4qxycF7GDvtI9MPREv6SwNPPn6rcd5S04uMeT529+XlWgJXrYiR6J2lQ3jmRLuqwsWqAjOVAlIjLmh9E547pVRfgIu8I9JOhYv6Rg5cGxrA4WjSFgPXuOkeBoO3Sp0/J9P0yw52gwqQd9uVuY6qAhiIJg+pTmgiAuIO0Ua4uOoz0Ex7YD/j+AHhB6d/nm4yL2/bvnJwWkIjngHnAuXb3F2BfnMgm+5+dzjhi3pKuOC77qrrPqewWniIAm9as9tO6+e6IvZpMEHssr9+/fN2R3XtZiJ2BP5c5j3XobbEAMCvC7CPYdDxHJQdg7ZxoQKQRgBe7Mn77cRKX4tLrtRpAfNsX+plUDpBic/Qb6nQfPZepP7LMQ6EwWD89krdl6lFLYQt+wY0JoKrkfo01nMGU2iSJLuPZNePTXCHYcDEgxvpfG2edIpCaXQHmbolvKxPGtlJz2R1xLJF1T2JGpU22vJdWmX31X+Nojw2T4ksDMrC0ESM2aHfkTT1rZT4ZDXuJr1iR8tI29mFmiMwnZb12FLOUmkaKKzXTuHM8udJZKBO2tiNriEqThM+jPX4bjHBG+5vBoGT4ooCNAnyG9mnUZ0q73gAYdhltOayaqQSaK9XTbaXB0HbPS1MbnMwQq7U3Cpyts9DoRrs4n0QFSbylUs4mOjl5HUlS7xZi5dg1g6jmg7yt1BnDlY6f86pOlPgZrsWzgpXsfE/js1iAvlXV4j+P75gGlTGM9Ja/18DFd8tUwVQpYiXsoWR2h5HIyjVGadGMmLOyht7n9sKVAfYD+6Olr2XZunGopCRBz5ZzagBapZzhKp3PqMpMzVpjIGqcqJadSFlf25SZ2qcSqpcPbj/ZCat5IsXHxihyaoNsiPy4+B0TpyosTLAQNOw7rP6wHoFkqjYeDXOXhNoUtFjjWJwhJoNlVDRnIEhy8SD7wDzegdGXn4VN0txxVzQHq3K9fl/59KWMI+Jxg3rp4fQP2oZc3YEZcyEx3Eln6oP3RmbEQ+Qk4Ovh9+0cHpsU8uUpN3bS4msqvMBowcdETdeZBI3qwv9ipniQQXrJ1nIDU6Dx79QFFDmFQKuCxqoZE5+n7J7Ohge3U5m7LquzcUNbJupHt9KZLZ9bZ6VxW7Puuroi28ghkXht6ChmMrb0VMV5HJiKA2zati+9x2gM5FUHhENonbiEnyMBkwSQzmIpPJqrcO5pVdO8UR91TMGtXXS9k4I2tiHH/aayz33nrBXsqtXWs1WqorWUTskFcoh9QBHw961PklFfRE57FxGTNDvu0WKJh8pLY61La2KRduca65Vo5cAOq+kV4osI4o31Qrb2DUtwoTWkTIiKuNGUn0Q/IMiYB7ubhHG9U6UXSZAGDGLYvz+7NZahqLIB3xeU4m66saYZyZoUbzLh6J1xhXLv9fLDx+lzVJyoF9ZSiBvyGVbC8OMAnfseU2IboIKbugMNdYL3/DKeAVgrpM0s0spg+Z7vy/uCfGq/JtoMXw8QTkHEnDmSskGJ8zgMHK5MFX5n8RDTcm7BEcIXqTRtgtP5rHZtx8+4zXGto4dmo1zwOAMFJQfn+ZIcIiLp0MytcT7wU08/8R7r3OPpC0MO9J6667QzEx6s8LvDptTvo4Jmb/NMWMn5lJAP4xPCjyd4KsgAAAABJRU5ErkJggg==",
-            "source": "Johns Hopkins Medicine",
-            "snippet": "Drinking one to two cups of coffee a day may help ward off heart failure, when a weakened heart has difficulty pumping enough blood to the body. You ...Read more",
+            "title": "Rook Coffee",
+            "link": "https://rookcoffee.com/collections/coffee?srsltid=AfmBOoqcP45Rklw67ay_ie43FHz_3kaUh5lNxlxsRRbRqWsrck1-6JSv",
+            "displayed_link": "https://rookcoffee.com › collections › coffee",
+            "favicon": "data:image/png;base64,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",
+            "source": "Rook Coffee",
+            "snippet": "Fresh roasted coffee packed here at our roastery and shipped to your doorstep! Available in 12 oz. or 5 lb. bags. Tired of running out of coffee?",
             "highlighted_keywords": [
-              "Drinking one to two cups of coffee a day may help ward off heart failure"
+              "Fresh roasted coffee packed here at our roastery and shipped to your doorstep"
             ],
+            "inline_snippet": "4.7",
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$19",
+                  "price_to": "$20",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "4.7 store rating (953)",
+                  "4.7",
+                  "$19 to $20",
+                  "30-day returns"
+                ]
+              }
+            },
             "rank": 9,
             "page_rank": 9
           }
@@ -258,29 +232,29 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
           },
           {
-            "query": "Coffee Pic",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Pic"
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           }
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b91370699063d68b&gl=us&hl=en&ei=qBgvaqi2M7eoptQPwIWrkQw&start=10&sa=N&sstk=AU9db-DQ6l5IegKQP2NbfdZbnoZ_58WAK6hNATntEHzcSXiinMUaeZDVp_GbH3_B-ANk32FVzDwoIbK4Fq9MgL3SwSUQThhhJ1PzGQ&ved=2ahUKEwioqpmQ0oeVAxU3lIkEHcDCKsIQ8NMDegUIvQEQFg",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6f9a068260f9ec13&gl=us&hl=en&ei=uSYvaqmgGer9ptQP3NrvoAE&start=10&sa=N&sstk=AU9db-Ayz3kkDnDTE-PDhTG8LDWz3wTQeuHxQxKMos6Z2kG-x1DJEuvo68PJsNl2UF-v0_juVE1_JNTFHSGYO-zV6VCXxcGMMh1ymA&ved=2ahUKEwjp4IrF34eVAxXqvokEHVztGxQQ8NMDegUIvQEQFg",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b91370699063d68b&gl=us&hl=en&ei=qBgvaqi2M7eoptQPwIWrkQw&start=10&sa=N&sstk=AU9db-DQ6l5IegKQP2NbfdZbnoZ_58WAK6hNATntEHzcSXiinMUaeZDVp_GbH3_B-ANk32FVzDwoIbK4Fq9MgL3SwSUQThhhJ1PzGQ&ved=2ahUKEwioqpmQ0oeVAxU3lIkEHcDCKsIQ8tMDegUIvQEQBA",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b91370699063d68b&gl=us&hl=en&ei=qBgvaqi2M7eoptQPwIWrkQw&start=20&sa=N&sstk=AU9db-DQ6l5IegKQP2NbfdZbnoZ_58WAK6hNATntEHzcSXiinMUaeZDVp_GbH3_B-ANk32FVzDwoIbK4Fq9MgL3SwSUQThhhJ1PzGQ&ved=2ahUKEwioqpmQ0oeVAxU3lIkEHcDCKsIQ8tMDegUIvQEQBg",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b91370699063d68b&gl=us&hl=en&ei=qBgvaqi2M7eoptQPwIWrkQw&start=30&sa=N&sstk=AU9db-DQ6l5IegKQP2NbfdZbnoZ_58WAK6hNATntEHzcSXiinMUaeZDVp_GbH3_B-ANk32FVzDwoIbK4Fq9MgL3SwSUQThhhJ1PzGQ&ved=2ahUKEwioqpmQ0oeVAxU3lIkEHcDCKsIQ8tMDegUIvQEQCA",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b91370699063d68b&gl=us&hl=en&ei=qBgvaqi2M7eoptQPwIWrkQw&start=40&sa=N&sstk=AU9db-DQ6l5IegKQP2NbfdZbnoZ_58WAK6hNATntEHzcSXiinMUaeZDVp_GbH3_B-ANk32FVzDwoIbK4Fq9MgL3SwSUQThhhJ1PzGQ&ved=2ahUKEwioqpmQ0oeVAxU3lIkEHcDCKsIQ8tMDegUIvQEQCg",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b91370699063d68b&gl=us&hl=en&ei=qBgvaqi2M7eoptQPwIWrkQw&start=50&sa=N&sstk=AU9db-DQ6l5IegKQP2NbfdZbnoZ_58WAK6hNATntEHzcSXiinMUaeZDVp_GbH3_B-ANk32FVzDwoIbK4Fq9MgL3SwSUQThhhJ1PzGQ&ved=2ahUKEwioqpmQ0oeVAxU3lIkEHcDCKsIQ8tMDegUIvQEQDA",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b91370699063d68b&gl=us&hl=en&ei=qBgvaqi2M7eoptQPwIWrkQw&start=60&sa=N&sstk=AU9db-DQ6l5IegKQP2NbfdZbnoZ_58WAK6hNATntEHzcSXiinMUaeZDVp_GbH3_B-ANk32FVzDwoIbK4Fq9MgL3SwSUQThhhJ1PzGQ&ved=2ahUKEwioqpmQ0oeVAxU3lIkEHcDCKsIQ8tMDegUIvQEQDg",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b91370699063d68b&gl=us&hl=en&ei=qBgvaqi2M7eoptQPwIWrkQw&start=70&sa=N&sstk=AU9db-DQ6l5IegKQP2NbfdZbnoZ_58WAK6hNATntEHzcSXiinMUaeZDVp_GbH3_B-ANk32FVzDwoIbK4Fq9MgL3SwSUQThhhJ1PzGQ&ved=2ahUKEwioqpmQ0oeVAxU3lIkEHcDCKsIQ8tMDegUIvQEQEA",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b91370699063d68b&gl=us&hl=en&ei=qBgvaqi2M7eoptQPwIWrkQw&start=80&sa=N&sstk=AU9db-DQ6l5IegKQP2NbfdZbnoZ_58WAK6hNATntEHzcSXiinMUaeZDVp_GbH3_B-ANk32FVzDwoIbK4Fq9MgL3SwSUQThhhJ1PzGQ&ved=2ahUKEwioqpmQ0oeVAxU3lIkEHcDCKsIQ8tMDegUIvQEQEg",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b91370699063d68b&gl=us&hl=en&ei=qBgvaqi2M7eoptQPwIWrkQw&start=90&sa=N&sstk=AU9db-DQ6l5IegKQP2NbfdZbnoZ_58WAK6hNATntEHzcSXiinMUaeZDVp_GbH3_B-ANk32FVzDwoIbK4Fq9MgL3SwSUQThhhJ1PzGQ&ved=2ahUKEwioqpmQ0oeVAxU3lIkEHcDCKsIQ8tMDegUIvQEQFA"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6f9a068260f9ec13&gl=us&hl=en&ei=uSYvaqmgGer9ptQP3NrvoAE&start=10&sa=N&sstk=AU9db-Ayz3kkDnDTE-PDhTG8LDWz3wTQeuHxQxKMos6Z2kG-x1DJEuvo68PJsNl2UF-v0_juVE1_JNTFHSGYO-zV6VCXxcGMMh1ymA&ved=2ahUKEwjp4IrF34eVAxXqvokEHVztGxQQ8tMDegUIvQEQBA",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6f9a068260f9ec13&gl=us&hl=en&ei=uSYvaqmgGer9ptQP3NrvoAE&start=20&sa=N&sstk=AU9db-Ayz3kkDnDTE-PDhTG8LDWz3wTQeuHxQxKMos6Z2kG-x1DJEuvo68PJsNl2UF-v0_juVE1_JNTFHSGYO-zV6VCXxcGMMh1ymA&ved=2ahUKEwjp4IrF34eVAxXqvokEHVztGxQQ8tMDegUIvQEQBg",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6f9a068260f9ec13&gl=us&hl=en&ei=uSYvaqmgGer9ptQP3NrvoAE&start=30&sa=N&sstk=AU9db-Ayz3kkDnDTE-PDhTG8LDWz3wTQeuHxQxKMos6Z2kG-x1DJEuvo68PJsNl2UF-v0_juVE1_JNTFHSGYO-zV6VCXxcGMMh1ymA&ved=2ahUKEwjp4IrF34eVAxXqvokEHVztGxQQ8tMDegUIvQEQCA",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6f9a068260f9ec13&gl=us&hl=en&ei=uSYvaqmgGer9ptQP3NrvoAE&start=40&sa=N&sstk=AU9db-Ayz3kkDnDTE-PDhTG8LDWz3wTQeuHxQxKMos6Z2kG-x1DJEuvo68PJsNl2UF-v0_juVE1_JNTFHSGYO-zV6VCXxcGMMh1ymA&ved=2ahUKEwjp4IrF34eVAxXqvokEHVztGxQQ8tMDegUIvQEQCg",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6f9a068260f9ec13&gl=us&hl=en&ei=uSYvaqmgGer9ptQP3NrvoAE&start=50&sa=N&sstk=AU9db-Ayz3kkDnDTE-PDhTG8LDWz3wTQeuHxQxKMos6Z2kG-x1DJEuvo68PJsNl2UF-v0_juVE1_JNTFHSGYO-zV6VCXxcGMMh1ymA&ved=2ahUKEwjp4IrF34eVAxXqvokEHVztGxQQ8tMDegUIvQEQDA",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6f9a068260f9ec13&gl=us&hl=en&ei=uSYvaqmgGer9ptQP3NrvoAE&start=60&sa=N&sstk=AU9db-Ayz3kkDnDTE-PDhTG8LDWz3wTQeuHxQxKMos6Z2kG-x1DJEuvo68PJsNl2UF-v0_juVE1_JNTFHSGYO-zV6VCXxcGMMh1ymA&ved=2ahUKEwjp4IrF34eVAxXqvokEHVztGxQQ8tMDegUIvQEQDg",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6f9a068260f9ec13&gl=us&hl=en&ei=uSYvaqmgGer9ptQP3NrvoAE&start=70&sa=N&sstk=AU9db-Ayz3kkDnDTE-PDhTG8LDWz3wTQeuHxQxKMos6Z2kG-x1DJEuvo68PJsNl2UF-v0_juVE1_JNTFHSGYO-zV6VCXxcGMMh1ymA&ved=2ahUKEwjp4IrF34eVAxXqvokEHVztGxQQ8tMDegUIvQEQEA",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6f9a068260f9ec13&gl=us&hl=en&ei=uSYvaqmgGer9ptQP3NrvoAE&start=80&sa=N&sstk=AU9db-Ayz3kkDnDTE-PDhTG8LDWz3wTQeuHxQxKMos6Z2kG-x1DJEuvo68PJsNl2UF-v0_juVE1_JNTFHSGYO-zV6VCXxcGMMh1ymA&ved=2ahUKEwjp4IrF34eVAxXqvokEHVztGxQQ8tMDegUIvQEQEg",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6f9a068260f9ec13&gl=us&hl=en&ei=uSYvaqmgGer9ptQP3NrvoAE&start=90&sa=N&sstk=AU9db-Ayz3kkDnDTE-PDhTG8LDWz3wTQeuHxQxKMos6Z2kG-x1DJEuvo68PJsNl2UF-v0_juVE1_JNTFHSGYO-zV6VCXxcGMMh1ymA&ved=2ahUKEwjp4IrF34eVAxXqvokEHVztGxQQ8tMDegUIvQEQFA"
           }
         }
       }
     }
   },
-  "requestId": "0b8c6a29-a1d2-404b-8a52-58818c8b3b6f",
-  "timestamp": 1781474403221,
-  "recordTime": "2026-06-15 06:00:03"
+  "requestId": "8a4be883-9e60-4334-b7ac-17db0e445527",
+  "timestamp": 1781478003810,
+  "recordTime": "2026-06-15 07:00:03"
 }
