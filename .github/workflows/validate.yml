@@ -8,6 +8,8 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      JUSTSERPAPI_API_KEY: ${{ secrets.JUSTSERPAPI_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -29,9 +31,7 @@ jobs:
       - name: Validate fixture spec
         run: python scripts/sdkctl.py validate-spec --spec tests/fixtures/sample-openapi.json --skip-generator-validate
       - name: Fetch canonical spec when it is not committed
-        if: ${{ hashFiles('openapi/justserpapi.openapi.json') == '' && secrets.JUSTSERPAPI_API_KEY != '' }}
-        env:
-          JUSTSERPAPI_API_KEY: ${{ secrets.JUSTSERPAPI_API_KEY }}
+        if: ${{ hashFiles('openapi/justserpapi.openapi.json') == '' && env.JUSTSERPAPI_API_KEY != '' }}
         run: python scripts/sdkctl.py fetch-spec
       - name: Validate canonical spec when present
         run: |
