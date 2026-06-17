@@ -3,7 +3,7 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-17 15:10:03",
+    "checkedAt": "2026-06-17 16:10:02",
     "example": {
       "code": 200,
       "message": "success",
@@ -14,23 +14,23 @@
         "peopleAlsoAskedFor": [],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=ybgyatvSHZXe0PEPr9O6uQE&start=10&sa=N&sstk=AU9db-A2joNzoUb3WbSr1W9dJl7AmD5eLvN6tHWew59otNqucEK01w73gszNNm-_foezaAw1b8DOiTyhqNbfioscowzqFQTdiHpdQw&ved=2ahUKEwib24Ghx46VAxUVLzQIHa-pLhcQ8NMDegQIWxAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=2MYyatHgEd2yptQPkJjwiQI&start=10&sa=N&sstk=AU9db-Bhb3zxJqMePhn-xsD24tRZsv496ypXEG-ELmOvLIfZZXu4RGCj-xvOZa04T1he1K46FFwBw1XaJOAfaunS2tHKigHkHxutFQ&ved=2ahUKEwjRrIfV1I6VAxVdmYkEHRAMPCEQ8NMDegQITRAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=ybgyatvSHZXe0PEPr9O6uQE&start=10&sa=N&sstk=AU9db-A2joNzoUb3WbSr1W9dJl7AmD5eLvN6tHWew59otNqucEK01w73gszNNm-_foezaAw1b8DOiTyhqNbfioscowzqFQTdiHpdQw&ved=2ahUKEwib24Ghx46VAxUVLzQIHa-pLhcQ8tMDegQIWxAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=ybgyatvSHZXe0PEPr9O6uQE&start=20&sa=N&sstk=AU9db-A2joNzoUb3WbSr1W9dJl7AmD5eLvN6tHWew59otNqucEK01w73gszNNm-_foezaAw1b8DOiTyhqNbfioscowzqFQTdiHpdQw&ved=2ahUKEwib24Ghx46VAxUVLzQIHa-pLhcQ8tMDegQIWxAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=ybgyatvSHZXe0PEPr9O6uQE&start=30&sa=N&sstk=AU9db-A2joNzoUb3WbSr1W9dJl7AmD5eLvN6tHWew59otNqucEK01w73gszNNm-_foezaAw1b8DOiTyhqNbfioscowzqFQTdiHpdQw&ved=2ahUKEwib24Ghx46VAxUVLzQIHa-pLhcQ8tMDegQIWxAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=ybgyatvSHZXe0PEPr9O6uQE&start=40&sa=N&sstk=AU9db-A2joNzoUb3WbSr1W9dJl7AmD5eLvN6tHWew59otNqucEK01w73gszNNm-_foezaAw1b8DOiTyhqNbfioscowzqFQTdiHpdQw&ved=2ahUKEwib24Ghx46VAxUVLzQIHa-pLhcQ8tMDegQIWxAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=ybgyatvSHZXe0PEPr9O6uQE&start=50&sa=N&sstk=AU9db-A2joNzoUb3WbSr1W9dJl7AmD5eLvN6tHWew59otNqucEK01w73gszNNm-_foezaAw1b8DOiTyhqNbfioscowzqFQTdiHpdQw&ved=2ahUKEwib24Ghx46VAxUVLzQIHa-pLhcQ8tMDegQIWxAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=ybgyatvSHZXe0PEPr9O6uQE&start=60&sa=N&sstk=AU9db-A2joNzoUb3WbSr1W9dJl7AmD5eLvN6tHWew59otNqucEK01w73gszNNm-_foezaAw1b8DOiTyhqNbfioscowzqFQTdiHpdQw&ved=2ahUKEwib24Ghx46VAxUVLzQIHa-pLhcQ8tMDegQIWxAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=ybgyatvSHZXe0PEPr9O6uQE&start=70&sa=N&sstk=AU9db-A2joNzoUb3WbSr1W9dJl7AmD5eLvN6tHWew59otNqucEK01w73gszNNm-_foezaAw1b8DOiTyhqNbfioscowzqFQTdiHpdQw&ved=2ahUKEwib24Ghx46VAxUVLzQIHa-pLhcQ8tMDegQIWxAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=ybgyatvSHZXe0PEPr9O6uQE&start=80&sa=N&sstk=AU9db-A2joNzoUb3WbSr1W9dJl7AmD5eLvN6tHWew59otNqucEK01w73gszNNm-_foezaAw1b8DOiTyhqNbfioscowzqFQTdiHpdQw&ved=2ahUKEwib24Ghx46VAxUVLzQIHa-pLhcQ8tMDegQIWxAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=ybgyatvSHZXe0PEPr9O6uQE&start=90&sa=N&sstk=AU9db-A2joNzoUb3WbSr1W9dJl7AmD5eLvN6tHWew59otNqucEK01w73gszNNm-_foezaAw1b8DOiTyhqNbfioscowzqFQTdiHpdQw&ved=2ahUKEwib24Ghx46VAxUVLzQIHa-pLhcQ8tMDegQIWxAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=2MYyatHgEd2yptQPkJjwiQI&start=10&sa=N&sstk=AU9db-Bhb3zxJqMePhn-xsD24tRZsv496ypXEG-ELmOvLIfZZXu4RGCj-xvOZa04T1he1K46FFwBw1XaJOAfaunS2tHKigHkHxutFQ&ved=2ahUKEwjRrIfV1I6VAxVdmYkEHRAMPCEQ8tMDegQITRAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=2MYyatHgEd2yptQPkJjwiQI&start=20&sa=N&sstk=AU9db-Bhb3zxJqMePhn-xsD24tRZsv496ypXEG-ELmOvLIfZZXu4RGCj-xvOZa04T1he1K46FFwBw1XaJOAfaunS2tHKigHkHxutFQ&ved=2ahUKEwjRrIfV1I6VAxVdmYkEHRAMPCEQ8tMDegQITRAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=2MYyatHgEd2yptQPkJjwiQI&start=30&sa=N&sstk=AU9db-Bhb3zxJqMePhn-xsD24tRZsv496ypXEG-ELmOvLIfZZXu4RGCj-xvOZa04T1he1K46FFwBw1XaJOAfaunS2tHKigHkHxutFQ&ved=2ahUKEwjRrIfV1I6VAxVdmYkEHRAMPCEQ8tMDegQITRAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=2MYyatHgEd2yptQPkJjwiQI&start=40&sa=N&sstk=AU9db-Bhb3zxJqMePhn-xsD24tRZsv496ypXEG-ELmOvLIfZZXu4RGCj-xvOZa04T1he1K46FFwBw1XaJOAfaunS2tHKigHkHxutFQ&ved=2ahUKEwjRrIfV1I6VAxVdmYkEHRAMPCEQ8tMDegQITRAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=2MYyatHgEd2yptQPkJjwiQI&start=50&sa=N&sstk=AU9db-Bhb3zxJqMePhn-xsD24tRZsv496ypXEG-ELmOvLIfZZXu4RGCj-xvOZa04T1he1K46FFwBw1XaJOAfaunS2tHKigHkHxutFQ&ved=2ahUKEwjRrIfV1I6VAxVdmYkEHRAMPCEQ8tMDegQITRAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=2MYyatHgEd2yptQPkJjwiQI&start=60&sa=N&sstk=AU9db-Bhb3zxJqMePhn-xsD24tRZsv496ypXEG-ELmOvLIfZZXu4RGCj-xvOZa04T1he1K46FFwBw1XaJOAfaunS2tHKigHkHxutFQ&ved=2ahUKEwjRrIfV1I6VAxVdmYkEHRAMPCEQ8tMDegQITRAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=2MYyatHgEd2yptQPkJjwiQI&start=70&sa=N&sstk=AU9db-Bhb3zxJqMePhn-xsD24tRZsv496ypXEG-ELmOvLIfZZXu4RGCj-xvOZa04T1he1K46FFwBw1XaJOAfaunS2tHKigHkHxutFQ&ved=2ahUKEwjRrIfV1I6VAxVdmYkEHRAMPCEQ8tMDegQITRAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=2MYyatHgEd2yptQPkJjwiQI&start=80&sa=N&sstk=AU9db-Bhb3zxJqMePhn-xsD24tRZsv496ypXEG-ELmOvLIfZZXu4RGCj-xvOZa04T1he1K46FFwBw1XaJOAfaunS2tHKigHkHxutFQ&ved=2ahUKEwjRrIfV1I6VAxVdmYkEHRAMPCEQ8tMDegQITRAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=45cb79f7b9520633&gl=us&hl=en&ei=2MYyatHgEd2yptQPkJjwiQI&start=90&sa=N&sstk=AU9db-Bhb3zxJqMePhn-xsD24tRZsv496ypXEG-ELmOvLIfZZXu4RGCj-xvOZa04T1he1K46FFwBw1XaJOAfaunS2tHKigHkHxutFQ&ved=2ahUKEwjRrIfV1I6VAxVdmYkEHRAMPCEQ8tMDegQITRAU"
           }
         }
       }
     }
   },
-  "requestId": "ed525645-9a5c-428a-b2ba-b9bc4ae58813",
-  "timestamp": 1781712003710,
-  "recordTime": "2026-06-18 00:00:03"
+  "requestId": "a0f1073f-d685-4843-9f57-847373fff0aa",
+  "timestamp": 1781714358768,
+  "recordTime": "2026-06-18 00:39:18"
 }
