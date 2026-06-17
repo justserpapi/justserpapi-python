@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-17 17:10:02",
+    "checkedAt": "2026-06-17 18:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.53,
-          "total_results": 165,
+          "time_taken": 0.44,
+          "total_results": 164,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -18,45 +18,177 @@
           "original_query_yields_zero_results": false,
           "url": "https://www.google.com/search?q=coffee&oq=coffee&gl=us&hl=en&safe=off&sourceid=chrome&ie=UTF-8"
         },
+        "ads": [
+          {
+            "position": 1,
+            "block_position": "bottom",
+            "title": "Brew Delicious Coffee - Explore Coffee Blends",
+            "snippet": "A World of Coffee to Discover. Shop Nespresso's Wide Variety of Coffee Pods Today. Shop With Us to Explore the Largest Selection of Nespresso Pods and Exclusive Coffees. Limited Edition Coffees.",
+            "displayed_link": "https://www.nespresso.com",
+            "link": "https://www.nespresso.com/us/en/vertuo-coffee-pods",
+            "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjTtLi-746VAxVSO60GHUb1B-4YACICCAIQABoCcHY&ae=2&co=1&ase=2&gclid=EAIaIQobChMI07S4vu-OlQMVUjutBh1G9QfuEAMYASAAEgJPtfD_BwE&cid=CAASugHkaFI5oB8ub7BTGZHeE1k21LC3AThip5z2pZYJpwCGiVUD11Stwb7yb_LzWoKbLoE5sXssczBju1gnIz1TQjVGvMILVmFcpT0wf4E1i1chLZlGjyycXbkPJMTag3xuiEFqCIHRP-vbFqRzONiA0DppEraOiYkBWYNURTudzo7yBB0DX5J5MuhqgZy4Xt3ocPGk81BF0FG1v-guHSbYye4ZTyoTrO3Inm7Outbu-cPTSmzdVOABUqs-Vb0&cce=2&category=acrcp_v1_71&sig=AOD64_1Nafkr-JPn5v05zRBEiWT6wPBdHg&q&nis=4&adurl",
+            "source": "Nespresso®",
+            "sitelinks": [
+              {
+                "title": "Rating",
+                "link": "https://www.google.com/shopping/ratings/account/metrics?q=nespresso.com&c=US&v=19"
+              },
+              {
+                "title": "Nespresso",
+                "link": "/aclk?sa=L&ai=DChsSEwjTtLi-746VAxVSO60GHUb1B-4YACICCAIQBRoCcHY&ae=2&co=1&ase=2&gclid=EAIaIQobChMI07S4vu-OlQMVUjutBh1G9QfuEAMYASAFEgI5b_D_BwE&cid=CAASugHkaFI5oB8ub7BTGZHeE1k21LC3AThip5z2pZYJpwCGiVUD11Stwb7yb_LzWoKbLoE5sXssczBju1gnIz1TQjVGvMILVmFcpT0wf4E1i1chLZlGjyycXbkPJMTag3xuiEFqCIHRP-vbFqRzONiA0DppEraOiYkBWYNURTudzo7yBB0DX5J5MuhqgZy4Xt3ocPGk81BF0FG1v-guHSbYye4ZTyoTrO3Inm7Outbu-cPTSmzdVOABUqs-Vb0&cce=2&category=acrcp_v1_71&sig=AOD64_0BDUECkYFMWYvt0G6kxJT4oIw29A&adurl=&q="
+              },
+              {
+                "title": "Shop Coffee Capsules",
+                "link": "/aclk?sa=L&ai=DChsSEwjTtLi-746VAxVSO60GHUb1B-4YACICCAIQBhoCcHY&ae=2&co=1&ase=2&gclid=EAIaIQobChMI07S4vu-OlQMVUjutBh1G9QfuEAMYASAGEgIiTfD_BwE&cid=CAASugHkaFI5oB8ub7BTGZHeE1k21LC3AThip5z2pZYJpwCGiVUD11Stwb7yb_LzWoKbLoE5sXssczBju1gnIz1TQjVGvMILVmFcpT0wf4E1i1chLZlGjyycXbkPJMTag3xuiEFqCIHRP-vbFqRzONiA0DppEraOiYkBWYNURTudzo7yBB0DX5J5MuhqgZy4Xt3ocPGk81BF0FG1v-guHSbYye4ZTyoTrO3Inm7Outbu-cPTSmzdVOABUqs-Vb0&cce=2&category=acrcp_v1_71&sig=AOD64_0nsfplkCfqQP77lIj2ovJgvM15bw&adurl=&q="
+              },
+              {
+                "title": "Explore Coffee Capsules",
+                "link": "https://www.nespresso.com/us/en/vertuo-coffee-pods"
+              },
+              {
+                "title": "Curated Coffee Recipes",
+                "link": "https://www.nespresso.com/us/en/coffee-recipes"
+              },
+              {
+                "title": "Vertuo Pop+",
+                "link": "https://www.nespresso.com/us/en/order/machines/vertuo/vertuo-pop-plus-liquoriceblack"
+              }
+            ],
+            "extensions": ""
+          }
+        ],
+        "shopping_results": [
+          {
+            "position": 1,
+            "block_position": "right",
+            "title": "Nespresso - Melozio - Sleeve of 10 - Vertuo Coffee Capsules",
+            "price": "$14.00",
+            "link": "https://www.nespresso.com/us/en/order/capsules/vertuo/melozio-vertuo-coffee-pods",
+            "sponsored_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjTtLi-746VAxVSO60GHUb1B-4YACICCAEQDBoCcHY&ae=2&co=1&ase=2&gclid=EAIaIQobChMI07S4vu-OlQMVUjutBh1G9QfuEAYYASABEgKJwvD_BwE&cid=CAASugHkaFI5oB8ub7BTGZHeE1k21LC3AThip5z2pZYJpwCGiVUD11Stwb7yb_LzWoKbLoE5sXssczBju1gnIz1TQjVGvMILVmFcpT0wf4E1i1chLZlGjyycXbkPJMTag3xuiEFqCIHRP-vbFqRzONiA0DppEraOiYkBWYNURTudzo7yBB0DX5J5MuhqgZy4Xt3ocPGk81BF0FG1v-guHSbYye4ZTyoTrO3Inm7Outbu-cPTSmzdVOABUqs-Vb0&cce=2&category=acrcp_v1_71&sig=AOD64_1LsUcvEwNCz2Ch8vX6IpYCI2GLUQ&ctype=5&q=&nis=4&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q5bgDKAB6BAgNEAc&adurl=",
+            "source": "Nespresso",
+            "rating": "4.9",
+            "reviews": "712",
+            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEVHcEz/RQD/RgD/RQD/RQD/RQD/RAD/RQD/RQD/RQD+////RQD/NwD/PQD/QQDw9vj3/P3i7O/M2eD07+z6fFvQ4OcBBAb/Ug30uKz408n7Zjr7jnLa5Ojcj4T5cEzYop7Qz9HDycv0nYrLQiXpWzwZJChaNitkZWaiLgTvGwCIfHuOW01HcEyTqjndAAAALXRSTlMAyU9SiuIMIvWe/////////////////////////////////////////////wAEJt9nAAABrUlEQVQ4jYVTWXaDMAyEpKyyvBA7Zg9kb3v/+1U2JYG2eZ0fY8/YEtIoCB6It1mYAqRhto2D30gyIh/Ikp/8G/zA2/p6tCKRMQ7R4pEkXfGsqaoaIU1e8HjMCZY/Fev3+f2mSHBEgOiv/E6X64eSUjrBlGmyzv5y4rpVquB+54Jky+f5/co51ofOToKM6ucJpD1naPX1U1vGGHJ/BGkcbN1/Wa2B9eUu99iVPQNNQqI2LgJrBJ1W+QIVaUXDXIwQUOcvoBHCIAVWvRJUDNIAHoLDYSbmLxKAE5RCyjzv3uvv8+6972iRonSCFHhtSCFOUJ8nwRnqkyDe1NQPShKwb0lxtrb/zs3aMxW77anaoS8kBRGy0s1ch0ZXUvgA9JuuUNiIHUmkKoZxHArXKyFEg75QMZmBg1FKCXHZe1yIVaoFV+t4ahZq07ZKjJNgdHSrcWrW1G7sTFEYNd72+9uoWlOYDud2T4ZheigKp1HGrYNmC2t7y6E9DsaTxgxH6+9HK9NyhLopCU0N3gsLW8+m4jQQzizT7sn/miqP6B/+OXqbP9g0ez13bvw3i/H/Asr5MBnHLL6RAAAAAElFTkSuQmCC"
+          },
+          {
+            "position": 2,
+            "block_position": "right",
+            "title": "6732 | GREEN MOUNTAIN COFFEE | Coffee 7.92 oz Net Wt Ground PK24",
+            "price": "$39.45",
+            "link": "https://spsindustrial.com/Coffee-7dot92-oz-Net-Wt-Ground-PK24-794M26",
+            "sponsored_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjTtLi-746VAxVSO60GHUb1B-4YACICCAEQCxoCcHY&co=1&ase=2&gclid=EAIaIQobChMI07S4vu-OlQMVUjutBh1G9QfuEAYYAiABEgI02vD_BwE&cid=CAASugHkaFI5oB8ub7BTGZHeE1k21LC3AThip5z2pZYJpwCGiVUD11Stwb7yb_LzWoKbLoE5sXssczBju1gnIz1TQjVGvMILVmFcpT0wf4E1i1chLZlGjyycXbkPJMTag3xuiEFqCIHRP-vbFqRzONiA0DppEraOiYkBWYNURTudzo7yBB0DX5J5MuhqgZy4Xt3ocPGk81BF0FG1v-guHSbYye4ZTyoTrO3Inm7Outbu-cPTSmzdVOABUqs-Vb0&cce=2&category=acrcp_v1_32&sig=AOD64_2K6FLrzifLPBXgpmjMubbtqIFXFg&ctype=5&q=&nis=4&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q5bgDKAB6BAgNEBI&adurl=",
+            "source": "spsindustrial.com",
+            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEVHcEz/RQD/RgD/RQD/RQD/RQD/RAD/RQD/RQD/RQD+////RQD/NwD/PQD/QQDw9vj3/P3i7O/M2eD07+z6fFvQ4OcBBAb/Ug30uKz408n7Zjr7jnLa5Ojcj4T5cEzYop7Qz9HDycv0nYrLQiXpWzwZJChaNitkZWaiLgTvGwCIfHuOW01HcEyTqjndAAAALXRSTlMAyU9SiuIMIvWe/////////////////////////////////////////////wAEJt9nAAABrUlEQVQ4jYVTWXaDMAyEpKyyvBA7Zg9kb3v/+1U2JYG2eZ0fY8/YEtIoCB6It1mYAqRhto2D30gyIh/Ikp/8G/zA2/p6tCKRMQ7R4pEkXfGsqaoaIU1e8HjMCZY/Fev3+f2mSHBEgOiv/E6X64eSUjrBlGmyzv5y4rpVquB+54Jky+f5/co51ofOToKM6ucJpD1naPX1U1vGGHJ/BGkcbN1/Wa2B9eUu99iVPQNNQqI2LgJrBJ1W+QIVaUXDXIwQUOcvoBHCIAVWvRJUDNIAHoLDYSbmLxKAE5RCyjzv3uvv8+6972iRonSCFHhtSCFOUJ8nwRnqkyDe1NQPShKwb0lxtrb/zs3aMxW77anaoS8kBRGy0s1ch0ZXUvgA9JuuUNiIHUmkKoZxHArXKyFEg75QMZmBg1FKCXHZe1yIVaoFV+t4ahZq07ZKjJNgdHSrcWrW1G7sTFEYNd72+9uoWlOYDud2T4ZheigKp1HGrYNmC2t7y6E9DsaTxgxH6+9HK9NyhLopCU0N3gsLW8+m4jQQzizT7sn/miqP6B/+OXqbP9g0ez13bvw3i/H/Asr5MBnHLL6RAAAAAElFTkSuQmCC"
+          },
+          {
+            "position": 3,
+            "block_position": "right",
+            "title": "Cafe Bustelo Espresso Style Ground Coffee 10 oz. Bricks | 24-Count Case Dark Roast",
+            "price": "$164.99",
+            "link": "https://www.webstaurantstore.com/cafe-bustelo-espresso-ground-coffee-brick-10-oz-case/110BSBR1721KT.html",
+            "sponsored_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjTtLi-746VAxVSO60GHUb1B-4YACICCAEQCRoCcHY&co=1&ase=2&gclid=EAIaIQobChMI07S4vu-OlQMVUjutBh1G9QfuEAYYAyABEgI8svD_BwE&cid=CAASugHkaFI5oB8ub7BTGZHeE1k21LC3AThip5z2pZYJpwCGiVUD11Stwb7yb_LzWoKbLoE5sXssczBju1gnIz1TQjVGvMILVmFcpT0wf4E1i1chLZlGjyycXbkPJMTag3xuiEFqCIHRP-vbFqRzONiA0DppEraOiYkBWYNURTudzo7yBB0DX5J5MuhqgZy4Xt3ocPGk81BF0FG1v-guHSbYye4ZTyoTrO3Inm7Outbu-cPTSmzdVOABUqs-Vb0&cce=2&category=acrcp_v1_32&sig=AOD64_1RaDvqHnlcm1Q76hG-M-6Rz6WTuQ&ctype=5&q=&nis=4&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q5bgDKAB6BAgNEBs&adurl=",
+            "source": "WebstaurantStore.com",
+            "rating": "4.7",
+            "reviews": "8k+",
+            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEVHcEz/RQD/RgD/RQD/RQD/RQD/RAD/RQD/RQD/RQD+////RQD/NwD/PQD/QQDw9vj3/P3i7O/M2eD07+z6fFvQ4OcBBAb/Ug30uKz408n7Zjr7jnLa5Ojcj4T5cEzYop7Qz9HDycv0nYrLQiXpWzwZJChaNitkZWaiLgTvGwCIfHuOW01HcEyTqjndAAAALXRSTlMAyU9SiuIMIvWe/////////////////////////////////////////////wAEJt9nAAABrUlEQVQ4jYVTWXaDMAyEpKyyvBA7Zg9kb3v/+1U2JYG2eZ0fY8/YEtIoCB6It1mYAqRhto2D30gyIh/Ikp/8G/zA2/p6tCKRMQ7R4pEkXfGsqaoaIU1e8HjMCZY/Fev3+f2mSHBEgOiv/E6X64eSUjrBlGmyzv5y4rpVquB+54Jky+f5/co51ofOToKM6ucJpD1naPX1U1vGGHJ/BGkcbN1/Wa2B9eUu99iVPQNNQqI2LgJrBJ1W+QIVaUXDXIwQUOcvoBHCIAVWvRJUDNIAHoLDYSbmLxKAE5RCyjzv3uvv8+6972iRonSCFHhtSCFOUJ8nwRnqkyDe1NQPShKwb0lxtrb/zs3aMxW77anaoS8kBRGy0s1ch0ZXUvgA9JuuUNiIHUmkKoZxHArXKyFEg75QMZmBg1FKCXHZe1yIVaoFV+t4ahZq07ZKjJNgdHSrcWrW1G7sTFEYNd72+9uoWlOYDud2T4ZheigKp1HGrYNmC2t7y6E9DsaTxgxH6+9HK9NyhLopCU0N3gsLW8+m4jQQzizT7sn/miqP6B/+OXqbP9g0ez13bvw3i/H/Asr5MBnHLL6RAAAAAElFTkSuQmCC"
+          },
+          {
+            "position": 4,
+            "block_position": "right",
+            "title": "Café Bustelo Espresso Dark Roast Ground Coffee - 10oz",
+            "price": "$7.59",
+            "link": "https://www.target.com/p/caf-233-bustelo-espresso-dark-roast-ground-coffee-10oz/-/A-13476841?sid=2312S&afid=google&TCID=OGS&CPNG=Dry+Grocery&adgroup=231-10",
+            "sponsored_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjTtLi-746VAxVSO60GHUb1B-4YACICCAEQFBoCcHY&ae=2&co=1&ase=2&gclid=EAIaIQobChMI07S4vu-OlQMVUjutBh1G9QfuEAYYBCABEgI6efD_BwE&cid=CAASugHkaFI5oB8ub7BTGZHeE1k21LC3AThip5z2pZYJpwCGiVUD11Stwb7yb_LzWoKbLoE5sXssczBju1gnIz1TQjVGvMILVmFcpT0wf4E1i1chLZlGjyycXbkPJMTag3xuiEFqCIHRP-vbFqRzONiA0DppEraOiYkBWYNURTudzo7yBB0DX5J5MuhqgZy4Xt3ocPGk81BF0FG1v-guHSbYye4ZTyoTrO3Inm7Outbu-cPTSmzdVOABUqs-Vb0&cce=2&category=acrcp_v1_71&sig=AOD64_26i5AMbO1Ky8t0qYVEemOujRt96w&ctype=46&q=&nis=4&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q5bgDKAB6BAgNECY&adurl=",
+            "source": "Target",
+            "rating": "4.7",
+            "reviews": "8k+",
+            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEVHcEz/RQD/RgD/RQD/RQD/RQD/RAD/RQD/RQD/RQD+////RQD/NwD/PQD/QQDw9vj3/P3i7O/M2eD07+z6fFvQ4OcBBAb/Ug30uKz408n7Zjr7jnLa5Ojcj4T5cEzYop7Qz9HDycv0nYrLQiXpWzwZJChaNitkZWaiLgTvGwCIfHuOW01HcEyTqjndAAAALXRSTlMAyU9SiuIMIvWe/////////////////////////////////////////////wAEJt9nAAABrUlEQVQ4jYVTWXaDMAyEpKyyvBA7Zg9kb3v/+1U2JYG2eZ0fY8/YEtIoCB6It1mYAqRhto2D30gyIh/Ikp/8G/zA2/p6tCKRMQ7R4pEkXfGsqaoaIU1e8HjMCZY/Fev3+f2mSHBEgOiv/E6X64eSUjrBlGmyzv5y4rpVquB+54Jky+f5/co51ofOToKM6ucJpD1naPX1U1vGGHJ/BGkcbN1/Wa2B9eUu99iVPQNNQqI2LgJrBJ1W+QIVaUXDXIwQUOcvoBHCIAVWvRJUDNIAHoLDYSbmLxKAE5RCyjzv3uvv8+6972iRonSCFHhtSCFOUJ8nwRnqkyDe1NQPShKwb0lxtrb/zs3aMxW77anaoS8kBRGy0s1ch0ZXUvgA9JuuUNiIHUmkKoZxHArXKyFEg75QMZmBg1FKCXHZe1yIVaoFV+t4ahZq07ZKjJNgdHSrcWrW1G7sTFEYNd72+9uoWlOYDud2T4ZheigKp1HGrYNmC2t7y6E9DsaTxgxH6+9HK9NyhLopCU0N3gsLW8+m4jQQzizT7sn/miqP6B/+OXqbP9g0ez13bvw3i/H/Asr5MBnHLL6RAAAAAElFTkSuQmCC"
+          },
+          {
+            "position": 5,
+            "block_position": "right",
+            "title": "McCafe Premium Roast Coffee Keurig K-Cup Pods, Medium Roast, 96/Carton (080375CT)",
+            "price": "$31.50",
+            "previous_price": "$63",
+            "link": "https://www.staples.com/mccafe-premium-roast-coffee-keurig-k-cup-pods-medium-roast-96-carton-080375ct/product_24442523",
+            "sponsored_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjTtLi-746VAxVSO60GHUb1B-4YACICCAEQCBoCcHY&co=1&ase=2&gclid=EAIaIQobChMI07S4vu-OlQMVUjutBh1G9QfuEAYYBSABEgJA9_D_BwE&cid=CAASugHkaFI5oB8ub7BTGZHeE1k21LC3AThip5z2pZYJpwCGiVUD11Stwb7yb_LzWoKbLoE5sXssczBju1gnIz1TQjVGvMILVmFcpT0wf4E1i1chLZlGjyycXbkPJMTag3xuiEFqCIHRP-vbFqRzONiA0DppEraOiYkBWYNURTudzo7yBB0DX5J5MuhqgZy4Xt3ocPGk81BF0FG1v-guHSbYye4ZTyoTrO3Inm7Outbu-cPTSmzdVOABUqs-Vb0&cce=2&category=acrcp_v1_32&sig=AOD64_3JPXEJXBhzjRUYiIwF_LfTTKmzCw&ctype=5&q=&nis=4&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q5bgDKAB6BAgNEDE&adurl=",
+            "source": "Staples",
+            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEVHcEz/RQD/RgD/RQD/RQD/RQD/RAD/RQD/RQD/RQD+////RQD/NwD/PQD/QQDw9vj3/P3i7O/M2eD07+z6fFvQ4OcBBAb/Ug30uKz408n7Zjr7jnLa5Ojcj4T5cEzYop7Qz9HDycv0nYrLQiXpWzwZJChaNitkZWaiLgTvGwCIfHuOW01HcEyTqjndAAAALXRSTlMAyU9SiuIMIvWe/////////////////////////////////////////////wAEJt9nAAABrUlEQVQ4jYVTWXaDMAyEpKyyvBA7Zg9kb3v/+1U2JYG2eZ0fY8/YEtIoCB6It1mYAqRhto2D30gyIh/Ikp/8G/zA2/p6tCKRMQ7R4pEkXfGsqaoaIU1e8HjMCZY/Fev3+f2mSHBEgOiv/E6X64eSUjrBlGmyzv5y4rpVquB+54Jky+f5/co51ofOToKM6ucJpD1naPX1U1vGGHJ/BGkcbN1/Wa2B9eUu99iVPQNNQqI2LgJrBJ1W+QIVaUXDXIwQUOcvoBHCIAVWvRJUDNIAHoLDYSbmLxKAE5RCyjzv3uvv8+6972iRonSCFHhtSCFOUJ8nwRnqkyDe1NQPShKwb0lxtrb/zs3aMxW77anaoS8kBRGy0s1ch0ZXUvgA9JuuUNiIHUmkKoZxHArXKyFEg75QMZmBg1FKCXHZe1yIVaoFV+t4ahZq07ZKjJNgdHSrcWrW1G7sTFEYNd72+9uoWlOYDud2T4ZheigKp1HGrYNmC2t7y6E9DsaTxgxH6+9HK9NyhLopCU0N3gsLW8+m4jQQzizT7sn/miqP6B/+OXqbP9g0ez13bvw3i/H/Asr5MBnHLL6RAAAAAElFTkSuQmCC"
+          },
+          {
+            "position": 6,
+            "block_position": "right",
+            "title": "Nespresso - Original 50 Capsule Dark Roast Pack - Sleeve of 10 - Original Coffee Capsules",
+            "price": "$45.00",
+            "link": "https://www.nespresso.com/us/en/order/capsules/original/original-dark-roast-coffee-assortment",
+            "sponsored_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjTtLi-746VAxVSO60GHUb1B-4YACICCAEQEBoCcHY&ae=2&co=1&ase=2&gclid=EAIaIQobChMI07S4vu-OlQMVUjutBh1G9QfuEAYYBiABEgKnR_D_BwE&cid=CAASugHkaFI5oB8ub7BTGZHeE1k21LC3AThip5z2pZYJpwCGiVUD11Stwb7yb_LzWoKbLoE5sXssczBju1gnIz1TQjVGvMILVmFcpT0wf4E1i1chLZlGjyycXbkPJMTag3xuiEFqCIHRP-vbFqRzONiA0DppEraOiYkBWYNURTudzo7yBB0DX5J5MuhqgZy4Xt3ocPGk81BF0FG1v-guHSbYye4ZTyoTrO3Inm7Outbu-cPTSmzdVOABUqs-Vb0&cce=2&category=acrcp_v1_71&sig=AOD64_3SYdYH7qTSRH-s2nDSfh-x6V4h1Q&ctype=5&q=&nis=4&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q5bgDKAB6BAgNEEY&adurl=",
+            "source": "Nespresso",
+            "rating": "3.7",
+            "reviews": "6",
+            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEVHcEz/RQD/RgD/RQD/RQD/RQD/RAD/RQD/RQD/RQD+////RQD/NwD/PQD/QQDw9vj3/P3i7O/M2eD07+z6fFvQ4OcBBAb/Ug30uKz408n7Zjr7jnLa5Ojcj4T5cEzYop7Qz9HDycv0nYrLQiXpWzwZJChaNitkZWaiLgTvGwCIfHuOW01HcEyTqjndAAAALXRSTlMAyU9SiuIMIvWe/////////////////////////////////////////////wAEJt9nAAABrUlEQVQ4jYVTWXaDMAyEpKyyvBA7Zg9kb3v/+1U2JYG2eZ0fY8/YEtIoCB6It1mYAqRhto2D30gyIh/Ikp/8G/zA2/p6tCKRMQ7R4pEkXfGsqaoaIU1e8HjMCZY/Fev3+f2mSHBEgOiv/E6X64eSUjrBlGmyzv5y4rpVquB+54Jky+f5/co51ofOToKM6ucJpD1naPX1U1vGGHJ/BGkcbN1/Wa2B9eUu99iVPQNNQqI2LgJrBJ1W+QIVaUXDXIwQUOcvoBHCIAVWvRJUDNIAHoLDYSbmLxKAE5RCyjzv3uvv8+6972iRonSCFHhtSCFOUJ8nwRnqkyDe1NQPShKwb0lxtrb/zs3aMxW77anaoS8kBRGy0s1ch0ZXUvgA9JuuUNiIHUmkKoZxHArXKyFEg75QMZmBg1FKCXHZe1yIVaoFV+t4ahZq07ZKjJNgdHSrcWrW1G7sTFEYNd72+9uoWlOYDud2T4ZheigKp1HGrYNmC2t7y6E9DsaTxgxH6+9HK9NyhLopCU0N3gsLW8+m4jQQzizT7sn/miqP6B/+OXqbP9g0ez13bvw3i/H/Asr5MBnHLL6RAAAAAElFTkSuQmCC"
+          },
+          {
+            "position": 7,
+            "block_position": "right",
+            "title": "The Original Donut Shop Coffee Keurig K-Cup Pods, Medium Roast, 96/Carton (60052-101)",
+            "price": "$38.50",
+            "previous_price": "$77",
+            "link": "https://www.staples.com/the-original-donut-shop-regular-coffee-keurig-k-cup-pods-medium-roast-96-carton-60052-101/product_865543",
+            "sponsored_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjTtLi-746VAxVSO60GHUb1B-4YACICCAEQChoCcHY&co=1&ase=2&gclid=EAIaIQobChMI07S4vu-OlQMVUjutBh1G9QfuEAYYByABEgKk2fD_BwE&cid=CAASugHkaFI5oB8ub7BTGZHeE1k21LC3AThip5z2pZYJpwCGiVUD11Stwb7yb_LzWoKbLoE5sXssczBju1gnIz1TQjVGvMILVmFcpT0wf4E1i1chLZlGjyycXbkPJMTag3xuiEFqCIHRP-vbFqRzONiA0DppEraOiYkBWYNURTudzo7yBB0DX5J5MuhqgZy4Xt3ocPGk81BF0FG1v-guHSbYye4ZTyoTrO3Inm7Outbu-cPTSmzdVOABUqs-Vb0&cce=2&category=acrcp_v1_32&sig=AOD64_3Mw3VmJT6zZ19aVUs4Yznm0q37hA&ctype=5&q=&nis=4&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q5bgDKAB6BAgNEFE&adurl=",
+            "source": "Staples",
+            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEVHcEz/RQD/RgD/RQD/RQD/RQD/RAD/RQD/RQD/RQD+////RQD/NwD/PQD/QQDw9vj3/P3i7O/M2eD07+z6fFvQ4OcBBAb/Ug30uKz408n7Zjr7jnLa5Ojcj4T5cEzYop7Qz9HDycv0nYrLQiXpWzwZJChaNitkZWaiLgTvGwCIfHuOW01HcEyTqjndAAAALXRSTlMAyU9SiuIMIvWe/////////////////////////////////////////////wAEJt9nAAABrUlEQVQ4jYVTWXaDMAyEpKyyvBA7Zg9kb3v/+1U2JYG2eZ0fY8/YEtIoCB6It1mYAqRhto2D30gyIh/Ikp/8G/zA2/p6tCKRMQ7R4pEkXfGsqaoaIU1e8HjMCZY/Fev3+f2mSHBEgOiv/E6X64eSUjrBlGmyzv5y4rpVquB+54Jky+f5/co51ofOToKM6ucJpD1naPX1U1vGGHJ/BGkcbN1/Wa2B9eUu99iVPQNNQqI2LgJrBJ1W+QIVaUXDXIwQUOcvoBHCIAVWvRJUDNIAHoLDYSbmLxKAE5RCyjzv3uvv8+6972iRonSCFHhtSCFOUJ8nwRnqkyDe1NQPShKwb0lxtrb/zs3aMxW77anaoS8kBRGy0s1ch0ZXUvgA9JuuUNiIHUmkKoZxHArXKyFEg75QMZmBg1FKCXHZe1yIVaoFV+t4ahZq07ZKjJNgdHSrcWrW1G7sTFEYNd72+9uoWlOYDud2T4ZheigKp1HGrYNmC2t7y6E9DsaTxgxH6+9HK9NyhLopCU0N3gsLW8+m4jQQzizT7sn/miqP6B/+OXqbP9g0ez13bvw3i/H/Asr5MBnHLL6RAAAAAElFTkSuQmCC"
+          },
+          {
+            "position": 8,
+            "block_position": "right",
+            "title": "Cafe Bustelo Espresso Coffee Keurig K-Cup Pods, Dark Roast, 96/Carton (10074471112668)",
+            "price": "$38.50",
+            "previous_price": "$77",
+            "link": "https://www.staples.com/cafe-bustelo-espresso-coffee-keurig-k-cup-pods-dark-roast-96-carton-10074471112668/product_24411274",
+            "sponsored_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjTtLi-746VAxVSO60GHUb1B-4YACICCAEQDRoCcHY&co=1&ase=2&gclid=EAIaIQobChMI07S4vu-OlQMVUjutBh1G9QfuEAYYCCABEgKGTvD_BwE&cid=CAASugHkaFI5oB8ub7BTGZHeE1k21LC3AThip5z2pZYJpwCGiVUD11Stwb7yb_LzWoKbLoE5sXssczBju1gnIz1TQjVGvMILVmFcpT0wf4E1i1chLZlGjyycXbkPJMTag3xuiEFqCIHRP-vbFqRzONiA0DppEraOiYkBWYNURTudzo7yBB0DX5J5MuhqgZy4Xt3ocPGk81BF0FG1v-guHSbYye4ZTyoTrO3Inm7Outbu-cPTSmzdVOABUqs-Vb0&cce=2&category=acrcp_v1_32&sig=AOD64_1GQxSyVDXQXPZJPjaHxXmAKghVEA&ctype=5&q=&nis=4&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q5bgDKAB6BAgNEGY&adurl=",
+            "source": "Staples",
+            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEVHcEz/RQD/RgD/RQD/RQD/RQD/RAD/RQD/RQD/RQD+////RQD/NwD/PQD/QQDw9vj3/P3i7O/M2eD07+z6fFvQ4OcBBAb/Ug30uKz408n7Zjr7jnLa5Ojcj4T5cEzYop7Qz9HDycv0nYrLQiXpWzwZJChaNitkZWaiLgTvGwCIfHuOW01HcEyTqjndAAAALXRSTlMAyU9SiuIMIvWe/////////////////////////////////////////////wAEJt9nAAABrUlEQVQ4jYVTWXaDMAyEpKyyvBA7Zg9kb3v/+1U2JYG2eZ0fY8/YEtIoCB6It1mYAqRhto2D30gyIh/Ikp/8G/zA2/p6tCKRMQ7R4pEkXfGsqaoaIU1e8HjMCZY/Fev3+f2mSHBEgOiv/E6X64eSUjrBlGmyzv5y4rpVquB+54Jky+f5/co51ofOToKM6ucJpD1naPX1U1vGGHJ/BGkcbN1/Wa2B9eUu99iVPQNNQqI2LgJrBJ1W+QIVaUXDXIwQUOcvoBHCIAVWvRJUDNIAHoLDYSbmLxKAE5RCyjzv3uvv8+6972iRonSCFHhtSCFOUJ8nwRnqkyDe1NQPShKwb0lxtrb/zs3aMxW77anaoS8kBRGy0s1ch0ZXUvgA9JuuUNiIHUmkKoZxHArXKyFEg75QMZmBg1FKCXHZe1yIVaoFV+t4ahZq07ZKjJNgdHSrcWrW1G7sTFEYNd72+9uoWlOYDud2T4ZheigKp1HGrYNmC2t7y6E9DsaTxgxH6+9HK9NyhLopCU0N3gsLW8+m4jQQzizT7sn/miqP6B/+OXqbP9g0ez13bvw3i/H/Asr5MBnHLL6RAAAAAElFTkSuQmCC"
+          }
+        ],
         "knowledge_graph": {
           "title": "Coffee"
         },
         "local_results": [
           {
             "position": 1,
-            "title": "The Vault Coffee & Cafe",
-            "rating": "4.8",
-            "reviews": "96",
-            "address": "4.8(96) · $1–10 · Cafe",
-            "hours": "Eldridge, IA",
+            "title": "The Brew Room",
+            "rating": "5.0",
+            "reviews": "219",
+            "address": "5.0(219) · $10–20 · Coffee shop",
+            "hours": "Ardmore, PA",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Cody Road Coffee of Eldridge",
+            "title": "Cafesphere",
             "rating": "4.7",
-            "reviews": "100",
-            "address": "4.7(100) · $1–10 · Coffee shop",
-            "hours": "Eldridge, IA",
+            "reviews": "245",
+            "address": "4.7(245) · $10–20 · Coffee shop",
+            "hours": "Media, PA",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Makenna Koffee Company",
-            "rating": "4.9",
-            "reviews": "148",
-            "address": "4.9(148) · $1–10 · Coffee shop",
-            "hours": "Davenport, IA",
+            "title": "Char & Stave",
+            "rating": "4.7",
+            "reviews": "379",
+            "address": "4.7(379) · $10–20 · Coffee shop",
+            "hours": "Ardmore, PA",
             "links": {}
           }
         ],
         "peopleAlsoAskedFor": [
           {
-            "question": "Does coffee reduce swelling?",
+            "question": "What is coffee called in Colombia?",
             "rank": 1
           },
           {
-            "question": "What is coffee called in Colombia?",
+            "question": "Does coffee reduce swelling?",
             "rank": 2
           },
           {
@@ -89,6 +221,19 @@
             "page_rank": 1
           },
           {
+            "title": "Buy Coffee, Tea, Powders Online | The Coffee Bean & Tea ...",
+            "link": "https://www.coffeebean.com/",
+            "displayed_link": "https://www.coffeebean.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEVHcExTLG1TLG1TLG1TLW1TLG1TLG1TLW1TLG1TLG1TLG30H49eAAAAC3RSTlMAFT5uyLedLN38V4AViBkAAADiSURBVHgBlZAlYgIAAAAPl4JLm3Zcy1zifGtzLbi2uaQ5UnC+iWvk2sU7JkfrcMxAH93qweWatW+yJ49GE3kKAgCpEwBjBgBkeeI5K/iCmADzifL96QukS5FnwEnyaXMRBAdrNhCskHz/DSJzrZXUINxAeVVCeLFbT0yDaBs0QtnmndpQVLf0FEj6r8Fopavx2gdpDB3dFtSe00HhC4YiILxzrU9D9IH5aUC5txsUzFAt4gJ0e5dquLD5ETwCRx79CSR/rUgXgRCyHxC4i62EscCvfv7qWD66vf6c/jr/DBPTBBH3MWVXMDuJAAAAAElFTkSuQmCC",
+            "source": "The Coffee Bean & Tea Leaf",
+            "snippet": "Buy exceptional coffee, tea, powders, equipment and drinkware at The Coffee Bean & Tea Leaf® online store to enjoy our globally sourced products at home.",
+            "highlighted_keywords": [
+              "Buy exceptional coffee, tea, powders, equipment and drinkware"
+            ],
+            "rank": 2,
+            "page_rank": 2
+          },
+          {
             "title": "What is coffee? - NCA",
             "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
             "displayed_link": "https://www.aboutcoffee.org › Origins",
@@ -98,33 +243,18 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 2,
-            "page_rank": 2
-          },
-          {
-            "title": "Coffee - Walmart.com",
-            "link": "https://www.walmart.com/cp/coffee/1086446",
-            "displayed_link": "https://www.walmart.com › coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEz/wRz/wR7/wh//wh//wBn/wh//wiD/wR7/wh//wh7/wh7/wR//wh//wR3/wh//wh7/wh//wh5JC3qUAAAAE3RSTlMADS92+AfR/8e5YYeZnhflTOw/6JuIewAAAKFJREFUeAG1koURA0EIANHn7bT/YsPEjXj2XFF4GSTC8JBFODrTwWzATw5h9EOImMwmuGIWW7aT1SxtJ4vJDFvyZP6CfMa2vUXbjbw9xGROmRGqSAWcizkJYQul5itZsjIrLuKLlgj2YF/8uHRwevGjpSOcUOJhzeDkdWBSuEJ1P24fvXwYfxsrFJvy3Amx+2LHByGLg/2HHGIxhgglQniVDZyEB/jjfAsrAAAAAElFTkSuQmCC",
-            "source": "Walmart",
-            "snippet": "Shop for Coffee at Walmart.com. Buy Ground coffee, coffee pods, instant coffee, and whole bean coffee. Save money. Live better.",
-            "highlighted_keywords": [
-              "Shop for Coffee at Walmart.com"
-            ],
             "rank": 3,
             "page_rank": 3
           },
           {
-            "title": "Coffee | Origin, Types, Uses, History, & Facts",
-            "link": "https://www.britannica.com/topic/coffee",
-            "displayed_link": "https://www.britannica.com › ... › Food",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
-            "source": "Britannica",
-            "snippet": "Coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant of African origin. Coffee is one of the ...",
+            "title": "Coffee Coffee - Bel Air",
+            "link": "https://www.coffeecoffee-online.com/",
+            "displayed_link": "https://www.coffeecoffee-online.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXElEQVR4AeyRgaaDUBjHgz1CzzEA1iZEgO5QJUlQCeUuSVV6hg2gp7h7k7vnCAxA8N3vzL2ZK/ejs81FHz9n7Oz8f/v+wpypqkqs6/odz0/G92dReOZ0XbdqmuYNgz7KshwQ+MXAvmN32N2HBbdtu8aHj0g/hhGwu8iR/ZZ7xWQgAV0RvWJOiIroFfNCVGTb9jWKIsjzHF4lkGUZuK4LiqJcBV3XgWEYBnieB0mSQFEUDw9lbwZBAJqmgSRJsNlsbowC91iWBb7vQ5qm3MFxHN/+nCzLYygyJTCN4zhAVzS9YlVV78PmCZAVESvmFqAqolbMKUBDhywCi8AisAgsAovAfxewLGttGMYJ6V8lIElSj+dpu92uhZ8Jw3BlmuYeHz2jzPAEgQGDz7vdbs+yhL8GBUR8/IDnhVcAQy/IAYNFYcZQFdEr5hyqImLFXENXhEJfu2dnZ3ePkiAGAOIqkJS3QoqOAAAAAElFTkSuQmCC",
+            "source": "coffeecoffee-online.com",
+            "snippet": "Coffee Coffee, repeatedly voted Harford County's BEST, is your go-to spot for freshly roasted coffee, tea and foodie products, breakfast and lunch, unique ...Read more",
             "highlighted_keywords": [
-              "Coffee",
-              "coffee",
-              "Coffee"
+              "freshly roasted coffee, tea and foodie products"
             ],
             "rank": 4,
             "page_rank": 4
@@ -143,8 +273,37 @@
             "page_rank": 5
           },
           {
+            "title": "Coffee - Walmart.com",
+            "link": "https://www.walmart.com/cp/coffee/1086446",
+            "displayed_link": "https://www.walmart.com › coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEz/wRz/wR7/wh//wh//wBn/wh//wiD/wR7/wh//wh7/wh7/wR//wh//wR3/wh//wh7/wh//wh5JC3qUAAAAE3RSTlMADS92+AfR/8e5YYeZnhflTOw/6JuIewAAAKFJREFUeAG1koURA0EIANHn7bT/YsPEjXj2XFF4GSTC8JBFODrTwWzATw5h9EOImMwmuGIWW7aT1SxtJ4vJDFvyZP6CfMa2vUXbjbw9xGROmRGqSAWcizkJYQul5itZsjIrLuKLlgj2YF/8uHRwevGjpSOcUOJhzeDkdWBSuEJ1P24fvXwYfxsrFJvy3Amx+2LHByGLg/2HHGIxhgglQniVDZyEB/jjfAsrAAAAAElFTkSuQmCC",
+            "source": "Walmart",
+            "snippet": "Shop for Coffee at Walmart.com. Buy Ground coffee, coffee pods, instant coffee, and whole bean coffee. Save money. Live better.",
+            "highlighted_keywords": [
+              "Shop for Coffee at Walmart.com"
+            ],
+            "inline_snippet": "4.2",
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$5",
+                  "price_to": "$33",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "4.2 store rating (3.8K)",
+                  "4.2",
+                  "$5 to $33",
+                  "Free 90-day returns"
+                ]
+              }
+            },
+            "rank": 6,
+            "page_rank": 6
+          },
+          {
             "title": "Specialty Coffee | Buy Coffee Online",
-            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOoo83Pb_6iLIBMD38w8NstH7W89n0qP5o13Gyugq0aKTsplA93AH",
+            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOooKHkxhvkfqv9qnTJWl4BYN035zXJCECP5GzgpYGqAQ-ju-1QrP",
             "displayed_link": "https://www.drinktrade.com › All Specialty Coffee",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEX1PDL1Mib1Niz5lJD3dnD0Jxj+9/f////0AAD1LSD7vLn3enX94N/+8fD5o6D5mJX2Tkb6t7X5m5j0KRz3dXD7wL74iIP0IA780M/+6ej6sa/819X/+/v8yMb6q6j4kIz3ZV/1MSX0IRAImGEoAAAAoElEQVR4AWLACkYBIxMeOUD702AAMRRD65fU+kax/45nDXGxkRc/2bICQGmWcZokGVNVc8rpK5k1bdf0QzFO88KrmLuJpJiXV1ZpQxUsHPoGxsMO0Aiv7HJPTjQHE5yjBbFrN43yJxlH9FVoBZGPldFap9+kjzvWTkf0AjFU0r3HsnBkeiXQChIwbTwczP7+h5ekPBI+S76Lm7mc5Sv3hyvK6Qr7Kdp/7AAAAABJRU5ErkJggg==",
             "source": "Trade Coffee",
@@ -168,25 +327,12 @@
                 ]
               }
             },
-            "rank": 6,
-            "page_rank": 6
-          },
-          {
-            "title": "Types of Coffee Drinks",
-            "link": "https://www.folgerscoffee.com/coffee/articles/types-of-coffee",
-            "displayed_link": "https://www.folgerscoffee.com › coffee › articles › type...",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEX/////lJn/AAD/ur7/7/D/x8r/UVv/ABf/DCP/ABv/AAX/AB//sbX/VF7//P3/6uz/pKj/ByH/IDL/1tj/hoz/RFD/eoH/5Ob/9/f/q6//Kzr/Mj//mJ7/GS3/N0T/PUn/anL/XGX/3uD/8/Oj3ubQAAAAkUlEQVR4Ab3SVQKEIBRAUcDu7tb9r9FuH07P/T1Ko8/C5BKzIsvxgtgnTSArIlHRLjKYhvQ+QxUl2dyjYo04pdsyhnHIIS4dkefDuAVg4IZ0jAhLxxhGJUmxm0kgTickiDAquRqZuXA3Z0FBHvWpdxjgkIpDf0JhQA82fXgmlgCSUY4PTKjq8O5pWhcMmy30bB3mYgrufwH5GAAAAABJRU5ErkJggg==",
-            "source": "Folgers Coffee",
-            "snippet": "From a strong and bold espresso to a smooth and creamy latte, there's a coffee drink for every taste preference.Read more",
-            "highlighted_keywords": [
-              "there's a coffee drink for every taste preference"
-            ],
             "rank": 7,
             "page_rank": 7
           },
           {
             "title": "Counter Culture Coffee",
-            "link": "https://counterculturecoffee.com/?srsltid=AfmBOooZZSkzp4lYj8Y0g2_3CWPrJ_gl3KheBjC1gWWCIZYeEBCGl5aa",
+            "link": "https://counterculturecoffee.com/?srsltid=AfmBOorfXRi1WVuw0kgNNpYpHBeIgo-DUQIVMqHrDkZ-9aCVys4IMwPD",
             "displayed_link": "https://counterculturecoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACu0lEQVR4AWKgAmAFYm4g5gFiNgY6AA5A6fUAK0kQRWE4XTNr27YZrG3biJbB2rZt27Zt27Zt9f5JKslNJdNvKn2SL7V9213YeSiPpHq7AkagB+rrmkIz5NTbjmit4yCg/50QB7AbUXStDLZiKRrqWj7cwknkhoyyu7mOeIi82IMYogt6YQRi6Vpr3MVKcVx0JA77S4gbNkZt4+lrIjFCJQZyo6qozcZ55LXtjlw4g9niZDMKCJkG+IiRyB7OA0RCNLFdER0t+9ERx8XBcOQ3vq5nn69GozC6SXnUzGsGEWGC6IVGOIcM8mSPz6c8th3bUd8YBzEZUTwuXB1LcRUPcRqTkB++Ex2RjAdTYj3YBjeEfxiHKLBKHKSBjGO0sXEJLn7iD1zhu25vIK44N6w53xN1URrV5VuLdh5cfNPtL6zHBOyDiwuIY7PyKdGnu3EI+XRNiTfIht/4CxdPUAAyNZBKvJh1iomLOsYM6Cg+vYtqYr+yX/Pt/x+YCld7gFgwj1U2004ZF8iIqqiIILwe6i/+gfBAPiLfcAJeYylkgrrtLgaeixK6HtlzBbR4gH44hRmIB3NNLwAXv3V7BSkhU9B2BshER3wEPD7/emMavsEEdMQCuNgF4zz7pICMEvWnctGRRPccRnRYJysqYi0KhliMMuGCufwa26sRA8RuRtTBMzxHPTEIzeMioT2O4BXe4Qk2oKqfLoiMLsjuMZDMWhwkRzSPGwegfI8HGY/BSt1fHERDLvTA7DB+3zsevxOjoiuq23bLBLww1gQdq8/bHIOwzxzY4aSFWFjSYjvSICG8Uh45jHGyU9QcWM+QIXiB/eLPsPgYgOri+HaYj83Ioms5UcTPzRXqYiieihHfEauxTyzLkzESS1HYe6zYJ4HxI2QQWmIZ0oivMkysB46m4CsBmG+SQMuEIKzyH3WCk3OyXiwRAAAAAElFTkSuQmCC",
             "source": "Counter Culture Coffee",
@@ -211,29 +357,15 @@
             "page_rank": 8
           },
           {
-            "title": "The Coffee Bean & Tea Leaf® Online Store",
-            "link": "https://www.coffeebean.com/collections/coffee",
-            "displayed_link": "https://www.coffeebean.com › collections › coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEVHcExTLG1TLG1TLG1TLW1TLG1TLG1TLW1TLG1TLG1TLG30H49eAAAAC3RSTlMAFT5uyLedLN38V4AViBkAAADiSURBVHgBlZAlYgIAAAAPl4JLm3Zcy1zifGtzLbi2uaQ5UnC+iWvk2sU7JkfrcMxAH93qweWatW+yJ49GE3kKAgCpEwBjBgBkeeI5K/iCmADzifL96QukS5FnwEnyaXMRBAdrNhCskHz/DSJzrZXUINxAeVVCeLFbT0yDaBs0QtnmndpQVLf0FEj6r8Fopavx2gdpDB3dFtSe00HhC4YiILxzrU9D9IH5aUC5txsUzFAt4gJ0e5dquLD5ETwCRx79CSR/rUgXgRCyHxC4i62EscCvfv7qWD66vf6c/jr/DBPTBBH3MWVXMDuJAAAAAElFTkSuQmCC",
-            "source": "The Coffee Bean & Tea Leaf",
-            "snippet": "The Coffee Bean & Tea Leaf brand's high standards make our coffee uniquely and uniformly delicious no matter which location you visit.",
+            "title": "Types of Coffee Drinks",
+            "link": "https://www.folgerscoffee.com/coffee/articles/types-of-coffee",
+            "displayed_link": "https://www.folgerscoffee.com › coffee › articles › type...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEX/////lJn/AAD/ur7/7/D/x8r/UVv/ABf/DCP/ABv/AAX/AB//sbX/VF7//P3/6uz/pKj/ByH/IDL/1tj/hoz/RFD/eoH/5Ob/9/f/q6//Kzr/Mj//mJ7/GS3/N0T/PUn/anL/XGX/3uD/8/Oj3ubQAAAAkUlEQVR4Ab3SVQKEIBRAUcDu7tb9r9FuH07P/T1Ko8/C5BKzIsvxgtgnTSArIlHRLjKYhvQ+QxUl2dyjYo04pdsyhnHIIS4dkefDuAVg4IZ0jAhLxxhGJUmxm0kgTickiDAquRqZuXA3Z0FBHvWpdxjgkIpDf0JhQA82fXgmlgCSUY4PTKjq8O5pWhcMmy30bB3mYgrufwH5GAAAAABJRU5ErkJggg==",
+            "source": "Folgers Coffee",
+            "snippet": "Types of Coffee Drinks · Espresso · Espresso & Coffee · Cold Brew · Cappuccino · Mocha · Iced Coffees · Lattes · Breve; Macchiatos; Cortado; Dirty Chai; Dalgona ...Read more",
             "highlighted_keywords": [
-              "make our coffee uniquely and uniformly delicious"
+              "Espresso"
             ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$8",
-                  "price_to": "$19",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "$8 to $19",
-                  "Free delivery over $65",
-                  "30-day returns"
-                ]
-              }
-            },
             "rank": 9,
             "page_rank": 9
           }
@@ -260,8 +392,8 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
-            "query": "Coffee Walmart",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
+            "query": "Coffee Bean menu",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
           },
           {
             "query": "Coffee Pic",
@@ -274,23 +406,23 @@
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d27764c230e87959&gl=us&hl=en&ei=6NQyarmLDNirptQPlM6ZmAc&start=10&sa=N&sstk=AU9db-B8nL5v9SVM8l3v7YYoi0Z3GoD45XdL0-ASBJXIhLrUACc9QWXxpFvZz7Iy-neWNUpWbNn9hoLrKgtH7L9VlesYVk9qOhPfoQ&ved=2ahUKEwi5n9CJ4o6VAxXYlYkEHRRnBnMQ8NMDegQIURAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=90c3114b484f5baa&gl=us&hl=en&ei=-OIyatTMHpjD0PEPwoLb8Ao&start=10&sa=N&sstk=AU9db-CJtND6HYu96-eA_1e-z6PpuKACxNl0RF_tsZbITy-EW4EYijbucN2Hs8ibSwKkA8QyMuHHc26fOiuqe4o4amk5fpFkmwc4_g&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q8NMDegUI6wEQFg",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d27764c230e87959&gl=us&hl=en&ei=6NQyarmLDNirptQPlM6ZmAc&start=10&sa=N&sstk=AU9db-B8nL5v9SVM8l3v7YYoi0Z3GoD45XdL0-ASBJXIhLrUACc9QWXxpFvZz7Iy-neWNUpWbNn9hoLrKgtH7L9VlesYVk9qOhPfoQ&ved=2ahUKEwi5n9CJ4o6VAxXYlYkEHRRnBnMQ8tMDegQIURAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d27764c230e87959&gl=us&hl=en&ei=6NQyarmLDNirptQPlM6ZmAc&start=20&sa=N&sstk=AU9db-B8nL5v9SVM8l3v7YYoi0Z3GoD45XdL0-ASBJXIhLrUACc9QWXxpFvZz7Iy-neWNUpWbNn9hoLrKgtH7L9VlesYVk9qOhPfoQ&ved=2ahUKEwi5n9CJ4o6VAxXYlYkEHRRnBnMQ8tMDegQIURAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d27764c230e87959&gl=us&hl=en&ei=6NQyarmLDNirptQPlM6ZmAc&start=30&sa=N&sstk=AU9db-B8nL5v9SVM8l3v7YYoi0Z3GoD45XdL0-ASBJXIhLrUACc9QWXxpFvZz7Iy-neWNUpWbNn9hoLrKgtH7L9VlesYVk9qOhPfoQ&ved=2ahUKEwi5n9CJ4o6VAxXYlYkEHRRnBnMQ8tMDegQIURAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d27764c230e87959&gl=us&hl=en&ei=6NQyarmLDNirptQPlM6ZmAc&start=40&sa=N&sstk=AU9db-B8nL5v9SVM8l3v7YYoi0Z3GoD45XdL0-ASBJXIhLrUACc9QWXxpFvZz7Iy-neWNUpWbNn9hoLrKgtH7L9VlesYVk9qOhPfoQ&ved=2ahUKEwi5n9CJ4o6VAxXYlYkEHRRnBnMQ8tMDegQIURAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d27764c230e87959&gl=us&hl=en&ei=6NQyarmLDNirptQPlM6ZmAc&start=50&sa=N&sstk=AU9db-B8nL5v9SVM8l3v7YYoi0Z3GoD45XdL0-ASBJXIhLrUACc9QWXxpFvZz7Iy-neWNUpWbNn9hoLrKgtH7L9VlesYVk9qOhPfoQ&ved=2ahUKEwi5n9CJ4o6VAxXYlYkEHRRnBnMQ8tMDegQIURAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d27764c230e87959&gl=us&hl=en&ei=6NQyarmLDNirptQPlM6ZmAc&start=60&sa=N&sstk=AU9db-B8nL5v9SVM8l3v7YYoi0Z3GoD45XdL0-ASBJXIhLrUACc9QWXxpFvZz7Iy-neWNUpWbNn9hoLrKgtH7L9VlesYVk9qOhPfoQ&ved=2ahUKEwi5n9CJ4o6VAxXYlYkEHRRnBnMQ8tMDegQIURAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d27764c230e87959&gl=us&hl=en&ei=6NQyarmLDNirptQPlM6ZmAc&start=70&sa=N&sstk=AU9db-B8nL5v9SVM8l3v7YYoi0Z3GoD45XdL0-ASBJXIhLrUACc9QWXxpFvZz7Iy-neWNUpWbNn9hoLrKgtH7L9VlesYVk9qOhPfoQ&ved=2ahUKEwi5n9CJ4o6VAxXYlYkEHRRnBnMQ8tMDegQIURAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d27764c230e87959&gl=us&hl=en&ei=6NQyarmLDNirptQPlM6ZmAc&start=80&sa=N&sstk=AU9db-B8nL5v9SVM8l3v7YYoi0Z3GoD45XdL0-ASBJXIhLrUACc9QWXxpFvZz7Iy-neWNUpWbNn9hoLrKgtH7L9VlesYVk9qOhPfoQ&ved=2ahUKEwi5n9CJ4o6VAxXYlYkEHRRnBnMQ8tMDegQIURAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d27764c230e87959&gl=us&hl=en&ei=6NQyarmLDNirptQPlM6ZmAc&start=90&sa=N&sstk=AU9db-B8nL5v9SVM8l3v7YYoi0Z3GoD45XdL0-ASBJXIhLrUACc9QWXxpFvZz7Iy-neWNUpWbNn9hoLrKgtH7L9VlesYVk9qOhPfoQ&ved=2ahUKEwi5n9CJ4o6VAxXYlYkEHRRnBnMQ8tMDegQIURAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=90c3114b484f5baa&gl=us&hl=en&ei=-OIyatTMHpjD0PEPwoLb8Ao&start=10&sa=N&sstk=AU9db-CJtND6HYu96-eA_1e-z6PpuKACxNl0RF_tsZbITy-EW4EYijbucN2Hs8ibSwKkA8QyMuHHc26fOiuqe4o4amk5fpFkmwc4_g&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q8tMDegUI6wEQBA",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=90c3114b484f5baa&gl=us&hl=en&ei=-OIyatTMHpjD0PEPwoLb8Ao&start=20&sa=N&sstk=AU9db-CJtND6HYu96-eA_1e-z6PpuKACxNl0RF_tsZbITy-EW4EYijbucN2Hs8ibSwKkA8QyMuHHc26fOiuqe4o4amk5fpFkmwc4_g&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q8tMDegUI6wEQBg",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=90c3114b484f5baa&gl=us&hl=en&ei=-OIyatTMHpjD0PEPwoLb8Ao&start=30&sa=N&sstk=AU9db-CJtND6HYu96-eA_1e-z6PpuKACxNl0RF_tsZbITy-EW4EYijbucN2Hs8ibSwKkA8QyMuHHc26fOiuqe4o4amk5fpFkmwc4_g&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q8tMDegUI6wEQCA",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=90c3114b484f5baa&gl=us&hl=en&ei=-OIyatTMHpjD0PEPwoLb8Ao&start=40&sa=N&sstk=AU9db-CJtND6HYu96-eA_1e-z6PpuKACxNl0RF_tsZbITy-EW4EYijbucN2Hs8ibSwKkA8QyMuHHc26fOiuqe4o4amk5fpFkmwc4_g&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q8tMDegUI6wEQCg",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=90c3114b484f5baa&gl=us&hl=en&ei=-OIyatTMHpjD0PEPwoLb8Ao&start=50&sa=N&sstk=AU9db-CJtND6HYu96-eA_1e-z6PpuKACxNl0RF_tsZbITy-EW4EYijbucN2Hs8ibSwKkA8QyMuHHc26fOiuqe4o4amk5fpFkmwc4_g&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q8tMDegUI6wEQDA",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=90c3114b484f5baa&gl=us&hl=en&ei=-OIyatTMHpjD0PEPwoLb8Ao&start=60&sa=N&sstk=AU9db-CJtND6HYu96-eA_1e-z6PpuKACxNl0RF_tsZbITy-EW4EYijbucN2Hs8ibSwKkA8QyMuHHc26fOiuqe4o4amk5fpFkmwc4_g&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q8tMDegUI6wEQDg",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=90c3114b484f5baa&gl=us&hl=en&ei=-OIyatTMHpjD0PEPwoLb8Ao&start=70&sa=N&sstk=AU9db-CJtND6HYu96-eA_1e-z6PpuKACxNl0RF_tsZbITy-EW4EYijbucN2Hs8ibSwKkA8QyMuHHc26fOiuqe4o4amk5fpFkmwc4_g&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q8tMDegUI6wEQEA",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=90c3114b484f5baa&gl=us&hl=en&ei=-OIyatTMHpjD0PEPwoLb8Ao&start=80&sa=N&sstk=AU9db-CJtND6HYu96-eA_1e-z6PpuKACxNl0RF_tsZbITy-EW4EYijbucN2Hs8ibSwKkA8QyMuHHc26fOiuqe4o4amk5fpFkmwc4_g&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q8tMDegUI6wEQEg",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=90c3114b484f5baa&gl=us&hl=en&ei=-OIyatTMHpjD0PEPwoLb8Ao&start=90&sa=N&sstk=AU9db-CJtND6HYu96-eA_1e-z6PpuKACxNl0RF_tsZbITy-EW4EYijbucN2Hs8ibSwKkA8QyMuHHc26fOiuqe4o4amk5fpFkmwc4_g&ved=2ahUKEwjUqLG-746VAxWYITQIHULBFq4Q8tMDegUI6wEQFA"
           }
         }
       }
     }
   },
-  "requestId": "67537d77-611b-481b-b226-7a53a8d21034",
-  "timestamp": 1781719203503,
-  "recordTime": "2026-06-18 02:00:03"
+  "requestId": "a74921c6-0cf4-4af3-989b-8a964360304f",
+  "timestamp": 1781719920563,
+  "recordTime": "2026-06-18 02:12:00"
 }
