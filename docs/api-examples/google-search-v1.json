@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-19 21:10:02",
+    "checkedAt": "2026-06-19 22:10:03",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.42,
-          "total_results": 186,
+          "time_taken": 0.28,
+          "total_results": 178,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,29 +24,29 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Bridgeport Coffeehouse",
-            "rating": "4.5",
-            "reviews": "1K",
-            "address": "4.5(1K) · $1–10 · Coffee shop",
-            "hours": "3101 S Morgan St",
+            "title": "Cattle Mtn Coffee",
+            "rating": "5.0",
+            "reviews": "76",
+            "address": "5.0(76) · $10–20 · Coffee shop",
+            "hours": "South Fork, CO",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Jackalope Coffee & Tea House",
-            "rating": "4.7",
-            "reviews": "1K",
-            "address": "4.7(1K) · $1–10 · Coffee shop",
-            "hours": "755 W 32nd St",
+            "title": "Coffee by Topo",
+            "rating": "4.9",
+            "reviews": "349",
+            "address": "4.9(349) · $1–10 · Coffee shop",
+            "hours": "Salida, CO",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Ground Up Coffee & Bites",
+            "title": "City On A Hill Coffee & Roastery",
             "rating": "4.6",
-            "reviews": "787",
-            "address": "4.6(787) · $1–10 · Coffee shop",
-            "hours": "900 W Van Buren St",
+            "reviews": "135",
+            "address": "4.6(135) · $1–10 · Cafe",
+            "hours": "Cañon City, CO",
             "links": {}
           }
         ],
@@ -84,70 +84,6 @@
             "page_rank": 2
           },
           {
-            "title": "Coffee Shop Chicago, IL - Last Updated June 2026",
-            "link": "https://www.yelp.com/search?find_desc=Coffee+Shop&find_loc=Chicago%2C+IL",
-            "displayed_link": "https://www.yelp.com › Food",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAflBMVEX0DRX0AAr0AAD0BhD3U1j5ioz5lZf2R0z8xcb+6uv+9fX/+Pn93N31GiH6pKb////4fX/0AAX1LzX8wML4hIb0ERn1KTD+5eX5kJP3XmL4bnH+8PH91db3PkX1HSb7t7r3T1X9ztD3Zmn6qKv4anD1NTz5dnr7r7H3Wl77tLUFH9U+AAAA4UlEQVR4AbTRRWKAMBAFUPKRUmxwd+f+Fyyzwpf9m8iLR/r/CEB8EGRF1X7eVSj6r2FaeEXboT3mO8I1dzS8V5T9gBFcfSpCgxjlKH6qHOtECWQ71bPbzkKWkBdUwtZMSq6Iqga8hgKofK78rKKlomkRdUrPRuoZoXKXoSIKyCiG8bIsNOKUtZjGGLhtORtJGThZL7tDXt/fN3KzCXCKaaFiWXFTeAKuQUpfECXb44XRWkSTvdAe7/FADRH5/BL0mLn3MgrPoUXI95nTUpgm9i+J2W4RUqbN7z/G8QDpb/QAAKRZDoQhpaGVAAAAAElFTkSuQmCC",
-            "source": "Yelp",
-            "snippet": "Coffee Shop Chicago, IL · 1. Sawada Coffee · 2. The Wormhole Coffee · 3. Cafe Deko · 4. Star Lounge Coffee Bar · 5. Metric Coffee · 6. Frera.Read more",
-            "highlighted_keywords": [
-              "1. Sawada Coffee"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "rating": "4.4",
-                  "reviews": "13,953"
-                },
-                "extensions": [
-                  "4.4",
-                  "(13,953)"
-                ]
-              }
-            },
-            "rank": 3,
-            "page_rank": 3
-          },
-          {
-            "title": "Fresh Roasted Coffee | Intelligentsia | Illuminating Coffee",
-            "link": "https://www.intelligentsia.com/",
-            "displayed_link": "https://www.intelligentsia.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEzUKSfUKSfUKSfUKSfUKSfUKSfUKSfVKSfUKijUKSfUKSfUKSbUKSfUKSfUKSfUKSeAx3/MAAAAEXRSTlMAO5nwJf9/5BcP9kUFzSpfu+f5/RsAAACPSURBVHgBjZAJCoUwDAXT5dX82u3+p/1UqsFowGENAwMv9B3nyMZ7sgnBdhGIpkxAMuUGbJZjAGC7CiS7qrrMv0XEQTxvZooZBnnO8u9uPWt/czstStWqFrVC0HtaEBUaKbrITpoqsmpXAKE8q3Z3YOIcJkPJNW5NflaTTO6qmts1Oavu/Ry4VaUjt8G58w/CwQc98fZzoAAAAABJRU5ErkJggg==",
-            "source": "Intelligentsia Coffee",
-            "snippet": "Experience the freshest roasted coffee shipped for free right to you, and receive early access to all exclusive releases and promotions.Read more",
-            "highlighted_keywords": [
-              "freshest roasted coffee shipped for free right to you"
-            ],
-            "rank": 4,
-            "page_rank": 4
-          },
-          {
-            "title": "Chicago Coffee Guide: 8 Cafes We Love In 2026",
-            "link": "https://sprudge.com/the-sprudge-guide-to-coffee-in-chicago-438548.html",
-            "displayed_link": "https://sprudge.com › the-sprudge-guide-to-coffee-in-c...",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAWlBMVEVHcEwxMTFYWFh8fHwyMjItLS0uLi48PDwzMzNiYmI5OTkkJCQ8PDwhISEeHh4MDAwYGBjf39+NjY1UVFRra2upqak+Pj64uLh5eXmdnZ2kpKSXl5fLy8vU1NS3xpq1AAAADXRSTlMAvDMTyfrmjtQjc/ao3RZCbgAAAPBJREFUKJGN0tdyxCAMBVAXbLz2XkBUt/z/bwaXiQvOJhqGlzMjJKEs+1e8OKuAivFXQkUDCGzRFFd74xL8bLW4IpoPBvGj78Si7pmLlJbYim6eka39PRtQRuTxASlkPEooFW9IpeKNNiKDqJzXGoP1pveDkaMxg1XII1aQYXAUhpl6TX0g7chNRqCOCChLksK44Fc8kzbOeYFuRcjJkfY02x1pHHdc0uqZpAlkw5p2PNJuBfXSW1tN9lbQ1orC1setlY9D+G18+d+Dz/jDlx3L0KSfzY5VuOvZ1n4ec+5by051pptbtnnddXXelgk9xjeYqx6L3HJ78AAAAABJRU5ErkJggg==",
-            "source": "Sprudge",
-            "snippet": "Chicago Coffee Guide: 8 Cafes We Love In 2026 · Afro Joe's is located at 1818 W 99th St, Chicago. · Allez is located at 2239 N Western Ave, ...Read more",
-            "highlighted_keywords": [
-              "Afro Joe's is located at 1818 W 99th St, Chicago"
-            ],
-            "rank": 5,
-            "page_rank": 5
-          },
-          {
-            "title": "Hexe Coffee Co. - Chicago",
-            "link": "https://www.hexecoffee.com/",
-            "displayed_link": "https://www.hexecoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAMAAABY1h8eAAAAQlBMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABz07T7AAAAFnRSTlMAVSW8pP85SPaCi2femF/Ud+0KrxbLFTGu1AAAATBJREFUeAF1zkuSIyEMRdEHSJACxJ/9b7WxIzLSXVU+I0l3IrwZvFnn7H14EHsA5HxwBMBfhEcQiiknE7WUWiK1gA/O9h4ShXLu+bIOH0aftkRdAStqsNTH02RTbNIUFdAm2rTK3QylJKSRzoRGRJIS3f+WhF9KeWJF8+b1kyDD9fxfvDBDisC4/Ea243ec3mOyRzYW6Y7mxM4+5SnwF5BdemIpuEChNQDCC3nAljsafmJXfcXABm+eExgztGt748Do1aGwxyFqChYGhrUYwMI6QzEqwGZxTl52e8siTc4t8sZYK/Ghdbrt6qyUiS/mttbAMSYTN5YYnU6dpGelgZvPrHu6zZX3zMTZ4lPhTm5PyY46F/yk3E+pnRV/WJuPvfA3YRZ8s4gWvtob35WCT/8AxmYPhQY8CFkAAAAASUVORK5CYII=",
-            "source": "Hexe Coffee Co.",
-            "snippet": "Our cafe light roast staple. A Colombian Natural process, blended with a lightly roasted blend of Peruvian and Sumatran coffees.Read more",
-            "highlighted_keywords": [
-              "coffees"
-            ],
-            "rank": 6,
-            "page_rank": 6
-          },
-          {
             "title": "What is coffee? - NCA",
             "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
             "displayed_link": "https://www.aboutcoffee.org › Origins",
@@ -157,8 +93,34 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 7,
-            "page_rank": 7
+            "rank": 3,
+            "page_rank": 3
+          },
+          {
+            "title": "Coffee and Tea Buying Guides",
+            "link": "https://www.seriouseats.com/coffee-and-tea-buying-guides-7105482",
+            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
+            "source": "Serious Eats",
+            "snippet": "These buying guides will you help decide which coffee and tea gear you need to make the perfect cup and how to get the most out of the gadgets you own.",
+            "highlighted_keywords": [
+              "decide which coffee and tea gear you need"
+            ],
+            "rank": 4,
+            "page_rank": 4
+          },
+          {
+            "title": "Coffee Coffee - Bel Air",
+            "link": "https://www.coffeecoffee-online.com/",
+            "displayed_link": "https://www.coffeecoffee-online.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXElEQVR4AeyRgaaDUBjHgz1CzzEA1iZEgO5QJUlQCeUuSVV6hg2gp7h7k7vnCAxA8N3vzL2ZK/ejs81FHz9n7Oz8f/v+wpypqkqs6/odz0/G92dReOZ0XbdqmuYNgz7KshwQ+MXAvmN32N2HBbdtu8aHj0g/hhGwu8iR/ZZ7xWQgAV0RvWJOiIroFfNCVGTb9jWKIsjzHF4lkGUZuK4LiqJcBV3XgWEYBnieB0mSQFEUDw9lbwZBAJqmgSRJsNlsbowC91iWBb7vQ5qm3MFxHN/+nCzLYygyJTCN4zhAVzS9YlVV78PmCZAVESvmFqAqolbMKUBDhywCi8AisAgsAovAfxewLGttGMYJ6V8lIElSj+dpu92uhZ8Jw3BlmuYeHz2jzPAEgQGDz7vdbs+yhL8GBUR8/IDnhVcAQy/IAYNFYcZQFdEr5hyqImLFXENXhEJfu2dnZ3ePkiAGAOIqkJS3QoqOAAAAAElFTkSuQmCC",
+            "source": "coffeecoffee-online.com",
+            "snippet": "Coffee Coffee, repeatedly voted Harford County's BEST, is your go-to spot for freshly roasted coffee, tea and foodie products, breakfast and lunch, unique ...Read more",
+            "highlighted_keywords": [
+              "freshly roasted coffee, tea and foodie products"
+            ],
+            "rank": 5,
+            "page_rank": 5
           },
           {
             "title": "Coffee - Walmart.com",
@@ -178,31 +140,73 @@
                 ]
               }
             },
+            "rank": 6,
+            "page_rank": 6
+          },
+          {
+            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
+            "link": "https://www.discountcoffee.com/",
+            "displayed_link": "https://www.discountcoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
+            "source": "DiscountCoffee.com",
+            "snippet": "DiscountCoffee.com Office Coffee Service – Buy name brand coffee, tea, creamer,. Add $59 for. Fast & FREE Shipping. FREE ...Read more",
+            "highlighted_keywords": [
+              "Office Coffee Service"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$5",
+                  "price_to": "$139",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$5 to $139",
+                  "Free delivery over $59",
+                  "30-day returns"
+                ]
+              }
+            },
+            "rank": 7,
+            "page_rank": 7
+          },
+          {
+            "title": "Coffee | Origin, Types, Uses, History, & Facts",
+            "link": "https://www.britannica.com/topic/coffee",
+            "displayed_link": "https://www.britannica.com › ... › Food",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
+            "source": "Britannica",
+            "snippet": "Coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant of African origin. Coffee is one of the ...",
+            "highlighted_keywords": [
+              "Coffee",
+              "coffee",
+              "Coffee"
+            ],
             "rank": 8,
             "page_rank": 8
           },
           {
-            "title": "Chicago's Best Coffee Shops",
-            "link": "https://chicago.eater.com/maps/best-chicago-coffee-shops-map",
-            "displayed_link": "https://chicago.eater.com › maps › best-chicago-coffee-...",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAS1BMVEX379j49d349t7yuqjsem7sfXHvnY7umIrlAADqXVTmAADqX1bpSULpUkrpTUbtg3b12sX4+eH007/ral/nIR7zybbxrZ3rcGXnFRMbgyISAAAAgklEQVR4AbXSxQGAMBAAwbgd7v1XSuzH4bDfgTj5O8pyFDEuZEwoukVtcpZh6GIGdrAoy7KqKYqmaX3eUOwI3jk2rd/nDroSrO3ZDvrM0O6hMfvYCyH8NvcXRB9tZaQ7OBnn5p3jI41Hs+AHT1prdq/MV+5etq/tVJ2fCRKlOw/s21bhBAb1kvNOlQAAAABJRU5ErkJggg==",
-            "source": "Eater Chicago",
-            "snippet": "The best Chicago coffee shops serving drips, espressos, lattes, matchas, and more.",
+            "title": "Coffee - Uses, Side Effects, And More",
+            "link": "https://www.webmd.com/vitamins/ai/ingredientmono-980/coffee",
+            "displayed_link": "https://www.webmd.com › ingredientmono-980 › coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAP1BMVEVHcEw1WPYzWPs0Vv80V/00Vv8zV/xAVO8uUv9Yb/Zje/YkTfyls/T///7P2PY9XfSOn/QYRPjr7/p1ivS8x/W2qm+IAAAACHRSTlMAOYbD6P9gGDeCeSUAAAD3SURBVHgBfVMHkoAwCLShaaAk/v+tBwPJ9aydpYPLwLrtB8Cxb+vyE6cQHcf5jbqcGvT1xSP8wjrhBnvBnzDPGi8IwOEfh3KnfsYY0+CSfAl7umEuiHTrSxBSPh4ztWy4oipnSnJnJLacNiMJRRwalqz3FlS4LTso8qsCsaes7wyKXUNa0CeEp5LIs5orjgU+ScZW8BavGl7hZHiwcKks4fitDAZ3q6mw5HTr48ngbncvHN9CDFyp4Q2G3UuBiKShMiERO7n1kdyIL1urWhiD6bWg5KmxEbNzhzVewF5c6EVa47upy3gYToc9X5P5gs1Xc77Uk9/hA+vOEjLFBMzLAAAAAElFTkSuQmCC",
+            "source": "WebMD",
+            "snippet": "People most commonly drink coffee to increase mental alertness. Coffee is also used for diabetes, cancer, heart disease, high blood pressure, dementia, and ...Read more",
             "highlighted_keywords": [
-              "The best Chicago coffee shops"
+              "People most commonly drink coffee to increase mental alertness"
             ],
             "rank": 9,
             "page_rank": 9
           },
           {
-            "title": "Bridgeport Coffee - Chicago Coffee Roasters - Best Coffee Shop",
-            "link": "https://bridgeportcoffee.net/",
-            "displayed_link": "https://bridgeportcoffee.net",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAOVBMVEVHcEzPswDPswDPswDPswDPswDPswDPswDPswDPswDPswDPswDPswDPswDPswDPswDPswDPswDPswCXUHKzAAAAE3RSTlMAdbhYPUsO4P+GqBqaygYp6/doTKlrfwAAAa9JREFUeAF1kwWSAzEMBMckywz/f+xpAnXc4XjAVu3iK84HADEJ/iGrB98LfuFqA9B1TExVB2AufKFtepE0N0Q9CRRffKHQhqYnwukWIKhGvBEWc02GJniGtfMloI8ErKNZLDeAIqrwZqlqZ796XIsZnY2DsTHAmNUUFbjWLWtiCaLqAlY9/DDSNretRLwIOaH1ZzJBGzwEiffS1FBoijBmg+H2fbepN0my1ldgOj41QLjulehOQFygeU1ORHN1sYHTOu4Oe6e8LeePJrQyshoV0z4TAMsp4DtJMFYq1V+IWQEwk6PYOfseBISaRsGGkSjAV2bwmxXjmVhVL1BGaSASvBo+Adc6SrL1LByNffYIBurhFwHex4xAk1iyPq+PcRuQvH2fLr8GtY4DEAsrZQLLv040RQSGe+reuGM1oY2LJyGhW3zEk8XcLqjWmNpcIvtE7lhfBooDuNtwtYRTp0mBcNR0JHoq59FqIc50rR0Ou3nf8IY5W3jRrq3cwUnAnF/WzRixdK85zC1Z86+7zvFwA/B8i9whvtI7uOap2gDKTvhN1vIq+4fgIyC1Cz75AIC3E1wvwm1NAAAAAElFTkSuQmCC",
-            "source": "Bridgeport Coffee",
-            "snippet": "Bridgeport Coffee Company is a roaster, retailer, and importer of fine coffees from around the globe with a coffee house in the South Side of Chicago.Read more",
+            "title": "Types of Coffee Drinks",
+            "link": "https://www.folgerscoffee.com/coffee/articles/types-of-coffee",
+            "displayed_link": "https://www.folgerscoffee.com › coffee › articles › type...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEX/////lJn/AAD/ur7/7/D/x8r/UVv/ABf/DCP/ABv/AAX/AB//sbX/VF7//P3/6uz/pKj/ByH/IDL/1tj/hoz/RFD/eoH/5Ob/9/f/q6//Kzr/Mj//mJ7/GS3/N0T/PUn/anL/XGX/3uD/8/Oj3ubQAAAAkUlEQVR4Ab3SVQKEIBRAUcDu7tb9r9FuH07P/T1Ko8/C5BKzIsvxgtgnTSArIlHRLjKYhvQ+QxUl2dyjYo04pdsyhnHIIS4dkefDuAVg4IZ0jAhLxxhGJUmxm0kgTickiDAquRqZuXA3Z0FBHvWpdxjgkIpDf0JhQA82fXgmlgCSUY4PTKjq8O5pWhcMmy30bB3mYgrufwH5GAAAAABJRU5ErkJggg==",
+            "source": "Folgers Coffee",
+            "snippet": "Types of Coffee Drinks · Espresso · Espresso & Coffee · Cold Brew · Cappuccino · Mocha · Iced Coffees · Lattes · Breve; Macchiatos; Cortado; Dirty Chai; Dalgona ...Read more",
             "highlighted_keywords": [
-              "Bridgeport Coffee Company"
+              "Espresso"
             ],
             "rank": 10,
             "page_rank": 10
@@ -210,57 +214,57 @@
         ],
         "relatedSearches": [
           {
-            "query": "Coffee nearby",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
-          },
-          {
             "query": "Coffee types",
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
+          },
+          {
+            "query": "Coffee nearby",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
           },
           {
             "query": "Coffee brands",
             "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
           },
           {
-            "query": "Coffee beans",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
-          },
-          {
             "query": "Coffee Bean menu",
             "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
           },
           {
-            "query": "Coffee powder",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
+            "query": "Coffee beans",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
             "query": "Coffee name",
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
-            "query": "Coffee benefits",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
+            "query": "Coffee Pic",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Pic"
+          },
+          {
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           }
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=976e34e18e07c85c&gl=us&hl=en&ei=KLA1avSIGJyZptQP3KKgoAY&start=10&sa=N&sstk=AU9db-AmWZ5B_AvvXSXE9Iqc-NST3JkpCw7_X2nTLNl71Ie2dBz_acO2ByHXZdqduOrD8APtIHnhBAlV6t-ALzPKGxrKkM6uujdONg&ved=2ahUKEwj0vNG5m5SVAxWcjIkEHVwRCGQQ8NMDegQITxAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=04089c7b1ac27224&gl=us&hl=en&ei=OL41aoyBKvXiseMPkPeMqA0&start=10&sa=N&sstk=AU9db-CCsgdGMd0FT9E5W_sdLUP9FTOaYdd-R78ymBJVvySQVcl8FlUsQJiuPtEXGUOiG3UfS4a7s_4JCIq9Ai3JxUdnUXDbxtAZGg&ved=2ahUKEwiM_bHuqJSVAxV1cWwGHZA7A9UQ8NMDegQITxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=976e34e18e07c85c&gl=us&hl=en&ei=KLA1avSIGJyZptQP3KKgoAY&start=10&sa=N&sstk=AU9db-AmWZ5B_AvvXSXE9Iqc-NST3JkpCw7_X2nTLNl71Ie2dBz_acO2ByHXZdqduOrD8APtIHnhBAlV6t-ALzPKGxrKkM6uujdONg&ved=2ahUKEwj0vNG5m5SVAxWcjIkEHVwRCGQQ8tMDegQITxAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=976e34e18e07c85c&gl=us&hl=en&ei=KLA1avSIGJyZptQP3KKgoAY&start=20&sa=N&sstk=AU9db-AmWZ5B_AvvXSXE9Iqc-NST3JkpCw7_X2nTLNl71Ie2dBz_acO2ByHXZdqduOrD8APtIHnhBAlV6t-ALzPKGxrKkM6uujdONg&ved=2ahUKEwj0vNG5m5SVAxWcjIkEHVwRCGQQ8tMDegQITxAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=976e34e18e07c85c&gl=us&hl=en&ei=KLA1avSIGJyZptQP3KKgoAY&start=30&sa=N&sstk=AU9db-AmWZ5B_AvvXSXE9Iqc-NST3JkpCw7_X2nTLNl71Ie2dBz_acO2ByHXZdqduOrD8APtIHnhBAlV6t-ALzPKGxrKkM6uujdONg&ved=2ahUKEwj0vNG5m5SVAxWcjIkEHVwRCGQQ8tMDegQITxAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=976e34e18e07c85c&gl=us&hl=en&ei=KLA1avSIGJyZptQP3KKgoAY&start=40&sa=N&sstk=AU9db-AmWZ5B_AvvXSXE9Iqc-NST3JkpCw7_X2nTLNl71Ie2dBz_acO2ByHXZdqduOrD8APtIHnhBAlV6t-ALzPKGxrKkM6uujdONg&ved=2ahUKEwj0vNG5m5SVAxWcjIkEHVwRCGQQ8tMDegQITxAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=976e34e18e07c85c&gl=us&hl=en&ei=KLA1avSIGJyZptQP3KKgoAY&start=50&sa=N&sstk=AU9db-AmWZ5B_AvvXSXE9Iqc-NST3JkpCw7_X2nTLNl71Ie2dBz_acO2ByHXZdqduOrD8APtIHnhBAlV6t-ALzPKGxrKkM6uujdONg&ved=2ahUKEwj0vNG5m5SVAxWcjIkEHVwRCGQQ8tMDegQITxAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=976e34e18e07c85c&gl=us&hl=en&ei=KLA1avSIGJyZptQP3KKgoAY&start=60&sa=N&sstk=AU9db-AmWZ5B_AvvXSXE9Iqc-NST3JkpCw7_X2nTLNl71Ie2dBz_acO2ByHXZdqduOrD8APtIHnhBAlV6t-ALzPKGxrKkM6uujdONg&ved=2ahUKEwj0vNG5m5SVAxWcjIkEHVwRCGQQ8tMDegQITxAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=976e34e18e07c85c&gl=us&hl=en&ei=KLA1avSIGJyZptQP3KKgoAY&start=70&sa=N&sstk=AU9db-AmWZ5B_AvvXSXE9Iqc-NST3JkpCw7_X2nTLNl71Ie2dBz_acO2ByHXZdqduOrD8APtIHnhBAlV6t-ALzPKGxrKkM6uujdONg&ved=2ahUKEwj0vNG5m5SVAxWcjIkEHVwRCGQQ8tMDegQITxAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=976e34e18e07c85c&gl=us&hl=en&ei=KLA1avSIGJyZptQP3KKgoAY&start=80&sa=N&sstk=AU9db-AmWZ5B_AvvXSXE9Iqc-NST3JkpCw7_X2nTLNl71Ie2dBz_acO2ByHXZdqduOrD8APtIHnhBAlV6t-ALzPKGxrKkM6uujdONg&ved=2ahUKEwj0vNG5m5SVAxWcjIkEHVwRCGQQ8tMDegQITxAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=976e34e18e07c85c&gl=us&hl=en&ei=KLA1avSIGJyZptQP3KKgoAY&start=90&sa=N&sstk=AU9db-AmWZ5B_AvvXSXE9Iqc-NST3JkpCw7_X2nTLNl71Ie2dBz_acO2ByHXZdqduOrD8APtIHnhBAlV6t-ALzPKGxrKkM6uujdONg&ved=2ahUKEwj0vNG5m5SVAxWcjIkEHVwRCGQQ8tMDegQITxAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=04089c7b1ac27224&gl=us&hl=en&ei=OL41aoyBKvXiseMPkPeMqA0&start=10&sa=N&sstk=AU9db-CCsgdGMd0FT9E5W_sdLUP9FTOaYdd-R78ymBJVvySQVcl8FlUsQJiuPtEXGUOiG3UfS4a7s_4JCIq9Ai3JxUdnUXDbxtAZGg&ved=2ahUKEwiM_bHuqJSVAxV1cWwGHZA7A9UQ8tMDegQITxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=04089c7b1ac27224&gl=us&hl=en&ei=OL41aoyBKvXiseMPkPeMqA0&start=20&sa=N&sstk=AU9db-CCsgdGMd0FT9E5W_sdLUP9FTOaYdd-R78ymBJVvySQVcl8FlUsQJiuPtEXGUOiG3UfS4a7s_4JCIq9Ai3JxUdnUXDbxtAZGg&ved=2ahUKEwiM_bHuqJSVAxV1cWwGHZA7A9UQ8tMDegQITxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=04089c7b1ac27224&gl=us&hl=en&ei=OL41aoyBKvXiseMPkPeMqA0&start=30&sa=N&sstk=AU9db-CCsgdGMd0FT9E5W_sdLUP9FTOaYdd-R78ymBJVvySQVcl8FlUsQJiuPtEXGUOiG3UfS4a7s_4JCIq9Ai3JxUdnUXDbxtAZGg&ved=2ahUKEwiM_bHuqJSVAxV1cWwGHZA7A9UQ8tMDegQITxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=04089c7b1ac27224&gl=us&hl=en&ei=OL41aoyBKvXiseMPkPeMqA0&start=40&sa=N&sstk=AU9db-CCsgdGMd0FT9E5W_sdLUP9FTOaYdd-R78ymBJVvySQVcl8FlUsQJiuPtEXGUOiG3UfS4a7s_4JCIq9Ai3JxUdnUXDbxtAZGg&ved=2ahUKEwiM_bHuqJSVAxV1cWwGHZA7A9UQ8tMDegQITxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=04089c7b1ac27224&gl=us&hl=en&ei=OL41aoyBKvXiseMPkPeMqA0&start=50&sa=N&sstk=AU9db-CCsgdGMd0FT9E5W_sdLUP9FTOaYdd-R78ymBJVvySQVcl8FlUsQJiuPtEXGUOiG3UfS4a7s_4JCIq9Ai3JxUdnUXDbxtAZGg&ved=2ahUKEwiM_bHuqJSVAxV1cWwGHZA7A9UQ8tMDegQITxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=04089c7b1ac27224&gl=us&hl=en&ei=OL41aoyBKvXiseMPkPeMqA0&start=60&sa=N&sstk=AU9db-CCsgdGMd0FT9E5W_sdLUP9FTOaYdd-R78ymBJVvySQVcl8FlUsQJiuPtEXGUOiG3UfS4a7s_4JCIq9Ai3JxUdnUXDbxtAZGg&ved=2ahUKEwiM_bHuqJSVAxV1cWwGHZA7A9UQ8tMDegQITxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=04089c7b1ac27224&gl=us&hl=en&ei=OL41aoyBKvXiseMPkPeMqA0&start=70&sa=N&sstk=AU9db-CCsgdGMd0FT9E5W_sdLUP9FTOaYdd-R78ymBJVvySQVcl8FlUsQJiuPtEXGUOiG3UfS4a7s_4JCIq9Ai3JxUdnUXDbxtAZGg&ved=2ahUKEwiM_bHuqJSVAxV1cWwGHZA7A9UQ8tMDegQITxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=04089c7b1ac27224&gl=us&hl=en&ei=OL41aoyBKvXiseMPkPeMqA0&start=80&sa=N&sstk=AU9db-CCsgdGMd0FT9E5W_sdLUP9FTOaYdd-R78ymBJVvySQVcl8FlUsQJiuPtEXGUOiG3UfS4a7s_4JCIq9Ai3JxUdnUXDbxtAZGg&ved=2ahUKEwiM_bHuqJSVAxV1cWwGHZA7A9UQ8tMDegQITxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=04089c7b1ac27224&gl=us&hl=en&ei=OL41aoyBKvXiseMPkPeMqA0&start=90&sa=N&sstk=AU9db-CCsgdGMd0FT9E5W_sdLUP9FTOaYdd-R78ymBJVvySQVcl8FlUsQJiuPtEXGUOiG3UfS4a7s_4JCIq9Ai3JxUdnUXDbxtAZGg&ved=2ahUKEwiM_bHuqJSVAxV1cWwGHZA7A9UQ8tMDegQITxAU"
           }
         }
       }
     }
   },
-  "requestId": "56d33f45-a2ae-4ddb-909e-53d49c59759d",
-  "timestamp": 1781906404094,
-  "recordTime": "2026-06-20 06:00:03"
+  "requestId": "b5dec9d0-58ac-42b9-9178-be373cb70977",
+  "timestamp": 1781907060076,
+  "recordTime": "2026-06-20 06:10:59"
 }
