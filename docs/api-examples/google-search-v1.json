@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-19 00:10:02",
+    "checkedAt": "2026-06-19 01:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.46,
-          "total_results": 2780000,
+          "time_taken": 0.53,
+          "total_results": 163,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,11 +24,11 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Moka Mo coffee House",
-            "rating": "4.5",
-            "reviews": "251",
-            "address": "4.5(251) · $1–20 · Coffee shop",
-            "hours": "90 W Houston St",
+            "title": "Qahwah Time specialty coffee",
+            "rating": "4.7",
+            "reviews": "370",
+            "address": "4.7(370) · $10–20 · Coffee shop",
+            "hours": "Brooklyn, NY",
             "links": {}
           },
           {
@@ -37,16 +37,16 @@
             "rating": "4.5",
             "reviews": "705",
             "address": "4.5(705) · $10–20 · Coffee shop",
-            "hours": "210 Spring St",
+            "hours": "New York, NY",
             "links": {}
           },
           {
             "position": 3,
-            "title": "After Eden | Cocktail & Coffee Bar",
-            "rating": "4.9",
-            "reviews": "83",
-            "address": "4.9(83) · $10–50 · Coffee shop",
-            "hours": "162 Orchard St",
+            "title": "BEEPUBLIC",
+            "rating": "4.6",
+            "reviews": "665",
+            "address": "4.6(665) · $10–20 · Coffee shop",
+            "hours": "Brooklyn, NY",
             "links": {}
           }
         ],
@@ -57,11 +57,9 @@
             "displayed_link": "https://en.wikipedia.org › wiki › Coffee",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAnklEQVR4AeTNIQiDQABG4b+u17X1aF6PK3YEO9iMJqPVau82y4FgMezS0oVLhqsHtrcqeqzDXv3CEz/6L4yTtZM3dnHmPTtjzXZAXKYVo4agkU2GI2Lloc6JDez1+flswMu1EQZ3xlE7lK8eKDkjtwE+crBMV+wesKmCiisGGepZIfQJpMj9SNb2MYWrChjVkULuCyCfRvsdmBieyQQAsoDk/9ryhFMAAAAASUVORK5CYII=",
             "source": "Wikipedia",
-            "snippet": "Coffee is a beverage brewed from roasted, ground coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, primarily ...Read more",
+            "snippet": "Coffee is a beverage brewed from roasted, ground coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humansRead more",
             "highlighted_keywords": [
-              "Coffee",
-              "coffee",
-              "coffee"
+              "a beverage brewed from roasted, ground coffee beans"
             ],
             "rich_snippet": {
               "bottom": {
@@ -86,43 +84,67 @@
             "page_rank": 2
           },
           {
-            "title": "THE BEST Coffee & Tea in New York City",
-            "link": "https://www.tripadvisor.com/Restaurants-g60763-zfg9900-New_York_City_New_York.html",
-            "displayed_link": "https://www.tripadvisor.com › Restaurants-g60763-zfg9...",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAilBMVEUA61sA7VwA8F0A814A1lMAvEkAq0IAwksA2VQA7FsA9F4A01IAgTIAJg8AAAAALhIAhTQA41gA3VYAayoAHQsAYSYAnD0AWiMACwUAeS8AFgkADwYAIw4AKxEAyU4A9l8AMxQAEwgAGwsAcSwAQRoAlToAaCkAoD4As0UATx8Ady4Ap0EAPRgAjTfyrsZwAAABNUlEQVR4Ac3RRYLEIBQE0PDpOFTcId7eff/rTWAzeoCpDfJwnP8cxogY+1M4nVzP8wNOXz1kR6JYSNgk6YmbntBalud5UKAsq7Su06Ys2870ZKHBvEc7KJ2MEyfikyu1GlokFh2Wz1r1y4qUOyFtWJdeyd1hjsVYDZvrnxVExC9tch3dy6ADiyGb29t0JJsx3rA7pl63d24nunhMebW7kYuuQRw9X5dsOipmKp3hTs0qkVG/63mKIftueuJJBt/wp13qY46Ucp98aFVNHq4WPZwnF9iiYNB6yajBMk4CLrOP0JZZlJ34dFFal2LicRbFgwrtPalG4lJ0uiwHquGRc+ZJeOTY8DewlMC9KtdtB9QA1NyI1fHxSprjeK+Gwutdv7qYf/2vIxSyzAlDMvW/ftUc4j/nA89zGjJlkfnSAAAAAElFTkSuQmCC",
-            "source": "Tripadvisor",
-            "snippet": "Coffee & Tea in New York City · 1. Best Bagel and Coffee. 4.6. (1,749 reviews) · 2. Little Collins. 4.6. (529 reviews) · 3. Frisson ...Read more",
+            "title": "Single Origin, Blends, Espresso - Shop - Joe Coffee ...",
+            "link": "https://joecoffeecompany.com/collections/coffee?srsltid=AfmBOoqzmYYml-J9Wi8TYS96jATg-bCyP0OhQc_x1tXqqXyzfvH_pvdF",
+            "displayed_link": "https://joecoffeecompany.com › collections › coffee",
+            "favicon": "data:image/png;base64,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",
+            "source": "Joe Coffee Company",
+            "snippet": "Shop for single origin, espresso, blends, decaf, and specialty instant coffee in the Joe Coffee Company store.",
             "highlighted_keywords": [
-              "1. Best Bagel and Coffee"
+              "coffee",
+              "Coffee"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {},
+                "extensions": [
+                  "Free delivery over $65"
+                ]
+              }
+            },
             "rank": 3,
             "page_rank": 3
           },
           {
-            "title": "Starbucks Coffee Company",
-            "link": "https://www.starbucks.com/",
-            "displayed_link": "https://www.starbucks.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUAqGIdqmY1r3EAp18ApFiUzqyt2L4Ao1ZfuYRTtn7q9e/3/PotrWzH5NP////W695BsXUAn0zf8OYApVtMtHrk8utvwJIAnEX6/fwAoVFivY2e0rPL59i/4c3+/v623cal1biOyaNsvo98xZuGyKGAxp1Ptn+w3MO6/E0wAAABrUlEQVR4AWKgEgDUQR9YkoJQFEBRJAjyVFAMiKHQnv3vcKjJkQz3kH5R/pdoxbig/9kma6Vr2fxrG6EGObV5+OfurhO0z2p7J8rhd3UFRj/Ns8ayWnTuV+1CwYDWUtG2AHfs294vbbUh7oDSegRwwFZfybsvfSa9ccZOozM37y1OEpSUOlcFUxfTZQzriyHyKi/RAgSxf12JLIO8FXLSaZUL9ZdfOMiuNXA26d6GK+TRVW/pKRkwq4w78PThkDHnM3bRcx9DvwLYCQC2yHu7+cdzmSOllZ0mpeXJQJi/hTs/2ieeADRw8GDk4cTjGXmCIO4YVDmvQORAUvU4xIoIdhPk3oU0dmNSyns7S13ovJM4DvL+L/0w15EdykJuLJzH673akPCOVDU2ysGVZht6lLa22YhjJLrci7FQAo7JOiwo7DC6N3Ii3htDOBgbHXIqW562+1NezpQoobV92QbNhhyRlmJon9Y7Ql9kpaRSzez0dWfLGjyELnXeI4kjrjZ3rDGprzhP8Gc4vMtkps7GZAYs9iuqCevBuBqmT6TRwE51MZ6vr3hf2mmaV+fhM60UJgvTnxtEAAAAAElFTkSuQmCC",
-            "source": "Starbucks",
-            "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
+            "title": "What is coffee? - NCA",
+            "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
+            "displayed_link": "https://www.aboutcoffee.org › Origins",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAk1BMVEX////6+vv5+frp6uzq6+3t7vDx8fPz9PWxtLuTmKBja3iipq7U1trk5eg0QVUAEjMAHTkfMEcpOE0AACpOWGi5vcIXKkI/S10AGTd+hI/LztIEIDuGjJZocHwACS+doalxeIMAFjUAACi1uL4RJj/loaIjPVLPIyXu9PbtmZmHMDzskpHvtbaLBBzJtbmkMzzKrbGTXXfdAAABBklEQVR4Aa3SVWKDUBBA0Txm5g3EcXetd/+rK1LB/pqboAeHwz8TSp8QYhdhESLNkfAnkpIQYWY8rh5HqnY80RIB8Xy6MNH1dtcJN0iGaV3sm+64vIO2d/eDW2hGLBeojGg6+sXTzooaA8o/lL1J1hIvPQs7SXyJOEc6ZykHeXZRPSdfXi4DSuPmBhedcufmAiKIXxSAFJhOUapaUQWMPSpzRI6SykrjAPiyxEOPyKer6XNUxpHsUSwRJZ/jLO832Nmzr27M5EqIy0c0GbSWfZY4Jv5wXNM9Pb90NBnwCun1rZ5siQwDvn90uINixNMnLXBxRTQYjKEyQ4LvSI7xzhcqxOExfQGirBAhUMQZRwAAAABJRU5ErkJggg==",
+            "source": "About Coffee - National Coffee Association",
+            "snippet": "What is coffee made of? Learn about the coffee tree, its lifespan, how it produces coffee beans, and the two most common coffee species, arabica and ...",
             "highlighted_keywords": [
-              "Explore our menu of handcrafted drinks"
+              "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
             "rank": 4,
             "page_rank": 4
           },
           {
-            "title": "Fresh Roasted Coffee | Intelligentsia | Illuminating Coffee",
-            "link": "https://www.intelligentsia.com/",
-            "displayed_link": "https://www.intelligentsia.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEzUKSfUKSfUKSfUKSfUKSfUKSfUKSfVKSfUKijUKSfUKSfUKSbUKSfUKSfUKSfUKSeAx3/MAAAAEXRSTlMAO5nwJf9/5BcP9kUFzSpfu+f5/RsAAACPSURBVHgBjZAJCoUwDAXT5dX82u3+p/1UqsFowGENAwMv9B3nyMZ7sgnBdhGIpkxAMuUGbJZjAGC7CiS7qrrMv0XEQTxvZooZBnnO8u9uPWt/czstStWqFrVC0HtaEBUaKbrITpoqsmpXAKE8q3Z3YOIcJkPJNW5NflaTTO6qmts1Oavu/Ry4VaUjt8G58w/CwQc98fZzoAAAAABJRU5ErkJggg==",
-            "source": "Intelligentsia Coffee",
-            "snippet": "Experience the freshest roasted coffee shipped for free right to you, and receive early access to all exclusive releases and promotions.Read more",
+            "title": "Coffee and Tea Buying Guides",
+            "link": "https://www.seriouseats.com/coffee-and-tea-buying-guides-7105482",
+            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
+            "source": "Serious Eats",
+            "snippet": "These buying guides will you help decide which coffee and tea gear you need to make the perfect cup and how to get the most out of the gadgets you own.",
             "highlighted_keywords": [
-              "freshest roasted coffee shipped for free right to you"
+              "decide which coffee and tea gear you need"
             ],
             "rank": 5,
             "page_rank": 5
+          },
+          {
+            "title": "Coffee | Origin, Types, Uses, History, & Facts",
+            "link": "https://www.britannica.com/topic/coffee",
+            "displayed_link": "https://www.britannica.com › ... › Food",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
+            "source": "Britannica",
+            "snippet": "Coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant of African origin. Coffee is one of the ...",
+            "highlighted_keywords": [
+              "Coffee",
+              "coffee",
+              "Coffee"
+            ],
+            "rank": 6,
+            "page_rank": 6
           },
           {
             "title": "Coffee - Walmart.com",
@@ -142,66 +164,45 @@
                 ]
               }
             },
-            "rank": 6,
-            "page_rank": 6
-          },
-          {
-            "title": "Buy Organic Coffee Beans Online | Direct Trade",
-            "link": "https://thinkcoffee.com/collections",
-            "displayed_link": "https://thinkcoffee.com › collections",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAMAAABY1h8eAAAAS1BMVEVHcExNT1ZMT1ZWWF9ISlBNT1ZLTVROUFdJS1NNT1ZOUFd3d31zdXpNT1ZLTVRDRUytrrF7fYK9vcCKi5CbnKBiZGrQ0NJwcXfj4+TZL1W9AAAADXRSTlMA0eb/EXk+ASa1aKTNMmVXbAAAARJJREFUKJGFko2OhCAMhFVgQfcolPKz7/+kV1A06F5uQjD60UGGTtP/0jykebGM1O11YC+1Lpa1rOo1UD1JNdtTs5IX1ZNZ7aDVdFoZjBAuKm91rbY7K17a1oO9HNReaOb+iemJZ9PgJgQBgHOOkrtqN/bV8h1ijqlgLJ5w2JVdfwIFz+LpQ1zv4PI1i48BcwjkQ/aulGLZ3MGyw0KYEJF4kM/Zp+JE6tA1xRB9qPL5E3OmHe6pCh8xY/BEMTMPse6pj3yg/qvHgpgoCor4lu2cRwB8VOugxVSnreV3+B7x1EX1cSRUs31K9Zv+fivDXcPh+Lzt/ThWiBvrPQQWU0lw66Gz+5IQ4tF9Z99u3/r2D/0CgrMadIMpvzEAAAAASUVORK5CYII=",
-            "source": "Think Coffee NYC",
-            "snippet": "Shop sustainable single origin coffee and blends. Direct trade, fair trade certified. Ethiopian, Nicaraguan & more. Order fresh roasted organic coffee ...",
-            "highlighted_keywords": [
-              "Shop sustainable single origin coffee and blends"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Free delivery",
-                  "14-day returns"
-                ]
-              }
-            },
             "rank": 7,
             "page_rank": 7
           },
           {
-            "title": "What is coffee? - NCA",
-            "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
-            "displayed_link": "https://www.aboutcoffee.org › Origins",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAk1BMVEX////6+vv5+frp6uzq6+3t7vDx8fPz9PWxtLuTmKBja3iipq7U1trk5eg0QVUAEjMAHTkfMEcpOE0AACpOWGi5vcIXKkI/S10AGTd+hI/LztIEIDuGjJZocHwACS+doalxeIMAFjUAACi1uL4RJj/loaIjPVLPIyXu9PbtmZmHMDzskpHvtbaLBBzJtbmkMzzKrbGTXXfdAAABBklEQVR4Aa3SVWKDUBBA0Txm5g3EcXetd/+rK1LB/pqboAeHwz8TSp8QYhdhESLNkfAnkpIQYWY8rh5HqnY80RIB8Xy6MNH1dtcJN0iGaV3sm+64vIO2d/eDW2hGLBeojGg6+sXTzooaA8o/lL1J1hIvPQs7SXyJOEc6ZykHeXZRPSdfXi4DSuPmBhedcufmAiKIXxSAFJhOUapaUQWMPSpzRI6SykrjAPiyxEOPyKer6XNUxpHsUSwRJZ/jLO832Nmzr27M5EqIy0c0GbSWfZY4Jv5wXNM9Pb90NBnwCun1rZ5siQwDvn90uINixNMnLXBxRTQYjKEyQ4LvSI7xzhcqxOExfQGirBAhUMQZRwAAAABJRU5ErkJggg==",
-            "source": "About Coffee - National Coffee Association",
-            "snippet": "What is coffee made of? Learn about the coffee tree, its lifespan, how it produces coffee beans, and the two most common coffee species, arabica and ...",
+            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
+            "link": "https://www.discountcoffee.com/",
+            "displayed_link": "https://www.discountcoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
+            "source": "DiscountCoffee.com",
+            "snippet": "Buy Breakroom Coffee Supplies, Starbucks, k-cup, pods, tea, sugar, creamer, hot chocolate, cappuccino. Free UPS Ground to homes & businesses nationwide.",
             "highlighted_keywords": [
-              "Learn about the coffee tree, its lifespan, how it produces coffee beans"
+              "Breakroom Coffee Supplies"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$5",
+                  "price_to": "$139",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$5 to $139",
+                  "Free delivery over $59",
+                  "30-day returns"
+                ]
+              }
+            },
             "rank": 8,
             "page_rank": 8
-          },
-          {
-            "title": "TOP 10 BEST Coffee in New York, NY - Updated 2026",
-            "link": "https://www.yelp.com/search?find_desc=Coffee&find_loc=New+York%2C+NY",
-            "displayed_link": "https://www.yelp.com › Food",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAflBMVEX0DRX0AAr0AAD0BhD3U1j5ioz5lZf2R0z8xcb+6uv+9fX/+Pn93N31GiH6pKb////4fX/0AAX1LzX8wML4hIb0ERn1KTD+5eX5kJP3XmL4bnH+8PH91db3PkX1HSb7t7r3T1X9ztD3Zmn6qKv4anD1NTz5dnr7r7H3Wl77tLUFH9U+AAAA4UlEQVR4AbTRRWKAMBAFUPKRUmxwd+f+Fyyzwpf9m8iLR/r/CEB8EGRF1X7eVSj6r2FaeEXboT3mO8I1dzS8V5T9gBFcfSpCgxjlKH6qHOtECWQ71bPbzkKWkBdUwtZMSq6Iqga8hgKofK78rKKlomkRdUrPRuoZoXKXoSIKyCiG8bIsNOKUtZjGGLhtORtJGThZL7tDXt/fN3KzCXCKaaFiWXFTeAKuQUpfECXb44XRWkSTvdAe7/FADRH5/BL0mLn3MgrPoUXI95nTUpgm9i+J2W4RUqbN7z/G8QDpb/QAAKRZDoQhpaGVAAAAAElFTkSuQmCC",
-            "source": "Yelp",
-            "snippet": "Top 10 Best Coffee Near New York, New York (Updated 2026) · 1. Ten Thousand Coffee · 2. Koré Coffee · 3. Culture Espresso · 4. Hien From Vietnam · 5. Justin's ...Read more",
-            "highlighted_keywords": [
-              "1. Ten Thousand Coffee"
-            ],
-            "rank": 9,
-            "page_rank": 9
           }
         ],
         "relatedSearches": [
           {
-            "query": "Coffee nearby",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
-          },
-          {
             "query": "Coffee types",
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
+          },
+          {
+            "query": "Coffee nearby",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
           },
           {
             "query": "Coffee brands",
@@ -216,37 +217,37 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
+            "query": "Coffee Bean menu",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
+          },
+          {
             "query": "Coffee powder",
             "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
           },
           {
             "query": "Coffee benefits",
             "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
-          },
-          {
-            "query": "Coffee NESCAFÉ",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           }
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=2Ig0aqaRDPOU5OMPvbyPgAc&start=10&sa=N&sstk=AU9db-BpRT_yYcYuc08m0DOQy_1rc5DwC0hj7UYrBAbe88NiCfLjXWwcDVQg-a9VLIE9WVPydCNF0Q5SvALRMIrHIQJs3ooMrzUj8w&ved=2ahUKEwim3dPogZKVAxVzCnkGHT3eA3AQ8NMDegQIXRAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=6JY0avfEE72qw8cPooO6yAg&start=10&sa=N&sstk=AU9db-BrrEpXK4ulXHb3CMqtHgUGtvOq2pScpg0arfDG_Ixy3e7HXPL6Qou4I6sAVv7zIJ0A9LN_hdWe4H7jUIz_y-F6wOkCB_6JJA&ved=2ahUKEwj32Kmdj5KVAxU91fACHaKBDokQ8NMDegQITBAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=2Ig0aqaRDPOU5OMPvbyPgAc&start=10&sa=N&sstk=AU9db-BpRT_yYcYuc08m0DOQy_1rc5DwC0hj7UYrBAbe88NiCfLjXWwcDVQg-a9VLIE9WVPydCNF0Q5SvALRMIrHIQJs3ooMrzUj8w&ved=2ahUKEwim3dPogZKVAxVzCnkGHT3eA3AQ8tMDegQIXRAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=2Ig0aqaRDPOU5OMPvbyPgAc&start=20&sa=N&sstk=AU9db-BpRT_yYcYuc08m0DOQy_1rc5DwC0hj7UYrBAbe88NiCfLjXWwcDVQg-a9VLIE9WVPydCNF0Q5SvALRMIrHIQJs3ooMrzUj8w&ved=2ahUKEwim3dPogZKVAxVzCnkGHT3eA3AQ8tMDegQIXRAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=2Ig0aqaRDPOU5OMPvbyPgAc&start=30&sa=N&sstk=AU9db-BpRT_yYcYuc08m0DOQy_1rc5DwC0hj7UYrBAbe88NiCfLjXWwcDVQg-a9VLIE9WVPydCNF0Q5SvALRMIrHIQJs3ooMrzUj8w&ved=2ahUKEwim3dPogZKVAxVzCnkGHT3eA3AQ8tMDegQIXRAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=2Ig0aqaRDPOU5OMPvbyPgAc&start=40&sa=N&sstk=AU9db-BpRT_yYcYuc08m0DOQy_1rc5DwC0hj7UYrBAbe88NiCfLjXWwcDVQg-a9VLIE9WVPydCNF0Q5SvALRMIrHIQJs3ooMrzUj8w&ved=2ahUKEwim3dPogZKVAxVzCnkGHT3eA3AQ8tMDegQIXRAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=2Ig0aqaRDPOU5OMPvbyPgAc&start=50&sa=N&sstk=AU9db-BpRT_yYcYuc08m0DOQy_1rc5DwC0hj7UYrBAbe88NiCfLjXWwcDVQg-a9VLIE9WVPydCNF0Q5SvALRMIrHIQJs3ooMrzUj8w&ved=2ahUKEwim3dPogZKVAxVzCnkGHT3eA3AQ8tMDegQIXRAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=2Ig0aqaRDPOU5OMPvbyPgAc&start=60&sa=N&sstk=AU9db-BpRT_yYcYuc08m0DOQy_1rc5DwC0hj7UYrBAbe88NiCfLjXWwcDVQg-a9VLIE9WVPydCNF0Q5SvALRMIrHIQJs3ooMrzUj8w&ved=2ahUKEwim3dPogZKVAxVzCnkGHT3eA3AQ8tMDegQIXRAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=2Ig0aqaRDPOU5OMPvbyPgAc&start=70&sa=N&sstk=AU9db-BpRT_yYcYuc08m0DOQy_1rc5DwC0hj7UYrBAbe88NiCfLjXWwcDVQg-a9VLIE9WVPydCNF0Q5SvALRMIrHIQJs3ooMrzUj8w&ved=2ahUKEwim3dPogZKVAxVzCnkGHT3eA3AQ8tMDegQIXRAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=2Ig0aqaRDPOU5OMPvbyPgAc&start=80&sa=N&sstk=AU9db-BpRT_yYcYuc08m0DOQy_1rc5DwC0hj7UYrBAbe88NiCfLjXWwcDVQg-a9VLIE9WVPydCNF0Q5SvALRMIrHIQJs3ooMrzUj8w&ved=2ahUKEwim3dPogZKVAxVzCnkGHT3eA3AQ8tMDegQIXRAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=2Ig0aqaRDPOU5OMPvbyPgAc&start=90&sa=N&sstk=AU9db-BpRT_yYcYuc08m0DOQy_1rc5DwC0hj7UYrBAbe88NiCfLjXWwcDVQg-a9VLIE9WVPydCNF0Q5SvALRMIrHIQJs3ooMrzUj8w&ved=2ahUKEwim3dPogZKVAxVzCnkGHT3eA3AQ8tMDegQIXRAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=6JY0avfEE72qw8cPooO6yAg&start=10&sa=N&sstk=AU9db-BrrEpXK4ulXHb3CMqtHgUGtvOq2pScpg0arfDG_Ixy3e7HXPL6Qou4I6sAVv7zIJ0A9LN_hdWe4H7jUIz_y-F6wOkCB_6JJA&ved=2ahUKEwj32Kmdj5KVAxU91fACHaKBDokQ8tMDegQITBAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=6JY0avfEE72qw8cPooO6yAg&start=20&sa=N&sstk=AU9db-BrrEpXK4ulXHb3CMqtHgUGtvOq2pScpg0arfDG_Ixy3e7HXPL6Qou4I6sAVv7zIJ0A9LN_hdWe4H7jUIz_y-F6wOkCB_6JJA&ved=2ahUKEwj32Kmdj5KVAxU91fACHaKBDokQ8tMDegQITBAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=6JY0avfEE72qw8cPooO6yAg&start=30&sa=N&sstk=AU9db-BrrEpXK4ulXHb3CMqtHgUGtvOq2pScpg0arfDG_Ixy3e7HXPL6Qou4I6sAVv7zIJ0A9LN_hdWe4H7jUIz_y-F6wOkCB_6JJA&ved=2ahUKEwj32Kmdj5KVAxU91fACHaKBDokQ8tMDegQITBAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=6JY0avfEE72qw8cPooO6yAg&start=40&sa=N&sstk=AU9db-BrrEpXK4ulXHb3CMqtHgUGtvOq2pScpg0arfDG_Ixy3e7HXPL6Qou4I6sAVv7zIJ0A9LN_hdWe4H7jUIz_y-F6wOkCB_6JJA&ved=2ahUKEwj32Kmdj5KVAxU91fACHaKBDokQ8tMDegQITBAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=6JY0avfEE72qw8cPooO6yAg&start=50&sa=N&sstk=AU9db-BrrEpXK4ulXHb3CMqtHgUGtvOq2pScpg0arfDG_Ixy3e7HXPL6Qou4I6sAVv7zIJ0A9LN_hdWe4H7jUIz_y-F6wOkCB_6JJA&ved=2ahUKEwj32Kmdj5KVAxU91fACHaKBDokQ8tMDegQITBAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=6JY0avfEE72qw8cPooO6yAg&start=60&sa=N&sstk=AU9db-BrrEpXK4ulXHb3CMqtHgUGtvOq2pScpg0arfDG_Ixy3e7HXPL6Qou4I6sAVv7zIJ0A9LN_hdWe4H7jUIz_y-F6wOkCB_6JJA&ved=2ahUKEwj32Kmdj5KVAxU91fACHaKBDokQ8tMDegQITBAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=6JY0avfEE72qw8cPooO6yAg&start=70&sa=N&sstk=AU9db-BrrEpXK4ulXHb3CMqtHgUGtvOq2pScpg0arfDG_Ixy3e7HXPL6Qou4I6sAVv7zIJ0A9LN_hdWe4H7jUIz_y-F6wOkCB_6JJA&ved=2ahUKEwj32Kmdj5KVAxU91fACHaKBDokQ8tMDegQITBAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=6JY0avfEE72qw8cPooO6yAg&start=80&sa=N&sstk=AU9db-BrrEpXK4ulXHb3CMqtHgUGtvOq2pScpg0arfDG_Ixy3e7HXPL6Qou4I6sAVv7zIJ0A9LN_hdWe4H7jUIz_y-F6wOkCB_6JJA&ved=2ahUKEwj32Kmdj5KVAxU91fACHaKBDokQ8tMDegQITBAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bec4f44b4fc03395&gl=us&hl=en&ei=6JY0avfEE72qw8cPooO6yAg&start=90&sa=N&sstk=AU9db-BrrEpXK4ulXHb3CMqtHgUGtvOq2pScpg0arfDG_Ixy3e7HXPL6Qou4I6sAVv7zIJ0A9LN_hdWe4H7jUIz_y-F6wOkCB_6JJA&ved=2ahUKEwj32Kmdj5KVAxU91fACHaKBDokQ8tMDegQITBAU"
           }
         }
       }
     }
   },
-  "requestId": "8fb89915-479d-4c20-9b4b-5dc99dc5f69a",
-  "timestamp": 1781830803612,
-  "recordTime": "2026-06-19 09:00:03"
+  "requestId": "277f1046-93df-46a9-a368-de54ab9c8a75",
+  "timestamp": 1781834403002,
+  "recordTime": "2026-06-19 10:00:02"
 }
