@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-20 19:10:02",
+    "checkedAt": "2026-06-20 20:10:06",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.36,
-          "total_results": 2780000,
+          "time_taken": 0.47,
+          "total_results": 165,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,29 +24,29 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Haute Dulce",
-            "rating": "4.9",
-            "reviews": "1.7K",
-            "address": "4.9(1.7K) · $10–20 · Coffee shop",
-            "hours": "Secaucus, NJ",
+            "title": "Chico Coffee Bar",
+            "rating": "5.0",
+            "reviews": "10",
+            "address": "5.0(10) · Coffee shop",
+            "hours": "Phoenix, AZ",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Aromas",
-            "rating": "4.9",
-            "reviews": "82",
-            "address": "4.9(82) · $10–20 · Coffee shop",
-            "hours": "Union City, NJ",
+            "title": "Lola Coffee",
+            "rating": "4.5",
+            "reviews": "1K",
+            "address": "4.5(1K) · $1–10 · Coffee shop",
+            "hours": "Phoenix, AZ",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Franny Bean Coffee",
-            "rating": "4.9",
-            "reviews": "85",
-            "address": "4.9(85) · $1–10 · Coffee shop",
-            "hours": "Fairview, NJ",
+            "title": "Songbird Coffee & Tea House - Phoenix, AZ",
+            "rating": "4.7",
+            "reviews": "1.2K",
+            "address": "4.7(1.2K) · $1–10 · Coffee shop",
+            "hours": "Phoenix, AZ",
             "links": {}
           }
         ],
@@ -73,14 +73,14 @@
             "page_rank": 1
           },
           {
-            "title": "Starbucks Coffee Company",
-            "link": "https://www.starbucks.com/",
-            "displayed_link": "https://www.starbucks.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUAqGIdqmY1r3EAp18ApFiUzqyt2L4Ao1ZfuYRTtn7q9e/3/PotrWzH5NP////W695BsXUAn0zf8OYApVtMtHrk8utvwJIAnEX6/fwAoVFivY2e0rPL59i/4c3+/v623cal1biOyaNsvo98xZuGyKGAxp1Ptn+w3MO6/E0wAAABrUlEQVR4AWKgEgDUQR9YkoJQFEBRJAjyVFAMiKHQnv3vcKjJkQz3kH5R/pdoxbig/9kma6Vr2fxrG6EGObV5+OfurhO0z2p7J8rhd3UFRj/Ns8ayWnTuV+1CwYDWUtG2AHfs294vbbUh7oDSegRwwFZfybsvfSa9ccZOozM37y1OEpSUOlcFUxfTZQzriyHyKi/RAgSxf12JLIO8FXLSaZUL9ZdfOMiuNXA26d6GK+TRVW/pKRkwq4w78PThkDHnM3bRcx9DvwLYCQC2yHu7+cdzmSOllZ0mpeXJQJi/hTs/2ieeADRw8GDk4cTjGXmCIO4YVDmvQORAUvU4xIoIdhPk3oU0dmNSyns7S13ovJM4DvL+L/0w15EdykJuLJzH673akPCOVDU2ysGVZht6lLa22YhjJLrci7FQAo7JOiwo7DC6N3Ii3htDOBgbHXIqW562+1NezpQoobV92QbNhhyRlmJon9Y7Ql9kpaRSzez0dWfLGjyELnXeI4kjrjZ3rDGprzhP8Gc4vMtkps7GZAYs9iuqCevBuBqmT6TRwE51MZ6vr3hf2mmaV+fhM60UJgvTnxtEAAAAAElFTkSuQmCC",
-            "source": "Starbucks",
-            "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
+            "title": "Fresh Roasted Coffee | Intelligentsia | Illuminating Coffee",
+            "link": "https://www.intelligentsia.com/",
+            "displayed_link": "https://www.intelligentsia.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEzUKSfUKSfUKSfUKSfUKSfUKSfUKSfVKSfUKijUKSfUKSfUKSbUKSfUKSfUKSfUKSeAx3/MAAAAEXRSTlMAO5nwJf9/5BcP9kUFzSpfu+f5/RsAAACPSURBVHgBjZAJCoUwDAXT5dX82u3+p/1UqsFowGENAwMv9B3nyMZ7sgnBdhGIpkxAMuUGbJZjAGC7CiS7qrrMv0XEQTxvZooZBnnO8u9uPWt/czstStWqFrVC0HtaEBUaKbrITpoqsmpXAKE8q3Z3YOIcJkPJNW5NflaTTO6qmts1Oavu/Ry4VaUjt8G58w/CwQc98fZzoAAAAABJRU5ErkJggg==",
+            "source": "Intelligentsia Coffee",
+            "snippet": "Experience the freshest roasted coffee shipped for free right to you, and receive early access to all exclusive releases and promotions.Read more",
             "highlighted_keywords": [
-              "Explore our menu of handcrafted drinks"
+              "freshest roasted coffee shipped for free right to you"
             ],
             "rank": 2,
             "page_rank": 2
@@ -99,59 +99,30 @@
             "page_rank": 3
           },
           {
-            "title": "Fresh Roasted Coffee | Intelligentsia | Illuminating Coffee",
-            "link": "https://www.intelligentsia.com/",
-            "displayed_link": "https://www.intelligentsia.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEzUKSfUKSfUKSfUKSfUKSfUKSfUKSfVKSfUKijUKSfUKSfUKSbUKSfUKSfUKSfUKSeAx3/MAAAAEXRSTlMAO5nwJf9/5BcP9kUFzSpfu+f5/RsAAACPSURBVHgBjZAJCoUwDAXT5dX82u3+p/1UqsFowGENAwMv9B3nyMZ7sgnBdhGIpkxAMuUGbJZjAGC7CiS7qrrMv0XEQTxvZooZBnnO8u9uPWt/czstStWqFrVC0HtaEBUaKbrITpoqsmpXAKE8q3Z3YOIcJkPJNW5NflaTTO6qmts1Oavu/Ry4VaUjt8G58w/CwQc98fZzoAAAAABJRU5ErkJggg==",
-            "source": "Intelligentsia Coffee",
-            "snippet": "Experience the freshest roasted coffee shipped for free right to you, and receive early access to all exclusive releases and promotions.Read more",
+            "title": "Coffee and Tea Buying Guides",
+            "link": "https://www.seriouseats.com/coffee-and-tea-buying-guides-7105482",
+            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
+            "source": "Serious Eats",
+            "snippet": "These buying guides will you help decide which coffee and tea gear you need to make the perfect cup and how to get the most out of the gadgets you own.",
             "highlighted_keywords": [
-              "freshest roasted coffee shipped for free right to you"
+              "decide which coffee and tea gear you need"
             ],
             "rank": 4,
             "page_rank": 4
           },
           {
-            "title": "I Asked Coffee Experts How to Keep Beans Fresh—They ...",
-            "link": "https://www.seriouseats.com/best-way-to-store-coffee-12001722",
-            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
-            "source": "Serious Eats",
-            "snippet": "Store coffee in its original one-way valve bag, keep it away from heat, light, and moisture, grind it only when you're ready to brew, and freeze ...Read more",
+            "title": "Coffee Coffee - Bel Air",
+            "link": "https://www.coffeecoffee-online.com/",
+            "displayed_link": "https://www.coffeecoffee-online.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXElEQVR4AeyRgaaDUBjHgz1CzzEA1iZEgO5QJUlQCeUuSVV6hg2gp7h7k7vnCAxA8N3vzL2ZK/ejs81FHz9n7Oz8f/v+wpypqkqs6/odz0/G92dReOZ0XbdqmuYNgz7KshwQ+MXAvmN32N2HBbdtu8aHj0g/hhGwu8iR/ZZ7xWQgAV0RvWJOiIroFfNCVGTb9jWKIsjzHF4lkGUZuK4LiqJcBV3XgWEYBnieB0mSQFEUDw9lbwZBAJqmgSRJsNlsbowC91iWBb7vQ5qm3MFxHN/+nCzLYygyJTCN4zhAVzS9YlVV78PmCZAVESvmFqAqolbMKUBDhywCi8AisAgsAovAfxewLGttGMYJ6V8lIElSj+dpu92uhZ8Jw3BlmuYeHz2jzPAEgQGDz7vdbs+yhL8GBUR8/IDnhVcAQy/IAYNFYcZQFdEr5hyqImLFXENXhEJfu2dnZ3ePkiAGAOIqkJS3QoqOAAAAAElFTkSuQmCC",
+            "source": "coffeecoffee-online.com",
+            "snippet": "Coffee Coffee, repeatedly voted Harford County's BEST, is your go-to spot for freshly roasted coffee, tea and foodie products, breakfast and lunch, unique ...Read more",
             "highlighted_keywords": [
-              "Store coffee in its original one-way valve bag"
+              "freshly roasted coffee, tea and foodie products"
             ],
             "rank": 5,
             "page_rank": 5
-          },
-          {
-            "title": "Coffee - Walmart.com",
-            "link": "https://www.walmart.com/cp/coffee/1086446",
-            "displayed_link": "https://www.walmart.com › coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEz/wRz/wR7/wh//wh//wBn/wh//wiD/wR7/wh//wh7/wh7/wR//wh//wR3/wh//wh7/wh//wh5JC3qUAAAAE3RSTlMADS92+AfR/8e5YYeZnhflTOw/6JuIewAAAKFJREFUeAG1koURA0EIANHn7bT/YsPEjXj2XFF4GSTC8JBFODrTwWzATw5h9EOImMwmuGIWW7aT1SxtJ4vJDFvyZP6CfMa2vUXbjbw9xGROmRGqSAWcizkJYQul5itZsjIrLuKLlgj2YF/8uHRwevGjpSOcUOJhzeDkdWBSuEJ1P24fvXwYfxsrFJvy3Amx+2LHByGLg/2HHGIxhgglQniVDZyEB/jjfAsrAAAAAElFTkSuQmCC",
-            "source": "Walmart",
-            "snippet": "Shop for Coffee at Walmart.com. Buy Ground coffee, coffee pods, instant coffee, and whole bean coffee. Save money. Live better.",
-            "highlighted_keywords": [
-              "Shop for Coffee at Walmart.com"
-            ],
-            "inline_snippet": "4.2",
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$5",
-                  "price_to": "$36",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "4.2 store rating (3.8K)",
-                  "4.2",
-                  "$5 to $36",
-                  "Free 90-day returns"
-                ]
-              }
-            },
-            "rank": 6,
-            "page_rank": 6
           },
           {
             "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
@@ -177,6 +148,27 @@
                 ]
               }
             },
+            "rank": 6,
+            "page_rank": 6
+          },
+          {
+            "title": "Counter Culture Coffee",
+            "link": "https://counterculturecoffee.com/?srsltid=AfmBOooIvTx2Y1Neuf0DkfuM0j1Atie_zujFqYMp5CEtVizvuB95_3mx",
+            "displayed_link": "https://counterculturecoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACu0lEQVR4AWKgAmAFYm4g5gFiNgY6AA5A6fUAK0kQRWE4XTNr27YZrG3biJbB2rZt27Zt27Zt9f5JKslNJdNvKn2SL7V9213YeSiPpHq7AkagB+rrmkIz5NTbjmit4yCg/50QB7AbUXStDLZiKRrqWj7cwknkhoyyu7mOeIi82IMYogt6YQRi6Vpr3MVKcVx0JA77S4gbNkZt4+lrIjFCJQZyo6qozcZ55LXtjlw4g9niZDMKCJkG+IiRyB7OA0RCNLFdER0t+9ERx8XBcOQ3vq5nn69GozC6SXnUzGsGEWGC6IVGOIcM8mSPz6c8th3bUd8YBzEZUTwuXB1LcRUPcRqTkB++Ex2RjAdTYj3YBjeEfxiHKLBKHKSBjGO0sXEJLn7iD1zhu25vIK44N6w53xN1URrV5VuLdh5cfNPtL6zHBOyDiwuIY7PyKdGnu3EI+XRNiTfIht/4CxdPUAAyNZBKvJh1iomLOsYM6Cg+vYtqYr+yX/Pt/x+YCld7gFgwj1U2004ZF8iIqqiIILwe6i/+gfBAPiLfcAJeYylkgrrtLgaeixK6HtlzBbR4gH44hRmIB3NNLwAXv3V7BSkhU9B2BshER3wEPD7/emMavsEEdMQCuNgF4zz7pICMEvWnctGRRPccRnRYJysqYi0KhliMMuGCufwa26sRA8RuRtTBMzxHPTEIzeMioT2O4BXe4Qk2oKqfLoiMLsjuMZDMWhwkRzSPGwegfI8HGY/BSt1fHERDLvTA7DB+3zsevxOjoiuq23bLBLww1gQdq8/bHIOwzxzY4aSFWFjSYjvSICG8Uh45jHGyU9QcWM+QIXiB/eLPsPgYgOri+HaYj83Ioms5UcTPzRXqYiieihHfEauxTyzLkzESS1HYe6zYJ4HxI2QQWmIZ0oivMkysB46m4CsBmG+SQMuEIKzyH3WCk3OyXiwRAAAAAElFTkSuQmCC",
+            "source": "Counter Culture Coffee",
+            "snippet": "Counter Culture Coffee is a specialty coffee roaster sourcing exceptional single-origin and specialty coffee. Fresh-roasted coffee to your doorstep.",
+            "highlighted_keywords": [
+              "Counter Culture Coffee"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {},
+                "extensions": [
+                  "Free delivery over $30"
+                ]
+              }
+            },
             "rank": 7,
             "page_rank": 7
           },
@@ -196,38 +188,84 @@
             "page_rank": 8
           },
           {
-            "title": "Types of Coffee Drinks",
-            "link": "https://www.folgerscoffee.com/coffee/articles/types-of-coffee",
-            "displayed_link": "https://www.folgerscoffee.com › coffee › articles › type...",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEX/////lJn/AAD/ur7/7/D/x8r/UVv/ABf/DCP/ABv/AAX/AB//sbX/VF7//P3/6uz/pKj/ByH/IDL/1tj/hoz/RFD/eoH/5Ob/9/f/q6//Kzr/Mj//mJ7/GS3/N0T/PUn/anL/XGX/3uD/8/Oj3ubQAAAAkUlEQVR4Ab3SVQKEIBRAUcDu7tb9r9FuH07P/T1Ko8/C5BKzIsvxgtgnTSArIlHRLjKYhvQ+QxUl2dyjYo04pdsyhnHIIS4dkefDuAVg4IZ0jAhLxxhGJUmxm0kgTickiDAquRqZuXA3Z0FBHvWpdxjgkIpDf0JhQA82fXgmlgCSUY4PTKjq8O5pWhcMmy30bB3mYgrufwH5GAAAAABJRU5ErkJggg==",
-            "source": "Folgers Coffee",
-            "snippet": "From a strong and bold espresso to a smooth and creamy latte, there's a coffee drink for every taste preference.Read more",
+            "title": "Coffee Same-Day Delivery or Pickup",
+            "link": "https://www.cub.com/store/cub/collections/n-coffee-67325?srsltid=AfmBOop0GSXCPLRIcNuXaJCIDWVvmuymLIdUY-bWQB0q6umFcek65R84",
+            "displayed_link": "https://www.cub.com › collections › n-coffee-67325",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEXtGyz96+v+9PT84eLsAALtAxrtEybtGyztGyz////xWmL1mp73rK/0io/vPEb6ztDzgYb5wMLyb3WgQjwDAAAACHRSTlNi/////////N4Nok4AAAClSURBVCiR1dBJDsMgDAVQbGyHTxhC7n/YOokq2kW66qJFSFg8+TOEkG5H+GCuf4lmye5QWpamR6Wq9o4agYjNVQuwP/lE36FK2MVUWkfOV8iFwsiyAdgYtIKBbBMBT6oFNSOux+z6imatV1Rhl13AMpHO2OiIC2mi+jmFUBAHuIMGxoxN4g/A6gE0mLsvaV7IeyWJJjFRkaO2L3387+DyCe9bl/AAdeAYK1fWKPUAAAAASUVORK5CYII=",
+            "source": "Cub Foods",
+            "snippet": "Get Cub Coffee products you love delivered to you in as fast as 1 hour via Cub or choose curbside or in-store pickup.",
             "highlighted_keywords": [
-              "there's a coffee drink for every taste preference"
+              "Get Cub Coffee products you love delivered to you in as fast as 1 hour"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$2",
+                  "price_to": "$18",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$2 to $18"
+                ]
+              }
+            },
             "rank": 9,
             "page_rank": 9
           }
         ],
+        "relatedSearches": [
+          {
+            "query": "Coffee types",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+types"
+          },
+          {
+            "query": "Coffee nearby",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
+          },
+          {
+            "query": "Coffee brands",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
+          },
+          {
+            "query": "Coffee name",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
+          },
+          {
+            "query": "Coffee beans",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
+          },
+          {
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
+          },
+          {
+            "query": "Coffee Pic",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Pic"
+          },
+          {
+            "query": "Coffee powder",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
+          }
+        ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3dbb119c7baa06b1&gl=us&hl=en&ei=iOU2au6GDePcptQP37Oi2QM&start=10&sa=N&sstk=AU9db-BQ5NHUHH34lPYIPG1GxcT46OkTkMUx4Z66H0nhhw22NMbd-i0B5GSDZXN2qu2zXXSw9aCsEhuBSvP82bdgggbJ-4CI3SObaA&ved=2ahUKEwju6oa_wpaVAxVjrokEHd-ZKDsQ8NMDegQIThAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d3289bdb09452055&gl=us&hl=en&ei=nPM2atWVPKvdptQP75OCcA&start=10&sa=N&sstk=AU9db-CxfXp4mcAkaIaQ_oaXF3p39J8_cipVRnPKOhO5o182wL05gujTs5Zu2pfri-yXhc_bODEiow9s8TtXcYLJCZbbAe7yZFy2nQ&ved=2ahUKEwjV0_j1z5aVAxWrrokEHe-JAA4Q8NMDegQIcxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3dbb119c7baa06b1&gl=us&hl=en&ei=iOU2au6GDePcptQP37Oi2QM&start=10&sa=N&sstk=AU9db-BQ5NHUHH34lPYIPG1GxcT46OkTkMUx4Z66H0nhhw22NMbd-i0B5GSDZXN2qu2zXXSw9aCsEhuBSvP82bdgggbJ-4CI3SObaA&ved=2ahUKEwju6oa_wpaVAxVjrokEHd-ZKDsQ8tMDegQIThAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3dbb119c7baa06b1&gl=us&hl=en&ei=iOU2au6GDePcptQP37Oi2QM&start=20&sa=N&sstk=AU9db-BQ5NHUHH34lPYIPG1GxcT46OkTkMUx4Z66H0nhhw22NMbd-i0B5GSDZXN2qu2zXXSw9aCsEhuBSvP82bdgggbJ-4CI3SObaA&ved=2ahUKEwju6oa_wpaVAxVjrokEHd-ZKDsQ8tMDegQIThAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3dbb119c7baa06b1&gl=us&hl=en&ei=iOU2au6GDePcptQP37Oi2QM&start=30&sa=N&sstk=AU9db-BQ5NHUHH34lPYIPG1GxcT46OkTkMUx4Z66H0nhhw22NMbd-i0B5GSDZXN2qu2zXXSw9aCsEhuBSvP82bdgggbJ-4CI3SObaA&ved=2ahUKEwju6oa_wpaVAxVjrokEHd-ZKDsQ8tMDegQIThAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3dbb119c7baa06b1&gl=us&hl=en&ei=iOU2au6GDePcptQP37Oi2QM&start=40&sa=N&sstk=AU9db-BQ5NHUHH34lPYIPG1GxcT46OkTkMUx4Z66H0nhhw22NMbd-i0B5GSDZXN2qu2zXXSw9aCsEhuBSvP82bdgggbJ-4CI3SObaA&ved=2ahUKEwju6oa_wpaVAxVjrokEHd-ZKDsQ8tMDegQIThAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3dbb119c7baa06b1&gl=us&hl=en&ei=iOU2au6GDePcptQP37Oi2QM&start=50&sa=N&sstk=AU9db-BQ5NHUHH34lPYIPG1GxcT46OkTkMUx4Z66H0nhhw22NMbd-i0B5GSDZXN2qu2zXXSw9aCsEhuBSvP82bdgggbJ-4CI3SObaA&ved=2ahUKEwju6oa_wpaVAxVjrokEHd-ZKDsQ8tMDegQIThAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3dbb119c7baa06b1&gl=us&hl=en&ei=iOU2au6GDePcptQP37Oi2QM&start=60&sa=N&sstk=AU9db-BQ5NHUHH34lPYIPG1GxcT46OkTkMUx4Z66H0nhhw22NMbd-i0B5GSDZXN2qu2zXXSw9aCsEhuBSvP82bdgggbJ-4CI3SObaA&ved=2ahUKEwju6oa_wpaVAxVjrokEHd-ZKDsQ8tMDegQIThAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3dbb119c7baa06b1&gl=us&hl=en&ei=iOU2au6GDePcptQP37Oi2QM&start=70&sa=N&sstk=AU9db-BQ5NHUHH34lPYIPG1GxcT46OkTkMUx4Z66H0nhhw22NMbd-i0B5GSDZXN2qu2zXXSw9aCsEhuBSvP82bdgggbJ-4CI3SObaA&ved=2ahUKEwju6oa_wpaVAxVjrokEHd-ZKDsQ8tMDegQIThAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3dbb119c7baa06b1&gl=us&hl=en&ei=iOU2au6GDePcptQP37Oi2QM&start=80&sa=N&sstk=AU9db-BQ5NHUHH34lPYIPG1GxcT46OkTkMUx4Z66H0nhhw22NMbd-i0B5GSDZXN2qu2zXXSw9aCsEhuBSvP82bdgggbJ-4CI3SObaA&ved=2ahUKEwju6oa_wpaVAxVjrokEHd-ZKDsQ8tMDegQIThAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3dbb119c7baa06b1&gl=us&hl=en&ei=iOU2au6GDePcptQP37Oi2QM&start=90&sa=N&sstk=AU9db-BQ5NHUHH34lPYIPG1GxcT46OkTkMUx4Z66H0nhhw22NMbd-i0B5GSDZXN2qu2zXXSw9aCsEhuBSvP82bdgggbJ-4CI3SObaA&ved=2ahUKEwju6oa_wpaVAxVjrokEHd-ZKDsQ8tMDegQIThAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d3289bdb09452055&gl=us&hl=en&ei=nPM2atWVPKvdptQP75OCcA&start=10&sa=N&sstk=AU9db-CxfXp4mcAkaIaQ_oaXF3p39J8_cipVRnPKOhO5o182wL05gujTs5Zu2pfri-yXhc_bODEiow9s8TtXcYLJCZbbAe7yZFy2nQ&ved=2ahUKEwjV0_j1z5aVAxWrrokEHe-JAA4Q8tMDegQIcxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d3289bdb09452055&gl=us&hl=en&ei=nPM2atWVPKvdptQP75OCcA&start=20&sa=N&sstk=AU9db-CxfXp4mcAkaIaQ_oaXF3p39J8_cipVRnPKOhO5o182wL05gujTs5Zu2pfri-yXhc_bODEiow9s8TtXcYLJCZbbAe7yZFy2nQ&ved=2ahUKEwjV0_j1z5aVAxWrrokEHe-JAA4Q8tMDegQIcxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d3289bdb09452055&gl=us&hl=en&ei=nPM2atWVPKvdptQP75OCcA&start=30&sa=N&sstk=AU9db-CxfXp4mcAkaIaQ_oaXF3p39J8_cipVRnPKOhO5o182wL05gujTs5Zu2pfri-yXhc_bODEiow9s8TtXcYLJCZbbAe7yZFy2nQ&ved=2ahUKEwjV0_j1z5aVAxWrrokEHe-JAA4Q8tMDegQIcxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d3289bdb09452055&gl=us&hl=en&ei=nPM2atWVPKvdptQP75OCcA&start=40&sa=N&sstk=AU9db-CxfXp4mcAkaIaQ_oaXF3p39J8_cipVRnPKOhO5o182wL05gujTs5Zu2pfri-yXhc_bODEiow9s8TtXcYLJCZbbAe7yZFy2nQ&ved=2ahUKEwjV0_j1z5aVAxWrrokEHe-JAA4Q8tMDegQIcxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d3289bdb09452055&gl=us&hl=en&ei=nPM2atWVPKvdptQP75OCcA&start=50&sa=N&sstk=AU9db-CxfXp4mcAkaIaQ_oaXF3p39J8_cipVRnPKOhO5o182wL05gujTs5Zu2pfri-yXhc_bODEiow9s8TtXcYLJCZbbAe7yZFy2nQ&ved=2ahUKEwjV0_j1z5aVAxWrrokEHe-JAA4Q8tMDegQIcxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d3289bdb09452055&gl=us&hl=en&ei=nPM2atWVPKvdptQP75OCcA&start=60&sa=N&sstk=AU9db-CxfXp4mcAkaIaQ_oaXF3p39J8_cipVRnPKOhO5o182wL05gujTs5Zu2pfri-yXhc_bODEiow9s8TtXcYLJCZbbAe7yZFy2nQ&ved=2ahUKEwjV0_j1z5aVAxWrrokEHe-JAA4Q8tMDegQIcxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d3289bdb09452055&gl=us&hl=en&ei=nPM2atWVPKvdptQP75OCcA&start=70&sa=N&sstk=AU9db-CxfXp4mcAkaIaQ_oaXF3p39J8_cipVRnPKOhO5o182wL05gujTs5Zu2pfri-yXhc_bODEiow9s8TtXcYLJCZbbAe7yZFy2nQ&ved=2ahUKEwjV0_j1z5aVAxWrrokEHe-JAA4Q8tMDegQIcxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d3289bdb09452055&gl=us&hl=en&ei=nPM2atWVPKvdptQP75OCcA&start=80&sa=N&sstk=AU9db-CxfXp4mcAkaIaQ_oaXF3p39J8_cipVRnPKOhO5o182wL05gujTs5Zu2pfri-yXhc_bODEiow9s8TtXcYLJCZbbAe7yZFy2nQ&ved=2ahUKEwjV0_j1z5aVAxWrrokEHe-JAA4Q8tMDegQIcxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d3289bdb09452055&gl=us&hl=en&ei=nPM2atWVPKvdptQP75OCcA&start=90&sa=N&sstk=AU9db-CxfXp4mcAkaIaQ_oaXF3p39J8_cipVRnPKOhO5o182wL05gujTs5Zu2pfri-yXhc_bODEiow9s8TtXcYLJCZbbAe7yZFy2nQ&ved=2ahUKEwjV0_j1z5aVAxWrrokEHe-JAA4Q8tMDegQIcxAU"
           }
         }
       }
     }
   },
-  "requestId": "29a5d746-a21a-4298-8212-51015fbcdaec",
-  "timestamp": 1781986109266,
-  "recordTime": "2026-06-21 04:08:29"
+  "requestId": "59d5ce87-0c0a-4fd2-b0b1-91fa2383cb2a",
+  "timestamp": 1781986802443,
+  "recordTime": "2026-06-21 04:20:02"
 }
