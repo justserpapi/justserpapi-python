@@ -3,13 +3,13 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-20 04:10:02",
+    "checkedAt": "2026-06-20 05:10:03",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.56,
+          "time_taken": 0.35,
           "total_results": 3030000000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
@@ -24,29 +24,29 @@
         "local_results": [
           {
             "position": 1,
-            "title": "MOKAFÉ",
-            "rating": "4.7",
-            "reviews": "1.1K",
-            "address": "4.7(1.1K) · $10–20 · Coffee shop",
-            "hours": "Astoria, NY",
+            "title": "The Bun Shop",
+            "rating": "4.3",
+            "reviews": "1.2K",
+            "address": "4.3(1.2K) · $10–20 · Cafe",
+            "hours": "239 W Read St",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Haraz Coffee House",
-            "rating": "4.5",
-            "reviews": "705",
-            "address": "4.5(705) · $10–20 · Coffee shop",
-            "hours": "New York, NY",
+            "title": "Sophomore Coffee",
+            "rating": "4.9",
+            "reviews": "341",
+            "address": "4.9(341) · $1–10 · Coffee shop",
+            "hours": "2223 Maryland Ave",
             "links": {}
           },
           {
             "position": 3,
-            "title": "YASO COFFE",
-            "rating": "4.8",
-            "reviews": "8",
-            "address": "4.8(8) · Coffee shop",
-            "hours": "Long Island City, NY",
+            "title": "Matriarch Coffee - Harborplace Cafe",
+            "rating": "4.7",
+            "reviews": "362",
+            "address": "4.7(362) · $1–10 · Coffee shop",
+            "hours": "201 E Pratt St Suite 1004T",
             "links": {}
           }
         ],
@@ -85,7 +85,7 @@
           },
           {
             "title": "Craft Coffee Beans Online & In Shops | Stumptown Coffee ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOorBp-ULLB7TC7QilJqhCEpIUD_LtYikj36UL_nz2XIDYEzvyzr-",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOopVgkkemOSo9iRHIvAtFaAn4-AiURpsojGpa4NaXMkKBQPXi8oQ",
             "displayed_link": "https://www.stumptowncoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
             "source": "Stumptown Coffee",
@@ -136,25 +136,20 @@
             "page_rank": 6
           },
           {
-            "title": "Counter Culture Coffee",
-            "link": "https://counterculturecoffee.com/?srsltid=AfmBOoq5JltKA56_T3UKZ4FPTlqVtltAn4akQY9yRWRzMPTMudorOeVr",
-            "displayed_link": "https://counterculturecoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACu0lEQVR4AWKgAmAFYm4g5gFiNgY6AA5A6fUAK0kQRWE4XTNr27YZrG3biJbB2rZt27Zt27Zt9f5JKslNJdNvKn2SL7V9213YeSiPpHq7AkagB+rrmkIz5NTbjmit4yCg/50QB7AbUXStDLZiKRrqWj7cwknkhoyyu7mOeIi82IMYogt6YQRi6Vpr3MVKcVx0JA77S4gbNkZt4+lrIjFCJQZyo6qozcZ55LXtjlw4g9niZDMKCJkG+IiRyB7OA0RCNLFdER0t+9ERx8XBcOQ3vq5nn69GozC6SXnUzGsGEWGC6IVGOIcM8mSPz6c8th3bUd8YBzEZUTwuXB1LcRUPcRqTkB++Ex2RjAdTYj3YBjeEfxiHKLBKHKSBjGO0sXEJLn7iD1zhu25vIK44N6w53xN1URrV5VuLdh5cfNPtL6zHBOyDiwuIY7PyKdGnu3EI+XRNiTfIht/4CxdPUAAyNZBKvJh1iomLOsYM6Cg+vYtqYr+yX/Pt/x+YCld7gFgwj1U2004ZF8iIqqiIILwe6i/+gfBAPiLfcAJeYylkgrrtLgaeixK6HtlzBbR4gH44hRmIB3NNLwAXv3V7BSkhU9B2BshER3wEPD7/emMavsEEdMQCuNgF4zz7pICMEvWnctGRRPccRnRYJysqYi0KhliMMuGCufwa26sRA8RuRtTBMzxHPTEIzeMioT2O4BXe4Qk2oKqfLoiMLsjuMZDMWhwkRzSPGwegfI8HGY/BSt1fHERDLvTA7DB+3zsevxOjoiuq23bLBLww1gQdq8/bHIOwzxzY4aSFWFjSYjvSICG8Uh45jHGyU9QcWM+QIXiB/eLPsPgYgOri+HaYj83Ioms5UcTPzRXqYiieihHfEauxTyzLkzESS1HYe6zYJ4HxI2QQWmIZ0oivMkysB46m4CsBmG+SQMuEIKzyH3WCk3OyXiwRAAAAAElFTkSuQmCC",
-            "source": "Counter Culture Coffee",
-            "snippet": "Counter Culture Coffee is a specialty coffee roaster sourcing exceptional single-origin and specialty coffee. Fresh-roasted coffee to your doorstep.",
+            "title": "Zeke's Coffee – Zeke's Coffee - Baltimore",
+            "link": "https://zekescoffee.com/?srsltid=AfmBOooL6MBjm6tJcsumtxyphLZSv8WyHkO5dIbWjFW_G4ey2QMf092s",
+            "displayed_link": "https://zekescoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAMAAAAynjhNAAAAY1BMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgKIiIi3trbU1NTe3t6/v76RkpExMDBPT0/Iycn////m5eWqqqlEREQAAAAAAACcnZwODg4gIB9cXFz19fV8fHxpaWl2dnTt7e2P8L1bAAAAIHRSTlMABhkwao6rS9L+//7+/v75+f7///7//v/95//9/v/+/HcvIQoAAAHgSURBVHgBbZMFgsQgEAQ3vkiEBqbjyf9feXBuHU8ho48fKpIe/6soq7pp26buyuIvrJqn0sZa0w9jU/0aUDaTA+CNsQDM1JbfafUMQIgiFJE4A27pvi28WOhE1mmLTE/OwPTJq2XHJiJTyBvY/hAZv3jxtMjrkqfqDbKCrMDytn8TcGb6rsEDOBI3bba/HKEzDTrDkaSG3jYZcHZp6aYHE7VuSOSCUsFgPDfhbdsi7Qyd6IA7b35N2vp4eCDKgal8VBe2hIGDVFuAMdDcMblJMHePOkCEAZrDfALbBJDh1gxym+bRmFsYAa5+xM0hLzM6d/Wku9tHY73QwjFEa2mAmbzMRXVIv7/hDYjsD08PZPvXHYFvOC+uAb1HZJ2JhuAtSLqEs2mjvhPQQGCmm+JuSbltkx2LQq7ej4h54f46phuRIgh1DksQO9IgDEaTPkw98h5yYCvfghr7HoA5Q5gVeUIlyvvOOalGBJHD0KuAntFtzBKFq3tP6CRqPk/eOANgmOmKnJGk8umxilk1ZyQ4jJlyx1J9FlPi06TIbWWGMu7fiq1bbswUYVZ+KmCrvxeyBuaVkrUOO8zS/WoDA+zGObMD9myrP000Dr313rt5art/uqzs6jap+duC3xv4B3sBF6U0NIZrDAEAAAAASUVORK5CYII=",
+            "source": "Zeke's Coffee",
+            "snippet": "Zeke's Coffee of DC is a small batch coffee roastery, specializing in organic, fair trade and specialty grade Arabica beans. Both of our DC locations are open 7 ...Read more",
             "highlighted_keywords": [
-              "Counter Culture Coffee"
+              "small batch coffee roastery"
             ],
             "rich_snippet": {
               "bottom": {
-                "detected_extensions": {
-                  "price_from": "$16",
-                  "price_to": "$99",
-                  "currency": "$"
-                },
+                "detected_extensions": {},
                 "extensions": [
-                  "$16 to $99",
-                  "Free delivery over $30"
+                  "3-day delivery"
                 ]
               }
             },
@@ -162,41 +157,27 @@
             "page_rank": 7
           },
           {
-            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
-            "link": "https://www.discountcoffee.com/",
-            "displayed_link": "https://www.discountcoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
-            "source": "DiscountCoffee.com",
-            "snippet": "DiscountCoffee.com Office Coffee Service – Buy name brand coffee, tea, creamer,. Add $59 for. Fast & FREE Shipping. FREE ...Read more",
+            "title": "Baltimore Coffee and Tea – We roast the world's best coffees",
+            "link": "https://baltcoffee.com/",
+            "displayed_link": "https://baltcoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABQVBMVEVHcEwAISYAIScjNjwBDxctDhNBChBIBwtUCQ1JBAdBDA1GAANNBgg8Bgk5Cw8UDA8AFRxZAAMtAQIaAAIAAAAMDAlnYRtcBQdHBwpnAQWIeEkXGQ22o2FYTzVkWDg7MyIlIBouKRk1CxFGPCV6bUR5YUeuml3q0HqdilKTgVHdxnPTu25taUzBrmYGKwYzTSlmYEYARQoxUw1+Uw+iQxbCLA+2PhsvYhnYAgPxAATpAAXiAQmjkVjOGxCOTTiqdVykt5CKm33FAAClnXqVblqgZkeiTykLYBROQy+Bi3CSi22fCQc2cBOGgmmQHxqHemGblHNsRzJ+d1t2cVqwp4GXXw+9s4PFupHb0Zzeck4qOgUACE0AAjsAACMIGWdNJC05ZEgyXYYcQLMTMr0fVYcIAAhseHqJjIpLCQsAWmWcnJt7nA59AAAAa3RSTlMADhcmWY7D3u76///0yaBwPf////////3D////////////t////////////////////////////////////////////////////////////////////////////////////////4Jm0c8DqUurhDwAAAJrSURBVHgBtIrFolU5EEV3pZIcvX5xh3Z372H3L7TyoYxxneFuz/24pXBnykrKF9499MpABIjI2wSmp4hwYx/WdXlJYKVC1B4RiBwgkMpaKhL3RBjmk5IULIjKoHIhESUAnNhoZQ1M+9EqRYOKQ2sLbTzfGJMPJGyUrMWb13W0OjQ5hhb9vB0gqgIoIuh6lIYaTblJSVzFsDUGZJk907cmYYYaQvpmDG5oOnVAqtRIEREIADm5uxN3RkXp+W3GYR6uDNf3LE2NZq2htGbWIyODyCQjm/U4hLzH61uGClZXLjCGrK16pjY83n63dR8/FL4yxQTRzDToFryBKa3HIfFMhLrbt1TMPBS41KobTD3tT+7HOvBIGXhj1ZDL9t4DT/X7tYIMdSmstklldGOube0EriMa10qRPoWH0OXIggXhXWfqD1VihYzgNtcqS34AxHS7rycJrljAM9X15RF5m5WWPV3Bv87R3nW1g7xeP8p2Gj2pldkcKwWZGTi++An/OJiJNyUX8xtzW5LZq4MjK6FcnJ2eunV9a5tPTn69lf65fwG7dvQJRBBA8LgwQJeGZzH4gfa6HMDuL4gILxCRi/cq4PdDNMVT/rz0BQgMoMXFpp3BEygKHlcvKr1VgP44V/lZDsQfncFj2COFh0yKXAes2mRxf5KE0WczbYqHOMvNNpcZIF7tSdAOqWjNov99Bpc2gLNFR8BwnNUUMCicpPHtYtvsOLVNUJRlf/UgEQPlamn+PlEWXbZUdR80ZqNoqix1uVl/sOSZF0zh+UOAn0+CnUeIK56bhyNDCZh6MkHCYAIBMhmZgAAYIFQFAJGLAcV92bfHAAAAAElFTkSuQmCC",
+            "source": "Baltimore Coffee and Tea",
+            "snippet": "A heritage in the coffee & tea trade since 1895. We roast all of our coffee to order. The date roasted and customer's name are printed on our heat-sealed valve ...Read more",
             "highlighted_keywords": [
-              "Office Coffee Service"
+              "We roast all of our coffee to order"
             ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$5",
-                  "price_to": "$139",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "$5 to $139",
-                  "Free delivery over $59",
-                  "30-day returns"
-                ]
-              }
-            },
             "rank": 8,
             "page_rank": 8
           },
           {
-            "title": "CoffeeGeek: Home",
-            "link": "https://coffeegeek.com/",
-            "displayed_link": "https://coffeegeek.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAYFBMVEVHcEy6urq4uLi4uLi4uLi5ubnj4+Pj4+PDw8O6t7Lj4+Pl5eXNzc25ubmvrarp6emlpKKTkY6BgYGJiIfY2Ni2s624uLhOPSo3HwIlBwCYl5ZqZWBgUD+FeWp6enqMg3m5VgyIAAAAF3RSTlMAGDFZsP+l/4z+0//9zP//////////5lJYPuUAAAGsSURBVHgBdZEHYusgEETV+JiPzFIjisv9b5lZRHry3D1PzK49fWFe1nWZpz9YNzHY1m/RP3mZVnWG54v6ovyXWu8IvnD9aLpIMAwDxGD5OIChXVnnfQjeu+6od2OWHS2CipJIRhVC6so02E5BSz1Unbztc4z1hJADIq2JuO80zl1exDAohiOXI0TCzJ5bXjhfWK2cp1JKy7mURJKMe9tk4+08clUQVhi5KNR4g0W20VAN5uP8pkxmMKmpo0OAsGuyOR93lZS9QbCk98AJfgVe2EdJt5tRKgGl6tFIxgcLc58x8QhHyamjHM7CEE3xlJ+EnJvqRh6CYQEVgCtayYcaB2SuaJYr3ofUBoJQAEJJWosuvK1piYe4uwObmN5A7lHPNS88BDp0zLfM3I4cNRochAuEPkStBONWMig35BQetfII4NrHVDBIPFt7CkJuW3V2/N+L6CWJJBSg8WJR4BKW7Fy6EWokrSFpip7zignAKAHVV7XHuKfQ0I/8OuKxKrDu0Vp7eFyO/IWTr2cwxlZgzefrxxxfQf9X5u1zvM3fc1bWq+JQXVfEf/I9ewUVryaFYjwpNQAAAABJRU5ErkJggg==",
-            "source": "CoffeeGeek",
-            "snippet": "CoffeeGeek is the most read coffee and espresso resource online today. Launched in 2001, the website has over 10000 pages of coffee content.",
+            "title": "THE BEST Coffee & Tea in Baltimore",
+            "link": "https://www.tripadvisor.com/Restaurants-g60811-zfg9900-Baltimore_Maryland.html",
+            "displayed_link": "https://www.tripadvisor.com › ... › Baltimore Restaurants",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAilBMVEUA61sA7VwA8F0A814A1lMAvEkAq0IAwksA2VQA7FsA9F4A01IAgTIAJg8AAAAALhIAhTQA41gA3VYAayoAHQsAYSYAnD0AWiMACwUAeS8AFgkADwYAIw4AKxEAyU4A9l8AMxQAEwgAGwsAcSwAQRoAlToAaCkAoD4As0UATx8Ady4Ap0EAPRgAjTfyrsZwAAABNUlEQVR4Ac3RRYLEIBQE0PDpOFTcId7eff/rTWAzeoCpDfJwnP8cxogY+1M4nVzP8wNOXz1kR6JYSNgk6YmbntBalud5UKAsq7Su06Ys2870ZKHBvEc7KJ2MEyfikyu1GlokFh2Wz1r1y4qUOyFtWJdeyd1hjsVYDZvrnxVExC9tch3dy6ADiyGb29t0JJsx3rA7pl63d24nunhMebW7kYuuQRw9X5dsOipmKp3hTs0qkVG/63mKIftueuJJBt/wp13qY46Ucp98aFVNHq4WPZwnF9iiYNB6yajBMk4CLrOP0JZZlJ34dFFal2LicRbFgwrtPalG4lJ0uiwHquGRc+ZJeOTY8DewlMC9KtdtB9QA1NyI1fHxSprjeK+Gwutdv7qYf/2vIxSyzAlDMvW/ftUc4j/nA89zGjJlkfnSAAAAAElFTkSuQmCC",
+            "source": "Tripadvisor",
+            "snippet": "Coffee & Tea in Baltimore, Maryland: Find Tripadvisor traveler reviews of Baltimore Coffee & Tea and search by price, location, ...",
             "highlighted_keywords": [
-              "CoffeeGeek"
+              "Coffee & Tea in Baltimore, Maryland"
             ],
             "rank": 9,
             "page_rank": 9
@@ -232,29 +213,29 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
           },
           {
-            "query": "Coffee Amazon",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Amazon"
+            "query": "Coffee benefits",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
           }
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0bb8e8aa85a46f07&gl=us&hl=en&ei=mBI2apaPEebdptQPi6ansAQ&start=10&sa=N&sstk=AU9db-CV0Lx4Z3HJaWlU85rYCnYWUssUtO128J_Yw6893iAl1caa36bctCI-KLnY50Cj4ZfY5NxTas9iGfEPL2XmW6N-_wvwX7_0wg&ved=2ahUKEwiWu_Cp-ZSVAxXmrokEHQvTCUYQ8NMDegQISRAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abe5610bf025d75&gl=us&hl=en&ei=qSA2aveVBo6rw8cPheqb6QE&start=10&sa=N&sstk=AU9db-D0JJyum7OhrggOgBL8WyCc4Ul9XOhQeWOLrb7HRFmoakDCgfn7hpqb89IXU1FavkyAyLV8896TVnYxUHpD_sTqmFWJ61pDog&ved=2ahUKEwi3jvHehpWVAxWO1fACHQX1Jh0Q8NMDegQITxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0bb8e8aa85a46f07&gl=us&hl=en&ei=mBI2apaPEebdptQPi6ansAQ&start=10&sa=N&sstk=AU9db-CV0Lx4Z3HJaWlU85rYCnYWUssUtO128J_Yw6893iAl1caa36bctCI-KLnY50Cj4ZfY5NxTas9iGfEPL2XmW6N-_wvwX7_0wg&ved=2ahUKEwiWu_Cp-ZSVAxXmrokEHQvTCUYQ8tMDegQISRAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0bb8e8aa85a46f07&gl=us&hl=en&ei=mBI2apaPEebdptQPi6ansAQ&start=20&sa=N&sstk=AU9db-CV0Lx4Z3HJaWlU85rYCnYWUssUtO128J_Yw6893iAl1caa36bctCI-KLnY50Cj4ZfY5NxTas9iGfEPL2XmW6N-_wvwX7_0wg&ved=2ahUKEwiWu_Cp-ZSVAxXmrokEHQvTCUYQ8tMDegQISRAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0bb8e8aa85a46f07&gl=us&hl=en&ei=mBI2apaPEebdptQPi6ansAQ&start=30&sa=N&sstk=AU9db-CV0Lx4Z3HJaWlU85rYCnYWUssUtO128J_Yw6893iAl1caa36bctCI-KLnY50Cj4ZfY5NxTas9iGfEPL2XmW6N-_wvwX7_0wg&ved=2ahUKEwiWu_Cp-ZSVAxXmrokEHQvTCUYQ8tMDegQISRAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0bb8e8aa85a46f07&gl=us&hl=en&ei=mBI2apaPEebdptQPi6ansAQ&start=40&sa=N&sstk=AU9db-CV0Lx4Z3HJaWlU85rYCnYWUssUtO128J_Yw6893iAl1caa36bctCI-KLnY50Cj4ZfY5NxTas9iGfEPL2XmW6N-_wvwX7_0wg&ved=2ahUKEwiWu_Cp-ZSVAxXmrokEHQvTCUYQ8tMDegQISRAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0bb8e8aa85a46f07&gl=us&hl=en&ei=mBI2apaPEebdptQPi6ansAQ&start=50&sa=N&sstk=AU9db-CV0Lx4Z3HJaWlU85rYCnYWUssUtO128J_Yw6893iAl1caa36bctCI-KLnY50Cj4ZfY5NxTas9iGfEPL2XmW6N-_wvwX7_0wg&ved=2ahUKEwiWu_Cp-ZSVAxXmrokEHQvTCUYQ8tMDegQISRAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0bb8e8aa85a46f07&gl=us&hl=en&ei=mBI2apaPEebdptQPi6ansAQ&start=60&sa=N&sstk=AU9db-CV0Lx4Z3HJaWlU85rYCnYWUssUtO128J_Yw6893iAl1caa36bctCI-KLnY50Cj4ZfY5NxTas9iGfEPL2XmW6N-_wvwX7_0wg&ved=2ahUKEwiWu_Cp-ZSVAxXmrokEHQvTCUYQ8tMDegQISRAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0bb8e8aa85a46f07&gl=us&hl=en&ei=mBI2apaPEebdptQPi6ansAQ&start=70&sa=N&sstk=AU9db-CV0Lx4Z3HJaWlU85rYCnYWUssUtO128J_Yw6893iAl1caa36bctCI-KLnY50Cj4ZfY5NxTas9iGfEPL2XmW6N-_wvwX7_0wg&ved=2ahUKEwiWu_Cp-ZSVAxXmrokEHQvTCUYQ8tMDegQISRAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0bb8e8aa85a46f07&gl=us&hl=en&ei=mBI2apaPEebdptQPi6ansAQ&start=80&sa=N&sstk=AU9db-CV0Lx4Z3HJaWlU85rYCnYWUssUtO128J_Yw6893iAl1caa36bctCI-KLnY50Cj4ZfY5NxTas9iGfEPL2XmW6N-_wvwX7_0wg&ved=2ahUKEwiWu_Cp-ZSVAxXmrokEHQvTCUYQ8tMDegQISRAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0bb8e8aa85a46f07&gl=us&hl=en&ei=mBI2apaPEebdptQPi6ansAQ&start=90&sa=N&sstk=AU9db-CV0Lx4Z3HJaWlU85rYCnYWUssUtO128J_Yw6893iAl1caa36bctCI-KLnY50Cj4ZfY5NxTas9iGfEPL2XmW6N-_wvwX7_0wg&ved=2ahUKEwiWu_Cp-ZSVAxXmrokEHQvTCUYQ8tMDegQISRAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abe5610bf025d75&gl=us&hl=en&ei=qSA2aveVBo6rw8cPheqb6QE&start=10&sa=N&sstk=AU9db-D0JJyum7OhrggOgBL8WyCc4Ul9XOhQeWOLrb7HRFmoakDCgfn7hpqb89IXU1FavkyAyLV8896TVnYxUHpD_sTqmFWJ61pDog&ved=2ahUKEwi3jvHehpWVAxWO1fACHQX1Jh0Q8tMDegQITxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abe5610bf025d75&gl=us&hl=en&ei=qSA2aveVBo6rw8cPheqb6QE&start=20&sa=N&sstk=AU9db-D0JJyum7OhrggOgBL8WyCc4Ul9XOhQeWOLrb7HRFmoakDCgfn7hpqb89IXU1FavkyAyLV8896TVnYxUHpD_sTqmFWJ61pDog&ved=2ahUKEwi3jvHehpWVAxWO1fACHQX1Jh0Q8tMDegQITxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abe5610bf025d75&gl=us&hl=en&ei=qSA2aveVBo6rw8cPheqb6QE&start=30&sa=N&sstk=AU9db-D0JJyum7OhrggOgBL8WyCc4Ul9XOhQeWOLrb7HRFmoakDCgfn7hpqb89IXU1FavkyAyLV8896TVnYxUHpD_sTqmFWJ61pDog&ved=2ahUKEwi3jvHehpWVAxWO1fACHQX1Jh0Q8tMDegQITxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abe5610bf025d75&gl=us&hl=en&ei=qSA2aveVBo6rw8cPheqb6QE&start=40&sa=N&sstk=AU9db-D0JJyum7OhrggOgBL8WyCc4Ul9XOhQeWOLrb7HRFmoakDCgfn7hpqb89IXU1FavkyAyLV8896TVnYxUHpD_sTqmFWJ61pDog&ved=2ahUKEwi3jvHehpWVAxWO1fACHQX1Jh0Q8tMDegQITxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abe5610bf025d75&gl=us&hl=en&ei=qSA2aveVBo6rw8cPheqb6QE&start=50&sa=N&sstk=AU9db-D0JJyum7OhrggOgBL8WyCc4Ul9XOhQeWOLrb7HRFmoakDCgfn7hpqb89IXU1FavkyAyLV8896TVnYxUHpD_sTqmFWJ61pDog&ved=2ahUKEwi3jvHehpWVAxWO1fACHQX1Jh0Q8tMDegQITxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abe5610bf025d75&gl=us&hl=en&ei=qSA2aveVBo6rw8cPheqb6QE&start=60&sa=N&sstk=AU9db-D0JJyum7OhrggOgBL8WyCc4Ul9XOhQeWOLrb7HRFmoakDCgfn7hpqb89IXU1FavkyAyLV8896TVnYxUHpD_sTqmFWJ61pDog&ved=2ahUKEwi3jvHehpWVAxWO1fACHQX1Jh0Q8tMDegQITxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abe5610bf025d75&gl=us&hl=en&ei=qSA2aveVBo6rw8cPheqb6QE&start=70&sa=N&sstk=AU9db-D0JJyum7OhrggOgBL8WyCc4Ul9XOhQeWOLrb7HRFmoakDCgfn7hpqb89IXU1FavkyAyLV8896TVnYxUHpD_sTqmFWJ61pDog&ved=2ahUKEwi3jvHehpWVAxWO1fACHQX1Jh0Q8tMDegQITxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abe5610bf025d75&gl=us&hl=en&ei=qSA2aveVBo6rw8cPheqb6QE&start=80&sa=N&sstk=AU9db-D0JJyum7OhrggOgBL8WyCc4Ul9XOhQeWOLrb7HRFmoakDCgfn7hpqb89IXU1FavkyAyLV8896TVnYxUHpD_sTqmFWJ61pDog&ved=2ahUKEwi3jvHehpWVAxWO1fACHQX1Jh0Q8tMDegQITxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abe5610bf025d75&gl=us&hl=en&ei=qSA2aveVBo6rw8cPheqb6QE&start=90&sa=N&sstk=AU9db-D0JJyum7OhrggOgBL8WyCc4Ul9XOhQeWOLrb7HRFmoakDCgfn7hpqb89IXU1FavkyAyLV8896TVnYxUHpD_sTqmFWJ61pDog&ved=2ahUKEwi3jvHehpWVAxWO1fACHQX1Jh0Q8tMDegQITxAU"
           }
         }
       }
     }
   },
-  "requestId": "6a48d7b9-14f2-4751-aae0-f99804d572b4",
-  "timestamp": 1781931942804,
-  "recordTime": "2026-06-20 13:05:42"
+  "requestId": "dfe86330-6dce-40cc-8fd0-b004b2fb7818",
+  "timestamp": 1781935202957,
+  "recordTime": "2026-06-20 14:00:02"
 }
