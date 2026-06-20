@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-20 13:10:02",
+    "checkedAt": "2026-06-20 14:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.41,
-          "total_results": 2790000,
+          "time_taken": 0.44,
+          "total_results": 2800000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -18,35 +18,74 @@
           "original_query_yields_zero_results": false,
           "url": "https://www.google.com/search?q=coffee&oq=coffee&gl=us&hl=en&safe=off&sourceid=chrome&ie=UTF-8"
         },
+        "ads": [
+          {
+            "position": 1,
+            "block_position": "bottom",
+            "title": "Brew Delicious Coffee - Free Shipping & Coffee Samples",
+            "snippet": "A World of Coffee to Discover. Shop Nespresso's Wide Variety of Coffee Pods...",
+            "displayed_link": "https://www.nespresso.com",
+            "link": "https://www.nespresso.com/us/en/vertuo-coffee-pods",
+            "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjSvIy4_5WVAxUIRUcBHQ0qKPoYACICCAIQABoCcXU&ae=2&co=1&ase=2&gclid=EAIaIQobChMI0ryMuP-VlQMVCEVHAR0NKij6EAMYASAAEgLG_vD_BwE&cid=CAASuwHkaFTn9Z4P4tpusyXLgHQGISTEH94U0f6KvxyYrinJJbrTr6PPBpsBIQqhGGczgx1dBp9xoJL-VO3YIoRtooOCpruv-bfM39dVQyyxx1ZcN8GzE0KAqANjCVZ2Jv4lEIzNZQhkz_HcPABpAtRRqwlbVuQSJQYe4LscggDaFMSN-GVAW20vy5GOJBhJoMBGC_lWw-mUOQocfD07HY0EsUX5Uma1vx0EY9tM0M0V6Ora69dF76v1xIYM6Qyx&cce=2&category=acrcp_v1_71&sig=AOD64_3Cy3T-5sVvVzUNgkABUAi-pEKSmg&q&nis=4&adurl",
+            "source": "Nespresso®",
+            "sitelinks": [
+              {
+                "title": "Rating",
+                "link": "https://www.google.com/shopping/ratings/account/metrics?q=nespresso.com&c=US&v=19"
+              },
+              {
+                "title": "Explore Coffee Capsules",
+                "link": "https://www.nespresso.com/us/en/vertuo-coffee-pods"
+              },
+              {
+                "title": "Shop Coffee Capsules",
+                "link": "/aclk?sa=L&ai=DChsSEwjSvIy4_5WVAxUIRUcBHQ0qKPoYACICCAIQBRoCcXU&ae=2&co=1&ase=2&gclid=EAIaIQobChMI0ryMuP-VlQMVCEVHAR0NKij6EAMYASAFEgJ4p_D_BwE&cid=CAASuwHkaFTn9Z4P4tpusyXLgHQGISTEH94U0f6KvxyYrinJJbrTr6PPBpsBIQqhGGczgx1dBp9xoJL-VO3YIoRtooOCpruv-bfM39dVQyyxx1ZcN8GzE0KAqANjCVZ2Jv4lEIzNZQhkz_HcPABpAtRRqwlbVuQSJQYe4LscggDaFMSN-GVAW20vy5GOJBhJoMBGC_lWw-mUOQocfD07HY0EsUX5Uma1vx0EY9tM0M0V6Ora69dF76v1xIYM6Qyx&cce=2&category=acrcp_v1_71&sig=AOD64_1q9vdEwM48XSW4FGMqs13beVeB-A&adurl=&q="
+              },
+              {
+                "title": "Curated Coffee Recipes",
+                "link": "https://www.nespresso.com/us/en/coffee-recipes"
+              },
+              {
+                "title": "Nespresso",
+                "link": "/aclk?sa=L&ai=DChsSEwjSvIy4_5WVAxUIRUcBHQ0qKPoYACICCAIQBhoCcXU&ae=2&co=1&ase=2&gclid=EAIaIQobChMI0ryMuP-VlQMVCEVHAR0NKij6EAMYASAGEgLWNPD_BwE&cid=CAASuwHkaFTn9Z4P4tpusyXLgHQGISTEH94U0f6KvxyYrinJJbrTr6PPBpsBIQqhGGczgx1dBp9xoJL-VO3YIoRtooOCpruv-bfM39dVQyyxx1ZcN8GzE0KAqANjCVZ2Jv4lEIzNZQhkz_HcPABpAtRRqwlbVuQSJQYe4LscggDaFMSN-GVAW20vy5GOJBhJoMBGC_lWw-mUOQocfD07HY0EsUX5Uma1vx0EY9tM0M0V6Ora69dF76v1xIYM6Qyx&cce=2&category=acrcp_v1_71&sig=AOD64_276QJ0ejwehvUuKpHC6SY1zK3CEQ&adurl=&q="
+              },
+              {
+                "title": "Vertuo Pop+",
+                "link": "https://www.nespresso.com/us/en/order/machines/vertuo/vertuo-pop-plus-liquoriceblack"
+              }
+            ],
+            "extensions": ""
+          }
+        ],
         "knowledge_graph": {
           "title": "Coffee"
         },
         "local_results": [
           {
             "position": 1,
-            "title": "Haute Dulce",
+            "title": "Bruvana Coffee House",
             "rating": "4.9",
-            "reviews": "1.7K",
-            "address": "4.9(1.7K) · $10–20 · Coffee shop",
-            "hours": "Secaucus, NJ",
+            "reviews": "176",
+            "address": "4.9(176) · $1–10 · Coffee shop",
+            "hours": "Flower Mound, TX",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Aromas",
-            "rating": "4.9",
-            "reviews": "82",
-            "address": "4.9(82) · $10–20 · Coffee shop",
-            "hours": "Union City, NJ",
+            "title": "The Human Bean",
+            "rating": "4.6",
+            "reviews": "356",
+            "address": "4.6(356) · $1–10 · Coffee shop",
+            "hours": "Lewisville, TX",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Alchemist's Table",
-            "rating": "5.0",
-            "reviews": "27",
-            "address": "5.0(27) · $10–20 · Coffee shop",
-            "hours": "Union City, NJ",
+            "title": "Cerulean Blue Coffee House",
+            "rating": "4.8",
+            "reviews": "420",
+            "address": "4.8(420) · $10–20 · Coffee shop",
+            "hours": "Flower Mound, TX",
             "links": {}
           }
         ],
@@ -112,42 +151,7 @@
             "page_rank": 4
           },
           {
-            "title": "Afficionado Coffee Roasters Store",
-            "link": "https://www.afficionadocoffee.com/?srsltid=AfmBOoorwz7ZRmq02BO2WyGG1mJy0uvMMZltJLLliQX0a3kq9ZPFYQIc",
-            "displayed_link": "https://www.afficionadocoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEVHcEwEBgcEBggFBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcFBgeMWI7ZAAAAEHRSTlMACRTwqiXYi8acuXRN5DlfV+SDmgAAAJpJREFUeAFjoDVgROUqOyDzWNNbBJC4EROknJAkV3IfdFGAczUm7s0RWQTnLl7n9/mAB0w324JtAfw2XBeg3A6+46YMZw/4QqSlGs5+KA5QsWFJBfGYvHjyGdgLpmz7MOMBkKu56OwHBgbxVp777H1AyVkBq4GCMwIY3m6oCGBgrWMIAHJLGRj4bssBnQIyD0I++wB3CVSMdgAApz8n5sIxQCYAAAAASUVORK5CYII=",
-            "source": "Afficionado Coffee Roasters",
-            "snippet": "Afficionado Coffee Roasters offers unique coffees from exclusive farms around the world. Ready to drink beverages made from all consumable parts of the ...",
-            "highlighted_keywords": [
-              "offers unique coffees from exclusive farms around the world"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Free delivery over $50",
-                  "Free 30-day returns"
-                ]
-              }
-            },
-            "rank": 5,
-            "page_rank": 5
-          },
-          {
-            "title": "I Asked Coffee Experts How to Keep Beans Fresh—They ...",
-            "link": "https://www.seriouseats.com/best-way-to-store-coffee-12001722",
-            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
-            "source": "Serious Eats",
-            "snippet": "Store coffee in its original one-way valve bag, keep it away from heat, light, and moisture, grind it only when you're ready to brew, and freeze ...Read more",
-            "highlighted_keywords": [
-              "Store coffee in its original one-way valve bag"
-            ],
-            "rank": 6,
-            "page_rank": 6
-          },
-          {
-            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
+            "title": "Discount Coffee Ships Worldwide",
             "link": "https://www.discountcoffee.com/",
             "displayed_link": "https://www.discountcoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
@@ -170,8 +174,8 @@
                 ]
               }
             },
-            "rank": 7,
-            "page_rank": 7
+            "rank": 5,
+            "page_rank": 5
           },
           {
             "title": "Coffee - Walmart.com",
@@ -183,8 +187,37 @@
             "highlighted_keywords": [
               "Shop for Coffee at Walmart.com"
             ],
-            "rank": 8,
-            "page_rank": 8
+            "inline_snippet": "4.2",
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$5",
+                  "price_to": "$36",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "4.2 store rating (3.8K)",
+                  "4.2",
+                  "$5 to $36",
+                  "Free 90-day returns"
+                ]
+              }
+            },
+            "rank": 6,
+            "page_rank": 6
+          },
+          {
+            "title": "I Asked Coffee Experts How to Keep Beans Fresh—They ...",
+            "link": "https://www.seriouseats.com/best-way-to-store-coffee-12001722",
+            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
+            "source": "Serious Eats",
+            "snippet": "Store coffee in its original one-way valve bag, keep it away from heat, light, and moisture, grind it only when you're ready to brew, and freeze ...Read more",
+            "highlighted_keywords": [
+              "Store coffee in its original one-way valve bag"
+            ],
+            "rank": 7,
+            "page_rank": 7
           },
           {
             "title": "Coffee | Origin, Types, Uses, History, & Facts",
@@ -198,29 +231,90 @@
               "coffee",
               "Coffee"
             ],
+            "rank": 8,
+            "page_rank": 8
+          },
+          {
+            "title": "La Colombe Coffee Workshop - Buy Coffee Online",
+            "link": "https://www.lacolombe.com/?srsltid=AfmBOoqOKq5CAtIwqhWzxzkOlsO5etRqg607Y7oKFYHTipCT4mqjKfJo",
+            "displayed_link": "https://www.lacolombe.com",
+            "favicon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhAIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Ljc3Nzc3Ly03Nzc1LTc3Ljc3LTc3Nys3LTc1NzcuKzc3Ny01Kzc1KysrN//AABEIABwAHAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAHBQEGAP/EACYQAAEDAwMEAgMAAAAAAAAAAAECAwQABRESITEGB1FhIkEygYL/xAAXAQEAAwAAAAAAAAAAAAAAAAACAQME/8QAGxEAAgIDAQAAAAAAAAAAAAAAAQIAEQMSMSH/2gAMAwEAAhEDEQA/AC7YbniklfaaXMtTdxsd0ZkIeaDiWnxpO4zjUCRmuJ6ZtYvd/YthWpsSllBcQMlHxJ1Y9Y3ps7cNmxSXOl3r7BuC2Gy82zGZUFNDUM61ZIG5Hx5rXlYryUot9ghLs8uEX25jZYkw1hLzK+Rng+6n7fe1MXeyzOMWtE+LHaEdUvXLdLmXFLUAlIwR+Ix5/XJod4p422FwsKNTQopOUqIPkHFVukr4505fmbi0t1LTawH0NYy43n5JwdjmpFePFIi/JEXO83VEW4WSHAgO6xKUmY55CADpBH0STn+aI9vdaok7kk/W5rKKLqKEljZuf//Z",
+            "source": "La Colombe Coffee Workshop",
+            "snippet": "Looking to buy coffee online? La Colombe Coffee Workshop has you covered with our wide variety of products and brewing equipment. Shop now for your coffee ...",
+            "highlighted_keywords": [
+              "La Colombe Coffee Workshop"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$15",
+                  "price_to": "$40",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$15 to $40",
+                  "Free delivery over $50",
+                  "30-day returns"
+                ]
+              }
+            },
             "rank": 9,
             "page_rank": 9
           }
         ],
+        "relatedSearches": [
+          {
+            "query": "Coffee types",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+types"
+          },
+          {
+            "query": "Coffee nearby",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
+          },
+          {
+            "query": "Coffee brands",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
+          },
+          {
+            "query": "Coffee name",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
+          },
+          {
+            "query": "Coffee beans",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
+          },
+          {
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
+          },
+          {
+            "query": "Coffee Pic",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Pic"
+          },
+          {
+            "query": "Coffee benefits",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
+          }
+        ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=cfa1734cbc4e78a4&gl=us&hl=en&ei=KJE2aqvwDLOsptQP2ri9gAU&start=10&sa=N&sstk=AU9db-CdTa93MJ2JYJ_jh_dDpqR3L17XfOGpUPiMexIRx8OdTlyfyyf5oOM5JSR3lSdLlR0psVRabt4cutsTlfYuYbkYxcvQjsjfoA&ved=2ahUKEwirpK-D8pWVAxUzlokEHVpcD1AQ8NMDegQIThAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0d235eb68caf3691&gl=us&hl=en&ei=OJ82at3FFMqr5NoPp5rdGA&start=10&sa=N&sstk=AU9db-DduYcoL_oXetKL85GLwu3d-PxcEL_baTDgcmuhAdrysMpbJdQxq6MhXrRIVBYINGc92RH9do7_wCyPm1AzEt51d1PwQViHaQ&ved=2ahUKEwjdwYW4_5WVAxXKFVkFHSdNFwMQ8NMDegUIvAEQFg",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=cfa1734cbc4e78a4&gl=us&hl=en&ei=KJE2aqvwDLOsptQP2ri9gAU&start=10&sa=N&sstk=AU9db-CdTa93MJ2JYJ_jh_dDpqR3L17XfOGpUPiMexIRx8OdTlyfyyf5oOM5JSR3lSdLlR0psVRabt4cutsTlfYuYbkYxcvQjsjfoA&ved=2ahUKEwirpK-D8pWVAxUzlokEHVpcD1AQ8tMDegQIThAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=cfa1734cbc4e78a4&gl=us&hl=en&ei=KJE2aqvwDLOsptQP2ri9gAU&start=20&sa=N&sstk=AU9db-CdTa93MJ2JYJ_jh_dDpqR3L17XfOGpUPiMexIRx8OdTlyfyyf5oOM5JSR3lSdLlR0psVRabt4cutsTlfYuYbkYxcvQjsjfoA&ved=2ahUKEwirpK-D8pWVAxUzlokEHVpcD1AQ8tMDegQIThAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=cfa1734cbc4e78a4&gl=us&hl=en&ei=KJE2aqvwDLOsptQP2ri9gAU&start=30&sa=N&sstk=AU9db-CdTa93MJ2JYJ_jh_dDpqR3L17XfOGpUPiMexIRx8OdTlyfyyf5oOM5JSR3lSdLlR0psVRabt4cutsTlfYuYbkYxcvQjsjfoA&ved=2ahUKEwirpK-D8pWVAxUzlokEHVpcD1AQ8tMDegQIThAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=cfa1734cbc4e78a4&gl=us&hl=en&ei=KJE2aqvwDLOsptQP2ri9gAU&start=40&sa=N&sstk=AU9db-CdTa93MJ2JYJ_jh_dDpqR3L17XfOGpUPiMexIRx8OdTlyfyyf5oOM5JSR3lSdLlR0psVRabt4cutsTlfYuYbkYxcvQjsjfoA&ved=2ahUKEwirpK-D8pWVAxUzlokEHVpcD1AQ8tMDegQIThAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=cfa1734cbc4e78a4&gl=us&hl=en&ei=KJE2aqvwDLOsptQP2ri9gAU&start=50&sa=N&sstk=AU9db-CdTa93MJ2JYJ_jh_dDpqR3L17XfOGpUPiMexIRx8OdTlyfyyf5oOM5JSR3lSdLlR0psVRabt4cutsTlfYuYbkYxcvQjsjfoA&ved=2ahUKEwirpK-D8pWVAxUzlokEHVpcD1AQ8tMDegQIThAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=cfa1734cbc4e78a4&gl=us&hl=en&ei=KJE2aqvwDLOsptQP2ri9gAU&start=60&sa=N&sstk=AU9db-CdTa93MJ2JYJ_jh_dDpqR3L17XfOGpUPiMexIRx8OdTlyfyyf5oOM5JSR3lSdLlR0psVRabt4cutsTlfYuYbkYxcvQjsjfoA&ved=2ahUKEwirpK-D8pWVAxUzlokEHVpcD1AQ8tMDegQIThAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=cfa1734cbc4e78a4&gl=us&hl=en&ei=KJE2aqvwDLOsptQP2ri9gAU&start=70&sa=N&sstk=AU9db-CdTa93MJ2JYJ_jh_dDpqR3L17XfOGpUPiMexIRx8OdTlyfyyf5oOM5JSR3lSdLlR0psVRabt4cutsTlfYuYbkYxcvQjsjfoA&ved=2ahUKEwirpK-D8pWVAxUzlokEHVpcD1AQ8tMDegQIThAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=cfa1734cbc4e78a4&gl=us&hl=en&ei=KJE2aqvwDLOsptQP2ri9gAU&start=80&sa=N&sstk=AU9db-CdTa93MJ2JYJ_jh_dDpqR3L17XfOGpUPiMexIRx8OdTlyfyyf5oOM5JSR3lSdLlR0psVRabt4cutsTlfYuYbkYxcvQjsjfoA&ved=2ahUKEwirpK-D8pWVAxUzlokEHVpcD1AQ8tMDegQIThAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=cfa1734cbc4e78a4&gl=us&hl=en&ei=KJE2aqvwDLOsptQP2ri9gAU&start=90&sa=N&sstk=AU9db-CdTa93MJ2JYJ_jh_dDpqR3L17XfOGpUPiMexIRx8OdTlyfyyf5oOM5JSR3lSdLlR0psVRabt4cutsTlfYuYbkYxcvQjsjfoA&ved=2ahUKEwirpK-D8pWVAxUzlokEHVpcD1AQ8tMDegQIThAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0d235eb68caf3691&gl=us&hl=en&ei=OJ82at3FFMqr5NoPp5rdGA&start=10&sa=N&sstk=AU9db-DduYcoL_oXetKL85GLwu3d-PxcEL_baTDgcmuhAdrysMpbJdQxq6MhXrRIVBYINGc92RH9do7_wCyPm1AzEt51d1PwQViHaQ&ved=2ahUKEwjdwYW4_5WVAxXKFVkFHSdNFwMQ8tMDegUIvAEQBA",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0d235eb68caf3691&gl=us&hl=en&ei=OJ82at3FFMqr5NoPp5rdGA&start=20&sa=N&sstk=AU9db-DduYcoL_oXetKL85GLwu3d-PxcEL_baTDgcmuhAdrysMpbJdQxq6MhXrRIVBYINGc92RH9do7_wCyPm1AzEt51d1PwQViHaQ&ved=2ahUKEwjdwYW4_5WVAxXKFVkFHSdNFwMQ8tMDegUIvAEQBg",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0d235eb68caf3691&gl=us&hl=en&ei=OJ82at3FFMqr5NoPp5rdGA&start=30&sa=N&sstk=AU9db-DduYcoL_oXetKL85GLwu3d-PxcEL_baTDgcmuhAdrysMpbJdQxq6MhXrRIVBYINGc92RH9do7_wCyPm1AzEt51d1PwQViHaQ&ved=2ahUKEwjdwYW4_5WVAxXKFVkFHSdNFwMQ8tMDegUIvAEQCA",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0d235eb68caf3691&gl=us&hl=en&ei=OJ82at3FFMqr5NoPp5rdGA&start=40&sa=N&sstk=AU9db-DduYcoL_oXetKL85GLwu3d-PxcEL_baTDgcmuhAdrysMpbJdQxq6MhXrRIVBYINGc92RH9do7_wCyPm1AzEt51d1PwQViHaQ&ved=2ahUKEwjdwYW4_5WVAxXKFVkFHSdNFwMQ8tMDegUIvAEQCg",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0d235eb68caf3691&gl=us&hl=en&ei=OJ82at3FFMqr5NoPp5rdGA&start=50&sa=N&sstk=AU9db-DduYcoL_oXetKL85GLwu3d-PxcEL_baTDgcmuhAdrysMpbJdQxq6MhXrRIVBYINGc92RH9do7_wCyPm1AzEt51d1PwQViHaQ&ved=2ahUKEwjdwYW4_5WVAxXKFVkFHSdNFwMQ8tMDegUIvAEQDA",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0d235eb68caf3691&gl=us&hl=en&ei=OJ82at3FFMqr5NoPp5rdGA&start=60&sa=N&sstk=AU9db-DduYcoL_oXetKL85GLwu3d-PxcEL_baTDgcmuhAdrysMpbJdQxq6MhXrRIVBYINGc92RH9do7_wCyPm1AzEt51d1PwQViHaQ&ved=2ahUKEwjdwYW4_5WVAxXKFVkFHSdNFwMQ8tMDegUIvAEQDg",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0d235eb68caf3691&gl=us&hl=en&ei=OJ82at3FFMqr5NoPp5rdGA&start=70&sa=N&sstk=AU9db-DduYcoL_oXetKL85GLwu3d-PxcEL_baTDgcmuhAdrysMpbJdQxq6MhXrRIVBYINGc92RH9do7_wCyPm1AzEt51d1PwQViHaQ&ved=2ahUKEwjdwYW4_5WVAxXKFVkFHSdNFwMQ8tMDegUIvAEQEA",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0d235eb68caf3691&gl=us&hl=en&ei=OJ82at3FFMqr5NoPp5rdGA&start=80&sa=N&sstk=AU9db-DduYcoL_oXetKL85GLwu3d-PxcEL_baTDgcmuhAdrysMpbJdQxq6MhXrRIVBYINGc92RH9do7_wCyPm1AzEt51d1PwQViHaQ&ved=2ahUKEwjdwYW4_5WVAxXKFVkFHSdNFwMQ8tMDegUIvAEQEg",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0d235eb68caf3691&gl=us&hl=en&ei=OJ82at3FFMqr5NoPp5rdGA&start=90&sa=N&sstk=AU9db-DduYcoL_oXetKL85GLwu3d-PxcEL_baTDgcmuhAdrysMpbJdQxq6MhXrRIVBYINGc92RH9do7_wCyPm1AzEt51d1PwQViHaQ&ved=2ahUKEwjdwYW4_5WVAxXKFVkFHSdNFwMQ8tMDegUIvAEQFA"
           }
         }
       }
     }
   },
-  "requestId": "70fd3e5d-096d-4d8a-a2f4-660f6460c6e0",
-  "timestamp": 1781964003692,
-  "recordTime": "2026-06-20 22:00:03"
+  "requestId": "3ee50063-3792-4a1b-aea4-79e5a4d8ec50",
+  "timestamp": 1781965802989,
+  "recordTime": "2026-06-20 22:30:02"
 }
