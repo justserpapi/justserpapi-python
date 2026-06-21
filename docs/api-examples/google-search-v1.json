@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-20 23:10:02",
+    "checkedAt": "2026-06-21 00:10:03",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
           "time_taken": 0.35,
-          "total_results": 2830000000,
+          "total_results": 2840000000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -33,20 +33,20 @@
           },
           {
             "position": 2,
-            "title": "Solo coffee",
-            "rating": "5.0",
-            "reviews": "258",
-            "address": "5.0(258) · $1–10 · Coffee shop",
-            "hours": "Jersey City, NJ",
+            "title": "Aromas",
+            "rating": "4.9",
+            "reviews": "82",
+            "address": "4.9(82) · $10–20 · Coffee shop",
+            "hours": "Union City, NJ",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Carnegie Diner & Cafe",
-            "rating": "4.5",
-            "reviews": "2.8K",
-            "address": "4.5(2.8K) · $20–30 · Coffee shop",
-            "hours": "Secaucus, NJ",
+            "title": "Shambhu Coffee & Gelato",
+            "rating": "5.0",
+            "reviews": "34",
+            "address": "5.0(34) · $1–10 · Coffee shop",
+            "hours": "Jersey City, NJ",
             "links": {}
           }
         ],
@@ -113,7 +113,7 @@
           },
           {
             "title": "Craft Coffee Beans Online & In Shops | Stumptown Coffee ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOooAs8_IiOkJizfJehdZ45kEjvKvAdH12pRoSCxQlOeDNdInBQ-D",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOorMWskQ83PZ4auLY6mqeJAkEJzKOXyY8vaG0HFgibi2XymTaXlJ",
             "displayed_link": "https://www.stumptowncoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
             "source": "Stumptown Coffee",
@@ -125,43 +125,48 @@
             "page_rank": 5
           },
           {
-            "title": "Afficionado Coffee Roasters Store",
-            "link": "https://www.afficionadocoffee.com/?srsltid=AfmBOooVgd4ktkdFQUNHUrzxfFakVagB4FMiEekkQfmf_q18zWjoq3QM",
-            "displayed_link": "https://www.afficionadocoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEVHcEwEBgcEBggFBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcFBgeMWI7ZAAAAEHRSTlMACRTwqiXYi8acuXRN5DlfV+SDmgAAAJpJREFUeAFjoDVgROUqOyDzWNNbBJC4EROknJAkV3IfdFGAczUm7s0RWQTnLl7n9/mAB0w324JtAfw2XBeg3A6+46YMZw/4QqSlGs5+KA5QsWFJBfGYvHjyGdgLpmz7MOMBkKu56OwHBgbxVp777H1AyVkBq4GCMwIY3m6oCGBgrWMIAHJLGRj4bssBnQIyD0I++wB3CVSMdgAApz8n5sIxQCYAAAAASUVORK5CYII=",
-            "source": "Afficionado Coffee Roasters",
-            "snippet": "Afficionado Coffee Roasters offers unique coffees from exclusive farms around the world. Ready to drink beverages made from all consumable parts of the ...",
+            "title": "CoffeeGeek: Home",
+            "link": "https://coffeegeek.com/",
+            "displayed_link": "https://coffeegeek.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAYFBMVEVHcEy6urq4uLi4uLi4uLi5ubnj4+Pj4+PDw8O6t7Lj4+Pl5eXNzc25ubmvrarp6emlpKKTkY6BgYGJiIfY2Ni2s624uLhOPSo3HwIlBwCYl5ZqZWBgUD+FeWp6enqMg3m5VgyIAAAAF3RSTlMAGDFZsP+l/4z+0//9zP//////////5lJYPuUAAAGsSURBVHgBdZEHYusgEETV+JiPzFIjisv9b5lZRHry3D1PzK49fWFe1nWZpz9YNzHY1m/RP3mZVnWG54v6ovyXWu8IvnD9aLpIMAwDxGD5OIChXVnnfQjeu+6od2OWHS2CipJIRhVC6so02E5BSz1Unbztc4z1hJADIq2JuO80zl1exDAohiOXI0TCzJ5bXjhfWK2cp1JKy7mURJKMe9tk4+08clUQVhi5KNR4g0W20VAN5uP8pkxmMKmpo0OAsGuyOR93lZS9QbCk98AJfgVe2EdJt5tRKgGl6tFIxgcLc58x8QhHyamjHM7CEE3xlJ+EnJvqRh6CYQEVgCtayYcaB2SuaJYr3ofUBoJQAEJJWosuvK1piYe4uwObmN5A7lHPNS88BDp0zLfM3I4cNRochAuEPkStBONWMig35BQetfII4NrHVDBIPFt7CkJuW3V2/N+L6CWJJBSg8WJR4BKW7Fy6EWokrSFpip7zignAKAHVV7XHuKfQ0I/8OuKxKrDu0Vp7eFyO/IWTr2cwxlZgzefrxxxfQf9X5u1zvM3fc1bWq+JQXVfEf/I9ewUVryaFYjwpNQAAAABJRU5ErkJggg==",
+            "source": "CoffeeGeek",
+            "snippet": "CoffeeGeek is the most read coffee and espresso resource online today. Launched in 2001, the website has over 10000 pages of coffee content.",
             "highlighted_keywords": [
-              "offers unique coffees from exclusive farms around the world"
+              "CoffeeGeek"
             ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Free delivery over $50",
-                  "Free 30-day returns"
-                ]
-              }
-            },
             "rank": 6,
             "page_rank": 6
           },
           {
-            "title": "What is coffee? - NCA",
-            "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
-            "displayed_link": "https://www.aboutcoffee.org › Origins",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAk1BMVEX////6+vv5+frp6uzq6+3t7vDx8fPz9PWxtLuTmKBja3iipq7U1trk5eg0QVUAEjMAHTkfMEcpOE0AACpOWGi5vcIXKkI/S10AGTd+hI/LztIEIDuGjJZocHwACS+doalxeIMAFjUAACi1uL4RJj/loaIjPVLPIyXu9PbtmZmHMDzskpHvtbaLBBzJtbmkMzzKrbGTXXfdAAABBklEQVR4Aa3SVWKDUBBA0Txm5g3EcXetd/+rK1LB/pqboAeHwz8TSp8QYhdhESLNkfAnkpIQYWY8rh5HqnY80RIB8Xy6MNH1dtcJN0iGaV3sm+64vIO2d/eDW2hGLBeojGg6+sXTzooaA8o/lL1J1hIvPQs7SXyJOEc6ZykHeXZRPSdfXi4DSuPmBhedcufmAiKIXxSAFJhOUapaUQWMPSpzRI6SykrjAPiyxEOPyKer6XNUxpHsUSwRJZ/jLO832Nmzr27M5EqIy0c0GbSWfZY4Jv5wXNM9Pb90NBnwCun1rZ5siQwDvn90uINixNMnLXBxRTQYjKEyQ4LvSI7xzhcqxOExfQGirBAhUMQZRwAAAABJRU5ErkJggg==",
-            "source": "About Coffee - National Coffee Association",
-            "snippet": "What is coffee made of? Learn about the coffee tree, its lifespan, how it produces coffee beans, and the two most common coffee species, arabica and ...",
+            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
+            "link": "https://www.discountcoffee.com/",
+            "displayed_link": "https://www.discountcoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
+            "source": "DiscountCoffee.com",
+            "snippet": "Buy Breakroom Coffee Supplies, Starbucks, k-cup, pods, tea, sugar, creamer, hot chocolate, cappuccino. Free UPS Ground to homes & businesses nationwide.",
             "highlighted_keywords": [
-              "Learn about the coffee tree, its lifespan, how it produces coffee beans"
+              "Breakroom Coffee Supplies"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$5",
+                  "price_to": "$139",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$5 to $139",
+                  "Free delivery over $59",
+                  "30-day returns"
+                ]
+              }
+            },
             "rank": 7,
             "page_rank": 7
           },
           {
             "title": "Specialty Coffee | Buy Coffee Online",
-            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOooQl4Bq6KH4FzljPXmKOIWkMOzlrp5MayMPWCG5Qw0tmI2TPngh",
+            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOorTJgjZqEh59_yIDyBSwlrlcMKvzI_yzXlKDt0OMbSes5VDjCcO",
             "displayed_link": "https://www.drinktrade.com › All Specialty Coffee",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEX1PDL1Mib1Niz5lJD3dnD0Jxj+9/f////0AAD1LSD7vLn3enX94N/+8fD5o6D5mJX2Tkb6t7X5m5j0KRz3dXD7wL74iIP0IA780M/+6ej6sa/819X/+/v8yMb6q6j4kIz3ZV/1MSX0IRAImGEoAAAAoElEQVR4AWLACkYBIxMeOUD702AAMRRD65fU+kax/45nDXGxkRc/2bICQGmWcZokGVNVc8rpK5k1bdf0QzFO88KrmLuJpJiXV1ZpQxUsHPoGxsMO0Aiv7HJPTjQHE5yjBbFrN43yJxlH9FVoBZGPldFap9+kjzvWTkf0AjFU0r3HsnBkeiXQChIwbTwczP7+h5ekPBI+S76Lm7mc5Sv3hyvK6Qr7Kdp/7AAAAABJRU5ErkJggg==",
             "source": "Trade Coffee",
@@ -189,14 +194,13 @@
             "page_rank": 8
           },
           {
-            "title": "CoffeeGeek: Home",
-            "link": "https://coffeegeek.com/",
-            "displayed_link": "https://coffeegeek.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAYFBMVEVHcEy6urq4uLi4uLi4uLi5ubnj4+Pj4+PDw8O6t7Lj4+Pl5eXNzc25ubmvrarp6emlpKKTkY6BgYGJiIfY2Ni2s624uLhOPSo3HwIlBwCYl5ZqZWBgUD+FeWp6enqMg3m5VgyIAAAAF3RSTlMAGDFZsP+l/4z+0//9zP//////////5lJYPuUAAAGsSURBVHgBdZEHYusgEETV+JiPzFIjisv9b5lZRHry3D1PzK49fWFe1nWZpz9YNzHY1m/RP3mZVnWG54v6ovyXWu8IvnD9aLpIMAwDxGD5OIChXVnnfQjeu+6od2OWHS2CipJIRhVC6so02E5BSz1Unbztc4z1hJADIq2JuO80zl1exDAohiOXI0TCzJ5bXjhfWK2cp1JKy7mURJKMe9tk4+08clUQVhi5KNR4g0W20VAN5uP8pkxmMKmpo0OAsGuyOR93lZS9QbCk98AJfgVe2EdJt5tRKgGl6tFIxgcLc58x8QhHyamjHM7CEE3xlJ+EnJvqRh6CYQEVgCtayYcaB2SuaJYr3ofUBoJQAEJJWosuvK1piYe4uwObmN5A7lHPNS88BDp0zLfM3I4cNRochAuEPkStBONWMig35BQetfII4NrHVDBIPFt7CkJuW3V2/N+L6CWJJBSg8WJR4BKW7Fy6EWokrSFpip7zignAKAHVV7XHuKfQ0I/8OuKxKrDu0Vp7eFyO/IWTr2cwxlZgzefrxxxfQf9X5u1zvM3fc1bWq+JQXVfEf/I9ewUVryaFYjwpNQAAAABJRU5ErkJggg==",
-            "source": "CoffeeGeek",
-            "snippet": "CoffeeGeek is the most read coffee and espresso resource online today. Launched in 2001, the website has over 10000 pages of coffee content.",
+            "title": "National Coffee Association",
+            "link": "https://www.ncausa.org/",
+            "displayed_link": "https://www.ncausa.org",
+            "source": "National Coffee Association",
+            "snippet": "The National Coffee Association is the leading trade association for the U.S. coffee industry. Learn more about our networking, advocacy, market research, ...",
             "highlighted_keywords": [
-              "CoffeeGeek"
+              "is the leading trade association for the U.S. coffee industry"
             ],
             "rank": 9,
             "page_rank": 9
@@ -224,37 +228,37 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
+            "query": "Coffee name",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
+          },
+          {
             "query": "Coffee powder",
             "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
           },
           {
-            "query": "Coffee benefits",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
-          },
-          {
-            "query": "Coffee name",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
+            "query": "Coffee Amazon",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Amazon"
           }
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bd7d8bc1923d7d2f&gl=us&hl=en&ei=yB03avjlKPWuptQPn6LuqQ8&start=10&sa=N&sstk=AU9db-AlQYhREXdPNRFiaG7xoYwyKwrD23qiFGC7r7yNFeqKgYvP6wpTcIHOLD3ZhETLP9tUNgK9E44l6zMUnS6hF1lQirhG1CJ5AQ&ved=2ahUKEwj46dyR-JaVAxV1l4kEHR-RO_UQ8NMDegQISBAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0a8c4c9e4d4dd4e5&gl=us&hl=en&ei=2Ss3aoynHJ3-ptQPs5-r4QM&start=10&sa=N&sstk=AU9db-BukkcCH-NLEn9IY1P6txo8ceEUw-nJXpJlJxyEnrJk8OVpVd7o8eZjClh4O04rSHpbcyxMyBsxVkUuZOSMsOn6M9MoCZCvkg&ved=2ahUKEwjM99vGhZeVAxUdv4kEHbPPKjwQ8NMDegQISxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bd7d8bc1923d7d2f&gl=us&hl=en&ei=yB03avjlKPWuptQPn6LuqQ8&start=10&sa=N&sstk=AU9db-AlQYhREXdPNRFiaG7xoYwyKwrD23qiFGC7r7yNFeqKgYvP6wpTcIHOLD3ZhETLP9tUNgK9E44l6zMUnS6hF1lQirhG1CJ5AQ&ved=2ahUKEwj46dyR-JaVAxV1l4kEHR-RO_UQ8tMDegQISBAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bd7d8bc1923d7d2f&gl=us&hl=en&ei=yB03avjlKPWuptQPn6LuqQ8&start=20&sa=N&sstk=AU9db-AlQYhREXdPNRFiaG7xoYwyKwrD23qiFGC7r7yNFeqKgYvP6wpTcIHOLD3ZhETLP9tUNgK9E44l6zMUnS6hF1lQirhG1CJ5AQ&ved=2ahUKEwj46dyR-JaVAxV1l4kEHR-RO_UQ8tMDegQISBAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bd7d8bc1923d7d2f&gl=us&hl=en&ei=yB03avjlKPWuptQPn6LuqQ8&start=30&sa=N&sstk=AU9db-AlQYhREXdPNRFiaG7xoYwyKwrD23qiFGC7r7yNFeqKgYvP6wpTcIHOLD3ZhETLP9tUNgK9E44l6zMUnS6hF1lQirhG1CJ5AQ&ved=2ahUKEwj46dyR-JaVAxV1l4kEHR-RO_UQ8tMDegQISBAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bd7d8bc1923d7d2f&gl=us&hl=en&ei=yB03avjlKPWuptQPn6LuqQ8&start=40&sa=N&sstk=AU9db-AlQYhREXdPNRFiaG7xoYwyKwrD23qiFGC7r7yNFeqKgYvP6wpTcIHOLD3ZhETLP9tUNgK9E44l6zMUnS6hF1lQirhG1CJ5AQ&ved=2ahUKEwj46dyR-JaVAxV1l4kEHR-RO_UQ8tMDegQISBAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bd7d8bc1923d7d2f&gl=us&hl=en&ei=yB03avjlKPWuptQPn6LuqQ8&start=50&sa=N&sstk=AU9db-AlQYhREXdPNRFiaG7xoYwyKwrD23qiFGC7r7yNFeqKgYvP6wpTcIHOLD3ZhETLP9tUNgK9E44l6zMUnS6hF1lQirhG1CJ5AQ&ved=2ahUKEwj46dyR-JaVAxV1l4kEHR-RO_UQ8tMDegQISBAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bd7d8bc1923d7d2f&gl=us&hl=en&ei=yB03avjlKPWuptQPn6LuqQ8&start=60&sa=N&sstk=AU9db-AlQYhREXdPNRFiaG7xoYwyKwrD23qiFGC7r7yNFeqKgYvP6wpTcIHOLD3ZhETLP9tUNgK9E44l6zMUnS6hF1lQirhG1CJ5AQ&ved=2ahUKEwj46dyR-JaVAxV1l4kEHR-RO_UQ8tMDegQISBAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bd7d8bc1923d7d2f&gl=us&hl=en&ei=yB03avjlKPWuptQPn6LuqQ8&start=70&sa=N&sstk=AU9db-AlQYhREXdPNRFiaG7xoYwyKwrD23qiFGC7r7yNFeqKgYvP6wpTcIHOLD3ZhETLP9tUNgK9E44l6zMUnS6hF1lQirhG1CJ5AQ&ved=2ahUKEwj46dyR-JaVAxV1l4kEHR-RO_UQ8tMDegQISBAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bd7d8bc1923d7d2f&gl=us&hl=en&ei=yB03avjlKPWuptQPn6LuqQ8&start=80&sa=N&sstk=AU9db-AlQYhREXdPNRFiaG7xoYwyKwrD23qiFGC7r7yNFeqKgYvP6wpTcIHOLD3ZhETLP9tUNgK9E44l6zMUnS6hF1lQirhG1CJ5AQ&ved=2ahUKEwj46dyR-JaVAxV1l4kEHR-RO_UQ8tMDegQISBAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bd7d8bc1923d7d2f&gl=us&hl=en&ei=yB03avjlKPWuptQPn6LuqQ8&start=90&sa=N&sstk=AU9db-AlQYhREXdPNRFiaG7xoYwyKwrD23qiFGC7r7yNFeqKgYvP6wpTcIHOLD3ZhETLP9tUNgK9E44l6zMUnS6hF1lQirhG1CJ5AQ&ved=2ahUKEwj46dyR-JaVAxV1l4kEHR-RO_UQ8tMDegQISBAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0a8c4c9e4d4dd4e5&gl=us&hl=en&ei=2Ss3aoynHJ3-ptQPs5-r4QM&start=10&sa=N&sstk=AU9db-BukkcCH-NLEn9IY1P6txo8ceEUw-nJXpJlJxyEnrJk8OVpVd7o8eZjClh4O04rSHpbcyxMyBsxVkUuZOSMsOn6M9MoCZCvkg&ved=2ahUKEwjM99vGhZeVAxUdv4kEHbPPKjwQ8tMDegQISxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0a8c4c9e4d4dd4e5&gl=us&hl=en&ei=2Ss3aoynHJ3-ptQPs5-r4QM&start=20&sa=N&sstk=AU9db-BukkcCH-NLEn9IY1P6txo8ceEUw-nJXpJlJxyEnrJk8OVpVd7o8eZjClh4O04rSHpbcyxMyBsxVkUuZOSMsOn6M9MoCZCvkg&ved=2ahUKEwjM99vGhZeVAxUdv4kEHbPPKjwQ8tMDegQISxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0a8c4c9e4d4dd4e5&gl=us&hl=en&ei=2Ss3aoynHJ3-ptQPs5-r4QM&start=30&sa=N&sstk=AU9db-BukkcCH-NLEn9IY1P6txo8ceEUw-nJXpJlJxyEnrJk8OVpVd7o8eZjClh4O04rSHpbcyxMyBsxVkUuZOSMsOn6M9MoCZCvkg&ved=2ahUKEwjM99vGhZeVAxUdv4kEHbPPKjwQ8tMDegQISxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0a8c4c9e4d4dd4e5&gl=us&hl=en&ei=2Ss3aoynHJ3-ptQPs5-r4QM&start=40&sa=N&sstk=AU9db-BukkcCH-NLEn9IY1P6txo8ceEUw-nJXpJlJxyEnrJk8OVpVd7o8eZjClh4O04rSHpbcyxMyBsxVkUuZOSMsOn6M9MoCZCvkg&ved=2ahUKEwjM99vGhZeVAxUdv4kEHbPPKjwQ8tMDegQISxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0a8c4c9e4d4dd4e5&gl=us&hl=en&ei=2Ss3aoynHJ3-ptQPs5-r4QM&start=50&sa=N&sstk=AU9db-BukkcCH-NLEn9IY1P6txo8ceEUw-nJXpJlJxyEnrJk8OVpVd7o8eZjClh4O04rSHpbcyxMyBsxVkUuZOSMsOn6M9MoCZCvkg&ved=2ahUKEwjM99vGhZeVAxUdv4kEHbPPKjwQ8tMDegQISxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0a8c4c9e4d4dd4e5&gl=us&hl=en&ei=2Ss3aoynHJ3-ptQPs5-r4QM&start=60&sa=N&sstk=AU9db-BukkcCH-NLEn9IY1P6txo8ceEUw-nJXpJlJxyEnrJk8OVpVd7o8eZjClh4O04rSHpbcyxMyBsxVkUuZOSMsOn6M9MoCZCvkg&ved=2ahUKEwjM99vGhZeVAxUdv4kEHbPPKjwQ8tMDegQISxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0a8c4c9e4d4dd4e5&gl=us&hl=en&ei=2Ss3aoynHJ3-ptQPs5-r4QM&start=70&sa=N&sstk=AU9db-BukkcCH-NLEn9IY1P6txo8ceEUw-nJXpJlJxyEnrJk8OVpVd7o8eZjClh4O04rSHpbcyxMyBsxVkUuZOSMsOn6M9MoCZCvkg&ved=2ahUKEwjM99vGhZeVAxUdv4kEHbPPKjwQ8tMDegQISxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0a8c4c9e4d4dd4e5&gl=us&hl=en&ei=2Ss3aoynHJ3-ptQPs5-r4QM&start=80&sa=N&sstk=AU9db-BukkcCH-NLEn9IY1P6txo8ceEUw-nJXpJlJxyEnrJk8OVpVd7o8eZjClh4O04rSHpbcyxMyBsxVkUuZOSMsOn6M9MoCZCvkg&ved=2ahUKEwjM99vGhZeVAxUdv4kEHbPPKjwQ8tMDegQISxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0a8c4c9e4d4dd4e5&gl=us&hl=en&ei=2Ss3aoynHJ3-ptQPs5-r4QM&start=90&sa=N&sstk=AU9db-BukkcCH-NLEn9IY1P6txo8ceEUw-nJXpJlJxyEnrJk8OVpVd7o8eZjClh4O04rSHpbcyxMyBsxVkUuZOSMsOn6M9MoCZCvkg&ved=2ahUKEwjM99vGhZeVAxUdv4kEHbPPKjwQ8tMDegQISxAU"
           }
         }
       }
     }
   },
-  "requestId": "fec1dcc7-5823-4119-846a-29c4fc01c3eb",
-  "timestamp": 1782000603387,
-  "recordTime": "2026-06-21 08:10:03"
+  "requestId": "06b36012-71d6-4878-a774-87478fd48fa3",
+  "timestamp": 1782001803812,
+  "recordTime": "2026-06-21 08:30:03"
 }
