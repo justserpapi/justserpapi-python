@@ -3,13 +3,13 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-21 07:10:03",
+    "checkedAt": "2026-06-21 08:10:03",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.42,
+          "time_taken": 0.45,
           "total_results": 168,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
@@ -24,29 +24,29 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Forum Coffee (East Hanover)",
-            "rating": "4.7",
-            "reviews": "347",
-            "address": "4.7(347) · $1–10 · Coffee shop",
-            "hours": "East Hanover, NJ",
+            "title": "Haraz Coffee House",
+            "rating": "4.8",
+            "reviews": "431",
+            "address": "4.8(431) · $10–20 · Coffee shop",
+            "hours": "Ashburn, VA",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Q Coffee",
-            "rating": "",
-            "reviews": "",
-            "address": "No reviews · Coffee shop",
-            "hours": "East Hanover, NJ",
+            "title": "Blazin Treatz",
+            "rating": "4.9",
+            "reviews": "69",
+            "address": "4.9(69) · $10–20 · Coffee shop",
+            "hours": "Ashburn, VA",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Godwit Coffee",
-            "rating": "4.9",
-            "reviews": "116",
-            "address": "4.9(116) · $1–10 · Cafe",
-            "hours": "Scotch Plains, NJ",
+            "title": "Chai Caafi",
+            "rating": "4.0",
+            "reviews": "1",
+            "address": "4.0(1) · Cafe",
+            "hours": "Ashburn, VA",
             "links": {}
           }
         ],
@@ -99,6 +99,19 @@
             "page_rank": 3
           },
           {
+            "title": "Coffee Republic | Coffee Shop and Bakery - Rockville",
+            "link": "https://coffeerepub.com/",
+            "displayed_link": "https://coffeerepub.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAATlBMVEX////////////////j4+Oenp6Li4uDg4N8fHzGxsZvb2+1tbXNzc3c3NysrKxmZma9vb3V1dX8/Pz09PRbW1vs7OyUlJQhISFMTEw8PDwy3v+7AAAABHRSTlO62v/ZLWnvgAAAATJJREFUeAGd0kdiwzAMRFFnAhYQYCdk6f4HTe89/tunrjmdrr7vdIXvO13/Dcn5EIOjL5CTkKpmKlU/YhJtfQBTOUt8j6u3gadmo/oWU3+4lG1hA3JpOb2iMJEAiHom71KACL9gyr3sEN1tuU0PyuD6jMztEBQ90h0GzgSw9CcMfeyG2NbSA4DZANQ/YVTkJKZzSRX0VIzKiK/40MacE5GPvcoIT8h4zMz1mJxLrYIfkcQffSpvS8rBMa6wOyf2eFnhrZWwnO5bO5e6DQYw89NlW1i0zyW7VoeHCKztEUs5KLbonN+O+WBnaMIjcrYzt10BGB6T7F4/vFlG6LhveAPbwitSJWXCcAZss9mabxC2iBWIA6MrLfswE+/vV8LcKfjPA5suBu9DLPObaY5x0W4/dwsI9RQSCRF21AAAAABJRU5ErkJggg==",
+            "source": "Coffee Republic",
+            "snippet": "Coffee Republic is a premier coffee shop that offers freshly roasted coffee, delicious treats, and a cozy atmosphere. Visit us today!",
+            "highlighted_keywords": [
+              "freshly roasted coffee, delicious treats, and a cozy atmosphere"
+            ],
+            "rank": 4,
+            "page_rank": 4
+          },
+          {
             "title": "Coffee and Tea Buying Guides",
             "link": "https://www.seriouseats.com/coffee-and-tea-buying-guides-7105482",
             "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
@@ -108,8 +121,8 @@
             "highlighted_keywords": [
               "decide which coffee and tea gear you need"
             ],
-            "rank": 4,
-            "page_rank": 4
+            "rank": 5,
+            "page_rank": 5
           },
           {
             "title": "What is coffee? - NCA",
@@ -121,8 +134,8 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 5,
-            "page_rank": 5
+            "rank": 6,
+            "page_rank": 6
           },
           {
             "title": "Coffee - Walmart.com",
@@ -150,8 +163,8 @@
                 ]
               }
             },
-            "rank": 6,
-            "page_rank": 6
+            "rank": 7,
+            "page_rank": 7
           },
           {
             "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
@@ -177,12 +190,12 @@
                 ]
               }
             },
-            "rank": 7,
-            "page_rank": 7
+            "rank": 8,
+            "page_rank": 8
           },
           {
             "title": "Specialty Coffee | Buy Coffee Online",
-            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOopJ56UB8MyJX16lj7vseNiU3vpHQzO1karUsgXrm5LfLMCa0xvl",
+            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOoqdmmgS5Xae-ktZ5GCPHhti3_pqJFiRYoZb1eO-Z9t0_m3sb99P",
             "displayed_link": "https://www.drinktrade.com › All Specialty Coffee",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEX1PDL1Mib1Niz5lJD3dnD0Jxj+9/f////0AAD1LSD7vLn3enX94N/+8fD5o6D5mJX2Tkb6t7X5m5j0KRz3dXD7wL74iIP0IA780M/+6ej6sa/819X/+/v8yMb6q6j4kIz3ZV/1MSX0IRAImGEoAAAAoElEQVR4AWLACkYBIxMeOUD702AAMRRD65fU+kax/45nDXGxkRc/2bICQGmWcZokGVNVc8rpK5k1bdf0QzFO88KrmLuJpJiXV1ZpQxUsHPoGxsMO0Aiv7HJPTjQHE5yjBbFrN43yJxlH9FVoBZGPldFap9+kjzvWTkf0AjFU0r3HsnBkeiXQChIwbTwczP7+h5ekPBI+S76Lm7mc5Sv3hyvK6Qr7Kdp/7AAAAABJRU5ErkJggg==",
             "source": "Trade Coffee",
@@ -206,22 +219,6 @@
                 ]
               }
             },
-            "rank": 8,
-            "page_rank": 8
-          },
-          {
-            "title": "Coffee | Origin, Types, Uses, History, & Facts",
-            "link": "https://www.britannica.com/topic/coffee",
-            "displayed_link": "https://www.britannica.com › ... › Food",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
-            "source": "Britannica",
-            "snippet": "What is coffee? Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three ...Read more",
-            "highlighted_keywords": [
-              "coffee",
-              "Coffee",
-              "coffee",
-              "Coffee"
-            ],
             "rank": 9,
             "page_rank": 9
           }
@@ -240,45 +237,45 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
           },
           {
-            "query": "Coffee name",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
+            "query": "Coffee Bean menu",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
           },
           {
             "query": "Coffee beans",
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
-            "query": "Coffee Bean menu",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
+            "query": "Coffee name",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
-            "query": "Coffee NESCAFÉ",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
+            "query": "Coffee powder",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
           },
           {
-            "query": "Coffee Pic",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Pic"
+            "query": "Coffee benefits",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
           }
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=527eb066153f33b6&gl=us&hl=en&ei=SY43aqLkEsugiLMPrpaRwA4&start=10&sa=N&sstk=AU9db-CSAss08sdEOordqh-p3n41vq2w3T1Grmde0RmFwJsvMotLU0L3_kyFw3px7XNz4hLesFxZ-fErtgCXSAnJ-HzTOwP4WuJhew&ved=2ahUKEwjirPi245eVAxVLEGIAHS5LBOgQ8NMDegUI2AEQFg",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6599a4d8a4e4b8ab&gl=us&hl=en&ei=WZw3aoKLA4Ct5NoPpNLO4Qk&start=10&sa=N&sstk=AU9db-D7kM6uiWBzmxeJfZgEXmS8M_VJgAr1nRT6kAC_mcmSHqMTtXQA7bNZGB7RFS4Xg5wU50vaVOhjMMiYN6zSbtUVhlPDP0u3Zg&ved=2ahUKEwjCm7fr8JeVAxWAFlkFHSSpM5wQ8NMDegQIbxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=527eb066153f33b6&gl=us&hl=en&ei=SY43aqLkEsugiLMPrpaRwA4&start=10&sa=N&sstk=AU9db-CSAss08sdEOordqh-p3n41vq2w3T1Grmde0RmFwJsvMotLU0L3_kyFw3px7XNz4hLesFxZ-fErtgCXSAnJ-HzTOwP4WuJhew&ved=2ahUKEwjirPi245eVAxVLEGIAHS5LBOgQ8tMDegUI2AEQBA",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=527eb066153f33b6&gl=us&hl=en&ei=SY43aqLkEsugiLMPrpaRwA4&start=20&sa=N&sstk=AU9db-CSAss08sdEOordqh-p3n41vq2w3T1Grmde0RmFwJsvMotLU0L3_kyFw3px7XNz4hLesFxZ-fErtgCXSAnJ-HzTOwP4WuJhew&ved=2ahUKEwjirPi245eVAxVLEGIAHS5LBOgQ8tMDegUI2AEQBg",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=527eb066153f33b6&gl=us&hl=en&ei=SY43aqLkEsugiLMPrpaRwA4&start=30&sa=N&sstk=AU9db-CSAss08sdEOordqh-p3n41vq2w3T1Grmde0RmFwJsvMotLU0L3_kyFw3px7XNz4hLesFxZ-fErtgCXSAnJ-HzTOwP4WuJhew&ved=2ahUKEwjirPi245eVAxVLEGIAHS5LBOgQ8tMDegUI2AEQCA",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=527eb066153f33b6&gl=us&hl=en&ei=SY43aqLkEsugiLMPrpaRwA4&start=40&sa=N&sstk=AU9db-CSAss08sdEOordqh-p3n41vq2w3T1Grmde0RmFwJsvMotLU0L3_kyFw3px7XNz4hLesFxZ-fErtgCXSAnJ-HzTOwP4WuJhew&ved=2ahUKEwjirPi245eVAxVLEGIAHS5LBOgQ8tMDegUI2AEQCg",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=527eb066153f33b6&gl=us&hl=en&ei=SY43aqLkEsugiLMPrpaRwA4&start=50&sa=N&sstk=AU9db-CSAss08sdEOordqh-p3n41vq2w3T1Grmde0RmFwJsvMotLU0L3_kyFw3px7XNz4hLesFxZ-fErtgCXSAnJ-HzTOwP4WuJhew&ved=2ahUKEwjirPi245eVAxVLEGIAHS5LBOgQ8tMDegUI2AEQDA",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=527eb066153f33b6&gl=us&hl=en&ei=SY43aqLkEsugiLMPrpaRwA4&start=60&sa=N&sstk=AU9db-CSAss08sdEOordqh-p3n41vq2w3T1Grmde0RmFwJsvMotLU0L3_kyFw3px7XNz4hLesFxZ-fErtgCXSAnJ-HzTOwP4WuJhew&ved=2ahUKEwjirPi245eVAxVLEGIAHS5LBOgQ8tMDegUI2AEQDg",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=527eb066153f33b6&gl=us&hl=en&ei=SY43aqLkEsugiLMPrpaRwA4&start=70&sa=N&sstk=AU9db-CSAss08sdEOordqh-p3n41vq2w3T1Grmde0RmFwJsvMotLU0L3_kyFw3px7XNz4hLesFxZ-fErtgCXSAnJ-HzTOwP4WuJhew&ved=2ahUKEwjirPi245eVAxVLEGIAHS5LBOgQ8tMDegUI2AEQEA",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=527eb066153f33b6&gl=us&hl=en&ei=SY43aqLkEsugiLMPrpaRwA4&start=80&sa=N&sstk=AU9db-CSAss08sdEOordqh-p3n41vq2w3T1Grmde0RmFwJsvMotLU0L3_kyFw3px7XNz4hLesFxZ-fErtgCXSAnJ-HzTOwP4WuJhew&ved=2ahUKEwjirPi245eVAxVLEGIAHS5LBOgQ8tMDegUI2AEQEg",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=527eb066153f33b6&gl=us&hl=en&ei=SY43aqLkEsugiLMPrpaRwA4&start=90&sa=N&sstk=AU9db-CSAss08sdEOordqh-p3n41vq2w3T1Grmde0RmFwJsvMotLU0L3_kyFw3px7XNz4hLesFxZ-fErtgCXSAnJ-HzTOwP4WuJhew&ved=2ahUKEwjirPi245eVAxVLEGIAHS5LBOgQ8tMDegUI2AEQFA"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6599a4d8a4e4b8ab&gl=us&hl=en&ei=WZw3aoKLA4Ct5NoPpNLO4Qk&start=10&sa=N&sstk=AU9db-D7kM6uiWBzmxeJfZgEXmS8M_VJgAr1nRT6kAC_mcmSHqMTtXQA7bNZGB7RFS4Xg5wU50vaVOhjMMiYN6zSbtUVhlPDP0u3Zg&ved=2ahUKEwjCm7fr8JeVAxWAFlkFHSSpM5wQ8tMDegQIbxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6599a4d8a4e4b8ab&gl=us&hl=en&ei=WZw3aoKLA4Ct5NoPpNLO4Qk&start=20&sa=N&sstk=AU9db-D7kM6uiWBzmxeJfZgEXmS8M_VJgAr1nRT6kAC_mcmSHqMTtXQA7bNZGB7RFS4Xg5wU50vaVOhjMMiYN6zSbtUVhlPDP0u3Zg&ved=2ahUKEwjCm7fr8JeVAxWAFlkFHSSpM5wQ8tMDegQIbxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6599a4d8a4e4b8ab&gl=us&hl=en&ei=WZw3aoKLA4Ct5NoPpNLO4Qk&start=30&sa=N&sstk=AU9db-D7kM6uiWBzmxeJfZgEXmS8M_VJgAr1nRT6kAC_mcmSHqMTtXQA7bNZGB7RFS4Xg5wU50vaVOhjMMiYN6zSbtUVhlPDP0u3Zg&ved=2ahUKEwjCm7fr8JeVAxWAFlkFHSSpM5wQ8tMDegQIbxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6599a4d8a4e4b8ab&gl=us&hl=en&ei=WZw3aoKLA4Ct5NoPpNLO4Qk&start=40&sa=N&sstk=AU9db-D7kM6uiWBzmxeJfZgEXmS8M_VJgAr1nRT6kAC_mcmSHqMTtXQA7bNZGB7RFS4Xg5wU50vaVOhjMMiYN6zSbtUVhlPDP0u3Zg&ved=2ahUKEwjCm7fr8JeVAxWAFlkFHSSpM5wQ8tMDegQIbxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6599a4d8a4e4b8ab&gl=us&hl=en&ei=WZw3aoKLA4Ct5NoPpNLO4Qk&start=50&sa=N&sstk=AU9db-D7kM6uiWBzmxeJfZgEXmS8M_VJgAr1nRT6kAC_mcmSHqMTtXQA7bNZGB7RFS4Xg5wU50vaVOhjMMiYN6zSbtUVhlPDP0u3Zg&ved=2ahUKEwjCm7fr8JeVAxWAFlkFHSSpM5wQ8tMDegQIbxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6599a4d8a4e4b8ab&gl=us&hl=en&ei=WZw3aoKLA4Ct5NoPpNLO4Qk&start=60&sa=N&sstk=AU9db-D7kM6uiWBzmxeJfZgEXmS8M_VJgAr1nRT6kAC_mcmSHqMTtXQA7bNZGB7RFS4Xg5wU50vaVOhjMMiYN6zSbtUVhlPDP0u3Zg&ved=2ahUKEwjCm7fr8JeVAxWAFlkFHSSpM5wQ8tMDegQIbxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6599a4d8a4e4b8ab&gl=us&hl=en&ei=WZw3aoKLA4Ct5NoPpNLO4Qk&start=70&sa=N&sstk=AU9db-D7kM6uiWBzmxeJfZgEXmS8M_VJgAr1nRT6kAC_mcmSHqMTtXQA7bNZGB7RFS4Xg5wU50vaVOhjMMiYN6zSbtUVhlPDP0u3Zg&ved=2ahUKEwjCm7fr8JeVAxWAFlkFHSSpM5wQ8tMDegQIbxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6599a4d8a4e4b8ab&gl=us&hl=en&ei=WZw3aoKLA4Ct5NoPpNLO4Qk&start=80&sa=N&sstk=AU9db-D7kM6uiWBzmxeJfZgEXmS8M_VJgAr1nRT6kAC_mcmSHqMTtXQA7bNZGB7RFS4Xg5wU50vaVOhjMMiYN6zSbtUVhlPDP0u3Zg&ved=2ahUKEwjCm7fr8JeVAxWAFlkFHSSpM5wQ8tMDegQIbxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6599a4d8a4e4b8ab&gl=us&hl=en&ei=WZw3aoKLA4Ct5NoPpNLO4Qk&start=90&sa=N&sstk=AU9db-D7kM6uiWBzmxeJfZgEXmS8M_VJgAr1nRT6kAC_mcmSHqMTtXQA7bNZGB7RFS4Xg5wU50vaVOhjMMiYN6zSbtUVhlPDP0u3Zg&ved=2ahUKEwjCm7fr8JeVAxWAFlkFHSSpM5wQ8tMDegQIbxAU"
           }
         }
       }
     }
   },
-  "requestId": "cd0f92f4-13e8-4675-bb64-f14b1d7451a8",
-  "timestamp": 1782029372952,
-  "recordTime": "2026-06-21 16:09:32"
+  "requestId": "8247ef72-02d6-4c55-8ca0-b3ad4210d9a0",
+  "timestamp": 1782029403491,
+  "recordTime": "2026-06-21 16:10:03"
 }
