@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-21 18:10:02",
+    "checkedAt": "2026-06-21 19:10:03",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.41,
-          "total_results": 2740000,
+          "time_taken": 0.45,
+          "total_results": 2720000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -18,70 +18,35 @@
           "original_query_yields_zero_results": false,
           "url": "https://www.google.com/search?q=coffee&oq=coffee&gl=us&hl=en&safe=off&sourceid=chrome&ie=UTF-8"
         },
-        "ads": [
-          {
-            "position": 1,
-            "block_position": "bottom",
-            "title": "Brew Delicious Coffee - Free Shipping & Coffee Samples",
-            "snippet": "A World of Coffee to Discover. Shop Nespresso's Wide Variety of Coffee Pods...",
-            "displayed_link": "https://www.nespresso.com",
-            "link": "https://www.nespresso.com/us/en/vertuo-coffee-pods",
-            "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwj0_aT59piVAxUTMggFHarDKN4YACICCAIQABoCbWQ&ae=2&co=1&ase=2&gclid=EAIaIQobChMI9P2k-faYlQMVEzIIBR2qwyjeEAMYASAAEgJ9-fD_BwE&cid=CAASugHkaCKxOC2lOK_eJowLPBMyanSOlAbtL_sx7lbflnGeIkKSSFHbczlAebUZ6HZ8x7QnwZG6vejagcsmmqpyJFwiZktn9I-L5ChgWZZFAgwP6Go2fPuH_lsNVGRRFEVJJa2f1TJeCMXjPp7AGXfpVUQrglb9c5809D50CjpXAxYfnQkZfJKgyq6GOiWCbBpW2mV3EPJToWpD6lLYaexEtIsROJvIdQZzHCEXL8MtjediuJYH3BxLr22udfU&cce=2&category=acrcp_v1_71&sig=AOD64_2NlwFOUDDXBU0PGLFnbyLuu4zoSg&q&nis=4&adurl",
-            "source": "Nespresso®",
-            "sitelinks": [
-              {
-                "title": "Rating",
-                "link": "https://www.google.com/shopping/ratings/account/metrics?q=nespresso.com&c=US&v=19"
-              },
-              {
-                "title": "Shop Coffee Capsules",
-                "link": "/aclk?sa=L&ai=DChsSEwj0_aT59piVAxUTMggFHarDKN4YACICCAIQBRoCbWQ&ae=2&co=1&ase=2&gclid=EAIaIQobChMI9P2k-faYlQMVEzIIBR2qwyjeEAMYASAFEgJj3fD_BwE&cid=CAASugHkaCKxOC2lOK_eJowLPBMyanSOlAbtL_sx7lbflnGeIkKSSFHbczlAebUZ6HZ8x7QnwZG6vejagcsmmqpyJFwiZktn9I-L5ChgWZZFAgwP6Go2fPuH_lsNVGRRFEVJJa2f1TJeCMXjPp7AGXfpVUQrglb9c5809D50CjpXAxYfnQkZfJKgyq6GOiWCbBpW2mV3EPJToWpD6lLYaexEtIsROJvIdQZzHCEXL8MtjediuJYH3BxLr22udfU&cce=2&category=acrcp_v1_71&sig=AOD64_1xw0HxI5dOAqwXVY40o_rEdcZ2IA&adurl=&q="
-              },
-              {
-                "title": "Explore Coffee Capsules",
-                "link": "https://www.nespresso.com/us/en/vertuo-coffee-pods"
-              },
-              {
-                "title": "Find Your Perfect Machine",
-                "link": "https://www.nespresso.com/us/en/choose-your-technology"
-              },
-              {
-                "title": "Vertuo Pop+",
-                "link": "https://www.nespresso.com/us/en/order/machines/vertuo/vertuo-pop-plus-liquoriceblack"
-              }
-            ],
-            "extensions": ""
-          }
-        ],
         "knowledge_graph": {
           "title": "Coffee"
         },
         "local_results": [
           {
             "position": 1,
-            "title": "Nako",
-            "rating": "4.7",
-            "reviews": "176",
-            "address": "4.7(176) · $10–20 · Coffee shop",
-            "hours": "Brooklyn, NY",
+            "title": "Lucky Lab Coffee Co.",
+            "rating": "4.4",
+            "reviews": "626",
+            "address": "4.4(626) · $10–20 · Coffee shop",
+            "hours": "Austin, TX",
             "links": {}
           },
           {
             "position": 2,
-            "title": "No Plates Coffee",
-            "rating": "4.9",
-            "reviews": "468",
-            "address": "4.9(468) · $1–10 · Coffee shop",
-            "hours": "12 John St",
+            "title": "BRB Coffee",
+            "rating": "5.0",
+            "reviews": "272",
+            "address": "5.0(272) · $1–10 · Coffee shop",
+            "hours": "Austin, TX",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Red Coffee Stand",
-            "rating": "4.8",
-            "reviews": "248",
-            "address": "4.8(248) · $1–10 · Coffee shop",
-            "hours": "Brooklyn, NY",
+            "title": "LazyDaze",
+            "rating": "4.7",
+            "reviews": "52",
+            "address": "4.7(52) · $10–20 · Coffee shop",
+            "hours": "Austin, TX",
             "links": {}
           }
         ],
@@ -108,6 +73,44 @@
             "page_rank": 1
           },
           {
+            "title": "Cuvée Coffee: Always Something Brewing. Austin, TX",
+            "link": "https://cuveecoffee.com/?srsltid=AfmBOoqX_JbWbTkjZbJqBt19L_qzMIYXNDcVRsdZ6UxtZI2aFsp8808T",
+            "displayed_link": "https://cuveecoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEjklEQVR4AZ2XA6wuRxTH356tbRthG6M2Y5VRbSuqbXdvbdtug7qNitna1jOv9v0y+z9552LfxZf8cubbwcHMnJmZMtav7EmiLsBgSlnxHwlmPfVyZVWvyLcV+L+U5e+CdlbVZS6Lcf/UQWgQsJ60NvJQFN1D+RPKf8AM+B9DvkG+jMEXIbcHDJDBMh4mpLxg0MIYAIUbMdhNDP4/NNQ11DVWqewIjIP6YzjYoiNVdmIs5cFiOiCPl5eN6IMFHfQaMMYgfd2YN5Fb+rTxfWzlhsS7gvIDWSme8r8XUF73m7wswaqMlGU5CLmdZAOzYB/adxvhYQ/yJffYwmDiN3gMhRcjz4Jz4E74PLQZEL0+ZbCzR2KIcs1T9lqL5l550xsGauAzOAhWpF2eT4+cyiVyR+Qzap8jp/KT9FlZ4xdDDajUuTXkyLZDDveAZcvzoro67ogSY1G2JPU+bV7nU7k/zNAU3iYHfWqH6I+hX4eB/jMUIvuz55SRp9migZeAuLV2hzXC1JX0L3Pbqt4JAy/gvxttGiMoxwOjkxpdWSr0Yc6vbxdlbVIQklPu+xByZ8vlZLSTspA/2ulS327vV4U/ZYAr/wqWjgoj+vYdHCkPS62pTMygzmiLzy09UEr7RYPVh+XIVGmJMIDmPxu1tvpcI89L0NhamGLUn8LmBvRosAVKIn/BKqrT7hi6Dui/tyL2stqZhUgZjJ12GViDv+sGyPunZGAOo5TmReTzDCdrlf8YDyKDdiGOcRiFymXhFzdAme1CpWKFX7QGbQC7U/9uSM9nULcVcnlkOBVddhigw2ZFOs2Q572txDvtd+S2cCk8B98w2HwLGU8S0iDy3xzNKmfGI2DlzgiEsK2IIdM1kAxIp2jvG3Xb8e0yeB6+gfkKfTTAz4H/4D24qzUgrdJpQAjRMvCzvFigwS7Smb6E5aSSfH59CvaA9xStPtqdSXlrWJ5yTNPQbUDcs+9am7t9FzwdUidR0CLUtMVFiJIfqXeFXl8KOZk6rlzKgnEbSv4Dq4ESiiIwdGHurbavaN/nbCmHUDzWNhwjEWkRZYUeqaGJKOVEhFHX+Nbjexx77Pug52h5+ydWx1T8jdbHuFIxtKm40jS10bAxckGKUbgm7IQ+3Qlu8oNGCjW4DNJhpO+mnROPd5+2otOIULk+TIs3Gm21M9p67Ypw07V2N6xh4Timjzu0I4afr/bqM8qC1HHrnY6LFxIY9APHz42gbEnKOqpdKVRDLyRwq4VpG/VU1AWiUF54NOyIARTHK9mBsIIrE3Equ65kT4SsWHSthULbZ0nk256aDSN0I26UAX9FPoLnFyLPRJ5L/zspf6E3Ae1SnkJP7WJnv8J1H0y6NsNSDPJU6NxbYoSuak3EqvBf13KraIeUwbOQ+4Y3x5ivopjxTofZlBfzMEnhYZLfD4NIb/8WbGka18aVnDQdi952aTNjIYUdoseIP1rCkwyUSz6Gg8IdQdsyTf5xCuvC4XBveJxOb9+M9TcoeFmH2A7miuNrqzMjjm2MtSQ9QuLzPK1IBPLzPOx3j1xp6jPavC8EP+UDEF8vjlwAAAAASUVORK5CYII=",
+            "source": "Cuvée Coffee",
+            "snippet": "At Cuvée, coffee isn't a job, it's a passion. Since 1998, we've become known for roasting exceptional, ethically sourced, sustainable coffee.",
+            "highlighted_keywords": [
+              "roasting exceptional, ethically sourced, sustainable coffee"
+            ],
+            "rank": 2,
+            "page_rank": 2
+          },
+          {
+            "title": "Coffee Shops Austin, TX - Last Updated June 2026",
+            "link": "https://www.yelp.com/search?find_desc=Coffee+Shops&find_loc=Austin%2C+TX",
+            "displayed_link": "https://www.yelp.com › Food",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAflBMVEX0DRX0AAr0AAD0BhD3U1j5ioz5lZf2R0z8xcb+6uv+9fX/+Pn93N31GiH6pKb////4fX/0AAX1LzX8wML4hIb0ERn1KTD+5eX5kJP3XmL4bnH+8PH91db3PkX1HSb7t7r3T1X9ztD3Zmn6qKv4anD1NTz5dnr7r7H3Wl77tLUFH9U+AAAA4UlEQVR4AbTRRWKAMBAFUPKRUmxwd+f+Fyyzwpf9m8iLR/r/CEB8EGRF1X7eVSj6r2FaeEXboT3mO8I1dzS8V5T9gBFcfSpCgxjlKH6qHOtECWQ71bPbzkKWkBdUwtZMSq6Iqga8hgKofK78rKKlomkRdUrPRuoZoXKXoSIKyCiG8bIsNOKUtZjGGLhtORtJGThZL7tDXt/fN3KzCXCKaaFiWXFTeAKuQUpfECXb44XRWkSTvdAe7/FADRH5/BL0mLn3MgrPoUXI95nTUpgm9i+J2W4RUqbN7z/G8QDpb/QAAKRZDoQhpaGVAAAAAElFTkSuQmCC",
+            "source": "Yelp",
+            "snippet": "Coffee Shops Austin, TX · 1. Mazúr Coffee · 2. Mozart's Coffee Roasters · 3. Flora Coffee · 4. Terrible Love · 5. Sugarwolf Bakery · 6. Palomino Coffee · 7.Read more",
+            "highlighted_keywords": [
+              "1. Mazúr Coffee"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "rating": "4.4",
+                  "reviews": "18,981"
+                },
+                "extensions": [
+                  "4.4",
+                  "(18,981)"
+                ]
+              }
+            },
+            "rank": 3,
+            "page_rank": 3
+          },
+          {
             "title": "Starbucks Coffee Company",
             "link": "https://www.starbucks.com/",
             "displayed_link": "https://www.starbucks.com",
@@ -117,8 +120,63 @@
             "highlighted_keywords": [
               "Explore our menu of handcrafted drinks"
             ],
-            "rank": 2,
-            "page_rank": 2
+            "rank": 4,
+            "page_rank": 4
+          },
+          {
+            "title": "Austin Coffee Shops, Cafes, Tea Houses & Local Roasters",
+            "link": "https://www.austintexas.org/food-and-drink/coffee-and-tea/",
+            "displayed_link": "https://www.austintexas.org › food-and-drink › coffee-a...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAATlBMVEVHcEzv5N7v497v497v497v497v497v49/w5N7v4t7v497v497x5+Lz6+bXtKy6eGnQp57hx7/AhnioTzqmSDHv496rVkPGkYWzZ1bp1tDtDMRPAAAAFnRSTlMAUJ7N7f/Jk1UMph7///////////+nIWZwGQAAAQdJREFUeAGF09GugyAMBuCK/OKOrejKGL7/ix6VuAmZ8bstbZum0EljWgvYzvX0w+MPJ2agikPFlekWqNkHfQz4afjk48JRw+KCreYrMDPgrgZg4dFPnJsYFEQE8/hUDduDFxGhFNeQaowxYEPUl7UnXaMbfTNWTTUixzS/kwZNOQ5D3Wlu8BgmYdnkONrPEmSepkVSmOtVYMeLD6rBqwpKlONziDt9Mkq5xRJipiPXLVoA/NaYhQWlbl+kxEMSlBw1ACQdBeoO6PdV85hnUC+oENELgPiwhoNnVMxxTzL69Jzl99W5fAHCjJq7P7n7o70/+/uPc//1ssHg5JXTK73rLGBb09DXP8aZGjKwu1J7AAAAAElFTkSuQmCC",
+            "source": "Visit Austin, Texas",
+            "snippet": "Austin's coffee shops feature gourmet coffee and rotating selections of roasters in unique settings. Shops like Sa-Ten Coffee and Eats and Wright Bros. Brew & ...Read more",
+            "highlighted_keywords": [
+              "Austin's coffee shops feature gourmet coffee"
+            ],
+            "rank": 5,
+            "page_rank": 5
+          },
+          {
+            "title": "Craft Coffee Beans Online & In Shops | Stumptown Coffee ...",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoqEJb1rXAIYLvHQmXbQpd_Ygin_Z7-goRoCt0Tz9lbp6IpzVivk",
+            "displayed_link": "https://www.stumptowncoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
+            "source": "Stumptown Coffee",
+            "snippet": "Stumptown Coffee Roasters brings you fresh beans, cold brew, and good vibes. Order online, visit a shop, or subscribe for the long haul.",
+            "highlighted_keywords": [
+              "fresh beans, cold brew, and good vibes"
+            ],
+            "rank": 6,
+            "page_rank": 6
+          },
+          {
+            "title": "Specialty Coffee | Buy Coffee Online",
+            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOor-dP85wrP05MqZWufGlD6VLcHznmUk-GaZJyRnCDqCRhX48LF-",
+            "displayed_link": "https://www.drinktrade.com › All Specialty Coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEX1PDL1Mib1Niz5lJD3dnD0Jxj+9/f////0AAD1LSD7vLn3enX94N/+8fD5o6D5mJX2Tkb6t7X5m5j0KRz3dXD7wL74iIP0IA780M/+6ej6sa/819X/+/v8yMb6q6j4kIz3ZV/1MSX0IRAImGEoAAAAoElEQVR4AWLACkYBIxMeOUD702AAMRRD65fU+kax/45nDXGxkRc/2bICQGmWcZokGVNVc8rpK5k1bdf0QzFO88KrmLuJpJiXV1ZpQxUsHPoGxsMO0Aiv7HJPTjQHE5yjBbFrN43yJxlH9FVoBZGPldFap9+kjzvWTkf0AjFU0r3HsnBkeiXQChIwbTwczP7+h5ekPBI+S76Lm7mc5Sv3hyvK6Qr7Kdp/7AAAAABJRU5ErkJggg==",
+            "source": "Trade Coffee",
+            "snippet": "Choose from a wide variety of coffee from the top roasters in the US. All our specialty coffee is roasted to order and shipped fresh to your door.Read more",
+            "highlighted_keywords": [
+              "Choose from a wide variety of coffee"
+            ],
+            "inline_snippet": "4.7",
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$17",
+                  "price_to": "$33",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "4.7 store rating (230)",
+                  "4.7",
+                  "$17 to $33",
+                  "Free delivery"
+                ]
+              }
+            },
+            "rank": 7,
+            "page_rank": 7
           },
           {
             "title": "What is coffee? - NCA",
@@ -130,114 +188,18 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 3,
-            "page_rank": 3
-          },
-          {
-            "title": "Craft Coffee Beans Online & In Shops | Stumptown Coffee ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoqR8KTX8jSiD_RUBhJV4opimKTHKksvbJnjJlquz8kySCZMPr5Q",
-            "displayed_link": "https://www.stumptowncoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
-            "source": "Stumptown Coffee",
-            "snippet": "Stumptown Coffee Roasters brings you fresh beans, cold brew, and good vibes. Order online, visit a shop, or subscribe for the long haul.",
-            "highlighted_keywords": [
-              "fresh beans, cold brew, and good vibes"
-            ],
-            "rank": 4,
-            "page_rank": 4
-          },
-          {
-            "title": "Fresh Roasted Coffee | Intelligentsia | Illuminating Coffee",
-            "link": "https://www.intelligentsia.com/",
-            "displayed_link": "https://www.intelligentsia.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEzUKSfUKSfUKSfUKSfUKSfUKSfUKSfVKSfUKijUKSfUKSfUKSbUKSfUKSfUKSfUKSeAx3/MAAAAEXRSTlMAO5nwJf9/5BcP9kUFzSpfu+f5/RsAAACPSURBVHgBjZAJCoUwDAXT5dX82u3+p/1UqsFowGENAwMv9B3nyMZ7sgnBdhGIpkxAMuUGbJZjAGC7CiS7qrrMv0XEQTxvZooZBnnO8u9uPWt/czstStWqFrVC0HtaEBUaKbrITpoqsmpXAKE8q3Z3YOIcJkPJNW5NflaTTO6qmts1Oavu/Ry4VaUjt8G58w/CwQc98fZzoAAAAABJRU5ErkJggg==",
-            "source": "Intelligentsia Coffee",
-            "snippet": "Experience the freshest roasted coffee shipped for free right to you, and receive early access to all exclusive releases and promotions.Read more",
-            "highlighted_keywords": [
-              "freshest roasted coffee shipped for free right to you"
-            ],
-            "rank": 5,
-            "page_rank": 5
-          },
-          {
-            "title": "Coffee and Tea Buying Guides",
-            "link": "https://www.seriouseats.com/coffee-and-tea-buying-guides-7105482",
-            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
-            "source": "Serious Eats",
-            "snippet": "These buying guides will you help decide which coffee and tea gear you need to make the perfect cup and how to get the most out of the gadgets you own.",
-            "highlighted_keywords": [
-              "decide which coffee and tea gear you need"
-            ],
-            "rank": 6,
-            "page_rank": 6
-          },
-          {
-            "title": "Coffee, Roasted to Order in New York",
-            "link": "https://irvingfarmcoffee.com/collections/coffee?srsltid=AfmBOoq3dgbDxf1-6lPrGiDhPBWEQiP6f0jK7ILd-BL6JthAHNCGp4lV",
-            "displayed_link": "https://irvingfarmcoffee.com › collections › coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAAC3ElEQVR4AR1QEcz1MAA8KCwpNRnMRrXZbDJPOhxNZrXZYFaszEaFypdSaVSu1JrM5pk9ew77X/6Tg7vcXQ51VFbG6K8Sz5q6/McKClKwWVev5rlBf973EELyE6Y8EoCiFBX2j6jzU4cdZtNLVHuUP7H4r/J4G0yBUu9m9cWjQ2unlhKCkozNvRmVuKLllfpDPSJgXYeSAITUc2XDYb9ah9Fx5B0xpyMBBUAbEW8dWyvDmmPS+2GhLH7BKwerDWFJxcnZzSxuc/bRVloyOHQVAGxfRYuwRBmb6IXRf9N3888CoAAhqDCHH/8yP1d7PIs47TCPqAgIAJHNjOrOAxHeqMXxd62WuirQ/Bz12bDztwbNqUFYlrH1EJwBKBpRB89fCbeWDESbvoEbR/b7GKBzy9/L6bd7AkRGj3m94wj8B99P9hqe2rA81mdG7y7BcVYChHYrh714fV2dialN0ceB/cULIAScyy5dhoqAylm13M7q8zo38K0BbeX4KKNTtYLdtzDqkmcfj/XgPQoQ0GDM8d33c/E90gKf4nH2c1ODAvVqUZ8yLvHyVpkDS4AZq6EBA3o0Rj4W2oqw+uPdwnxiWgmtUKLpxhhrRO0bJDsf2olb7p+GowbQz+pROqKAVeHB/sr+/BO9IABovWr7zPaP1Fn1ZPLaonlVJUBRAH3oj6fdToikRbgY5UlGME5BiwJbEt6k7Szqx/eXg1GEIqgdIMC8osvahdHoHMdgiJ+w3Hks2grg/Fu7DykzZ/qY3anhFJZvHGTLQMBwr59jeXvEicy+jbuF/NV0jIKiYlPG8Xtdfxbs++DDGaajKCoAKFphp+PQCFrm4D0RKe6d71EAYLwSOsp388biLyh/naGGVDUKApST3+wyGb9cMawJvbNKK1EWAEjDybGGP2eDMJvRx6sj1DAJAlBUYrDPgtna2Y12t336eU+NGgRAN8ucutwDTZafzyrus47StYn9A3JNkcvEjXxRAAAAAElFTkSuQmCC",
-            "source": "Irving Farm New York",
-            "snippet": "New York coffee roasted to order in Millerton, NY. Blends, single origin, and cold brew shipped fresh. Whole bean or ground, on your schedule.",
-            "highlighted_keywords": [
-              "New York coffee roasted to order in Millerton, NY"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$8",
-                  "price_to": "$33",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "$8 to $33",
-                  "Free delivery over $30",
-                  "5-day returns"
-                ]
-              }
-            },
-            "rank": 7,
-            "page_rank": 7
-          },
-          {
-            "title": "Best Coffee in New York City",
-            "link": "https://beanbox.com/coffee/best-coffee-in-new-york?srsltid=AfmBOoqudRhz7KCSmLv6dE1xfM1W4UUIruKhgWr93NnPdyx59HogILwG",
-            "displayed_link": "https://beanbox.com › Bean Box - Coffees",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAZlBMVEX////f39+5ubmenp6Pj4+1tbXc3NzX19d5eXkAAAD4+PhLS0vIyMiCgoG/v7/7+/s7OzskJCRDQ0Nubm5hYWGYmJgxMTHz8/MsLCxQUFCkpKSKiopXV1cbGxvLy8sXFxdmZmbp6emrY8HSAAAAsElEQVR4Ab3PRQKDQAxA0eAERoq73f+QeEqAdfuW+aPwD4Zp2ZbjwpvnI7GDe3JD5ARvEh8UEP3BF4NihJytPE9Z8mwxT0o7SRimttJ7y1jKtXW7tWCthApJvcWGRU2NImuufHzVwC9LIFOs8Rq0BW8VrBSeOsh57Lfo4WHQKW8t7HCXwohcccRtOHpTjpwHh8Aogj7BRyM1PuQFXJx7q+GmSJCUlJhA2X6a2M4Ev7cAVUIR+z+lgecAAAAASUVORK5CYII=",
-            "source": "Bean Box",
-            "snippet": "Discover the best coffee in New York City, curated by Bean Box. Get coffee beans from NYC's top roasters, delivered fresh to your door.",
-            "highlighted_keywords": [
-              "Get coffee beans from NYC's top roasters"
-            ],
-            "inline_snippet": "4.8",
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$19",
-                  "price_to": "$80",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "4.8 store rating (2.3K)",
-                  "4.8",
-                  "$19 to $80",
-                  "Free delivery over $45",
-                  "30-day returns"
-                ]
-              }
-            },
             "rank": 8,
             "page_rank": 8
           },
           {
-            "title": "Coffee - The Strategist",
-            "link": "https://nymag.com/strategist/coffee",
-            "displayed_link": "https://nymag.com › strategist › coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABRklEQVR4Ac3SIWjFMBCA4d+UuIOre1RWlpqKyopHZKCu4kE81Ix4URNZ/3Tsk7VxlTPPw7z3aizwxCZmtxNJyAd3x3HoL/FnKKaiPAzID5TOzduMKjadnXxHvCVklHkDI6KiIi80dmZ9Ik2Qvu+6rh4u3Sivmqaq17PBm/Xe7lvkneWNFyqBFMzCo1647U3GlX+MqNZtYDptW+cxMtz7o+2l4HUyypENT39uCTyZ5CotOEeqccvgziF6lxyRcBHMF95g2niiHJu3K7td+z5xH+Urrfcz5Ja5eu4cZMK2BtdXpSEwSoyyhO3q368PH8j3oRRFhQa55IXUITn45Di6g4IyeLtUfLQssXlwtmSfSDMqgIcdWVGGSRrbmm4aDYcyRLghUKYlImqkXFInZyzc3GV8a0S/hzDaFmWyV1PsBxuhnP9oNT8B05Vy6pBYYXoAAAAASUVORK5CYII=",
-            "source": "New York Magazine",
-            "snippet": "The best coffee recommendations on the Strategist, from coffee grinders and makers to expert-recommended coffee beans.",
+            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
+            "link": "https://www.discountcoffee.com/",
+            "displayed_link": "https://www.discountcoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
+            "source": "DiscountCoffee.com",
+            "snippet": "Buy Breakroom Coffee Supplies, Starbucks, k-cup, pods, tea, sugar, creamer, hot chocolate, cappuccino. Free UPS Ground to homes & businesses nationwide.",
             "highlighted_keywords": [
-              "The best coffee recommendations on the Strategist"
+              "Breakroom Coffee Supplies"
             ],
             "rank": 9,
             "page_rank": 9
@@ -261,16 +223,16 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
-            "query": "Coffee powder",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
+            "query": "Coffee benefits",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
           },
           {
             "query": "Coffee name",
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
-            "query": "Coffee benefits",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
+            "query": "Coffee powder",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
           },
           {
             "query": "Coffee NESCAFÉ",
@@ -279,23 +241,23 @@
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abd8809e0387077&gl=us&hl=en&ei=-Cg4auayF_-A5OMPu92VmAw&start=10&sa=N&sstk=AU9db-C-UTmreVfdvbTYEt1TEXaXN3Qkw4YhKS0L2hweuunIYvR7fgR27I8IRHFeAsQl29r0OoMb4GzwPT8W1Zm8rNR5AaJIcsa43g&ved=2ahUKEwjmjqD59piVAxV_AHkGHbtuBcMQ8NMDegUIywEQFg",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3336b262ce3bcd9a&gl=us&hl=en&ei=CTc4atOFLeajptQPh4Sw4QQ&start=10&sa=N&sstk=AU9db-A3DhlgHS-plmG5TifSwaw2QQ4OL4ASdHdDXHehXqYvlFE84BXjEtLoZiu9fRbDQMeSqsTd61mvpbF2oTkVup3iIPIjhqaoRA&ved=2ahUKEwiTrsGuhJmVAxXmkYkEHQcCLEwQ8NMDegQITxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abd8809e0387077&gl=us&hl=en&ei=-Cg4auayF_-A5OMPu92VmAw&start=10&sa=N&sstk=AU9db-C-UTmreVfdvbTYEt1TEXaXN3Qkw4YhKS0L2hweuunIYvR7fgR27I8IRHFeAsQl29r0OoMb4GzwPT8W1Zm8rNR5AaJIcsa43g&ved=2ahUKEwjmjqD59piVAxV_AHkGHbtuBcMQ8tMDegUIywEQBA",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abd8809e0387077&gl=us&hl=en&ei=-Cg4auayF_-A5OMPu92VmAw&start=20&sa=N&sstk=AU9db-C-UTmreVfdvbTYEt1TEXaXN3Qkw4YhKS0L2hweuunIYvR7fgR27I8IRHFeAsQl29r0OoMb4GzwPT8W1Zm8rNR5AaJIcsa43g&ved=2ahUKEwjmjqD59piVAxV_AHkGHbtuBcMQ8tMDegUIywEQBg",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abd8809e0387077&gl=us&hl=en&ei=-Cg4auayF_-A5OMPu92VmAw&start=30&sa=N&sstk=AU9db-C-UTmreVfdvbTYEt1TEXaXN3Qkw4YhKS0L2hweuunIYvR7fgR27I8IRHFeAsQl29r0OoMb4GzwPT8W1Zm8rNR5AaJIcsa43g&ved=2ahUKEwjmjqD59piVAxV_AHkGHbtuBcMQ8tMDegUIywEQCA",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abd8809e0387077&gl=us&hl=en&ei=-Cg4auayF_-A5OMPu92VmAw&start=40&sa=N&sstk=AU9db-C-UTmreVfdvbTYEt1TEXaXN3Qkw4YhKS0L2hweuunIYvR7fgR27I8IRHFeAsQl29r0OoMb4GzwPT8W1Zm8rNR5AaJIcsa43g&ved=2ahUKEwjmjqD59piVAxV_AHkGHbtuBcMQ8tMDegUIywEQCg",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abd8809e0387077&gl=us&hl=en&ei=-Cg4auayF_-A5OMPu92VmAw&start=50&sa=N&sstk=AU9db-C-UTmreVfdvbTYEt1TEXaXN3Qkw4YhKS0L2hweuunIYvR7fgR27I8IRHFeAsQl29r0OoMb4GzwPT8W1Zm8rNR5AaJIcsa43g&ved=2ahUKEwjmjqD59piVAxV_AHkGHbtuBcMQ8tMDegUIywEQDA",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abd8809e0387077&gl=us&hl=en&ei=-Cg4auayF_-A5OMPu92VmAw&start=60&sa=N&sstk=AU9db-C-UTmreVfdvbTYEt1TEXaXN3Qkw4YhKS0L2hweuunIYvR7fgR27I8IRHFeAsQl29r0OoMb4GzwPT8W1Zm8rNR5AaJIcsa43g&ved=2ahUKEwjmjqD59piVAxV_AHkGHbtuBcMQ8tMDegUIywEQDg",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abd8809e0387077&gl=us&hl=en&ei=-Cg4auayF_-A5OMPu92VmAw&start=70&sa=N&sstk=AU9db-C-UTmreVfdvbTYEt1TEXaXN3Qkw4YhKS0L2hweuunIYvR7fgR27I8IRHFeAsQl29r0OoMb4GzwPT8W1Zm8rNR5AaJIcsa43g&ved=2ahUKEwjmjqD59piVAxV_AHkGHbtuBcMQ8tMDegUIywEQEA",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abd8809e0387077&gl=us&hl=en&ei=-Cg4auayF_-A5OMPu92VmAw&start=80&sa=N&sstk=AU9db-C-UTmreVfdvbTYEt1TEXaXN3Qkw4YhKS0L2hweuunIYvR7fgR27I8IRHFeAsQl29r0OoMb4GzwPT8W1Zm8rNR5AaJIcsa43g&ved=2ahUKEwjmjqD59piVAxV_AHkGHbtuBcMQ8tMDegUIywEQEg",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=2abd8809e0387077&gl=us&hl=en&ei=-Cg4auayF_-A5OMPu92VmAw&start=90&sa=N&sstk=AU9db-C-UTmreVfdvbTYEt1TEXaXN3Qkw4YhKS0L2hweuunIYvR7fgR27I8IRHFeAsQl29r0OoMb4GzwPT8W1Zm8rNR5AaJIcsa43g&ved=2ahUKEwjmjqD59piVAxV_AHkGHbtuBcMQ8tMDegUIywEQFA"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3336b262ce3bcd9a&gl=us&hl=en&ei=CTc4atOFLeajptQPh4Sw4QQ&start=10&sa=N&sstk=AU9db-A3DhlgHS-plmG5TifSwaw2QQ4OL4ASdHdDXHehXqYvlFE84BXjEtLoZiu9fRbDQMeSqsTd61mvpbF2oTkVup3iIPIjhqaoRA&ved=2ahUKEwiTrsGuhJmVAxXmkYkEHQcCLEwQ8tMDegQITxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3336b262ce3bcd9a&gl=us&hl=en&ei=CTc4atOFLeajptQPh4Sw4QQ&start=20&sa=N&sstk=AU9db-A3DhlgHS-plmG5TifSwaw2QQ4OL4ASdHdDXHehXqYvlFE84BXjEtLoZiu9fRbDQMeSqsTd61mvpbF2oTkVup3iIPIjhqaoRA&ved=2ahUKEwiTrsGuhJmVAxXmkYkEHQcCLEwQ8tMDegQITxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3336b262ce3bcd9a&gl=us&hl=en&ei=CTc4atOFLeajptQPh4Sw4QQ&start=30&sa=N&sstk=AU9db-A3DhlgHS-plmG5TifSwaw2QQ4OL4ASdHdDXHehXqYvlFE84BXjEtLoZiu9fRbDQMeSqsTd61mvpbF2oTkVup3iIPIjhqaoRA&ved=2ahUKEwiTrsGuhJmVAxXmkYkEHQcCLEwQ8tMDegQITxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3336b262ce3bcd9a&gl=us&hl=en&ei=CTc4atOFLeajptQPh4Sw4QQ&start=40&sa=N&sstk=AU9db-A3DhlgHS-plmG5TifSwaw2QQ4OL4ASdHdDXHehXqYvlFE84BXjEtLoZiu9fRbDQMeSqsTd61mvpbF2oTkVup3iIPIjhqaoRA&ved=2ahUKEwiTrsGuhJmVAxXmkYkEHQcCLEwQ8tMDegQITxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3336b262ce3bcd9a&gl=us&hl=en&ei=CTc4atOFLeajptQPh4Sw4QQ&start=50&sa=N&sstk=AU9db-A3DhlgHS-plmG5TifSwaw2QQ4OL4ASdHdDXHehXqYvlFE84BXjEtLoZiu9fRbDQMeSqsTd61mvpbF2oTkVup3iIPIjhqaoRA&ved=2ahUKEwiTrsGuhJmVAxXmkYkEHQcCLEwQ8tMDegQITxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3336b262ce3bcd9a&gl=us&hl=en&ei=CTc4atOFLeajptQPh4Sw4QQ&start=60&sa=N&sstk=AU9db-A3DhlgHS-plmG5TifSwaw2QQ4OL4ASdHdDXHehXqYvlFE84BXjEtLoZiu9fRbDQMeSqsTd61mvpbF2oTkVup3iIPIjhqaoRA&ved=2ahUKEwiTrsGuhJmVAxXmkYkEHQcCLEwQ8tMDegQITxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3336b262ce3bcd9a&gl=us&hl=en&ei=CTc4atOFLeajptQPh4Sw4QQ&start=70&sa=N&sstk=AU9db-A3DhlgHS-plmG5TifSwaw2QQ4OL4ASdHdDXHehXqYvlFE84BXjEtLoZiu9fRbDQMeSqsTd61mvpbF2oTkVup3iIPIjhqaoRA&ved=2ahUKEwiTrsGuhJmVAxXmkYkEHQcCLEwQ8tMDegQITxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3336b262ce3bcd9a&gl=us&hl=en&ei=CTc4atOFLeajptQPh4Sw4QQ&start=80&sa=N&sstk=AU9db-A3DhlgHS-plmG5TifSwaw2QQ4OL4ASdHdDXHehXqYvlFE84BXjEtLoZiu9fRbDQMeSqsTd61mvpbF2oTkVup3iIPIjhqaoRA&ved=2ahUKEwiTrsGuhJmVAxXmkYkEHQcCLEwQ8tMDegQITxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3336b262ce3bcd9a&gl=us&hl=en&ei=CTc4atOFLeajptQPh4Sw4QQ&start=90&sa=N&sstk=AU9db-A3DhlgHS-plmG5TifSwaw2QQ4OL4ASdHdDXHehXqYvlFE84BXjEtLoZiu9fRbDQMeSqsTd61mvpbF2oTkVup3iIPIjhqaoRA&ved=2ahUKEwiTrsGuhJmVAxXmkYkEHQcCLEwQ8tMDegQITxAU"
           }
         }
       }
     }
   },
-  "requestId": "ce742dde-a4f9-46d9-8905-c83dad095fae",
-  "timestamp": 1782069002441,
-  "recordTime": "2026-06-22 03:10:02"
+  "requestId": "db156c6a-d317-4677-a8c1-770c5c7342b9",
+  "timestamp": 1782069508655,
+  "recordTime": "2026-06-22 03:18:28"
 }
