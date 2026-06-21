@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-21 10:10:02",
+    "checkedAt": "2026-06-21 11:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.37,
-          "total_results": 2760000,
+          "time_taken": 0.44,
+          "total_results": 175,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,29 +24,29 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Lestat's on Park",
-            "rating": "4.4",
-            "reviews": "1.3K",
-            "address": "4.4(1.3K) · $1–10 · Coffee shop",
-            "hours": "4496 Park Blvd",
+            "title": "Cafe Gira Flohr",
+            "rating": "4.8",
+            "reviews": "9",
+            "address": "4.8(9) · $1–10 · Coffee shop",
+            "hours": "Napa, CA",
             "links": {}
           },
           {
             "position": 2,
-            "title": "University Coffee Co",
-            "rating": "5.0",
-            "reviews": "196",
-            "address": "5.0(196) · $1–10 · Coffee shop",
-            "hours": "3550 University Ave",
+            "title": "Ritual Coffee Roasters",
+            "rating": "4.3",
+            "reviews": "331",
+            "address": "4.3(331) · $1–10 · Coffee shop",
+            "hours": "Napa, CA",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Muri Coffee & Dessert",
-            "rating": "4.8",
-            "reviews": "519",
-            "address": "4.8(519) · $10–20 · Coffee shop",
-            "hours": "2528 University Ave",
+            "title": "Napa Valley Coffee Roasting Co",
+            "rating": "4.5",
+            "reviews": "645",
+            "address": "4.5(645) · $1–10 · Coffee shop",
+            "hours": "Napa, CA",
             "links": {}
           }
         ],
@@ -73,70 +73,6 @@
             "page_rank": 1
           },
           {
-            "title": "COFFEE COFFEE - Encinitas",
-            "link": "https://www.coffeecoffeeleucadia.com/",
-            "displayed_link": "https://www.coffeecoffeeleucadia.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXElEQVR4AeyRgaaDUBjHgz1CzzEA1iZEgO5QJUlQCeUuSVV6hg2gp7h7k7vnCAxA8N3vzL2ZK/ejs81FHz9n7Oz8f/v+wpypqkqs6/odz0/G92dReOZ0XbdqmuYNgz7KshwQ+MXAvmN32N2HBbdtu8aHj0g/hhGwu8iR/ZZ7xWQgAV0RvWJOiIroFfNCVGTb9jWKIsjzHF4lkGUZuK4LiqJcBV3XgWEYBnieB0mSQFEUDw9lbwZBAJqmgSRJsNlsbowC91iWBb7vQ5qm3MFxHN/+nCzLYygyJTCN4zhAVzS9YlVV78PmCZAVESvmFqAqolbMKUBDhywCi8AisAgsAovAfxewLGttGMYJ6V8lIElSj+dpu92uhZ8Jw3BlmuYeHz2jzPAEgQGDz7vdbs+yhL8GBUR8/IDnhVcAQy/IAYNFYcZQFdEr5hyqImLFXENXhEJfu2dnZ3ePkiAGAOIqkJS3QoqOAAAAAElFTkSuQmCC",
-            "source": "COFFEE COFFEE",
-            "snippet": "COFFEE COFFEE ... Hours: Daily, 6:30am - 3:30pm. Kitchen 7am - 2pm. Made with Squarespace.Read more",
-            "highlighted_keywords": [
-              "Hours: Daily, 6:30am - 3:30pm"
-            ],
-            "rank": 2,
-            "page_rank": 2
-          },
-          {
-            "title": "Best Coffee San Diego, CA - Last Updated June 2026",
-            "link": "https://m.yelp.com/search?find_desc=Best+Coffee&find_loc=San+Diego%2C+CA",
-            "displayed_link": "https://m.yelp.com › Food",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAflBMVEX0DRX0AAr0AAD0BhD3U1j5ioz5lZf2R0z8xcb+6uv+9fX/+Pn93N31GiH6pKb////4fX/0AAX1LzX8wML4hIb0ERn1KTD+5eX5kJP3XmL4bnH+8PH91db3PkX1HSb7t7r3T1X9ztD3Zmn6qKv4anD1NTz5dnr7r7H3Wl77tLUFH9U+AAAA4UlEQVR4AbTRRWKAMBAFUPKRUmxwd+f+Fyyzwpf9m8iLR/r/CEB8EGRF1X7eVSj6r2FaeEXboT3mO8I1dzS8V5T9gBFcfSpCgxjlKH6qHOtECWQ71bPbzkKWkBdUwtZMSq6Iqga8hgKofK78rKKlomkRdUrPRuoZoXKXoSIKyCiG8bIsNOKUtZjGGLhtORtJGThZL7tDXt/fN3KzCXCKaaFiWXFTeAKuQUpfECXb44XRWkSTvdAe7/FADRH5/BL0mLn3MgrPoUXI95nTUpgm9i+J2W4RUqbN7z/G8QDpb/QAAKRZDoQhpaGVAAAAAElFTkSuQmCC",
-            "source": "Yelp",
-            "snippet": "Best Coffee Near San Diego, California · 1. Forum Coffee · 2. MOTW Coffee & Pastries · 3. Provecho Coffee · 4. Drip Beans · 5. Selva Coffee House · 6. Saigon ...Read more",
-            "highlighted_keywords": [
-              "1. Forum Coffee"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "rating": "4.5",
-                  "reviews": "40,001"
-                },
-                "extensions": [
-                  "4.5",
-                  "(40,001)"
-                ]
-              }
-            },
-            "rank": 3,
-            "page_rank": 3
-          },
-          {
-            "title": "Jaunt Coffee Roasters | San Diego Specialty Coffee",
-            "link": "https://jauntcoffee.com/?srsltid=AfmBOopwUezDkjEt3deOiDDfu5AmP9_yPMoxbYu9ugR4qRxQ_OrrcYZq",
-            "displayed_link": "https://jauntcoffee.com",
-            "favicon": "data:image/png;base64,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",
-            "source": "Jaunt Coffee Roasters",
-            "snippet": "We're a specialty coffee roaster based in San Diego, CA. From our specialty coffee drinks, savory empanadas and breakfast burritos, to refreshing açaí bowls.Read more",
-            "highlighted_keywords": [
-              "specialty coffee roaster based in San Diego, CA"
-            ],
-            "rank": 4,
-            "page_rank": 4
-          },
-          {
-            "title": "Starbucks Coffee Company",
-            "link": "https://www.starbucks.com/",
-            "displayed_link": "https://www.starbucks.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUAqGIdqmY1r3EAp18ApFiUzqyt2L4Ao1ZfuYRTtn7q9e/3/PotrWzH5NP////W695BsXUAn0zf8OYApVtMtHrk8utvwJIAnEX6/fwAoVFivY2e0rPL59i/4c3+/v623cal1biOyaNsvo98xZuGyKGAxp1Ptn+w3MO6/E0wAAABrUlEQVR4AWKgEgDUQR9YkoJQFEBRJAjyVFAMiKHQnv3vcKjJkQz3kH5R/pdoxbig/9kma6Vr2fxrG6EGObV5+OfurhO0z2p7J8rhd3UFRj/Ns8ayWnTuV+1CwYDWUtG2AHfs294vbbUh7oDSegRwwFZfybsvfSa9ccZOozM37y1OEpSUOlcFUxfTZQzriyHyKi/RAgSxf12JLIO8FXLSaZUL9ZdfOMiuNXA26d6GK+TRVW/pKRkwq4w78PThkDHnM3bRcx9DvwLYCQC2yHu7+cdzmSOllZ0mpeXJQJi/hTs/2ieeADRw8GDk4cTjGXmCIO4YVDmvQORAUvU4xIoIdhPk3oU0dmNSyns7S13ovJM4DvL+L/0w15EdykJuLJzH673akPCOVDU2ysGVZht6lLa22YhjJLrci7FQAo7JOiwo7DC6N3Ii3htDOBgbHXIqW562+1NezpQoobV92QbNhhyRlmJon9Y7Ql9kpaRSzez0dWfLGjyELnXeI4kjrjZ3rDGprzhP8Gc4vMtkps7GZAYs9iuqCevBuBqmT6TRwE51MZ6vr3hf2mmaV+fhM60UJgvTnxtEAAAAAElFTkSuQmCC",
-            "source": "Starbucks",
-            "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
-            "highlighted_keywords": [
-              "Explore our menu of handcrafted drinks"
-            ],
-            "rank": 5,
-            "page_rank": 5
-          },
-          {
             "title": "What is coffee? - NCA",
             "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
             "displayed_link": "https://www.aboutcoffee.org › Origins",
@@ -146,12 +82,12 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 6,
-            "page_rank": 6
+            "rank": 2,
+            "page_rank": 2
           },
           {
             "title": "Specialty Coffee | Buy Coffee Online",
-            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOorOv6TuzVPbrl2S5GOiYMgO3eMLn83k0GFfcdjzyghAr25Gv9ID",
+            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOordHr4jWZBqSM48IiXQAmLwI3rgUb22ILa7DROX6YCCGy8HxUYb",
             "displayed_link": "https://www.drinktrade.com › All Specialty Coffee",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEX1PDL1Mib1Niz5lJD3dnD0Jxj+9/f////0AAD1LSD7vLn3enX94N/+8fD5o6D5mJX2Tkb6t7X5m5j0KRz3dXD7wL74iIP0IA780M/+6ej6sa/819X/+/v8yMb6q6j4kIz3ZV/1MSX0IRAImGEoAAAAoElEQVR4AWLACkYBIxMeOUD702AAMRRD65fU+kax/45nDXGxkRc/2bICQGmWcZokGVNVc8rpK5k1bdf0QzFO88KrmLuJpJiXV1ZpQxUsHPoGxsMO0Aiv7HJPTjQHE5yjBbFrN43yJxlH9FVoBZGPldFap9+kjzvWTkf0AjFU0r3HsnBkeiXQChIwbTwczP7+h5ekPBI+S76Lm7mc5Sv3hyvK6Qr7Kdp/7AAAAABJRU5ErkJggg==",
             "source": "Trade Coffee",
@@ -175,8 +111,21 @@
                 ]
               }
             },
-            "rank": 7,
-            "page_rank": 7
+            "rank": 3,
+            "page_rank": 3
+          },
+          {
+            "title": "Coffee and Tea Buying Guides",
+            "link": "https://www.seriouseats.com/coffee-and-tea-buying-guides-7105482",
+            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
+            "source": "Serious Eats",
+            "snippet": "These buying guides will you help decide which coffee and tea gear you need to make the perfect cup and how to get the most out of the gadgets you own.",
+            "highlighted_keywords": [
+              "decide which coffee and tea gear you need"
+            ],
+            "rank": 4,
+            "page_rank": 4
           },
           {
             "title": "Coffee - Walmart.com",
@@ -204,18 +153,60 @@
                 ]
               }
             },
+            "rank": 5,
+            "page_rank": 5
+          },
+          {
+            "title": "Coffee | Origin, Types, Uses, History, & Facts",
+            "link": "https://www.britannica.com/topic/coffee",
+            "displayed_link": "https://www.britannica.com › ... › Food",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
+            "source": "Britannica",
+            "snippet": "What is coffee? Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three ...Read more",
+            "highlighted_keywords": [
+              "coffee",
+              "Coffee",
+              "coffee",
+              "Coffee"
+            ],
+            "rank": 6,
+            "page_rank": 6
+          },
+          {
+            "title": "Best Coffee Buying Guide",
+            "link": "https://www.consumerreports.org/health/coffee/buying-guide/",
+            "displayed_link": "https://www.consumerreports.org › ... › Food › Coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAARVBMVEVHcEwArUwArk0Ar04Ar04ArEwAr00ApkMArE0AtE8AulIAsk8AtlEAq0oArU0AsE0Ar04AsU4Ar00Ar04ApksArk0Aq0zy7w09AAAAF3RSTlMARYStvVORBCzu///+Hf/M/972oRBiOTBEo5MAAAEJSURBVHgBzZAHlsQgCECxF5CgJrn/UVfcqTeYn6r/SYPfxFjnnTUAIdp/THqo7EpFRCLfbKUHrm0XCvE/lQ/hB9SzhlQngiJC3iHzKKXIsjPBedBSfcbZyZ+2MvpgrhUBR4OAstYrf7pthrjkPDWcCN8wifG4QUnwkq2jyo4s9lH3v3QttYk77EAZAT4kj961RnIJiohcX1IQ5dGKFjvPT8miz67DLlmupPXkpFK6H8IYdSsPZCz2zrc9rkdBkVi62ZFQWLAffWAJdrdy6gGvuZpbdmkRxqKTcSdYZMELtq20ayByk0SlzpRKA8X4QZWKD2Dr+B/fGKNO+CeHK2SNcufcklauwK/xB7xWEmVr7OCKAAAAAElFTkSuQmCC",
+            "source": "Consumer Reports",
+            "snippet": "All coffees consist of arabica or robusta beans, or a combination. Arabica beans are more expensive and tend to make better coffee.Read more",
+            "highlighted_keywords": [
+              "All coffees consist of arabica or robusta beans"
+            ],
+            "rank": 7,
+            "page_rank": 7
+          },
+          {
+            "title": "Types of Coffee Drinks",
+            "link": "https://www.folgerscoffee.com/coffee/articles/types-of-coffee",
+            "displayed_link": "https://www.folgerscoffee.com › coffee › articles › type...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEX/////lJn/AAD/ur7/7/D/x8r/UVv/ABf/DCP/ABv/AAX/AB//sbX/VF7//P3/6uz/pKj/ByH/IDL/1tj/hoz/RFD/eoH/5Ob/9/f/q6//Kzr/Mj//mJ7/GS3/N0T/PUn/anL/XGX/3uD/8/Oj3ubQAAAAkUlEQVR4Ab3SVQKEIBRAUcDu7tb9r9FuH07P/T1Ko8/C5BKzIsvxgtgnTSArIlHRLjKYhvQ+QxUl2dyjYo04pdsyhnHIIS4dkefDuAVg4IZ0jAhLxxhGJUmxm0kgTickiDAquRqZuXA3Z0FBHvWpdxjgkIpDf0JhQA82fXgmlgCSUY4PTKjq8O5pWhcMmy30bB3mYgrufwH5GAAAAABJRU5ErkJggg==",
+            "source": "Folgers Coffee",
+            "snippet": "From a strong and bold espresso to a smooth and creamy latte, there's a coffee drink for every taste preference.Read more",
+            "highlighted_keywords": [
+              "there's a coffee drink for every taste preference"
+            ],
             "rank": 8,
             "page_rank": 8
           },
           {
-            "title": "I Asked Coffee Experts How to Keep Beans Fresh—They ...",
-            "link": "https://www.seriouseats.com/best-way-to-store-coffee-12001722",
-            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
-            "source": "Serious Eats",
-            "snippet": "Wondering how to keep coffee fresh? Experts explain how long coffee lasts, whether freezing helps, and if you need fancy storage solutions.",
+            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
+            "link": "https://www.discountcoffee.com/",
+            "displayed_link": "https://www.discountcoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
+            "source": "DiscountCoffee.com",
+            "snippet": "Buy Breakroom Coffee Supplies, Starbucks, k-cup, pods, tea, sugar, creamer, hot chocolate, cappuccino. Free UPS Ground to homes & businesses nationwide.",
             "highlighted_keywords": [
-              "how long coffee lasts"
+              "Breakroom Coffee Supplies"
             ],
             "rank": 9,
             "page_rank": 9
@@ -223,57 +214,57 @@
         ],
         "relatedSearches": [
           {
-            "query": "Coffee nearby",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
-          },
-          {
             "query": "Coffee types",
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
+          },
+          {
+            "query": "Coffee nearby",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
           },
           {
             "query": "Coffee brands",
             "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
           },
           {
-            "query": "Coffee beans",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
-          },
-          {
             "query": "Coffee name",
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
-            "query": "Coffee powder",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
-          },
-          {
-            "query": "Coffee benefits",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
+            "query": "Coffee beans",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
             "query": "Coffee NESCAFÉ",
             "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
+          },
+          {
+            "query": "Coffee Pic",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Pic"
+          },
+          {
+            "query": "History of coffee",
+            "link": "https://www.google.com/search?gl=us&q=History+of+coffee"
           }
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=a0d0194811dc720d&gl=us&hl=en&ei=eLg3avaTKZW1ptQPtOSvyAc&start=10&sa=N&sstk=AU9db-DJI236RLJwWEzXHZnGnNoMy70Nkm4BquN9RrukpngkeDWfPVc8l2ZtCdc26xiIs6SkGLZVcwjiBEbjRYujc9Z8UnqJuiKS7A&ved=2ahUKEwj2r73Ui5iVAxWVmokEHTTyC3kQ8NMDegQIYhAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ffce3b99cdbb6cfc&gl=us&hl=en&ei=iMY3aqqODry8ptQP2Mqz0A8&start=10&sa=N&sstk=AU9db-B0U87YKVuJgw6IXAqLhUfBd6Ro6PTxrHU4KzTY_lFa_TwE_fsEEEueZ0q0qKWxcEbvUqA626mZEgRY7qEBe2ojoQ2QOPwvrg&ved=2ahUKEwiq8vCImZiVAxU8nokEHVjlDPoQ8NMDegUI3wEQFg",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=a0d0194811dc720d&gl=us&hl=en&ei=eLg3avaTKZW1ptQPtOSvyAc&start=10&sa=N&sstk=AU9db-DJI236RLJwWEzXHZnGnNoMy70Nkm4BquN9RrukpngkeDWfPVc8l2ZtCdc26xiIs6SkGLZVcwjiBEbjRYujc9Z8UnqJuiKS7A&ved=2ahUKEwj2r73Ui5iVAxWVmokEHTTyC3kQ8tMDegQIYhAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=a0d0194811dc720d&gl=us&hl=en&ei=eLg3avaTKZW1ptQPtOSvyAc&start=20&sa=N&sstk=AU9db-DJI236RLJwWEzXHZnGnNoMy70Nkm4BquN9RrukpngkeDWfPVc8l2ZtCdc26xiIs6SkGLZVcwjiBEbjRYujc9Z8UnqJuiKS7A&ved=2ahUKEwj2r73Ui5iVAxWVmokEHTTyC3kQ8tMDegQIYhAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=a0d0194811dc720d&gl=us&hl=en&ei=eLg3avaTKZW1ptQPtOSvyAc&start=30&sa=N&sstk=AU9db-DJI236RLJwWEzXHZnGnNoMy70Nkm4BquN9RrukpngkeDWfPVc8l2ZtCdc26xiIs6SkGLZVcwjiBEbjRYujc9Z8UnqJuiKS7A&ved=2ahUKEwj2r73Ui5iVAxWVmokEHTTyC3kQ8tMDegQIYhAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=a0d0194811dc720d&gl=us&hl=en&ei=eLg3avaTKZW1ptQPtOSvyAc&start=40&sa=N&sstk=AU9db-DJI236RLJwWEzXHZnGnNoMy70Nkm4BquN9RrukpngkeDWfPVc8l2ZtCdc26xiIs6SkGLZVcwjiBEbjRYujc9Z8UnqJuiKS7A&ved=2ahUKEwj2r73Ui5iVAxWVmokEHTTyC3kQ8tMDegQIYhAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=a0d0194811dc720d&gl=us&hl=en&ei=eLg3avaTKZW1ptQPtOSvyAc&start=50&sa=N&sstk=AU9db-DJI236RLJwWEzXHZnGnNoMy70Nkm4BquN9RrukpngkeDWfPVc8l2ZtCdc26xiIs6SkGLZVcwjiBEbjRYujc9Z8UnqJuiKS7A&ved=2ahUKEwj2r73Ui5iVAxWVmokEHTTyC3kQ8tMDegQIYhAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=a0d0194811dc720d&gl=us&hl=en&ei=eLg3avaTKZW1ptQPtOSvyAc&start=60&sa=N&sstk=AU9db-DJI236RLJwWEzXHZnGnNoMy70Nkm4BquN9RrukpngkeDWfPVc8l2ZtCdc26xiIs6SkGLZVcwjiBEbjRYujc9Z8UnqJuiKS7A&ved=2ahUKEwj2r73Ui5iVAxWVmokEHTTyC3kQ8tMDegQIYhAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=a0d0194811dc720d&gl=us&hl=en&ei=eLg3avaTKZW1ptQPtOSvyAc&start=70&sa=N&sstk=AU9db-DJI236RLJwWEzXHZnGnNoMy70Nkm4BquN9RrukpngkeDWfPVc8l2ZtCdc26xiIs6SkGLZVcwjiBEbjRYujc9Z8UnqJuiKS7A&ved=2ahUKEwj2r73Ui5iVAxWVmokEHTTyC3kQ8tMDegQIYhAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=a0d0194811dc720d&gl=us&hl=en&ei=eLg3avaTKZW1ptQPtOSvyAc&start=80&sa=N&sstk=AU9db-DJI236RLJwWEzXHZnGnNoMy70Nkm4BquN9RrukpngkeDWfPVc8l2ZtCdc26xiIs6SkGLZVcwjiBEbjRYujc9Z8UnqJuiKS7A&ved=2ahUKEwj2r73Ui5iVAxWVmokEHTTyC3kQ8tMDegQIYhAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=a0d0194811dc720d&gl=us&hl=en&ei=eLg3avaTKZW1ptQPtOSvyAc&start=90&sa=N&sstk=AU9db-DJI236RLJwWEzXHZnGnNoMy70Nkm4BquN9RrukpngkeDWfPVc8l2ZtCdc26xiIs6SkGLZVcwjiBEbjRYujc9Z8UnqJuiKS7A&ved=2ahUKEwj2r73Ui5iVAxWVmokEHTTyC3kQ8tMDegQIYhAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ffce3b99cdbb6cfc&gl=us&hl=en&ei=iMY3aqqODry8ptQP2Mqz0A8&start=10&sa=N&sstk=AU9db-B0U87YKVuJgw6IXAqLhUfBd6Ro6PTxrHU4KzTY_lFa_TwE_fsEEEueZ0q0qKWxcEbvUqA626mZEgRY7qEBe2ojoQ2QOPwvrg&ved=2ahUKEwiq8vCImZiVAxU8nokEHVjlDPoQ8tMDegUI3wEQBA",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ffce3b99cdbb6cfc&gl=us&hl=en&ei=iMY3aqqODry8ptQP2Mqz0A8&start=20&sa=N&sstk=AU9db-B0U87YKVuJgw6IXAqLhUfBd6Ro6PTxrHU4KzTY_lFa_TwE_fsEEEueZ0q0qKWxcEbvUqA626mZEgRY7qEBe2ojoQ2QOPwvrg&ved=2ahUKEwiq8vCImZiVAxU8nokEHVjlDPoQ8tMDegUI3wEQBg",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ffce3b99cdbb6cfc&gl=us&hl=en&ei=iMY3aqqODry8ptQP2Mqz0A8&start=30&sa=N&sstk=AU9db-B0U87YKVuJgw6IXAqLhUfBd6Ro6PTxrHU4KzTY_lFa_TwE_fsEEEueZ0q0qKWxcEbvUqA626mZEgRY7qEBe2ojoQ2QOPwvrg&ved=2ahUKEwiq8vCImZiVAxU8nokEHVjlDPoQ8tMDegUI3wEQCA",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ffce3b99cdbb6cfc&gl=us&hl=en&ei=iMY3aqqODry8ptQP2Mqz0A8&start=40&sa=N&sstk=AU9db-B0U87YKVuJgw6IXAqLhUfBd6Ro6PTxrHU4KzTY_lFa_TwE_fsEEEueZ0q0qKWxcEbvUqA626mZEgRY7qEBe2ojoQ2QOPwvrg&ved=2ahUKEwiq8vCImZiVAxU8nokEHVjlDPoQ8tMDegUI3wEQCg",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ffce3b99cdbb6cfc&gl=us&hl=en&ei=iMY3aqqODry8ptQP2Mqz0A8&start=50&sa=N&sstk=AU9db-B0U87YKVuJgw6IXAqLhUfBd6Ro6PTxrHU4KzTY_lFa_TwE_fsEEEueZ0q0qKWxcEbvUqA626mZEgRY7qEBe2ojoQ2QOPwvrg&ved=2ahUKEwiq8vCImZiVAxU8nokEHVjlDPoQ8tMDegUI3wEQDA",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ffce3b99cdbb6cfc&gl=us&hl=en&ei=iMY3aqqODry8ptQP2Mqz0A8&start=60&sa=N&sstk=AU9db-B0U87YKVuJgw6IXAqLhUfBd6Ro6PTxrHU4KzTY_lFa_TwE_fsEEEueZ0q0qKWxcEbvUqA626mZEgRY7qEBe2ojoQ2QOPwvrg&ved=2ahUKEwiq8vCImZiVAxU8nokEHVjlDPoQ8tMDegUI3wEQDg",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ffce3b99cdbb6cfc&gl=us&hl=en&ei=iMY3aqqODry8ptQP2Mqz0A8&start=70&sa=N&sstk=AU9db-B0U87YKVuJgw6IXAqLhUfBd6Ro6PTxrHU4KzTY_lFa_TwE_fsEEEueZ0q0qKWxcEbvUqA626mZEgRY7qEBe2ojoQ2QOPwvrg&ved=2ahUKEwiq8vCImZiVAxU8nokEHVjlDPoQ8tMDegUI3wEQEA",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ffce3b99cdbb6cfc&gl=us&hl=en&ei=iMY3aqqODry8ptQP2Mqz0A8&start=80&sa=N&sstk=AU9db-B0U87YKVuJgw6IXAqLhUfBd6Ro6PTxrHU4KzTY_lFa_TwE_fsEEEueZ0q0qKWxcEbvUqA626mZEgRY7qEBe2ojoQ2QOPwvrg&ved=2ahUKEwiq8vCImZiVAxU8nokEHVjlDPoQ8tMDegUI3wEQEg",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ffce3b99cdbb6cfc&gl=us&hl=en&ei=iMY3aqqODry8ptQP2Mqz0A8&start=90&sa=N&sstk=AU9db-B0U87YKVuJgw6IXAqLhUfBd6Ro6PTxrHU4KzTY_lFa_TwE_fsEEEueZ0q0qKWxcEbvUqA626mZEgRY7qEBe2ojoQ2QOPwvrg&ved=2ahUKEwiq8vCImZiVAxU8nokEHVjlDPoQ8tMDegUI3wEQFA"
           }
         }
       }
     }
   },
-  "requestId": "cb178684-7a6c-4e19-857f-34bbc0bce742",
-  "timestamp": 1782040115475,
-  "recordTime": "2026-06-21 19:08:35"
+  "requestId": "f641298e-22ea-4af4-a715-bc1166608345",
+  "timestamp": 1782040203083,
+  "recordTime": "2026-06-21 19:10:02"
 }
