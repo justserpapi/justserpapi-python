@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-21 05:10:03",
+    "checkedAt": "2026-06-21 06:10:12",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.3,
-          "total_results": 163,
+          "time_taken": 0.35,
+          "total_results": 174,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -18,99 +18,35 @@
           "original_query_yields_zero_results": false,
           "url": "https://www.google.com/search?q=coffee&oq=coffee&gl=us&hl=en&safe=off&sourceid=chrome&ie=UTF-8"
         },
-        "ads": [
-          {
-            "position": 1,
-            "block_position": "bottom",
-            "title": "Specialty Coffee",
-            "snippet": "Shop All Oak & Bond Coffee Co — The Best Bourbon Barrel Aged Coffee. Coffee Locally Sourced In...",
-            "displayed_link": "https://www.oakandbondcoffee.com",
-            "link": "https://oakandbondcoffee.com/collections/shop-all",
-            "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwiNhOLNyJeVAxXHkYMHHcv1JbQYACICCAIQARoCZWY&co=1&ase=2&gclid=EAIaIQobChMIjYTizciXlQMVx5GDBx3L9SW0EAMYASAAEgJxrfD_BwE&cid=CAASuwHkaK0iSeoJmAGD0pDY1TGdjKg1VHFdbxsB2X80a-TIY_KWhs_jjiEr2pszVDVvYdlavtduyRXCO0OIR7EVrzhLrZw2F8HfIwTF9AE8itqBeAnzKAxzT_41sBnH0YDJuNJ780H38hcmCLatp3xDbQYbXY_FU22CYBpUt4Wtw-zigYKfQKqvn9ykJeCzbYwbPxB85Wcb7pSJUxKbZ2sSAah8DRUSXeldmRJdP_TyuZuAB1ZAcbD0zHWPT0z8&cce=2&category=acrcp_v1_32&sig=AOD64_01vWSYQgReGjntxIBvsNzsmUFY_Q&q&nis=4&adurl",
-            "source": "Oak & Bond Coffee Co.",
-            "sitelinks": [
-              {
-                "title": "Bourbon Barrel Coffee",
-                "link": "/aclk?sa=L&ai=DChsSEwiNhOLNyJeVAxXHkYMHHcv1JbQYACICCAIQCRoCZWY&co=1&ase=2&gclid=EAIaIQobChMIjYTizciXlQMVx5GDBx3L9SW0EAMYASAEEgKJ3vD_BwE&cid=CAASuwHkaK0iSeoJmAGD0pDY1TGdjKg1VHFdbxsB2X80a-TIY_KWhs_jjiEr2pszVDVvYdlavtduyRXCO0OIR7EVrzhLrZw2F8HfIwTF9AE8itqBeAnzKAxzT_41sBnH0YDJuNJ780H38hcmCLatp3xDbQYbXY_FU22CYBpUt4Wtw-zigYKfQKqvn9ykJeCzbYwbPxB85Wcb7pSJUxKbZ2sSAah8DRUSXeldmRJdP_TyuZuAB1ZAcbD0zHWPT0z8&cce=2&category=acrcp_v1_32&sig=AOD64_2KIEBvzGbtteTbyhrIt-3zDViGMQ&adurl=&q="
-              },
-              {
-                "title": "Shop Our Coffee Lines",
-                "link": "https://oakandbondcoffee.com/"
-              },
-              {
-                "title": "Coffee Subscriptions",
-                "link": "https://oakandbondcoffee.com/collections/subscriptions"
-              },
-              {
-                "title": "Barrel Aged Coffee",
-                "link": "/aclk?sa=L&ai=DChsSEwiNhOLNyJeVAxXHkYMHHcv1JbQYACICCAIQCxoCZWY&co=1&ase=2&gclid=EAIaIQobChMIjYTizciXlQMVx5GDBx3L9SW0EAMYASAFEgKLJvD_BwE&cid=CAASuwHkaK0iSeoJmAGD0pDY1TGdjKg1VHFdbxsB2X80a-TIY_KWhs_jjiEr2pszVDVvYdlavtduyRXCO0OIR7EVrzhLrZw2F8HfIwTF9AE8itqBeAnzKAxzT_41sBnH0YDJuNJ780H38hcmCLatp3xDbQYbXY_FU22CYBpUt4Wtw-zigYKfQKqvn9ykJeCzbYwbPxB85Wcb7pSJUxKbZ2sSAah8DRUSXeldmRJdP_TyuZuAB1ZAcbD0zHWPT0z8&cce=2&category=acrcp_v1_32&sig=AOD64_18DFDz2h69Oz-aG932VnnY4hdXWw&adurl=&q="
-              },
-              {
-                "title": "Shop",
-                "link": "https://oakandbondcoffee.com/collections/shop-all"
-              }
-            ],
-            "extensions": ""
-          },
-          {
-            "position": 2,
-            "block_position": "bottom",
-            "title": "Top-Rated Coffee Brand",
-            "snippet": "Coffee Made in Seconds — Kahawa 1893: Single Serve Packs of African Coffee. Discover Your Perfect Cup",
-            "displayed_link": "https://www.kahawa1893.com",
-            "link": "https://kahawa1893.com/products/single-serve-coffee-packs",
-            "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwiNhOLNyJeVAxXHkYMHHcv1JbQYACICCAIQABoCZWY&co=1&ase=2&gclid=EAIaIQobChMIjYTizciXlQMVx5GDBx3L9SW0EAMYAiAAEgJqOvD_BwE&cid=CAASuwHkaK0iSeoJmAGD0pDY1TGdjKg1VHFdbxsB2X80a-TIY_KWhs_jjiEr2pszVDVvYdlavtduyRXCO0OIR7EVrzhLrZw2F8HfIwTF9AE8itqBeAnzKAxzT_41sBnH0YDJuNJ780H38hcmCLatp3xDbQYbXY_FU22CYBpUt4Wtw-zigYKfQKqvn9ykJeCzbYwbPxB85Wcb7pSJUxKbZ2sSAah8DRUSXeldmRJdP_TyuZuAB1ZAcbD0zHWPT0z8&cce=2&category=acrcp_v1_32&sig=AOD64_0bcZ2gLC8NCuEqeEadlXArU1ED8Q&q&nis=4&adurl",
-            "source": "Kahawa 1893",
-            "sitelinks": [
-              {
-                "title": "Functional Coffee",
-                "link": "https://kahawa1893.com/collections/coffee-with-benefits"
-              },
-              {
-                "title": "Premium Coffee Beans",
-                "link": "/aclk?sa=L&ai=DChsSEwiNhOLNyJeVAxXHkYMHHcv1JbQYACICCAIQChoCZWY&co=1&ase=2&gclid=EAIaIQobChMIjYTizciXlQMVx5GDBx3L9SW0EAMYAiAFEgJWgfD_BwE&cid=CAASuwHkaK0iSeoJmAGD0pDY1TGdjKg1VHFdbxsB2X80a-TIY_KWhs_jjiEr2pszVDVvYdlavtduyRXCO0OIR7EVrzhLrZw2F8HfIwTF9AE8itqBeAnzKAxzT_41sBnH0YDJuNJ780H38hcmCLatp3xDbQYbXY_FU22CYBpUt4Wtw-zigYKfQKqvn9ykJeCzbYwbPxB85Wcb7pSJUxKbZ2sSAah8DRUSXeldmRJdP_TyuZuAB1ZAcbD0zHWPT0z8&cce=2&category=acrcp_v1_32&sig=AOD64_22fLR-yBQlSoSGNVYmPA1wlqtpKA&adurl=&q="
-              },
-              {
-                "title": "As Seen On Shark Tank - Coffee",
-                "link": "/aclk?sa=L&ai=DChsSEwiNhOLNyJeVAxXHkYMHHcv1JbQYACICCAIQDBoCZWY&co=1&ase=2&gclid=EAIaIQobChMIjYTizciXlQMVx5GDBx3L9SW0EAMYAiAGEgKIt_D_BwE&cid=CAASuwHkaK0iSeoJmAGD0pDY1TGdjKg1VHFdbxsB2X80a-TIY_KWhs_jjiEr2pszVDVvYdlavtduyRXCO0OIR7EVrzhLrZw2F8HfIwTF9AE8itqBeAnzKAxzT_41sBnH0YDJuNJ780H38hcmCLatp3xDbQYbXY_FU22CYBpUt4Wtw-zigYKfQKqvn9ykJeCzbYwbPxB85Wcb7pSJUxKbZ2sSAah8DRUSXeldmRJdP_TyuZuAB1ZAcbD0zHWPT0z8&cce=2&category=acrcp_v1_32&sig=AOD64_3AStUMKR_HfHidBKeFLLMWdYQx6g&adurl=&q="
-              },
-              {
-                "title": "Coffee Bags",
-                "link": "https://kahawa1893.com/collections/coffee-bags"
-              }
-            ],
-            "extensions": ""
-          }
-        ],
         "knowledge_graph": {
           "title": "Coffee"
         },
         "local_results": [
           {
             "position": 1,
-            "title": "Coffee Corral Roasters",
-            "rating": "4.6",
-            "reviews": "455",
-            "address": "4.6(455) · $1–10 · Coffee shop",
-            "hours": "Baker City, OR",
+            "title": "Mocha Coffee Trade Company",
+            "rating": "4.7",
+            "reviews": "33",
+            "address": "4.7(33) · $1–10 · Coffee shop",
+            "hours": "Springfield, MA",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Steens Mountain Coffee Co.",
-            "rating": "4.6",
-            "reviews": "78",
-            "address": "4.6(78) · $10–20 · Cafe",
-            "hours": "Burns, OR",
+            "title": "Who Cooks for You Cafe",
+            "rating": "5.0",
+            "reviews": "36",
+            "address": "5.0(36) · $10–20 · Coffee shop",
+            "hours": "Springfield, MA",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Route 26 Espresso",
-            "rating": "4.8",
-            "reviews": "101",
-            "address": "4.8(101) · $1–10 · Coffee shop",
-            "hours": "Mitchell, OR",
+            "title": "Ludlow Coffee Co.",
+            "rating": "4.7",
+            "reviews": "80",
+            "address": "4.7(80) · $10–20 · Coffee shop",
+            "hours": "Ludlow, MA",
             "links": {}
           }
         ],
@@ -121,9 +57,11 @@
             "displayed_link": "https://en.wikipedia.org › wiki › Coffee",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAnklEQVR4AeTNIQiDQABG4b+u17X1aF6PK3YEO9iMJqPVau82y4FgMezS0oVLhqsHtrcqeqzDXv3CEz/6L4yTtZM3dnHmPTtjzXZAXKYVo4agkU2GI2Lloc6JDez1+flswMu1EQZ3xlE7lK8eKDkjtwE+crBMV+wesKmCiisGGepZIfQJpMj9SNb2MYWrChjVkULuCyCfRvsdmBieyQQAsoDk/9ryhFMAAAAASUVORK5CYII=",
             "source": "Wikipedia",
-            "snippet": "Coffee is a beverage brewed from roasted ground coffee beans. Darkly colored and bitter, coffee has a stimulating effect on humans due to its caffeine content,",
+            "snippet": "Coffee is a beverage brewed from roasted ground coffee beans. Darkly colored and bitter, coffee has a stimulating effect on humans due to its caffeine content, ...Read more",
             "highlighted_keywords": [
-              "a beverage brewed from roasted ground coffee beans"
+              "Coffee",
+              "coffee",
+              "coffee"
             ],
             "rich_snippet": {
               "bottom": {
@@ -135,32 +73,6 @@
             "page_rank": 1
           },
           {
-            "title": "Buy Coffee, Tea, Powders Online | The Coffee Bean & Tea ...",
-            "link": "https://www.coffeebean.com/",
-            "displayed_link": "https://www.coffeebean.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEVHcExTLG1TLG1TLG1TLW1TLG1TLG1TLW1TLG1TLG1TLG30H49eAAAAC3RSTlMAFT5uyLedLN38V4AViBkAAADiSURBVHgBlZAlYgIAAAAPl4JLm3Zcy1zifGtzLbi2uaQ5UnC+iWvk2sU7JkfrcMxAH93qweWatW+yJ49GE3kKAgCpEwBjBgBkeeI5K/iCmADzifL96QukS5FnwEnyaXMRBAdrNhCskHz/DSJzrZXUINxAeVVCeLFbT0yDaBs0QtnmndpQVLf0FEj6r8Fopavx2gdpDB3dFtSe00HhC4YiILxzrU9D9IH5aUC5txsUzFAt4gJ0e5dquLD5ETwCRx79CSR/rUgXgRCyHxC4i62EscCvfv7qWD66vf6c/jr/DBPTBBH3MWVXMDuJAAAAAElFTkSuQmCC",
-            "source": "The Coffee Bean & Tea Leaf",
-            "snippet": "Buy exceptional coffee, tea, powders, equipment and drinkware at The Coffee Bean & Tea Leaf® online store to enjoy our globally sourced products at home.",
-            "highlighted_keywords": [
-              "Buy exceptional coffee, tea, powders, equipment and drinkware"
-            ],
-            "rank": 2,
-            "page_rank": 2
-          },
-          {
-            "title": "Fresh Roasted Coffee | Intelligentsia | Illuminating Coffee",
-            "link": "https://www.intelligentsia.com/",
-            "displayed_link": "https://www.intelligentsia.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEzUKSfUKSfUKSfUKSfUKSfUKSfUKSfVKSfUKijUKSfUKSfUKSbUKSfUKSfUKSfUKSeAx3/MAAAAEXRSTlMAO5nwJf9/5BcP9kUFzSpfu+f5/RsAAACPSURBVHgBjZAJCoUwDAXT5dX82u3+p/1UqsFowGENAwMv9B3nyMZ7sgnBdhGIpkxAMuUGbJZjAGC7CiS7qrrMv0XEQTxvZooZBnnO8u9uPWt/czstStWqFrVC0HtaEBUaKbrITpoqsmpXAKE8q3Z3YOIcJkPJNW5NflaTTO6qmts1Oavu/Ry4VaUjt8G58w/CwQc98fZzoAAAAABJRU5ErkJggg==",
-            "source": "Intelligentsia Coffee",
-            "snippet": "Experience the freshest roasted coffee shipped for free right to you, and receive early access to all exclusive releases and promotions.Read more",
-            "highlighted_keywords": [
-              "freshest roasted coffee shipped for free right to you"
-            ],
-            "rank": 3,
-            "page_rank": 3
-          },
-          {
             "title": "What is coffee? - NCA",
             "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
             "displayed_link": "https://www.aboutcoffee.org › Origins",
@@ -170,6 +82,60 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
+            "rank": 2,
+            "page_rank": 2
+          },
+          {
+            "title": "Shop",
+            "link": "https://www.newenglandcoffee.com/shop/",
+            "displayed_link": "https://www.newenglandcoffee.com › shop",
+            "source": "New England Coffee",
+            "snippet": "New England Coffee can be bought online through our store. Get your coffee beans for sale right here. You can buy flavored coffee and ship it to your door.",
+            "highlighted_keywords": [
+              "Get your coffee beans for sale right here"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$4",
+                  "price_to": "$38",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$4 to $38",
+                  "14-day returns"
+                ]
+              }
+            },
+            "rank": 3,
+            "page_rank": 3
+          },
+          {
+            "title": "Specialty Coffee | Buy Coffee Online",
+            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOooh6ZXHMoVdkx0d9_dxrWHA2EVpWuh_uo3pEJZduE2vmJdu2hlD",
+            "displayed_link": "https://www.drinktrade.com › All Specialty Coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEX1PDL1Mib1Niz5lJD3dnD0Jxj+9/f////0AAD1LSD7vLn3enX94N/+8fD5o6D5mJX2Tkb6t7X5m5j0KRz3dXD7wL74iIP0IA780M/+6ej6sa/819X/+/v8yMb6q6j4kIz3ZV/1MSX0IRAImGEoAAAAoElEQVR4AWLACkYBIxMeOUD702AAMRRD65fU+kax/45nDXGxkRc/2bICQGmWcZokGVNVc8rpK5k1bdf0QzFO88KrmLuJpJiXV1ZpQxUsHPoGxsMO0Aiv7HJPTjQHE5yjBbFrN43yJxlH9FVoBZGPldFap9+kjzvWTkf0AjFU0r3HsnBkeiXQChIwbTwczP7+h5ekPBI+S76Lm7mc5Sv3hyvK6Qr7Kdp/7AAAAABJRU5ErkJggg==",
+            "source": "Trade Coffee",
+            "snippet": "Choose from a wide variety of coffee from the top roasters in the US. All our specialty coffee is roasted to order and shipped fresh to your door.Read more",
+            "highlighted_keywords": [
+              "Choose from a wide variety of coffee"
+            ],
+            "inline_snippet": "4.7",
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$17",
+                  "price_to": "$33",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "4.7 store rating (225)",
+                  "4.7",
+                  "$17 to $33",
+                  "Free delivery"
+                ]
+              }
+            },
             "rank": 4,
             "page_rank": 4
           },
@@ -185,48 +151,6 @@
             ],
             "rank": 5,
             "page_rank": 5
-          },
-          {
-            "title": "Coffee Coffee - Bel Air",
-            "link": "https://www.coffeecoffee-online.com/",
-            "displayed_link": "https://www.coffeecoffee-online.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXElEQVR4AeyRgaaDUBjHgz1CzzEA1iZEgO5QJUlQCeUuSVV6hg2gp7h7k7vnCAxA8N3vzL2ZK/ejs81FHz9n7Oz8f/v+wpypqkqs6/odz0/G92dReOZ0XbdqmuYNgz7KshwQ+MXAvmN32N2HBbdtu8aHj0g/hhGwu8iR/ZZ7xWQgAV0RvWJOiIroFfNCVGTb9jWKIsjzHF4lkGUZuK4LiqJcBV3XgWEYBnieB0mSQFEUDw9lbwZBAJqmgSRJsNlsbowC91iWBb7vQ5qm3MFxHN/+nCzLYygyJTCN4zhAVzS9YlVV78PmCZAVESvmFqAqolbMKUBDhywCi8AisAgsAovAfxewLGttGMYJ6V8lIElSj+dpu92uhZ8Jw3BlmuYeHz2jzPAEgQGDz7vdbs+yhL8GBUR8/IDnhVcAQy/IAYNFYcZQFdEr5hyqImLFXENXhEJfu2dnZ3ePkiAGAOIqkJS3QoqOAAAAAElFTkSuQmCC",
-            "source": "coffeecoffee-online.com",
-            "snippet": "Coffee Coffee, repeatedly voted Harford County's BEST, is your go-to spot for freshly roasted coffee, tea and foodie products, breakfast and lunch, unique ...Read more",
-            "highlighted_keywords": [
-              "freshly roasted coffee, tea and foodie products"
-            ],
-            "rank": 6,
-            "page_rank": 6
-          },
-          {
-            "title": "Coffee - Walmart.com",
-            "link": "https://www.walmart.com/cp/coffee/1086446",
-            "displayed_link": "https://www.walmart.com › coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEz/wRz/wR7/wh//wh//wBn/wh//wiD/wR7/wh//wh7/wh7/wR//wh//wR3/wh//wh7/wh//wh5JC3qUAAAAE3RSTlMADS92+AfR/8e5YYeZnhflTOw/6JuIewAAAKFJREFUeAG1koURA0EIANHn7bT/YsPEjXj2XFF4GSTC8JBFODrTwWzATw5h9EOImMwmuGIWW7aT1SxtJ4vJDFvyZP6CfMa2vUXbjbw9xGROmRGqSAWcizkJYQul5itZsjIrLuKLlgj2YF/8uHRwevGjpSOcUOJhzeDkdWBSuEJ1P24fvXwYfxsrFJvy3Amx+2LHByGLg/2HHGIxhgglQniVDZyEB/jjfAsrAAAAAElFTkSuQmCC",
-            "source": "Walmart",
-            "snippet": "Shop for Coffee at Walmart.com. Buy Ground coffee, coffee pods, instant coffee, and whole bean coffee. Save money. Live better.",
-            "highlighted_keywords": [
-              "Shop for Coffee at Walmart.com"
-            ],
-            "inline_snippet": "4.2",
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$5",
-                  "price_to": "$36",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "4.2 store rating (3.8K)",
-                  "4.2",
-                  "$5 to $36",
-                  "Free 90-day returns"
-                ]
-              }
-            },
-            "rank": 7,
-            "page_rank": 7
           },
           {
             "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
@@ -252,8 +176,8 @@
                 ]
               }
             },
-            "rank": 8,
-            "page_rank": 8
+            "rank": 6,
+            "page_rank": 6
           },
           {
             "title": "Coffee | Origin, Types, Uses, History, & Facts",
@@ -268,6 +192,32 @@
               "coffee",
               "Coffee"
             ],
+            "rank": 7,
+            "page_rank": 7
+          },
+          {
+            "title": "Types of Coffee Drinks",
+            "link": "https://www.folgerscoffee.com/coffee/articles/types-of-coffee",
+            "displayed_link": "https://www.folgerscoffee.com › coffee › articles › type...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEX/////lJn/AAD/ur7/7/D/x8r/UVv/ABf/DCP/ABv/AAX/AB//sbX/VF7//P3/6uz/pKj/ByH/IDL/1tj/hoz/RFD/eoH/5Ob/9/f/q6//Kzr/Mj//mJ7/GS3/N0T/PUn/anL/XGX/3uD/8/Oj3ubQAAAAkUlEQVR4Ab3SVQKEIBRAUcDu7tb9r9FuH07P/T1Ko8/C5BKzIsvxgtgnTSArIlHRLjKYhvQ+QxUl2dyjYo04pdsyhnHIIS4dkefDuAVg4IZ0jAhLxxhGJUmxm0kgTickiDAquRqZuXA3Z0FBHvWpdxjgkIpDf0JhQA82fXgmlgCSUY4PTKjq8O5pWhcMmy30bB3mYgrufwH5GAAAAABJRU5ErkJggg==",
+            "source": "Folgers Coffee",
+            "snippet": "From a strong and bold espresso to a smooth and creamy latte, there's a coffee drink for every taste preference.Read more",
+            "highlighted_keywords": [
+              "there's a coffee drink for every taste preference"
+            ],
+            "rank": 8,
+            "page_rank": 8
+          },
+          {
+            "title": "Best Coffee Buying Guide",
+            "link": "https://www.consumerreports.org/health/coffee/buying-guide/",
+            "displayed_link": "https://www.consumerreports.org › ... › Food › Coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAARVBMVEVHcEwArUwArk0Ar04Ar04ArEwAr00ApkMArE0AtE8AulIAsk8AtlEAq0oArU0AsE0Ar04AsU4Ar00Ar04ApksArk0Aq0zy7w09AAAAF3RSTlMARYStvVORBCzu///+Hf/M/972oRBiOTBEo5MAAAEJSURBVHgBzZAHlsQgCECxF5CgJrn/UVfcqTeYn6r/SYPfxFjnnTUAIdp/THqo7EpFRCLfbKUHrm0XCvE/lQ/hB9SzhlQngiJC3iHzKKXIsjPBedBSfcbZyZ+2MvpgrhUBR4OAstYrf7pthrjkPDWcCN8wifG4QUnwkq2jyo4s9lH3v3QttYk77EAZAT4kj961RnIJiohcX1IQ5dGKFjvPT8miz67DLlmupPXkpFK6H8IYdSsPZCz2zrc9rkdBkVi62ZFQWLAffWAJdrdy6gGvuZpbdmkRxqKTcSdYZMELtq20ayByk0SlzpRKA8X4QZWKD2Dr+B/fGKNO+CeHK2SNcufcklauwK/xB7xWEmVr7OCKAAAAAElFTkSuQmCC",
+            "source": "Consumer Reports",
+            "snippet": "All coffees consist of arabica or robusta beans, or a combination. Arabica beans are more expensive and tend to make better coffee.Read more",
+            "highlighted_keywords": [
+              "All coffees consist of arabica or robusta beans"
+            ],
             "rank": 9,
             "page_rank": 9
           }
@@ -278,53 +228,53 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
           },
           {
-            "query": "Coffee nearby",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
-          },
-          {
             "query": "Coffee brands",
             "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
+          },
+          {
+            "query": "Coffee nearby",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
           },
           {
             "query": "Coffee beans",
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
-            "query": "Coffee Bean menu",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
-          },
-          {
-            "query": "Coffee powder",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
+            "query": "Coffee name",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
             "query": "Coffee NESCAFÉ",
             "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           },
           {
-            "query": "Coffee name",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
+            "query": "Coffee Pic",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Pic"
+          },
+          {
+            "query": "Coffee powder",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
           }
         ],
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f14522b224c9378d&gl=us&hl=en&ei=KXI3avHgFLKSxc8Py72ogQQ&start=10&sa=N&sstk=AU9db-AlT13nbKPco6EO9BQ3PGtjN3K5RPs8mQTWEnkvZ6H0mbyI1HL27BkB6-pY_AAlC14gtXF0JE7VtDW23VA0_Zs9gC43sBbTJQ&ved=2ahUKEwixmd3NyJeVAxUySfEDHcseKkAQ8NMDegQIThAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=584c16bc445885c5&gl=us&hl=en&ei=QoA3avqyHMLU5NoP5eXduQ0&start=10&sa=N&sstk=AU9db-CaxWqS4l4iEOxU_2Ky6uDu4hngm5KprFJENm6JH-GS3-xMQGu6aSalU0X7FI3XXJaI598AY4B7yrj1kcjOO1Qhykpw5MTaFA&ved=2ahUKEwj629iG1peVAxVCKlkFHeVyN9cQ8NMDegQIVhAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f14522b224c9378d&gl=us&hl=en&ei=KXI3avHgFLKSxc8Py72ogQQ&start=10&sa=N&sstk=AU9db-AlT13nbKPco6EO9BQ3PGtjN3K5RPs8mQTWEnkvZ6H0mbyI1HL27BkB6-pY_AAlC14gtXF0JE7VtDW23VA0_Zs9gC43sBbTJQ&ved=2ahUKEwixmd3NyJeVAxUySfEDHcseKkAQ8tMDegQIThAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f14522b224c9378d&gl=us&hl=en&ei=KXI3avHgFLKSxc8Py72ogQQ&start=20&sa=N&sstk=AU9db-AlT13nbKPco6EO9BQ3PGtjN3K5RPs8mQTWEnkvZ6H0mbyI1HL27BkB6-pY_AAlC14gtXF0JE7VtDW23VA0_Zs9gC43sBbTJQ&ved=2ahUKEwixmd3NyJeVAxUySfEDHcseKkAQ8tMDegQIThAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f14522b224c9378d&gl=us&hl=en&ei=KXI3avHgFLKSxc8Py72ogQQ&start=30&sa=N&sstk=AU9db-AlT13nbKPco6EO9BQ3PGtjN3K5RPs8mQTWEnkvZ6H0mbyI1HL27BkB6-pY_AAlC14gtXF0JE7VtDW23VA0_Zs9gC43sBbTJQ&ved=2ahUKEwixmd3NyJeVAxUySfEDHcseKkAQ8tMDegQIThAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f14522b224c9378d&gl=us&hl=en&ei=KXI3avHgFLKSxc8Py72ogQQ&start=40&sa=N&sstk=AU9db-AlT13nbKPco6EO9BQ3PGtjN3K5RPs8mQTWEnkvZ6H0mbyI1HL27BkB6-pY_AAlC14gtXF0JE7VtDW23VA0_Zs9gC43sBbTJQ&ved=2ahUKEwixmd3NyJeVAxUySfEDHcseKkAQ8tMDegQIThAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f14522b224c9378d&gl=us&hl=en&ei=KXI3avHgFLKSxc8Py72ogQQ&start=50&sa=N&sstk=AU9db-AlT13nbKPco6EO9BQ3PGtjN3K5RPs8mQTWEnkvZ6H0mbyI1HL27BkB6-pY_AAlC14gtXF0JE7VtDW23VA0_Zs9gC43sBbTJQ&ved=2ahUKEwixmd3NyJeVAxUySfEDHcseKkAQ8tMDegQIThAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f14522b224c9378d&gl=us&hl=en&ei=KXI3avHgFLKSxc8Py72ogQQ&start=60&sa=N&sstk=AU9db-AlT13nbKPco6EO9BQ3PGtjN3K5RPs8mQTWEnkvZ6H0mbyI1HL27BkB6-pY_AAlC14gtXF0JE7VtDW23VA0_Zs9gC43sBbTJQ&ved=2ahUKEwixmd3NyJeVAxUySfEDHcseKkAQ8tMDegQIThAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f14522b224c9378d&gl=us&hl=en&ei=KXI3avHgFLKSxc8Py72ogQQ&start=70&sa=N&sstk=AU9db-AlT13nbKPco6EO9BQ3PGtjN3K5RPs8mQTWEnkvZ6H0mbyI1HL27BkB6-pY_AAlC14gtXF0JE7VtDW23VA0_Zs9gC43sBbTJQ&ved=2ahUKEwixmd3NyJeVAxUySfEDHcseKkAQ8tMDegQIThAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f14522b224c9378d&gl=us&hl=en&ei=KXI3avHgFLKSxc8Py72ogQQ&start=80&sa=N&sstk=AU9db-AlT13nbKPco6EO9BQ3PGtjN3K5RPs8mQTWEnkvZ6H0mbyI1HL27BkB6-pY_AAlC14gtXF0JE7VtDW23VA0_Zs9gC43sBbTJQ&ved=2ahUKEwixmd3NyJeVAxUySfEDHcseKkAQ8tMDegQIThAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f14522b224c9378d&gl=us&hl=en&ei=KXI3avHgFLKSxc8Py72ogQQ&start=90&sa=N&sstk=AU9db-AlT13nbKPco6EO9BQ3PGtjN3K5RPs8mQTWEnkvZ6H0mbyI1HL27BkB6-pY_AAlC14gtXF0JE7VtDW23VA0_Zs9gC43sBbTJQ&ved=2ahUKEwixmd3NyJeVAxUySfEDHcseKkAQ8tMDegQIThAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=584c16bc445885c5&gl=us&hl=en&ei=QoA3avqyHMLU5NoP5eXduQ0&start=10&sa=N&sstk=AU9db-CaxWqS4l4iEOxU_2Ky6uDu4hngm5KprFJENm6JH-GS3-xMQGu6aSalU0X7FI3XXJaI598AY4B7yrj1kcjOO1Qhykpw5MTaFA&ved=2ahUKEwj629iG1peVAxVCKlkFHeVyN9cQ8tMDegQIVhAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=584c16bc445885c5&gl=us&hl=en&ei=QoA3avqyHMLU5NoP5eXduQ0&start=20&sa=N&sstk=AU9db-CaxWqS4l4iEOxU_2Ky6uDu4hngm5KprFJENm6JH-GS3-xMQGu6aSalU0X7FI3XXJaI598AY4B7yrj1kcjOO1Qhykpw5MTaFA&ved=2ahUKEwj629iG1peVAxVCKlkFHeVyN9cQ8tMDegQIVhAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=584c16bc445885c5&gl=us&hl=en&ei=QoA3avqyHMLU5NoP5eXduQ0&start=30&sa=N&sstk=AU9db-CaxWqS4l4iEOxU_2Ky6uDu4hngm5KprFJENm6JH-GS3-xMQGu6aSalU0X7FI3XXJaI598AY4B7yrj1kcjOO1Qhykpw5MTaFA&ved=2ahUKEwj629iG1peVAxVCKlkFHeVyN9cQ8tMDegQIVhAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=584c16bc445885c5&gl=us&hl=en&ei=QoA3avqyHMLU5NoP5eXduQ0&start=40&sa=N&sstk=AU9db-CaxWqS4l4iEOxU_2Ky6uDu4hngm5KprFJENm6JH-GS3-xMQGu6aSalU0X7FI3XXJaI598AY4B7yrj1kcjOO1Qhykpw5MTaFA&ved=2ahUKEwj629iG1peVAxVCKlkFHeVyN9cQ8tMDegQIVhAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=584c16bc445885c5&gl=us&hl=en&ei=QoA3avqyHMLU5NoP5eXduQ0&start=50&sa=N&sstk=AU9db-CaxWqS4l4iEOxU_2Ky6uDu4hngm5KprFJENm6JH-GS3-xMQGu6aSalU0X7FI3XXJaI598AY4B7yrj1kcjOO1Qhykpw5MTaFA&ved=2ahUKEwj629iG1peVAxVCKlkFHeVyN9cQ8tMDegQIVhAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=584c16bc445885c5&gl=us&hl=en&ei=QoA3avqyHMLU5NoP5eXduQ0&start=60&sa=N&sstk=AU9db-CaxWqS4l4iEOxU_2Ky6uDu4hngm5KprFJENm6JH-GS3-xMQGu6aSalU0X7FI3XXJaI598AY4B7yrj1kcjOO1Qhykpw5MTaFA&ved=2ahUKEwj629iG1peVAxVCKlkFHeVyN9cQ8tMDegQIVhAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=584c16bc445885c5&gl=us&hl=en&ei=QoA3avqyHMLU5NoP5eXduQ0&start=70&sa=N&sstk=AU9db-CaxWqS4l4iEOxU_2Ky6uDu4hngm5KprFJENm6JH-GS3-xMQGu6aSalU0X7FI3XXJaI598AY4B7yrj1kcjOO1Qhykpw5MTaFA&ved=2ahUKEwj629iG1peVAxVCKlkFHeVyN9cQ8tMDegQIVhAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=584c16bc445885c5&gl=us&hl=en&ei=QoA3avqyHMLU5NoP5eXduQ0&start=80&sa=N&sstk=AU9db-CaxWqS4l4iEOxU_2Ky6uDu4hngm5KprFJENm6JH-GS3-xMQGu6aSalU0X7FI3XXJaI598AY4B7yrj1kcjOO1Qhykpw5MTaFA&ved=2ahUKEwj629iG1peVAxVCKlkFHeVyN9cQ8tMDegQIVhAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=584c16bc445885c5&gl=us&hl=en&ei=QoA3avqyHMLU5NoP5eXduQ0&start=90&sa=N&sstk=AU9db-CaxWqS4l4iEOxU_2Ky6uDu4hngm5KprFJENm6JH-GS3-xMQGu6aSalU0X7FI3XXJaI598AY4B7yrj1kcjOO1Qhykpw5MTaFA&ved=2ahUKEwj629iG1peVAxVCKlkFHeVyN9cQ8tMDegQIVhAU"
           }
         }
       }
     }
   },
-  "requestId": "f4684e93-6c25-447c-8338-56ace2a3760d",
-  "timestamp": 1782022203078,
-  "recordTime": "2026-06-21 14:10:02"
+  "requestId": "95a39d1f-3866-4419-bd6c-b0ae8abafece",
+  "timestamp": 1782022429674,
+  "recordTime": "2026-06-21 14:13:49"
 }
