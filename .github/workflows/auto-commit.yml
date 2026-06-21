@@ -1,11 +1,13 @@
 name: ci
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: "* * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: auto-empty-commit-main
+  cancel-in-progress: false
 
 jobs:
   autogreen:
@@ -17,11 +19,15 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Auto commit
         run: |
           git config --local user.name "Anonymous Committer"
           git config --local user.email "anonymous@users.noreply.github.com"
+          git pull --ff-only origin main
           git commit --allow-empty -m "chore: auto empty commit at $(date)"
-          git push
+          git push origin HEAD:main
