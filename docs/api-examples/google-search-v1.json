@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-23 02:10:02",
+    "checkedAt": "2026-06-23 03:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.39,
-          "total_results": 2670000,
+          "time_taken": 0.51,
+          "total_results": 2660000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -18,40 +18,39 @@
           "original_query_yields_zero_results": false,
           "url": "https://www.google.com/search?q=coffee&oq=coffee&gl=us&hl=en&safe=off&sourceid=chrome&ie=UTF-8"
         },
-        "shopping_results": [
+        "ads": [
           {
             "position": 1,
-            "block_position": "right",
-            "title": "McCafe Premium Roast Coffee Keurig K-Cup Pods, Medium Roast, 96/Carton (080375CT)",
-            "price": "$42.99",
-            "link": "https://www.staples.com/mccafe-premium-roast-coffee-keurig-k-cup-pods-medium-roast-96-carton-080375ct/product_24442523",
-            "sponsored_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwiSlPuMpJyVAxVeMggFHbgeJ6wYACICCAEQAhoCbWQ&co=1&ase=2&gclid=EAIaIQobChMIkpT7jKSclQMVXjIIBR24HiesEAYYASABEgL6VPD_BwE&cid=CAASugHkaOXml86OgnxLMqDkUeGBBcB6Si7mYMPPHog-LNYNSrqxrAF6oXX650zhX2uTPuxggUtrjP4Q-6OMuhhSPEJH02pBEvXYRpfybp5snREoxfKZR5zgxWpgZX2g4uC5NayycLUxB0GdyhbW35lsKzL-9dmPCW9VUzaDSCLljWaNBVDbngdpBp1zjjOCOY9PzpQQpi_HznMESDr-8vs1SINnTlGGpF49xSWW337G4NdtWj-7XRcK48OBxa0&cce=2&category=acrcp_v1_32&sig=AOD64_3ZXFJBTB7_J95YkBfpg-EusBIUbg&ctype=5&q=&nis=4&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q5bgDKAB6BAgtEAc&adurl=",
-            "source": "Staples",
-            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEVHcEz/RQD/RgD/RQD/RQD/RQD/RAD/RQD/RQD/RQD+////RQD/NwD/PQD/QQDw9vj3/P3i7O/M2eD07+z6fFvQ4OcBBAb/Ug30uKz408n7Zjr7jnLa5Ojcj4T5cEzYop7Qz9HDycv0nYrLQiXpWzwZJChaNitkZWaiLgTvGwCIfHuOW01HcEyTqjndAAAALXRSTlMAyU9SiuIMIvWe/////////////////////////////////////////////wAEJt9nAAABrUlEQVQ4jYVTWXaDMAyEpKyyvBA7Zg9kb3v/+1U2JYG2eZ0fY8/YEtIoCB6It1mYAqRhto2D30gyIh/Ikp/8G/zA2/p6tCKRMQ7R4pEkXfGsqaoaIU1e8HjMCZY/Fev3+f2mSHBEgOiv/E6X64eSUjrBlGmyzv5y4rpVquB+54Jky+f5/co51ofOToKM6ucJpD1naPX1U1vGGHJ/BGkcbN1/Wa2B9eUu99iVPQNNQqI2LgJrBJ1W+QIVaUXDXIwQUOcvoBHCIAVWvRJUDNIAHoLDYSbmLxKAE5RCyjzv3uvv8+6972iRonSCFHhtSCFOUJ8nwRnqkyDe1NQPShKwb0lxtrb/zs3aMxW77anaoS8kBRGy0s1ch0ZXUvgA9JuuUNiIHUmkKoZxHArXKyFEg75QMZmBg1FKCXHZe1yIVaoFV+t4ahZq07ZKjJNgdHSrcWrW1G7sTFEYNd72+9uoWlOYDud2T4ZheigKp1HGrYNmC2t7y6E9DsaTxgxH6+9HK9NyhLopCU0N3gsLW8+m4jQQzizT7sn/miqP6B/+OXqbP9g0ez13bvw3i/H/Asr5MBnHLL6RAAAAAElFTkSuQmCC"
-          },
-          {
-            "position": 2,
-            "block_position": "right",
-            "title": "Nespresso - Melozio - Sleeve of 10 - Vertuo Coffee Capsules",
-            "price": "$14.00",
-            "link": "https://www.nespresso.com/us/en/order/capsules/vertuo/melozio-vertuo-coffee-pods",
-            "sponsored_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwiSlPuMpJyVAxVeMggFHbgeJ6wYACICCAEQBRoCbWQ&ae=2&co=1&ase=2&gclid=EAIaIQobChMIkpT7jKSclQMVXjIIBR24HiesEAYYAiABEgIorvD_BwE&cid=CAASugHkaOXml86OgnxLMqDkUeGBBcB6Si7mYMPPHog-LNYNSrqxrAF6oXX650zhX2uTPuxggUtrjP4Q-6OMuhhSPEJH02pBEvXYRpfybp5snREoxfKZR5zgxWpgZX2g4uC5NayycLUxB0GdyhbW35lsKzL-9dmPCW9VUzaDSCLljWaNBVDbngdpBp1zjjOCOY9PzpQQpi_HznMESDr-8vs1SINnTlGGpF49xSWW337G4NdtWj-7XRcK48OBxa0&cce=2&category=acrcp_v1_71&sig=AOD64_0llXoOzETlyfGZJbw-2CjXRkSMKA&ctype=5&q=&nis=4&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q5bgDKAB6BAgtEBA&adurl=",
-            "source": "Nespresso",
-            "rating": "4.9",
-            "reviews": "712",
-            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEVHcEz/RQD/RgD/RQD/RQD/RQD/RAD/RQD/RQD/RQD+////RQD/NwD/PQD/QQDw9vj3/P3i7O/M2eD07+z6fFvQ4OcBBAb/Ug30uKz408n7Zjr7jnLa5Ojcj4T5cEzYop7Qz9HDycv0nYrLQiXpWzwZJChaNitkZWaiLgTvGwCIfHuOW01HcEyTqjndAAAALXRSTlMAyU9SiuIMIvWe/////////////////////////////////////////////wAEJt9nAAABrUlEQVQ4jYVTWXaDMAyEpKyyvBA7Zg9kb3v/+1U2JYG2eZ0fY8/YEtIoCB6It1mYAqRhto2D30gyIh/Ikp/8G/zA2/p6tCKRMQ7R4pEkXfGsqaoaIU1e8HjMCZY/Fev3+f2mSHBEgOiv/E6X64eSUjrBlGmyzv5y4rpVquB+54Jky+f5/co51ofOToKM6ucJpD1naPX1U1vGGHJ/BGkcbN1/Wa2B9eUu99iVPQNNQqI2LgJrBJ1W+QIVaUXDXIwQUOcvoBHCIAVWvRJUDNIAHoLDYSbmLxKAE5RCyjzv3uvv8+6972iRonSCFHhtSCFOUJ8nwRnqkyDe1NQPShKwb0lxtrb/zs3aMxW77anaoS8kBRGy0s1ch0ZXUvgA9JuuUNiIHUmkKoZxHArXKyFEg75QMZmBg1FKCXHZe1yIVaoFV+t4ahZq07ZKjJNgdHSrcWrW1G7sTFEYNd72+9uoWlOYDud2T4ZheigKp1HGrYNmC2t7y6E9DsaTxgxH6+9HK9NyhLopCU0N3gsLW8+m4jQQzizT7sn/miqP6B/+OXqbP9g0ez13bvw3i/H/Asr5MBnHLL6RAAAAAElFTkSuQmCC"
-          },
-          {
-            "position": 3,
-            "block_position": "right",
-            "title": "Nespresso - Original 50 Capsule Dark Roast Pack - Sleeve of 10 - Original Coffee Capsules",
-            "price": "$45.00",
-            "link": "https://www.nespresso.com/us/en/order/capsules/original/original-dark-roast-coffee-assortment",
-            "sponsored_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwiSlPuMpJyVAxVeMggFHbgeJ6wYACICCAEQChoCbWQ&ae=2&co=1&ase=2&gclid=EAIaIQobChMIkpT7jKSclQMVXjIIBR24HiesEAYYAyABEgIq-vD_BwE&cid=CAASugHkaOXml86OgnxLMqDkUeGBBcB6Si7mYMPPHog-LNYNSrqxrAF6oXX650zhX2uTPuxggUtrjP4Q-6OMuhhSPEJH02pBEvXYRpfybp5snREoxfKZR5zgxWpgZX2g4uC5NayycLUxB0GdyhbW35lsKzL-9dmPCW9VUzaDSCLljWaNBVDbngdpBp1zjjOCOY9PzpQQpi_HznMESDr-8vs1SINnTlGGpF49xSWW337G4NdtWj-7XRcK48OBxa0&cce=2&category=acrcp_v1_71&sig=AOD64_1yaypoZOzT39nqMLCa79CDpjo-3w&ctype=5&q=&nis=4&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q5bgDKAB6BAgtEBs&adurl=",
-            "source": "Nespresso",
-            "rating": "3.7",
-            "reviews": "6",
-            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEVHcEz/RQD/RgD/RQD/RQD/RQD/RAD/RQD/RQD/RQD+////RQD/NwD/PQD/QQDw9vj3/P3i7O/M2eD07+z6fFvQ4OcBBAb/Ug30uKz408n7Zjr7jnLa5Ojcj4T5cEzYop7Qz9HDycv0nYrLQiXpWzwZJChaNitkZWaiLgTvGwCIfHuOW01HcEyTqjndAAAALXRSTlMAyU9SiuIMIvWe/////////////////////////////////////////////wAEJt9nAAABrUlEQVQ4jYVTWXaDMAyEpKyyvBA7Zg9kb3v/+1U2JYG2eZ0fY8/YEtIoCB6It1mYAqRhto2D30gyIh/Ikp/8G/zA2/p6tCKRMQ7R4pEkXfGsqaoaIU1e8HjMCZY/Fev3+f2mSHBEgOiv/E6X64eSUjrBlGmyzv5y4rpVquB+54Jky+f5/co51ofOToKM6ucJpD1naPX1U1vGGHJ/BGkcbN1/Wa2B9eUu99iVPQNNQqI2LgJrBJ1W+QIVaUXDXIwQUOcvoBHCIAVWvRJUDNIAHoLDYSbmLxKAE5RCyjzv3uvv8+6972iRonSCFHhtSCFOUJ8nwRnqkyDe1NQPShKwb0lxtrb/zs3aMxW77anaoS8kBRGy0s1ch0ZXUvgA9JuuUNiIHUmkKoZxHArXKyFEg75QMZmBg1FKCXHZe1yIVaoFV+t4ahZq07ZKjJNgdHSrcWrW1G7sTFEYNd72+9uoWlOYDud2T4ZheigKp1HGrYNmC2t7y6E9DsaTxgxH6+9HK9NyhLopCU0N3gsLW8+m4jQQzizT7sn/miqP6B/+OXqbP9g0ez13bvw3i/H/Asr5MBnHLL6RAAAAAElFTkSuQmCC"
+            "block_position": "bottom",
+            "title": "Brew Delicious Coffee | Barista Style Coffee At Home",
+            "snippet": "Whether You Prefer Dark and Strong or Mild and Smooth, There's A Coffee Pod...",
+            "displayed_link": "https://www.nespresso.com",
+            "link": "https://www.nespresso.com/us/en/vertuo-coffee-pods",
+            "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChsSEwiumrzBsZyVAxUxNQgFHYUmGQ8YACICCAIQABoCbWQ&ae=2&co=1&ase=2&gclid=EAIaIQobChMIrpq8wbGclQMVMTUIBR2FJhkPEAMYASAAEgLfevD_BwE&cid=CAASugHkaByFAj9MzCvSDh2h9qqXKnCzBcgodynbJQtSFwcRN3yNsG7cpjkmZR9GJMAMgzCiMieSommrVVlDILb_jOMtgBtLAvdFJA-iHhFaje0hAvf_sd2g1ehtdZb2GKZw-nWx64Ty7CFOQ_jT6gC7dGF5jPiBALMsSh6P_nCymRfa6l2TSZFkh0Sw49KWV5GORxIizhJvx8hQ2UNqUjX52NEq_p_k3KPUdceZ93c2QSJOuFniTZ0GqqNQgEY&cce=2&category=acrcp_v1_71&sig=AOD64_0dRTpt7A4dkWq273BovJoD7Wrj3g&q&nis=4&adurl",
+            "source": "Nespresso®",
+            "sitelinks": [
+              {
+                "title": "Rating",
+                "link": "https://www.google.com/shopping/ratings/account/metrics?q=nespresso.com&c=US&v=19"
+              },
+              {
+                "title": "Shop Coffee Capsules",
+                "link": "/aclk?sa=L&ai=DChsSEwiumrzBsZyVAxUxNQgFHYUmGQ8YACICCAIQBBoCbWQ&ae=2&co=1&ase=2&gclid=EAIaIQobChMIrpq8wbGclQMVMTUIBR2FJhkPEAMYASAEEgJMg_D_BwE&cid=CAASugHkaByFAj9MzCvSDh2h9qqXKnCzBcgodynbJQtSFwcRN3yNsG7cpjkmZR9GJMAMgzCiMieSommrVVlDILb_jOMtgBtLAvdFJA-iHhFaje0hAvf_sd2g1ehtdZb2GKZw-nWx64Ty7CFOQ_jT6gC7dGF5jPiBALMsSh6P_nCymRfa6l2TSZFkh0Sw49KWV5GORxIizhJvx8hQ2UNqUjX52NEq_p_k3KPUdceZ93c2QSJOuFniTZ0GqqNQgEY&cce=2&category=acrcp_v1_71&sig=AOD64_3V4MsaVJMhGHn3CpeFsyZMomzhZg&adurl=&q="
+              },
+              {
+                "title": "Explore Coffee Capsules",
+                "link": "https://www.nespresso.com/us/en/vertuo-coffee-pods"
+              },
+              {
+                "title": "Free Shipping & Coffee Samples",
+                "link": "/aclk?sa=L&ai=DChsSEwiumrzBsZyVAxUxNQgFHYUmGQ8YACICCAIQBRoCbWQ&ae=2&co=1&ase=2&gclid=EAIaIQobChMIrpq8wbGclQMVMTUIBR2FJhkPEAMYASAFEgInp_D_BwE&cid=CAASugHkaByFAj9MzCvSDh2h9qqXKnCzBcgodynbJQtSFwcRN3yNsG7cpjkmZR9GJMAMgzCiMieSommrVVlDILb_jOMtgBtLAvdFJA-iHhFaje0hAvf_sd2g1ehtdZb2GKZw-nWx64Ty7CFOQ_jT6gC7dGF5jPiBALMsSh6P_nCymRfa6l2TSZFkh0Sw49KWV5GORxIizhJvx8hQ2UNqUjX52NEq_p_k3KPUdceZ93c2QSJOuFniTZ0GqqNQgEY&cce=2&category=acrcp_v1_71&sig=AOD64_2BTEmpjoH_7qURMKn5s7KsWmGHxg&adurl=&q="
+              },
+              {
+                "title": "Vertuo Pop+",
+                "link": "https://www.nespresso.com/us/en/order/machines/vertuo/vertuo-pop-plus-liquoriceblack"
+              }
+            ],
+            "extensions": ""
           }
         ],
         "knowledge_graph": {
@@ -60,43 +59,43 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Port coffee co New JerseyPort coffee co New Jersey\"The interior design is gorgeous and the Biscoff latte I got was top notch.\"",
-            "rating": "4.4",
-            "reviews": "95",
-            "address": "4.4(95) · $1–10 · Coffee shop",
-            "hours": "Paterson, NJ",
+            "title": "Red Eye Coffee Co.Red Eye Coffee Co.",
+            "rating": "4.5",
+            "reviews": "40",
+            "address": "4.5(40) · $1–10 · Coffee shop",
+            "hours": "44 River St",
             "links": {}
           },
           {
             "position": 2,
-            "title": "The Cup CoffeehouseThe Cup Coffeehouse\"Great little coffeehouse with top notch and extremely friendly service.\"",
-            "rating": "4.5",
-            "reviews": "378",
-            "address": "4.5(378) · $10–20 · Coffee shop",
-            "hours": "Wantagh, NY",
+            "title": "7 Brew Coffee7 Brew Coffee",
+            "rating": "4.8",
+            "reviews": "237",
+            "address": "4.8(237) · $1–10 · Coffee shop",
+            "hours": "Bridgeport, CT",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Bagels and Brew CompanyBagels and Brew Company\"On top of that the coffee tasted really good.\"",
-            "rating": "4.9",
-            "reviews": "29",
-            "address": "4.9(29) · $1–20 · Cafe",
-            "hours": "Farmingdale, NJ",
+            "title": "Mazagi CoffeeMazagi Coffee",
+            "rating": "5.0",
+            "reviews": "137",
+            "address": "5.0(137) · $1–10 · Coffee shop",
+            "hours": "New Haven, CT",
             "links": {}
           }
         ],
         "peopleAlsoAskedFor": [
           {
-            "question": "What is coffee called in Colombia?",
+            "question": "Does coffee reduce swelling?",
             "rank": 1
           },
           {
-            "question": "Does coffee reduce swelling?",
+            "question": "What is coffee called in Colombia?",
             "rank": 2
           },
           {
-            "question": "Is it healthy to drink coffee every day?",
+            "question": "What is the 15 15 15 rule for coffee?",
             "rank": 3
           },
           {
@@ -127,19 +126,6 @@
             "page_rank": 1
           },
           {
-            "title": "Craft Coffee Beans Online & In Shops | Stumptown Coffee ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOorVud6nL_AEWLynC_tSH1H6eu_dnNkEuPcIPGDIvhAfyzxTe0mW",
-            "displayed_link": "https://www.stumptowncoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
-            "source": "Stumptown Coffee",
-            "snippet": "Stumptown Coffee Roasters brings you fresh beans, cold brew, and good vibes. Order online, visit a shop, or subscribe for the long haul.",
-            "highlighted_keywords": [
-              "fresh beans, cold brew, and good vibes"
-            ],
-            "rank": 2,
-            "page_rank": 2
-          },
-          {
             "title": "Starbucks Coffee Company",
             "link": "https://www.starbucks.com/",
             "displayed_link": "https://www.starbucks.com",
@@ -148,6 +134,19 @@
             "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
             "highlighted_keywords": [
               "Explore our menu of handcrafted drinks"
+            ],
+            "rank": 2,
+            "page_rank": 2
+          },
+          {
+            "title": "Buy Coffee, Tea, Powders Online | The Coffee Bean & Tea ...",
+            "link": "https://www.coffeebean.com/",
+            "displayed_link": "https://www.coffeebean.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEVHcExTLG1TLG1TLG1TLW1TLG1TLG1TLW1TLG1TLG1TLG30H49eAAAAC3RSTlMAFT5uyLedLN38V4AViBkAAADiSURBVHgBlZAlYgIAAAAPl4JLm3Zcy1zifGtzLbi2uaQ5UnC+iWvk2sU7JkfrcMxAH93qweWatW+yJ49GE3kKAgCpEwBjBgBkeeI5K/iCmADzifL96QukS5FnwEnyaXMRBAdrNhCskHz/DSJzrZXUINxAeVVCeLFbT0yDaBs0QtnmndpQVLf0FEj6r8Fopavx2gdpDB3dFtSe00HhC4YiILxzrU9D9IH5aUC5txsUzFAt4gJ0e5dquLD5ETwCRx79CSR/rUgXgRCyHxC4i62EscCvfv7qWD66vf6c/jr/DBPTBBH3MWVXMDuJAAAAAElFTkSuQmCC",
+            "source": "The Coffee Bean & Tea Leaf",
+            "snippet": "Buy exceptional coffee, tea, powders, equipment and drinkware at The Coffee Bean & Tea Leaf® online store to enjoy our globally sourced products at home.",
+            "highlighted_keywords": [
+              "Buy exceptional coffee, tea, powders, equipment and drinkware"
             ],
             "rank": 3,
             "page_rank": 3
@@ -166,17 +165,30 @@
             "page_rank": 4
           },
           {
-            "title": "I Asked Coffee Experts How to Keep Beans Fresh—They ...",
-            "link": "https://www.seriouseats.com/best-way-to-store-coffee-12001722",
-            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
-            "source": "Serious Eats",
-            "snippet": "Wondering how to keep coffee fresh? Experts explain how long coffee lasts, whether freezing helps, and if you need fancy storage solutions.",
+            "title": "Fresh Roasted Coffee | Intelligentsia | Illuminating Coffee",
+            "link": "https://www.intelligentsia.com/",
+            "displayed_link": "https://www.intelligentsia.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEzUKSfUKSfUKSfUKSfUKSfUKSfUKSfVKSfUKijUKSfUKSfUKSbUKSfUKSfUKSfUKSeAx3/MAAAAEXRSTlMAO5nwJf9/5BcP9kUFzSpfu+f5/RsAAACPSURBVHgBjZAJCoUwDAXT5dX82u3+p/1UqsFowGENAwMv9B3nyMZ7sgnBdhGIpkxAMuUGbJZjAGC7CiS7qrrMv0XEQTxvZooZBnnO8u9uPWt/czstStWqFrVC0HtaEBUaKbrITpoqsmpXAKE8q3Z3YOIcJkPJNW5NflaTTO6qmts1Oavu/Ry4VaUjt8G58w/CwQc98fZzoAAAAABJRU5ErkJggg==",
+            "source": "Intelligentsia Coffee",
+            "snippet": "Experience the freshest roasted coffee shipped for free right to you, and receive early access to all exclusive releases and promotions.Read more",
             "highlighted_keywords": [
-              "how long coffee lasts"
+              "freshest roasted coffee shipped for free right to you"
             ],
             "rank": 5,
             "page_rank": 5
+          },
+          {
+            "title": "Coffee and Tea Buying Guides",
+            "link": "https://www.seriouseats.com/coffee-and-tea-buying-guides-7105482",
+            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
+            "source": "Serious Eats",
+            "snippet": "These buying guides will you help decide which coffee and tea gear you need to make the perfect cup and how to get the most out of the gadgets you own.",
+            "highlighted_keywords": [
+              "decide which coffee and tea gear you need"
+            ],
+            "rank": 6,
+            "page_rank": 6
           },
           {
             "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
@@ -202,48 +214,32 @@
                 ]
               }
             },
-            "rank": 6,
-            "page_rank": 6
-          },
-          {
-            "title": "Coffee - Walmart.com",
-            "link": "https://www.walmart.com/cp/coffee/1086446",
-            "displayed_link": "https://www.walmart.com › coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEz/wRz/wR7/wh//wh//wBn/wh//wiD/wR7/wh//wh7/wh7/wR//wh//wR3/wh//wh7/wh//wh5JC3qUAAAAE3RSTlMADS92+AfR/8e5YYeZnhflTOw/6JuIewAAAKFJREFUeAG1koURA0EIANHn7bT/YsPEjXj2XFF4GSTC8JBFODrTwWzATw5h9EOImMwmuGIWW7aT1SxtJ4vJDFvyZP6CfMa2vUXbjbw9xGROmRGqSAWcizkJYQul5itZsjIrLuKLlgj2YF/8uHRwevGjpSOcUOJhzeDkdWBSuEJ1P24fvXwYfxsrFJvy3Amx+2LHByGLg/2HHGIxhgglQniVDZyEB/jjfAsrAAAAAElFTkSuQmCC",
-            "source": "Walmart",
-            "snippet": "Shop for Coffee at Walmart.com. Buy Ground coffee, coffee pods, instant coffee, and whole bean coffee. Save money. Live better.",
-            "highlighted_keywords": [
-              "Shop for Coffee at Walmart.com"
-            ],
-            "inline_snippet": "4.3",
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$5",
-                  "price_to": "$33",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "4.3 store rating (3.8K)",
-                  "4.3",
-                  "$5 to $33",
-                  "Free 90-day returns"
-                ]
-              }
-            },
             "rank": 7,
             "page_rank": 7
           },
           {
-            "title": "Which coffee machine is better? Budget [$1000] : r/espresso",
-            "link": "https://www.reddit.com/r/espresso/comments/1ud1a6t/which_coffee_machine_is_better_budget_1000/",
-            "displayed_link": "50+ comments  ·  2 hours ago",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAhFBMVEVHcEz/RQD/RQD/RQD/RQD/RQD/RQD/RQD/RQD/PQD/NgD+XS32dlf5vK3////64dusLADUz9H+jXLOPAoSHiFrLBm3uLn3/f7jVS/b6e77pJDJo6H718//RQDw9ffs5+jm8fPIXlHqKwD5+PjolIP/VgP/SQLQ2uAyODvQ4ekABAhqcHK4ptuCAAAAHnRSTlMAPobB7P9mHdb//////////////////////////8J6YdtgAAABWUlEQVR4AWySYZNDMBCGWyw2SI9TGnWqILT////dm6Enc+MZH8Qz2V3Je/rj7Lgekec659N/fIgPnn+yCULaYaYwsCqShYhiQXQ+dJxIedltQDZfqZQyY6K1st3vO78WsiyNDI3zySK/caJUygTMzN7eTnxdBXMcb3+0TsMC30RUJfciqSIs8JCZycHwWV1n2UVuXDKzxsDOySWu5AGVoB/TUh5imhJFpQTNfav7uDcSlBERJLUN9LOLewn6LnpCNS0EyvKg+vLRjVRLUIuxe8hSDYyyLqatyr68jdO6cxpvWGIeDOQQujagNs7YuumbJmYiZz0E3aJvMc95Ps8F+rV6PQQ0JY4XpVqVv0Cu2lYps9HbDp6HRS9Kv1+vt1Z4HeDI/1yZiFMNFIzWqYkChftl8zSkegE6HSYmENgxYYQHRGzUHiLHyh3ModvZo7nHxA71ofwdSnYAAPpVIo4RUPiIAAAAAElFTkSuQmCC",
-            "source": "Reddit · r/espresso",
-            "snippet": "I like that the Ninja has a cold brew feature since my partner likes cold brews but I need my espresso to taste good too. I care about coffee ...Read more",
+            "title": "Counter Culture Coffee",
+            "link": "https://counterculturecoffee.com/?srsltid=AfmBOooiWBprlpgne9Fu5AuKxOXnE1bp4Ra3MNXljqf69tR7CEh5kJJN",
+            "displayed_link": "https://counterculturecoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACu0lEQVR4AWKgAmAFYm4g5gFiNgY6AA5A6fUAK0kQRWE4XTNr27YZrG3biJbB2rZt27Zt27Zt9f5JKslNJdNvKn2SL7V9213YeSiPpHq7AkagB+rrmkIz5NTbjmit4yCg/50QB7AbUXStDLZiKRrqWj7cwknkhoyyu7mOeIi82IMYogt6YQRi6Vpr3MVKcVx0JA77S4gbNkZt4+lrIjFCJQZyo6qozcZ55LXtjlw4g9niZDMKCJkG+IiRyB7OA0RCNLFdER0t+9ERx8XBcOQ3vq5nn69GozC6SXnUzGsGEWGC6IVGOIcM8mSPz6c8th3bUd8YBzEZUTwuXB1LcRUPcRqTkB++Ex2RjAdTYj3YBjeEfxiHKLBKHKSBjGO0sXEJLn7iD1zhu25vIK44N6w53xN1URrV5VuLdh5cfNPtL6zHBOyDiwuIY7PyKdGnu3EI+XRNiTfIht/4CxdPUAAyNZBKvJh1iomLOsYM6Cg+vYtqYr+yX/Pt/x+YCld7gFgwj1U2004ZF8iIqqiIILwe6i/+gfBAPiLfcAJeYylkgrrtLgaeixK6HtlzBbR4gH44hRmIB3NNLwAXv3V7BSkhU9B2BshER3wEPD7/emMavsEEdMQCuNgF4zz7pICMEvWnctGRRPccRnRYJysqYi0KhliMMuGCufwa26sRA8RuRtTBMzxHPTEIzeMioT2O4BXe4Qk2oKqfLoiMLsjuMZDMWhwkRzSPGwegfI8HGY/BSt1fHERDLvTA7DB+3zsevxOjoiuq23bLBLww1gQdq8/bHIOwzxzY4aSFWFjSYjvSICG8Uh45jHGyU9QcWM+QIXiB/eLPsPgYgOri+HaYj83Ioms5UcTPzRXqYiieihHfEauxTyzLkzESS1HYe6zYJ4HxI2QQWmIZ0oivMkysB46m4CsBmG+SQMuEIKzyH3WCk3OyXiwRAAAAAElFTkSuQmCC",
+            "source": "Counter Culture Coffee",
+            "snippet": "Counter Culture Coffee is a specialty coffee roaster sourcing exceptional single-origin and specialty coffee. Fresh-roasted coffee to your doorstep.",
             "highlighted_keywords": [
-              "Ninja has a cold brew feature"
+              "Counter Culture Coffee"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$16",
+                  "price_to": "$99",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$16 to $99",
+                  "Free delivery over $30"
+                ]
+              }
+            },
             "rank": 8,
             "page_rank": 8
           },
@@ -265,12 +261,12 @@
         ],
         "relatedSearches": [
           {
-            "query": "Coffee nearby",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
-          },
-          {
             "query": "Coffee types",
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
+          },
+          {
+            "query": "Coffee nearby",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
           },
           {
             "query": "Coffee brands",
@@ -285,16 +281,16 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
+            "query": "Coffee Bean menu",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
+          },
+          {
             "query": "Coffee powder",
             "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
           },
           {
             "query": "Coffee benefits",
             "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
-          },
-          {
-            "query": "Coffee NESCAFÉ",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           }
         ],
         "dmca_message": {
@@ -303,23 +299,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=c4566205f797471e&gl=us&hl=en&ei=-Oo5aobzG7KB5OMPurP9-AU&start=10&sa=N&sstk=AU9db-D18qikKjaaAwldHNRh2rJK_YGaAjo9Y9yYYftWuWdTiUozMO8IpX6_6uywkrs4oxdHaYBEqoFQ7ovgGDASwqAI4RrsfGVL7g&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q8NMDegQIaRAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1274c5eb3e2a1ff1&gl=us&hl=en&ei=CPk5avvsDdemptQPodWn-AM&start=10&sa=N&sstk=AU9db-BjKrI7RAma8A8CmLfX8EwdYMAGsAdzDylg6f7BOVf9qaXjeAA8cc7to4g-JM8ohEa53eARHutmMMcX7a1QJJnrKDd9DEbzdw&ved=2ahUKEwj7kLfBsZyVAxVXk4kEHaHqCT8Q8NMDegQIXhAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=c4566205f797471e&gl=us&hl=en&ei=-Oo5aobzG7KB5OMPurP9-AU&start=10&sa=N&sstk=AU9db-D18qikKjaaAwldHNRh2rJK_YGaAjo9Y9yYYftWuWdTiUozMO8IpX6_6uywkrs4oxdHaYBEqoFQ7ovgGDASwqAI4RrsfGVL7g&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q8tMDegQIaRAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=c4566205f797471e&gl=us&hl=en&ei=-Oo5aobzG7KB5OMPurP9-AU&start=20&sa=N&sstk=AU9db-D18qikKjaaAwldHNRh2rJK_YGaAjo9Y9yYYftWuWdTiUozMO8IpX6_6uywkrs4oxdHaYBEqoFQ7ovgGDASwqAI4RrsfGVL7g&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q8tMDegQIaRAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=c4566205f797471e&gl=us&hl=en&ei=-Oo5aobzG7KB5OMPurP9-AU&start=30&sa=N&sstk=AU9db-D18qikKjaaAwldHNRh2rJK_YGaAjo9Y9yYYftWuWdTiUozMO8IpX6_6uywkrs4oxdHaYBEqoFQ7ovgGDASwqAI4RrsfGVL7g&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q8tMDegQIaRAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=c4566205f797471e&gl=us&hl=en&ei=-Oo5aobzG7KB5OMPurP9-AU&start=40&sa=N&sstk=AU9db-D18qikKjaaAwldHNRh2rJK_YGaAjo9Y9yYYftWuWdTiUozMO8IpX6_6uywkrs4oxdHaYBEqoFQ7ovgGDASwqAI4RrsfGVL7g&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q8tMDegQIaRAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=c4566205f797471e&gl=us&hl=en&ei=-Oo5aobzG7KB5OMPurP9-AU&start=50&sa=N&sstk=AU9db-D18qikKjaaAwldHNRh2rJK_YGaAjo9Y9yYYftWuWdTiUozMO8IpX6_6uywkrs4oxdHaYBEqoFQ7ovgGDASwqAI4RrsfGVL7g&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q8tMDegQIaRAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=c4566205f797471e&gl=us&hl=en&ei=-Oo5aobzG7KB5OMPurP9-AU&start=60&sa=N&sstk=AU9db-D18qikKjaaAwldHNRh2rJK_YGaAjo9Y9yYYftWuWdTiUozMO8IpX6_6uywkrs4oxdHaYBEqoFQ7ovgGDASwqAI4RrsfGVL7g&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q8tMDegQIaRAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=c4566205f797471e&gl=us&hl=en&ei=-Oo5aobzG7KB5OMPurP9-AU&start=70&sa=N&sstk=AU9db-D18qikKjaaAwldHNRh2rJK_YGaAjo9Y9yYYftWuWdTiUozMO8IpX6_6uywkrs4oxdHaYBEqoFQ7ovgGDASwqAI4RrsfGVL7g&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q8tMDegQIaRAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=c4566205f797471e&gl=us&hl=en&ei=-Oo5aobzG7KB5OMPurP9-AU&start=80&sa=N&sstk=AU9db-D18qikKjaaAwldHNRh2rJK_YGaAjo9Y9yYYftWuWdTiUozMO8IpX6_6uywkrs4oxdHaYBEqoFQ7ovgGDASwqAI4RrsfGVL7g&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q8tMDegQIaRAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=c4566205f797471e&gl=us&hl=en&ei=-Oo5aobzG7KB5OMPurP9-AU&start=90&sa=N&sstk=AU9db-D18qikKjaaAwldHNRh2rJK_YGaAjo9Y9yYYftWuWdTiUozMO8IpX6_6uywkrs4oxdHaYBEqoFQ7ovgGDASwqAI4RrsfGVL7g&ved=2ahUKEwiGz_aMpJyVAxWyAHkGHbpZH18Q8tMDegQIaRAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1274c5eb3e2a1ff1&gl=us&hl=en&ei=CPk5avvsDdemptQPodWn-AM&start=10&sa=N&sstk=AU9db-BjKrI7RAma8A8CmLfX8EwdYMAGsAdzDylg6f7BOVf9qaXjeAA8cc7to4g-JM8ohEa53eARHutmMMcX7a1QJJnrKDd9DEbzdw&ved=2ahUKEwj7kLfBsZyVAxVXk4kEHaHqCT8Q8tMDegQIXhAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1274c5eb3e2a1ff1&gl=us&hl=en&ei=CPk5avvsDdemptQPodWn-AM&start=20&sa=N&sstk=AU9db-BjKrI7RAma8A8CmLfX8EwdYMAGsAdzDylg6f7BOVf9qaXjeAA8cc7to4g-JM8ohEa53eARHutmMMcX7a1QJJnrKDd9DEbzdw&ved=2ahUKEwj7kLfBsZyVAxVXk4kEHaHqCT8Q8tMDegQIXhAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1274c5eb3e2a1ff1&gl=us&hl=en&ei=CPk5avvsDdemptQPodWn-AM&start=30&sa=N&sstk=AU9db-BjKrI7RAma8A8CmLfX8EwdYMAGsAdzDylg6f7BOVf9qaXjeAA8cc7to4g-JM8ohEa53eARHutmMMcX7a1QJJnrKDd9DEbzdw&ved=2ahUKEwj7kLfBsZyVAxVXk4kEHaHqCT8Q8tMDegQIXhAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1274c5eb3e2a1ff1&gl=us&hl=en&ei=CPk5avvsDdemptQPodWn-AM&start=40&sa=N&sstk=AU9db-BjKrI7RAma8A8CmLfX8EwdYMAGsAdzDylg6f7BOVf9qaXjeAA8cc7to4g-JM8ohEa53eARHutmMMcX7a1QJJnrKDd9DEbzdw&ved=2ahUKEwj7kLfBsZyVAxVXk4kEHaHqCT8Q8tMDegQIXhAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1274c5eb3e2a1ff1&gl=us&hl=en&ei=CPk5avvsDdemptQPodWn-AM&start=50&sa=N&sstk=AU9db-BjKrI7RAma8A8CmLfX8EwdYMAGsAdzDylg6f7BOVf9qaXjeAA8cc7to4g-JM8ohEa53eARHutmMMcX7a1QJJnrKDd9DEbzdw&ved=2ahUKEwj7kLfBsZyVAxVXk4kEHaHqCT8Q8tMDegQIXhAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1274c5eb3e2a1ff1&gl=us&hl=en&ei=CPk5avvsDdemptQPodWn-AM&start=60&sa=N&sstk=AU9db-BjKrI7RAma8A8CmLfX8EwdYMAGsAdzDylg6f7BOVf9qaXjeAA8cc7to4g-JM8ohEa53eARHutmMMcX7a1QJJnrKDd9DEbzdw&ved=2ahUKEwj7kLfBsZyVAxVXk4kEHaHqCT8Q8tMDegQIXhAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1274c5eb3e2a1ff1&gl=us&hl=en&ei=CPk5avvsDdemptQPodWn-AM&start=70&sa=N&sstk=AU9db-BjKrI7RAma8A8CmLfX8EwdYMAGsAdzDylg6f7BOVf9qaXjeAA8cc7to4g-JM8ohEa53eARHutmMMcX7a1QJJnrKDd9DEbzdw&ved=2ahUKEwj7kLfBsZyVAxVXk4kEHaHqCT8Q8tMDegQIXhAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1274c5eb3e2a1ff1&gl=us&hl=en&ei=CPk5avvsDdemptQPodWn-AM&start=80&sa=N&sstk=AU9db-BjKrI7RAma8A8CmLfX8EwdYMAGsAdzDylg6f7BOVf9qaXjeAA8cc7to4g-JM8ohEa53eARHutmMMcX7a1QJJnrKDd9DEbzdw&ved=2ahUKEwj7kLfBsZyVAxVXk4kEHaHqCT8Q8tMDegQIXhAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1274c5eb3e2a1ff1&gl=us&hl=en&ei=CPk5avvsDdemptQPodWn-AM&start=90&sa=N&sstk=AU9db-BjKrI7RAma8A8CmLfX8EwdYMAGsAdzDylg6f7BOVf9qaXjeAA8cc7to4g-JM8ohEa53eARHutmMMcX7a1QJJnrKDd9DEbzdw&ved=2ahUKEwj7kLfBsZyVAxVXk4kEHaHqCT8Q8tMDegQIXhAU"
           }
         }
       }
     }
   },
-  "requestId": "91cc1b06-b6d8-491b-80d7-ed29abc00b6d",
-  "timestamp": 1782183603870,
-  "recordTime": "2026-06-23 11:00:03"
+  "requestId": "d34af72b-2850-4ee4-8281-bb0c4176cdbf",
+  "timestamp": 1782184203536,
+  "recordTime": "2026-06-23 11:10:03"
 }
