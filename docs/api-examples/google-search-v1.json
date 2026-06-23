@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-23 13:10:02",
+    "checkedAt": "2026-06-23 14:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.51,
-          "total_results": 177,
+          "time_taken": 0.48,
+          "total_results": 175,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,47 +24,47 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Cupily CoffeehouseCupily Coffeehouse\"Great atmosphere, reasonably priced, and the coffee tastes great.\"",
-            "rating": "4.8",
-            "reviews": "203",
-            "address": "4.8(203) · $1–10 · Coffee shop",
-            "hours": "Nutley, NJ",
+            "title": "No Plates CoffeeNo Plates Coffee\"Wonderful coffee/matcha, delicious banana bread, and lovely service.\"",
+            "rating": "4.9",
+            "reviews": "469",
+            "address": "4.9(469) · $1–10 · Coffee shop",
+            "hours": "New York, NY",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Muse Coffee CompanyMuse Coffee Company\"The lattes are smooth, creamy, and served at the perfect temperature.\"",
+            "title": "Blue Dove CoffeeBlue Dove Coffee\"High quality coffee, friendly baristas, and good vibes.\"",
             "rating": "4.8",
-            "reviews": "408",
-            "address": "4.8(408) · $1–10 · Coffee shop",
-            "hours": "Lyndhurst, NJ",
+            "reviews": "61",
+            "address": "4.8(61) · $1–10 · Coffee shop",
+            "hours": "New York, NY",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Rutherford Coffee Co.Rutherford Coffee Co.\"Delicious coffee and pastries, friendly staff, and a beautiful, clean cafe.\"",
-            "rating": "4.5",
-            "reviews": "302",
-            "address": "4.5(302) · $10–20 · Coffee shop",
-            "hours": "Rutherford, NJ",
+            "title": "REGULAR NYCREGULAR NYC\"I had a latte, which was silky smooth and beautiful latte art.\"",
+            "rating": "4.9",
+            "reviews": "707",
+            "address": "4.9(707) · $20–30 · Coffee shop",
+            "hours": "New York, NY",
             "links": {}
           }
         ],
         "peopleAlsoAskedFor": [
           {
-            "question": "What is coffee called in Colombia?",
+            "question": "Is it healthy to drink coffee every day?",
             "rank": 1
           },
           {
-            "question": "What is the 15 15 15 rule for coffee?",
+            "question": "What is coffee called in Colombia?",
             "rank": 2
           },
           {
-            "question": "Does coffee reduce swelling?",
+            "question": "What is the 15 15 15 rule for coffee?",
             "rank": 3
           },
           {
-            "question": "Is coffee good for kidney creatinine?",
+            "question": "Does coffee reduce swelling?",
             "rank": 4
           }
         ],
@@ -105,7 +105,7 @@
           },
           {
             "title": "Single Origin, Blends, Espresso - Shop - Joe Coffee ...",
-            "link": "https://joecoffeecompany.com/collections/coffee?srsltid=AfmBOooHPEmHURZVFvLOuDHlidsoZe3MEgd3G538Co6sanU3jLIIYLRv",
+            "link": "https://joecoffeecompany.com/collections/coffee?srsltid=AfmBOopjd9TMOSAQ5sAgiHv6DCeOp33zR46rM4fgYad0gHaWGi2UT4f6",
             "displayed_link": "https://joecoffeecompany.com › collections › coffee",
             "favicon": "data:image/png;base64,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",
             "source": "Joe Coffee Company",
@@ -165,8 +165,21 @@
             "page_rank": 6
           },
           {
+            "title": "Kobrick Coffee | Fresh Roasted Coffee | Small Batch ... - NYC",
+            "link": "https://www.kobricks.com/",
+            "displayed_link": "https://www.kobricks.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABiUlEQVR4AXzRIYysMBSF4eOTJhN8kCjMqLomNShGVY6oJ/hgVmHQdauQ2FH4pApZiUOicLXta4cSVr3f3XziNr3w/+lE982n0nShXbRejkv3MJk4JZSUtmsyN3LK1e4v9BLotm2Z51mvMw/D6m5skDW9YGVRvLoKGA7vb2yRCQZk+fNNAVGrzbqEVnE82snYY18Eyd4CyD4JD5VRkJ9llJSULyG0aXJl/RfdpwTF41URzimraF5Nh9rSzq0BGAgVQ89K2s99+fGHO9FpikaAyHl6AdK4bbYBTrQjwSzDzqkG0Mff8zcqlKYBYRQhtlxyYb40iFU58F6ddTdOOUYZiMh9AjK1jsa7hN5UYFWw5+9u48O7Qtp1T3gMD9BgjHXTbwE8Rb+26jjRmXfEdpRlTuugw9yiGG3EoEsdUa9G60VxLiqAjkfEqIcEYZw3alSyyAAM6SrpnoRzfHvkRf3xsRvR6Ul1XTdMY1dgsn+wLZ4/uz9bZVkK7W40Whub0K1a6+0P/hsWQJEkAEJtEmLxNKraAAAAAElFTkSuQmCC",
+            "source": "Kobrick Coffee",
+            "snippet": "Fresh roasted coffee direct from the roasting plant. Barista Shop. Hand roasted in small batches by four generations of Kobricks.",
+            "highlighted_keywords": [
+              "Fresh roasted coffee direct from the roasting plant"
+            ],
+            "rank": 7,
+            "page_rank": 7
+          },
+          {
             "title": "Rook Coffee",
-            "link": "https://rookcoffee.com/collections/coffee?srsltid=AfmBOor69gFotC8tV1TY1cuvi3I1PkwCmR_uT8CczeikjGNZ1CD8UI-E",
+            "link": "https://rookcoffee.com/collections/coffee?srsltid=AfmBOopn7ofbsXPibX3rAfVsFq9-PMShsqRRcLnK-O0077YlC-rKgvFr",
             "displayed_link": "https://rookcoffee.com › collections › coffee",
             "favicon": "data:image/png;base64,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",
             "source": "Rook Coffee",
@@ -191,8 +204,8 @@
                 ]
               }
             },
-            "rank": 7,
-            "page_rank": 7
+            "rank": 8,
+            "page_rank": 8
           },
           {
             "title": "Coffee - Walmart.com",
@@ -220,8 +233,8 @@
                 ]
               }
             },
-            "rank": 8,
-            "page_rank": 8
+            "rank": 9,
+            "page_rank": 9
           }
         ],
         "relatedSearches": [
@@ -242,12 +255,12 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
-            "query": "Coffee Bean menu",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
-          },
-          {
             "query": "Coffee name",
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
+          },
+          {
+            "query": "Coffee Bean menu",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
           },
           {
             "query": "Coffee powder",
@@ -264,23 +277,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4698f29faeb44f5e&gl=us&hl=en&ei=qIU6ap7cEK__ptQPwurxkAo&start=10&sa=N&sstk=AU9db-AQmKoZXOwZqXw2RKVY3NBcufUND6pGCLrcavXhewxf-KVFGyudrV7yombqvTc9R94b8IYneCJQVEcpzJ7saPIOVNByx242ZQ&ved=2ahUKEwie0MvPt52VAxWvv4kEHUJ1HKIQ8NMDegQIYxAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=5ded1eb12a838e6b&gl=us&hl=en&ei=uJM6atHZDbiJptQPqp3iwAM&start=10&sa=N&sstk=AU9db-AdzDklJAKrdGVk_2eJvkHrzXtJlCbGIXYPV8LdopeFRtiFAa375yeu36SUcHH1Z9ltYxVOejMUKCsYvFCCsVmqBdRbTacOuw&ved=2ahUKEwjRlZeExZ2VAxW4hIkEHaqOGDgQ8NMDegQIURAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4698f29faeb44f5e&gl=us&hl=en&ei=qIU6ap7cEK__ptQPwurxkAo&start=10&sa=N&sstk=AU9db-AQmKoZXOwZqXw2RKVY3NBcufUND6pGCLrcavXhewxf-KVFGyudrV7yombqvTc9R94b8IYneCJQVEcpzJ7saPIOVNByx242ZQ&ved=2ahUKEwie0MvPt52VAxWvv4kEHUJ1HKIQ8tMDegQIYxAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4698f29faeb44f5e&gl=us&hl=en&ei=qIU6ap7cEK__ptQPwurxkAo&start=20&sa=N&sstk=AU9db-AQmKoZXOwZqXw2RKVY3NBcufUND6pGCLrcavXhewxf-KVFGyudrV7yombqvTc9R94b8IYneCJQVEcpzJ7saPIOVNByx242ZQ&ved=2ahUKEwie0MvPt52VAxWvv4kEHUJ1HKIQ8tMDegQIYxAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4698f29faeb44f5e&gl=us&hl=en&ei=qIU6ap7cEK__ptQPwurxkAo&start=30&sa=N&sstk=AU9db-AQmKoZXOwZqXw2RKVY3NBcufUND6pGCLrcavXhewxf-KVFGyudrV7yombqvTc9R94b8IYneCJQVEcpzJ7saPIOVNByx242ZQ&ved=2ahUKEwie0MvPt52VAxWvv4kEHUJ1HKIQ8tMDegQIYxAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4698f29faeb44f5e&gl=us&hl=en&ei=qIU6ap7cEK__ptQPwurxkAo&start=40&sa=N&sstk=AU9db-AQmKoZXOwZqXw2RKVY3NBcufUND6pGCLrcavXhewxf-KVFGyudrV7yombqvTc9R94b8IYneCJQVEcpzJ7saPIOVNByx242ZQ&ved=2ahUKEwie0MvPt52VAxWvv4kEHUJ1HKIQ8tMDegQIYxAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4698f29faeb44f5e&gl=us&hl=en&ei=qIU6ap7cEK__ptQPwurxkAo&start=50&sa=N&sstk=AU9db-AQmKoZXOwZqXw2RKVY3NBcufUND6pGCLrcavXhewxf-KVFGyudrV7yombqvTc9R94b8IYneCJQVEcpzJ7saPIOVNByx242ZQ&ved=2ahUKEwie0MvPt52VAxWvv4kEHUJ1HKIQ8tMDegQIYxAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4698f29faeb44f5e&gl=us&hl=en&ei=qIU6ap7cEK__ptQPwurxkAo&start=60&sa=N&sstk=AU9db-AQmKoZXOwZqXw2RKVY3NBcufUND6pGCLrcavXhewxf-KVFGyudrV7yombqvTc9R94b8IYneCJQVEcpzJ7saPIOVNByx242ZQ&ved=2ahUKEwie0MvPt52VAxWvv4kEHUJ1HKIQ8tMDegQIYxAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4698f29faeb44f5e&gl=us&hl=en&ei=qIU6ap7cEK__ptQPwurxkAo&start=70&sa=N&sstk=AU9db-AQmKoZXOwZqXw2RKVY3NBcufUND6pGCLrcavXhewxf-KVFGyudrV7yombqvTc9R94b8IYneCJQVEcpzJ7saPIOVNByx242ZQ&ved=2ahUKEwie0MvPt52VAxWvv4kEHUJ1HKIQ8tMDegQIYxAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4698f29faeb44f5e&gl=us&hl=en&ei=qIU6ap7cEK__ptQPwurxkAo&start=80&sa=N&sstk=AU9db-AQmKoZXOwZqXw2RKVY3NBcufUND6pGCLrcavXhewxf-KVFGyudrV7yombqvTc9R94b8IYneCJQVEcpzJ7saPIOVNByx242ZQ&ved=2ahUKEwie0MvPt52VAxWvv4kEHUJ1HKIQ8tMDegQIYxAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4698f29faeb44f5e&gl=us&hl=en&ei=qIU6ap7cEK__ptQPwurxkAo&start=90&sa=N&sstk=AU9db-AQmKoZXOwZqXw2RKVY3NBcufUND6pGCLrcavXhewxf-KVFGyudrV7yombqvTc9R94b8IYneCJQVEcpzJ7saPIOVNByx242ZQ&ved=2ahUKEwie0MvPt52VAxWvv4kEHUJ1HKIQ8tMDegQIYxAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=5ded1eb12a838e6b&gl=us&hl=en&ei=uJM6atHZDbiJptQPqp3iwAM&start=10&sa=N&sstk=AU9db-AdzDklJAKrdGVk_2eJvkHrzXtJlCbGIXYPV8LdopeFRtiFAa375yeu36SUcHH1Z9ltYxVOejMUKCsYvFCCsVmqBdRbTacOuw&ved=2ahUKEwjRlZeExZ2VAxW4hIkEHaqOGDgQ8tMDegQIURAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=5ded1eb12a838e6b&gl=us&hl=en&ei=uJM6atHZDbiJptQPqp3iwAM&start=20&sa=N&sstk=AU9db-AdzDklJAKrdGVk_2eJvkHrzXtJlCbGIXYPV8LdopeFRtiFAa375yeu36SUcHH1Z9ltYxVOejMUKCsYvFCCsVmqBdRbTacOuw&ved=2ahUKEwjRlZeExZ2VAxW4hIkEHaqOGDgQ8tMDegQIURAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=5ded1eb12a838e6b&gl=us&hl=en&ei=uJM6atHZDbiJptQPqp3iwAM&start=30&sa=N&sstk=AU9db-AdzDklJAKrdGVk_2eJvkHrzXtJlCbGIXYPV8LdopeFRtiFAa375yeu36SUcHH1Z9ltYxVOejMUKCsYvFCCsVmqBdRbTacOuw&ved=2ahUKEwjRlZeExZ2VAxW4hIkEHaqOGDgQ8tMDegQIURAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=5ded1eb12a838e6b&gl=us&hl=en&ei=uJM6atHZDbiJptQPqp3iwAM&start=40&sa=N&sstk=AU9db-AdzDklJAKrdGVk_2eJvkHrzXtJlCbGIXYPV8LdopeFRtiFAa375yeu36SUcHH1Z9ltYxVOejMUKCsYvFCCsVmqBdRbTacOuw&ved=2ahUKEwjRlZeExZ2VAxW4hIkEHaqOGDgQ8tMDegQIURAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=5ded1eb12a838e6b&gl=us&hl=en&ei=uJM6atHZDbiJptQPqp3iwAM&start=50&sa=N&sstk=AU9db-AdzDklJAKrdGVk_2eJvkHrzXtJlCbGIXYPV8LdopeFRtiFAa375yeu36SUcHH1Z9ltYxVOejMUKCsYvFCCsVmqBdRbTacOuw&ved=2ahUKEwjRlZeExZ2VAxW4hIkEHaqOGDgQ8tMDegQIURAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=5ded1eb12a838e6b&gl=us&hl=en&ei=uJM6atHZDbiJptQPqp3iwAM&start=60&sa=N&sstk=AU9db-AdzDklJAKrdGVk_2eJvkHrzXtJlCbGIXYPV8LdopeFRtiFAa375yeu36SUcHH1Z9ltYxVOejMUKCsYvFCCsVmqBdRbTacOuw&ved=2ahUKEwjRlZeExZ2VAxW4hIkEHaqOGDgQ8tMDegQIURAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=5ded1eb12a838e6b&gl=us&hl=en&ei=uJM6atHZDbiJptQPqp3iwAM&start=70&sa=N&sstk=AU9db-AdzDklJAKrdGVk_2eJvkHrzXtJlCbGIXYPV8LdopeFRtiFAa375yeu36SUcHH1Z9ltYxVOejMUKCsYvFCCsVmqBdRbTacOuw&ved=2ahUKEwjRlZeExZ2VAxW4hIkEHaqOGDgQ8tMDegQIURAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=5ded1eb12a838e6b&gl=us&hl=en&ei=uJM6atHZDbiJptQPqp3iwAM&start=80&sa=N&sstk=AU9db-AdzDklJAKrdGVk_2eJvkHrzXtJlCbGIXYPV8LdopeFRtiFAa375yeu36SUcHH1Z9ltYxVOejMUKCsYvFCCsVmqBdRbTacOuw&ved=2ahUKEwjRlZeExZ2VAxW4hIkEHaqOGDgQ8tMDegQIURAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=5ded1eb12a838e6b&gl=us&hl=en&ei=uJM6atHZDbiJptQPqp3iwAM&start=90&sa=N&sstk=AU9db-AdzDklJAKrdGVk_2eJvkHrzXtJlCbGIXYPV8LdopeFRtiFAa375yeu36SUcHH1Z9ltYxVOejMUKCsYvFCCsVmqBdRbTacOuw&ved=2ahUKEwjRlZeExZ2VAxW4hIkEHaqOGDgQ8tMDegQIURAU"
           }
         }
       }
     }
   },
-  "requestId": "1e5a5629-0780-41da-8766-302394cd8d74",
-  "timestamp": 1782223585991,
-  "recordTime": "2026-06-23 22:06:25"
+  "requestId": "5a79381c-7eab-4711-b083-a5f50b5dadbf",
+  "timestamp": 1782223802884,
+  "recordTime": "2026-06-23 22:10:02"
 }
