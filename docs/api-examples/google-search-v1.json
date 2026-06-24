@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-24 10:10:04",
+    "checkedAt": "2026-06-24 11:10:03",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.9,
-          "total_results": 2660000,
+          "time_taken": 0.52,
+          "total_results": 191,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,47 +24,47 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Moka & CoMoka & Co\"Good coffee taste, very stylish atmosphere, delicious food.\"",
-            "rating": "4.7",
-            "reviews": "630",
-            "address": "4.7(630) · $10–20 · Coffee shop",
-            "hours": "New York, NY",
+            "title": "Bleu CoffeeBleu Coffee",
+            "rating": "4.8",
+            "reviews": "582",
+            "address": "4.8(582) · $1–10 · Coffee shop",
+            "hours": "Jersey City, NJ",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Somedays Bakery - BaysideSomedays Bakery - Bayside\"Great coffee, friendly staff, and a really clean, well-designed space.\"",
-            "rating": "4.9",
-            "reviews": "285",
-            "address": "4.9(285) · $10–20 · Coffee shop",
-            "hours": "Bayside, NY",
+            "title": "Treehouse Coffee ShopTreehouse Coffee Shop",
+            "rating": "4.6",
+            "reviews": "52",
+            "address": "4.6(52) · $1–10 · Coffee shop",
+            "hours": "Jersey City, NJ",
             "links": {}
           },
           {
             "position": 3,
-            "title": "StarbucksStarbucks\"My barrista Michelle took care to provide my coffee appropriately.\"",
-            "rating": "4.0",
-            "reviews": "225",
-            "address": "4.0(225) · $1–10 · Coffee shop",
-            "hours": "Bayside, NY",
+            "title": "LACKAWANNA COFFEELACKAWANNA COFFEE",
+            "rating": "4.6",
+            "reviews": "326",
+            "address": "4.6(326) · $1–10 · Coffee shop",
+            "hours": "Jersey City, NJ",
             "links": {}
           }
         ],
         "peopleAlsoAskedFor": [
           {
-            "question": "What is coffee called in Colombia?",
+            "question": "Does coffee reduce swelling?",
             "rank": 1
           },
           {
-            "question": "What is the 15 15 15 rule for coffee?",
+            "question": "Is coffee good for kidney creatinine?",
             "rank": 2
           },
           {
-            "question": "Does coffee reduce swelling?",
+            "question": "Does coffee exfoliate skin?",
             "rank": 3
           },
           {
-            "question": "Are coffee grounds good for pothos?",
+            "question": "Is coffee good for the prostate?",
             "rank": 4
           }
         ],
@@ -91,39 +91,17 @@
             "page_rank": 1
           },
           {
-            "title": "Starbucks Coffee Company",
-            "link": "https://www.starbucks.com/",
-            "displayed_link": "https://www.starbucks.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUAqGIdqmY1r3EAp18ApFiUzqyt2L4Ao1ZfuYRTtn7q9e/3/PotrWzH5NP////W695BsXUAn0zf8OYApVtMtHrk8utvwJIAnEX6/fwAoVFivY2e0rPL59i/4c3+/v623cal1biOyaNsvo98xZuGyKGAxp1Ptn+w3MO6/E0wAAABrUlEQVR4AWKgEgDUQR9YkoJQFEBRJAjyVFAMiKHQnv3vcKjJkQz3kH5R/pdoxbig/9kma6Vr2fxrG6EGObV5+OfurhO0z2p7J8rhd3UFRj/Ns8ayWnTuV+1CwYDWUtG2AHfs294vbbUh7oDSegRwwFZfybsvfSa9ccZOozM37y1OEpSUOlcFUxfTZQzriyHyKi/RAgSxf12JLIO8FXLSaZUL9ZdfOMiuNXA26d6GK+TRVW/pKRkwq4w78PThkDHnM3bRcx9DvwLYCQC2yHu7+cdzmSOllZ0mpeXJQJi/hTs/2ieeADRw8GDk4cTjGXmCIO4YVDmvQORAUvU4xIoIdhPk3oU0dmNSyns7S13ovJM4DvL+L/0w15EdykJuLJzH673akPCOVDU2ysGVZht6lLa22YhjJLrci7FQAo7JOiwo7DC6N3Ii3htDOBgbHXIqW562+1NezpQoobV92QbNhhyRlmJon9Y7Ql9kpaRSzez0dWfLGjyELnXeI4kjrjZ3rDGprzhP8Gc4vMtkps7GZAYs9iuqCevBuBqmT6TRwE51MZ6vr3hf2mmaV+fhM60UJgvTnxtEAAAAAElFTkSuQmCC",
-            "source": "Starbucks",
-            "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
+            "title": "Buy Coffee, Tea, Powders Online | The Coffee Bean & Tea ...",
+            "link": "https://www.coffeebean.com/",
+            "displayed_link": "https://www.coffeebean.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEVHcExTLG1TLG1TLG1TLW1TLG1TLG1TLW1TLG1TLG1TLG30H49eAAAAC3RSTlMAFT5uyLedLN38V4AViBkAAADiSURBVHgBlZAlYgIAAAAPl4JLm3Zcy1zifGtzLbi2uaQ5UnC+iWvk2sU7JkfrcMxAH93qweWatW+yJ49GE3kKAgCpEwBjBgBkeeI5K/iCmADzifL96QukS5FnwEnyaXMRBAdrNhCskHz/DSJzrZXUINxAeVVCeLFbT0yDaBs0QtnmndpQVLf0FEj6r8Fopavx2gdpDB3dFtSe00HhC4YiILxzrU9D9IH5aUC5txsUzFAt4gJ0e5dquLD5ETwCRx79CSR/rUgXgRCyHxC4i62EscCvfv7qWD66vf6c/jr/DBPTBBH3MWVXMDuJAAAAAElFTkSuQmCC",
+            "source": "The Coffee Bean & Tea Leaf",
+            "snippet": "Buy exceptional coffee, tea, powders, equipment and drinkware at The Coffee Bean & Tea Leaf® online store to enjoy our globally sourced products at home.",
             "highlighted_keywords": [
-              "Explore our menu of handcrafted drinks"
+              "Buy exceptional coffee, tea, powders, equipment and drinkware"
             ],
             "rank": 2,
             "page_rank": 2
-          },
-          {
-            "title": "Single Origin, Blends, Espresso - Shop - Joe Coffee ...",
-            "link": "https://joecoffeecompany.com/collections/coffee?srsltid=AfmBOooZHwdPQmyZtUk7hKGj56wGgrypNK8g1gZf-K3AdtyNzBo_EMeC",
-            "displayed_link": "https://joecoffeecompany.com › collections › coffee",
-            "favicon": "data:image/png;base64,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",
-            "source": "Joe Coffee Company",
-            "snippet": "Shop for single origin, espresso, blends, decaf, and specialty instant coffee in the Joe Coffee Company store.",
-            "highlighted_keywords": [
-              "coffee",
-              "Coffee"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Free delivery over $65"
-                ]
-              }
-            },
-            "rank": 3,
-            "page_rank": 3
           },
           {
             "title": "What is coffee? - NCA",
@@ -135,47 +113,126 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
+            "rank": 3,
+            "page_rank": 3
+          },
+          {
+            "title": "THE BEST Coffee & Tea in New York City",
+            "link": "https://www.tripadvisor.com/Restaurants-g60763-zfg9900-New_York_City_New_York.html",
+            "displayed_link": "https://www.tripadvisor.com › Restaurants-g60763-zfg9...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAilBMVEUA61sA7VwA8F0A814A1lMAvEkAq0IAwksA2VQA7FsA9F4A01IAgTIAJg8AAAAALhIAhTQA41gA3VYAayoAHQsAYSYAnD0AWiMACwUAeS8AFgkADwYAIw4AKxEAyU4A9l8AMxQAEwgAGwsAcSwAQRoAlToAaCkAoD4As0UATx8Ady4Ap0EAPRgAjTfyrsZwAAABNUlEQVR4Ac3RRYLEIBQE0PDpOFTcId7eff/rTWAzeoCpDfJwnP8cxogY+1M4nVzP8wNOXz1kR6JYSNgk6YmbntBalud5UKAsq7Su06Ys2870ZKHBvEc7KJ2MEyfikyu1GlokFh2Wz1r1y4qUOyFtWJdeyd1hjsVYDZvrnxVExC9tch3dy6ADiyGb29t0JJsx3rA7pl63d24nunhMebW7kYuuQRw9X5dsOipmKp3hTs0qkVG/63mKIftueuJJBt/wp13qY46Ucp98aFVNHq4WPZwnF9iiYNB6yajBMk4CLrOP0JZZlJ34dFFal2LicRbFgwrtPalG4lJ0uiwHquGRc+ZJeOTY8DewlMC9KtdtB9QA1NyI1fHxSprjeK+Gwutdv7qYf/2vIxSyzAlDMvW/ftUc4j/nA89zGjJlkfnSAAAAAElFTkSuQmCC",
+            "source": "Tripadvisor",
+            "snippet": "Coffee & Tea in New York City Restaurants ranked according to page views, reviews and individual attributes. Best Bagel and Coffee 4.6 (1, ...",
+            "highlighted_keywords": [
+              "Coffee & Tea in New York City Restaurants"
+            ],
             "rank": 4,
             "page_rank": 4
           },
           {
-            "title": "Purity Coffee | Shop High Antioxidant Organic Coffee Online",
-            "link": "https://puritycoffee.com/?srsltid=AfmBOorGr1vpGGR-xeXwTtR1MwDezmiQioswnNuKnzW_vuG7la64OoXn",
-            "displayed_link": "https://puritycoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEVHcEwAqKIAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKOUxb52AAAAEHRSTlMABhEjX6HJ3v/68LKLSHU2r1raSQAAAORJREFUeAFjgABBRQEGBDAJKwsxgPNUMmZ0dJQoQHlMkR2dKzs6AqBc7s72I1eOd/ZAuS9m7BdgkN8x6wNE7YpuBWZfAXOoar7OYsaIjlqWGcUQrR0HRDtmdSuvqAdz1Tsdrne8jYZxzTs/eLYx2PICFUO4F7zaGRikOzaAuWogxUHMkTMcwFzWjgDRzq6qzjaIK1hm1jNldHR0FECdXNEqoFO1vAbmRY+ZBxlsfeEe5O5Yh+x55oyuAwxI4FvHbAYU6RkbkPnaML9D7drRboDMV2u/gKJ7+gcGZHBcAYWry4ANAAAooUYYhwCehwAAAABJRU5ErkJggg==",
-            "source": "Purity Coffee",
-            "snippet": "Shop Purity Coffee online today. Explore organic, specialty grade coffee that is purity tested, antioxidant rich and crafted for a cleaner cup at Purity ...",
+            "title": "All Coffee and Espresso",
+            "link": "https://www.intelligentsia.com/collections/coffee",
+            "displayed_link": "https://www.intelligentsia.com › collections › coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEzUKSfUKSfUKSfUKSfUKSfUKSfUKSfVKSfUKijUKSfUKSfUKSbUKSfUKSfUKSfUKSeAx3/MAAAAEXRSTlMAO5nwJf9/5BcP9kUFzSpfu+f5/RsAAACPSURBVHgBjZAJCoUwDAXT5dX82u3+p/1UqsFowGENAwMv9B3nyMZ7sgnBdhGIpkxAMuUGbJZjAGC7CiS7qrrMv0XEQTxvZooZBnnO8u9uPWt/czstStWqFrVC0HtaEBUaKbrITpoqsmpXAKE8q3Z3YOIcJkPJNW5NflaTTO6qmts1Oavu/Ry4VaUjt8G58w/CwQc98fZzoAAAAABJRU5ErkJggg==",
+            "source": "Intelligentsia Coffee",
+            "snippet": "Classic Espresso $17.50. Showcases lively fruit flavors that characterize our favorite coffees. consistently sweet and chocolatey espressos.",
             "highlighted_keywords": [
-              "Explore organic, specialty grade coffee"
+              "Classic Espresso $17.50"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$13",
+                  "price_to": "$50",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$13 to $50",
+                  "Free delivery"
+                ]
+              }
+            },
             "rank": 5,
             "page_rank": 5
           },
           {
-            "title": "Coffee and Tea Buying Guides",
-            "link": "https://www.seriouseats.com/coffee-and-tea-buying-guides-7105482",
-            "displayed_link": "https://www.seriouseats.com › Equipment › Coffee & Tea",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEVHcEwIgI0EgJAGgZIGgZIFgJIGgZEGgZIGgZIFgZFTAh/MAAAACnRSTlMACh7O/7s96NyOEnNCoAAAAGBJREFUeAHNx7ERQEAQQNG/NHAlGC0sgZQrQBFqMHICuei6dTPM7A4K8LLHF6nrgCljHDHFNAcuq2bNoFkLkhxelt2ARAfUV0m+CXxBflke3WwDMFl7oDj01lVkgZvwdAKvoU0odcJojQAAAABJRU5ErkJggg==",
-            "source": "Serious Eats",
-            "snippet": "These buying guides will you help decide which coffee and tea gear you need to make the perfect cup and how to get the most out of the gadgets you own.",
+            "title": "Buy Organic Coffee Beans Online | Direct Trade",
+            "link": "https://thinkcoffee.com/collections",
+            "displayed_link": "https://thinkcoffee.com › collections",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAMAAABY1h8eAAAAS1BMVEVHcExNT1ZMT1ZWWF9ISlBNT1ZLTVROUFdJS1NNT1ZOUFd3d31zdXpNT1ZLTVRDRUytrrF7fYK9vcCKi5CbnKBiZGrQ0NJwcXfj4+TZL1W9AAAADXRSTlMA0eb/EXk+ASa1aKTNMmVXbAAAARJJREFUKJGFko2OhCAMhFVgQfcolPKz7/+kV1A06F5uQjD60UGGTtP/0jykebGM1O11YC+1Lpa1rOo1UD1JNdtTs5IX1ZNZ7aDVdFoZjBAuKm91rbY7K17a1oO9HNReaOb+iemJZ9PgJgQBgHOOkrtqN/bV8h1ijqlgLJ5w2JVdfwIFz+LpQ1zv4PI1i48BcwjkQ/aulGLZ3MGyw0KYEJF4kM/Zp+JE6tA1xRB9qPL5E3OmHe6pCh8xY/BEMTMPse6pj3yg/qvHgpgoCor4lu2cRwB8VOugxVSnreV3+B7x1EX1cSRUs31K9Zv+fivDXcPh+Lzt/ThWiBvrPQQWU0lw66Gz+5IQ4tF9Z99u3/r2D/0CgrMadIMpvzEAAAAASUVORK5CYII=",
+            "source": "Think Coffee NYC",
+            "snippet": "Shop sustainable single origin coffee and blends. Direct trade, fair trade certified. Ethiopian, Nicaraguan & more. Order fresh roasted organic coffee ...",
             "highlighted_keywords": [
-              "decide which coffee and tea gear you need"
+              "Shop sustainable single origin coffee and blends"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {},
+                "extensions": [
+                  "Free delivery",
+                  "14-day returns"
+                ]
+              }
+            },
             "rank": 6,
             "page_rank": 6
           },
           {
-            "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOopDK7PrMoKq4Jx4zwr3jA7O39OUV8rQAgl0QvxRUOkX3L6_GsRJ",
-            "displayed_link": "https://www.stumptowncoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
-            "source": "Stumptown Coffee",
-            "snippet": "Stumptown Coffee Roasters brings you fresh beans, cold brew, and good vibes. Order online, visit a shop, or subscribe for the long haul.",
+            "title": "Best Coffee in New York City",
+            "link": "https://beanbox.com/coffee/best-coffee-in-new-york?srsltid=AfmBOoos96jOekdLqpRoCeKSv6T8pmkNVO-MlDRXu9l_nWiG35QU4EVJ",
+            "displayed_link": "https://beanbox.com › Bean Box - Coffees",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAZlBMVEX////f39+5ubmenp6Pj4+1tbXc3NzX19d5eXkAAAD4+PhLS0vIyMiCgoG/v7/7+/s7OzskJCRDQ0Nubm5hYWGYmJgxMTHz8/MsLCxQUFCkpKSKiopXV1cbGxvLy8sXFxdmZmbp6emrY8HSAAAAsElEQVR4Ab3PRQKDQAxA0eAERoq73f+QeEqAdfuW+aPwD4Zp2ZbjwpvnI7GDe3JD5ARvEh8UEP3BF4NihJytPE9Z8mwxT0o7SRimttJ7y1jKtXW7tWCthApJvcWGRU2NImuufHzVwC9LIFOs8Rq0BW8VrBSeOsh57Lfo4WHQKW8t7HCXwohcccRtOHpTjpwHh8Aogj7BRyM1PuQFXJx7q+GmSJCUlJhA2X6a2M4Ev7cAVUIR+z+lgecAAAAASUVORK5CYII=",
+            "source": "Bean Box",
+            "snippet": "Discover the best coffee in New York City, curated by Bean Box. Get coffee beans from NYC's top roasters, delivered fresh to your door.",
             "highlighted_keywords": [
-              "fresh beans, cold brew, and good vibes"
+              "Get coffee beans from NYC's top roasters"
             ],
+            "inline_snippet": "4.8",
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$19",
+                  "price_to": "$80",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "4.8 store rating (2.3K)",
+                  "4.8",
+                  "$19 to $80",
+                  "Free delivery over $45",
+                  "30-day returns"
+                ]
+              }
+            },
             "rank": 7,
             "page_rank": 7
+          },
+          {
+            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
+            "link": "https://www.discountcoffee.com/",
+            "displayed_link": "https://www.discountcoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
+            "source": "DiscountCoffee.com",
+            "snippet": "Office Coffee Service – Buy name brand coffee, tea, creamer, Add $59 for Fast & FREE Shipping FREE Standard Shipping On orders over $59 within the 48 states. ...",
+            "highlighted_keywords": [
+              "Office Coffee Service"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$5",
+                  "price_to": "$139",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$5 to $139",
+                  "Free delivery over $59",
+                  "30-day returns"
+                ]
+              }
+            },
+            "rank": 8,
+            "page_rank": 8
           },
           {
             "title": "Coffee | Origin, Types, Uses, History, & Facts",
@@ -183,54 +240,25 @@
             "displayed_link": "https://www.britannica.com › ... › Food",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
             "source": "Britannica",
-            "snippet": "Coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant of African origin. Coffee is one of the ...",
+            "snippet": "What is coffee? Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three ...Read more",
             "highlighted_keywords": [
+              "coffee",
               "Coffee",
               "coffee",
               "Coffee"
             ],
-            "rank": 8,
-            "page_rank": 8
-          },
-          {
-            "title": "Buy Freshly Roasted Coffee Online - Free Shipping over $40",
-            "link": "https://www.verenastreet.com/collections/coffee?srsltid=AfmBOoqQOs5nIIg0c8cM842FFbJsAwOAQjzBMkrmwyZeZGW5NUmuUCFl",
-            "displayed_link": "https://www.verenastreet.com › collections › coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA+VBMVEVHcEwAAAARHyeWnJ4AAAAAAACVkpOfeneeZmGHMiWYk5SmkpGKPjd5CgCCJhCbYFp0AAAAAACnmpl/Hga9mo7h0K3i0KLBqJH7+vrHxMTt7eyBgYKRSkPcxrDgyZHv37jPv6K7saPg4eCSkZBdVU0AAAAmHSF4dHSMh4GHdHOMgH9OSEpJQj6Ee3NlYGFBNjSom4NaSj6Qf2kUAAcLAACmlXuGhId2cnNwaWK/sJGCcFypi3h+cF4QAACwo4h7eHkeExL97sSjhHUvJB5vbGwVAAaMiYpvbmyDfX10T0x5XFuYkIHNy8ra2tpXW2CkeHPdxpSNR0CnhYIJ56WXAAAAU3RSTlMAFDRgHgl44f//hcT//////yKw//////8mcT5g////////C0f////8/v/////++/////////+f2/////////+7/////+X/pyPm////RxlC////2EA3ir8AAAEQSURBVHgBYhiyAFANOSA6DAQBdIvYrhsntW2b97/LR60L9K13PB6vz+f1fxRBMIJiGIrgng9mBEnRDEOzGMG92fECK0qyLCksSzzaBoIhEI6w0Vhc1eKxKIvBQP/7OmGYlu24iaTrpCwr7bjJRCZrWznfSYjnC0XrQul8lAvxSvUkrNUbzUal1Wg3CsVOt91Wimre7FrOSdjrD3KV/LBRbBQrVqNgqs1uZaRY45MQtipls9/vW39M/rd+oZCuWNOTcJa1UrX5YrnK1O1OPbNaLuY100oZ4IS+3oDtjm3Je1XbyyLLbL3/Xw/gDMsoqqow1AGH3ls7pGlBELDdp+YCL3/c7Y78FgIf4fweP/hafgEc3SZpAi0NvwAAAABJRU5ErkJggg==",
-            "source": "Verena Street",
-            "snippet": "Whole bean or ground coffee. Craft blends, unique flavors. Light roast w/out the bite, dark roast w/out the burn. Skip the bitter, boring life. Shop now!",
-            "highlighted_keywords": [
-              "Whole bean or ground coffee"
-            ],
-            "inline_snippet": "4.9",
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$10",
-                  "price_to": "$75",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "4.9 store rating (1.6K)",
-                  "4.9",
-                  "$10 to $75",
-                  "Free delivery over $40",
-                  "30-day returns"
-                ]
-              }
-            },
             "rank": 9,
             "page_rank": 9
           }
         ],
         "relatedSearches": [
           {
-            "query": "Coffee nearby",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
-          },
-          {
             "query": "Coffee types",
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
+          },
+          {
+            "query": "Coffee nearby",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
           },
           {
             "query": "Coffee brands",
@@ -245,16 +273,16 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
-            "query": "Coffee powder",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
-          },
-          {
-            "query": "Coffee benefits",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
+            "query": "Coffee Bean menu",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
           },
           {
             "query": "Coffee NESCAFÉ",
             "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
+          },
+          {
+            "query": "Coffee powder",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
           }
         ],
         "dmca_message": {
@@ -263,23 +291,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3912ee443ffb6846&gl=us&hl=en&ei=-aw7auOMAdv9ptQPiLXQoAQ&start=10&sa=N&sstk=AU9db-Bf1If-r1hrTCIH0_NlcmZWcPe6HbfYdk7XfwLcfe8JrUAlW7jNM4wgdlNu8XoUeK9mKzw_LaWJTYntslcHYzkLc9hVkRJMVA&ved=2ahUKEwij7eqg0Z-VAxXbvokEHYgaFEQQ8NMDegQIURAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=63f38fc62ff74e48&gl=us&hl=en&ei=Cbs7aquCGJC4qtsPzPjomA0&start=10&sa=N&sstk=AU9db-BVyht6PZzECrXtyPdbCpwrkyyl5wHLpafioogh596LZaQlnnaoH4RIFZQuenlt_uHLl-84CbxUPTloqvsWCXYjxv1ICszBrQ&ved=2ahUKEwjrqtDV3p-VAxUQnGoFHUw8GtMQ8NMDegQIXxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3912ee443ffb6846&gl=us&hl=en&ei=-aw7auOMAdv9ptQPiLXQoAQ&start=10&sa=N&sstk=AU9db-Bf1If-r1hrTCIH0_NlcmZWcPe6HbfYdk7XfwLcfe8JrUAlW7jNM4wgdlNu8XoUeK9mKzw_LaWJTYntslcHYzkLc9hVkRJMVA&ved=2ahUKEwij7eqg0Z-VAxXbvokEHYgaFEQQ8tMDegQIURAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3912ee443ffb6846&gl=us&hl=en&ei=-aw7auOMAdv9ptQPiLXQoAQ&start=20&sa=N&sstk=AU9db-Bf1If-r1hrTCIH0_NlcmZWcPe6HbfYdk7XfwLcfe8JrUAlW7jNM4wgdlNu8XoUeK9mKzw_LaWJTYntslcHYzkLc9hVkRJMVA&ved=2ahUKEwij7eqg0Z-VAxXbvokEHYgaFEQQ8tMDegQIURAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3912ee443ffb6846&gl=us&hl=en&ei=-aw7auOMAdv9ptQPiLXQoAQ&start=30&sa=N&sstk=AU9db-Bf1If-r1hrTCIH0_NlcmZWcPe6HbfYdk7XfwLcfe8JrUAlW7jNM4wgdlNu8XoUeK9mKzw_LaWJTYntslcHYzkLc9hVkRJMVA&ved=2ahUKEwij7eqg0Z-VAxXbvokEHYgaFEQQ8tMDegQIURAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3912ee443ffb6846&gl=us&hl=en&ei=-aw7auOMAdv9ptQPiLXQoAQ&start=40&sa=N&sstk=AU9db-Bf1If-r1hrTCIH0_NlcmZWcPe6HbfYdk7XfwLcfe8JrUAlW7jNM4wgdlNu8XoUeK9mKzw_LaWJTYntslcHYzkLc9hVkRJMVA&ved=2ahUKEwij7eqg0Z-VAxXbvokEHYgaFEQQ8tMDegQIURAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3912ee443ffb6846&gl=us&hl=en&ei=-aw7auOMAdv9ptQPiLXQoAQ&start=50&sa=N&sstk=AU9db-Bf1If-r1hrTCIH0_NlcmZWcPe6HbfYdk7XfwLcfe8JrUAlW7jNM4wgdlNu8XoUeK9mKzw_LaWJTYntslcHYzkLc9hVkRJMVA&ved=2ahUKEwij7eqg0Z-VAxXbvokEHYgaFEQQ8tMDegQIURAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3912ee443ffb6846&gl=us&hl=en&ei=-aw7auOMAdv9ptQPiLXQoAQ&start=60&sa=N&sstk=AU9db-Bf1If-r1hrTCIH0_NlcmZWcPe6HbfYdk7XfwLcfe8JrUAlW7jNM4wgdlNu8XoUeK9mKzw_LaWJTYntslcHYzkLc9hVkRJMVA&ved=2ahUKEwij7eqg0Z-VAxXbvokEHYgaFEQQ8tMDegQIURAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3912ee443ffb6846&gl=us&hl=en&ei=-aw7auOMAdv9ptQPiLXQoAQ&start=70&sa=N&sstk=AU9db-Bf1If-r1hrTCIH0_NlcmZWcPe6HbfYdk7XfwLcfe8JrUAlW7jNM4wgdlNu8XoUeK9mKzw_LaWJTYntslcHYzkLc9hVkRJMVA&ved=2ahUKEwij7eqg0Z-VAxXbvokEHYgaFEQQ8tMDegQIURAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3912ee443ffb6846&gl=us&hl=en&ei=-aw7auOMAdv9ptQPiLXQoAQ&start=80&sa=N&sstk=AU9db-Bf1If-r1hrTCIH0_NlcmZWcPe6HbfYdk7XfwLcfe8JrUAlW7jNM4wgdlNu8XoUeK9mKzw_LaWJTYntslcHYzkLc9hVkRJMVA&ved=2ahUKEwij7eqg0Z-VAxXbvokEHYgaFEQQ8tMDegQIURAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=3912ee443ffb6846&gl=us&hl=en&ei=-aw7auOMAdv9ptQPiLXQoAQ&start=90&sa=N&sstk=AU9db-Bf1If-r1hrTCIH0_NlcmZWcPe6HbfYdk7XfwLcfe8JrUAlW7jNM4wgdlNu8XoUeK9mKzw_LaWJTYntslcHYzkLc9hVkRJMVA&ved=2ahUKEwij7eqg0Z-VAxXbvokEHYgaFEQQ8tMDegQIURAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=63f38fc62ff74e48&gl=us&hl=en&ei=Cbs7aquCGJC4qtsPzPjomA0&start=10&sa=N&sstk=AU9db-BVyht6PZzECrXtyPdbCpwrkyyl5wHLpafioogh596LZaQlnnaoH4RIFZQuenlt_uHLl-84CbxUPTloqvsWCXYjxv1ICszBrQ&ved=2ahUKEwjrqtDV3p-VAxUQnGoFHUw8GtMQ8tMDegQIXxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=63f38fc62ff74e48&gl=us&hl=en&ei=Cbs7aquCGJC4qtsPzPjomA0&start=20&sa=N&sstk=AU9db-BVyht6PZzECrXtyPdbCpwrkyyl5wHLpafioogh596LZaQlnnaoH4RIFZQuenlt_uHLl-84CbxUPTloqvsWCXYjxv1ICszBrQ&ved=2ahUKEwjrqtDV3p-VAxUQnGoFHUw8GtMQ8tMDegQIXxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=63f38fc62ff74e48&gl=us&hl=en&ei=Cbs7aquCGJC4qtsPzPjomA0&start=30&sa=N&sstk=AU9db-BVyht6PZzECrXtyPdbCpwrkyyl5wHLpafioogh596LZaQlnnaoH4RIFZQuenlt_uHLl-84CbxUPTloqvsWCXYjxv1ICszBrQ&ved=2ahUKEwjrqtDV3p-VAxUQnGoFHUw8GtMQ8tMDegQIXxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=63f38fc62ff74e48&gl=us&hl=en&ei=Cbs7aquCGJC4qtsPzPjomA0&start=40&sa=N&sstk=AU9db-BVyht6PZzECrXtyPdbCpwrkyyl5wHLpafioogh596LZaQlnnaoH4RIFZQuenlt_uHLl-84CbxUPTloqvsWCXYjxv1ICszBrQ&ved=2ahUKEwjrqtDV3p-VAxUQnGoFHUw8GtMQ8tMDegQIXxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=63f38fc62ff74e48&gl=us&hl=en&ei=Cbs7aquCGJC4qtsPzPjomA0&start=50&sa=N&sstk=AU9db-BVyht6PZzECrXtyPdbCpwrkyyl5wHLpafioogh596LZaQlnnaoH4RIFZQuenlt_uHLl-84CbxUPTloqvsWCXYjxv1ICszBrQ&ved=2ahUKEwjrqtDV3p-VAxUQnGoFHUw8GtMQ8tMDegQIXxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=63f38fc62ff74e48&gl=us&hl=en&ei=Cbs7aquCGJC4qtsPzPjomA0&start=60&sa=N&sstk=AU9db-BVyht6PZzECrXtyPdbCpwrkyyl5wHLpafioogh596LZaQlnnaoH4RIFZQuenlt_uHLl-84CbxUPTloqvsWCXYjxv1ICszBrQ&ved=2ahUKEwjrqtDV3p-VAxUQnGoFHUw8GtMQ8tMDegQIXxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=63f38fc62ff74e48&gl=us&hl=en&ei=Cbs7aquCGJC4qtsPzPjomA0&start=70&sa=N&sstk=AU9db-BVyht6PZzECrXtyPdbCpwrkyyl5wHLpafioogh596LZaQlnnaoH4RIFZQuenlt_uHLl-84CbxUPTloqvsWCXYjxv1ICszBrQ&ved=2ahUKEwjrqtDV3p-VAxUQnGoFHUw8GtMQ8tMDegQIXxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=63f38fc62ff74e48&gl=us&hl=en&ei=Cbs7aquCGJC4qtsPzPjomA0&start=80&sa=N&sstk=AU9db-BVyht6PZzECrXtyPdbCpwrkyyl5wHLpafioogh596LZaQlnnaoH4RIFZQuenlt_uHLl-84CbxUPTloqvsWCXYjxv1ICszBrQ&ved=2ahUKEwjrqtDV3p-VAxUQnGoFHUw8GtMQ8tMDegQIXxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=63f38fc62ff74e48&gl=us&hl=en&ei=Cbs7aquCGJC4qtsPzPjomA0&start=90&sa=N&sstk=AU9db-BVyht6PZzECrXtyPdbCpwrkyyl5wHLpafioogh596LZaQlnnaoH4RIFZQuenlt_uHLl-84CbxUPTloqvsWCXYjxv1ICszBrQ&ved=2ahUKEwjrqtDV3p-VAxUQnGoFHUw8GtMQ8tMDegQIXxAU"
           }
         }
       }
     }
   },
-  "requestId": "36be0210-ffb2-4e9d-8ce2-a4872c5e9e82",
-  "timestamp": 1782298803690,
-  "recordTime": "2026-06-24 19:00:03"
+  "requestId": "d270052c-0728-4f81-8c8a-d6eba8d523aa",
+  "timestamp": 1782299698682,
+  "recordTime": "2026-06-24 19:14:58"
 }
