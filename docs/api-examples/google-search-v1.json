@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-25 20:10:02",
+    "checkedAt": "2026-06-25 21:10:07",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.35,
-          "total_results": 2990000000,
+          "time_taken": 0.59,
+          "total_results": 3000000000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -20,10 +20,10 @@
         },
         "short_videos": [
           {
-            "title": "Coffee Basics Day 1",
-            "channel": "Andy Jamerson",
+            "title": "Why Coffee Tastes Good | The Stages of Coffee Explained",
+            "channel": "The Kent and Sussex Tea and Coffee Company",
             "source": "YouTube",
-            "link": "https://www.youtube.com/shorts/r-9U089tX5g",
+            "link": "https://www.youtube.com/shorts/ygoszb2AieI",
             "thumbnail": "https://img.youtube.com/vi/undefined/maxresdefault.jpg"
           },
           {
@@ -34,10 +34,10 @@
             "thumbnail": "https://img.youtube.com/vi/undefined/maxresdefault.jpg"
           },
           {
-            "title": "The history of coffee. | IFLScience",
-            "channel": "IFLScience",
+            "title": "Did you know how coffee was discovered. Take a look ...",
+            "channel": "Grounds & Vine",
             "source": "Facebook",
-            "link": "https://www.facebook.com/IFLScience/videos/the-history-of-coffee/3849329495375420/",
+            "link": "https://www.facebook.com/Groundsandvine/videos/story-of-coffee/1001710082266763/",
             "thumbnail": "https://img.youtube.com/vi/undefined/maxresdefault.jpg"
           },
           {
@@ -54,48 +54,30 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Pausa Coffee, LLCPausa Coffee, LLC\"Aside from the beautiful and thoughtful decor - the lattes were delicious.\"",
-            "rating": "4.6",
-            "reviews": "67",
-            "address": "4.6(67) · $10–20 · Coffee shop",
-            "hours": "Syracuse, NY",
+            "title": "Ritual Coffee RoastersRitual Coffee Roasters\"Good tasting hot mocha, it was not too sweet and espresso was strong.\"",
+            "rating": "4.3",
+            "reviews": "332",
+            "address": "4.3(332) · $1–10 · Coffee shop",
+            "hours": "Napa, CA",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Milano Bean Cafe SYRMilano Bean Cafe SYR\"The vibe, coffee, pastries, and the service were all immaculate!\"",
-            "rating": "4.7",
-            "reviews": "378",
-            "address": "4.7(378) · $10–20 · Coffee shop",
-            "hours": "Syracuse, NY",
+            "title": "Napa Valley Coffee Roasting CoNapa Valley Coffee Roasting Co\"Delicious coffee, reasonably priced, calm atmosphere\"",
+            "rating": "4.5",
+            "reviews": "645",
+            "address": "4.5(645) · $1–10 · Coffee shop",
+            "hours": "Napa, CA",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Haraz Coffee HouseHaraz Coffee House\"It’s a beautiful cafe with delicious coffee and attentive service.\"",
-            "rating": "4.6",
-            "reviews": "200",
-            "address": "4.6(200) · $10–20 · Coffee shop",
-            "hours": "Syracuse, NY",
+            "title": "Kindled & GroundedKindled & Grounded\"Check this place out next time you want coffee, a snack or candles.\"",
+            "rating": "4.4",
+            "reviews": "23",
+            "address": "4.4(23) · $1–20 · Cafe",
+            "hours": "Napa, CA",
             "links": {}
-          }
-        ],
-        "peopleAlsoAskedFor": [
-          {
-            "question": "Does coffee reduce swelling?",
-            "rank": 1
-          },
-          {
-            "question": "What is coffee called in Colombia?",
-            "rank": 2
-          },
-          {
-            "question": "What is a good coffee substitute for interstitial cystitis?",
-            "rank": 3
-          },
-          {
-            "question": "Is coffee good for kidney creatinine?",
-            "rank": 4
           }
         ],
         "organic_results": [
@@ -148,7 +130,7 @@
           },
           {
             "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoo1VLJvualQmvnQrowNhk2uWWqm0_7AQ7Su8rvo-1GczWyzst4i",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOorjd5KvdNtJbHHwYQKnD1Zsv9Syrt8wvfJXiE0P8oRYDo4PrI03",
             "displayed_link": "https://www.stumptowncoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
             "source": "Stumptown Coffee Roasters",
@@ -161,7 +143,7 @@
           },
           {
             "title": "Blue Bottle Coffee | Fresh Roasted Specialty Coffee",
-            "link": "https://bluebottlecoffee.com/us/eng?srsltid=AfmBOorBCusAuy2FSg6giePT4yxzf7esmg8ra0p3iaE1KqoSYaVpRWGK",
+            "link": "https://bluebottlecoffee.com/us/eng?srsltid=AfmBOopRA4DbRN1NuqlWruWvV7-cwc4gcpEeDfunsDtYgg63UUDtbwrH",
             "displayed_link": "https://bluebottlecoffee.com › eng",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEVHcEzz+v7////G5PcAneTo9vyKwu3///8AlN3v+v8Cnef///////8Alt5bsOc9qujz+v7///////////+cy+4Ak+AKm90AluWTzfOSzvkAmt////8AmOMAoeeh0vQAnuIAn+MAmeEAnOK1ZI6VAAAAH3RSTlMARB5k60+EAeNltTgK6qS4VhctIWXN1KqPn/gp0tByb5tLiwAAAJlJREFUKJGd0dkOgyAQhWE2gYIKtW5dwXn/h1R7zSFp/yuSL0Mgw9gPGQgGEhOc+xbNeb3oG8Lh41aETEh3FzW8IhzWd2jAi9rolOpjcfa4VOWsFikKn21mykcq8BKq0xK9LgBTSmQxUgWJtj+wq6FNEA2fKcFJHh5ECH3fYXxqu51NsYBCTqfZ3hewHUZ9NHKwb/OtBOCM2wEzsg7zSllT1AAAAABJRU5ErkJggg==",
             "source": "Blue Bottle Coffee",
@@ -186,25 +168,20 @@
             "page_rank": 6
           },
           {
-            "title": "All Coffee and Espresso",
-            "link": "https://www.intelligentsia.com/collections/coffee",
-            "displayed_link": "https://www.intelligentsia.com › collections › coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAJ1BMVEVHcEzUKijUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfpf0iZAAAADHRSTlMAECV/W/O7zT6Z5Gx3ew+DAAAAiUlEQVQokY2QWw6AIAwEESjP3v+8ihhKKSX2DyeZddeY35fSAeZ8gAA6s4hWhQ7RqbAgloNV97oGNW9pkHmvca/18dIXYwGVgxaf9+wbK+0YrRxXFEULuqXP/F8ghvAEvVhgio0CzpEHq/SGXq5XDhtrHNnS6qgy94ap3FOZe/kzMK+vPKXKHcTdn7UK5dbg4aoAAAAASUVORK5CYII=",
-            "source": "Intelligentsia Coffee",
-            "snippet": "Premium Instant Espresso. Freeze-dried instant coffee with notes of dark chocolate, raw sugar, and marshmallow. Discover. Quick Add. Quick Add Instant Espresso ...Read more",
+            "title": "Sightglass Coffee - San Francisco",
+            "link": "https://sightglasscoffee.com/?srsltid=AfmBOooulnFcm3Xx2wKPjBl4n1ZB8ucFMmH1GVubHg16_2ipF4jO2JTI",
+            "displayed_link": "https://sightglasscoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAJnUlEQVR4AXxRM2IFQBCdryo2vm3bjtnEacI6Z4ht3yeqco6g/9zNbOzVGG8Wvq+gRQ5+sxScOhEknGqezySFpEsNdo2wNmCWDYas8qOQRX4ZsSsfgmZpMWSRFZF/RN012k7RZ9ihEdan3Brwv8TyXDoRJ4A5w1Y5/LvafDqIO1SsCa6koRLiThV4DRJN2KY4wiL3UbuSvl2fQUi7Y07aFrRQv0FEYw7Vuy1iUzyGrYpzr1FiYM1rxLWADXITLhV0BvW/F++PmqHVqwUM5rHOcXER0QLKWURKQ3iDJkkBC+R9emFhbnac7K0vkIPNJTI51E2YDpvIo3/htQl281h4raG6VICTgahdwesI6GGs3fUTOSuOgTwMALdeLEHUNywJQ4ZIcx1hW7E34SZRu4p0Ruz0cGuZsCmkfQZ6frBJmB/6o11JkBaR5t4mgrluPQaJCgFBzKHktfv10BkwfPw5G/tT39XAZEuXBPuzbQwexraexrZt27Ztr82/sQqs8Q/WDgxPbWa96fXujbjTd7oPsjKz6lQzcm4O2rzw+1ecCM0uYkPczHhfm3zti58x6wuTJjHSW4rSHsnMSLcgao6RksxYsiMddSVSlhVvQt3eN6M9zZL2MNCAPQIhuD+EezkGEgQDjYG8kMmi4VRz0g6zOOLhr6ODXORRkIs90UR4fmSWp4eht48Eu74nJRkxMjfWqz6IDXFXuoPuviMT/W3SUJYjIRizsTBhsmJDCUCig10vuCZY+iOYcKEcAPIkr9zUcnj3VdUcRvseIuFiF1zEppRRLk+PIKIgCXX7QIoBYH6sT4Jd3tXNaEJeR7qbwEacuL//vD7PigszYe4fGj7jmmEeH1KOHzm9//qz3nc+sELcHZ6wQAXocLEeBNydi/R2kLykexcrMyMy1FlPLfkVBYB7oFRAr1I+PdQp8IXMjvRIX0u1MjDe1yqH26sy2F4nX/z0sWZIdly4mRzsMFODndJZX3pOViH1RnTAbQup+pQV7uVkRfredgVV56lYcH9jyZRkxJqx3halnagJggBSbQBggB4AtVKVnyqfOdmT+77OysDUYBc8Ei3HO6sKODrIVYa7Gs2njnZMTkKkbdZr1BcfSsBCAQPeOaCe5dkJF9BOXN95xlDr+pIsupiL/wsAlQAeCHX/QGVYmxvjOLDWIBU5ieL98cuyODkg2fHhEnjnbclNjJTJgXYTePstYareGPwz8ShWWuGACEWG1DhdIzKztTyDyFJ08ceDAWD6nwFE04TUXuXZWppmVIi0QeoAmuBXARgeUG+UQrL58T6algyYG3P/Ocjt4w8tlldOxs0rLEbDmMLUh7K5NCX9rTWaaqRtZXYU9SCYALigShDp5SAoxXD85N8ZqC3OUD+s2AD+kTWU0wbAgiXYu4rpcMjJEV4fXxakPDB9LVVy562ndMHDrRXcd9BFZkd7JSbYjb9BaZRsLE6K/603OE+OtlcIRj1QV5xpA4ABw+y0JQMEwGBobJUBe3+WAL59o8lVTIiboLzKaE8LGJiWroYyyiKduH7zq1+Q8f52Sb7nR1a4IED1yNr8uLDo+Dm9rteawnSVjgZGBqhPSrPidDxSkoGRgesbAD/iCfW7m5JpQCdLrTRV5LLaMRJWOJpTqvKSpaE0S1gJGS2ioU84Dky8qUUpGWkXF+ahrCSEewkyC4y9z/Fkj0Hi6qrp/Tjo23+xmBL42gB0EKsWU4jpRE1bqwqUhf62WllHlvAsyE2IFKQVMiVTqR/sqOf5QJCsmHgWoUWJc1kX6I/p4W5lA/VG05FMWPzDf3izOD1aZlhYWqtlAJMGO+qkuTJPSrFQZkwoN0PO7zOvle7e5kpQnibwjqRAmu2VWVDdj4JTpqB68LwOAeTER1A6Zc8u77wqANDwe/sm6SGF1QWpiNJf/JzfgG4f8Fzgc6WUYMkSzUjGeEyTfv6mYQuS7xMUswVeeE/rQEZ0CNZMscdz879LQBN+9wbNFTdYmhzUFNtbX5TmijwJgL6kD2e+guFYSsTFFyb6mao0GnVGtOlqYpRe2V2bV8BN5TkqzcRAO+7N8fDi2WKb8McEcIyo4OwPL1HFtPx6fPiipKHbIQhGQDrrkV7ciGMJgMb70mdPdVGmI1nZXJyCVCHi+u6z6vqK3ETeI/VMbchaq8c1GLvEOgTweYs9HP9BdFd1JZkGZjLBcD+cjIk+TB1lgFraACgH6fz08S6rIMcwWpTkcdAdTD+p5g8xtrelioWKpqVsdgbYhajWYgOJ1Ps90woArkGpoWm4cFdjOVMRpmv6FwDcnKZDOyaLkCwu1EPTraUyn/nPOZTK9grnUhKcoF0GdcUuxX9FK+DAI5FH8SkB1JdmXdDhRFqWHS8nexsSAjMN4Z4NAPRTLmG5hjRclFFzMxqPgJhFLEYA64Jakcz12COYVZRz1A72lILe4wsJoW4WW2cex55w5yULydHOqkEOG6SY4eI+jq9io+Z/AUCKmYZj+DJing2UjOzwStPRkL5Or/E5+wTtjg42lwxOSMP5UX53Au3j+Cl8ycIKnYycPqeWY5iE894QPVghALuUarX7xlc+T7DyafQCrdUFypSdqvFhnjgfVnH14ElqRrubDAtYZV7SOQFir714RA8GnrKCPRyecHV823r1haeeweI/ADqm2AU0pYm0wRzqbGSF4/HLkqpt2RTYYcVD86K9ICnn6Ycm9sY3DUxj9hWG6cs1uTn2+MWdD15/0efO++y+n7C0QXzclOLGx3cx4A+gmfpdsAARAExoWA29PnoZUd7iIjgNpwgGjN3X5oOb7qIG0O1Mw6WpIX1f4OYxN00pzP7XUE8Hr5um9Cl25KyEfAXTVhk32ZYHgso/chOAOAe1TE351OG2mRxoMzwjYkPd9bSkZMxxHs00Fg8t6gwJWU9oTDr+3HY92r8Iuy2PDdE9Lf3wdYkvC3xp4ACgdGH3igGMGGnmfolG1GADzWNkgFmYGDB2Cd5enjHIewOT8qXFwJRMt0sAsF9MfsH3DfvFJC3K08p84G39y4evS8mRHoqOFDm+99qz7F7RL14/wELcjE0LTHkJQ153N1UadjhgwcADJj/53jWO7ksAYprpxjcd8J6707svRvk669rcvLv4ofVfP6l4SDn4ouLh9C4zhC+nPpDpM5j8Z5iSVNJo1J+/+aUk1Jm/7Y3/ijlfAOUBrDM+dz5QzUk7I/+/H9ClxuQrNft2mjM+1NViA8ke7p7f7c9G+Tj/EAv+mccpv4jyL4jwx9j08yyvrHAsMlyHqUa303DU/N8/fwPBwByPV0DMAAAAAABJRU5ErkJggg==",
+            "source": "Sightglass Coffee",
+            "snippet": "We specialize in small-batch coffee that is roasted to order in California. Our coffee is sourced directly from producers worldwide who share our commitment ...",
             "highlighted_keywords": [
-              "Freeze-dried instant coffee with notes of dark chocolate, raw sugar, and marshmallow"
+              "small-batch coffee that is roasted to order in California"
             ],
             "rich_snippet": {
               "bottom": {
-                "detected_extensions": {
-                  "price_from": "$13",
-                  "price_to": "$50",
-                  "currency": "$"
-                },
+                "detected_extensions": {},
                 "extensions": [
-                  "$13 to $50",
-                  "Free delivery"
+                  "15-day returns"
                 ]
               }
             },
@@ -212,25 +189,24 @@
             "page_rank": 7
           },
           {
-            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
-            "link": "https://www.discountcoffee.com/",
-            "displayed_link": "https://www.discountcoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
-            "source": "DiscountCoffee.com",
-            "snippet": "DiscountCoffee.com Office Coffee Service – Buy name brand coffee, tea, creamer,. Add $59 for. Fast & FREE Shipping. FREE ...Read more",
+            "title": "La Colombe Coffee Workshop - Buy Coffee Online",
+            "link": "https://www.lacolombe.com/?srsltid=AfmBOoq0SYQGHE8fFjN35cASPTxXmGDnHDkC4Tb94MT6BcduqfFxl1Ss",
+            "displayed_link": "https://www.lacolombe.com",
+            "favicon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhAIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Ljc3Nzc3Ly03Nzc1LTc3Ljc3LTc3Nys3LTc1NzcuKzc3Ny01Kzc1KysrN//AABEIABwAHAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAHBQEGAP/EACYQAAEDAwMEAgMAAAAAAAAAAAECAwQABRESITEGB1FhIkEygYL/xAAXAQEAAwAAAAAAAAAAAAAAAAACAQME/8QAGxEAAgIDAQAAAAAAAAAAAAAAAQIAEQMSMSH/2gAMAwEAAhEDEQA/AC7YbniklfaaXMtTdxsd0ZkIeaDiWnxpO4zjUCRmuJ6ZtYvd/YthWpsSllBcQMlHxJ1Y9Y3ps7cNmxSXOl3r7BuC2Gy82zGZUFNDUM61ZIG5Hx5rXlYryUot9ghLs8uEX25jZYkw1hLzK+Rng+6n7fe1MXeyzOMWtE+LHaEdUvXLdLmXFLUAlIwR+Ix5/XJod4p422FwsKNTQopOUqIPkHFVukr4505fmbi0t1LTawH0NYy43n5JwdjmpFePFIi/JEXO83VEW4WSHAgO6xKUmY55CADpBH0STn+aI9vdaok7kk/W5rKKLqKEljZuf//Z",
+            "source": "La Colombe Coffee Workshop",
+            "snippet": "Looking to buy coffee online? La Colombe Coffee Workshop has you covered with our wide variety of products and brewing equipment. Shop now for your coffee ...",
             "highlighted_keywords": [
-              "Office Coffee Service"
+              "La Colombe Coffee Workshop"
             ],
             "rich_snippet": {
               "bottom": {
                 "detected_extensions": {
-                  "price_from": "$5",
-                  "price_to": "$109",
+                  "price_from": "$15",
+                  "price_to": "$40",
                   "currency": "$"
                 },
                 "extensions": [
-                  "$5 to $109",
-                  "Free delivery over $59",
+                  "$15 to $40",
                   "30-day returns"
                 ]
               }
@@ -274,12 +250,12 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
-            "query": "Coffee name",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
-          },
-          {
             "query": "Coffee powder",
             "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
+          },
+          {
+            "query": "Coffee name",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
             "query": "Coffee Amazon",
@@ -292,23 +268,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=GIs9asDmILmjptQPsKqeoQE&start=10&sa=N&sstk=AU9db-CedYHHD2rMnLuD57PCIanTkrS-KYdxTk-sSRp9s-C64Noe_t45VUVWmsY_QivVepyvbvjiTHZ96LSGT2pZHpqSrPu1MOnBTw&ved=2ahUKEwjA0rydmaOVAxW5kYkEHTCVJxQQ8NMDegQIZRAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1e091404904af226&gl=us&hl=en&ei=LZk9au2YBZ-fw8cPxOuBuA0&start=10&sa=N&sstk=AU9db-B0U9GTGKauDFt2l2qNX-9QbAKqg7yx-lpjPw7gdUsqd0buUroo549Ye1WLjGcAuTgDFQC1l5u467L_SVfylC0cDYJPU2B6qg&ved=2ahUKEwit46DUpqOVAxWfz_ACHcR1ANcQ8NMDegQIZRAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=GIs9asDmILmjptQPsKqeoQE&start=10&sa=N&sstk=AU9db-CedYHHD2rMnLuD57PCIanTkrS-KYdxTk-sSRp9s-C64Noe_t45VUVWmsY_QivVepyvbvjiTHZ96LSGT2pZHpqSrPu1MOnBTw&ved=2ahUKEwjA0rydmaOVAxW5kYkEHTCVJxQQ8tMDegQIZRAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=GIs9asDmILmjptQPsKqeoQE&start=20&sa=N&sstk=AU9db-CedYHHD2rMnLuD57PCIanTkrS-KYdxTk-sSRp9s-C64Noe_t45VUVWmsY_QivVepyvbvjiTHZ96LSGT2pZHpqSrPu1MOnBTw&ved=2ahUKEwjA0rydmaOVAxW5kYkEHTCVJxQQ8tMDegQIZRAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=GIs9asDmILmjptQPsKqeoQE&start=30&sa=N&sstk=AU9db-CedYHHD2rMnLuD57PCIanTkrS-KYdxTk-sSRp9s-C64Noe_t45VUVWmsY_QivVepyvbvjiTHZ96LSGT2pZHpqSrPu1MOnBTw&ved=2ahUKEwjA0rydmaOVAxW5kYkEHTCVJxQQ8tMDegQIZRAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=GIs9asDmILmjptQPsKqeoQE&start=40&sa=N&sstk=AU9db-CedYHHD2rMnLuD57PCIanTkrS-KYdxTk-sSRp9s-C64Noe_t45VUVWmsY_QivVepyvbvjiTHZ96LSGT2pZHpqSrPu1MOnBTw&ved=2ahUKEwjA0rydmaOVAxW5kYkEHTCVJxQQ8tMDegQIZRAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=GIs9asDmILmjptQPsKqeoQE&start=50&sa=N&sstk=AU9db-CedYHHD2rMnLuD57PCIanTkrS-KYdxTk-sSRp9s-C64Noe_t45VUVWmsY_QivVepyvbvjiTHZ96LSGT2pZHpqSrPu1MOnBTw&ved=2ahUKEwjA0rydmaOVAxW5kYkEHTCVJxQQ8tMDegQIZRAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=GIs9asDmILmjptQPsKqeoQE&start=60&sa=N&sstk=AU9db-CedYHHD2rMnLuD57PCIanTkrS-KYdxTk-sSRp9s-C64Noe_t45VUVWmsY_QivVepyvbvjiTHZ96LSGT2pZHpqSrPu1MOnBTw&ved=2ahUKEwjA0rydmaOVAxW5kYkEHTCVJxQQ8tMDegQIZRAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=GIs9asDmILmjptQPsKqeoQE&start=70&sa=N&sstk=AU9db-CedYHHD2rMnLuD57PCIanTkrS-KYdxTk-sSRp9s-C64Noe_t45VUVWmsY_QivVepyvbvjiTHZ96LSGT2pZHpqSrPu1MOnBTw&ved=2ahUKEwjA0rydmaOVAxW5kYkEHTCVJxQQ8tMDegQIZRAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=GIs9asDmILmjptQPsKqeoQE&start=80&sa=N&sstk=AU9db-CedYHHD2rMnLuD57PCIanTkrS-KYdxTk-sSRp9s-C64Noe_t45VUVWmsY_QivVepyvbvjiTHZ96LSGT2pZHpqSrPu1MOnBTw&ved=2ahUKEwjA0rydmaOVAxW5kYkEHTCVJxQQ8tMDegQIZRAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=GIs9asDmILmjptQPsKqeoQE&start=90&sa=N&sstk=AU9db-CedYHHD2rMnLuD57PCIanTkrS-KYdxTk-sSRp9s-C64Noe_t45VUVWmsY_QivVepyvbvjiTHZ96LSGT2pZHpqSrPu1MOnBTw&ved=2ahUKEwjA0rydmaOVAxW5kYkEHTCVJxQQ8tMDegQIZRAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1e091404904af226&gl=us&hl=en&ei=LZk9au2YBZ-fw8cPxOuBuA0&start=10&sa=N&sstk=AU9db-B0U9GTGKauDFt2l2qNX-9QbAKqg7yx-lpjPw7gdUsqd0buUroo549Ye1WLjGcAuTgDFQC1l5u467L_SVfylC0cDYJPU2B6qg&ved=2ahUKEwit46DUpqOVAxWfz_ACHcR1ANcQ8tMDegQIZRAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1e091404904af226&gl=us&hl=en&ei=LZk9au2YBZ-fw8cPxOuBuA0&start=20&sa=N&sstk=AU9db-B0U9GTGKauDFt2l2qNX-9QbAKqg7yx-lpjPw7gdUsqd0buUroo549Ye1WLjGcAuTgDFQC1l5u467L_SVfylC0cDYJPU2B6qg&ved=2ahUKEwit46DUpqOVAxWfz_ACHcR1ANcQ8tMDegQIZRAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1e091404904af226&gl=us&hl=en&ei=LZk9au2YBZ-fw8cPxOuBuA0&start=30&sa=N&sstk=AU9db-B0U9GTGKauDFt2l2qNX-9QbAKqg7yx-lpjPw7gdUsqd0buUroo549Ye1WLjGcAuTgDFQC1l5u467L_SVfylC0cDYJPU2B6qg&ved=2ahUKEwit46DUpqOVAxWfz_ACHcR1ANcQ8tMDegQIZRAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1e091404904af226&gl=us&hl=en&ei=LZk9au2YBZ-fw8cPxOuBuA0&start=40&sa=N&sstk=AU9db-B0U9GTGKauDFt2l2qNX-9QbAKqg7yx-lpjPw7gdUsqd0buUroo549Ye1WLjGcAuTgDFQC1l5u467L_SVfylC0cDYJPU2B6qg&ved=2ahUKEwit46DUpqOVAxWfz_ACHcR1ANcQ8tMDegQIZRAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1e091404904af226&gl=us&hl=en&ei=LZk9au2YBZ-fw8cPxOuBuA0&start=50&sa=N&sstk=AU9db-B0U9GTGKauDFt2l2qNX-9QbAKqg7yx-lpjPw7gdUsqd0buUroo549Ye1WLjGcAuTgDFQC1l5u467L_SVfylC0cDYJPU2B6qg&ved=2ahUKEwit46DUpqOVAxWfz_ACHcR1ANcQ8tMDegQIZRAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1e091404904af226&gl=us&hl=en&ei=LZk9au2YBZ-fw8cPxOuBuA0&start=60&sa=N&sstk=AU9db-B0U9GTGKauDFt2l2qNX-9QbAKqg7yx-lpjPw7gdUsqd0buUroo549Ye1WLjGcAuTgDFQC1l5u467L_SVfylC0cDYJPU2B6qg&ved=2ahUKEwit46DUpqOVAxWfz_ACHcR1ANcQ8tMDegQIZRAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1e091404904af226&gl=us&hl=en&ei=LZk9au2YBZ-fw8cPxOuBuA0&start=70&sa=N&sstk=AU9db-B0U9GTGKauDFt2l2qNX-9QbAKqg7yx-lpjPw7gdUsqd0buUroo549Ye1WLjGcAuTgDFQC1l5u467L_SVfylC0cDYJPU2B6qg&ved=2ahUKEwit46DUpqOVAxWfz_ACHcR1ANcQ8tMDegQIZRAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1e091404904af226&gl=us&hl=en&ei=LZk9au2YBZ-fw8cPxOuBuA0&start=80&sa=N&sstk=AU9db-B0U9GTGKauDFt2l2qNX-9QbAKqg7yx-lpjPw7gdUsqd0buUroo549Ye1WLjGcAuTgDFQC1l5u467L_SVfylC0cDYJPU2B6qg&ved=2ahUKEwit46DUpqOVAxWfz_ACHcR1ANcQ8tMDegQIZRAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=1e091404904af226&gl=us&hl=en&ei=LZk9au2YBZ-fw8cPxOuBuA0&start=90&sa=N&sstk=AU9db-B0U9GTGKauDFt2l2qNX-9QbAKqg7yx-lpjPw7gdUsqd0buUroo549Ye1WLjGcAuTgDFQC1l5u467L_SVfylC0cDYJPU2B6qg&ved=2ahUKEwit46DUpqOVAxWfz_ACHcR1ANcQ8tMDegQIZRAU"
           }
         }
       }
     }
   },
-  "requestId": "8605b220-4ae2-408e-bdb6-09cc48e78a27",
-  "timestamp": 1782420602662,
-  "recordTime": "2026-06-26 04:50:02"
+  "requestId": "9593b786-0fba-41ac-9291-739548e2d976",
+  "timestamp": 1782422183939,
+  "recordTime": "2026-06-26 05:16:23"
 }
