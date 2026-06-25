@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-25 18:10:03",
+    "checkedAt": "2026-06-25 19:10:03",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.52,
-          "total_results": 2980000000,
+          "time_taken": 0.49,
+          "total_results": 2990000000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,29 +24,29 @@
         "local_results": [
           {
             "position": 1,
-            "title": "7 Brew Coffee7 Brew Coffee",
-            "rating": "4.6",
-            "reviews": "171",
-            "address": "4.6(171) · $1–10 · Coffee shop",
-            "hours": "Montrose, CO",
+            "title": "Foxtail Coffee - Society AtlantaFoxtail Coffee - Society Atlanta\"Great coffee, cozy atmosphere and great service!\"",
+            "rating": "4.9",
+            "reviews": "84",
+            "address": "4.9(84) · $1–10 · Coffee shop",
+            "hours": "Atlanta, GA",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Looney Bean Coffee Roasting CoLooney Bean Coffee Roasting Co",
-            "rating": "4.4",
-            "reviews": "631",
-            "address": "4.4(631) · $1–10 · Coffee shop",
-            "hours": "Montrose, CO",
+            "title": "Black Coffee AtlantaBlack Coffee Atlanta\"The coffee is delicious—rich, smooth, and crafted with care.\"",
+            "rating": "4.9",
+            "reviews": "1.4K",
+            "address": "4.9(1.4K) · $10–20 · Coffee shop",
+            "hours": "Atlanta, GA",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Drive Brew Coffee and BlendsDrive Brew Coffee and Blends",
-            "rating": "4.9",
-            "reviews": "88",
-            "address": "4.9(88) · $1–10 · Coffee shop",
-            "hours": "Hotchkiss, CO",
+            "title": "DripDrip\"The baristas are friendly & well trained, & the coffee is always HEAVENLY!\"",
+            "rating": "4.6",
+            "reviews": "545",
+            "address": "4.6(545) · $10–20 · Coffee shop",
+            "hours": "Atlanta, GA",
             "links": {}
           }
         ],
@@ -104,28 +104,6 @@
             "page_rank": 2
           },
           {
-            "title": "Rock Canyon Coffee - Uniquely Colorado",
-            "link": "https://rockcanyoncoffee.com/?srsltid=AfmBOorpUYtfPQC7fgofMy1CoBT8g8CzsXn3EGwo42N9hvE8yrXUSYVo",
-            "displayed_link": "https://rockcanyoncoffee.com",
-            "favicon": "data:image/png;base64,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",
-            "source": "Rock Canyon Coffee",
-            "snippet": "The coffee we're best known for - an espresso unique to Colorado. Cocoa, caramel, berry aromatics. If you're new to Rock Canyon, this is a great place to ...Read more",
-            "highlighted_keywords": [
-              "an espresso unique to Colorado"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "3–4 day delivery",
-                  "30-day returns"
-                ]
-              }
-            },
-            "rank": 3,
-            "page_rank": 3
-          },
-          {
             "title": "Coffee - The Nutrition Source - Harvard University",
             "link": "https://nutritionsource.hsph.harvard.edu/food-features/coffee/",
             "displayed_link": "https://nutritionsource.hsph.harvard.edu › food-features",
@@ -135,12 +113,12 @@
             "highlighted_keywords": [
               "is a very low calorie drink"
             ],
-            "rank": 4,
-            "page_rank": 4
+            "rank": 3,
+            "page_rank": 3
           },
           {
             "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoo5Hv1abapaYzSSs6lCYW9cf1FI3juwtq7i0NYOxn7vgOcIX31s",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOopqB5qYQ_gY6MwnZG2Qw5EDGnbgFvI18_wOZSSy4mwE5ZG_ZdCC",
             "displayed_link": "https://www.stumptowncoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
             "source": "Stumptown Coffee Roasters",
@@ -148,8 +126,33 @@
             "highlighted_keywords": [
               "fresh beans, cold brew, and good vibes"
             ],
+            "rank": 4,
+            "page_rank": 4
+          },
+          {
+            "title": "Blue Bottle Coffee | Fresh Roasted Specialty Coffee",
+            "link": "https://bluebottlecoffee.com/us/eng?srsltid=AfmBOoqOsA8CJp8NgfcoIStjel1nql848oR0uv8zm3ddEsDt4xHvVIPq",
+            "displayed_link": "https://bluebottlecoffee.com › eng",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEVHcEzz+v7////G5PcAneTo9vyKwu3///8AlN3v+v8Cnef///////8Alt5bsOc9qujz+v7///////////+cy+4Ak+AKm90AluWTzfOSzvkAmt////8AmOMAoeeh0vQAnuIAn+MAmeEAnOK1ZI6VAAAAH3RSTlMARB5k60+EAeNltTgK6qS4VhctIWXN1KqPn/gp0tByb5tLiwAAAJlJREFUKJGd0dkOgyAQhWE2gYIKtW5dwXn/h1R7zSFp/yuSL0Mgw9gPGQgGEhOc+xbNeb3oG8Lh41aETEh3FzW8IhzWd2jAi9rolOpjcfa4VOWsFikKn21mykcq8BKq0xK9LgBTSmQxUgWJtj+wq6FNEA2fKcFJHh5ECH3fYXxqu51NsYBCTqfZ3hewHUZ9NHKwb/OtBOCM2wEzsg7zSllT1AAAAABJRU5ErkJggg==",
+            "source": "Blue Bottle Coffee",
+            "snippet": "Blue Bottle Coffee is a specialty coffee roaster with cafes in LA, SF, NYC, & Japan. Shop our freshly roasted specialty coffee online & in-store.",
+            "highlighted_keywords": [
+              "Blue Bottle Coffee is a specialty coffee roaster"
+            ],
             "rank": 5,
             "page_rank": 5
+          },
+          {
+            "title": "National Coffee Association",
+            "link": "https://www.ncausa.org/",
+            "displayed_link": "https://www.ncausa.org",
+            "source": "National Coffee Association",
+            "snippet": "The National Coffee Association is the leading trade association for the U.S. coffee industry. Learn more about our networking, advocacy, market research, ...",
+            "highlighted_keywords": [
+              "is the leading trade association for the U.S. coffee industry"
+            ],
+            "rank": 6,
+            "page_rank": 6
           },
           {
             "title": "What is coffee? - NCA",
@@ -161,52 +164,31 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 6,
-            "page_rank": 6
-          },
-          {
-            "title": "Starbucks Coffee Company",
-            "link": "https://www.starbucks.com/",
-            "displayed_link": "https://www.starbucks.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUAqGIdqmY1r3EAp18ApFiUzqyt2L4Ao1ZfuYRTtn7q9e/3/PotrWzH5NP////W695BsXUAn0zf8OYApVtMtHrk8utvwJIAnEX6/fwAoVFivY2e0rPL59i/4c3+/v623cal1biOyaNsvo98xZuGyKGAxp1Ptn+w3MO6/E0wAAABrUlEQVR4AWKgEgDUQR9YkoJQFEBRJAjyVFAMiKHQnv3vcKjJkQz3kH5R/pdoxbig/9kma6Vr2fxrG6EGObV5+OfurhO0z2p7J8rhd3UFRj/Ns8ayWnTuV+1CwYDWUtG2AHfs294vbbUh7oDSegRwwFZfybsvfSa9ccZOozM37y1OEpSUOlcFUxfTZQzriyHyKi/RAgSxf12JLIO8FXLSaZUL9ZdfOMiuNXA26d6GK+TRVW/pKRkwq4w78PThkDHnM3bRcx9DvwLYCQC2yHu7+cdzmSOllZ0mpeXJQJi/hTs/2ieeADRw8GDk4cTjGXmCIO4YVDmvQORAUvU4xIoIdhPk3oU0dmNSyns7S13ovJM4DvL+L/0w15EdykJuLJzH673akPCOVDU2ysGVZht6lLa22YhjJLrci7FQAo7JOiwo7DC6N3Ii3htDOBgbHXIqW562+1NezpQoobV92QbNhhyRlmJon9Y7Ql9kpaRSzez0dWfLGjyELnXeI4kjrjZ3rDGprzhP8Gc4vMtkps7GZAYs9iuqCevBuBqmT6TRwE51MZ6vr3hf2mmaV+fhM60UJgvTnxtEAAAAAElFTkSuQmCC",
-            "source": "Starbucks",
-            "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
-            "highlighted_keywords": [
-              "Explore our menu of handcrafted drinks"
-            ],
             "rank": 7,
             "page_rank": 7
           },
           {
-            "title": "Fresh Whole Bean and Ground Coffee from Lost Coffee",
-            "link": "https://www.lostcoffee.com/collections/coffee?srsltid=AfmBOorQy1BgHmCkV8SG2mTmazZbmK4IWGJt38vdyEMPYewCfasWqZ1R",
-            "displayed_link": "https://www.lostcoffee.com › collections › coffee",
-            "favicon": "data:image/png;base64,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",
-            "source": "Lost Coffee",
-            "snippet": "All of our expertly crafted coffees, roasted fresh and shipped to your door. Choose Ground or Whole Bean coffee. Lost Coffee is located in Littleton, ...",
+            "title": "Firelight Coffee: Fresh Roasted Specialty Coffee - Atlanta",
+            "link": "https://firelightcoffee.com/?srsltid=AfmBOoqRdUGn32PPDwQlSR2VchJXLKxjSDM3fDD90KtU7Rh3mvABwy5e",
+            "displayed_link": "https://firelightcoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABKUlEQVR4AW3SIajDMBAG4F/EMz1v4qFqanZ67sn5B8/UVddN1ot6UVlZNVU3NV9TqAsELve/tLw9WNKcOMjH3YUj4N8RUnRLPrzv/pFBqWuKnKNMjsKguoeurYdAT+aoPvTWNtQ9ZKCrgI67SGUDFG4PgwapAdMwSIYUHc8ASi6L5A9yd8Dge6pfeVt5FDAG9XSpnCTIpYIBDt3rgj7D53EttNMAnH2CoYWJcfM/APoP1OBvayGWHjC4Uj/QnVYsvV0TUowjcZhaADtYbBuwWCsLajYT4xwtYpWgNIhdu83w/EThCBTzHdsKvWqyoRLHqY2E85zuVnQ4YZgjXh5e8z/U2S9ebTnSpaiq8qjcs1+owhSFns5TvVem6JSinksQZYYaw0nYJLzxF3rbdvbXScMvAAAAAElFTkSuQmCC",
+            "source": "Firelight Coffee",
+            "snippet": "Fresh roasted specialty coffee delivered nationwide. Shop single origins, blends, and subscriptions from a sustainable Atlanta coffee roaster.",
             "highlighted_keywords": [
-              "All of our expertly crafted coffees, roasted fresh and shipped to your door"
+              "Fresh roasted specialty coffee delivered nationwide"
             ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Free delivery over $40",
-                  "30-day returns"
-                ]
-              }
-            },
             "rank": 8,
             "page_rank": 8
           },
           {
-            "title": "National Coffee Association",
-            "link": "https://www.ncausa.org/",
-            "displayed_link": "https://www.ncausa.org",
-            "source": "National Coffee Association",
-            "snippet": "The National Coffee Association is the leading trade association for the U.S. coffee industry. Learn more about our networking, advocacy, market research, ...",
+            "title": "9 Health Benefits of Coffee: What the Science Says",
+            "link": "https://www.healthline.com/nutrition/top-evidence-based-health-benefits-of-coffee",
+            "displayed_link": "https://www.healthline.com › nutrition › top-evidence-b...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAVFBMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICChoaHFxcV4eHjU1NT////b29sAAAAAAABeXl7x8fG7u7tOTk6Dg4MtLS0k+91XAAAAFnRSTlMAV5/P6PW1axCF/0Uu/////////x3ZAxxWtQAAALtJREFUeAF1kgUWhCAABb/SYbfe/5xbGMQyNPNocFOUhDLKSyERo/QDMfCxOoR4owudcA82+g+Fc/JqV3WTjCWu0XZ9P/hjx3vSuv8SyOkeOKdS23vFJZUKIpB1N6zbJTm4L5fhm+/3otSXXdt/0Q4GFsj9J6+JofOSgeTlhDIvOUReKti8tEBWMgClJwcnV/1FABidnL9sx/zjGngNTbD4QfPfBJAs4xw8UtMIj9FfmBrEGMUnRgkXz6g3owcffUGPHg8AAAAASUVORK5CYII=",
+            "source": "Healthline",
+            "snippet": "Coffee contains caffeine, which blocks adenosine in the brain and may reduce fatigue, boost energy, and improve exercise endurance and performance.Read more",
             "highlighted_keywords": [
-              "is the leading trade association for the U.S. coffee industry"
+              "Coffee contains caffeine"
             ],
             "rank": 9,
             "page_rank": 9
@@ -234,12 +216,12 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
-            "query": "Coffee name",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
-          },
-          {
             "query": "Coffee powder",
             "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
+          },
+          {
+            "query": "Coffee name",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
             "query": "Coffee Amazon",
@@ -252,23 +234,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8a133604d9821506&gl=us&hl=en&ei=-W49arjlK5yZptQP9N2WyA8&start=10&sa=N&sstk=AU9db-AY4nPFM6UjpVYZ4rDmuTbEoyfZ92zJW9yvyi_OxW6yikM-YkNoZNTVnTmJJ80EOigQ2BsLg4FQSNcHvdsid5TWuBcF1dDr0g&ved=2ahUKEwj4xee0_qKVAxWcjIkEHfSuBfkQ8NMDegUI7AEQFg",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=CH09are_PLGnptQPw8PogQY&start=10&sa=N&sstk=AU9db-Cy5T-qqCNMfFR2MSyQMBMQPxfxwQ6oPHnGHQiq5Gu0JtQQoTv1juidVrQYxjpBqlVE0_y0_g0Ax4c8-bX2g7va4UN8nfZitw&ved=2ahUKEwi344npi6OVAxWxk4kEHcMhOmAQ8NMDegQITxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8a133604d9821506&gl=us&hl=en&ei=-W49arjlK5yZptQP9N2WyA8&start=10&sa=N&sstk=AU9db-AY4nPFM6UjpVYZ4rDmuTbEoyfZ92zJW9yvyi_OxW6yikM-YkNoZNTVnTmJJ80EOigQ2BsLg4FQSNcHvdsid5TWuBcF1dDr0g&ved=2ahUKEwj4xee0_qKVAxWcjIkEHfSuBfkQ8tMDegUI7AEQBA",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8a133604d9821506&gl=us&hl=en&ei=-W49arjlK5yZptQP9N2WyA8&start=20&sa=N&sstk=AU9db-AY4nPFM6UjpVYZ4rDmuTbEoyfZ92zJW9yvyi_OxW6yikM-YkNoZNTVnTmJJ80EOigQ2BsLg4FQSNcHvdsid5TWuBcF1dDr0g&ved=2ahUKEwj4xee0_qKVAxWcjIkEHfSuBfkQ8tMDegUI7AEQBg",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8a133604d9821506&gl=us&hl=en&ei=-W49arjlK5yZptQP9N2WyA8&start=30&sa=N&sstk=AU9db-AY4nPFM6UjpVYZ4rDmuTbEoyfZ92zJW9yvyi_OxW6yikM-YkNoZNTVnTmJJ80EOigQ2BsLg4FQSNcHvdsid5TWuBcF1dDr0g&ved=2ahUKEwj4xee0_qKVAxWcjIkEHfSuBfkQ8tMDegUI7AEQCA",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8a133604d9821506&gl=us&hl=en&ei=-W49arjlK5yZptQP9N2WyA8&start=40&sa=N&sstk=AU9db-AY4nPFM6UjpVYZ4rDmuTbEoyfZ92zJW9yvyi_OxW6yikM-YkNoZNTVnTmJJ80EOigQ2BsLg4FQSNcHvdsid5TWuBcF1dDr0g&ved=2ahUKEwj4xee0_qKVAxWcjIkEHfSuBfkQ8tMDegUI7AEQCg",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8a133604d9821506&gl=us&hl=en&ei=-W49arjlK5yZptQP9N2WyA8&start=50&sa=N&sstk=AU9db-AY4nPFM6UjpVYZ4rDmuTbEoyfZ92zJW9yvyi_OxW6yikM-YkNoZNTVnTmJJ80EOigQ2BsLg4FQSNcHvdsid5TWuBcF1dDr0g&ved=2ahUKEwj4xee0_qKVAxWcjIkEHfSuBfkQ8tMDegUI7AEQDA",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8a133604d9821506&gl=us&hl=en&ei=-W49arjlK5yZptQP9N2WyA8&start=60&sa=N&sstk=AU9db-AY4nPFM6UjpVYZ4rDmuTbEoyfZ92zJW9yvyi_OxW6yikM-YkNoZNTVnTmJJ80EOigQ2BsLg4FQSNcHvdsid5TWuBcF1dDr0g&ved=2ahUKEwj4xee0_qKVAxWcjIkEHfSuBfkQ8tMDegUI7AEQDg",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8a133604d9821506&gl=us&hl=en&ei=-W49arjlK5yZptQP9N2WyA8&start=70&sa=N&sstk=AU9db-AY4nPFM6UjpVYZ4rDmuTbEoyfZ92zJW9yvyi_OxW6yikM-YkNoZNTVnTmJJ80EOigQ2BsLg4FQSNcHvdsid5TWuBcF1dDr0g&ved=2ahUKEwj4xee0_qKVAxWcjIkEHfSuBfkQ8tMDegUI7AEQEA",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8a133604d9821506&gl=us&hl=en&ei=-W49arjlK5yZptQP9N2WyA8&start=80&sa=N&sstk=AU9db-AY4nPFM6UjpVYZ4rDmuTbEoyfZ92zJW9yvyi_OxW6yikM-YkNoZNTVnTmJJ80EOigQ2BsLg4FQSNcHvdsid5TWuBcF1dDr0g&ved=2ahUKEwj4xee0_qKVAxWcjIkEHfSuBfkQ8tMDegUI7AEQEg",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=8a133604d9821506&gl=us&hl=en&ei=-W49arjlK5yZptQP9N2WyA8&start=90&sa=N&sstk=AU9db-AY4nPFM6UjpVYZ4rDmuTbEoyfZ92zJW9yvyi_OxW6yikM-YkNoZNTVnTmJJ80EOigQ2BsLg4FQSNcHvdsid5TWuBcF1dDr0g&ved=2ahUKEwj4xee0_qKVAxWcjIkEHfSuBfkQ8tMDegUI7AEQFA"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=CH09are_PLGnptQPw8PogQY&start=10&sa=N&sstk=AU9db-Cy5T-qqCNMfFR2MSyQMBMQPxfxwQ6oPHnGHQiq5Gu0JtQQoTv1juidVrQYxjpBqlVE0_y0_g0Ax4c8-bX2g7va4UN8nfZitw&ved=2ahUKEwi344npi6OVAxWxk4kEHcMhOmAQ8tMDegQITxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=CH09are_PLGnptQPw8PogQY&start=20&sa=N&sstk=AU9db-Cy5T-qqCNMfFR2MSyQMBMQPxfxwQ6oPHnGHQiq5Gu0JtQQoTv1juidVrQYxjpBqlVE0_y0_g0Ax4c8-bX2g7va4UN8nfZitw&ved=2ahUKEwi344npi6OVAxWxk4kEHcMhOmAQ8tMDegQITxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=CH09are_PLGnptQPw8PogQY&start=30&sa=N&sstk=AU9db-Cy5T-qqCNMfFR2MSyQMBMQPxfxwQ6oPHnGHQiq5Gu0JtQQoTv1juidVrQYxjpBqlVE0_y0_g0Ax4c8-bX2g7va4UN8nfZitw&ved=2ahUKEwi344npi6OVAxWxk4kEHcMhOmAQ8tMDegQITxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=CH09are_PLGnptQPw8PogQY&start=40&sa=N&sstk=AU9db-Cy5T-qqCNMfFR2MSyQMBMQPxfxwQ6oPHnGHQiq5Gu0JtQQoTv1juidVrQYxjpBqlVE0_y0_g0Ax4c8-bX2g7va4UN8nfZitw&ved=2ahUKEwi344npi6OVAxWxk4kEHcMhOmAQ8tMDegQITxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=CH09are_PLGnptQPw8PogQY&start=50&sa=N&sstk=AU9db-Cy5T-qqCNMfFR2MSyQMBMQPxfxwQ6oPHnGHQiq5Gu0JtQQoTv1juidVrQYxjpBqlVE0_y0_g0Ax4c8-bX2g7va4UN8nfZitw&ved=2ahUKEwi344npi6OVAxWxk4kEHcMhOmAQ8tMDegQITxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=CH09are_PLGnptQPw8PogQY&start=60&sa=N&sstk=AU9db-Cy5T-qqCNMfFR2MSyQMBMQPxfxwQ6oPHnGHQiq5Gu0JtQQoTv1juidVrQYxjpBqlVE0_y0_g0Ax4c8-bX2g7va4UN8nfZitw&ved=2ahUKEwi344npi6OVAxWxk4kEHcMhOmAQ8tMDegQITxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=CH09are_PLGnptQPw8PogQY&start=70&sa=N&sstk=AU9db-Cy5T-qqCNMfFR2MSyQMBMQPxfxwQ6oPHnGHQiq5Gu0JtQQoTv1juidVrQYxjpBqlVE0_y0_g0Ax4c8-bX2g7va4UN8nfZitw&ved=2ahUKEwi344npi6OVAxWxk4kEHcMhOmAQ8tMDegQITxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=CH09are_PLGnptQPw8PogQY&start=80&sa=N&sstk=AU9db-Cy5T-qqCNMfFR2MSyQMBMQPxfxwQ6oPHnGHQiq5Gu0JtQQoTv1juidVrQYxjpBqlVE0_y0_g0Ax4c8-bX2g7va4UN8nfZitw&ved=2ahUKEwi344npi6OVAxWxk4kEHcMhOmAQ8tMDegQITxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=46f97408aca9b3a8&gl=us&hl=en&ei=CH09are_PLGnptQPw8PogQY&start=90&sa=N&sstk=AU9db-Cy5T-qqCNMfFR2MSyQMBMQPxfxwQ6oPHnGHQiq5Gu0JtQQoTv1juidVrQYxjpBqlVE0_y0_g0Ax4c8-bX2g7va4UN8nfZitw&ved=2ahUKEwi344npi6OVAxWxk4kEHcMhOmAQ8tMDegQITxAU"
           }
         }
       }
     }
   },
-  "requestId": "0e4c9b36-6ad2-4c1a-9813-83845b85aa6e",
-  "timestamp": 1782414003565,
-  "recordTime": "2026-06-26 03:00:03"
+  "requestId": "5798c3b0-9936-4385-8ea9-fb676ee1d389",
+  "timestamp": 1782414602872,
+  "recordTime": "2026-06-26 03:10:02"
 }
