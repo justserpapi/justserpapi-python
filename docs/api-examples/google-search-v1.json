@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-25 15:10:02",
+    "checkedAt": "2026-06-25 14:10:07",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.36,
-          "total_results": 172,
+          "time_taken": 0.58,
+          "total_results": 170,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,15 +24,6 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Nam CoffeeNam Coffee",
-            "rating": "4.7",
-            "reviews": "29",
-            "address": "4.7(29) · $1–10 · Coffee shop",
-            "hours": "Los Angeles, CA",
-            "links": {}
-          },
-          {
-            "position": 2,
             "title": "Eightfold CoffeeEightfold Coffee",
             "rating": "4.5",
             "reviews": "310",
@@ -41,31 +32,22 @@
             "links": {}
           },
           {
-            "position": 3,
-            "title": "Aquarela Coffee - ChinatownAquarela Coffee - Chinatown",
-            "rating": "4.5",
-            "reviews": "211",
-            "address": "4.5(211) · $1–10 · Coffee shop",
+            "position": 2,
+            "title": "Chimney Coffee HouseChimney Coffee House",
+            "rating": "4.4",
+            "reviews": "512",
+            "address": "4.4(512) · $1–40 · Coffee shop",
             "hours": "Los Angeles, CA",
             "links": {}
-          }
-        ],
-        "peopleAlsoAskedFor": [
-          {
-            "question": "Does coffee reduce swelling?",
-            "rank": 1
           },
           {
-            "question": "What is coffee called in Colombia?",
-            "rank": 2
-          },
-          {
-            "question": "What is the 15 15 15 rule for coffee?",
-            "rank": 3
-          },
-          {
-            "question": "Are coffee grounds good for pothos?",
-            "rank": 4
+            "position": 3,
+            "title": "Canyon CoffeeCanyon Coffee",
+            "rating": "4.5",
+            "reviews": "252",
+            "address": "4.5(252) · $1–10 · Cafe",
+            "hours": "Los Angeles, CA",
+            "links": {}
           }
         ],
         "organic_results": [
@@ -130,19 +112,6 @@
             "page_rank": 4
           },
           {
-            "title": "Fresh Roasted Coffee | Intelligentsia | Illuminating Coffee",
-            "link": "https://www.intelligentsia.com/",
-            "displayed_link": "https://www.intelligentsia.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAJ1BMVEVHcEzUKijUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfpf0iZAAAADHRSTlMAECV/W/O7zT6Z5Gx3ew+DAAAAiUlEQVQokY2QWw6AIAwEESjP3v+8ihhKKSX2DyeZddeY35fSAeZ8gAA6s4hWhQ7RqbAgloNV97oGNW9pkHmvca/18dIXYwGVgxaf9+wbK+0YrRxXFEULuqXP/F8ghvAEvVhgio0CzpEHq/SGXq5XDhtrHNnS6qgy94ap3FOZe/kzMK+vPKXKHcTdn7UK5dbg4aoAAAAASUVORK5CYII=",
-            "source": "Intelligentsia Coffee",
-            "snippet": "Experience the freshest roasted coffee shipped for free right to you, and receive early access to all exclusive releases and promotions.Read more",
-            "highlighted_keywords": [
-              "freshest roasted coffee shipped for free right to you"
-            ],
-            "rank": 5,
-            "page_rank": 5
-          },
-          {
             "title": "Coffee | Origin, Types, Uses, History, & Facts",
             "link": "https://www.britannica.com/topic/coffee",
             "displayed_link": "https://www.britannica.com › ... › Food",
@@ -153,6 +122,19 @@
               "Coffee",
               "coffee",
               "Coffee"
+            ],
+            "rank": 5,
+            "page_rank": 5
+          },
+          {
+            "title": "Fresh Roasted Coffee | Intelligentsia | Illuminating Coffee",
+            "link": "https://www.intelligentsia.com/",
+            "displayed_link": "https://www.intelligentsia.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAJ1BMVEVHcEzUKijUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfpf0iZAAAADHRSTlMAECV/W/O7zT6Z5Gx3ew+DAAAAiUlEQVQokY2QWw6AIAwEESjP3v+8ihhKKSX2DyeZddeY35fSAeZ8gAA6s4hWhQ7RqbAgloNV97oGNW9pkHmvca/18dIXYwGVgxaf9+wbK+0YrRxXFEULuqXP/F8ghvAEvVhgio0CzpEHq/SGXq5XDhtrHNnS6qgy94ap3FOZe/kzMK+vPKXKHcTdn7UK5dbg4aoAAAAASUVORK5CYII=",
+            "source": "Intelligentsia Coffee",
+            "snippet": "Experience the freshest roasted coffee shipped for free right to you, and receive early access to all exclusive releases and promotions.Read more",
+            "highlighted_keywords": [
+              "freshest roasted coffee shipped for free right to you"
             ],
             "rank": 6,
             "page_rank": 6
@@ -167,29 +149,47 @@
             "highlighted_keywords": [
               "Shop for Coffee at Walmart.com"
             ],
+            "inline_snippet": "4.3",
             "rich_snippet": {
               "bottom": {
-                "detected_extensions": {},
-                "extensions": []
+                "detected_extensions": {
+                  "price_from": "$5",
+                  "price_to": "$33",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "4.3 store rating (3.8K)",
+                  "4.3",
+                  "$5 to $33",
+                  "Free 90-day returns"
+                ]
               }
             },
             "rank": 7,
             "page_rank": 7
           },
           {
-            "title": "OneCupJoe",
-            "link": "https://www.onecupjoe.com/coffee?srsltid=AfmBOopOl1YL0Yi2ek5xX6VsBHTxOVt6q1mvuVg2k6tHuKp9Q8vm9pSt",
-            "displayed_link": "https://www.onecupjoe.com › coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAMAAACj+uTiAAAAnFBMVEVHcEwwLDMLABYAAAiEgYgBAAUAAAkqJTADAQYMCBQAAAUAAAUAAAwAAAAAAA2X3wH///8AAAKc5gKa5AECASOZ4gCY4AB0qQsQFyKU2QXc3N16tAseKw9unwlOcAUMESKKywgSGQH5+flEYgSP0ggwQhqAvA2Hh4dbiBawsLBWfhDt7u7Nzc50dXc/XBFhkhQxLzxReBGgoKFfYWhoCWz8AAAAD3RSTlMAEYzpBZ2zJ3xrONvG8/mzgxkaAAABQ0lEQVQokY2S2XaCMBCGK4rg1jCTScKmKCDuW/v+79YkLIVTL/pfcEI+/ln5+PiXRp7nTd5c+yvYpTtY+EM4caFQkeQiUneY9YD3WZQouGRSckzA78Ac1igZTzgz4iXM2xSgkDEZUWJ9jKtxQ6YbNJ8mREo9EsEY7rzGwnQCLu5ZSESRMW3qIpwN16GORGEY0tHk4menDrbWAdiZMkO25tx6lsq84TbNwqz2tHmma1stvohSIn0WSVPbrEDbxoMURlUpJe6dZjJggwtVIZNCg3M3Hz+NLDIPJvjreesm56ZbFLoPbeHVnvLD7+B8KCqGKMr1Hr7z4MvpbWFBYHWLgyA4Tft7gEt8vV4Cq+uyvzv3FnSKF4O1QtyRQTTd8LMFebe5RuNTDS5PZwh0EYc4z+ND7zdoNXJXAGPX+wNsX29vh/oBhgQfy2eqtTwAAAAASUVORK5CYII=",
-            "source": "OneCupJoe",
-            "snippet": "SAVE 16% WHEN YOU BUY 24 or MORE · MIX-N-MATCH SINGLE PODS · FREE SHIPPING WHEN YOU BUY 72 OR MORE SINGLE PODS OR FREE SHIPPING ON ANY ORDER OVER $50 AFTER ...Read more",
+            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
+            "link": "https://www.discountcoffee.com/",
+            "displayed_link": "https://www.discountcoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
+            "source": "DiscountCoffee.com",
+            "snippet": "DiscountCoffee.com Office Coffee Service – Buy name brand coffee, tea, creamer,. Add $59 for. Fast & FREE Shipping. FREE ...Read more",
             "highlighted_keywords": [
-              "FREE SHIPPING WHEN YOU BUY 72 OR MORE SINGLE PODS"
+              "Office Coffee Service"
             ],
             "rich_snippet": {
               "bottom": {
-                "detected_extensions": {},
-                "extensions": []
+                "detected_extensions": {
+                  "price_from": "$5",
+                  "price_to": "$109",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$5 to $109",
+                  "Free delivery over $59",
+                  "30-day returns"
+                ]
               }
             },
             "rank": 8,
@@ -223,12 +223,12 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
           },
           {
-            "query": "Coffee beans",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
-          },
-          {
             "query": "Coffee Bean menu",
             "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
+          },
+          {
+            "query": "Coffee beans",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
             "query": "Coffee name",
@@ -249,23 +249,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=yEQ9aq_uH-Oo0PEP69OI8AU&start=10&sa=N&sstk=AU9db-CrH61zqzKIYB9-UQZJINpygCXnuIrGC9p5g5F1iZ0qS1NPu3t6rNe8zgKSDGwDnaQp2h_jXQWmT_oFlMy_HLwqEzMbqaPAGw&ved=2ahUKEwiv8rKW1qKVAxVjFDQIHespAl4Q8NMDegQIYhAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=vDY9apzUIeebvr0P07bJuAU&start=10&sa=N&sstk=AU9db-C6VZhpWeWso38u7hfbGVOO-ouhGjQx3MKk2yvqbwdnMQ7p5qjzMtQPyLK7KJOGod0JZqHbEWI9zymdvgnY1TLUY0t9Tw-Yng&ved=2ahUKEwicotrjyKKVAxXnja8BHVNbElcQ8NMDegQIXBAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=yEQ9aq_uH-Oo0PEP69OI8AU&start=10&sa=N&sstk=AU9db-CrH61zqzKIYB9-UQZJINpygCXnuIrGC9p5g5F1iZ0qS1NPu3t6rNe8zgKSDGwDnaQp2h_jXQWmT_oFlMy_HLwqEzMbqaPAGw&ved=2ahUKEwiv8rKW1qKVAxVjFDQIHespAl4Q8tMDegQIYhAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=yEQ9aq_uH-Oo0PEP69OI8AU&start=20&sa=N&sstk=AU9db-CrH61zqzKIYB9-UQZJINpygCXnuIrGC9p5g5F1iZ0qS1NPu3t6rNe8zgKSDGwDnaQp2h_jXQWmT_oFlMy_HLwqEzMbqaPAGw&ved=2ahUKEwiv8rKW1qKVAxVjFDQIHespAl4Q8tMDegQIYhAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=yEQ9aq_uH-Oo0PEP69OI8AU&start=30&sa=N&sstk=AU9db-CrH61zqzKIYB9-UQZJINpygCXnuIrGC9p5g5F1iZ0qS1NPu3t6rNe8zgKSDGwDnaQp2h_jXQWmT_oFlMy_HLwqEzMbqaPAGw&ved=2ahUKEwiv8rKW1qKVAxVjFDQIHespAl4Q8tMDegQIYhAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=yEQ9aq_uH-Oo0PEP69OI8AU&start=40&sa=N&sstk=AU9db-CrH61zqzKIYB9-UQZJINpygCXnuIrGC9p5g5F1iZ0qS1NPu3t6rNe8zgKSDGwDnaQp2h_jXQWmT_oFlMy_HLwqEzMbqaPAGw&ved=2ahUKEwiv8rKW1qKVAxVjFDQIHespAl4Q8tMDegQIYhAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=yEQ9aq_uH-Oo0PEP69OI8AU&start=50&sa=N&sstk=AU9db-CrH61zqzKIYB9-UQZJINpygCXnuIrGC9p5g5F1iZ0qS1NPu3t6rNe8zgKSDGwDnaQp2h_jXQWmT_oFlMy_HLwqEzMbqaPAGw&ved=2ahUKEwiv8rKW1qKVAxVjFDQIHespAl4Q8tMDegQIYhAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=yEQ9aq_uH-Oo0PEP69OI8AU&start=60&sa=N&sstk=AU9db-CrH61zqzKIYB9-UQZJINpygCXnuIrGC9p5g5F1iZ0qS1NPu3t6rNe8zgKSDGwDnaQp2h_jXQWmT_oFlMy_HLwqEzMbqaPAGw&ved=2ahUKEwiv8rKW1qKVAxVjFDQIHespAl4Q8tMDegQIYhAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=yEQ9aq_uH-Oo0PEP69OI8AU&start=70&sa=N&sstk=AU9db-CrH61zqzKIYB9-UQZJINpygCXnuIrGC9p5g5F1iZ0qS1NPu3t6rNe8zgKSDGwDnaQp2h_jXQWmT_oFlMy_HLwqEzMbqaPAGw&ved=2ahUKEwiv8rKW1qKVAxVjFDQIHespAl4Q8tMDegQIYhAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=yEQ9aq_uH-Oo0PEP69OI8AU&start=80&sa=N&sstk=AU9db-CrH61zqzKIYB9-UQZJINpygCXnuIrGC9p5g5F1iZ0qS1NPu3t6rNe8zgKSDGwDnaQp2h_jXQWmT_oFlMy_HLwqEzMbqaPAGw&ved=2ahUKEwiv8rKW1qKVAxVjFDQIHespAl4Q8tMDegQIYhAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=yEQ9aq_uH-Oo0PEP69OI8AU&start=90&sa=N&sstk=AU9db-CrH61zqzKIYB9-UQZJINpygCXnuIrGC9p5g5F1iZ0qS1NPu3t6rNe8zgKSDGwDnaQp2h_jXQWmT_oFlMy_HLwqEzMbqaPAGw&ved=2ahUKEwiv8rKW1qKVAxVjFDQIHespAl4Q8tMDegQIYhAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=vDY9apzUIeebvr0P07bJuAU&start=10&sa=N&sstk=AU9db-C6VZhpWeWso38u7hfbGVOO-ouhGjQx3MKk2yvqbwdnMQ7p5qjzMtQPyLK7KJOGod0JZqHbEWI9zymdvgnY1TLUY0t9Tw-Yng&ved=2ahUKEwicotrjyKKVAxXnja8BHVNbElcQ8tMDegQIXBAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=vDY9apzUIeebvr0P07bJuAU&start=20&sa=N&sstk=AU9db-C6VZhpWeWso38u7hfbGVOO-ouhGjQx3MKk2yvqbwdnMQ7p5qjzMtQPyLK7KJOGod0JZqHbEWI9zymdvgnY1TLUY0t9Tw-Yng&ved=2ahUKEwicotrjyKKVAxXnja8BHVNbElcQ8tMDegQIXBAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=vDY9apzUIeebvr0P07bJuAU&start=30&sa=N&sstk=AU9db-C6VZhpWeWso38u7hfbGVOO-ouhGjQx3MKk2yvqbwdnMQ7p5qjzMtQPyLK7KJOGod0JZqHbEWI9zymdvgnY1TLUY0t9Tw-Yng&ved=2ahUKEwicotrjyKKVAxXnja8BHVNbElcQ8tMDegQIXBAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=vDY9apzUIeebvr0P07bJuAU&start=40&sa=N&sstk=AU9db-C6VZhpWeWso38u7hfbGVOO-ouhGjQx3MKk2yvqbwdnMQ7p5qjzMtQPyLK7KJOGod0JZqHbEWI9zymdvgnY1TLUY0t9Tw-Yng&ved=2ahUKEwicotrjyKKVAxXnja8BHVNbElcQ8tMDegQIXBAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=vDY9apzUIeebvr0P07bJuAU&start=50&sa=N&sstk=AU9db-C6VZhpWeWso38u7hfbGVOO-ouhGjQx3MKk2yvqbwdnMQ7p5qjzMtQPyLK7KJOGod0JZqHbEWI9zymdvgnY1TLUY0t9Tw-Yng&ved=2ahUKEwicotrjyKKVAxXnja8BHVNbElcQ8tMDegQIXBAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=vDY9apzUIeebvr0P07bJuAU&start=60&sa=N&sstk=AU9db-C6VZhpWeWso38u7hfbGVOO-ouhGjQx3MKk2yvqbwdnMQ7p5qjzMtQPyLK7KJOGod0JZqHbEWI9zymdvgnY1TLUY0t9Tw-Yng&ved=2ahUKEwicotrjyKKVAxXnja8BHVNbElcQ8tMDegQIXBAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=vDY9apzUIeebvr0P07bJuAU&start=70&sa=N&sstk=AU9db-C6VZhpWeWso38u7hfbGVOO-ouhGjQx3MKk2yvqbwdnMQ7p5qjzMtQPyLK7KJOGod0JZqHbEWI9zymdvgnY1TLUY0t9Tw-Yng&ved=2ahUKEwicotrjyKKVAxXnja8BHVNbElcQ8tMDegQIXBAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=vDY9apzUIeebvr0P07bJuAU&start=80&sa=N&sstk=AU9db-C6VZhpWeWso38u7hfbGVOO-ouhGjQx3MKk2yvqbwdnMQ7p5qjzMtQPyLK7KJOGod0JZqHbEWI9zymdvgnY1TLUY0t9Tw-Yng&ved=2ahUKEwicotrjyKKVAxXnja8BHVNbElcQ8tMDegQIXBAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=4f4e6eb4e747ddd2&gl=us&hl=en&ei=vDY9apzUIeebvr0P07bJuAU&start=90&sa=N&sstk=AU9db-C6VZhpWeWso38u7hfbGVOO-ouhGjQx3MKk2yvqbwdnMQ7p5qjzMtQPyLK7KJOGod0JZqHbEWI9zymdvgnY1TLUY0t9Tw-Yng&ved=2ahUKEwicotrjyKKVAxXnja8BHVNbElcQ8tMDegQIXBAU"
           }
         }
       }
     }
   },
-  "requestId": "de2a9c90-8a4b-4c08-b9b7-3090009e7e32",
-  "timestamp": 1782400455261,
-  "recordTime": "2026-06-25 23:14:15"
+  "requestId": "acdf6c0f-5838-455c-b82c-e68ebb29dd7c",
+  "timestamp": 1782398561171,
+  "recordTime": "2026-06-25 22:42:40"
 }
