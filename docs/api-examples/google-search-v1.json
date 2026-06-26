@@ -3,13 +3,13 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-26 06:10:03",
+    "checkedAt": "2026-06-26 07:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.3,
+          "time_taken": 0.31,
           "total_results": 3010000000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
@@ -21,6 +21,35 @@
         "knowledge_graph": {
           "title": "Coffee"
         },
+        "local_results": [
+          {
+            "position": 1,
+            "title": "Leo Brothers CafeLeo Brothers Cafe\"The coffee is excellent and the Dubai croissant 🥐 is a must try!\"",
+            "rating": "4.8",
+            "reviews": "71",
+            "address": "4.8(71) · $1–10 · Cafe",
+            "hours": "Piscataway, NJ",
+            "links": {}
+          },
+          {
+            "position": 2,
+            "title": "Q CoffeeQ Coffee",
+            "rating": "5.0",
+            "reviews": "1",
+            "address": "5.0(1) · Coffee shop",
+            "hours": "South Bound Brook, NJ",
+            "links": {}
+          },
+          {
+            "position": 3,
+            "title": "Q CoffeeQ Coffee",
+            "rating": "1.0",
+            "reviews": "1",
+            "address": "1.0(1) · Coffee shop",
+            "hours": "Piscataway, NJ",
+            "links": {}
+          }
+        ],
         "organic_results": [
           {
             "title": "Coffee",
@@ -57,7 +86,7 @@
             "page_rank": 2
           },
           {
-            "title": "Coffee • The Nutrition Source",
+            "title": "Coffee - The Nutrition Source",
             "link": "https://nutritionsource.hsph.harvard.edu/food-features/coffee/",
             "displayed_link": "https://nutritionsource.hsph.harvard.edu › food-features",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA+VBMVEVHcEwFBSoHGSwnIjDzUVnsT1dRMh73jiHwiyOpYCDJrGr/237/13z/3oBkWEeHsz+LuEApOi9lJzzhhCHDp2j/1Xv60HowRy67P06aYCRmiTUKGCuuO0iAqzwAABE9TlxGYHDaRU5DVWMyQU+64/NDESCrZSHKp2hUcDAWNizJ8/+EpbaUIi9TRC59Z0zE7fzG8P+OvEB4nzgAFhGu1eRxa2v/9eP479+cwdCupp//++h/enr//eoRJTOQiomLhYc9VhcJEikNAColdUIpgEQofUQVYTkAIBkAACsFACkYWDkdaj1CXC4URC8qgUUAACoNACokMy8QFizY2kPbAAAAU3RSTlMAP8rk//////////////////j////////////o///97v7/++X//////////////////////////////////////9iL//////+fKv//////bYLdpWIE08EAAAFLSURBVHgBtM9FdsMwFAXQMCdSmBllh5nRzPtfTR36lU/HfdP70fWPcXv+xA3o9fl9gWAoFAxHorFYPIEQTjowlQ6FQuFMLJvN5THCeRr9heIHY5mSo7NcsfU594nRRBWhUg2w3mg+537G5jGqthqA7U7X56/0XhjrDxAmndYvMuzQ5x8FnxgdV/GAZSicTBtNX+r5Sjyen80b0wmNE7bW7QYC3VFitMjX2AmN0+VqvYGsE8spjdvdfg3Z77YOXB5oXHVo7DCtI4UtplMH9BByOm8+vN9cTvnrDfD+4HhBXG32TzrkS2hWlQBlojx4XhV3x+OOzGezaklzuyC3knYSeF4/nDU8K+WJUgayW7UZGpAHr5AZyusPQ3e7qJiDGZ6fbB0QlecVi6KnaghXTzz/NB0MJnsH1bnO8fY+aibELf0s0FaTOQgoRTkAAHD2PKVCAaLqAAAAAElFTkSuQmCC",
@@ -71,7 +100,7 @@
           },
           {
             "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoqmADHwOAWlTzO7kwfwYqttrJh6Pl7FagDDvFEYyXol_sl4vlvF",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOopK5zbnXXnfmpnCoHbx4mQCkX7HHhMkvqHQ1pl4y_fjVNZa7ZDx",
             "displayed_link": "https://www.stumptowncoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
             "source": "Stumptown Coffee Roasters",
@@ -83,30 +112,47 @@
             "page_rank": 4
           },
           {
-            "title": "Portrait Coffee | Join Us in Pouring a New Narrative",
-            "link": "https://portrait.coffee/?srsltid=AfmBOooVdwmdisa5FtNp1Obd07NMU9THrCATXPeAUVKjma18uZrTCmIn",
-            "displayed_link": "https://portrait.coffee",
-            "favicon": "data:image/png;base64,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",
-            "source": "Portrait Coffee",
-            "snippet": "At Portrait, we believe in pouring a new narrative by making specialty coffee more accessible and reimagining its history through the lens of Black excellence.Read more",
+            "title": "Starbucks Coffee Company",
+            "link": "https://www.starbucks.com/",
+            "displayed_link": "https://www.starbucks.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUAqGIdqmY1r3EAp18ApFiUzqyt2L4Ao1ZfuYRTtn7q9e/3/PotrWzH5NP////W695BsXUAn0zf8OYApVtMtHrk8utvwJIAnEX6/fwAoVFivY2e0rPL59i/4c3+/v623cal1biOyaNsvo98xZuGyKGAxp1Ptn+w3MO6/E0wAAABrUlEQVR4AWKgEgDUQR9YkoJQFEBRJAjyVFAMiKHQnv3vcKjJkQz3kH5R/pdoxbig/9kma6Vr2fxrG6EGObV5+OfurhO0z2p7J8rhd3UFRj/Ns8ayWnTuV+1CwYDWUtG2AHfs294vbbUh7oDSegRwwFZfybsvfSa9ccZOozM37y1OEpSUOlcFUxfTZQzriyHyKi/RAgSxf12JLIO8FXLSaZUL9ZdfOMiuNXA26d6GK+TRVW/pKRkwq4w78PThkDHnM3bRcx9DvwLYCQC2yHu7+cdzmSOllZ0mpeXJQJi/hTs/2ieeADRw8GDk4cTjGXmCIO4YVDmvQORAUvU4xIoIdhPk3oU0dmNSyns7S13ovJM4DvL+L/0w15EdykJuLJzH673akPCOVDU2ysGVZht6lLa22YhjJLrci7FQAo7JOiwo7DC6N3Ii3htDOBgbHXIqW562+1NezpQoobV92QbNhhyRlmJon9Y7Ql9kpaRSzez0dWfLGjyELnXeI4kjrjZ3rDGprzhP8Gc4vMtkps7GZAYs9iuqCevBuBqmT6TRwE51MZ6vr3hf2mmaV+fhM60UJgvTnxtEAAAAAElFTkSuQmCC",
+            "source": "Starbucks",
+            "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
             "highlighted_keywords": [
-              "making specialty coffee more accessible"
+              "Explore our menu of handcrafted drinks"
             ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Free delivery over $40",
-                  "30-day returns"
-                ]
-              }
-            },
             "rank": 5,
             "page_rank": 5
           },
           {
+            "title": "Maiden Coffee Roasters — Specialty Coffee",
+            "link": "https://maidencoffee.com/?srsltid=AfmBOoop7r-Epr_JT9jGEIzR5Qnzg9TU0oyJjXjpyoS6iye07nzFX3dp",
+            "displayed_link": "https://maidencoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAB9klEQVR4AWJwL/ChKx4YC0ct/JdoIfYPQDs98MYahGEY/h/Htm0zqG3btm0zOHZ47PDYtm0u55u3+2w6tabZJrnb9TX0Gh6n2E6vxn88HzIQCLOcRIrdeOJeI4n7DycKMRQ8vMK0oMAslpERdBlnBCkQ4ODRPpdRZ+9CADG7nkCEz5kEZIFZsczTlZjdoj5B7KlpwOiaKuYXSIrzGqACxB7KLKsEmLKvUhVaSIZZAjU0uxMqMhmoyztb+T9lF7GQeGLutt1RkcfIWzhciJmP8x00qCq/U6nKOUm6+DqgnWYqYBH2GCcZ6bcuJN3mtdbS4Nvaz5U/Sm5SRxR7KmYrcOwvwmlGOgtzwulW24evkwZfVL4hgWJ5O8KYMXAREK1rkLG/3nn0I6j+pxR4pEJbdqXsKwHtCcaB6qlvEdv5u6RjhM5nPB0jBZ4sVxES8KvC28Y+Zp1B+NFOPUi9qKCLWY8ZOpf9csWAweJcpbC5iBE6WPRfwG3dzHvUKYGcyHmrO5Tz9SeSmmFMOs9KyeTaghyFo4541/bk/+aoKfefCmVk6l8VZWnOSe2hYzwl+STRp4Bk+gtYBLynxPvAkGcizZUCrWMpyD2R7gk0OIXzvsJn8NnW7yyXvocYIVDMFDknUAFyS6DSjonXWz9j3rKh36YZtXDUQgASw7vkFIRzdAAAAABJRU5ErkJggg==",
+            "source": "Maiden Coffee Roasters",
+            "snippet": "Exceptional Coffee Without Compromise. From our family to your cup. Shop blends, single origins, and wholesale partnerships.",
+            "highlighted_keywords": [
+              "Exceptional Coffee Without Compromise"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$21",
+                  "price_to": "$35",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$21 to $35",
+                  "3-day delivery"
+                ]
+              }
+            },
+            "rank": 6,
+            "page_rank": 6
+          },
+          {
             "title": "Blue Bottle Coffee | Fresh Roasted Specialty Coffee",
-            "link": "https://bluebottlecoffee.com/us/eng?srsltid=AfmBOoo08UzZNgZRItIBiAjmYJNCwsq1ky_i8i1bNncNPuQ3uo9xAave",
+            "link": "https://bluebottlecoffee.com/us/eng?srsltid=AfmBOorBADb-fZgp5D9zTpULjU8SHa25RvcdpZ1NdWRJBhMscjR3fDGP",
             "displayed_link": "https://bluebottlecoffee.com › eng",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEVHcEzz+v7////G5PcAneTo9vyKwu3///8AlN3v+v8Cnef///////8Alt5bsOc9qujz+v7///////////+cy+4Ak+AKm90AluWTzfOSzvkAmt////8AmOMAoeeh0vQAnuIAn+MAmeEAnOK1ZI6VAAAAH3RSTlMARB5k60+EAeNltTgK6qS4VhctIWXN1KqPn/gp0tByb5tLiwAAAJlJREFUKJGd0dkOgyAQhWE2gYIKtW5dwXn/h1R7zSFp/yuSL0Mgw9gPGQgGEhOc+xbNeb3oG8Lh41aETEh3FzW8IhzWd2jAi9rolOpjcfa4VOWsFikKn21mykcq8BKq0xK9LgBTSmQxUgWJtj+wq6FNEA2fKcFJHh5ECH3fYXxqu51NsYBCTqfZ3hewHUZ9NHKwb/OtBOCM2wEzsg7zSllT1AAAAABJRU5ErkJggg==",
             "source": "Blue Bottle Coffee",
@@ -114,8 +160,8 @@
             "highlighted_keywords": [
               "Blue Bottle Coffee is a specialty coffee roaster"
             ],
-            "rank": 6,
-            "page_rank": 6
+            "rank": 7,
+            "page_rank": 7
           },
           {
             "title": "What is coffee? - NCA",
@@ -127,8 +173,8 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 7,
-            "page_rank": 7
+            "rank": 8,
+            "page_rank": 8
           },
           {
             "title": "National Coffee Association",
@@ -139,8 +185,8 @@
             "highlighted_keywords": [
               "is the leading trade association for the U.S. coffee industry"
             ],
-            "rank": 8,
-            "page_rank": 8
+            "rank": 9,
+            "page_rank": 9
           }
         ],
         "relatedSearches": [
@@ -157,12 +203,12 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
           },
           {
-            "query": "Coffee beans",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
-          },
-          {
             "query": "Coffee Walmart",
             "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
+          },
+          {
+            "query": "Coffee beans",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
             "query": "Coffee powder",
@@ -173,8 +219,8 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
-            "query": "Coffee benefits",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           }
         ],
         "dmca_message": {
@@ -183,23 +229,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=10&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8NMDegQIYxAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=13d980256a79daea&gl=us&hl=en&ei=yCU-auqlEb-sptQPsu_UsQI&start=10&sa=N&sstk=AU9db-BVPGYyu7XjEPXLTw84ZxlXHL6BKgoxXT32gk7UakECHYb-CMGehVR7XX1hy387jfZ0S8rs94SmXYMzivkFrffH7IiIt1GwIg&ved=2ahUKEwjqqY3grKSVAxU_lokEHbI3NSYQ8NMDegQIShAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=10&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=20&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=30&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=40&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=50&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=60&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=70&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=80&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=90&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=13d980256a79daea&gl=us&hl=en&ei=yCU-auqlEb-sptQPsu_UsQI&start=10&sa=N&sstk=AU9db-BVPGYyu7XjEPXLTw84ZxlXHL6BKgoxXT32gk7UakECHYb-CMGehVR7XX1hy387jfZ0S8rs94SmXYMzivkFrffH7IiIt1GwIg&ved=2ahUKEwjqqY3grKSVAxU_lokEHbI3NSYQ8tMDegQIShAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=13d980256a79daea&gl=us&hl=en&ei=yCU-auqlEb-sptQPsu_UsQI&start=20&sa=N&sstk=AU9db-BVPGYyu7XjEPXLTw84ZxlXHL6BKgoxXT32gk7UakECHYb-CMGehVR7XX1hy387jfZ0S8rs94SmXYMzivkFrffH7IiIt1GwIg&ved=2ahUKEwjqqY3grKSVAxU_lokEHbI3NSYQ8tMDegQIShAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=13d980256a79daea&gl=us&hl=en&ei=yCU-auqlEb-sptQPsu_UsQI&start=30&sa=N&sstk=AU9db-BVPGYyu7XjEPXLTw84ZxlXHL6BKgoxXT32gk7UakECHYb-CMGehVR7XX1hy387jfZ0S8rs94SmXYMzivkFrffH7IiIt1GwIg&ved=2ahUKEwjqqY3grKSVAxU_lokEHbI3NSYQ8tMDegQIShAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=13d980256a79daea&gl=us&hl=en&ei=yCU-auqlEb-sptQPsu_UsQI&start=40&sa=N&sstk=AU9db-BVPGYyu7XjEPXLTw84ZxlXHL6BKgoxXT32gk7UakECHYb-CMGehVR7XX1hy387jfZ0S8rs94SmXYMzivkFrffH7IiIt1GwIg&ved=2ahUKEwjqqY3grKSVAxU_lokEHbI3NSYQ8tMDegQIShAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=13d980256a79daea&gl=us&hl=en&ei=yCU-auqlEb-sptQPsu_UsQI&start=50&sa=N&sstk=AU9db-BVPGYyu7XjEPXLTw84ZxlXHL6BKgoxXT32gk7UakECHYb-CMGehVR7XX1hy387jfZ0S8rs94SmXYMzivkFrffH7IiIt1GwIg&ved=2ahUKEwjqqY3grKSVAxU_lokEHbI3NSYQ8tMDegQIShAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=13d980256a79daea&gl=us&hl=en&ei=yCU-auqlEb-sptQPsu_UsQI&start=60&sa=N&sstk=AU9db-BVPGYyu7XjEPXLTw84ZxlXHL6BKgoxXT32gk7UakECHYb-CMGehVR7XX1hy387jfZ0S8rs94SmXYMzivkFrffH7IiIt1GwIg&ved=2ahUKEwjqqY3grKSVAxU_lokEHbI3NSYQ8tMDegQIShAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=13d980256a79daea&gl=us&hl=en&ei=yCU-auqlEb-sptQPsu_UsQI&start=70&sa=N&sstk=AU9db-BVPGYyu7XjEPXLTw84ZxlXHL6BKgoxXT32gk7UakECHYb-CMGehVR7XX1hy387jfZ0S8rs94SmXYMzivkFrffH7IiIt1GwIg&ved=2ahUKEwjqqY3grKSVAxU_lokEHbI3NSYQ8tMDegQIShAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=13d980256a79daea&gl=us&hl=en&ei=yCU-auqlEb-sptQPsu_UsQI&start=80&sa=N&sstk=AU9db-BVPGYyu7XjEPXLTw84ZxlXHL6BKgoxXT32gk7UakECHYb-CMGehVR7XX1hy387jfZ0S8rs94SmXYMzivkFrffH7IiIt1GwIg&ved=2ahUKEwjqqY3grKSVAxU_lokEHbI3NSYQ8tMDegQIShAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=13d980256a79daea&gl=us&hl=en&ei=yCU-auqlEb-sptQPsu_UsQI&start=90&sa=N&sstk=AU9db-BVPGYyu7XjEPXLTw84ZxlXHL6BKgoxXT32gk7UakECHYb-CMGehVR7XX1hy387jfZ0S8rs94SmXYMzivkFrffH7IiIt1GwIg&ved=2ahUKEwjqqY3grKSVAxU_lokEHbI3NSYQ8tMDegQIShAU"
           }
         }
       }
     }
   },
-  "requestId": "c0787dd7-5984-419e-9f5b-40593a08f23c",
-  "timestamp": 1782456227119,
-  "recordTime": "2026-06-26 14:43:46"
+  "requestId": "237696ac-d736-4cb6-8c9d-1cd9da6546fb",
+  "timestamp": 1782458402925,
+  "recordTime": "2026-06-26 15:20:02"
 }
