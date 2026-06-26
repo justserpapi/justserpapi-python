@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-26 13:10:03",
+    "checkedAt": "2026-06-26 14:10:03",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.38,
-          "total_results": 2910000,
+          "time_taken": 0.63,
+          "total_results": 2970000000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -18,67 +18,13 @@
           "original_query_yields_zero_results": false,
           "url": "https://www.google.com/search?q=coffee&oq=coffee&gl=us&hl=en&safe=off&sourceid=chrome&ie=UTF-8"
         },
-        "short_videos": [
-          {
-            "title": "☕️ Wanna up your coffee game? Let's dive into the world of ...",
-            "channel": "Jessica Gavin",
-            "source": "Facebook",
-            "link": "https://www.facebook.com/JessicaYeeGavin/videos/types-of-coffee/1280941460614911/",
-            "thumbnail": "https://img.youtube.com/vi/undefined/maxresdefault.jpg"
-          },
-          {
-            "title": "Morning coffee order just got leveled up",
-            "channel": "Bert Kreischer",
-            "source": "Instagram",
-            "link": "https://www.instagram.com/reel/DZ-2IpwSf8G/",
-            "thumbnail": "https://img.youtube.com/vi/undefined/maxresdefault.jpg"
-          },
-          {
-            "title": "3 coffee mistakes you're probably making right now and all 3 ...",
-            "channel": "Atomic Coffee Roasters",
-            "source": "Facebook",
-            "link": "https://www.facebook.com/atomicoffeeroasters/videos/3-coffee-mistakes-youre-probably-making-right-now-and-all-3-are-free-to-fix/1921910198783190/",
-            "thumbnail": "https://img.youtube.com/vi/undefined/maxresdefault.jpg"
-          },
-          {
-            "title": "Everything you wanted to know about Coffee (but was afraid to ...",
-            "channel": "Good Evening with Kamera Jr.",
-            "source": "YouTube",
-            "link": "https://www.youtube.com/shorts/rZytKe1jXjY",
-            "id": "rZytKe1jXjY",
-            "thumbnail": "https://img.youtube.com/vi/rZytKe1jXjY/maxresdefault.jpg"
-          }
-        ],
         "popular_products": [
-          {
-            "title": "FOLGERS Coffee Classic Roast Ground",
-            "product_id": "1090572138154354800",
-            "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28&prds=catalogid%3A1090572138154354800%2CheadlineOfferDocid%3A16561886330629705269%2CimageDocid%3A1723033749016382263%2Crds%3APC_3245476400833551948%7CPROD_PC_3245476400833551948%2Cgpcid%3A10540051384613973985%2Cmid%3A3245476400833551948%2Cpvt%3Ahg",
-            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJlaSI6IktIby1hdFBxT05DVzVPTVByNyIsInByb2R1Y3RpZCI6IjEwOTA1NzIxMzgxNTQzNTQ4MDAiLCJjYXRhbG9naWQiOiIxMDkwNTcyMTM4MTU0MzU0ODAwIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTY1NjE4ODYzMzA2Mjk3MDUyNjkiLCJpbWFnZURvY2lkIjoiMTcyMzAzMzc0OTAxNjM4MjI2MyIsInJkcyI6IlBDXzMyNDU0NzY0MDA4MzM1NTE5NDh8UFJPRF9QQ18zMjQ1NDc2NDAwODMzNTUxOTQ4IiwicXVlcnkiOiJjb2ZmZWUiLCJncGNpZCI6IjEwNTQwMDUxMzg0NjEzOTczOTg1IiwibWlkIjoiMzI0NTQ3NjQwMDgzMzU1MTk0OCIsInB2dCI6ImhnIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ",
-            "page_token": "eyJlaSI6IktIby1hdFBxT05DVzVPTVByNyIsInByb2R1Y3RpZCI6IjEwOTA1NzIxMzgxNTQzNTQ4MDAiLCJjYXRhbG9naWQiOiIxMDkwNTcyMTM4MTU0MzU0ODAwIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTY1NjE4ODYzMzA2Mjk3MDUyNjkiLCJpbWFnZURvY2lkIjoiMTcyMzAzMzc0OTAxNjM4MjI2MyIsInJkcyI6IlBDXzMyNDU0NzY0MDA4MzM1NTE5NDh8UFJPRF9QQ18zMjQ1NDc2NDAwODMzNTUxOTQ4IiwicXVlcnkiOiJjb2ZmZWUiLCJncGNpZCI6IjEwNTQwMDUxMzg0NjEzOTczOTg1IiwibWlkIjoiMzI0NTQ3NjQwMDgzMzU1MTk0OCIsInB2dCI6ImhnIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ",
-            "price": "$19.67",
-            "last_price": "$0.45/oz",
-            "seller": "Sam's Club",
-            "stores": " & more",
-            "reviews": "20K"
-          },
-          {
-            "title": "FOLGERS Coffee Classic Roast Ground",
-            "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28",
-            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJxdWVyeSI6ImNvZmZlZSIsImdsIjoidXMiLCJobCI6ImVuIn0",
-            "page_token": "eyJxdWVyeSI6ImNvZmZlZSIsImdsIjoidXMiLCJobCI6ImVuIn0",
-            "price": "$19.67",
-            "last_price": "$0.45/oz",
-            "seller": "Sam's Club",
-            "stores": " & more",
-            "reviews": "20K"
-          },
           {
             "title": "Great Value Classic Roast Ground Coffee",
             "product_id": "5981621846826690625",
             "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28&prds=catalogid%3A5981621846826690625%2CheadlineOfferDocid%3A8359515571502084569%2CimageDocid%3A1583399684575005053%2Crds%3APC_12339652158232657525%7CPROD_PC_12339652158232657525%2Cgpcid%3A6611789234492485941%2Cmid%3A8111176263749240341%2Cpvt%3Ahg",
-            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJlaSI6IktIby1hdFBxT05DVzVPTVByNyIsInByb2R1Y3RpZCI6IjU5ODE2MjE4NDY4MjY2OTA2MjUiLCJjYXRhbG9naWQiOiI1OTgxNjIxODQ2ODI2NjkwNjI1IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiODM1OTUxNTU3MTUwMjA4NDU2OSIsImltYWdlRG9jaWQiOiIxNTgzMzk5Njg0NTc1MDA1MDUzIiwicmRzIjoiUENfMTIzMzk2NTIxNTgyMzI2NTc1MjV8UFJPRF9QQ18xMjMzOTY1MjE1ODIzMjY1NzUyNSIsInF1ZXJ5IjoiY29mZmVlIiwiZ3BjaWQiOiI2NjExNzg5MjM0NDkyNDg1OTQxIiwibWlkIjoiODExMTE3NjI2Mzc0OTI0MDM0MSIsInB2dCI6ImhnIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ",
-            "page_token": "eyJlaSI6IktIby1hdFBxT05DVzVPTVByNyIsInByb2R1Y3RpZCI6IjU5ODE2MjE4NDY4MjY2OTA2MjUiLCJjYXRhbG9naWQiOiI1OTgxNjIxODQ2ODI2NjkwNjI1IiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiODM1OTUxNTU3MTUwMjA4NDU2OSIsImltYWdlRG9jaWQiOiIxNTgzMzk5Njg0NTc1MDA1MDUzIiwicmRzIjoiUENfMTIzMzk2NTIxNTgyMzI2NTc1MjV8UFJPRF9QQ18xMjMzOTY1MjE1ODIzMjY1NzUyNSIsInF1ZXJ5IjoiY29mZmVlIiwiZ3BjaWQiOiI2NjExNzg5MjM0NDkyNDg1OTQxIiwibWlkIjoiODExMTE3NjI2Mzc0OTI0MDM0MSIsInB2dCI6ImhnIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ",
+            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJlaSI6Ik9ZZy1hb0M0RHJuWDVOb1BtLUxMc0FNIiwicHJvZHVjdGlkIjoiNTk4MTYyMTg0NjgyNjY5MDYyNSIsImNhdGFsb2dpZCI6IjU5ODE2MjE4NDY4MjY2OTA2MjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI4MzU5NTE1NTcxNTAyMDg0NTY5IiwiaW1hZ2VEb2NpZCI6IjE1ODMzOTk2ODQ1NzUwMDUwNTMiLCJyZHMiOiJQQ18xMjMzOTY1MjE1ODIzMjY1NzUyNXxQUk9EX1BDXzEyMzM5NjUyMTU4MjMyNjU3NTI1IiwicXVlcnkiOiJjb2ZmZWUiLCJncGNpZCI6IjY2MTE3ODkyMzQ0OTI0ODU5NDEiLCJtaWQiOiI4MTExMTc2MjYzNzQ5MjQwMzQxIiwicHZ0IjoiaGciLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+            "page_token": "eyJlaSI6Ik9ZZy1hb0M0RHJuWDVOb1BtLUxMc0FNIiwicHJvZHVjdGlkIjoiNTk4MTYyMTg0NjgyNjY5MDYyNSIsImNhdGFsb2dpZCI6IjU5ODE2MjE4NDY4MjY2OTA2MjUiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI4MzU5NTE1NTcxNTAyMDg0NTY5IiwiaW1hZ2VEb2NpZCI6IjE1ODMzOTk2ODQ1NzUwMDUwNTMiLCJyZHMiOiJQQ18xMjMzOTY1MjE1ODIzMjY1NzUyNXxQUk9EX1BDXzEyMzM5NjUyMTU4MjMyNjU3NTI1IiwicXVlcnkiOiJjb2ZmZWUiLCJncGNpZCI6IjY2MTE3ODkyMzQ0OTI0ODU5NDEiLCJtaWQiOiI4MTExMTc2MjYzNzQ5MjQwMzQxIiwicHZ0IjoiaGciLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
             "price": "$5.88",
             "last_price": "$0.61/oz",
             "seller": "Walmart",
@@ -97,57 +43,57 @@
             "reviews": "851"
           },
           {
-            "title": "Gevalia House Blend Ground Coffee 12 oz Bag",
-            "product_id": "11649801770281042811",
-            "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28&prds=catalogid%3A11649801770281042811%2CheadlineOfferDocid%3A8927514648658699750%2CimageDocid%3A15004473122805762707%2Crds%3APC_12182490252136593412%7CPROD_PC_12182490252136593412%2Cgpcid%3A9926820538861909642%2Cmid%3A12182490252136593412%2Cpvt%3Ahg",
-            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJlaSI6IktIby1hdFBxT05DVzVPTVByNyIsInByb2R1Y3RpZCI6IjExNjQ5ODAxNzcwMjgxMDQyODExIiwiY2F0YWxvZ2lkIjoiMTE2NDk4MDE3NzAyODEwNDI4MTEiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI4OTI3NTE0NjQ4NjU4Njk5NzUwIiwiaW1hZ2VEb2NpZCI6IjE1MDA0NDczMTIyODA1NzYyNzA3IiwicmRzIjoiUENfMTIxODI0OTAyNTIxMzY1OTM0MTJ8UFJPRF9QQ18xMjE4MjQ5MDI1MjEzNjU5MzQxMiIsInF1ZXJ5IjoiY29mZmVlIiwiZ3BjaWQiOiI5OTI2ODIwNTM4ODYxOTA5NjQyIiwibWlkIjoiMTIxODI0OTAyNTIxMzY1OTM0MTIiLCJwdnQiOiJoZyIsImdsIjoidXMiLCJobCI6ImVuIn0",
-            "page_token": "eyJlaSI6IktIby1hdFBxT05DVzVPTVByNyIsInByb2R1Y3RpZCI6IjExNjQ5ODAxNzcwMjgxMDQyODExIiwiY2F0YWxvZ2lkIjoiMTE2NDk4MDE3NzAyODEwNDI4MTEiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI4OTI3NTE0NjQ4NjU4Njk5NzUwIiwiaW1hZ2VEb2NpZCI6IjE1MDA0NDczMTIyODA1NzYyNzA3IiwicmRzIjoiUENfMTIxODI0OTAyNTIxMzY1OTM0MTJ8UFJPRF9QQ18xMjE4MjQ5MDI1MjEzNjU5MzQxMiIsInF1ZXJ5IjoiY29mZmVlIiwiZ3BjaWQiOiI5OTI2ODIwNTM4ODYxOTA5NjQyIiwibWlkIjoiMTIxODI0OTAyNTIxMzY1OTM0MTIiLCJwdnQiOiJoZyIsImdsIjoidXMiLCJobCI6ImVuIn0",
-            "price": "$9.49",
-            "last_price": "$0.79/oz",
+            "title": "Stumptown Coffee Roasters Holler Mountain Whole Bean Organic Coffee",
+            "product_id": "3707361157326551218",
+            "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28&prds=catalogid%3A3707361157326551218%2CheadlineOfferDocid%3A4819644546584538347%2CimageDocid%3A3121101972489927523%2Crds%3APC_2065860961078579291%7CPROD_PC_2065860961078579291%2Cgpcid%3A10591094727023862722%2Cmid%3A2065860961078579291%2Cpvt%3Ahg",
+            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJlaSI6Ik9ZZy1hb0M0RHJuWDVOb1BtLUxMc0FNIiwicHJvZHVjdGlkIjoiMzcwNzM2MTE1NzMyNjU1MTIxOCIsImNhdGFsb2dpZCI6IjM3MDczNjExNTczMjY1NTEyMTgiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI0ODE5NjQ0NTQ2NTg0NTM4MzQ3IiwiaW1hZ2VEb2NpZCI6IjMxMjExMDE5NzI0ODk5Mjc1MjMiLCJyZHMiOiJQQ18yMDY1ODYwOTYxMDc4NTc5MjkxfFBST0RfUENfMjA2NTg2MDk2MTA3ODU3OTI5MSIsInF1ZXJ5IjoiY29mZmVlIiwiZ3BjaWQiOiIxMDU5MTA5NDcyNzAyMzg2MjcyMiIsIm1pZCI6IjIwNjU4NjA5NjEwNzg1NzkyOTEiLCJwdnQiOiJoZyIsImdsIjoidXMiLCJobCI6ImVuIn0",
+            "page_token": "eyJlaSI6Ik9ZZy1hb0M0RHJuWDVOb1BtLUxMc0FNIiwicHJvZHVjdGlkIjoiMzcwNzM2MTE1NzMyNjU1MTIxOCIsImNhdGFsb2dpZCI6IjM3MDczNjExNTczMjY1NTEyMTgiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI0ODE5NjQ0NTQ2NTg0NTM4MzQ3IiwiaW1hZ2VEb2NpZCI6IjMxMjExMDE5NzI0ODk5Mjc1MjMiLCJyZHMiOiJQQ18yMDY1ODYwOTYxMDc4NTc5MjkxfFBST0RfUENfMjA2NTg2MDk2MTA3ODU3OTI5MSIsInF1ZXJ5IjoiY29mZmVlIiwiZ3BjaWQiOiIxMDU5MTA5NDcyNzAyMzg2MjcyMiIsIm1pZCI6IjIwNjU4NjA5NjEwNzg1NzkyOTEiLCJwdnQiOiJoZyIsImdsIjoidXMiLCJobCI6ImVuIn0",
+            "price": "$16.99",
+            "last_price": "$1.42/oz",
             "seller": "Target",
             "stores": " & more",
-            "reviews": "755"
+            "reviews": "61"
           },
           {
-            "title": "Gevalia House Blend Ground Coffee 12 oz Bag",
+            "title": "Stumptown Coffee Roasters Holler Mountain Whole Bean Organic Coffee",
             "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28",
             "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJxdWVyeSI6ImNvZmZlZSIsImdsIjoidXMiLCJobCI6ImVuIn0",
             "page_token": "eyJxdWVyeSI6ImNvZmZlZSIsImdsIjoidXMiLCJobCI6ImVuIn0",
-            "price": "$9.49",
-            "last_price": "$0.79/oz",
+            "price": "$16.99",
+            "last_price": "$1.42/oz",
             "seller": "Target",
             "stores": " & more",
-            "reviews": "755"
+            "reviews": "61"
           },
           {
-            "title": "Cafe Bustelo Coffee Espresso",
-            "product_id": "7712121428057592560",
-            "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28&prds=catalogid%3A7712121428057592560%2CheadlineOfferDocid%3A12430070339344115680%2CimageDocid%3A7318479360546077481%2Crds%3APC_387412019436245495%7CPROD_PC_387412019436245495%2Cgpcid%3A13812261650461500364%2Cmid%3A387412019436245495%2Cpvt%3Ahg",
-            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJlaSI6IktIby1hdFBxT05DVzVPTVByNyIsInByb2R1Y3RpZCI6Ijc3MTIxMjE0MjgwNTc1OTI1NjAiLCJjYXRhbG9naWQiOiI3NzEyMTIxNDI4MDU3NTkyNTYwIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTI0MzAwNzAzMzkzNDQxMTU2ODAiLCJpbWFnZURvY2lkIjoiNzMxODQ3OTM2MDU0NjA3NzQ4MSIsInJkcyI6IlBDXzM4NzQxMjAxOTQzNjI0NTQ5NXxQUk9EX1BDXzM4NzQxMjAxOTQzNjI0NTQ5NSIsInF1ZXJ5IjoiY29mZmVlIiwiZ3BjaWQiOiIxMzgxMjI2MTY1MDQ2MTUwMDM2NCIsIm1pZCI6IjM4NzQxMjAxOTQzNjI0NTQ5NSIsInB2dCI6ImhnIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ",
-            "page_token": "eyJlaSI6IktIby1hdFBxT05DVzVPTVByNyIsInByb2R1Y3RpZCI6Ijc3MTIxMjE0MjgwNTc1OTI1NjAiLCJjYXRhbG9naWQiOiI3NzEyMTIxNDI4MDU3NTkyNTYwIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTI0MzAwNzAzMzkzNDQxMTU2ODAiLCJpbWFnZURvY2lkIjoiNzMxODQ3OTM2MDU0NjA3NzQ4MSIsInJkcyI6IlBDXzM4NzQxMjAxOTQzNjI0NTQ5NXxQUk9EX1BDXzM4NzQxMjAxOTQzNjI0NTQ5NSIsInF1ZXJ5IjoiY29mZmVlIiwiZ3BjaWQiOiIxMzgxMjI2MTY1MDQ2MTUwMDM2NCIsIm1pZCI6IjM4NzQxMjAxOTQzNjI0NTQ5NSIsInB2dCI6ImhnIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ",
-            "price": "$8.99",
-            "last_price": "$0.90/oz",
-            "seller": "CVS Pharmacy",
+            "title": "FOLGERS Coffee Classic Roast Ground",
+            "product_id": "1090572138154354800",
+            "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28&prds=catalogid%3A1090572138154354800%2CheadlineOfferDocid%3A16561886330629705269%2CimageDocid%3A1723033749016382263%2Crds%3APC_3245476400833551948%7CPROD_PC_3245476400833551948%2Cgpcid%3A10540051384613973985%2Cmid%3A3245476400833551948%2Cpvt%3Ahg",
+            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJlaSI6Ik9ZZy1hb0M0RHJuWDVOb1BtLUxMc0FNIiwicHJvZHVjdGlkIjoiMTA5MDU3MjEzODE1NDM1NDgwMCIsImNhdGFsb2dpZCI6IjEwOTA1NzIxMzgxNTQzNTQ4MDAiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjU2MTg4NjMzMDYyOTcwNTI2OSIsImltYWdlRG9jaWQiOiIxNzIzMDMzNzQ5MDE2MzgyMjYzIiwicmRzIjoiUENfMzI0NTQ3NjQwMDgzMzU1MTk0OHxQUk9EX1BDXzMyNDU0NzY0MDA4MzM1NTE5NDgiLCJxdWVyeSI6ImNvZmZlZSIsImdwY2lkIjoiMTA1NDAwNTEzODQ2MTM5NzM5ODUiLCJtaWQiOiIzMjQ1NDc2NDAwODMzNTUxOTQ4IiwicHZ0IjoiaGciLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+            "page_token": "eyJlaSI6Ik9ZZy1hb0M0RHJuWDVOb1BtLUxMc0FNIiwicHJvZHVjdGlkIjoiMTA5MDU3MjEzODE1NDM1NDgwMCIsImNhdGFsb2dpZCI6IjEwOTA1NzIxMzgxNTQzNTQ4MDAiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjU2MTg4NjMzMDYyOTcwNTI2OSIsImltYWdlRG9jaWQiOiIxNzIzMDMzNzQ5MDE2MzgyMjYzIiwicmRzIjoiUENfMzI0NTQ3NjQwMDgzMzU1MTk0OHxQUk9EX1BDXzMyNDU0NzY0MDA4MzM1NTE5NDgiLCJxdWVyeSI6ImNvZmZlZSIsImdwY2lkIjoiMTA1NDAwNTEzODQ2MTM5NzM5ODUiLCJtaWQiOiIzMjQ1NDc2NDAwODMzNTUxOTQ4IiwicHZ0IjoiaGciLCJnbCI6InVzIiwiaGwiOiJlbiJ9",
+            "price": "$19.67",
+            "last_price": "$0.45/oz",
+            "seller": "Sam's Club",
             "stores": " & more",
-            "reviews": "8.7K"
+            "reviews": "20K"
           },
           {
-            "title": "Cafe Bustelo Coffee Espresso",
+            "title": "FOLGERS Coffee Classic Roast Ground",
             "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28",
             "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJxdWVyeSI6ImNvZmZlZSIsImdsIjoidXMiLCJobCI6ImVuIn0",
             "page_token": "eyJxdWVyeSI6ImNvZmZlZSIsImdsIjoidXMiLCJobCI6ImVuIn0",
-            "price": "$8.99",
-            "last_price": "$0.90/oz",
-            "seller": "CVS Pharmacy",
+            "price": "$19.67",
+            "last_price": "$0.45/oz",
+            "seller": "Sam's Club",
             "stores": " & more",
-            "reviews": "8.7K"
+            "reviews": "20K"
           },
           {
             "title": "Maxwell House Ground Coffee Original Roast",
             "product_id": "13722422005171491253",
             "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28&prds=catalogid%3A13722422005171491253%2CheadlineOfferDocid%3A9209233091457673010%2CimageDocid%3A17483007390774512374%2Crds%3APC_5194272445949835285%7CPROD_PC_5194272445949835285%2Cgpcid%3A6357356017613654166%2Cmid%3A5868892080073481050%2Cpvt%3Ahg",
-            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJlaSI6IktIby1hdFBxT05DVzVPTVByNyIsInByb2R1Y3RpZCI6IjEzNzIyNDIyMDA1MTcxNDkxMjUzIiwiY2F0YWxvZ2lkIjoiMTM3MjI0MjIwMDUxNzE0OTEyNTMiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI5MjA5MjMzMDkxNDU3NjczMDEwIiwiaW1hZ2VEb2NpZCI6IjE3NDgzMDA3MzkwNzc0NTEyMzc0IiwicmRzIjoiUENfNTE5NDI3MjQ0NTk0OTgzNTI4NXxQUk9EX1BDXzUxOTQyNzI0NDU5NDk4MzUyODUiLCJxdWVyeSI6ImNvZmZlZSIsImdwY2lkIjoiNjM1NzM1NjAxNzYxMzY1NDE2NiIsIm1pZCI6IjU4Njg4OTIwODAwNzM0ODEwNTAiLCJwdnQiOiJoZyIsImdsIjoidXMiLCJobCI6ImVuIn0",
-            "page_token": "eyJlaSI6IktIby1hdFBxT05DVzVPTVByNyIsInByb2R1Y3RpZCI6IjEzNzIyNDIyMDA1MTcxNDkxMjUzIiwiY2F0YWxvZ2lkIjoiMTM3MjI0MjIwMDUxNzE0OTEyNTMiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI5MjA5MjMzMDkxNDU3NjczMDEwIiwiaW1hZ2VEb2NpZCI6IjE3NDgzMDA3MzkwNzc0NTEyMzc0IiwicmRzIjoiUENfNTE5NDI3MjQ0NTk0OTgzNTI4NXxQUk9EX1BDXzUxOTQyNzI0NDU5NDk4MzUyODUiLCJxdWVyeSI6ImNvZmZlZSIsImdwY2lkIjoiNjM1NzM1NjAxNzYxMzY1NDE2NiIsIm1pZCI6IjU4Njg4OTIwODAwNzM0ODEwNTAiLCJwdnQiOiJoZyIsImdsIjoidXMiLCJobCI6ImVuIn0",
+            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJlaSI6Ik9ZZy1hb0M0RHJuWDVOb1BtLUxMc0FNIiwicHJvZHVjdGlkIjoiMTM3MjI0MjIwMDUxNzE0OTEyNTMiLCJjYXRhbG9naWQiOiIxMzcyMjQyMjAwNTE3MTQ5MTI1MyIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjkyMDkyMzMwOTE0NTc2NzMwMTAiLCJpbWFnZURvY2lkIjoiMTc0ODMwMDczOTA3NzQ1MTIzNzQiLCJyZHMiOiJQQ181MTk0MjcyNDQ1OTQ5ODM1Mjg1fFBST0RfUENfNTE5NDI3MjQ0NTk0OTgzNTI4NSIsInF1ZXJ5IjoiY29mZmVlIiwiZ3BjaWQiOiI2MzU3MzU2MDE3NjEzNjU0MTY2IiwibWlkIjoiNTg2ODg5MjA4MDA3MzQ4MTA1MCIsInB2dCI6ImhnIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ",
+            "page_token": "eyJlaSI6Ik9ZZy1hb0M0RHJuWDVOb1BtLUxMc0FNIiwicHJvZHVjdGlkIjoiMTM3MjI0MjIwMDUxNzE0OTEyNTMiLCJjYXRhbG9naWQiOiIxMzcyMjQyMjAwNTE3MTQ5MTI1MyIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjkyMDkyMzMwOTE0NTc2NzMwMTAiLCJpbWFnZURvY2lkIjoiMTc0ODMwMDczOTA3NzQ1MTIzNzQiLCJyZHMiOiJQQ181MTk0MjcyNDQ1OTQ5ODM1Mjg1fFBST0RfUENfNTE5NDI3MjQ0NTk0OTgzNTI4NSIsInF1ZXJ5IjoiY29mZmVlIiwiZ3BjaWQiOiI2MzU3MzU2MDE3NjEzNjU0MTY2IiwibWlkIjoiNTg2ODg5MjA4MDA3MzQ4MTA1MCIsInB2dCI6ImhnIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ",
             "price": "$23.79",
             "last_price": "$0.55/oz",
             "seller": "BJ's Wholesale Club",
@@ -164,6 +110,29 @@
             "seller": "BJ's Wholesale Club",
             "stores": " & more",
             "reviews": "7.7K"
+          },
+          {
+            "title": "Gevalia House Blend Ground Coffee 12 oz Bag",
+            "product_id": "11649801770281042811",
+            "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28&prds=catalogid%3A11649801770281042811%2CheadlineOfferDocid%3A8927514648658699750%2CimageDocid%3A15004473122805762707%2Crds%3APC_12182490252136593412%7CPROD_PC_12182490252136593412%2Cgpcid%3A9926820538861909642%2Cmid%3A12182490252136593412%2Cpvt%3Ahg",
+            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJlaSI6Ik9ZZy1hb0M0RHJuWDVOb1BtLUxMc0FNIiwicHJvZHVjdGlkIjoiMTE2NDk4MDE3NzAyODEwNDI4MTEiLCJjYXRhbG9naWQiOiIxMTY0OTgwMTc3MDI4MTA0MjgxMSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg5Mjc1MTQ2NDg2NTg2OTk3NTAiLCJpbWFnZURvY2lkIjoiMTUwMDQ0NzMxMjI4MDU3NjI3MDciLCJyZHMiOiJQQ18xMjE4MjQ5MDI1MjEzNjU5MzQxMnxQUk9EX1BDXzEyMTgyNDkwMjUyMTM2NTkzNDEyIiwicXVlcnkiOiJjb2ZmZWUiLCJncGNpZCI6Ijk5MjY4MjA1Mzg4NjE5MDk2NDIiLCJtaWQiOiIxMjE4MjQ5MDI1MjEzNjU5MzQxMiIsInB2dCI6ImhnIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ",
+            "page_token": "eyJlaSI6Ik9ZZy1hb0M0RHJuWDVOb1BtLUxMc0FNIiwicHJvZHVjdGlkIjoiMTE2NDk4MDE3NzAyODEwNDI4MTEiLCJjYXRhbG9naWQiOiIxMTY0OTgwMTc3MDI4MTA0MjgxMSIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg5Mjc1MTQ2NDg2NTg2OTk3NTAiLCJpbWFnZURvY2lkIjoiMTUwMDQ0NzMxMjI4MDU3NjI3MDciLCJyZHMiOiJQQ18xMjE4MjQ5MDI1MjEzNjU5MzQxMnxQUk9EX1BDXzEyMTgyNDkwMjUyMTM2NTkzNDEyIiwicXVlcnkiOiJjb2ZmZWUiLCJncGNpZCI6Ijk5MjY4MjA1Mzg4NjE5MDk2NDIiLCJtaWQiOiIxMjE4MjQ5MDI1MjEzNjU5MzQxMiIsInB2dCI6ImhnIiwiZ2wiOiJ1cyIsImhsIjoiZW4ifQ",
+            "price": "$9.49",
+            "last_price": "$0.79/oz",
+            "seller": "Target",
+            "stores": " & more",
+            "reviews": "755"
+          },
+          {
+            "title": "Gevalia House Blend Ground Coffee 12 oz Bag",
+            "product_url": "https://www.google.com/search?ibp=oshop&q=coffee&hl=en&gl=us&udm=28",
+            "scrapingdog_immersive_product_link": "https://api.scrapingdog.com/google_immersive_product?api_key=696cdbe3f13e5f95cf7b02cb&page_token=eyJxdWVyeSI6ImNvZmZlZSIsImdsIjoidXMiLCJobCI6ImVuIn0",
+            "page_token": "eyJxdWVyeSI6ImNvZmZlZSIsImdsIjoidXMiLCJobCI6ImVuIn0",
+            "price": "$9.49",
+            "last_price": "$0.79/oz",
+            "seller": "Target",
+            "stores": " & more",
+            "reviews": "755"
           }
         ],
         "knowledge_graph": {
@@ -221,38 +190,28 @@
             "page_rank": 1
           },
           {
-            "title": "Buy Coffee, Tea, Powders Online | The Coffee Bean & Tea ...",
-            "link": "https://www.coffeebean.com/",
-            "displayed_link": "https://www.coffeebean.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEVHcExTLG1TLG1TLG1TLW1TLG1TLG1TLW1TLG1TLG1TLG30H49eAAAAC3RSTlMAFT5uyLedLN38V4AViBkAAADiSURBVHgBlZAlYgIAAAAPl4JLm3Zcy1zifGtzLbi2uaQ5UnC+iWvk2sU7JkfrcMxAH93qweWatW+yJ49GE3kKAgCpEwBjBgBkeeI5K/iCmADzifL96QukS5FnwEnyaXMRBAdrNhCskHz/DSJzrZXUINxAeVVCeLFbT0yDaBs0QtnmndpQVLf0FEj6r8Fopavx2gdpDB3dFtSe00HhC4YiILxzrU9D9IH5aUC5txsUzFAt4gJ0e5dquLD5ETwCRx79CSR/rUgXgRCyHxC4i62EscCvfv7qWD66vf6c/jr/DBPTBBH3MWVXMDuJAAAAAElFTkSuQmCC",
-            "source": "The Coffee Bean & Tea Leaf",
-            "snippet": "Buy exceptional coffee, tea, powders, equipment and drinkware at The Coffee Bean & Tea Leaf® online store to enjoy our globally sourced products at home.",
+            "title": "r/Coffee",
+            "link": "https://www.reddit.com/r/Coffee/",
+            "displayed_link": "2.4M+ followers",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAhFBMVEVHcEz/RQD/RQD/RQD/RQD/RQD/RQD/RQD/RQD/PQD/NgD+XS32dlf5vK3////64dusLADUz9H+jXLOPAoSHiFrLBm3uLn3/f7jVS/b6e77pJDJo6H718//RQDw9ffs5+jm8fPIXlHqKwD5+PjolIP/VgP/SQLQ2uAyODvQ4ekABAhqcHK4ptuCAAAAHnRSTlMAPobB7P9mHdb//////////////////////////8J6YdtgAAABWUlEQVR4AWySYZNDMBCGWyw2SI9TGnWqILT////dm6Enc+MZH8Qz2V3Je/rj7Lgekec659N/fIgPnn+yCULaYaYwsCqShYhiQXQ+dJxIedltQDZfqZQyY6K1st3vO78WsiyNDI3zySK/caJUygTMzN7eTnxdBXMcb3+0TsMC30RUJfciqSIs8JCZycHwWV1n2UVuXDKzxsDOySWu5AGVoB/TUh5imhJFpQTNfav7uDcSlBERJLUN9LOLewn6LnpCNS0EyvKg+vLRjVRLUIuxe8hSDYyyLqatyr68jdO6cxpvWGIeDOQQujagNs7YuumbJmYiZz0E3aJvMc95Ps8F+rV6PQQ0JY4XpVqVv0Cu2lYps9HbDp6HRS9Kv1+vt1Z4HeDI/1yZiFMNFIzWqYkChftl8zSkegE6HSYmENgxYYQHRGzUHiLHyh3ModvZo7nHxA71ofwdSnYAAPpVIo4RUPiIAAAAAElFTkSuQmCC",
+            "source": "Reddit · r/Coffee",
+            "snippet": "thread where you can share what you are brewing or ask for bean recommendations. This is a place to share and talk about your favorite coffee roasters or beans.Read more",
             "highlighted_keywords": [
-              "Buy exceptional coffee, tea, powders, equipment and drinkware"
+              "thread where you can share what you are brewing"
             ],
             "rank": 2,
             "page_rank": 2
           },
           {
-            "title": "Afficionado Coffee Roasters Store",
-            "link": "https://www.afficionadocoffee.com/?srsltid=AfmBOorUmsw4DZ-Fjj3tgJoEX9eQ-sFo2U_r2XCFADjd5Qxl3IiLKCUv",
-            "displayed_link": "https://www.afficionadocoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEVHcEwEBgcEBggFBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcFBgeMWI7ZAAAAEHRSTlMACRTwqiXYi8acuXRN5DlfV+SDmgAAAJpJREFUeAFjoDVgROUqOyDzWNNbBJC4EROknJAkV3IfdFGAczUm7s0RWQTnLl7n9/mAB0w324JtAfw2XBeg3A6+46YMZw/4QqSlGs5+KA5QsWFJBfGYvHjyGdgLpmz7MOMBkKu56OwHBgbxVp777H1AyVkBq4GCMwIY3m6oCGBgrWMIAHJLGRj4bssBnQIyD0I++wB3CVSMdgAApz8n5sIxQCYAAAAASUVORK5CYII=",
-            "source": "Afficionado Coffee Roasters",
-            "snippet": "Afficionado Coffee Roasters offers unique coffees from exclusive farms around the world. Ready to drink beverages made from all consumable parts of the ...",
+            "title": "Coffee • The Nutrition Source",
+            "link": "https://nutritionsource.hsph.harvard.edu/food-features/coffee/",
+            "displayed_link": "https://nutritionsource.hsph.harvard.edu › food-features",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA+VBMVEVHcEwFBSoHGSwnIjDzUVnsT1dRMh73jiHwiyOpYCDJrGr/237/13z/3oBkWEeHsz+LuEApOi9lJzzhhCHDp2j/1Xv60HowRy67P06aYCRmiTUKGCuuO0iAqzwAABE9TlxGYHDaRU5DVWMyQU+64/NDESCrZSHKp2hUcDAWNizJ8/+EpbaUIi9TRC59Z0zE7fzG8P+OvEB4nzgAFhGu1eRxa2v/9eP479+cwdCupp//++h/enr//eoRJTOQiomLhYc9VhcJEikNAColdUIpgEQofUQVYTkAIBkAACsFACkYWDkdaj1CXC4URC8qgUUAACoNACokMy8QFizY2kPbAAAAU3RSTlMAP8rk//////////////////j////////////o///97v7/++X//////////////////////////////////////9iL//////+fKv//////bYLdpWIE08EAAAFLSURBVHgBtM9FdsMwFAXQMCdSmBllh5nRzPtfTR36lU/HfdP70fWPcXv+xA3o9fl9gWAoFAxHorFYPIEQTjowlQ6FQuFMLJvN5THCeRr9heIHY5mSo7NcsfU594nRRBWhUg2w3mg+537G5jGqthqA7U7X56/0XhjrDxAmndYvMuzQ5x8FnxgdV/GAZSicTBtNX+r5Sjyen80b0wmNE7bW7QYC3VFitMjX2AmN0+VqvYGsE8spjdvdfg3Z77YOXB5oXHVo7DCtI4UtplMH9BByOm8+vN9cTvnrDfD+4HhBXG32TzrkS2hWlQBlojx4XhV3x+OOzGezaklzuyC3knYSeF4/nDU8K+WJUgayW7UZGpAHr5AZyusPQ3e7qJiDGZ6fbB0QlecVi6KnaghXTzz/NB0MJnsH1bnO8fY+aibELf0s0FaTOQgoRTkAAHD2PKVCAaLqAAAAAElFTkSuQmCC",
+            "source": "The Nutrition Source",
+            "snippet": "A plain “black” cup of coffee is a very low calorie drink—8 ounces only contains 2 calories! However, adding sugar, cream, and milk can quickly bump up the ...Read more",
             "highlighted_keywords": [
-              "offers unique coffees from exclusive farms around the world"
+              "a very low calorie drink"
             ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Store nearby (8.7 mi)",
-                  "Free delivery over $50",
-                  "Free 30-day returns"
-                ]
-              }
-            },
             "rank": 3,
             "page_rank": 3
           },
@@ -270,48 +229,57 @@
             "page_rank": 4
           },
           {
-            "title": "Starbucks Coffee Company",
-            "link": "https://www.starbucks.com/",
-            "displayed_link": "https://www.starbucks.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUAqGIdqmY1r3EAp18ApFiUzqyt2L4Ao1ZfuYRTtn7q9e/3/PotrWzH5NP////W695BsXUAn0zf8OYApVtMtHrk8utvwJIAnEX6/fwAoVFivY2e0rPL59i/4c3+/v623cal1biOyaNsvo98xZuGyKGAxp1Ptn+w3MO6/E0wAAABrUlEQVR4AWKgEgDUQR9YkoJQFEBRJAjyVFAMiKHQnv3vcKjJkQz3kH5R/pdoxbig/9kma6Vr2fxrG6EGObV5+OfurhO0z2p7J8rhd3UFRj/Ns8ayWnTuV+1CwYDWUtG2AHfs294vbbUh7oDSegRwwFZfybsvfSa9ccZOozM37y1OEpSUOlcFUxfTZQzriyHyKi/RAgSxf12JLIO8FXLSaZUL9ZdfOMiuNXA26d6GK+TRVW/pKRkwq4w78PThkDHnM3bRcx9DvwLYCQC2yHu7+cdzmSOllZ0mpeXJQJi/hTs/2ieeADRw8GDk4cTjGXmCIO4YVDmvQORAUvU4xIoIdhPk3oU0dmNSyns7S13ovJM4DvL+L/0w15EdykJuLJzH673akPCOVDU2ysGVZht6lLa22YhjJLrci7FQAo7JOiwo7DC6N3Ii3htDOBgbHXIqW562+1NezpQoobV92QbNhhyRlmJon9Y7Ql9kpaRSzez0dWfLGjyELnXeI4kjrjZ3rDGprzhP8Gc4vMtkps7GZAYs9iuqCevBuBqmT6TRwE51MZ6vr3hf2mmaV+fhM60UJgvTnxtEAAAAAElFTkSuQmCC",
-            "source": "Starbucks",
-            "snippet": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
+            "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOooeb9GB8siS09a71zs-m1_8yWxjCihzJ-y-QRdyr3LIoc4irJoy",
+            "displayed_link": "https://www.stumptowncoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
+            "source": "Stumptown Coffee Roasters",
+            "snippet": "Stumptown Coffee Roasters brings you fresh beans, cold brew, and good vibes. Order online, visit a shop, or subscribe for the long haul.",
             "highlighted_keywords": [
-              "Explore our menu of handcrafted drinks"
+              "fresh beans, cold brew, and good vibes"
             ],
             "rank": 5,
             "page_rank": 5
           },
           {
-            "title": "Fresh Roasted Coffee | Intelligentsia | Illuminating Coffee",
-            "link": "https://www.intelligentsia.com/",
-            "displayed_link": "https://www.intelligentsia.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAJ1BMVEVHcEzUKijUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfUKSfpf0iZAAAADHRSTlMAECV/W/O7zT6Z5Gx3ew+DAAAAiUlEQVQokY2QWw6AIAwEESjP3v+8ihhKKSX2DyeZddeY35fSAeZ8gAA6s4hWhQ7RqbAgloNV97oGNW9pkHmvca/18dIXYwGVgxaf9+wbK+0YrRxXFEULuqXP/F8ghvAEvVhgio0CzpEHq/SGXq5XDhtrHNnS6qgy94ap3FOZe/kzMK+vPKXKHcTdn7UK5dbg4aoAAAAASUVORK5CYII=",
-            "source": "Intelligentsia Coffee",
-            "snippet": "Experience the freshest roasted coffee shipped for free right to you, and receive early access to all exclusive releases and promotions.Read more",
+            "title": "Blue Bottle Coffee | Fresh Roasted Specialty Coffee",
+            "link": "https://bluebottlecoffee.com/us/eng?srsltid=AfmBOooscclyNsQqtm4fRNKcGp6DN1u5Jzk5P9kRUhET4FV9hEaZ1TMr",
+            "displayed_link": "https://bluebottlecoffee.com › eng",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEVHcEzz+v7////G5PcAneTo9vyKwu3///8AlN3v+v8Cnef///////8Alt5bsOc9qujz+v7///////////+cy+4Ak+AKm90AluWTzfOSzvkAmt////8AmOMAoeeh0vQAnuIAn+MAmeEAnOK1ZI6VAAAAH3RSTlMARB5k60+EAeNltTgK6qS4VhctIWXN1KqPn/gp0tByb5tLiwAAAJlJREFUKJGd0dkOgyAQhWE2gYIKtW5dwXn/h1R7zSFp/yuSL0Mgw9gPGQgGEhOc+xbNeb3oG8Lh41aETEh3FzW8IhzWd2jAi9rolOpjcfa4VOWsFikKn21mykcq8BKq0xK9LgBTSmQxUgWJtj+wq6FNEA2fKcFJHh5ECH3fYXxqu51NsYBCTqfZ3hewHUZ9NHKwb/OtBOCM2wEzsg7zSllT1AAAAABJRU5ErkJggg==",
+            "source": "Blue Bottle Coffee",
+            "snippet": "Blue Bottle Coffee is a specialty coffee roaster with cafes in LA, SF, NYC, & Japan. Shop our freshly roasted specialty coffee online & in-store.",
             "highlighted_keywords": [
-              "freshest roasted coffee shipped for free right to you"
+              "Blue Bottle Coffee is a specialty coffee roaster"
             ],
             "rank": 6,
             "page_rank": 6
           },
           {
-            "title": "Coffee | Origin, Types, Uses, History, & Facts",
-            "link": "https://www.britannica.com/topic/coffee",
-            "displayed_link": "https://www.britannica.com › ... › Food",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
-            "source": "Britannica",
-            "snippet": "Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant.Read more",
+            "title": "Afficionado Coffee Roasters Store",
+            "link": "https://www.afficionadocoffee.com/?srsltid=AfmBOorQYsNBf7NscOdz4JpuR9tW4qO-XUYGsdP9LyosqzMa4Pj0mkyK",
+            "displayed_link": "https://www.afficionadocoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEVHcEwEBgcEBggFBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcEBgcFBgeMWI7ZAAAAEHRSTlMACRTwqiXYi8acuXRN5DlfV+SDmgAAAJpJREFUeAFjoDVgROUqOyDzWNNbBJC4EROknJAkV3IfdFGAczUm7s0RWQTnLl7n9/mAB0w324JtAfw2XBeg3A6+46YMZw/4QqSlGs5+KA5QsWFJBfGYvHjyGdgLpmz7MOMBkKu56OwHBgbxVp777H1AyVkBq4GCMwIY3m6oCGBgrWMIAHJLGRj4bssBnQIyD0I++wB3CVSMdgAApz8n5sIxQCYAAAAASUVORK5CYII=",
+            "source": "Afficionado Coffee Roasters",
+            "snippet": "Afficionado Coffee Roasters offers unique coffees from exclusive farms around the world. Ready to drink beverages made from all consumable parts of the ...",
             "highlighted_keywords": [
-              "Coffee",
-              "coffee"
+              "offers unique coffees from exclusive farms around the world"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {},
+                "extensions": [
+                  "Store nearby (8.6 mi)",
+                  "Free delivery over $50",
+                  "Free 30-day returns"
+                ]
+              }
+            },
             "rank": 7,
             "page_rank": 7
           },
           {
             "title": "Maiden Coffee Roasters — Specialty Coffee",
-            "link": "https://maidencoffee.com/?srsltid=AfmBOoqAwkUA7YM2lWpCeGYEyk1vJyNJr62wu5ojw1Yy9F8JUhEmASVW",
+            "link": "https://maidencoffee.com/?srsltid=AfmBOopnHwaD-8F3PMooxrz_uDeWk6PjNHXhcdPuZGFgN1WlKc9wQK-3",
             "displayed_link": "https://maidencoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAB9klEQVR4AWJwL/ChKx4YC0ct/JdoIfYPQDs98MYahGEY/h/Htm0zqG3btm0zOHZ47PDYtm0u55u3+2w6tabZJrnb9TX0Gh6n2E6vxn88HzIQCLOcRIrdeOJeI4n7DycKMRQ8vMK0oMAslpERdBlnBCkQ4ODRPpdRZ+9CADG7nkCEz5kEZIFZsczTlZjdoj5B7KlpwOiaKuYXSIrzGqACxB7KLKsEmLKvUhVaSIZZAjU0uxMqMhmoyztb+T9lF7GQeGLutt1RkcfIWzhciJmP8x00qCq/U6nKOUm6+DqgnWYqYBH2GCcZ6bcuJN3mtdbS4Nvaz5U/Sm5SRxR7KmYrcOwvwmlGOgtzwulW24evkwZfVL4hgWJ5O8KYMXAREK1rkLG/3nn0I6j+pxR4pEJbdqXsKwHtCcaB6qlvEdv5u6RjhM5nPB0jBZ4sVxES8KvC28Y+Zp1B+NFOPUi9qKCLWY8ZOpf9csWAweJcpbC5iBE6WPRfwG3dzHvUKYGcyHmrO5Tz9SeSmmFMOs9KyeTaghyFo4541/bk/+aoKfefCmVk6l8VZWnOSe2hYzwl+STRp4Bk+gtYBLynxPvAkGcizZUCrWMpyD2R7gk0OIXzvsJn8NnW7yyXvocYIVDMFDknUAFyS6DSjonXWz9j3rKh36YZtXDUQgASw7vkFIRzdAAAAABJRU5ErkJggg==",
             "source": "Maiden Coffee Roasters",
@@ -334,6 +302,21 @@
             },
             "rank": 8,
             "page_rank": 8
+          },
+          {
+            "title": "Coffee Review - The World's Leading Coffee Guide",
+            "link": "https://www.coffeereview.com/",
+            "displayed_link": "https://www.coffeereview.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA81BMVEVHcEyVXiRSOCC5dDCucCudZSh2TyLQfhyscC3OfhnNeRyrayrYhC2/cSnCfjHBfjLLfS+MWCdpSB4fHyGxYwcbFxfDeSrTm2K0axsHAgbCdTEbDhTeuZFuZF23aBVRMhO+ezI3IxfQl1nevpsrKSbBhEZBKhe/gDm/dCNhPyIJDgpLRDzYsYZ6cW1VTkU4My3exZ+Vg3S4byTEezwsFw7pwqdCOjdkV0h9a1XEqY7DiErTvJ3w28Cmj3eSjYWtqaKLdmfXxrXSoXHmzK/Gs5u5dSb659LSv7Hl0a/DkFZtUTmxnYS/lnKvWQCEbGr//faufizLH4eyAAAAE3RSTlMAvv1OdJzmCGUEFYwQWz8xH9L4noRMTwAAAitJREFUKJFlk2l3ojAYhSOCoK1aG4OERUD2XRQF97VatZ2Z//9rJtZuM73n5NNzzk3e+94A8CH2vknTHN1gWfBDXOnRznQ9UytM/V/CNlu2Ha9TCU0KwlsP39gDrVJK+rLe++a8mCxi/7H86X3P2LFi2JNECYKzN6EuF13l3ilL6/6zt0bpcSbLxn6NJ+c0Ucs32FCLS5Eru62jETnbTZyn69yrvZlWMLlmKTsaLxLxojWKCiNHpSu8089Kupa1oTgQul1h4DrDUZ4sCpUDoNbKwsV4NxTd7psE4UmzRkE4wQwLHjwpUhZbXmx32+9y+bC4rPIKCzgb+mij8YPeybEsa2p1Th1rusc+ohqAySAO5CHf7sudq3rPv4+Hl5kpIZ0GjLlS8hvs3WD4eno2xsulzYG7bLOMZdH9gnNhJxvmapURaGIYGMOntrGb9oimh83c+NM3EbLp64Mg7A81QTzM+7PZ8TB/7bqnPYaQapJRIPQXHe2pK2xDWQ5f2gLPh5EEERmlVkIQJiOH5HOb8hrCUYIwY6okPuKLI8Ph3YEgkPTca0AEUtdCsBWEFH9JKM+75PDT0S9TQbfgQYNKIuSTlVniQHSm4SbGpuI/vq0MVGkVKwlE6cwYGbN9hPFqLHnlj5rcqchcBZIEx2Md42VgQo/7LFGN9qRASsdRgKQIxgk6l6vf+tdsqZIJiTk0oUSV7v8rdb1UUXVdt70KUwY/Rb4DV683ql+OfwGBXlYv8CjG/wAAAABJRU5ErkJggg==",
+            "source": "Coffee Review",
+            "snippet": "Coffee reviews, espresso ratings, informative articles, and coffee blogs by Kenneth Davids and other coffee experts.",
+            "highlighted_keywords": [
+              "Coffee",
+              "coffee",
+              "coffee"
+            ],
+            "rank": 9,
+            "page_rank": 9
           }
         ],
         "relatedSearches": [
@@ -342,32 +325,32 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
           },
           {
-            "query": "Coffee types",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+types"
-          },
-          {
-            "query": "Coffee powder",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
-          },
-          {
             "query": "Coffee brands",
             "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
           },
           {
-            "query": "Coffee NESCAFÉ",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
+            "query": "Coffee types",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+types"
+          },
+          {
+            "query": "Coffee Walmart",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
           },
           {
             "query": "Coffee beans",
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
-            "query": "Coffee Pic",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Pic"
+            "query": "Coffee powder",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
           },
           {
             "query": "Coffee name",
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
+          },
+          {
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           }
         ],
         "dmca_message": {
@@ -376,23 +359,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f17a0ff9fe0aacfd&gl=us&hl=en&ei=KHo-atPqONCW5OMPr7_Z0QY&start=10&sa=N&sstk=AU9db-BtDiAk_3zyPpSkAhq2c4xrDaIFfacytVJ7QEFmdD949iMoLeJrWw3wYpRK4KI9AyVGhJ0dVcqUTAhiTmiLFTly2QWP1rC3LA&ved=2ahUKEwjTnoyc_aSVAxVQC3kGHa9fNmoQ8NMDegQIYxAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b24d33f0b7e2f9cd&gl=us&hl=en&ei=OYg-aoC4DrnX5NoPm-LLsAM&start=10&sa=N&sstk=AU9db-DEKspZbf4bhe5WL6x7dr6Q60-opirbYzlhckoI-7uERtqbxGj95ViT0kMXaQDkhFqJarCgxkHsMyLLLc0qZtoShI_mZldn-Q&ved=2ahUKEwjAuO3QiqWVAxW5K1kFHRvxEjYQ8NMDegQIdRAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f17a0ff9fe0aacfd&gl=us&hl=en&ei=KHo-atPqONCW5OMPr7_Z0QY&start=10&sa=N&sstk=AU9db-BtDiAk_3zyPpSkAhq2c4xrDaIFfacytVJ7QEFmdD949iMoLeJrWw3wYpRK4KI9AyVGhJ0dVcqUTAhiTmiLFTly2QWP1rC3LA&ved=2ahUKEwjTnoyc_aSVAxVQC3kGHa9fNmoQ8tMDegQIYxAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f17a0ff9fe0aacfd&gl=us&hl=en&ei=KHo-atPqONCW5OMPr7_Z0QY&start=20&sa=N&sstk=AU9db-BtDiAk_3zyPpSkAhq2c4xrDaIFfacytVJ7QEFmdD949iMoLeJrWw3wYpRK4KI9AyVGhJ0dVcqUTAhiTmiLFTly2QWP1rC3LA&ved=2ahUKEwjTnoyc_aSVAxVQC3kGHa9fNmoQ8tMDegQIYxAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f17a0ff9fe0aacfd&gl=us&hl=en&ei=KHo-atPqONCW5OMPr7_Z0QY&start=30&sa=N&sstk=AU9db-BtDiAk_3zyPpSkAhq2c4xrDaIFfacytVJ7QEFmdD949iMoLeJrWw3wYpRK4KI9AyVGhJ0dVcqUTAhiTmiLFTly2QWP1rC3LA&ved=2ahUKEwjTnoyc_aSVAxVQC3kGHa9fNmoQ8tMDegQIYxAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f17a0ff9fe0aacfd&gl=us&hl=en&ei=KHo-atPqONCW5OMPr7_Z0QY&start=40&sa=N&sstk=AU9db-BtDiAk_3zyPpSkAhq2c4xrDaIFfacytVJ7QEFmdD949iMoLeJrWw3wYpRK4KI9AyVGhJ0dVcqUTAhiTmiLFTly2QWP1rC3LA&ved=2ahUKEwjTnoyc_aSVAxVQC3kGHa9fNmoQ8tMDegQIYxAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f17a0ff9fe0aacfd&gl=us&hl=en&ei=KHo-atPqONCW5OMPr7_Z0QY&start=50&sa=N&sstk=AU9db-BtDiAk_3zyPpSkAhq2c4xrDaIFfacytVJ7QEFmdD949iMoLeJrWw3wYpRK4KI9AyVGhJ0dVcqUTAhiTmiLFTly2QWP1rC3LA&ved=2ahUKEwjTnoyc_aSVAxVQC3kGHa9fNmoQ8tMDegQIYxAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f17a0ff9fe0aacfd&gl=us&hl=en&ei=KHo-atPqONCW5OMPr7_Z0QY&start=60&sa=N&sstk=AU9db-BtDiAk_3zyPpSkAhq2c4xrDaIFfacytVJ7QEFmdD949iMoLeJrWw3wYpRK4KI9AyVGhJ0dVcqUTAhiTmiLFTly2QWP1rC3LA&ved=2ahUKEwjTnoyc_aSVAxVQC3kGHa9fNmoQ8tMDegQIYxAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f17a0ff9fe0aacfd&gl=us&hl=en&ei=KHo-atPqONCW5OMPr7_Z0QY&start=70&sa=N&sstk=AU9db-BtDiAk_3zyPpSkAhq2c4xrDaIFfacytVJ7QEFmdD949iMoLeJrWw3wYpRK4KI9AyVGhJ0dVcqUTAhiTmiLFTly2QWP1rC3LA&ved=2ahUKEwjTnoyc_aSVAxVQC3kGHa9fNmoQ8tMDegQIYxAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f17a0ff9fe0aacfd&gl=us&hl=en&ei=KHo-atPqONCW5OMPr7_Z0QY&start=80&sa=N&sstk=AU9db-BtDiAk_3zyPpSkAhq2c4xrDaIFfacytVJ7QEFmdD949iMoLeJrWw3wYpRK4KI9AyVGhJ0dVcqUTAhiTmiLFTly2QWP1rC3LA&ved=2ahUKEwjTnoyc_aSVAxVQC3kGHa9fNmoQ8tMDegQIYxAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f17a0ff9fe0aacfd&gl=us&hl=en&ei=KHo-atPqONCW5OMPr7_Z0QY&start=90&sa=N&sstk=AU9db-BtDiAk_3zyPpSkAhq2c4xrDaIFfacytVJ7QEFmdD949iMoLeJrWw3wYpRK4KI9AyVGhJ0dVcqUTAhiTmiLFTly2QWP1rC3LA&ved=2ahUKEwjTnoyc_aSVAxVQC3kGHa9fNmoQ8tMDegQIYxAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b24d33f0b7e2f9cd&gl=us&hl=en&ei=OYg-aoC4DrnX5NoPm-LLsAM&start=10&sa=N&sstk=AU9db-DEKspZbf4bhe5WL6x7dr6Q60-opirbYzlhckoI-7uERtqbxGj95ViT0kMXaQDkhFqJarCgxkHsMyLLLc0qZtoShI_mZldn-Q&ved=2ahUKEwjAuO3QiqWVAxW5K1kFHRvxEjYQ8tMDegQIdRAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b24d33f0b7e2f9cd&gl=us&hl=en&ei=OYg-aoC4DrnX5NoPm-LLsAM&start=20&sa=N&sstk=AU9db-DEKspZbf4bhe5WL6x7dr6Q60-opirbYzlhckoI-7uERtqbxGj95ViT0kMXaQDkhFqJarCgxkHsMyLLLc0qZtoShI_mZldn-Q&ved=2ahUKEwjAuO3QiqWVAxW5K1kFHRvxEjYQ8tMDegQIdRAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b24d33f0b7e2f9cd&gl=us&hl=en&ei=OYg-aoC4DrnX5NoPm-LLsAM&start=30&sa=N&sstk=AU9db-DEKspZbf4bhe5WL6x7dr6Q60-opirbYzlhckoI-7uERtqbxGj95ViT0kMXaQDkhFqJarCgxkHsMyLLLc0qZtoShI_mZldn-Q&ved=2ahUKEwjAuO3QiqWVAxW5K1kFHRvxEjYQ8tMDegQIdRAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b24d33f0b7e2f9cd&gl=us&hl=en&ei=OYg-aoC4DrnX5NoPm-LLsAM&start=40&sa=N&sstk=AU9db-DEKspZbf4bhe5WL6x7dr6Q60-opirbYzlhckoI-7uERtqbxGj95ViT0kMXaQDkhFqJarCgxkHsMyLLLc0qZtoShI_mZldn-Q&ved=2ahUKEwjAuO3QiqWVAxW5K1kFHRvxEjYQ8tMDegQIdRAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b24d33f0b7e2f9cd&gl=us&hl=en&ei=OYg-aoC4DrnX5NoPm-LLsAM&start=50&sa=N&sstk=AU9db-DEKspZbf4bhe5WL6x7dr6Q60-opirbYzlhckoI-7uERtqbxGj95ViT0kMXaQDkhFqJarCgxkHsMyLLLc0qZtoShI_mZldn-Q&ved=2ahUKEwjAuO3QiqWVAxW5K1kFHRvxEjYQ8tMDegQIdRAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b24d33f0b7e2f9cd&gl=us&hl=en&ei=OYg-aoC4DrnX5NoPm-LLsAM&start=60&sa=N&sstk=AU9db-DEKspZbf4bhe5WL6x7dr6Q60-opirbYzlhckoI-7uERtqbxGj95ViT0kMXaQDkhFqJarCgxkHsMyLLLc0qZtoShI_mZldn-Q&ved=2ahUKEwjAuO3QiqWVAxW5K1kFHRvxEjYQ8tMDegQIdRAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b24d33f0b7e2f9cd&gl=us&hl=en&ei=OYg-aoC4DrnX5NoPm-LLsAM&start=70&sa=N&sstk=AU9db-DEKspZbf4bhe5WL6x7dr6Q60-opirbYzlhckoI-7uERtqbxGj95ViT0kMXaQDkhFqJarCgxkHsMyLLLc0qZtoShI_mZldn-Q&ved=2ahUKEwjAuO3QiqWVAxW5K1kFHRvxEjYQ8tMDegQIdRAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b24d33f0b7e2f9cd&gl=us&hl=en&ei=OYg-aoC4DrnX5NoPm-LLsAM&start=80&sa=N&sstk=AU9db-DEKspZbf4bhe5WL6x7dr6Q60-opirbYzlhckoI-7uERtqbxGj95ViT0kMXaQDkhFqJarCgxkHsMyLLLc0qZtoShI_mZldn-Q&ved=2ahUKEwjAuO3QiqWVAxW5K1kFHRvxEjYQ8tMDegQIdRAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b24d33f0b7e2f9cd&gl=us&hl=en&ei=OYg-aoC4DrnX5NoPm-LLsAM&start=90&sa=N&sstk=AU9db-DEKspZbf4bhe5WL6x7dr6Q60-opirbYzlhckoI-7uERtqbxGj95ViT0kMXaQDkhFqJarCgxkHsMyLLLc0qZtoShI_mZldn-Q&ved=2ahUKEwjAuO3QiqWVAxW5K1kFHRvxEjYQ8tMDegQIdRAU"
           }
         }
       }
     }
   },
-  "requestId": "349afd97-e1a8-4ab7-b3d9-4686002a6835",
-  "timestamp": 1782483002961,
-  "recordTime": "2026-06-26 22:10:02"
+  "requestId": "9162759e-3749-49c5-b8b8-b8f66254f398",
+  "timestamp": 1782483602416,
+  "recordTime": "2026-06-26 22:20:02"
 }
