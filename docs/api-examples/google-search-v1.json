@@ -3,20 +3,88 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-26 03:10:02",
+    "checkedAt": "2026-06-26 02:10:06",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.31,
+          "time_taken": 0.36,
           "total_results": 3000000000,
           "query_displayed": "coffee",
-          "spelling_fixed": "Choose area",
-          "showing_results_for": "Choose area",
-          "organic_results_state": "Some results for exact spelling but showing fixed spelling",
+          "organic_results_state": "Results for exact spelling",
           "original_query_yields_zero_results": false,
           "url": "https://www.google.com/search?q=coffee&oq=coffee&gl=us&hl=en&safe=off&sourceid=chrome&ie=UTF-8"
+        },
+        "ai_overview": {
+          "text_blocks": [
+            {
+              "type": "paragraph",
+              "snippet": "Coffee is a popular brewed beverage made from roasted coffee beans. Known for its rich, bitter flavor and stimulating effects, it is a daily staple for millions worldwide. It can be served hot or iced, consumed black, or customized with milk, sugar, and various syrups.",
+              "snippet_highlighted_words": [
+                "a popular brewed beverage made from roasted coffee beans"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "snippet": "Here is a breakdown of the most popular ways to enjoy it:"
+            },
+            {
+              "type": "heading",
+              "snippet": "Common Coffee Variations"
+            },
+            {
+              "type": "list",
+              "list": [
+                {
+                  "snippet": "Espresso: A concentrated shot of coffee brewed by forcing hot water through finely-ground beans."
+                },
+                {
+                  "snippet": "Latte: A shot of espresso mixed with steamed milk and a thin layer of milk foam."
+                },
+                {
+                  "snippet": "Cappuccino: Equal parts espresso, steamed milk, and airy milk foam."
+                },
+                {
+                  "snippet": "Americano: A shot of espresso diluted with hot water, giving it a similar strength to drip coffee."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "snippet": "Popular Brewing Methods"
+            },
+            {
+              "type": "list",
+              "list": [
+                {
+                  "snippet": "Drip Machine: The standard automated method used in many homes and offices."
+                },
+                {
+                  "snippet": "French Press: A steeping method where grounds are pressed to the bottom, yielding a rich, full-bodied cup."
+                },
+                {
+                  "snippet": "Pour-Over: Manually pouring hot water over grounds in a filter for a clean, nuanced flavor."
+                },
+                {
+                  "snippet": "Moka Pot: Stovetop brewing that uses steam pressure to produce a strong, espresso-like coffee."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "snippet": "Decaf Alternatives"
+            },
+            {
+              "type": "paragraph",
+              "snippet": "For those looking to limit their caffeine intake while still enjoying the ritual and flavor, decaffeinated coffee undergoes a process that removes 97% or more of the caffeine."
+            },
+            {
+              "type": "paragraph",
+              "snippet": "To explore more about coffee origins, roasting profiles, and global traditions, check out the Wikipedia Coffee Overview."
+            }
+          ],
+          "references": []
         },
         "knowledge_graph": {
           "title": "Coffee"
@@ -24,29 +92,29 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Lucky BeanLucky Bean\"I really enjoy the flavor of their unique, award-winning coffee beans.\"",
-            "rating": "4.8",
-            "reviews": "49",
-            "address": "4.8(49) · $1–10 · Coffee shop",
-            "hours": "Erie, PA",
+            "title": "7 Brew Coffee7 Brew Coffee",
+            "rating": "4.6",
+            "reviews": "535",
+            "address": "4.6(535) · $1–10 · Coffee shop",
+            "hours": "6001 SE 14th St",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Lucky BeanLucky Bean\"The manager and staff were very kind and the latte I ordered was delicious.\"",
-            "rating": "4.8",
-            "reviews": "188",
-            "address": "4.8(188) · $1–10 · Coffee shop",
-            "hours": "Erie, PA",
+            "title": "Hobnob Coffee and Wine BarHobnob Coffee and Wine Bar",
+            "rating": "3.9",
+            "reviews": "117",
+            "address": "3.9(117) · $20–30 · Cafe",
+            "hours": "1000 Walnut St",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Early Bird EnergyEarly Bird EnergyRecently opened",
-            "rating": "5.0",
-            "reviews": "43",
-            "address": "5.0(43) · $1–10 · Coffee shop",
-            "hours": "Erie, PA",
+            "title": "The Slow Down Coffee Co.The Slow Down Coffee Co.",
+            "rating": "4.8",
+            "reviews": "429",
+            "address": "4.8(429) · $1–10 · Coffee shop",
+            "hours": "3613 6th Ave",
             "links": {}
           }
         ],
@@ -99,34 +167,8 @@
             "page_rank": 3
           },
           {
-            "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOor8aNcaSZvbBBV7YUQb7eLCE-xnrX5vGvW6jnyJQALIsEmmYr5t",
-            "displayed_link": "https://www.stumptowncoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
-            "source": "Stumptown Coffee Roasters",
-            "snippet": "Stumptown Coffee Roasters brings you fresh beans, cold brew, and good vibes. Order online, visit a shop, or subscribe for the long haul.",
-            "highlighted_keywords": [
-              "fresh beans, cold brew, and good vibes"
-            ],
-            "rank": 4,
-            "page_rank": 4
-          },
-          {
-            "title": "Try the new gold standard of coffee at home!",
-            "link": "https://icoffee.co/",
-            "displayed_link": "https://icoffee.co",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAATlBMVEVHcEzlt2P/2Gn+3GvvwGT74HT8z2XDmFzPo2HktWD/8nxBHVlFIllMKVi4jVo6E1p7VlhXNVisg1hqRlmLZVZgPViWb1efeFjTpl3ywmFPBTE4AAAAC3RSTlMAukkxjRxr/dz5DHz6QM8AAAEpSURBVCiRrZLJksMgDERjxzZ2tCAQW/7/R0e4JnaWmVv6QqkejRrB5fINzeOyjLe/yG1aq6hKXMcPNjr1PosoeFnnVzYVD1A2ZlcDIF+f2dKZuFpTiYLgn+k1GiOOkV2KZgVYTzggIgROsTGXmAFBl8NYocNSiIUqd+gP6xQ6JA3oitdCvUqPrgPs0sJbiynsRX6cu3oKKklzMmVJkgPS9AudR8KeiUx97cV0ODM7sZxFWDi5yOl0DpBdcly5aqysze7kj7ssSplCDpCzYqCcQ4D6mO/MNiAbeKoxlkp72nNEQ0AkssBi6pkgne92cxaQjFPfZVHD8Pya7BGgltqydUBaX/7D6Mjr3dQ4eF3f/so8tHZn5u2+tenyoeuw7ZrmT7YHm/8B39UPr/YVkxeVNqkAAAAASUVORK5CYII=",
-            "source": "Industry Coffee",
-            "snippet": "At Industry Coffee, we take great care in every step of our coffee making process. From selecting the best beans, to roasting, brewing, and blending our ...Read more",
-            "highlighted_keywords": [
-              "Industry Coffee"
-            ],
-            "rank": 5,
-            "page_rank": 5
-          },
-          {
             "title": "Blue Bottle Coffee | Fresh Roasted Specialty Coffee",
-            "link": "https://bluebottlecoffee.com/us/eng?srsltid=AfmBOoo9NuvCB2D4dpWBUB5DwK6azSrm-zPD-pjIVu5gLrsk8sRp84t8",
+            "link": "https://bluebottlecoffee.com/us/eng?srsltid=AfmBOoou2ClPrfKSwZn2JYkW-URwan1Ck9PAFvCoSujDYM5d2ClZc0x9",
             "displayed_link": "https://bluebottlecoffee.com › eng",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEVHcEzz+v7////G5PcAneTo9vyKwu3///8AlN3v+v8Cnef///////8Alt5bsOc9qujz+v7///////////+cy+4Ak+AKm90AluWTzfOSzvkAmt////8AmOMAoeeh0vQAnuIAn+MAmeEAnOK1ZI6VAAAAH3RSTlMARB5k60+EAeNltTgK6qS4VhctIWXN1KqPn/gp0tByb5tLiwAAAJlJREFUKJGd0dkOgyAQhWE2gYIKtW5dwXn/h1R7zSFp/yuSL0Mgw9gPGQgGEhOc+xbNeb3oG8Lh41aETEh3FzW8IhzWd2jAi9rolOpjcfa4VOWsFikKn21mykcq8BKq0xK9LgBTSmQxUgWJtj+wq6FNEA2fKcFJHh5ECH3fYXxqu51NsYBCTqfZ3hewHUZ9NHKwb/OtBOCM2wEzsg7zSllT1AAAAABJRU5ErkJggg==",
             "source": "Blue Bottle Coffee",
@@ -134,21 +176,73 @@
             "highlighted_keywords": [
               "Blue Bottle Coffee is a specialty coffee roaster"
             ],
+            "rank": 4,
+            "page_rank": 4
+          },
+          {
+            "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOorpiifJY3WAIAWPd_Vue8KQs-h8cYAx0nkXce6m_FqoGAdlzXSS",
+            "displayed_link": "https://www.stumptowncoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
+            "source": "Stumptown Coffee Roasters",
+            "snippet": "Stumptown Coffee Roasters brings you fresh beans, cold brew, and good vibes. Order online, visit a shop, or subscribe for the long haul.",
+            "highlighted_keywords": [
+              "fresh beans, cold brew, and good vibes"
+            ],
+            "rank": 5,
+            "page_rank": 5
+          },
+          {
+            "title": "THE BEST Coffee & Tea in Des Moines",
+            "link": "https://www.tripadvisor.com/Restaurants-g37835-zfg9900-Des_Moines_Iowa.html",
+            "displayed_link": "https://www.tripadvisor.com › Restaurants-g37835-zfg9...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAilBMVEUA61sA7VwA8F0A814A1lMAvEkAq0IAwksA2VQA7FsA9F4A01IAgTIAJg8AAAAALhIAhTQA41gA3VYAayoAHQsAYSYAnD0AWiMACwUAeS8AFgkADwYAIw4AKxEAyU4A9l8AMxQAEwgAGwsAcSwAQRoAlToAaCkAoD4As0UATx8Ady4Ap0EAPRgAjTfyrsZwAAABNUlEQVR4Ac3RRYLEIBQE0PDpOFTcId7eff/rTWAzeoCpDfJwnP8cxogY+1M4nVzP8wNOXz1kR6JYSNgk6YmbntBalud5UKAsq7Su06Ys2870ZKHBvEc7KJ2MEyfikyu1GlokFh2Wz1r1y4qUOyFtWJdeyd1hjsVYDZvrnxVExC9tch3dy6ADiyGb29t0JJsx3rA7pl63d24nunhMebW7kYuuQRw9X5dsOipmKp3hTs0qkVG/63mKIftueuJJBt/wp13qY46Ucp98aFVNHq4WPZwnF9iiYNB6yajBMk4CLrOP0JZZlJ34dFFal2LicRbFgwrtPalG4lJ0uiwHquGRc+ZJeOTY8DewlMC9KtdtB9QA1NyI1fHxSprjeK+Gwutdv7qYf/2vIxSyzAlDMvW/ftUc4j/nA89zGjJlkfnSAAAAAElFTkSuQmCC",
+            "source": "Tripadvisor",
+            "snippet": "Coffee & Tea in Des Moines · 1. Scenic Route Bakery. 4.4. (82 reviews) · 2. Smokey Row Coffee Co. 4.3. (88 reviews) · 3. Ritual Cafe. 4.6. ( ...Read more",
+            "highlighted_keywords": [
+              "1. Scenic Route Bakery"
+            ],
             "rank": 6,
             "page_rank": 6
           },
           {
-            "title": "What is coffee? - NCA",
-            "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
-            "displayed_link": "https://www.aboutcoffee.org › Origins",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAk1BMVEX////6+vv5+frp6uzq6+3t7vDx8fPz9PWxtLuTmKBja3iipq7U1trk5eg0QVUAEjMAHTkfMEcpOE0AACpOWGi5vcIXKkI/S10AGTd+hI/LztIEIDuGjJZocHwACS+doalxeIMAFjUAACi1uL4RJj/loaIjPVLPIyXu9PbtmZmHMDzskpHvtbaLBBzJtbmkMzzKrbGTXXfdAAABBklEQVR4Aa3SVWKDUBBA0Txm5g3EcXetd/+rK1LB/pqboAeHwz8TSp8QYhdhESLNkfAnkpIQYWY8rh5HqnY80RIB8Xy6MNH1dtcJN0iGaV3sm+64vIO2d/eDW2hGLBeojGg6+sXTzooaA8o/lL1J1hIvPQs7SXyJOEc6ZykHeXZRPSdfXi4DSuPmBhedcufmAiKIXxSAFJhOUapaUQWMPSpzRI6SykrjAPiyxEOPyKer6XNUxpHsUSwRJZ/jLO832Nmzr27M5EqIy0c0GbSWfZY4Jv5wXNM9Pb90NBnwCun1rZ5siQwDvn90uINixNMnLXBxRTQYjKEyQ4LvSI7xzhcqxOExfQGirBAhUMQZRwAAAABJRU5ErkJggg==",
-            "source": "About Coffee - National Coffee Association",
-            "snippet": "What is coffee made of? Learn about the coffee tree, its lifespan, how it produces coffee beans, and the two most common coffee species, arabica and ...",
+            "title": "Happy Home Coffee.",
+            "link": "https://happyhomecoffee.com/",
+            "displayed_link": "https://happyhomecoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABGlBMVEX////k9Pms3+2e2uqc2urB5/GY2OmU1+nr9/rQ7fTY8PbL7/rm+P/38/OBhnEXPgAnQgujoZkiSxVablGUn49xg2xGXjutsKcsThw1WCsnVSAlXygqUyYsQQDd2tkyXC1QXirNrzA2TSZcSDy9wLkLSQQjYDAXTiurmS/QtzSslCNgcV+qoZ3o5uVAUB1aZSpnaixzcC2HfC2ZiS6chCmslDXFuZq7tbJFKBPFtIHPtjS9pCahmqKkjj+om4PXza7Py8iPgnSrmWbLvY/U2+JvWU4tAAC+pzqhiB3Jv6OjiQeLwNGCpq6ZvMXY0seLgYWmiwDBpADIrAC4pV/PsgCNcAB8wdWyytC+qEu8qF23p36YknKsvbHg5eDN7EVtAAABSklEQVR4AcxOtQHAIACre3HX/7/kAjKTMT4NhXmZob5u6w4Nx7qeQL7u+Xm/Hzju8yOUoYv3z4VU2tiuxQnvQ0y5dHQdq2/Nj9OaQzEUhTO+Glu7RjKpbffYNd7/NSanX63rrnitP2JyutxzAzwbudf3+eP3+wNBTP7mFg2tA+FINBZPBJMEp9Jz6zaUya6AnCuPmQrFUrnCMtvKUlRdAzDOs1KokToDco2mp9XeuKOBOY7DmCOYZ1cIoijJSnOZqgwo5EmenZDSON0wTKLfXFwuALWSgpCFUy77DR09B6oKpW5vBegE6x29SziOkJKK5uor/dv5VEx2cmBPLJw0QmhXAjf/+cD0doboiAoGGnaEg3GI6zRQyDBuD+RQ79g3pTuj2yrsxqFq9SUzm40nFOguARlWZzYAyuzmoVsvzVA6ZYLMI9xO0UnpH19/NNMEIk2nAAAAAElFTkSuQmCC",
+            "source": "Happy Home Coffee.",
+            "snippet": "Explore our range of premium coffees, crafted for exceptional flavor, quality, and freshness. price $23.00 Regular price. Great coffee and even better people.",
             "highlighted_keywords": [
-              "Learn about the coffee tree, its lifespan, how it produces coffee beans"
+              "Explore our range of premium coffees"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$15",
+                  "price_to": "$40",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$15 to $40",
+                  "Free delivery over $50"
+                ]
+              }
+            },
             "rank": 7,
             "page_rank": 7
+          },
+          {
+            "title": "Coffalo Coffee: Coffee Roaster",
+            "link": "https://www.coffalo.com/",
+            "displayed_link": "https://www.coffalo.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABCFBMVEX////54Nn1xrf0vavxqZH6l3XxlHT2y77he1XITQr8YBR8Lwa+TxjwWQnmVwv87uryXxwAAACwTR/wZSZ2ORtjLA+DMgPyXRb42tHwoojpbDuwSBLMWCNZKRGkRRr+ZiMAAATZWyErFQtMIw+TOAP2bzq9VCTyYiLJUhfhXyTGRxrygGf/nYLxmIHfUBxqLxHiXjn1wZn59o/4+Fb29C38w5m4Rwv3jXT28gH27hb27iO7SRL4+XD27gn0Yjj89CPm4CTyflTBvSNzcRpISBLSzSTwVh0gIQv//y1aIgBtKAQvMBFbWRVDQhh/fhm0sCF4dx+ZRR1pNRkUEw6gnSF/KgDVZjo5HQ7CuELZAAAB6ElEQVR4AV1ThXaDMBStpKkXEtgyBmuopu5u2Nx9//8ne3W5OPc8f9e3gz8QRCGMggG/7xRhhCPRWDyRTEVCKHxESQgnZUIVONWzc4aRtOcutEudGldpbmYMJWvk8gXtYs+xdJrTdI6TKFgXieBsy0paqWwQhaYq1Vq92tBJokzUkrb2jArNMk/kW+1Ot9frdvqtDASgBbTKE8coKQ6GndF4AhiPOkNdlGkSh5eGScGN6XA2n2wwnw2nCSGSYOrHTAh50QHOsqyJDbd5ZyELwbDfF3DgJdkegYnrmYRcuzeTUTsJBk7AF4SnuO2MJ7ZJTCDhtMadWwEWQR+KCcGr3bHl3pkAAuf9uFtlq6ChB1p8rPcg4tPzy+s18d7erEmvrhepjn2hplDjtSXp3dzfv7/e31sTIOMfnw+hndsJWJlfd1/my7cNbrkQMbRPyJq4LxDRta3JLqGDUiz7+QWoya6UdRPEqglgvAI0QaybAO1bvh23j4l1+6Dx8Mpjh42PrgzD65HJXM3qi/5mZIsHFSIW0GbYLEMU8aHfVmu1auPno0gMmWnSdk1SlH/kOH18KBHjSuVFUjpcol/WTHDa/FBIGU52CdzhaqZ0Ws5R/kf5uQ6rebrUTiwfZYOoc7DUh3LQMNYO5fAPVUVdUWpjsJQAAAAASUVORK5CYII=",
+            "source": "Coffalo Coffee",
+            "snippet": "Coffalo Coffee is an in-home, online coffee roasting business. Coffee beans are roasted to ordered, sold online, and are delivered locally to your doorstep ...",
+            "highlighted_keywords": [
+              "Coffalo Coffee"
+            ],
+            "rank": 8,
+            "page_rank": 8
           },
           {
             "title": "National Coffee Association",
@@ -159,8 +253,8 @@
             "highlighted_keywords": [
               "is the leading trade association for the U.S. coffee industry"
             ],
-            "rank": 8,
-            "page_rank": 8
+            "rank": 9,
+            "page_rank": 9
           }
         ],
         "relatedSearches": [
@@ -177,6 +271,10 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
           },
           {
+            "query": "Coffee Walmart",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
+          },
+          {
             "query": "Coffee beans",
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
@@ -189,12 +287,8 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
-            "query": "Coffee Walmart",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
-          },
-          {
-            "query": "Coffee benefits",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           }
         ],
         "dmca_message": {
@@ -203,23 +297,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d7408f7a5cac542e&gl=us&hl=en&ei=iO09apeHEI-HptQP5cabgA8&start=10&sa=N&sstk=AU9db-AGoGTLT5zs3A57XUL9-OPdID92Ty5J6cIYgGFbe20PD0Mds54ocRVoTsm8_UFIIrAb9omrRgZf7-koTjb4Bro5UTAVVS4kqA&ved=2ahUKEwiX69GN96OVAxWPg4kEHWXjBvAQ8NMDegQISBAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=87e61dccbc978b88&gl=us&hl=en&ei=fN89apnlGtikptQPkLuR6Aw&start=10&sa=N&sstk=AU9db-D8QwoslIyJVJlZ0ok-LWN86Zbb3AstCPnOV9tr7KVKgLotaUTYe7w7rcx4M6Q6dt2HAFgNriSoVV5Ga8csoOPAxBDN6NJnJg&ved=2ahUKEwiZk4Lb6aOVAxVYkokEHZBdBM0Q8NMDegQIbBAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d7408f7a5cac542e&gl=us&hl=en&ei=iO09apeHEI-HptQP5cabgA8&start=10&sa=N&sstk=AU9db-AGoGTLT5zs3A57XUL9-OPdID92Ty5J6cIYgGFbe20PD0Mds54ocRVoTsm8_UFIIrAb9omrRgZf7-koTjb4Bro5UTAVVS4kqA&ved=2ahUKEwiX69GN96OVAxWPg4kEHWXjBvAQ8tMDegQISBAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d7408f7a5cac542e&gl=us&hl=en&ei=iO09apeHEI-HptQP5cabgA8&start=20&sa=N&sstk=AU9db-AGoGTLT5zs3A57XUL9-OPdID92Ty5J6cIYgGFbe20PD0Mds54ocRVoTsm8_UFIIrAb9omrRgZf7-koTjb4Bro5UTAVVS4kqA&ved=2ahUKEwiX69GN96OVAxWPg4kEHWXjBvAQ8tMDegQISBAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d7408f7a5cac542e&gl=us&hl=en&ei=iO09apeHEI-HptQP5cabgA8&start=30&sa=N&sstk=AU9db-AGoGTLT5zs3A57XUL9-OPdID92Ty5J6cIYgGFbe20PD0Mds54ocRVoTsm8_UFIIrAb9omrRgZf7-koTjb4Bro5UTAVVS4kqA&ved=2ahUKEwiX69GN96OVAxWPg4kEHWXjBvAQ8tMDegQISBAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d7408f7a5cac542e&gl=us&hl=en&ei=iO09apeHEI-HptQP5cabgA8&start=40&sa=N&sstk=AU9db-AGoGTLT5zs3A57XUL9-OPdID92Ty5J6cIYgGFbe20PD0Mds54ocRVoTsm8_UFIIrAb9omrRgZf7-koTjb4Bro5UTAVVS4kqA&ved=2ahUKEwiX69GN96OVAxWPg4kEHWXjBvAQ8tMDegQISBAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d7408f7a5cac542e&gl=us&hl=en&ei=iO09apeHEI-HptQP5cabgA8&start=50&sa=N&sstk=AU9db-AGoGTLT5zs3A57XUL9-OPdID92Ty5J6cIYgGFbe20PD0Mds54ocRVoTsm8_UFIIrAb9omrRgZf7-koTjb4Bro5UTAVVS4kqA&ved=2ahUKEwiX69GN96OVAxWPg4kEHWXjBvAQ8tMDegQISBAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d7408f7a5cac542e&gl=us&hl=en&ei=iO09apeHEI-HptQP5cabgA8&start=60&sa=N&sstk=AU9db-AGoGTLT5zs3A57XUL9-OPdID92Ty5J6cIYgGFbe20PD0Mds54ocRVoTsm8_UFIIrAb9omrRgZf7-koTjb4Bro5UTAVVS4kqA&ved=2ahUKEwiX69GN96OVAxWPg4kEHWXjBvAQ8tMDegQISBAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d7408f7a5cac542e&gl=us&hl=en&ei=iO09apeHEI-HptQP5cabgA8&start=70&sa=N&sstk=AU9db-AGoGTLT5zs3A57XUL9-OPdID92Ty5J6cIYgGFbe20PD0Mds54ocRVoTsm8_UFIIrAb9omrRgZf7-koTjb4Bro5UTAVVS4kqA&ved=2ahUKEwiX69GN96OVAxWPg4kEHWXjBvAQ8tMDegQISBAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d7408f7a5cac542e&gl=us&hl=en&ei=iO09apeHEI-HptQP5cabgA8&start=80&sa=N&sstk=AU9db-AGoGTLT5zs3A57XUL9-OPdID92Ty5J6cIYgGFbe20PD0Mds54ocRVoTsm8_UFIIrAb9omrRgZf7-koTjb4Bro5UTAVVS4kqA&ved=2ahUKEwiX69GN96OVAxWPg4kEHWXjBvAQ8tMDegQISBAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d7408f7a5cac542e&gl=us&hl=en&ei=iO09apeHEI-HptQP5cabgA8&start=90&sa=N&sstk=AU9db-AGoGTLT5zs3A57XUL9-OPdID92Ty5J6cIYgGFbe20PD0Mds54ocRVoTsm8_UFIIrAb9omrRgZf7-koTjb4Bro5UTAVVS4kqA&ved=2ahUKEwiX69GN96OVAxWPg4kEHWXjBvAQ8tMDegQISBAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=87e61dccbc978b88&gl=us&hl=en&ei=fN89apnlGtikptQPkLuR6Aw&start=10&sa=N&sstk=AU9db-D8QwoslIyJVJlZ0ok-LWN86Zbb3AstCPnOV9tr7KVKgLotaUTYe7w7rcx4M6Q6dt2HAFgNriSoVV5Ga8csoOPAxBDN6NJnJg&ved=2ahUKEwiZk4Lb6aOVAxVYkokEHZBdBM0Q8tMDegQIbBAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=87e61dccbc978b88&gl=us&hl=en&ei=fN89apnlGtikptQPkLuR6Aw&start=20&sa=N&sstk=AU9db-D8QwoslIyJVJlZ0ok-LWN86Zbb3AstCPnOV9tr7KVKgLotaUTYe7w7rcx4M6Q6dt2HAFgNriSoVV5Ga8csoOPAxBDN6NJnJg&ved=2ahUKEwiZk4Lb6aOVAxVYkokEHZBdBM0Q8tMDegQIbBAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=87e61dccbc978b88&gl=us&hl=en&ei=fN89apnlGtikptQPkLuR6Aw&start=30&sa=N&sstk=AU9db-D8QwoslIyJVJlZ0ok-LWN86Zbb3AstCPnOV9tr7KVKgLotaUTYe7w7rcx4M6Q6dt2HAFgNriSoVV5Ga8csoOPAxBDN6NJnJg&ved=2ahUKEwiZk4Lb6aOVAxVYkokEHZBdBM0Q8tMDegQIbBAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=87e61dccbc978b88&gl=us&hl=en&ei=fN89apnlGtikptQPkLuR6Aw&start=40&sa=N&sstk=AU9db-D8QwoslIyJVJlZ0ok-LWN86Zbb3AstCPnOV9tr7KVKgLotaUTYe7w7rcx4M6Q6dt2HAFgNriSoVV5Ga8csoOPAxBDN6NJnJg&ved=2ahUKEwiZk4Lb6aOVAxVYkokEHZBdBM0Q8tMDegQIbBAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=87e61dccbc978b88&gl=us&hl=en&ei=fN89apnlGtikptQPkLuR6Aw&start=50&sa=N&sstk=AU9db-D8QwoslIyJVJlZ0ok-LWN86Zbb3AstCPnOV9tr7KVKgLotaUTYe7w7rcx4M6Q6dt2HAFgNriSoVV5Ga8csoOPAxBDN6NJnJg&ved=2ahUKEwiZk4Lb6aOVAxVYkokEHZBdBM0Q8tMDegQIbBAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=87e61dccbc978b88&gl=us&hl=en&ei=fN89apnlGtikptQPkLuR6Aw&start=60&sa=N&sstk=AU9db-D8QwoslIyJVJlZ0ok-LWN86Zbb3AstCPnOV9tr7KVKgLotaUTYe7w7rcx4M6Q6dt2HAFgNriSoVV5Ga8csoOPAxBDN6NJnJg&ved=2ahUKEwiZk4Lb6aOVAxVYkokEHZBdBM0Q8tMDegQIbBAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=87e61dccbc978b88&gl=us&hl=en&ei=fN89apnlGtikptQPkLuR6Aw&start=70&sa=N&sstk=AU9db-D8QwoslIyJVJlZ0ok-LWN86Zbb3AstCPnOV9tr7KVKgLotaUTYe7w7rcx4M6Q6dt2HAFgNriSoVV5Ga8csoOPAxBDN6NJnJg&ved=2ahUKEwiZk4Lb6aOVAxVYkokEHZBdBM0Q8tMDegQIbBAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=87e61dccbc978b88&gl=us&hl=en&ei=fN89apnlGtikptQPkLuR6Aw&start=80&sa=N&sstk=AU9db-D8QwoslIyJVJlZ0ok-LWN86Zbb3AstCPnOV9tr7KVKgLotaUTYe7w7rcx4M6Q6dt2HAFgNriSoVV5Ga8csoOPAxBDN6NJnJg&ved=2ahUKEwiZk4Lb6aOVAxVYkokEHZBdBM0Q8tMDegQIbBAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=87e61dccbc978b88&gl=us&hl=en&ei=fN89apnlGtikptQPkLuR6Aw&start=90&sa=N&sstk=AU9db-D8QwoslIyJVJlZ0ok-LWN86Zbb3AstCPnOV9tr7KVKgLotaUTYe7w7rcx4M6Q6dt2HAFgNriSoVV5Ga8csoOPAxBDN6NJnJg&ved=2ahUKEwiZk4Lb6aOVAxVYkokEHZBdBM0Q8tMDegQIbBAU"
           }
         }
       }
     }
   },
-  "requestId": "fa9dda75-1ed7-40df-978c-8d389a4ee0aa",
-  "timestamp": 1782443403880,
-  "recordTime": "2026-06-26 11:10:03"
+  "requestId": "2b68862a-5659-463e-9120-af3e5c3152ed",
+  "timestamp": 1782443011992,
+  "recordTime": "2026-06-26 11:03:31"
 }
