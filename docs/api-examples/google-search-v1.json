@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-26 05:10:04",
+    "checkedAt": "2026-06-26 06:10:03",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
           "time_taken": 0.3,
-          "total_results": 3030000000,
+          "total_results": 3010000000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -21,35 +21,6 @@
         "knowledge_graph": {
           "title": "Coffee"
         },
-        "local_results": [
-          {
-            "position": 1,
-            "title": "The Donut PubThe Donut Pub\"Inside setting is amazing, coffee is delicious, and service excellent.\"",
-            "rating": "4.6",
-            "reviews": "2.6K",
-            "address": "4.6(2.6K) · $1–10 · Coffee shop",
-            "hours": "203 W 14th St",
-            "links": {}
-          },
-          {
-            "position": 2,
-            "title": "Eva Cafe NJEva Cafe NJ\"Great coffee, delicious treats, and a very cozy atmosphere.\"",
-            "rating": "4.8",
-            "reviews": "220",
-            "address": "4.8(220) · $10–30 · Cafe",
-            "hours": "Paterson, NJ",
-            "links": {}
-          },
-          {
-            "position": 3,
-            "title": "Rêve CoffeeRêve Coffee\"Amazing coffee, super friendly staff, and such a cozy atmosphere!\"",
-            "rating": "4.8",
-            "reviews": "101",
-            "address": "4.8(101) · $1–10 · Coffee shop",
-            "hours": "135 W 24th St",
-            "links": {}
-          }
-        ],
         "organic_results": [
           {
             "title": "Coffee",
@@ -86,7 +57,7 @@
             "page_rank": 2
           },
           {
-            "title": "Coffee - The Nutrition Source",
+            "title": "Coffee • The Nutrition Source",
             "link": "https://nutritionsource.hsph.harvard.edu/food-features/coffee/",
             "displayed_link": "https://nutritionsource.hsph.harvard.edu › food-features",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA+VBMVEVHcEwFBSoHGSwnIjDzUVnsT1dRMh73jiHwiyOpYCDJrGr/237/13z/3oBkWEeHsz+LuEApOi9lJzzhhCHDp2j/1Xv60HowRy67P06aYCRmiTUKGCuuO0iAqzwAABE9TlxGYHDaRU5DVWMyQU+64/NDESCrZSHKp2hUcDAWNizJ8/+EpbaUIi9TRC59Z0zE7fzG8P+OvEB4nzgAFhGu1eRxa2v/9eP479+cwdCupp//++h/enr//eoRJTOQiomLhYc9VhcJEikNAColdUIpgEQofUQVYTkAIBkAACsFACkYWDkdaj1CXC4URC8qgUUAACoNACokMy8QFizY2kPbAAAAU3RSTlMAP8rk//////////////////j////////////o///97v7/++X//////////////////////////////////////9iL//////+fKv//////bYLdpWIE08EAAAFLSURBVHgBtM9FdsMwFAXQMCdSmBllh5nRzPtfTR36lU/HfdP70fWPcXv+xA3o9fl9gWAoFAxHorFYPIEQTjowlQ6FQuFMLJvN5THCeRr9heIHY5mSo7NcsfU594nRRBWhUg2w3mg+537G5jGqthqA7U7X56/0XhjrDxAmndYvMuzQ5x8FnxgdV/GAZSicTBtNX+r5Sjyen80b0wmNE7bW7QYC3VFitMjX2AmN0+VqvYGsE8spjdvdfg3Z77YOXB5oXHVo7DCtI4UtplMH9BByOm8+vN9cTvnrDfD+4HhBXG32TzrkS2hWlQBlojx4XhV3x+OOzGezaklzuyC3knYSeF4/nDU8K+WJUgayW7UZGpAHr5AZyusPQ3e7qJiDGZ6fbB0QlecVi6KnaghXTzz/NB0MJnsH1bnO8fY+aibELf0s0FaTOQgoRTkAAHD2PKVCAaLqAAAAAElFTkSuQmCC",
@@ -100,7 +71,7 @@
           },
           {
             "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoo4nGZN8CQrdZwfGGW3vxLYRZsIEBRT-G3XiBetnx2Fuf-bd31J",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoqmADHwOAWlTzO7kwfwYqttrJh6Pl7FagDDvFEYyXol_sl4vlvF",
             "displayed_link": "https://www.stumptowncoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
             "source": "Stumptown Coffee Roasters",
@@ -112,54 +83,39 @@
             "page_rank": 4
           },
           {
-            "title": "Think Coffee NYC | Sustainable Direct Trade Coffee Beans",
-            "link": "https://thinkcoffee.com/",
-            "displayed_link": "https://thinkcoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAMAAABY1h8eAAAAS1BMVEVHcExNT1ZMT1ZWWF9ISlBNT1ZLTVROUFdJS1NNT1ZOUFd3d31zdXpNT1ZLTVRDRUytrrF7fYK9vcCKi5CbnKBiZGrQ0NJwcXfj4+TZL1W9AAAADXRSTlMA0eb/EXk+ASa1aKTNMmVXbAAAARJJREFUKJGFko2OhCAMhFVgQfcolPKz7/+kV1A06F5uQjD60UGGTtP/0jykebGM1O11YC+1Lpa1rOo1UD1JNdtTs5IX1ZNZ7aDVdFoZjBAuKm91rbY7K17a1oO9HNReaOb+iemJZ9PgJgQBgHOOkrtqN/bV8h1ijqlgLJ5w2JVdfwIFz+LpQ1zv4PI1i48BcwjkQ/aulGLZ3MGyw0KYEJF4kM/Zp+JE6tA1xRB9qPL5E3OmHe6pCh8xY/BEMTMPse6pj3yg/qvHgpgoCor4lu2cRwB8VOugxVSnreV3+B7x1EX1cSRUs31K9Zv+fivDXcPh+Lzt/ThWiBvrPQQWU0lw66Gz+5IQ4tF9Z99u3/r2D/0CgrMadIMpvzEAAAAASUVORK5CYII=",
-            "source": "Think Coffee NYC",
-            "snippet": "Ethically sourced single origin and blends coffee from direct trade pioneers. Organic, fair trade certified beans. Shop online or visit our NYC coffee ...",
+            "title": "Portrait Coffee | Join Us in Pouring a New Narrative",
+            "link": "https://portrait.coffee/?srsltid=AfmBOooVdwmdisa5FtNp1Obd07NMU9THrCATXPeAUVKjma18uZrTCmIn",
+            "displayed_link": "https://portrait.coffee",
+            "favicon": "data:image/png;base64,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",
+            "source": "Portrait Coffee",
+            "snippet": "At Portrait, we believe in pouring a new narrative by making specialty coffee more accessible and reimagining its history through the lens of Black excellence.Read more",
             "highlighted_keywords": [
-              "Ethically sourced single origin and blends coffee from direct trade pioneers"
+              "making specialty coffee more accessible"
             ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {},
+                "extensions": [
+                  "Free delivery over $40",
+                  "30-day returns"
+                ]
+              }
+            },
             "rank": 5,
             "page_rank": 5
           },
           {
-            "title": "Beverages - Coffee",
-            "link": "https://www.fairwaymarket.com/categories/beverages/coffee-id-520154",
-            "displayed_link": "https://www.fairwaymarket.com › coffee-id-520154",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAA+0lEQVR4AWJwL/BhANRWBjUUwkAQVYACFGCCe1UggXMFfBPVUAG1URsV0Ct/SZaEQDLJMEDyTjQ82t3p2pONbmwfUozBZXBhdYqvTcbPic56Ivq7ZLSbFIiaMe4n8BT/ge0CFA6iMDLCnVkUZlYYRGFlhN0YBdlkdEZYwccGIxiLsZ66Mnsn1qNDGWEGwuVZFrEwAmH6QjiTzSAJK8rgUbsLjRNiGZE5XljkzGH0/HlMmlLDoIecE87CVBCOFN0weO5RwgZ2EuTJT96h8Qth5rKmCxOXNV0YuazpwlXP2jvCWZDgWHjOBn3o3kGN0I3ioumlDq1EbTTcMf0BEeHcNVbXuUUAAAAASUVORK5CYII=",
-            "source": "Fairway",
-            "snippet": "Green Mountain Coffee Roasters Breakfast Blend Light Roast Coffee K-Cup Pods, 10 count, 3.1 oz. Open Product Description. $13.28. $4.28/oz. was $14.99.Read more",
+            "title": "Blue Bottle Coffee | Fresh Roasted Specialty Coffee",
+            "link": "https://bluebottlecoffee.com/us/eng?srsltid=AfmBOoo08UzZNgZRItIBiAjmYJNCwsq1ky_i8i1bNncNPuQ3uo9xAave",
+            "displayed_link": "https://bluebottlecoffee.com › eng",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEVHcEzz+v7////G5PcAneTo9vyKwu3///8AlN3v+v8Cnef///////8Alt5bsOc9qujz+v7///////////+cy+4Ak+AKm90AluWTzfOSzvkAmt////8AmOMAoeeh0vQAnuIAn+MAmeEAnOK1ZI6VAAAAH3RSTlMARB5k60+EAeNltTgK6qS4VhctIWXN1KqPn/gp0tByb5tLiwAAAJlJREFUKJGd0dkOgyAQhWE2gYIKtW5dwXn/h1R7zSFp/yuSL0Mgw9gPGQgGEhOc+xbNeb3oG8Lh41aETEh3FzW8IhzWd2jAi9rolOpjcfa4VOWsFikKn21mykcq8BKq0xK9LgBTSmQxUgWJtj+wq6FNEA2fKcFJHh5ECH3fYXxqu51NsYBCTqfZ3hewHUZ9NHKwb/OtBOCM2wEzsg7zSllT1AAAAABJRU5ErkJggg==",
+            "source": "Blue Bottle Coffee",
+            "snippet": "Blue Bottle Coffee is a specialty coffee roaster with cafes in LA, SF, NYC, & Japan. Shop our freshly roasted specialty coffee online & in-store.",
             "highlighted_keywords": [
-              "Green Mountain Coffee Roasters Breakfast Blend Light Roast Coffee K-Cup Pods"
+              "Blue Bottle Coffee is a specialty coffee roaster"
             ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$2",
-                  "price_to": "$17",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "$2 to $17"
-                ]
-              }
-            },
             "rank": 6,
             "page_rank": 6
-          },
-          {
-            "title": "National Coffee Association",
-            "link": "https://www.ncausa.org/",
-            "displayed_link": "https://www.ncausa.org",
-            "source": "National Coffee Association",
-            "snippet": "The National Coffee Association is the leading trade association for the U.S. coffee industry. Learn more about our networking, advocacy, market research, ...",
-            "highlighted_keywords": [
-              "is the leading trade association for the U.S. coffee industry"
-            ],
-            "rank": 7,
-            "page_rank": 7
           },
           {
             "title": "What is coffee? - NCA",
@@ -171,36 +127,20 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
+            "rank": 7,
+            "page_rank": 7
+          },
+          {
+            "title": "National Coffee Association",
+            "link": "https://www.ncausa.org/",
+            "displayed_link": "https://www.ncausa.org",
+            "source": "National Coffee Association",
+            "snippet": "The National Coffee Association is the leading trade association for the U.S. coffee industry. Learn more about our networking, advocacy, market research, ...",
+            "highlighted_keywords": [
+              "is the leading trade association for the U.S. coffee industry"
+            ],
             "rank": 8,
             "page_rank": 8
-          },
-          {
-            "title": "Coffee Review - The World's Leading Coffee Guide",
-            "link": "https://www.coffeereview.com/",
-            "displayed_link": "https://www.coffeereview.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA81BMVEVHcEyVXiRSOCC5dDCucCudZSh2TyLQfhyscC3OfhnNeRyrayrYhC2/cSnCfjHBfjLLfS+MWCdpSB4fHyGxYwcbFxfDeSrTm2K0axsHAgbCdTEbDhTeuZFuZF23aBVRMhO+ezI3IxfQl1nevpsrKSbBhEZBKhe/gDm/dCNhPyIJDgpLRDzYsYZ6cW1VTkU4My3exZ+Vg3S4byTEezwsFw7pwqdCOjdkV0h9a1XEqY7DiErTvJ3w28Cmj3eSjYWtqaKLdmfXxrXSoXHmzK/Gs5u5dSb659LSv7Hl0a/DkFZtUTmxnYS/lnKvWQCEbGr//faufizLH4eyAAAAE3RSTlMAvv1OdJzmCGUEFYwQWz8xH9L4noRMTwAAAitJREFUKJFlk2l3ojAYhSOCoK1aG4OERUD2XRQF97VatZ2Z//9rJtZuM73n5NNzzk3e+94A8CH2vknTHN1gWfBDXOnRznQ9UytM/V/CNlu2Ha9TCU0KwlsP39gDrVJK+rLe++a8mCxi/7H86X3P2LFi2JNECYKzN6EuF13l3ilL6/6zt0bpcSbLxn6NJ+c0Ucs32FCLS5Eru62jETnbTZyn69yrvZlWMLlmKTsaLxLxojWKCiNHpSu8089Kupa1oTgQul1h4DrDUZ4sCpUDoNbKwsV4NxTd7psE4UmzRkE4wQwLHjwpUhZbXmx32+9y+bC4rPIKCzgb+mij8YPeybEsa2p1Th1rusc+ohqAySAO5CHf7sudq3rPv4+Hl5kpIZ0GjLlS8hvs3WD4eno2xsulzYG7bLOMZdH9gnNhJxvmapURaGIYGMOntrGb9oimh83c+NM3EbLp64Mg7A81QTzM+7PZ8TB/7bqnPYaQapJRIPQXHe2pK2xDWQ5f2gLPh5EEERmlVkIQJiOH5HOb8hrCUYIwY6okPuKLI8Ph3YEgkPTca0AEUtdCsBWEFH9JKM+75PDT0S9TQbfgQYNKIuSTlVniQHSm4SbGpuI/vq0MVGkVKwlE6cwYGbN9hPFqLHnlj5rcqchcBZIEx2Md42VgQo/7LFGN9qRASsdRgKQIxgk6l6vf+tdsqZIJiTk0oUSV7v8rdb1UUXVdt70KUwY/Rb4DV683ql+OfwGBXlYv8CjG/wAAAABJRU5ErkJggg==",
-            "source": "Coffee Review",
-            "snippet": "Coffee reviews, espresso ratings, informative articles, and coffee blogs by Kenneth Davids and other coffee experts.",
-            "highlighted_keywords": [
-              "Coffee",
-              "coffee",
-              "coffee"
-            ],
-            "rank": 9,
-            "page_rank": 9
-          },
-          {
-            "title": "9 Health Benefits of Coffee: What the Science Says",
-            "link": "https://www.healthline.com/nutrition/top-evidence-based-health-benefits-of-coffee",
-            "displayed_link": "https://www.healthline.com › nutrition › top-evidence-b...",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAVFBMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICChoaHFxcV4eHjU1NT////b29sAAAAAAABeXl7x8fG7u7tOTk6Dg4MtLS0k+91XAAAAFnRSTlMAV5/P6PW1axCF/0Uu/////////x3ZAxxWtQAAALtJREFUeAF1kgUWhCAABb/SYbfe/5xbGMQyNPNocFOUhDLKSyERo/QDMfCxOoR4owudcA82+g+Fc/JqV3WTjCWu0XZ9P/hjx3vSuv8SyOkeOKdS23vFJZUKIpB1N6zbJTm4L5fhm+/3otSXXdt/0Q4GFsj9J6+JofOSgeTlhDIvOUReKti8tEBWMgClJwcnV/1FABidnL9sx/zjGngNTbD4QfPfBJAs4xw8UtMIj9FfmBrEGMUnRgkXz6g3owcffUGPHg8AAAAASUVORK5CYII=",
-            "source": "Healthline",
-            "snippet": "Coffee contains caffeine, which blocks adenosine in the brain and may reduce fatigue, boost energy, and improve exercise endurance and performance.Read more",
-            "highlighted_keywords": [
-              "Coffee contains caffeine"
-            ],
-            "rank": 10,
-            "page_rank": 10
           }
         ],
         "relatedSearches": [
@@ -217,12 +157,12 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
           },
           {
-            "query": "Coffee Walmart",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
-          },
-          {
             "query": "Coffee beans",
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
+          },
+          {
+            "query": "Coffee Walmart",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
           },
           {
             "query": "Coffee powder",
@@ -233,8 +173,8 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
-            "query": "Coffee Amazon",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+Amazon"
+            "query": "Coffee benefits",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
           }
         ],
         "dmca_message": {
@@ -243,23 +183,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bbe4f23c1aa5532d&gl=us&hl=en&ei=qgk-asnlOe7JptQPioOkgAQ&start=10&sa=N&sstk=AU9db-CsC56WPtXXvz3PJ3inmcYVmNqKbIigAslvj4IK_25H9G_u5Clk5aYeTe24kbKOdJOqnldbITgAuxZzjQH_o0PIokwPaF5fGA&ved=2ahUKEwjJ4pL4kaSVAxXupIkEHYoBCUAQ8NMDegQIXRAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=10&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8NMDegQIYxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bbe4f23c1aa5532d&gl=us&hl=en&ei=qgk-asnlOe7JptQPioOkgAQ&start=10&sa=N&sstk=AU9db-CsC56WPtXXvz3PJ3inmcYVmNqKbIigAslvj4IK_25H9G_u5Clk5aYeTe24kbKOdJOqnldbITgAuxZzjQH_o0PIokwPaF5fGA&ved=2ahUKEwjJ4pL4kaSVAxXupIkEHYoBCUAQ8tMDegQIXRAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bbe4f23c1aa5532d&gl=us&hl=en&ei=qgk-asnlOe7JptQPioOkgAQ&start=20&sa=N&sstk=AU9db-CsC56WPtXXvz3PJ3inmcYVmNqKbIigAslvj4IK_25H9G_u5Clk5aYeTe24kbKOdJOqnldbITgAuxZzjQH_o0PIokwPaF5fGA&ved=2ahUKEwjJ4pL4kaSVAxXupIkEHYoBCUAQ8tMDegQIXRAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bbe4f23c1aa5532d&gl=us&hl=en&ei=qgk-asnlOe7JptQPioOkgAQ&start=30&sa=N&sstk=AU9db-CsC56WPtXXvz3PJ3inmcYVmNqKbIigAslvj4IK_25H9G_u5Clk5aYeTe24kbKOdJOqnldbITgAuxZzjQH_o0PIokwPaF5fGA&ved=2ahUKEwjJ4pL4kaSVAxXupIkEHYoBCUAQ8tMDegQIXRAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bbe4f23c1aa5532d&gl=us&hl=en&ei=qgk-asnlOe7JptQPioOkgAQ&start=40&sa=N&sstk=AU9db-CsC56WPtXXvz3PJ3inmcYVmNqKbIigAslvj4IK_25H9G_u5Clk5aYeTe24kbKOdJOqnldbITgAuxZzjQH_o0PIokwPaF5fGA&ved=2ahUKEwjJ4pL4kaSVAxXupIkEHYoBCUAQ8tMDegQIXRAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bbe4f23c1aa5532d&gl=us&hl=en&ei=qgk-asnlOe7JptQPioOkgAQ&start=50&sa=N&sstk=AU9db-CsC56WPtXXvz3PJ3inmcYVmNqKbIigAslvj4IK_25H9G_u5Clk5aYeTe24kbKOdJOqnldbITgAuxZzjQH_o0PIokwPaF5fGA&ved=2ahUKEwjJ4pL4kaSVAxXupIkEHYoBCUAQ8tMDegQIXRAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bbe4f23c1aa5532d&gl=us&hl=en&ei=qgk-asnlOe7JptQPioOkgAQ&start=60&sa=N&sstk=AU9db-CsC56WPtXXvz3PJ3inmcYVmNqKbIigAslvj4IK_25H9G_u5Clk5aYeTe24kbKOdJOqnldbITgAuxZzjQH_o0PIokwPaF5fGA&ved=2ahUKEwjJ4pL4kaSVAxXupIkEHYoBCUAQ8tMDegQIXRAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bbe4f23c1aa5532d&gl=us&hl=en&ei=qgk-asnlOe7JptQPioOkgAQ&start=70&sa=N&sstk=AU9db-CsC56WPtXXvz3PJ3inmcYVmNqKbIigAslvj4IK_25H9G_u5Clk5aYeTe24kbKOdJOqnldbITgAuxZzjQH_o0PIokwPaF5fGA&ved=2ahUKEwjJ4pL4kaSVAxXupIkEHYoBCUAQ8tMDegQIXRAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bbe4f23c1aa5532d&gl=us&hl=en&ei=qgk-asnlOe7JptQPioOkgAQ&start=80&sa=N&sstk=AU9db-CsC56WPtXXvz3PJ3inmcYVmNqKbIigAslvj4IK_25H9G_u5Clk5aYeTe24kbKOdJOqnldbITgAuxZzjQH_o0PIokwPaF5fGA&ved=2ahUKEwjJ4pL4kaSVAxXupIkEHYoBCUAQ8tMDegQIXRAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=bbe4f23c1aa5532d&gl=us&hl=en&ei=qgk-asnlOe7JptQPioOkgAQ&start=90&sa=N&sstk=AU9db-CsC56WPtXXvz3PJ3inmcYVmNqKbIigAslvj4IK_25H9G_u5Clk5aYeTe24kbKOdJOqnldbITgAuxZzjQH_o0PIokwPaF5fGA&ved=2ahUKEwjJ4pL4kaSVAxXupIkEHYoBCUAQ8tMDegQIXRAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=10&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=20&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=30&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=40&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=50&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=60&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=70&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=80&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=ddca233e0edd621a&gl=us&hl=en&ei=uRc-atjkGbHLi-gP7JHFuA4&start=90&sa=N&sstk=AU9db-C08UGlvLFGWz2UW17mCqEQhD9_CwhCq-lleoOXYW-MRniv2o1BMkIrTu2fzCAOg3oVctj3uinkMqM5aIFT5Mrz2SKMECUx0Q&ved=2ahUKEwiYpYSsn6SVAxWx5QIHHexIEecQ8tMDegQIYxAU"
           }
         }
       }
     }
   },
-  "requestId": "2625de2f-6fc2-4ed2-80ba-6d2d30678072",
-  "timestamp": 1782453572672,
-  "recordTime": "2026-06-26 13:59:32"
+  "requestId": "d0782e25-7966-4265-b017-7aacb0fc62d7",
+  "timestamp": 1782454463737,
+  "recordTime": "2026-06-26 14:14:23"
 }
