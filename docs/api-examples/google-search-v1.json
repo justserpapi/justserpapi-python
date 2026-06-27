@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-27 08:10:08",
+    "checkedAt": "2026-06-27 09:10:04",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.48,
-          "total_results": 2980000000,
+          "time_taken": 0.46,
+          "total_results": 2970000000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -18,35 +18,67 @@
           "original_query_yields_zero_results": false,
           "url": "https://www.google.com/search?q=coffee&oq=coffee&gl=us&hl=en&safe=off&sourceid=chrome&ie=UTF-8"
         },
+        "short_videos": [
+          {
+            "title": "Coffee Basics Day 1",
+            "channel": "Andy Jamerson",
+            "source": "YouTube",
+            "link": "/goto?url=CAESYgHuR6pNEuctcq4ay_3Tfoo8f6CGABaowY0r2e2tcG9sYJ_F12aIlLQRU4maAlKN2dq07DYeQZqiWbKZl1RMShJ8jyy2X6TT8W3O4vhM4rxij8RuwsR3wtOIHvKaeyDHvbw-",
+            "id": "r-9U089tX5g",
+            "thumbnail": "https://img.youtube.com/vi/r-9U089tX5g/maxresdefault.jpg"
+          },
+          {
+            "title": "3 coffee mistakes you're probably making right now and all 3 ...",
+            "channel": "Atomic Coffee Roasters",
+            "source": "Instagram",
+            "link": "/goto?url=CAESYwHuR6pND779Wls8H_53F4PMdJG3RAoCRi5ZLffGcDlsrDMQP8LaTTHR3ezib8_th1uoMpFWZ29H4__eS2msqCDuX4jozFIFvSZKl182lEJWNJUZJxwHTD_s7Z5NV6ciu9J3jw==",
+            "thumbnail": "https://img.youtube.com/vi/undefined/maxresdefault.jpg"
+          },
+          {
+            "title": "Coffee isn't just a drink, it changed the way we work! From a ...",
+            "channel": "Grow Inn Homes",
+            "source": "Facebook",
+            "link": "/goto?url=CAESxwEB7keqTeG0t6BaNbqBymzCh0NjDXEmkVAvWPF03rmFt583TMSrg6DtEjt9J1mrXRifBxwmHD6tsY_BgWuM3aoHv3uJuGEy0DMYytzQ5J4HW9dUy7UmFZ2L4OiR4KWCYByBvBebEl2ojppu-t8KlWUZrxLMgfb2-srppqfgBlqrTrMcYNJnZCBchyPlniC0SqkfuRlDGxOi5AvGKODs5BBlzkrqVm58NIbKDv6iCetNgzhbYAtxkw64tMx9Q1bIsswU0XHQV33Z",
+            "thumbnail": "https://img.youtube.com/vi/undefined/maxresdefault.jpg"
+          },
+          {
+            "title": "This is where coffee actually comes from",
+            "channel": "Tanner Colson",
+            "source": "YouTube",
+            "link": "/goto?url=CAESYgHuR6pNm43ZdpXYr4VP0Gg_fbX1dfr3VjEPN3w3HPzzP4PW0qGODSUciydYdsiqgpa_Cu9m314DOdcots5taLz5u6QnPnwnwBEZgiZBb0KEW4u8Odst9PiFqgoJn01W2jH-",
+            "id": "4pRsmnb5nSA",
+            "thumbnail": "https://img.youtube.com/vi/4pRsmnb5nSA/maxresdefault.jpg"
+          }
+        ],
         "knowledge_graph": {
           "title": "Coffee"
         },
         "local_results": [
           {
             "position": 1,
-            "title": "Starbucks Coffee CompanyStarbucks Coffee Company",
-            "rating": "4.2",
-            "reviews": "1.7K",
-            "address": "4.2(1.7K) · $10–20 · Coffee shop",
-            "hours": "Los Angeles, CA",
+            "title": "Little Springs CoffeeLittle Springs Coffee",
+            "rating": "4.9",
+            "reviews": "162",
+            "address": "4.9(162) · $1–10 · Coffee shop",
+            "hours": "West Springfield, MA",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Nam CoffeeNam Coffee",
-            "rating": "4.7",
-            "reviews": "29",
-            "address": "4.7(29) · $1–10 · Coffee shop",
-            "hours": "Los Angeles, CA",
+            "title": "7 Brew Coffee7 Brew Coffee",
+            "rating": "4.5",
+            "reviews": "336",
+            "address": "4.5(336) · $1–10 · Coffee shop",
+            "hours": "West Springfield, MA",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Goodhart Coffee Catering of Los AngelesGoodhart Coffee Catering of Los Angeles",
-            "rating": "5.0",
-            "reviews": "568",
-            "address": "5.0(568) · Mobile caterer",
-            "hours": "Carson, CA",
+            "title": "Starbucks Coffee CompanyStarbucks Coffee Company",
+            "rating": "3.5",
+            "reviews": "288",
+            "address": "3.5(288) · $10–20 · Coffee shop",
+            "hours": "West Springfield, MA",
             "links": {}
           }
         ],
@@ -71,7 +103,7 @@
         "organic_results": [
           {
             "title": "Coffee",
-            "link": "https://en.wikipedia.org/wiki/Coffee",
+            "link": "/goto?url=CAESXAHuR6pNqKT-7vbZv6yevIjWSwBS307-LNSkacj3BXk4kK1nkukJglD9xu6-AP8cr59MiPYvxnnTRRBajE78M2zOsxMvWswGjQp8YBHsX4APOzBX5TVrdMJeEC3V",
             "displayed_link": "https://en.wikipedia.org › wiki › Coffee",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAnklEQVR4AeTNIQiDQABG4b+u17X1aF6PK3YEO9iMJqPVau82y4FgMezS0oVLhqsHtrcqeqzDXv3CEz/6L4yTtZM3dnHmPTtjzXZAXKYVo4agkU2GI2Lloc6JDez1+flswMu1EQZ3xlE7lK8eKDkjtwE+crBMV+wesKmCiisGGepZIfQJpMj9SNb2MYWrChjVkULuCyCfRvsdmBieyQQAsoDk/9ryhFMAAAAASUVORK5CYII=",
             "source": "Wikipedia",
@@ -92,7 +124,7 @@
           },
           {
             "title": "r/Coffee",
-            "link": "https://www.reddit.com/r/Coffee/",
+            "link": "/goto?url=CAESWAHuR6pNh6pIOrFTh6yxLwgSzrVsus0FtHNszlgle2y8vUFYMsGPKC2uoVs-j5svtiRmzCblnb7LEnvyJUpkWVSnhc41NprBx-_zshw7eXuQuATlnQsoV3o=",
             "displayed_link": "2.4M+ followers",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAhFBMVEVHcEz/RQD/RQD/RQD/RQD/RQD/RQD/RQD/RQD/PQD/NgD+XS32dlf5vK3////64dusLADUz9H+jXLOPAoSHiFrLBm3uLn3/f7jVS/b6e77pJDJo6H718//RQDw9ffs5+jm8fPIXlHqKwD5+PjolIP/VgP/SQLQ2uAyODvQ4ekABAhqcHK4ptuCAAAAHnRSTlMAPobB7P9mHdb//////////////////////////8J6YdtgAAABWUlEQVR4AWySYZNDMBCGWyw2SI9TGnWqILT////dm6Enc+MZH8Qz2V3Je/rj7Lgekec659N/fIgPnn+yCULaYaYwsCqShYhiQXQ+dJxIedltQDZfqZQyY6K1st3vO78WsiyNDI3zySK/caJUygTMzN7eTnxdBXMcb3+0TsMC30RUJfciqSIs8JCZycHwWV1n2UVuXDKzxsDOySWu5AGVoB/TUh5imhJFpQTNfav7uDcSlBERJLUN9LOLewn6LnpCNS0EyvKg+vLRjVRLUIuxe8hSDYyyLqatyr68jdO6cxpvWGIeDOQQujagNs7YuumbJmYiZz0E3aJvMc95Ps8F+rV6PQQ0JY4XpVqVv0Cu2lYps9HbDp6HRS9Kv1+vt1Z4HeDI/1yZiFMNFIzWqYkChftl8zSkegE6HSYmENgxYYQHRGzUHiLHyh3ModvZo7nHxA71ofwdSnYAAPpVIo4RUPiIAAAAAElFTkSuQmCC",
             "source": "Reddit · r/Coffee",
@@ -104,30 +136,8 @@
             "page_rank": 2
           },
           {
-            "title": "Specialty Coffee from Mexico | Civil Coffee – Single Origin and ...",
-            "link": "https://civilcoffee.com/?srsltid=AfmBOoqCP6QeCys-8Qajg5q8GZ-duVTZ_xJsf4FQJ8k52qGl5HHYTgOp",
-            "displayed_link": "https://civilcoffee.com",
-            "favicon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAgLB0iJyAdHx8kKDQsJCYxMCslIT0tMTU3Ojo8Jyg1OD81NyotODcBCgoKDQwNGg8PGjclHyE3NS03Nzc3NTc3NystNTU1LTU3Nzc4Mjc3NTUrLzU1NTc3NTYxMTIuKzUtNzgtKy01Nf/AABEIABwAHAMBEQACEQEDEQH/xAAYAAEAAwEAAAAAAAAAAAAAAAAABQYHBP/EACkQAAEDAgQEBwEAAAAAAAAAAAIAAQMEBQYREnEUITFRIkFDUoGRoQf/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAwQFBgL/xAAjEQACAQQBBAMBAAAAAAAAAAAAAQIDBBESBSExQXETUWEG/9oADAMBAAIRAxEAPwDZlUJggCAICo4pxkVkM4o7VVmbdJZQ0Rvs/mygqVtOmDc47hVeLZ1Ul9LqzPbjji/10zSNWvTiL5iEHhZt+6quvN+cHV0ODsqMcabeyasn9IuQGMNwpGrW7xNpP85OpIXMvKyZ15/N27W1KWvvsaVba7j6QKjhqmn1enPHpL67K2nss4OQuKHw1HDZS/U8o6pIwlBwkETB+ok2bL0Qxbi8xeGVu44DsNfM0r0xQFnmTQFpYt2UMqEH4Nehzt7Rjrtn31Ja12S22kGG30cUL+5hzJ/l+akjCMeyKNze3Fy81ZtkhkvRVCAIAgCA/9k=",
-            "source": "Civil Coffee",
-            "snippet": "Shop specialty Mexican coffee beans sourced directly from Oaxaca, Chiapas, and Guerrero, Puebla, and Guerrero. Roasted in Los Angeles.",
-            "highlighted_keywords": [
-              "specialty Mexican coffee beans"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "8–11 day delivery",
-                  "7-day returns"
-                ]
-              }
-            },
-            "rank": 3,
-            "page_rank": 3
-          },
-          {
             "title": "Coffee • The Nutrition Source",
-            "link": "https://nutritionsource.hsph.harvard.edu/food-features/coffee/",
+            "link": "/goto?url=CAESdgHuR6pNF8e-feAyWOFFdICzi3uE6xZ5vwN-wTC2kcNS4kf3L6mjwI604MLihV0Ft0T8DLJ8Fct98IjBV6tRHo-RwWxNwqs5twVeX20S_QeMpvDUE8fybynawhJeVpdvvLJWiEN6-Esg2Dr77ENAxeRjCwnOcFQ=",
             "displayed_link": "https://nutritionsource.hsph.harvard.edu › food-features",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA+VBMVEVHcEwFBSoHGSwnIjDzUVnsT1dRMh73jiHwiyOpYCDJrGr/237/13z/3oBkWEeHsz+LuEApOi9lJzzhhCHDp2j/1Xv60HowRy67P06aYCRmiTUKGCuuO0iAqzwAABE9TlxGYHDaRU5DVWMyQU+64/NDESCrZSHKp2hUcDAWNizJ8/+EpbaUIi9TRC59Z0zE7fzG8P+OvEB4nzgAFhGu1eRxa2v/9eP479+cwdCupp//++h/enr//eoRJTOQiomLhYc9VhcJEikNAColdUIpgEQofUQVYTkAIBkAACsFACkYWDkdaj1CXC4URC8qgUUAACoNACokMy8QFizY2kPbAAAAU3RSTlMAP8rk//////////////////j////////////o///97v7/++X//////////////////////////////////////9iL//////+fKv//////bYLdpWIE08EAAAFLSURBVHgBtM9FdsMwFAXQMCdSmBllh5nRzPtfTR36lU/HfdP70fWPcXv+xA3o9fl9gWAoFAxHorFYPIEQTjowlQ6FQuFMLJvN5THCeRr9heIHY5mSo7NcsfU594nRRBWhUg2w3mg+537G5jGqthqA7U7X56/0XhjrDxAmndYvMuzQ5x8FnxgdV/GAZSicTBtNX+r5Sjyen80b0wmNE7bW7QYC3VFitMjX2AmN0+VqvYGsE8spjdvdfg3Z77YOXB5oXHVo7DCtI4UtplMH9BByOm8+vN9cTvnrDfD+4HhBXG32TzrkS2hWlQBlojx4XhV3x+OOzGezaklzuyC3knYSeF4/nDU8K+WJUgayW7UZGpAHr5AZyusPQ3e7qJiDGZ6fbB0QlecVi6KnaghXTzz/NB0MJnsH1bnO8fY+aibELf0s0FaTOQgoRTkAAHD2PKVCAaLqAAAAAElFTkSuQmCC",
             "source": "The Nutrition Source",
@@ -135,12 +145,12 @@
             "highlighted_keywords": [
               "a very low calorie drink"
             ],
-            "rank": 4,
-            "page_rank": 4
+            "rank": 3,
+            "page_rank": 3
           },
           {
             "title": "What is coffee? - NCA",
-            "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
+            "link": "/goto?url=CAESawHuR6pNhNHAKfE2970mKCrdFA-0msZymJjVqT--Jj655K6p9Ea_9eF0fqEk80mOV6pdBCXJtbVQA6T506StJxNWymb_Uyxm_Snut6KvWewr_jL-hFkiZ8yOezOJukPF5xS1jFHlkbum4j0J",
             "displayed_link": "https://www.aboutcoffee.org › Origins",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAk1BMVEX////6+vv5+frp6uzq6+3t7vDx8fPz9PWxtLuTmKBja3iipq7U1trk5eg0QVUAEjMAHTkfMEcpOE0AACpOWGi5vcIXKkI/S10AGTd+hI/LztIEIDuGjJZocHwACS+doalxeIMAFjUAACi1uL4RJj/loaIjPVLPIyXu9PbtmZmHMDzskpHvtbaLBBzJtbmkMzzKrbGTXXfdAAABBklEQVR4Aa3SVWKDUBBA0Txm5g3EcXetd/+rK1LB/pqboAeHwz8TSp8QYhdhESLNkfAnkpIQYWY8rh5HqnY80RIB8Xy6MNH1dtcJN0iGaV3sm+64vIO2d/eDW2hGLBeojGg6+sXTzooaA8o/lL1J1hIvPQs7SXyJOEc6ZykHeXZRPSdfXi4DSuPmBhedcufmAiKIXxSAFJhOUapaUQWMPSpzRI6SykrjAPiyxEOPyKer6XNUxpHsUSwRJZ/jLO832Nmzr27M5EqIy0c0GbSWfZY4Jv5wXNM9Pb90NBnwCun1rZ5siQwDvn90uINixNMnLXBxRTQYjKEyQ4LvSI7xzhcqxOExfQGirBAhUMQZRwAAAABJRU5ErkJggg==",
             "source": "About Coffee - National Coffee Association",
@@ -148,25 +158,12 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 5,
-            "page_rank": 5
-          },
-          {
-            "title": "Canyon Coffee | Organic Coffee Roasted in Los Angeles, CA",
-            "link": "https://canyoncoffee.co/",
-            "displayed_link": "https://canyoncoffee.co",
-            "favicon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgBBgkIAQgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyUrNys3NzcrKzc3NysrNysrNys3Nys3Nzc3KzcrKys3Kys3NzcrKysrKysrKzcrKys3K//AABEIAAwADAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAGBAH/xAAiEAAABQMEAwAAAAAAAAAAAAABAgMEEQUGBwASMUEIExj/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAMAwEAAhEDEQA/AHV2XRVvH96n89sma7XpRVUxTCbsIANIaZWSZIZJK3YTasIB7CJjuApo4nWv7fp+ajga8kz8zBTiADqplTmeHEARx0gQiczHMjopf//Z",
-            "source": "Canyon Coffee",
-            "snippet": "Canyon Coffee is a Los Angeles-based specialty coffee roaster specializing in organic and Regenerative Organic Certified coffees. Founded in 2016 by couple ...",
-            "highlighted_keywords": [
-              "Canyon Coffee is a Los Angeles-based specialty coffee roaster"
-            ],
-            "rank": 6,
-            "page_rank": 6
+            "rank": 4,
+            "page_rank": 4
           },
           {
             "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoojyZEaxp1rW1hMt8_aaZ-xu38BP2e30SmNjAJbLvAJyTm6wfns",
+            "link": "/goto?url=CAESmQEB7keqTe6MOHGrRi7I7QqMOoi2gJNKGbwGDhoz3wmYstNjdik7wJIKAxQRHmVevJjyTukE_TA__LKil59uktVDVDOn0vHQL811o95vyCbstwpi-mERSbR7dRELEul_0Y8unvDV18FfQxoUOooNtCebWou-EXazQDsYnn97vuKtp3CNchi8vbMivThH-PIcC5RY7ski8mb5iFk=",
             "displayed_link": "https://www.stumptowncoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
             "source": "Stumptown Coffee Roasters",
@@ -174,62 +171,63 @@
             "highlighted_keywords": [
               "fresh beans, cold brew, and good vibes"
             ],
+            "rank": 5,
+            "page_rank": 5
+          },
+          {
+            "title": "Coffees, Teas, & Drinks",
+            "link": "/goto?url=CAESngEB7keqTfvMJ54-b19LQw1dXPsJ3dmmETNOuc1HmUjWbOcPMgGsLSSX7SWc3kWLxfS7zcRYwk2nEZHVICnYUH9KAot7HrMrFiFsgBWfM3kIdsBtqynDfAEF06yGuxU0CaBlPHGxcGJrPvCXuJ_irFwhK_x4tLayyEfmXnbZGo-tc4wAqZrOWX6B2D9dqIoWm_HdwBSTZHOa8Z0gtwl70A==",
+            "displayed_link": "https://nuts.com › coffeesteas › coffees",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABy0lEQVR4Ab1XAWTDUBAtpYyBElBKGWOMgTHKGKOMMTZAGWMUjIEyRgHGGAOllIIyCkoYJYwSQgCAUFBQxighbIegnpcvl6wJD3r33n/5d/d/WtrW492UTgQDQSDwBSNBTSGR28BU8AsYFmlgSQzYRRqYEANXRRpwYfGFoFKkgW8wMMgqdCEYCxzBo8BKwamR7W9nWbxDhFaC0xQjiLzjXHUErMEE8tqEU9MufkhEsKl2E7jPJL+aZ/sjQUsQgWg/gTuAvCjvSWajMNYWudg32sV3YIw+4t/rghDEx4TvYbm0Bo74DNNdCAUN4C/yGrgHgdFGbJ/0whPw12hSawDfcgLxIcQDQSWOVSGWqQd8EJhBfI/0wnUca7CR1SxeJuIhzjzZBc9wCgYaAwcxCdEi5/0P5DQFl4Tr6y4fbqBLcruQYwvuCNdTTwCBy8pF+sUh3LnGQM9wAZVJfhPyGGyNgXeDUJNQoCEppnw1vdgtoUBDUvT1H5McbQPv1cB70xiwDUJncZp2F3oaA47BgJWxfB2Nga8EkRWbAnKIRYR7/h874Kbkzwi3rjHwqZ5l6AV4iaX2JnxIMPCi1LHie8HK+td6vlFPW/VVq3j+AHNXQ9LGCyzoAAAAAElFTkSuQmCC",
+            "source": "Nuts.com",
+            "snippet": "Buy coffees from Nuts.com for incredible quality at great prices. We have regular & decaf coffees available in six grinds & freshly roasted just for you.",
+            "highlighted_keywords": [
+              "coffees",
+              "coffees"
+            ],
+            "inline_snippet": "3.3",
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$7",
+                  "price_to": "$32",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "3.3 store rating (98)",
+                  "3.3",
+                  "$7 to $32",
+                  "Free delivery over $59"
+                ]
+              }
+            },
+            "rank": 6,
+            "page_rank": 6
+          },
+          {
+            "title": "coffee | All | Search",
+            "link": "/goto?url=CAEShwEB7keqTbbps62Hip5CZfMAOZ1GS6aws6dCiiteA-GSBHg-dGvexExtgNAPOmpJRqtxTgueGN04RU2jJ_8K8UPTgA7Ov_dZPx4B542OCetz753NagOD36lNGynRWp7Q8nJ8rt30LsS2rGeY0USpUYeMg6BUIWI7bQ6GOeSPO6KqH97X5T6rkek=",
+            "displayed_link": "https://www.foodcity.com › search › all › Search=coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEUAesIAc78Ad8EAeMEAdcCoyeV7rdgegsUAbb0Ab74Acr86jMmSu97////g7PbO3+++1uu30ejY5vPz+Puvy+VGkcuEstoAZ7sRfsRjn9IAarwyh8iCstqcv+Dr8/nH2+1tpdSuJoBUAAAAxUlEQVR4Ab3PBW7EMAAAQfPFsGE8/v8rKwsOnFTcriAwRvG3SfV+16Yw606VDznvY/pW5YC6abu2qaEP4is/8G6U5bq8SwWqiRx2HmE24rsKYBA+LOsefQNEGTdql0qUI/TnywasV1Vigpu8O7q4TrpAM8ODeuSkdLYdQt9hMh0s2wyD5SL3Ki10S32lmU87DQ+4V9oNsMdqAC5qjXVrStMXyHfR2ofD88BQiaP8ndxTHapLYw93f4jKSO+nx9OI31JB/EM/FGgMnoZv/8MAAAAASUVORK5CYII=",
+            "source": "Food City",
+            "snippet": "Mild Roast Breakfast Blend 100% Arabica Ground Coffee 12 oz. Select a store to see pricing. See pricing. SNAP SNAP Eligible. SB Store Brands.Read more",
+            "highlighted_keywords": [
+              "100% Arabica Ground Coffee 12 oz"
+            ],
             "rank": 7,
             "page_rank": 7
           },
           {
-            "title": "La Colombe Coffee Workshop - Buy Coffee Online",
-            "link": "https://www.lacolombe.com/?srsltid=AfmBOoob1OHlSJWXGkKj4OK1h1knPxhKxQYFm3Yc5Am0LfCFj-lnjg-6",
-            "displayed_link": "https://www.lacolombe.com",
-            "favicon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhAIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Ljc3Nzc3Ly03Nzc1LTc3Ljc3LTc3Nys3LTc1NzcuKzc3Ny01Kzc1KysrN//AABEIABwAHAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAHBQEGAP/EACYQAAEDAwMEAgMAAAAAAAAAAAECAwQABRESITEGB1FhIkEygYL/xAAXAQEAAwAAAAAAAAAAAAAAAAACAQME/8QAGxEAAgIDAQAAAAAAAAAAAAAAAQIAEQMSMSH/2gAMAwEAAhEDEQA/AC7YbniklfaaXMtTdxsd0ZkIeaDiWnxpO4zjUCRmuJ6ZtYvd/YthWpsSllBcQMlHxJ1Y9Y3ps7cNmxSXOl3r7BuC2Gy82zGZUFNDUM61ZIG5Hx5rXlYryUot9ghLs8uEX25jZYkw1hLzK+Rng+6n7fe1MXeyzOMWtE+LHaEdUvXLdLmXFLUAlIwR+Ix5/XJod4p422FwsKNTQopOUqIPkHFVukr4505fmbi0t1LTawH0NYy43n5JwdjmpFePFIi/JEXO83VEW4WSHAgO6xKUmY55CADpBH0STn+aI9vdaok7kk/W5rKKLqKEljZuf//Z",
-            "source": "La Colombe Coffee Workshop",
-            "snippet": "Looking to buy coffee online? La Colombe Coffee Workshop has you covered with our wide variety of products and brewing equipment. Shop now for your coffee ...",
-            "highlighted_keywords": [
-              "La Colombe Coffee Workshop"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$15",
-                  "price_to": "$40",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "$15 to $40",
-                  "Free delivery over $50",
-                  "30-day returns"
-                ]
-              }
-            },
-            "rank": 8,
-            "page_rank": 8
-          },
-          {
             "title": "National Coffee Association",
-            "link": "https://www.ncausa.org/",
+            "link": "/goto?url=CAESTwHuR6pN-DAPm_3jDMYw8hTzQeAMsCkRRQai0M3mA3KWdPMIbY8rQquHJeNBpsuzIBkd7oAx_lbovJZjHXgI0dvw-jYByjawY3rEAU6Q6-I=",
             "displayed_link": "https://www.ncausa.org",
             "source": "National Coffee Association",
             "snippet": "The National Coffee Association is the leading trade association for the U.S. coffee industry. Learn more about our networking, advocacy, market research, ...",
             "highlighted_keywords": [
               "is the leading trade association for the U.S. coffee industry"
             ],
-            "rank": 9,
-            "page_rank": 9
-          },
-          {
-            "title": "Coffee Review - The World's Leading Coffee Guide",
-            "link": "https://www.coffeereview.com/",
-            "displayed_link": "https://www.coffeereview.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA81BMVEVHcEyVXiRSOCC5dDCucCudZSh2TyLQfhyscC3OfhnNeRyrayrYhC2/cSnCfjHBfjLLfS+MWCdpSB4fHyGxYwcbFxfDeSrTm2K0axsHAgbCdTEbDhTeuZFuZF23aBVRMhO+ezI3IxfQl1nevpsrKSbBhEZBKhe/gDm/dCNhPyIJDgpLRDzYsYZ6cW1VTkU4My3exZ+Vg3S4byTEezwsFw7pwqdCOjdkV0h9a1XEqY7DiErTvJ3w28Cmj3eSjYWtqaKLdmfXxrXSoXHmzK/Gs5u5dSb659LSv7Hl0a/DkFZtUTmxnYS/lnKvWQCEbGr//faufizLH4eyAAAAE3RSTlMAvv1OdJzmCGUEFYwQWz8xH9L4noRMTwAAAitJREFUKJFlk2l3ojAYhSOCoK1aG4OERUD2XRQF97VatZ2Z//9rJtZuM73n5NNzzk3e+94A8CH2vknTHN1gWfBDXOnRznQ9UytM/V/CNlu2Ha9TCU0KwlsP39gDrVJK+rLe++a8mCxi/7H86X3P2LFi2JNECYKzN6EuF13l3ilL6/6zt0bpcSbLxn6NJ+c0Ucs32FCLS5Eru62jETnbTZyn69yrvZlWMLlmKTsaLxLxojWKCiNHpSu8089Kupa1oTgQul1h4DrDUZ4sCpUDoNbKwsV4NxTd7psE4UmzRkE4wQwLHjwpUhZbXmx32+9y+bC4rPIKCzgb+mij8YPeybEsa2p1Th1rusc+ohqAySAO5CHf7sudq3rPv4+Hl5kpIZ0GjLlS8hvs3WD4eno2xsulzYG7bLOMZdH9gnNhJxvmapURaGIYGMOntrGb9oimh83c+NM3EbLp64Mg7A81QTzM+7PZ8TB/7bqnPYaQapJRIPQXHe2pK2xDWQ5f2gLPh5EEERmlVkIQJiOH5HOb8hrCUYIwY6okPuKLI8Ph3YEgkPTca0AEUtdCsBWEFH9JKM+75PDT0S9TQbfgQYNKIuSTlVniQHSm4SbGpuI/vq0MVGkVKwlE6cwYGbN9hPFqLHnlj5rcqchcBZIEx2Md42VgQo/7LFGN9qRASsdRgKQIxgk6l6vf+tdsqZIJiTk0oUSV7v8rdb1UUXVdt70KUwY/Rb4DV683ql+OfwGBXlYv8CjG/wAAAABJRU5ErkJggg==",
-            "source": "Coffee Review",
-            "snippet": "Coffee reviews, espresso ratings, informative articles, and coffee blogs by Kenneth Davids and other coffee experts.",
-            "highlighted_keywords": [
-              "Coffee",
-              "coffee",
-              "coffee"
-            ],
-            "rank": 10,
-            "page_rank": 10
+            "rank": 8,
+            "page_rank": 8
           }
         ],
         "relatedSearches": [
@@ -272,23 +270,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0563107dfe6c90fa&gl=us&hl=en&ei=XoU_apryA7yfseMPyfbPmAg&start=10&sa=N&sstk=AU9db-DcRaBIPfpHN_2_US673u6OaeYkE1fL9PFQm86uJU3imm4wbrL2V9ZuSD0wj6zDCfh5CtFtIqg-P0KA0M1qcF6Pgjg3FoMw6w&ved=2ahUKEwiamZqG_KaVAxW8T2wGHUn7E4MQ8NMDegQIaxAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d4689b59cf2d8a3f&gl=us&hl=en&ei=aZM_auGjN7maptQPqIHH0Qc&start=10&sa=N&sstk=AU9db-CR-IpsJQfYNb1G5VY4tuvAEIWRjAxoTzokMfew4i289QiTmShMJXXc9i_5UgTxTxbqrxdh_JxH59Ao_KpuReQN18GglsDJlg&ved=2ahUKEwih_Oq4iaeVAxU5jYkEHajAMXoQ8NMDegQIThAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0563107dfe6c90fa&gl=us&hl=en&ei=XoU_apryA7yfseMPyfbPmAg&start=10&sa=N&sstk=AU9db-DcRaBIPfpHN_2_US673u6OaeYkE1fL9PFQm86uJU3imm4wbrL2V9ZuSD0wj6zDCfh5CtFtIqg-P0KA0M1qcF6Pgjg3FoMw6w&ved=2ahUKEwiamZqG_KaVAxW8T2wGHUn7E4MQ8tMDegQIaxAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0563107dfe6c90fa&gl=us&hl=en&ei=XoU_apryA7yfseMPyfbPmAg&start=20&sa=N&sstk=AU9db-DcRaBIPfpHN_2_US673u6OaeYkE1fL9PFQm86uJU3imm4wbrL2V9ZuSD0wj6zDCfh5CtFtIqg-P0KA0M1qcF6Pgjg3FoMw6w&ved=2ahUKEwiamZqG_KaVAxW8T2wGHUn7E4MQ8tMDegQIaxAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0563107dfe6c90fa&gl=us&hl=en&ei=XoU_apryA7yfseMPyfbPmAg&start=30&sa=N&sstk=AU9db-DcRaBIPfpHN_2_US673u6OaeYkE1fL9PFQm86uJU3imm4wbrL2V9ZuSD0wj6zDCfh5CtFtIqg-P0KA0M1qcF6Pgjg3FoMw6w&ved=2ahUKEwiamZqG_KaVAxW8T2wGHUn7E4MQ8tMDegQIaxAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0563107dfe6c90fa&gl=us&hl=en&ei=XoU_apryA7yfseMPyfbPmAg&start=40&sa=N&sstk=AU9db-DcRaBIPfpHN_2_US673u6OaeYkE1fL9PFQm86uJU3imm4wbrL2V9ZuSD0wj6zDCfh5CtFtIqg-P0KA0M1qcF6Pgjg3FoMw6w&ved=2ahUKEwiamZqG_KaVAxW8T2wGHUn7E4MQ8tMDegQIaxAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0563107dfe6c90fa&gl=us&hl=en&ei=XoU_apryA7yfseMPyfbPmAg&start=50&sa=N&sstk=AU9db-DcRaBIPfpHN_2_US673u6OaeYkE1fL9PFQm86uJU3imm4wbrL2V9ZuSD0wj6zDCfh5CtFtIqg-P0KA0M1qcF6Pgjg3FoMw6w&ved=2ahUKEwiamZqG_KaVAxW8T2wGHUn7E4MQ8tMDegQIaxAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0563107dfe6c90fa&gl=us&hl=en&ei=XoU_apryA7yfseMPyfbPmAg&start=60&sa=N&sstk=AU9db-DcRaBIPfpHN_2_US673u6OaeYkE1fL9PFQm86uJU3imm4wbrL2V9ZuSD0wj6zDCfh5CtFtIqg-P0KA0M1qcF6Pgjg3FoMw6w&ved=2ahUKEwiamZqG_KaVAxW8T2wGHUn7E4MQ8tMDegQIaxAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0563107dfe6c90fa&gl=us&hl=en&ei=XoU_apryA7yfseMPyfbPmAg&start=70&sa=N&sstk=AU9db-DcRaBIPfpHN_2_US673u6OaeYkE1fL9PFQm86uJU3imm4wbrL2V9ZuSD0wj6zDCfh5CtFtIqg-P0KA0M1qcF6Pgjg3FoMw6w&ved=2ahUKEwiamZqG_KaVAxW8T2wGHUn7E4MQ8tMDegQIaxAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0563107dfe6c90fa&gl=us&hl=en&ei=XoU_apryA7yfseMPyfbPmAg&start=80&sa=N&sstk=AU9db-DcRaBIPfpHN_2_US673u6OaeYkE1fL9PFQm86uJU3imm4wbrL2V9ZuSD0wj6zDCfh5CtFtIqg-P0KA0M1qcF6Pgjg3FoMw6w&ved=2ahUKEwiamZqG_KaVAxW8T2wGHUn7E4MQ8tMDegQIaxAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=0563107dfe6c90fa&gl=us&hl=en&ei=XoU_apryA7yfseMPyfbPmAg&start=90&sa=N&sstk=AU9db-DcRaBIPfpHN_2_US673u6OaeYkE1fL9PFQm86uJU3imm4wbrL2V9ZuSD0wj6zDCfh5CtFtIqg-P0KA0M1qcF6Pgjg3FoMw6w&ved=2ahUKEwiamZqG_KaVAxW8T2wGHUn7E4MQ8tMDegQIaxAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d4689b59cf2d8a3f&gl=us&hl=en&ei=aZM_auGjN7maptQPqIHH0Qc&start=10&sa=N&sstk=AU9db-CR-IpsJQfYNb1G5VY4tuvAEIWRjAxoTzokMfew4i289QiTmShMJXXc9i_5UgTxTxbqrxdh_JxH59Ao_KpuReQN18GglsDJlg&ved=2ahUKEwih_Oq4iaeVAxU5jYkEHajAMXoQ8tMDegQIThAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d4689b59cf2d8a3f&gl=us&hl=en&ei=aZM_auGjN7maptQPqIHH0Qc&start=20&sa=N&sstk=AU9db-CR-IpsJQfYNb1G5VY4tuvAEIWRjAxoTzokMfew4i289QiTmShMJXXc9i_5UgTxTxbqrxdh_JxH59Ao_KpuReQN18GglsDJlg&ved=2ahUKEwih_Oq4iaeVAxU5jYkEHajAMXoQ8tMDegQIThAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d4689b59cf2d8a3f&gl=us&hl=en&ei=aZM_auGjN7maptQPqIHH0Qc&start=30&sa=N&sstk=AU9db-CR-IpsJQfYNb1G5VY4tuvAEIWRjAxoTzokMfew4i289QiTmShMJXXc9i_5UgTxTxbqrxdh_JxH59Ao_KpuReQN18GglsDJlg&ved=2ahUKEwih_Oq4iaeVAxU5jYkEHajAMXoQ8tMDegQIThAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d4689b59cf2d8a3f&gl=us&hl=en&ei=aZM_auGjN7maptQPqIHH0Qc&start=40&sa=N&sstk=AU9db-CR-IpsJQfYNb1G5VY4tuvAEIWRjAxoTzokMfew4i289QiTmShMJXXc9i_5UgTxTxbqrxdh_JxH59Ao_KpuReQN18GglsDJlg&ved=2ahUKEwih_Oq4iaeVAxU5jYkEHajAMXoQ8tMDegQIThAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d4689b59cf2d8a3f&gl=us&hl=en&ei=aZM_auGjN7maptQPqIHH0Qc&start=50&sa=N&sstk=AU9db-CR-IpsJQfYNb1G5VY4tuvAEIWRjAxoTzokMfew4i289QiTmShMJXXc9i_5UgTxTxbqrxdh_JxH59Ao_KpuReQN18GglsDJlg&ved=2ahUKEwih_Oq4iaeVAxU5jYkEHajAMXoQ8tMDegQIThAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d4689b59cf2d8a3f&gl=us&hl=en&ei=aZM_auGjN7maptQPqIHH0Qc&start=60&sa=N&sstk=AU9db-CR-IpsJQfYNb1G5VY4tuvAEIWRjAxoTzokMfew4i289QiTmShMJXXc9i_5UgTxTxbqrxdh_JxH59Ao_KpuReQN18GglsDJlg&ved=2ahUKEwih_Oq4iaeVAxU5jYkEHajAMXoQ8tMDegQIThAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d4689b59cf2d8a3f&gl=us&hl=en&ei=aZM_auGjN7maptQPqIHH0Qc&start=70&sa=N&sstk=AU9db-CR-IpsJQfYNb1G5VY4tuvAEIWRjAxoTzokMfew4i289QiTmShMJXXc9i_5UgTxTxbqrxdh_JxH59Ao_KpuReQN18GglsDJlg&ved=2ahUKEwih_Oq4iaeVAxU5jYkEHajAMXoQ8tMDegQIThAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d4689b59cf2d8a3f&gl=us&hl=en&ei=aZM_auGjN7maptQPqIHH0Qc&start=80&sa=N&sstk=AU9db-CR-IpsJQfYNb1G5VY4tuvAEIWRjAxoTzokMfew4i289QiTmShMJXXc9i_5UgTxTxbqrxdh_JxH59Ao_KpuReQN18GglsDJlg&ved=2ahUKEwih_Oq4iaeVAxU5jYkEHajAMXoQ8tMDegQIThAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=d4689b59cf2d8a3f&gl=us&hl=en&ei=aZM_auGjN7maptQPqIHH0Qc&start=90&sa=N&sstk=AU9db-CR-IpsJQfYNb1G5VY4tuvAEIWRjAxoTzokMfew4i289QiTmShMJXXc9i_5UgTxTxbqrxdh_JxH59Ao_KpuReQN18GglsDJlg&ved=2ahUKEwih_Oq4iaeVAxU5jYkEHajAMXoQ8tMDegQIThAU"
           }
         }
       }
     }
   },
-  "requestId": "0624ca5d-e30f-45dd-b140-126c5e3a66b5",
-  "timestamp": 1782550202468,
-  "recordTime": "2026-06-27 16:50:02"
+  "requestId": "cb130816-fdb3-47fe-bc41-74e4a453d28f",
+  "timestamp": 1782551880988,
+  "recordTime": "2026-06-27 17:18:00"
 }
