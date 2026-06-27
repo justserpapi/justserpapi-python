@@ -3,38 +3,284 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-27 04:10:03",
+    "checkedAt": "2026-06-27 05:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "organic_results_state": "Results for exact spelling"
+          "time_taken": 0.67,
+          "total_results": 192,
+          "query_displayed": "coffee",
+          "spelling_fixed": "Choose area",
+          "showing_results_for": "Choose area",
+          "organic_results_state": "Some results for exact spelling but showing fixed spelling",
+          "original_query_yields_zero_results": false,
+          "url": "https://www.google.com/search?q=coffee&oq=coffee&gl=us&hl=en&safe=off&sourceid=chrome&ie=UTF-8"
         },
-        "peopleAlsoAskedFor": [],
+        "knowledge_graph": {
+          "title": "Coffee"
+        },
+        "local_results": [
+          {
+            "position": 1,
+            "title": "Mar7aba cafe ( marhaba cafe )Mar7aba cafe ( marhaba cafe )\"Their coffee, tea, and chocolate creations are unique and delicious.\"",
+            "rating": "4.9",
+            "reviews": "168",
+            "address": "4.9(168) · $10–20 · Coffee shop",
+            "hours": "Anaheim, CA",
+            "links": {}
+          },
+          {
+            "position": 2,
+            "title": "Qahwetna CoffeeQahwetna Coffee\"Amazing work atmosphere, flavorful drinks and super clean overall!\"",
+            "rating": "4.8",
+            "reviews": "56",
+            "address": "4.8(56) · $1–20 · Coffee shop",
+            "hours": "Anaheim, CA",
+            "links": {}
+          },
+          {
+            "position": 3,
+            "title": "Tierra Mia Coffee Drive ThruTierra Mia Coffee Drive Thru\"My coffee was excellent great service beautiful atmosphere\"",
+            "rating": "4.4",
+            "reviews": "1.2K",
+            "address": "4.4(1.2K) · $1–10 · Coffee shop",
+            "hours": "Anaheim, CA",
+            "links": {}
+          }
+        ],
+        "peopleAlsoAskedFor": [
+          {
+            "question": "Does coffee reduce swelling?",
+            "rank": 1
+          },
+          {
+            "question": "What is coffee called in Colombia?",
+            "rank": 2
+          },
+          {
+            "question": "What is the 15 15 15 rule for coffee?",
+            "rank": 3
+          },
+          {
+            "question": "Is instant coffee good for diabetics?",
+            "rank": 4
+          }
+        ],
+        "organic_results": [
+          {
+            "title": "Coffee",
+            "link": "https://en.wikipedia.org/wiki/Coffee",
+            "displayed_link": "https://en.wikipedia.org › wiki › Coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAnklEQVR4AeTNIQiDQABG4b+u17X1aF6PK3YEO9iMJqPVau82y4FgMezS0oVLhqsHtrcqeqzDXv3CEz/6L4yTtZM3dnHmPTtjzXZAXKYVo4agkU2GI2Lloc6JDez1+flswMu1EQZ3xlE7lK8eKDkjtwE+crBMV+wesKmCiisGGepZIfQJpMj9SNb2MYWrChjVkULuCyCfRvsdmBieyQQAsoDk/9ryhFMAAAAASUVORK5CYII=",
+            "source": "Wikipedia",
+            "snippet": "Coffee is a beverage brewed from roasted ground coffee beans. Darkly colored and bitter, coffee has a stimulating effect on humans due to its caffeine content, ...Read more",
+            "highlighted_keywords": [
+              "Coffee",
+              "coffee",
+              "coffee"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {},
+                "extensions": []
+              }
+            },
+            "rank": 1,
+            "page_rank": 1
+          },
+          {
+            "title": "Buy Coffee, Tea, Powders Online | The Coffee Bean & Tea ...",
+            "link": "https://www.coffeebean.com/",
+            "displayed_link": "https://www.coffeebean.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEVHcExTLG1TLG1TLG1TLW1TLG1TLG1TLW1TLG1TLG1TLG30H49eAAAAC3RSTlMAFT5uyLedLN38V4AViBkAAADiSURBVHgBlZAlYgIAAAAPl4JLm3Zcy1zifGtzLbi2uaQ5UnC+iWvk2sU7JkfrcMxAH93qweWatW+yJ49GE3kKAgCpEwBjBgBkeeI5K/iCmADzifL96QukS5FnwEnyaXMRBAdrNhCskHz/DSJzrZXUINxAeVVCeLFbT0yDaBs0QtnmndpQVLf0FEj6r8Fopavx2gdpDB3dFtSe00HhC4YiILxzrU9D9IH5aUC5txsUzFAt4gJ0e5dquLD5ETwCRx79CSR/rUgXgRCyHxC4i62EscCvfv7qWD66vf6c/jr/DBPTBBH3MWVXMDuJAAAAAElFTkSuQmCC",
+            "source": "The Coffee Bean & Tea Leaf",
+            "snippet": "Buy exceptional coffee, tea, powders, equipment and drinkware at The Coffee Bean & Tea Leaf® online store to enjoy our globally sourced products at home.",
+            "highlighted_keywords": [
+              "Buy exceptional coffee, tea, powders, equipment and drinkware"
+            ],
+            "rank": 2,
+            "page_rank": 2
+          },
+          {
+            "title": "What is coffee? - NCA",
+            "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
+            "displayed_link": "https://www.aboutcoffee.org › Origins",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAk1BMVEX////6+vv5+frp6uzq6+3t7vDx8fPz9PWxtLuTmKBja3iipq7U1trk5eg0QVUAEjMAHTkfMEcpOE0AACpOWGi5vcIXKkI/S10AGTd+hI/LztIEIDuGjJZocHwACS+doalxeIMAFjUAACi1uL4RJj/loaIjPVLPIyXu9PbtmZmHMDzskpHvtbaLBBzJtbmkMzzKrbGTXXfdAAABBklEQVR4Aa3SVWKDUBBA0Txm5g3EcXetd/+rK1LB/pqboAeHwz8TSp8QYhdhESLNkfAnkpIQYWY8rh5HqnY80RIB8Xy6MNH1dtcJN0iGaV3sm+64vIO2d/eDW2hGLBeojGg6+sXTzooaA8o/lL1J1hIvPQs7SXyJOEc6ZykHeXZRPSdfXi4DSuPmBhedcufmAiKIXxSAFJhOUapaUQWMPSpzRI6SykrjAPiyxEOPyKer6XNUxpHsUSwRJZ/jLO832Nmzr27M5EqIy0c0GbSWfZY4Jv5wXNM9Pb90NBnwCun1rZ5siQwDvn90uINixNMnLXBxRTQYjKEyQ4LvSI7xzhcqxOExfQGirBAhUMQZRwAAAABJRU5ErkJggg==",
+            "source": "About Coffee - National Coffee Association",
+            "snippet": "What is coffee made of? Learn about the coffee tree, its lifespan, how it produces coffee beans, and the two most common coffee species, arabica and ...",
+            "highlighted_keywords": [
+              "Learn about the coffee tree, its lifespan, how it produces coffee beans"
+            ],
+            "rank": 3,
+            "page_rank": 3
+          },
+          {
+            "title": "Purity Coffee | Shop High Antioxidant Organic Coffee Online",
+            "link": "https://puritycoffee.com/?srsltid=AfmBOooozPMttTEYk4BKbvUeBX8fNQkmCvrGlUwENpPE0mnYRkPEZmaX",
+            "displayed_link": "https://puritycoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEVHcEwAqKIAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKOUxb52AAAAEHRSTlMABhEjX6HJ3v/68LKLSHU2r1raSQAAAORJREFUeAFjgABBRQEGBDAJKwsxgPNUMmZ0dJQoQHlMkR2dKzs6AqBc7s72I1eOd/ZAuS9m7BdgkN8x6wNE7YpuBWZfAXOoar7OYsaIjlqWGcUQrR0HRDtmdSuvqAdz1Tsdrne8jYZxzTs/eLYx2PICFUO4F7zaGRikOzaAuWogxUHMkTMcwFzWjgDRzq6qzjaIK1hm1jNldHR0FECdXNEqoFO1vAbmRY+ZBxlsfeEe5O5Yh+x55oyuAwxI4FvHbAYU6RkbkPnaML9D7drRboDMV2u/gKJ7+gcGZHBcAYWry4ANAAAooUYYhwCehwAAAABJRU5ErkJggg==",
+            "source": "Purity Coffee",
+            "snippet": "Shop Purity Coffee online today. Explore organic, specialty grade coffee that is purity tested, antioxidant rich and crafted for a cleaner ...",
+            "highlighted_keywords": [
+              "Explore organic, specialty grade coffee"
+            ],
+            "rank": 4,
+            "page_rank": 4
+          },
+          {
+            "title": "Coffee Shop Orange, CA - Last Updated June 2026",
+            "link": "https://www.yelp.com/search?find_desc=Coffee+Shop&find_loc=Orange%2C+CA",
+            "displayed_link": "https://www.yelp.com › Food",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAflBMVEX0DRX0AAr0AAD0BhD3U1j5ioz5lZf2R0z8xcb+6uv+9fX/+Pn93N31GiH6pKb////4fX/0AAX1LzX8wML4hIb0ERn1KTD+5eX5kJP3XmL4bnH+8PH91db3PkX1HSb7t7r3T1X9ztD3Zmn6qKv4anD1NTz5dnr7r7H3Wl77tLUFH9U+AAAA4UlEQVR4AbTRRWKAMBAFUPKRUmxwd+f+Fyyzwpf9m8iLR/r/CEB8EGRF1X7eVSj6r2FaeEXboT3mO8I1dzS8V5T9gBFcfSpCgxjlKH6qHOtECWQ71bPbzkKWkBdUwtZMSq6Iqga8hgKofK78rKKlomkRdUrPRuoZoXKXoSIKyCiG8bIsNOKUtZjGGLhtORtJGThZL7tDXt/fN3KzCXCKaaFiWXFTeAKuQUpfECXb44XRWkSTvdAe7/FADRH5/BL0mLn3MgrPoUXI95nTUpgm9i+J2W4RUqbN7z/G8QDpb/QAAKRZDoQhpaGVAAAAAElFTkSuQmCC",
+            "source": "Yelp",
+            "snippet": "Coffee Shop Orange, CA · 1. Contra Coffee & Tea · 2. Baba's Coffee Corner · 3. Makenna Koffee · 4. Caffe In Coffee · 5. Bodhi Leaf Coffee Traders · 6. Play ...Read more",
+            "highlighted_keywords": [
+              "1. Contra Coffee & Tea"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "rating": "4.4",
+                  "reviews": "39,869"
+                },
+                "extensions": [
+                  "4.4",
+                  "(39,869)"
+                ]
+              }
+            },
+            "rank": 5,
+            "page_rank": 5
+          },
+          {
+            "title": "Specialty Coffee | Buy Coffee Online",
+            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOopJq4siMYoz32nL4mRvYaOE0oK1mEXcw4OBS-71MA6Vs5QGfuGv",
+            "displayed_link": "https://www.drinktrade.com › All Specialty Coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEX1PDL1Mib1Niz5lJD3dnD0Jxj+9/f////0AAD1LSD7vLn3enX94N/+8fD5o6D5mJX2Tkb6t7X5m5j0KRz3dXD7wL74iIP0IA780M/+6ej6sa/819X/+/v8yMb6q6j4kIz3ZV/1MSX0IRAImGEoAAAAoElEQVR4AWLACkYBIxMeOUD702AAMRRD65fU+kax/45nDXGxkRc/2bICQGmWcZokGVNVc8rpK5k1bdf0QzFO88KrmLuJpJiXV1ZpQxUsHPoGxsMO0Aiv7HJPTjQHE5yjBbFrN43yJxlH9FVoBZGPldFap9+kjzvWTkf0AjFU0r3HsnBkeiXQChIwbTwczP7+h5ekPBI+S76Lm7mc5Sv3hyvK6Qr7Kdp/7AAAAABJRU5ErkJggg==",
+            "source": "Trade Coffee",
+            "snippet": "Choose from a wide variety of coffee from the top roasters in the US. All our specialty coffee is roasted to order and shipped fresh to your door.Read more",
+            "highlighted_keywords": [
+              "Choose from a wide variety of coffee"
+            ],
+            "inline_snippet": "4.7",
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$17",
+                  "price_to": "$33",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "4.7 store rating (239)",
+                  "4.7",
+                  "$17 to $33",
+                  "Free delivery"
+                ]
+              }
+            },
+            "rank": 6,
+            "page_rank": 6
+          },
+          {
+            "title": "Catalina Coffee: Order Online - Houston",
+            "link": "https://www.catalinacoffeeshop.com/",
+            "displayed_link": "https://www.catalinacoffeeshop.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAXVBMVEVVZHVRYHJUY3RMXG+Ol6GAipZOXnBkcYCKk55wfIqTm6WutLyyuL+7wMZ8hpPGys+kq7Nqd4W+w8mpr7enrbWEjplgbn6co6zQ09jb3eFYZ3dzfoxIWWw1SmDU2NxksjkYAAAAqUlEQVR4AeVOhYHDMAwUxOd8zXaY9t/ymdoVKmYdPRUxvxv5iuShp50BYImB3ryoCvDb45vzNsSUe0/JlFy5Db9duFjGnNzU/K3Ocel6v9LPddlSNcGZ1vzour0ZU9Nvk0SVFQwogwXMqnewoCARlneiR7yYF3fYYzXrMWHi++axnEcK4xVDuLo16V1Taw7Jj8m6+m4zHu5Gpl0LWX632+NXJhH6ZqHnojcH4Aeis9NCsQAAAABJRU5ErkJggg==",
+            "source": "Catalina Coffee",
+            "snippet": "Catalina Coffee 2201 Washington Ave Houston, Texas 77007 (713) 861-8448 info@catalinacoffeeshop.com Get directionsRead more",
+            "highlighted_keywords": [
+              "2201 Washington Ave Houston, Texas 77007"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$19",
+                  "price_to": "$25",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$19 to $25"
+                ]
+              }
+            },
+            "rank": 7,
+            "page_rank": 7
+          },
+          {
+            "title": "Coffee | Origin, Types, Uses, History, & Facts",
+            "link": "https://www.britannica.com/topic/coffee",
+            "displayed_link": "https://www.britannica.com › ... › Food",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
+            "source": "Britannica",
+            "snippet": "Coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant of African origin. Coffee is one of the ...",
+            "highlighted_keywords": [
+              "Coffee",
+              "coffee",
+              "Coffee"
+            ],
+            "rank": 8,
+            "page_rank": 8
+          }
+        ],
+        "relatedSearches": [
+          {
+            "query": "Coffee types",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+types"
+          },
+          {
+            "query": "Coffee nearby",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+nearby"
+          },
+          {
+            "query": "Coffee Bean menu",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Bean+menu"
+          },
+          {
+            "query": "Coffee brands",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
+          },
+          {
+            "query": "Coffee name",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
+          },
+          {
+            "query": "Coffee beans",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
+          },
+          {
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
+          },
+          {
+            "query": "Coffee Pic",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Pic"
+          }
+        ],
         "dmca_message": {
           "text": "",
           "links": []
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=67d80ec16ca7c05d&gl=us&hl=en&ei=Gk0_avziGIugw8cP7fHd-AI&start=10&sa=N&sstk=AU9db-CtGYW8dYgMGfWOAR96Qpl3D4e9pOXBkrLkK39PjN-eBEdFlfVFe1kifdcoCNc-M8wEoUq2n9KHQ8hHZ-z1OJxCHuU6wYx7Bw&ved=2ahUKEwj814CyxqaVAxUL0PACHe14Fy8Q8NMDegQIRBAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=378b7f4d21a2c63d&gl=us&hl=en&ei=KFs_at_sF6-1ptQPte3M0AE&start=10&sa=N&sstk=AU9db-D1iBW-mBMJkKoqvU0_gVF5NSqs77P1BpSi9TBi3vP5We_eLn9MXGO0N1X8WrHeUZ3v4twr8DKrZ5tagVEX6rLcxJqK9HUH4g&ved=2ahUKEwjfoNTl06aVAxWvmokEHbU2ExoQ8NMDegQIVxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=67d80ec16ca7c05d&gl=us&hl=en&ei=Gk0_avziGIugw8cP7fHd-AI&start=10&sa=N&sstk=AU9db-CtGYW8dYgMGfWOAR96Qpl3D4e9pOXBkrLkK39PjN-eBEdFlfVFe1kifdcoCNc-M8wEoUq2n9KHQ8hHZ-z1OJxCHuU6wYx7Bw&ved=2ahUKEwj814CyxqaVAxUL0PACHe14Fy8Q8tMDegQIRBAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=67d80ec16ca7c05d&gl=us&hl=en&ei=Gk0_avziGIugw8cP7fHd-AI&start=20&sa=N&sstk=AU9db-CtGYW8dYgMGfWOAR96Qpl3D4e9pOXBkrLkK39PjN-eBEdFlfVFe1kifdcoCNc-M8wEoUq2n9KHQ8hHZ-z1OJxCHuU6wYx7Bw&ved=2ahUKEwj814CyxqaVAxUL0PACHe14Fy8Q8tMDegQIRBAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=67d80ec16ca7c05d&gl=us&hl=en&ei=Gk0_avziGIugw8cP7fHd-AI&start=30&sa=N&sstk=AU9db-CtGYW8dYgMGfWOAR96Qpl3D4e9pOXBkrLkK39PjN-eBEdFlfVFe1kifdcoCNc-M8wEoUq2n9KHQ8hHZ-z1OJxCHuU6wYx7Bw&ved=2ahUKEwj814CyxqaVAxUL0PACHe14Fy8Q8tMDegQIRBAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=67d80ec16ca7c05d&gl=us&hl=en&ei=Gk0_avziGIugw8cP7fHd-AI&start=40&sa=N&sstk=AU9db-CtGYW8dYgMGfWOAR96Qpl3D4e9pOXBkrLkK39PjN-eBEdFlfVFe1kifdcoCNc-M8wEoUq2n9KHQ8hHZ-z1OJxCHuU6wYx7Bw&ved=2ahUKEwj814CyxqaVAxUL0PACHe14Fy8Q8tMDegQIRBAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=67d80ec16ca7c05d&gl=us&hl=en&ei=Gk0_avziGIugw8cP7fHd-AI&start=50&sa=N&sstk=AU9db-CtGYW8dYgMGfWOAR96Qpl3D4e9pOXBkrLkK39PjN-eBEdFlfVFe1kifdcoCNc-M8wEoUq2n9KHQ8hHZ-z1OJxCHuU6wYx7Bw&ved=2ahUKEwj814CyxqaVAxUL0PACHe14Fy8Q8tMDegQIRBAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=67d80ec16ca7c05d&gl=us&hl=en&ei=Gk0_avziGIugw8cP7fHd-AI&start=60&sa=N&sstk=AU9db-CtGYW8dYgMGfWOAR96Qpl3D4e9pOXBkrLkK39PjN-eBEdFlfVFe1kifdcoCNc-M8wEoUq2n9KHQ8hHZ-z1OJxCHuU6wYx7Bw&ved=2ahUKEwj814CyxqaVAxUL0PACHe14Fy8Q8tMDegQIRBAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=67d80ec16ca7c05d&gl=us&hl=en&ei=Gk0_avziGIugw8cP7fHd-AI&start=70&sa=N&sstk=AU9db-CtGYW8dYgMGfWOAR96Qpl3D4e9pOXBkrLkK39PjN-eBEdFlfVFe1kifdcoCNc-M8wEoUq2n9KHQ8hHZ-z1OJxCHuU6wYx7Bw&ved=2ahUKEwj814CyxqaVAxUL0PACHe14Fy8Q8tMDegQIRBAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=67d80ec16ca7c05d&gl=us&hl=en&ei=Gk0_avziGIugw8cP7fHd-AI&start=80&sa=N&sstk=AU9db-CtGYW8dYgMGfWOAR96Qpl3D4e9pOXBkrLkK39PjN-eBEdFlfVFe1kifdcoCNc-M8wEoUq2n9KHQ8hHZ-z1OJxCHuU6wYx7Bw&ved=2ahUKEwj814CyxqaVAxUL0PACHe14Fy8Q8tMDegQIRBAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=67d80ec16ca7c05d&gl=us&hl=en&ei=Gk0_avziGIugw8cP7fHd-AI&start=90&sa=N&sstk=AU9db-CtGYW8dYgMGfWOAR96Qpl3D4e9pOXBkrLkK39PjN-eBEdFlfVFe1kifdcoCNc-M8wEoUq2n9KHQ8hHZ-z1OJxCHuU6wYx7Bw&ved=2ahUKEwj814CyxqaVAxUL0PACHe14Fy8Q8tMDegQIRBAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=378b7f4d21a2c63d&gl=us&hl=en&ei=KFs_at_sF6-1ptQPte3M0AE&start=10&sa=N&sstk=AU9db-D1iBW-mBMJkKoqvU0_gVF5NSqs77P1BpSi9TBi3vP5We_eLn9MXGO0N1X8WrHeUZ3v4twr8DKrZ5tagVEX6rLcxJqK9HUH4g&ved=2ahUKEwjfoNTl06aVAxWvmokEHbU2ExoQ8tMDegQIVxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=378b7f4d21a2c63d&gl=us&hl=en&ei=KFs_at_sF6-1ptQPte3M0AE&start=20&sa=N&sstk=AU9db-D1iBW-mBMJkKoqvU0_gVF5NSqs77P1BpSi9TBi3vP5We_eLn9MXGO0N1X8WrHeUZ3v4twr8DKrZ5tagVEX6rLcxJqK9HUH4g&ved=2ahUKEwjfoNTl06aVAxWvmokEHbU2ExoQ8tMDegQIVxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=378b7f4d21a2c63d&gl=us&hl=en&ei=KFs_at_sF6-1ptQPte3M0AE&start=30&sa=N&sstk=AU9db-D1iBW-mBMJkKoqvU0_gVF5NSqs77P1BpSi9TBi3vP5We_eLn9MXGO0N1X8WrHeUZ3v4twr8DKrZ5tagVEX6rLcxJqK9HUH4g&ved=2ahUKEwjfoNTl06aVAxWvmokEHbU2ExoQ8tMDegQIVxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=378b7f4d21a2c63d&gl=us&hl=en&ei=KFs_at_sF6-1ptQPte3M0AE&start=40&sa=N&sstk=AU9db-D1iBW-mBMJkKoqvU0_gVF5NSqs77P1BpSi9TBi3vP5We_eLn9MXGO0N1X8WrHeUZ3v4twr8DKrZ5tagVEX6rLcxJqK9HUH4g&ved=2ahUKEwjfoNTl06aVAxWvmokEHbU2ExoQ8tMDegQIVxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=378b7f4d21a2c63d&gl=us&hl=en&ei=KFs_at_sF6-1ptQPte3M0AE&start=50&sa=N&sstk=AU9db-D1iBW-mBMJkKoqvU0_gVF5NSqs77P1BpSi9TBi3vP5We_eLn9MXGO0N1X8WrHeUZ3v4twr8DKrZ5tagVEX6rLcxJqK9HUH4g&ved=2ahUKEwjfoNTl06aVAxWvmokEHbU2ExoQ8tMDegQIVxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=378b7f4d21a2c63d&gl=us&hl=en&ei=KFs_at_sF6-1ptQPte3M0AE&start=60&sa=N&sstk=AU9db-D1iBW-mBMJkKoqvU0_gVF5NSqs77P1BpSi9TBi3vP5We_eLn9MXGO0N1X8WrHeUZ3v4twr8DKrZ5tagVEX6rLcxJqK9HUH4g&ved=2ahUKEwjfoNTl06aVAxWvmokEHbU2ExoQ8tMDegQIVxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=378b7f4d21a2c63d&gl=us&hl=en&ei=KFs_at_sF6-1ptQPte3M0AE&start=70&sa=N&sstk=AU9db-D1iBW-mBMJkKoqvU0_gVF5NSqs77P1BpSi9TBi3vP5We_eLn9MXGO0N1X8WrHeUZ3v4twr8DKrZ5tagVEX6rLcxJqK9HUH4g&ved=2ahUKEwjfoNTl06aVAxWvmokEHbU2ExoQ8tMDegQIVxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=378b7f4d21a2c63d&gl=us&hl=en&ei=KFs_at_sF6-1ptQPte3M0AE&start=80&sa=N&sstk=AU9db-D1iBW-mBMJkKoqvU0_gVF5NSqs77P1BpSi9TBi3vP5We_eLn9MXGO0N1X8WrHeUZ3v4twr8DKrZ5tagVEX6rLcxJqK9HUH4g&ved=2ahUKEwjfoNTl06aVAxWvmokEHbU2ExoQ8tMDegQIVxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=378b7f4d21a2c63d&gl=us&hl=en&ei=KFs_at_sF6-1ptQPte3M0AE&start=90&sa=N&sstk=AU9db-D1iBW-mBMJkKoqvU0_gVF5NSqs77P1BpSi9TBi3vP5We_eLn9MXGO0N1X8WrHeUZ3v4twr8DKrZ5tagVEX6rLcxJqK9HUH4g&ved=2ahUKEwjfoNTl06aVAxWvmokEHbU2ExoQ8tMDegQIVxAU"
           }
         }
       }
     }
   },
-  "requestId": "21fafa8d-76f2-4fcd-a87e-fa6046b360e4",
-  "timestamp": 1782536403783,
-  "recordTime": "2026-06-27 13:00:03"
+  "requestId": "240e1922-69db-403a-a462-8757efd32841",
+  "timestamp": 1782537003001,
+  "recordTime": "2026-06-27 13:10:02"
 }
