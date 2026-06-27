@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-26 23:10:03",
+    "checkedAt": "2026-06-27 00:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.5,
-          "total_results": 190,
+          "time_taken": 0.38,
+          "total_results": 174,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,29 +24,29 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Honey Coffee & MatchaHoney Coffee & MatchaRecently opened",
-            "rating": "4.7",
-            "reviews": "42",
-            "address": "4.7(42) · Coffee shop",
-            "hours": "Brentwood, MO",
+            "title": "Safwa Coffee & TeahouseSafwa Coffee & Teahouse",
+            "rating": "4.8",
+            "reviews": "738",
+            "address": "4.8(738) · $10–20 · Coffee shop",
+            "hours": "Somerset, NJ",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Cafe Fleur De LisCafe Fleur De Lis\"The coffee is exceptional – rich, flavorful, and clearly crafted with care.\"",
-            "rating": "4.8",
-            "reviews": "306",
-            "address": "4.8(306) · $10–20 · Coffee shop",
-            "hours": "St. Louis, MO",
+            "title": "7 Brew Coffee7 Brew CoffeeRecently opened",
+            "rating": "4.2",
+            "reviews": "42",
+            "address": "4.2(42) · $1–10 · Coffee shop",
+            "hours": "Clark, NJ",
             "links": {}
           },
           {
             "position": 3,
-            "title": "7 Brew Coffee7 Brew Coffee\"Quick service, always a fun atmosphere and the coffee is soo good.\"",
-            "rating": "4.5",
-            "reviews": "49",
-            "address": "4.5(49) · $1–10 · Coffee shop",
-            "hours": "Kirkwood, MO",
+            "title": "Haraz Coffee HouseHaraz Coffee House",
+            "rating": "4.4",
+            "reviews": "393",
+            "address": "4.4(393) · $1–10 · Coffee shop",
+            "hours": "New Brunswick, NJ",
             "links": {}
           }
         ],
@@ -130,41 +130,68 @@
             "page_rank": 4
           },
           {
-            "title": "Coffee Shops of St. Louis (@stl.coffeeshops)",
-            "link": "https://www.instagram.com/stl.coffeeshops/?hl=en",
-            "displayed_link": "2.2K+ followers",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABcVBMVEVHcEx3GPlwGPx1FvyDC/OWBumqA+K+AeDQANvVAs7rDa7jAtfoAMflAriKGP2ZCvunAvLEG/TgV9/oZt72G8nxB8nxALCKHPymGf7Pg/H86vf////zds79AcD9ALT3DZ30t+j63fP1st31quT8AKf8AJn98/jaO973Lr38AIvAAOz8Drn4V7370PHiGe34E6n7HZv9AHv5wOP1Wpr8D5H9AGz9GYX6q8r2YKL5dZP3tMT8D2/8KW31Y5f9AV/9Inn+G17+KFf3v879J0f+MUf5g2v3wbr9Nyz6RUP9Ml/9Qxr+SjX7zcr6Gkb8AEL+UQ/9Wiv98uT70rD8XQT8ZxD9ZCr40sP4Tn/9cAz+egj9ciX1km/1X1L9O0j4nD7+hAT9hRb8fh34unb9jQT3jZX73a78dwX+mwL6ymPzoZD8YSf9qAD+sQD7wBL8zEn5tV79jwb+uAD+vgH+wwD+LHP8owX+ygD6Olj7rQz+twf8UjMSMf5jAAAAe3RSTlMAW9L////////FW///2P///////////8b/////////xf///////////////////////////v/////////////////////////////////////////////////////////////////F////W////f//2f///9fY/9hbxcXA5ZvtAAACBUlEQVR4AUTPRaLkNhSF4f9IV3Kp/JjfCzMzM8xCG8lWMs9SsoIkTdNmZubiKtvqduMnZl0BkgCBEI+zhiBwD5f0ZA3wQj1Eu1YiMZQADyAA9SRXgpCEaGXcODFKoq/NEXRHXYmnshMak0xdGC/PiO1Mi1rTbA0LyM/BOOWyuISrHyLPTRoKZDaBndvoQrezQA/IWlBe6DXCsOdgong+bdCLyzW5F3VzpY7TckLH4ESRlvsbNlj2V4DNu3klk/Ed8HUvYlVKwa4NSmedWzNX1dbUcxlzsJMgxNppsywKv6l5M9YJZtizxOfObknxVOkVaAblle1BB0JNssXaJhA05tlKMOrcIXcMSOBc8IBvqzbQZC8SjIfMwxxz0iLnn0vQS+cx7ye0nPcPT7qPBmk2my7b4A0XlmiNzEMDQfD53vLF6sigLHLGMyzBCMzaawXf/HcAPqpmvqbDq5dGlQVjlexMYvqD0C3P+iVOccGBM0L1+d6uYozzRc6TbvA3/cI0r7g4dgoKy/SCee+akH32ltf38muG0kzR+PUfPl+DHq1in3jnSp8ZtjAxgz+u7OUJfb51cmk0Tqf158QwgcQUmM5zy9+tqnr9+nCf+3seU4hFCKHsptStxoEQg4fPhp7dP1dB8u6+LFzjqOq6afof/IWH/38O40irXXZ1g2+q99K9TWBgAACS27uoe/IOhgAAAABJRU5ErkJggg==",
-            "source": "Instagram · stl.coffeeshops",
-            "snippet": "just a mom in who loves coffee & helping promote coffee shops in the STL area. Follow. Message. Behold Coffee in Kimmswick, MO is a true hidden gem!Read more",
-            "highlighted_keywords": [
-              "Behold Coffee in Kimmswick, MO is a true hidden gem"
-            ],
-            "rank": 5,
-            "page_rank": 5
-          },
-          {
             "title": "Coffee | Origin, Types, Uses, History, & Facts",
             "link": "https://www.britannica.com/topic/coffee",
             "displayed_link": "https://www.britannica.com › ... › Food",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
             "source": "Britannica",
-            "snippet": "Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant.Read more",
+            "snippet": "Coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant of African origin. Coffee is one of the ...",
             "highlighted_keywords": [
               "Coffee",
-              "coffee"
+              "coffee",
+              "Coffee"
+            ],
+            "rank": 5,
+            "page_rank": 5
+          },
+          {
+            "title": "WB Law Coffee Co.: Freshly Roasted Specialty ... - Newark",
+            "link": "https://www.lawcoffee.com/en-us",
+            "displayed_link": "https://www.lawcoffee.com › en-us",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAV1BMVEVHcEywZ1WuY1GwaFWpWkelUz+rXk20bVumVkStY1CxaVitYlCsYU+waFaKHQOIGgCfSTeVNySqXk2TMBzAhnmPKhWZPy6jUD6wa1yGEwC4eGnJl4vVs6wH46zSAAAADnRSTlMAbEMTveXuDf0ng5iYg6lEg0AAAADbSURBVCiR3ZDbbgIxDEQDZBcHWl8SO7ft/39nvayQ2hd4Z+REsk6sjCeEz9P1j/6DlE5xgQzZC5Z4Sun54Hr+dlC5NWvCDNxyW27nB05fC/AAmaqiWacf7oXXewrhEhvnrbYGLGV2n5XZVTq3eAkR5tazodFg1U15kJVSdQLEsGIRRELEoT8uHUhEaDnb6pB2ssOi2zbLeDQ0Bq4hNjyg1Wr+od8HxRbdEJd9lmqfmbur7h0VdkMh3VcWIjOUZlzFzIjkWGUP4bYAcC1WUcSdMsAzhNfxvQn+M/QLg3oTHjTWz9cAAAAASUVORK5CYII=",
+            "source": "WB Law Coffee Co.",
+            "snippet": "Family-owned local coffee roaster in NJ distributing specialty coffees, espresso, cold brew in the greater Metro NYC area. Selling Drip Coffee, Cold Brew, ...",
+            "highlighted_keywords": [
+              "Family-owned local coffee roaster in NJ"
             ],
             "rank": 6,
             "page_rank": 6
           },
           {
+            "title": "Maiden Coffee Roasters — Specialty Coffee",
+            "link": "https://maidencoffee.com/?srsltid=AfmBOoocPHSUupAKrs5TUYx4tvEBrZ7Lo4x6BUNINkHxB7h9-Cx_2eUr",
+            "displayed_link": "https://maidencoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAB9klEQVR4AWJwL/ChKx4YC0ct/JdoIfYPQDs98MYahGEY/h/Htm0zqG3btm0zOHZ47PDYtm0u55u3+2w6tabZJrnb9TX0Gh6n2E6vxn88HzIQCLOcRIrdeOJeI4n7DycKMRQ8vMK0oMAslpERdBlnBCkQ4ODRPpdRZ+9CADG7nkCEz5kEZIFZsczTlZjdoj5B7KlpwOiaKuYXSIrzGqACxB7KLKsEmLKvUhVaSIZZAjU0uxMqMhmoyztb+T9lF7GQeGLutt1RkcfIWzhciJmP8x00qCq/U6nKOUm6+DqgnWYqYBH2GCcZ6bcuJN3mtdbS4Nvaz5U/Sm5SRxR7KmYrcOwvwmlGOgtzwulW24evkwZfVL4hgWJ5O8KYMXAREK1rkLG/3nn0I6j+pxR4pEJbdqXsKwHtCcaB6qlvEdv5u6RjhM5nPB0jBZ4sVxES8KvC28Y+Zp1B+NFOPUi9qKCLWY8ZOpf9csWAweJcpbC5iBE6WPRfwG3dzHvUKYGcyHmrO5Tz9SeSmmFMOs9KyeTaghyFo4541/bk/+aoKfefCmVk6l8VZWnOSe2hYzwl+STRp4Bk+gtYBLynxPvAkGcizZUCrWMpyD2R7gk0OIXzvsJn8NnW7yyXvocYIVDMFDknUAFyS6DSjonXWz9j3rKh36YZtXDUQgASw7vkFIRzdAAAAABJRU5ErkJggg==",
+            "source": "Maiden Coffee Roasters",
+            "snippet": "Exceptional Coffee Without Compromise. From our family to your cup. Shop blends, single origins, and wholesale partnerships.",
+            "highlighted_keywords": [
+              "Exceptional Coffee Without Compromise"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$21",
+                  "price_to": "$35",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$21 to $35",
+                  "3-day delivery"
+                ]
+              }
+            },
+            "rank": 7,
+            "page_rank": 7
+          },
+          {
             "title": "Specialty Coffee | Buy Coffee Online",
-            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOoqd35gF047UE3ZruvwpumyX5IpIHa9UGVrOGjOaZ7FBxqEGnGqm",
+            "link": "https://www.drinktrade.com/collections/all?srsltid=AfmBOop8oK7lrVMal6t7jIGbbg1gTg0Gd0UCn1vQVYmjTFr5XBIs4JLZ",
             "displayed_link": "https://www.drinktrade.com › All Specialty Coffee",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEX1PDL1Mib1Niz5lJD3dnD0Jxj+9/f////0AAD1LSD7vLn3enX94N/+8fD5o6D5mJX2Tkb6t7X5m5j0KRz3dXD7wL74iIP0IA780M/+6ej6sa/819X/+/v8yMb6q6j4kIz3ZV/1MSX0IRAImGEoAAAAoElEQVR4AWLACkYBIxMeOUD702AAMRRD65fU+kax/45nDXGxkRc/2bICQGmWcZokGVNVc8rpK5k1bdf0QzFO88KrmLuJpJiXV1ZpQxUsHPoGxsMO0Aiv7HJPTjQHE5yjBbFrN43yJxlH9FVoBZGPldFap9+kjzvWTkf0AjFU0r3HsnBkeiXQChIwbTwczP7+h5ekPBI+S76Lm7mc5Sv3hyvK6Qr7Kdp/7AAAAABJRU5ErkJggg==",
             "source": "Trade Coffee",
-            "snippet": "Discover the best specialty coffee or espresso delivered fresh to your door. Shop our online store for 450+ unique whole bean or ground coffees and ...",
+            "snippet": "Choose from a wide variety of coffee from the top roasters in the US. All our specialty coffee is roasted to order and shipped fresh to your door.Read more",
             "highlighted_keywords": [
-              "best specialty coffee or espresso delivered fresh to your door"
+              "Choose from a wide variety of coffee"
             ],
             "inline_snippet": "4.7",
             "rich_snippet": {
@@ -182,61 +209,8 @@
                 ]
               }
             },
-            "rank": 7,
-            "page_rank": 7
-          },
-          {
-            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
-            "link": "https://www.discountcoffee.com/",
-            "displayed_link": "https://www.discountcoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
-            "source": "DiscountCoffee.com",
-            "snippet": "Buy Breakroom Coffee Supplies, Starbucks, k-cup, pods, tea, sugar, creamer, hot chocolate, cappuccino. Free UPS Ground to homes & businesses nationwide.",
-            "highlighted_keywords": [
-              "Breakroom Coffee Supplies"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$5",
-                  "price_to": "$109",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "$5 to $109",
-                  "Free delivery over $59",
-                  "30-day returns"
-                ]
-              }
-            },
             "rank": 8,
             "page_rank": 8
-          },
-          {
-            "title": "Counter Culture Coffee",
-            "link": "https://counterculturecoffee.com/?srsltid=AfmBOoqDhJJ7I_W-3jm000BZmh7omxeyR8i6hpEe8q2T6V4hJkvRkn-M",
-            "displayed_link": "https://counterculturecoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACu0lEQVR4AWKgAmAFYm4g5gFiNgY6AA5A6fUAK0kQRWE4XTNr27YZrG3biJbB2rZt27Zt27Zt9f5JKslNJdNvKn2SL7V9213YeSiPpHq7AkagB+rrmkIz5NTbjmit4yCg/50QB7AbUXStDLZiKRrqWj7cwknkhoyyu7mOeIi82IMYogt6YQRi6Vpr3MVKcVx0JA77S4gbNkZt4+lrIjFCJQZyo6qozcZ55LXtjlw4g9niZDMKCJkG+IiRyB7OA0RCNLFdER0t+9ERx8XBcOQ3vq5nn69GozC6SXnUzGsGEWGC6IVGOIcM8mSPz6c8th3bUd8YBzEZUTwuXB1LcRUPcRqTkB++Ex2RjAdTYj3YBjeEfxiHKLBKHKSBjGO0sXEJLn7iD1zhu25vIK44N6w53xN1URrV5VuLdh5cfNPtL6zHBOyDiwuIY7PyKdGnu3EI+XRNiTfIht/4CxdPUAAyNZBKvJh1iomLOsYM6Cg+vYtqYr+yX/Pt/x+YCld7gFgwj1U2004ZF8iIqqiIILwe6i/+gfBAPiLfcAJeYylkgrrtLgaeixK6HtlzBbR4gH44hRmIB3NNLwAXv3V7BSkhU9B2BshER3wEPD7/emMavsEEdMQCuNgF4zz7pICMEvWnctGRRPccRnRYJysqYi0KhliMMuGCufwa26sRA8RuRtTBMzxHPTEIzeMioT2O4BXe4Qk2oKqfLoiMLsjuMZDMWhwkRzSPGwegfI8HGY/BSt1fHERDLvTA7DB+3zsevxOjoiuq23bLBLww1gQdq8/bHIOwzxzY4aSFWFjSYjvSICG8Uh45jHGyU9QcWM+QIXiB/eLPsPgYgOri+HaYj83Ioms5UcTPzRXqYiieihHfEauxTyzLkzESS1HYe6zYJ4HxI2QQWmIZ0oivMkysB46m4CsBmG+SQMuEIKzyH3WCk3OyXiwRAAAAAElFTkSuQmCC",
-            "source": "Counter Culture Coffee",
-            "snippet": "Counter Culture Coffee is a specialty coffee roaster sourcing exceptional single-origin and specialty coffee. Fresh-roasted coffee to your doorstep.",
-            "highlighted_keywords": [
-              "Counter Culture Coffee"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {
-                  "price_from": "$16",
-                  "price_to": "$99",
-                  "currency": "$"
-                },
-                "extensions": [
-                  "$16 to $99",
-                  "Free delivery over $30"
-                ]
-              }
-            },
-            "rank": 9,
-            "page_rank": 9
           }
         ],
         "relatedSearches": [
@@ -253,6 +227,10 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
           },
           {
+            "query": "Coffee name",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
+          },
+          {
             "query": "Coffee beans",
             "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
@@ -261,16 +239,12 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
           },
           {
-            "query": "Coffee name",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+name"
-          },
-          {
             "query": "Coffee benefits",
             "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
           },
           {
-            "query": "Coffee powder",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
           }
         ],
         "dmca_message": {
@@ -279,23 +253,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6954bc70b01a7c3f&gl=us&hl=en&ei=yAY_apyrOfaJptQPlu3JuQw&start=10&sa=N&sstk=AU9db-B5ings9isvzWq3udFa9zTjIjbE7LgbW7Ky8hcFHRzHA1nxFCnEnvgScDX50qpTmC9d-vBpfoyWL6OItUdiBraLLFFvGXVPbw&ved=2ahUKEwicr56qg6aVAxX2hIkEHZZ2MscQ8NMDegQIVBAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=076b3b30649739a2&gl=us&hl=en&ei=2BQ_asilD8H-ptQPnPL4kAw&start=10&sa=N&sstk=AU9db-Aru9vBpHvlTtu2-HfrAhNfeyUhaNTdspYEaFQ7m5F0LV0X9ZkgQ3ZHcaTsAkG0Bk2K7xz9v-0KfoFghK93N58DIcpeHSY9Ew&ved=2ahUKEwjI8cLekKaVAxVBv4kEHRw5HsIQ8NMDegQIYhAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6954bc70b01a7c3f&gl=us&hl=en&ei=yAY_apyrOfaJptQPlu3JuQw&start=10&sa=N&sstk=AU9db-B5ings9isvzWq3udFa9zTjIjbE7LgbW7Ky8hcFHRzHA1nxFCnEnvgScDX50qpTmC9d-vBpfoyWL6OItUdiBraLLFFvGXVPbw&ved=2ahUKEwicr56qg6aVAxX2hIkEHZZ2MscQ8tMDegQIVBAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6954bc70b01a7c3f&gl=us&hl=en&ei=yAY_apyrOfaJptQPlu3JuQw&start=20&sa=N&sstk=AU9db-B5ings9isvzWq3udFa9zTjIjbE7LgbW7Ky8hcFHRzHA1nxFCnEnvgScDX50qpTmC9d-vBpfoyWL6OItUdiBraLLFFvGXVPbw&ved=2ahUKEwicr56qg6aVAxX2hIkEHZZ2MscQ8tMDegQIVBAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6954bc70b01a7c3f&gl=us&hl=en&ei=yAY_apyrOfaJptQPlu3JuQw&start=30&sa=N&sstk=AU9db-B5ings9isvzWq3udFa9zTjIjbE7LgbW7Ky8hcFHRzHA1nxFCnEnvgScDX50qpTmC9d-vBpfoyWL6OItUdiBraLLFFvGXVPbw&ved=2ahUKEwicr56qg6aVAxX2hIkEHZZ2MscQ8tMDegQIVBAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6954bc70b01a7c3f&gl=us&hl=en&ei=yAY_apyrOfaJptQPlu3JuQw&start=40&sa=N&sstk=AU9db-B5ings9isvzWq3udFa9zTjIjbE7LgbW7Ky8hcFHRzHA1nxFCnEnvgScDX50qpTmC9d-vBpfoyWL6OItUdiBraLLFFvGXVPbw&ved=2ahUKEwicr56qg6aVAxX2hIkEHZZ2MscQ8tMDegQIVBAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6954bc70b01a7c3f&gl=us&hl=en&ei=yAY_apyrOfaJptQPlu3JuQw&start=50&sa=N&sstk=AU9db-B5ings9isvzWq3udFa9zTjIjbE7LgbW7Ky8hcFHRzHA1nxFCnEnvgScDX50qpTmC9d-vBpfoyWL6OItUdiBraLLFFvGXVPbw&ved=2ahUKEwicr56qg6aVAxX2hIkEHZZ2MscQ8tMDegQIVBAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6954bc70b01a7c3f&gl=us&hl=en&ei=yAY_apyrOfaJptQPlu3JuQw&start=60&sa=N&sstk=AU9db-B5ings9isvzWq3udFa9zTjIjbE7LgbW7Ky8hcFHRzHA1nxFCnEnvgScDX50qpTmC9d-vBpfoyWL6OItUdiBraLLFFvGXVPbw&ved=2ahUKEwicr56qg6aVAxX2hIkEHZZ2MscQ8tMDegQIVBAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6954bc70b01a7c3f&gl=us&hl=en&ei=yAY_apyrOfaJptQPlu3JuQw&start=70&sa=N&sstk=AU9db-B5ings9isvzWq3udFa9zTjIjbE7LgbW7Ky8hcFHRzHA1nxFCnEnvgScDX50qpTmC9d-vBpfoyWL6OItUdiBraLLFFvGXVPbw&ved=2ahUKEwicr56qg6aVAxX2hIkEHZZ2MscQ8tMDegQIVBAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6954bc70b01a7c3f&gl=us&hl=en&ei=yAY_apyrOfaJptQPlu3JuQw&start=80&sa=N&sstk=AU9db-B5ings9isvzWq3udFa9zTjIjbE7LgbW7Ky8hcFHRzHA1nxFCnEnvgScDX50qpTmC9d-vBpfoyWL6OItUdiBraLLFFvGXVPbw&ved=2ahUKEwicr56qg6aVAxX2hIkEHZZ2MscQ8tMDegQIVBAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6954bc70b01a7c3f&gl=us&hl=en&ei=yAY_apyrOfaJptQPlu3JuQw&start=90&sa=N&sstk=AU9db-B5ings9isvzWq3udFa9zTjIjbE7LgbW7Ky8hcFHRzHA1nxFCnEnvgScDX50qpTmC9d-vBpfoyWL6OItUdiBraLLFFvGXVPbw&ved=2ahUKEwicr56qg6aVAxX2hIkEHZZ2MscQ8tMDegQIVBAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=076b3b30649739a2&gl=us&hl=en&ei=2BQ_asilD8H-ptQPnPL4kAw&start=10&sa=N&sstk=AU9db-Aru9vBpHvlTtu2-HfrAhNfeyUhaNTdspYEaFQ7m5F0LV0X9ZkgQ3ZHcaTsAkG0Bk2K7xz9v-0KfoFghK93N58DIcpeHSY9Ew&ved=2ahUKEwjI8cLekKaVAxVBv4kEHRw5HsIQ8tMDegQIYhAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=076b3b30649739a2&gl=us&hl=en&ei=2BQ_asilD8H-ptQPnPL4kAw&start=20&sa=N&sstk=AU9db-Aru9vBpHvlTtu2-HfrAhNfeyUhaNTdspYEaFQ7m5F0LV0X9ZkgQ3ZHcaTsAkG0Bk2K7xz9v-0KfoFghK93N58DIcpeHSY9Ew&ved=2ahUKEwjI8cLekKaVAxVBv4kEHRw5HsIQ8tMDegQIYhAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=076b3b30649739a2&gl=us&hl=en&ei=2BQ_asilD8H-ptQPnPL4kAw&start=30&sa=N&sstk=AU9db-Aru9vBpHvlTtu2-HfrAhNfeyUhaNTdspYEaFQ7m5F0LV0X9ZkgQ3ZHcaTsAkG0Bk2K7xz9v-0KfoFghK93N58DIcpeHSY9Ew&ved=2ahUKEwjI8cLekKaVAxVBv4kEHRw5HsIQ8tMDegQIYhAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=076b3b30649739a2&gl=us&hl=en&ei=2BQ_asilD8H-ptQPnPL4kAw&start=40&sa=N&sstk=AU9db-Aru9vBpHvlTtu2-HfrAhNfeyUhaNTdspYEaFQ7m5F0LV0X9ZkgQ3ZHcaTsAkG0Bk2K7xz9v-0KfoFghK93N58DIcpeHSY9Ew&ved=2ahUKEwjI8cLekKaVAxVBv4kEHRw5HsIQ8tMDegQIYhAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=076b3b30649739a2&gl=us&hl=en&ei=2BQ_asilD8H-ptQPnPL4kAw&start=50&sa=N&sstk=AU9db-Aru9vBpHvlTtu2-HfrAhNfeyUhaNTdspYEaFQ7m5F0LV0X9ZkgQ3ZHcaTsAkG0Bk2K7xz9v-0KfoFghK93N58DIcpeHSY9Ew&ved=2ahUKEwjI8cLekKaVAxVBv4kEHRw5HsIQ8tMDegQIYhAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=076b3b30649739a2&gl=us&hl=en&ei=2BQ_asilD8H-ptQPnPL4kAw&start=60&sa=N&sstk=AU9db-Aru9vBpHvlTtu2-HfrAhNfeyUhaNTdspYEaFQ7m5F0LV0X9ZkgQ3ZHcaTsAkG0Bk2K7xz9v-0KfoFghK93N58DIcpeHSY9Ew&ved=2ahUKEwjI8cLekKaVAxVBv4kEHRw5HsIQ8tMDegQIYhAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=076b3b30649739a2&gl=us&hl=en&ei=2BQ_asilD8H-ptQPnPL4kAw&start=70&sa=N&sstk=AU9db-Aru9vBpHvlTtu2-HfrAhNfeyUhaNTdspYEaFQ7m5F0LV0X9ZkgQ3ZHcaTsAkG0Bk2K7xz9v-0KfoFghK93N58DIcpeHSY9Ew&ved=2ahUKEwjI8cLekKaVAxVBv4kEHRw5HsIQ8tMDegQIYhAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=076b3b30649739a2&gl=us&hl=en&ei=2BQ_asilD8H-ptQPnPL4kAw&start=80&sa=N&sstk=AU9db-Aru9vBpHvlTtu2-HfrAhNfeyUhaNTdspYEaFQ7m5F0LV0X9ZkgQ3ZHcaTsAkG0Bk2K7xz9v-0KfoFghK93N58DIcpeHSY9Ew&ved=2ahUKEwjI8cLekKaVAxVBv4kEHRw5HsIQ8tMDegQIYhAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=076b3b30649739a2&gl=us&hl=en&ei=2BQ_asilD8H-ptQPnPL4kAw&start=90&sa=N&sstk=AU9db-Aru9vBpHvlTtu2-HfrAhNfeyUhaNTdspYEaFQ7m5F0LV0X9ZkgQ3ZHcaTsAkG0Bk2K7xz9v-0KfoFghK93N58DIcpeHSY9Ew&ved=2ahUKEwjI8cLekKaVAxVBv4kEHRw5HsIQ8tMDegQIYhAU"
           }
         }
       }
     }
   },
-  "requestId": "07ef7366-6036-42e8-a24a-9d2feaa2e872",
-  "timestamp": 1782518438767,
-  "recordTime": "2026-06-27 08:00:38"
+  "requestId": "b423b883-f481-4e81-bca4-c191fd023713",
+  "timestamp": 1782519002755,
+  "recordTime": "2026-06-27 08:10:02"
 }
