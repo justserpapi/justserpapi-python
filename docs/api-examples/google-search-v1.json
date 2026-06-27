@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-27 02:10:06",
+    "checkedAt": "2026-06-27 03:10:07",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
-          "time_taken": 0.49,
-          "total_results": 2900000000,
+          "time_taken": 0.81,
+          "total_results": 2910000000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -24,29 +24,29 @@
         "local_results": [
           {
             "position": 1,
-            "title": "Bon Coffee HouseBon Coffee House",
-            "rating": "5.0",
-            "reviews": "98",
-            "address": "5.0(98) · $1–10 · Coffee shop",
-            "hours": "Paterson, NJ",
+            "title": "Crooked River CoffeeCrooked River Coffee\"... ambiance, delicious croissants and scones, and high quality coffee.\"",
+            "rating": "4.9",
+            "reviews": "59",
+            "address": "4.9(59) · $1–10 · Cafe",
+            "hours": "Alanson, MI",
             "links": {}
           },
           {
             "position": 2,
-            "title": "Port coffee co New JerseyPort coffee co New Jersey",
-            "rating": "4.6",
-            "reviews": "95",
-            "address": "4.6(95) · $1–10 · Coffee shop",
-            "hours": "Paterson, NJ",
+            "title": "Nutty BrewNutty Brew\"Great selection of coffee drinks, solid iced coffee and bagel sandwhich.\"",
+            "rating": "5.0",
+            "reviews": "68",
+            "address": "5.0(68) · $10–20 · Coffee shop",
+            "hours": "Williamsburg, MI",
             "links": {}
           },
           {
             "position": 3,
-            "title": "Qahwah House Coffee - MontclairQahwah House Coffee - Montclair",
-            "rating": "4.8",
-            "reviews": "323",
-            "address": "4.8(323) · $10–20 · Coffee shop",
-            "hours": "Montclair, NJ",
+            "title": "State Street CoffeeState Street Coffee\"Coffee was made fresh to order and affordable.\"",
+            "rating": "5.0",
+            "reviews": "14",
+            "address": "5.0(14) · $1–10 · Coffee store",
+            "hours": "Fife Lake, MI",
             "links": {}
           }
         ],
@@ -64,7 +64,7 @@
             "rank": 3
           },
           {
-            "question": "Are coffee grounds good for pothos?",
+            "question": "Is it healthy to drink coffee every day?",
             "rank": 4
           }
         ],
@@ -118,10 +118,10 @@
           },
           {
             "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoomsJgulfiodWkQGvTREcpTLbs2I8mxJ44e4X1getCs-ceYbjiK",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoonuHbG3lAsZsmIgO0GcVb9sr0hDwqjLnfSJ-zNn63HAWDeVslR",
             "displayed_link": "https://www.stumptowncoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
-            "source": "Stumptown Coffee",
+            "source": "Stumptown Coffee Roasters",
             "snippet": "Stumptown Coffee Roasters brings you fresh beans, cold brew, and good vibes. Order online, visit a shop, or subscribe for the long haul.",
             "highlighted_keywords": [
               "fresh beans, cold brew, and good vibes"
@@ -130,8 +130,21 @@
             "page_rank": 4
           },
           {
+            "title": "Blue Bottle Coffee | Fresh Roasted Specialty Coffee",
+            "link": "https://bluebottlecoffee.com/us/eng?srsltid=AfmBOorLDnKAaDjnZwnXl-2DCln_s9K0yqQ2rD-uSSv8xyUyiMs7VyBy",
+            "displayed_link": "https://bluebottlecoffee.com › eng",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEVHcEzz+v7////G5PcAneTo9vyKwu3///8AlN3v+v8Cnef///////8Alt5bsOc9qujz+v7///////////+cy+4Ak+AKm90AluWTzfOSzvkAmt////8AmOMAoeeh0vQAnuIAn+MAmeEAnOK1ZI6VAAAAH3RSTlMARB5k60+EAeNltTgK6qS4VhctIWXN1KqPn/gp0tByb5tLiwAAAJlJREFUKJGd0dkOgyAQhWE2gYIKtW5dwXn/h1R7zSFp/yuSL0Mgw9gPGQgGEhOc+xbNeb3oG8Lh41aETEh3FzW8IhzWd2jAi9rolOpjcfa4VOWsFikKn21mykcq8BKq0xK9LgBTSmQxUgWJtj+wq6FNEA2fKcFJHh5ECH3fYXxqu51NsYBCTqfZ3hewHUZ9NHKwb/OtBOCM2wEzsg7zSllT1AAAAABJRU5ErkJggg==",
+            "source": "Blue Bottle Coffee",
+            "snippet": "Blue Bottle Coffee is a specialty coffee roaster with cafes in LA, SF, NYC, & Japan. Shop our freshly roasted specialty coffee online & in-store.",
+            "highlighted_keywords": [
+              "Blue Bottle Coffee is a specialty coffee roaster"
+            ],
+            "rank": 5,
+            "page_rank": 5
+          },
+          {
             "title": "Joe Coffee Company",
-            "link": "https://joecoffeecompany.com/?srsltid=AfmBOoq1RigohXaIqpEcxuc3HfIr3tIPiuVQKRRQiby8PYRgV-Xv43Xb",
+            "link": "https://joecoffeecompany.com/?srsltid=AfmBOoph27gRHKWk9AptK9ui4Ic2AKY49xhC7fp2Abh-HJ6MNvaXI8ww",
             "displayed_link": "https://joecoffeecompany.com",
             "favicon": "data:image/png;base64,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",
             "source": "Joe Coffee Company",
@@ -147,21 +160,20 @@
                 ]
               }
             },
-            "rank": 5,
-            "page_rank": 5
-          },
-          {
-            "title": "Blue Bottle Coffee | Fresh Roasted Specialty Coffee",
-            "link": "https://bluebottlecoffee.com/us/eng?srsltid=AfmBOop16WvzFTFqcOQbINIp350_wVAlv45Tg31FTm5y92UjEiQZXq8w",
-            "displayed_link": "https://bluebottlecoffee.com › eng",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEVHcEzz+v7////G5PcAneTo9vyKwu3///8AlN3v+v8Cnef///////8Alt5bsOc9qujz+v7///////////+cy+4Ak+AKm90AluWTzfOSzvkAmt////8AmOMAoeeh0vQAnuIAn+MAmeEAnOK1ZI6VAAAAH3RSTlMARB5k60+EAeNltTgK6qS4VhctIWXN1KqPn/gp0tByb5tLiwAAAJlJREFUKJGd0dkOgyAQhWE2gYIKtW5dwXn/h1R7zSFp/yuSL0Mgw9gPGQgGEhOc+xbNeb3oG8Lh41aETEh3FzW8IhzWd2jAi9rolOpjcfa4VOWsFikKn21mykcq8BKq0xK9LgBTSmQxUgWJtj+wq6FNEA2fKcFJHh5ECH3fYXxqu51NsYBCTqfZ3hewHUZ9NHKwb/OtBOCM2wEzsg7zSllT1AAAAABJRU5ErkJggg==",
-            "source": "Blue Bottle Coffee",
-            "snippet": "Blue Bottle Coffee is a specialty coffee roaster with cafes in LA, SF, NYC, & Japan. Shop our freshly roasted specialty coffee online & in-store.",
-            "highlighted_keywords": [
-              "Blue Bottle Coffee is a specialty coffee roaster"
-            ],
             "rank": 6,
             "page_rank": 6
+          },
+          {
+            "title": "National Coffee Association",
+            "link": "https://www.ncausa.org/",
+            "displayed_link": "https://www.ncausa.org",
+            "source": "National Coffee Association",
+            "snippet": "The National Coffee Association is the leading trade association for the U.S. coffee industry. Learn more about our networking, advocacy, market research, ...",
+            "highlighted_keywords": [
+              "is the leading trade association for the U.S. coffee industry"
+            ],
+            "rank": 7,
+            "page_rank": 7
           },
           {
             "title": "What is coffee? - NCA",
@@ -173,42 +185,8 @@
             "highlighted_keywords": [
               "Learn about the coffee tree, its lifespan, how it produces coffee beans"
             ],
-            "rank": 7,
-            "page_rank": 7
-          },
-          {
-            "title": "National Coffee Association",
-            "link": "https://www.ncausa.org/",
-            "displayed_link": "https://www.ncausa.org",
-            "source": "National Coffee Association",
-            "snippet": "The National Coffee Association is the leading trade association for the U.S. coffee industry. Learn more about our networking, advocacy, market research, ...",
-            "highlighted_keywords": [
-              "is the leading trade association for the U.S. coffee industry"
-            ],
             "rank": 8,
             "page_rank": 8
-          },
-          {
-            "title": "Purity Coffee | Shop High Antioxidant Organic Coffee Online",
-            "link": "https://puritycoffee.com/?srsltid=AfmBOoq4nBc6XFuRSMFXdYpa2WU3HMtRQAKrPtxvvy5dj4OhqGe9B7zt",
-            "displayed_link": "https://puritycoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEVHcEwAqKIAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKOUxb52AAAAEHRSTlMABhEjX6HJ3v/68LKLSHU2r1raSQAAAORJREFUeAFjgABBRQEGBDAJKwsxgPNUMmZ0dJQoQHlMkR2dKzs6AqBc7s72I1eOd/ZAuS9m7BdgkN8x6wNE7YpuBWZfAXOoar7OYsaIjlqWGcUQrR0HRDtmdSuvqAdz1Tsdrne8jYZxzTs/eLYx2PICFUO4F7zaGRikOzaAuWogxUHMkTMcwFzWjgDRzq6qzjaIK1hm1jNldHR0FECdXNEqoFO1vAbmRY+ZBxlsfeEe5O5Yh+x55oyuAwxI4FvHbAYU6RkbkPnaML9D7drRboDMV2u/gKJ7+gcGZHBcAYWry4ANAAAooUYYhwCehwAAAABJRU5ErkJggg==",
-            "source": "Purity Coffee",
-            "snippet": "Shop Purity Coffee online today. Explore organic, specialty grade coffee that is purity tested, antioxidant rich and crafted for a cleaner cup at Purity ...",
-            "highlighted_keywords": [
-              "Explore organic, specialty grade coffee"
-            ],
-            "rich_snippet": {
-              "bottom": {
-                "detected_extensions": {},
-                "extensions": [
-                  "Free delivery over $64.80",
-                  "30-day returns"
-                ]
-              }
-            },
-            "rank": 9,
-            "page_rank": 9
           }
         ],
         "relatedSearches": [
@@ -225,12 +203,12 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
           },
           {
-            "query": "Coffee beans",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
-          },
-          {
             "query": "Coffee Walmart",
             "link": "https://www.google.com/search?gl=us&q=Coffee+Walmart"
+          },
+          {
+            "query": "Coffee beans",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
           },
           {
             "query": "Coffee powder",
@@ -251,23 +229,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=084c36b6f45532e7&gl=us&hl=en&ei=_DA_ao7WDu_qptQPxfD22Qw&start=10&sa=N&sstk=AU9db-D4RG-Tv23FjQIMb9ADJcpZLj4YNRnY7ptJtwlksqL9KfEKOfU1I3uvVlY511dg-JPyABSdzJ6h2vKJoMjfQpto8abq-o-80w&ved=2ahUKEwiOxNPJq6aVAxVvtYkEHUW4PcsQ8NMDegQIVRAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b2bc03eec3ac8049&gl=us&hl=en&ei=DD8_asbBJdbI1sQPm9mOoQc&start=10&sa=N&sstk=AU9db-Do0daQeOmleo92Z0mFiLQcPUpmN-79826trJ78XoFv6LuOedEpb85Oz-c3Qj9NLKvUOGXMePbXki3oXsm2MV1YtbOCa1C7IA&ved=2ahUKEwjG97j-uKaVAxVWpJUCHZusI3QQ8NMDegQIUhAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=084c36b6f45532e7&gl=us&hl=en&ei=_DA_ao7WDu_qptQPxfD22Qw&start=10&sa=N&sstk=AU9db-D4RG-Tv23FjQIMb9ADJcpZLj4YNRnY7ptJtwlksqL9KfEKOfU1I3uvVlY511dg-JPyABSdzJ6h2vKJoMjfQpto8abq-o-80w&ved=2ahUKEwiOxNPJq6aVAxVvtYkEHUW4PcsQ8tMDegQIVRAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=084c36b6f45532e7&gl=us&hl=en&ei=_DA_ao7WDu_qptQPxfD22Qw&start=20&sa=N&sstk=AU9db-D4RG-Tv23FjQIMb9ADJcpZLj4YNRnY7ptJtwlksqL9KfEKOfU1I3uvVlY511dg-JPyABSdzJ6h2vKJoMjfQpto8abq-o-80w&ved=2ahUKEwiOxNPJq6aVAxVvtYkEHUW4PcsQ8tMDegQIVRAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=084c36b6f45532e7&gl=us&hl=en&ei=_DA_ao7WDu_qptQPxfD22Qw&start=30&sa=N&sstk=AU9db-D4RG-Tv23FjQIMb9ADJcpZLj4YNRnY7ptJtwlksqL9KfEKOfU1I3uvVlY511dg-JPyABSdzJ6h2vKJoMjfQpto8abq-o-80w&ved=2ahUKEwiOxNPJq6aVAxVvtYkEHUW4PcsQ8tMDegQIVRAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=084c36b6f45532e7&gl=us&hl=en&ei=_DA_ao7WDu_qptQPxfD22Qw&start=40&sa=N&sstk=AU9db-D4RG-Tv23FjQIMb9ADJcpZLj4YNRnY7ptJtwlksqL9KfEKOfU1I3uvVlY511dg-JPyABSdzJ6h2vKJoMjfQpto8abq-o-80w&ved=2ahUKEwiOxNPJq6aVAxVvtYkEHUW4PcsQ8tMDegQIVRAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=084c36b6f45532e7&gl=us&hl=en&ei=_DA_ao7WDu_qptQPxfD22Qw&start=50&sa=N&sstk=AU9db-D4RG-Tv23FjQIMb9ADJcpZLj4YNRnY7ptJtwlksqL9KfEKOfU1I3uvVlY511dg-JPyABSdzJ6h2vKJoMjfQpto8abq-o-80w&ved=2ahUKEwiOxNPJq6aVAxVvtYkEHUW4PcsQ8tMDegQIVRAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=084c36b6f45532e7&gl=us&hl=en&ei=_DA_ao7WDu_qptQPxfD22Qw&start=60&sa=N&sstk=AU9db-D4RG-Tv23FjQIMb9ADJcpZLj4YNRnY7ptJtwlksqL9KfEKOfU1I3uvVlY511dg-JPyABSdzJ6h2vKJoMjfQpto8abq-o-80w&ved=2ahUKEwiOxNPJq6aVAxVvtYkEHUW4PcsQ8tMDegQIVRAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=084c36b6f45532e7&gl=us&hl=en&ei=_DA_ao7WDu_qptQPxfD22Qw&start=70&sa=N&sstk=AU9db-D4RG-Tv23FjQIMb9ADJcpZLj4YNRnY7ptJtwlksqL9KfEKOfU1I3uvVlY511dg-JPyABSdzJ6h2vKJoMjfQpto8abq-o-80w&ved=2ahUKEwiOxNPJq6aVAxVvtYkEHUW4PcsQ8tMDegQIVRAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=084c36b6f45532e7&gl=us&hl=en&ei=_DA_ao7WDu_qptQPxfD22Qw&start=80&sa=N&sstk=AU9db-D4RG-Tv23FjQIMb9ADJcpZLj4YNRnY7ptJtwlksqL9KfEKOfU1I3uvVlY511dg-JPyABSdzJ6h2vKJoMjfQpto8abq-o-80w&ved=2ahUKEwiOxNPJq6aVAxVvtYkEHUW4PcsQ8tMDegQIVRAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=084c36b6f45532e7&gl=us&hl=en&ei=_DA_ao7WDu_qptQPxfD22Qw&start=90&sa=N&sstk=AU9db-D4RG-Tv23FjQIMb9ADJcpZLj4YNRnY7ptJtwlksqL9KfEKOfU1I3uvVlY511dg-JPyABSdzJ6h2vKJoMjfQpto8abq-o-80w&ved=2ahUKEwiOxNPJq6aVAxVvtYkEHUW4PcsQ8tMDegQIVRAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b2bc03eec3ac8049&gl=us&hl=en&ei=DD8_asbBJdbI1sQPm9mOoQc&start=10&sa=N&sstk=AU9db-Do0daQeOmleo92Z0mFiLQcPUpmN-79826trJ78XoFv6LuOedEpb85Oz-c3Qj9NLKvUOGXMePbXki3oXsm2MV1YtbOCa1C7IA&ved=2ahUKEwjG97j-uKaVAxVWpJUCHZusI3QQ8tMDegQIUhAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b2bc03eec3ac8049&gl=us&hl=en&ei=DD8_asbBJdbI1sQPm9mOoQc&start=20&sa=N&sstk=AU9db-Do0daQeOmleo92Z0mFiLQcPUpmN-79826trJ78XoFv6LuOedEpb85Oz-c3Qj9NLKvUOGXMePbXki3oXsm2MV1YtbOCa1C7IA&ved=2ahUKEwjG97j-uKaVAxVWpJUCHZusI3QQ8tMDegQIUhAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b2bc03eec3ac8049&gl=us&hl=en&ei=DD8_asbBJdbI1sQPm9mOoQc&start=30&sa=N&sstk=AU9db-Do0daQeOmleo92Z0mFiLQcPUpmN-79826trJ78XoFv6LuOedEpb85Oz-c3Qj9NLKvUOGXMePbXki3oXsm2MV1YtbOCa1C7IA&ved=2ahUKEwjG97j-uKaVAxVWpJUCHZusI3QQ8tMDegQIUhAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b2bc03eec3ac8049&gl=us&hl=en&ei=DD8_asbBJdbI1sQPm9mOoQc&start=40&sa=N&sstk=AU9db-Do0daQeOmleo92Z0mFiLQcPUpmN-79826trJ78XoFv6LuOedEpb85Oz-c3Qj9NLKvUOGXMePbXki3oXsm2MV1YtbOCa1C7IA&ved=2ahUKEwjG97j-uKaVAxVWpJUCHZusI3QQ8tMDegQIUhAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b2bc03eec3ac8049&gl=us&hl=en&ei=DD8_asbBJdbI1sQPm9mOoQc&start=50&sa=N&sstk=AU9db-Do0daQeOmleo92Z0mFiLQcPUpmN-79826trJ78XoFv6LuOedEpb85Oz-c3Qj9NLKvUOGXMePbXki3oXsm2MV1YtbOCa1C7IA&ved=2ahUKEwjG97j-uKaVAxVWpJUCHZusI3QQ8tMDegQIUhAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b2bc03eec3ac8049&gl=us&hl=en&ei=DD8_asbBJdbI1sQPm9mOoQc&start=60&sa=N&sstk=AU9db-Do0daQeOmleo92Z0mFiLQcPUpmN-79826trJ78XoFv6LuOedEpb85Oz-c3Qj9NLKvUOGXMePbXki3oXsm2MV1YtbOCa1C7IA&ved=2ahUKEwjG97j-uKaVAxVWpJUCHZusI3QQ8tMDegQIUhAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b2bc03eec3ac8049&gl=us&hl=en&ei=DD8_asbBJdbI1sQPm9mOoQc&start=70&sa=N&sstk=AU9db-Do0daQeOmleo92Z0mFiLQcPUpmN-79826trJ78XoFv6LuOedEpb85Oz-c3Qj9NLKvUOGXMePbXki3oXsm2MV1YtbOCa1C7IA&ved=2ahUKEwjG97j-uKaVAxVWpJUCHZusI3QQ8tMDegQIUhAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b2bc03eec3ac8049&gl=us&hl=en&ei=DD8_asbBJdbI1sQPm9mOoQc&start=80&sa=N&sstk=AU9db-Do0daQeOmleo92Z0mFiLQcPUpmN-79826trJ78XoFv6LuOedEpb85Oz-c3Qj9NLKvUOGXMePbXki3oXsm2MV1YtbOCa1C7IA&ved=2ahUKEwjG97j-uKaVAxVWpJUCHZusI3QQ8tMDegQIUhAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=b2bc03eec3ac8049&gl=us&hl=en&ei=DD8_asbBJdbI1sQPm9mOoQc&start=90&sa=N&sstk=AU9db-Do0daQeOmleo92Z0mFiLQcPUpmN-79826trJ78XoFv6LuOedEpb85Oz-c3Qj9NLKvUOGXMePbXki3oXsm2MV1YtbOCa1C7IA&ved=2ahUKEwjG97j-uKaVAxVWpJUCHZusI3QQ8tMDegQIUhAU"
           }
         }
       }
     }
   },
-  "requestId": "815a2642-bb8e-4a4e-8cbe-2bcf5ead60d4",
-  "timestamp": 1782529803097,
-  "recordTime": "2026-06-27 11:10:02"
+  "requestId": "041a7fa6-04d7-457f-8921-c5f54c6f4312",
+  "timestamp": 1782530251097,
+  "recordTime": "2026-06-27 11:17:30"
 }
