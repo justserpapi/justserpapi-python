@@ -3,14 +3,14 @@
   "message": "success",
   "data": {
     "api": "/api/v1/google/search",
-    "checkedAt": "2026-06-27 12:10:04",
+    "checkedAt": "2026-06-27 13:10:02",
     "example": {
       "code": 200,
       "message": "success",
       "data": {
         "search_information": {
           "time_taken": 0.48,
-          "total_results": 2880000,
+          "total_results": 3000000000,
           "query_displayed": "coffee",
           "spelling_fixed": "Choose area",
           "showing_results_for": "Choose area",
@@ -28,30 +28,59 @@
             "thumbnail": "https://img.youtube.com/vi/r-9U089tX5g/maxresdefault.jpg"
           },
           {
-            "title": "Coffee is more than a drink. It begins with character, grows ...",
-            "channel": "Michael Trung",
+            "title": "Are any of these coffee shops your go-to place? What do you ...",
+            "channel": "Alex Pagano",
             "source": "Instagram",
-            "link": "https://www.instagram.com/reel/DaCtZXsgkeS/",
+            "link": "https://www.instagram.com/reel/DUYd7HdFLiW/",
             "thumbnail": "https://img.youtube.com/vi/undefined/maxresdefault.jpg"
           },
           {
-            "title": "Coffee facts you didn't know you needed • Coffee is technically ...",
-            "channel": "Great Lakes Coffee Roasting Company",
+            "title": "Coffee isn't just a drink, it changed the way we work! From a ...",
+            "channel": "Grow Inn Homes",
             "source": "Facebook",
-            "link": "https://www.facebook.com/glcroasting/videos/coffee-facts-you-didnt-know-you-needed-coffee-is-technically-a-fruit-two-beans-g/844994534660237/",
+            "link": "https://www.facebook.com/growinnhomes/videos/coffee-isnt-just-a-drink-it-changed-the-way-we-work-from-a-simple-fruit-seed-to-/807853081973443/",
             "thumbnail": "https://img.youtube.com/vi/undefined/maxresdefault.jpg"
           },
           {
-            "title": "3 coffee mistakes you're probably making right now and all 3 ...",
-            "channel": "Atomic Coffee Roasters",
-            "source": "Facebook",
-            "link": "https://www.facebook.com/atomicoffeeroasters/videos/3-coffee-mistakes-youre-probably-making-right-now-and-all-3-are-free-to-fix/1921910198783190/",
+            "title": "The only thing that’s hot about this coffee is the at-home ...",
+            "channel": "nespresso",
+            "source": "TikTok",
+            "link": "https://www.tiktok.com/@nespresso/video/7656022545136667926",
             "thumbnail": "https://img.youtube.com/vi/undefined/maxresdefault.jpg"
           }
         ],
         "knowledge_graph": {
           "title": "Coffee"
         },
+        "local_results": [
+          {
+            "position": 1,
+            "title": "Allicat's Coffee HouseAllicat's Coffee House\"The coffee and food are great and so are the service and ambiance.\"",
+            "rating": "4.8",
+            "reviews": "72",
+            "address": "4.8(72) · $1–10 · Coffee shop",
+            "hours": "Elkins Park, PA",
+            "links": {}
+          },
+          {
+            "position": 2,
+            "title": "The Lore CafeThe Lore Cafe\"Amazing coffee, such a warm and welcoming atmosphere, and top-notch service!\"",
+            "rating": "4.8",
+            "reviews": "138",
+            "address": "4.8(138) · $1–10 · Coffee shop",
+            "hours": "Jenkintown, PA",
+            "links": {}
+          },
+          {
+            "position": 3,
+            "title": "Sweet Bean CafeSweet Bean CafeRecently opened",
+            "rating": "5.0",
+            "reviews": "32",
+            "address": "5.0(32) · $10–20 · Coffee shop",
+            "hours": "710 Oak Ln",
+            "links": {}
+          }
+        ],
         "peopleAlsoAskedFor": [
           {
             "question": "Does coffee reduce swelling?",
@@ -93,8 +122,46 @@
             "page_rank": 1
           },
           {
+            "title": "Small Batch Roasted Arabica Beans – Old City Coffee",
+            "link": "https://oldcitycoffee.com/collections/coffee?srsltid=AfmBOoprtANi3LZ2FWZ7VbDZIYOp_YNrK3bCh7Ove0dG4MRHCXvsAqe4",
+            "displayed_link": "https://oldcitycoffee.com › collections › coffee",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAApVBMVEVHcEzt7u4DAwR/f4EAAABTU1WXl5ampaKurq9ra2sNDQ2BgH2KiYfNzcvT09Lv7u7a2NSzsa6GhoYJCgq0tLPBwb/b29y7urng4N8FBQR4eHnl5eXz8/PIx8U1Njf////5+fnq6eh0dXXPz9D9/f2fn51WV1hsbG50dHWop6QAAACDhISQkI+Ki40AAAAAAABiYmRpaWlEREMJCQlOTk8AAAA6OjsE9K22AAAAN3RSTlMAAQ8nCDqm16JRHpPh/////v66U+T/////ffz///6z////iTX/+mmWmf81o/x9cJ7a/pmN/9nmtiNI3wAAAWxJREFUeAFs0lWCwyAUBdDG6jwiE5IU70Tq3u5/aQOM1S58cXDoPcSz9X38wA8C/62HUX8wHAyGo/ELeaPJFAEGiJM0esbsA+UoJgXCcTmtHoZ52SxPSooZwZTjfJY9rCt4zCRT0iYmUD1gipKcYMWY1gTMyIfj9SUrgRBACEEZ5/PPwL/H2kxY17V04R9N+4Am1m2gi9L5Py7k7yDLy5U3WYd/OP9Dq5tVb5uO/7BV9yM3u2A4WP1hxn4349YmwNe/I/3xDkyTbbZVNvvsl8JRd5gdS6zcUIUhPx4Pp5XnrDV3TjcIoCREa4KgWWKUTDOL0ZTjuo61xphSZlJCoVmZCN9gu+HMzEaKgpcaEM9zIKrWjcPVkbo9KkYpAEUFMRNJfdy5Nc9HomTtLldLpZjdFb/sw57T3aEhmCnTQ9mCaXG5Vs6sjisx3SyXvFgWyXJ5vF33q4dfmWW76mRzrnbZ6u3v9H0//BoDNQAABWsv03UBPPQAAAAASUVORK5CYII=",
+            "source": "Old City Coffee",
+            "snippet": "Explore our wide coffee selection of 100% Arabica beans, roasted in tiny batches since 1985 for ultimate freshness. Shop over 25 varietals and blends.",
+            "highlighted_keywords": [
+              "Explore our wide coffee selection of 100% Arabica beans"
+            ],
+            "rich_snippet": {
+              "bottom": {
+                "detected_extensions": {
+                  "price_from": "$12",
+                  "price_to": "$22",
+                  "currency": "$"
+                },
+                "extensions": [
+                  "$12 to $22"
+                ]
+              }
+            },
+            "rank": 2,
+            "page_rank": 2
+          },
+          {
+            "title": "Coffee • The Nutrition Source",
+            "link": "https://nutritionsource.hsph.harvard.edu/food-features/coffee/",
+            "displayed_link": "https://nutritionsource.hsph.harvard.edu › food-features",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA+VBMVEVHcEwFBSoHGSwnIjDzUVnsT1dRMh73jiHwiyOpYCDJrGr/237/13z/3oBkWEeHsz+LuEApOi9lJzzhhCHDp2j/1Xv60HowRy67P06aYCRmiTUKGCuuO0iAqzwAABE9TlxGYHDaRU5DVWMyQU+64/NDESCrZSHKp2hUcDAWNizJ8/+EpbaUIi9TRC59Z0zE7fzG8P+OvEB4nzgAFhGu1eRxa2v/9eP479+cwdCupp//++h/enr//eoRJTOQiomLhYc9VhcJEikNAColdUIpgEQofUQVYTkAIBkAACsFACkYWDkdaj1CXC4URC8qgUUAACoNACokMy8QFizY2kPbAAAAU3RSTlMAP8rk//////////////////j////////////o///97v7/++X//////////////////////////////////////9iL//////+fKv//////bYLdpWIE08EAAAFLSURBVHgBtM9FdsMwFAXQMCdSmBllh5nRzPtfTR36lU/HfdP70fWPcXv+xA3o9fl9gWAoFAxHorFYPIEQTjowlQ6FQuFMLJvN5THCeRr9heIHY5mSo7NcsfU594nRRBWhUg2w3mg+537G5jGqthqA7U7X56/0XhjrDxAmndYvMuzQ5x8FnxgdV/GAZSicTBtNX+r5Sjyen80b0wmNE7bW7QYC3VFitMjX2AmN0+VqvYGsE8spjdvdfg3Z77YOXB5oXHVo7DCtI4UtplMH9BByOm8+vN9cTvnrDfD+4HhBXG32TzrkS2hWlQBlojx4XhV3x+OOzGezaklzuyC3knYSeF4/nDU8K+WJUgayW7UZGpAHr5AZyusPQ3e7qJiDGZ6fbB0QlecVi6KnaghXTzz/NB0MJnsH1bnO8fY+aibELf0s0FaTOQgoRTkAAHD2PKVCAaLqAAAAAElFTkSuQmCC",
+            "source": "The Nutrition Source",
+            "snippet": "A plain “black” cup of coffee is a very low calorie drink—8 ounces only contains 2 calories! However, adding sugar, cream, and milk can quickly bump up the ...Read more",
+            "highlighted_keywords": [
+              "a very low calorie drink"
+            ],
+            "rank": 3,
+            "page_rank": 3
+          },
+          {
             "title": "Stumptown Coffee Roasters: Craft Coffee Beans Online & In ...",
-            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoosYmntgukPK1q3gf1-V-cLAkOZD6UpplyD0ySbbaLphCMiE57O",
+            "link": "https://www.stumptowncoffee.com/?srsltid=AfmBOoo0kqt2fN9Z1i6cMRzuhqOrnN7nD81-EO7C6RT-ggJA2NB9fTxl",
             "displayed_link": "https://www.stumptowncoffee.com",
             "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////My8ulpKODgH9eW1l+e3rr6urk4+Pb2toWCwWfnZw5NDKYlpVoZWN4dXQyLCk+OTaqqKcAAABQTErz8vJZVVOzsrFLR0U1Lyy7ublGQkByb26UkpEOAAAgGBXS0dD8/Pzs6+sdEw3FxMMlHhqNionWTQzzAAAA7klEQVR4Aa3JRWLEMBAEwBaZUWBONPJ6///FnCM5nLoW/gXjQgqV5UgVsqzqpu36YURs1IWxDrKoprlBZFlVN25Vx1w7t4jspTuUfKmlfj08InYaBOfO1A1ueeYlxz0CsHsQIRFKM/do83M2ZdKrIhiYsMG6ApFiF5nCZtvQqgyxdXxw9NSw6oHEwRqGV1r5o0Giy/aAkwqR70g4bEBJ1pBBYoOxOJFLbEh0RbEUl7/yokMiXxBUKyz6HCl/TRZhPD3u0NjqlhM+QA53LICwHgOzADG891z2pa/W9ThLd62I5Hyf69kM8rkSbhG+7w0F9xAYz3TMkQAAAABJRU5ErkJggg==",
             "source": "Stumptown Coffee Roasters",
@@ -102,8 +169,23 @@
             "highlighted_keywords": [
               "fresh beans, cold brew, and good vibes"
             ],
-            "rank": 2,
-            "page_rank": 2
+            "rank": 4,
+            "page_rank": 4
+          },
+          {
+            "title": "THE BEST Coffee & Tea in Philadelphia",
+            "link": "https://www.tripadvisor.com/Restaurants-g60795-zfg9900-Philadelphia_Pennsylvania.html",
+            "displayed_link": "https://www.tripadvisor.com › Restaurants-g60795-zfg9...",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAilBMVEUA61sA7VwA8F0A814A1lMAvEkAq0IAwksA2VQA7FsA9F4A01IAgTIAJg8AAAAALhIAhTQA41gA3VYAayoAHQsAYSYAnD0AWiMACwUAeS8AFgkADwYAIw4AKxEAyU4A9l8AMxQAEwgAGwsAcSwAQRoAlToAaCkAoD4As0UATx8Ady4Ap0EAPRgAjTfyrsZwAAABNUlEQVR4Ac3RRYLEIBQE0PDpOFTcId7eff/rTWAzeoCpDfJwnP8cxogY+1M4nVzP8wNOXz1kR6JYSNgk6YmbntBalud5UKAsq7Su06Ys2870ZKHBvEc7KJ2MEyfikyu1GlokFh2Wz1r1y4qUOyFtWJdeyd1hjsVYDZvrnxVExC9tch3dy6ADiyGb29t0JJsx3rA7pl63d24nunhMebW7kYuuQRw9X5dsOipmKp3hTs0qkVG/63mKIftueuJJBt/wp13qY46Ucp98aFVNHq4WPZwnF9iiYNB6yajBMk4CLrOP0JZZlJ34dFFal2LicRbFgwrtPalG4lJ0uiwHquGRc+ZJeOTY8DewlMC9KtdtB9QA1NyI1fHxSprjeK+Gwutdv7qYf/2vIxSyzAlDMvW/ftUc4j/nA89zGjJlkfnSAAAAAElFTkSuQmCC",
+            "source": "Tripadvisor",
+            "snippet": "1. Old City Coffee 4.3 (146 reviews) 2. La Colombe Coffee Roasters 4.4 (196 reviews) Anthony's Italian Coffee & Chocolate House",
+            "highlighted_keywords": [
+              "Coffee",
+              "Coffee",
+              "Coffee"
+            ],
+            "rank": 5,
+            "page_rank": 5
           },
           {
             "title": "Starbucks Coffee Company",
@@ -115,87 +197,40 @@
             "highlighted_keywords": [
               "Explore our menu of handcrafted drinks"
             ],
-            "rank": 3,
-            "page_rank": 3
-          },
-          {
-            "title": "What is coffee? - NCA",
-            "link": "https://www.aboutcoffee.org/origins/what-is-coffee/",
-            "displayed_link": "https://www.aboutcoffee.org › Origins",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAk1BMVEX////6+vv5+frp6uzq6+3t7vDx8fPz9PWxtLuTmKBja3iipq7U1trk5eg0QVUAEjMAHTkfMEcpOE0AACpOWGi5vcIXKkI/S10AGTd+hI/LztIEIDuGjJZocHwACS+doalxeIMAFjUAACi1uL4RJj/loaIjPVLPIyXu9PbtmZmHMDzskpHvtbaLBBzJtbmkMzzKrbGTXXfdAAABBklEQVR4Aa3SVWKDUBBA0Txm5g3EcXetd/+rK1LB/pqboAeHwz8TSp8QYhdhESLNkfAnkpIQYWY8rh5HqnY80RIB8Xy6MNH1dtcJN0iGaV3sm+64vIO2d/eDW2hGLBeojGg6+sXTzooaA8o/lL1J1hIvPQs7SXyJOEc6ZykHeXZRPSdfXi4DSuPmBhedcufmAiKIXxSAFJhOUapaUQWMPSpzRI6SykrjAPiyxEOPyKer6XNUxpHsUSwRJZ/jLO832Nmzr27M5EqIy0c0GbSWfZY4Jv5wXNM9Pb90NBnwCun1rZ5siQwDvn90uINixNMnLXBxRTQYjKEyQ4LvSI7xzhcqxOExfQGirBAhUMQZRwAAAABJRU5ErkJggg==",
-            "source": "About Coffee - National Coffee Association",
-            "snippet": "What is coffee made of? Learn about the coffee tree, its lifespan, how it produces coffee beans, and the two most common coffee species, arabica and ...",
-            "highlighted_keywords": [
-              "Learn about the coffee tree, its lifespan, how it produces coffee beans"
-            ],
-            "rank": 4,
-            "page_rank": 4
-          },
-          {
-            "title": "Buy Coffee, Tea, Powders Online | The Coffee Bean & Tea ...",
-            "link": "https://www.coffeebean.com/",
-            "displayed_link": "https://www.coffeebean.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEVHcExTLG1TLG1TLG1TLW1TLG1TLG1TLW1TLG1TLG1TLG30H49eAAAAC3RSTlMAFT5uyLedLN38V4AViBkAAADiSURBVHgBlZAlYgIAAAAPl4JLm3Zcy1zifGtzLbi2uaQ5UnC+iWvk2sU7JkfrcMxAH93qweWatW+yJ49GE3kKAgCpEwBjBgBkeeI5K/iCmADzifL96QukS5FnwEnyaXMRBAdrNhCskHz/DSJzrZXUINxAeVVCeLFbT0yDaBs0QtnmndpQVLf0FEj6r8Fopavx2gdpDB3dFtSe00HhC4YiILxzrU9D9IH5aUC5txsUzFAt4gJ0e5dquLD5ETwCRx79CSR/rUgXgRCyHxC4i62EscCvfv7qWD66vf6c/jr/DBPTBBH3MWVXMDuJAAAAAElFTkSuQmCC",
-            "source": "The Coffee Bean & Tea Leaf",
-            "snippet": "Buy exceptional coffee, tea, powders, equipment and drinkware at The Coffee Bean & Tea Leaf® online store to enjoy our globally sourced products at home.",
-            "highlighted_keywords": [
-              "Buy exceptional coffee, tea, powders, equipment and drinkware"
-            ],
-            "rank": 5,
-            "page_rank": 5
-          },
-          {
-            "title": "Coffee | Origin, Types, Uses, History, & Facts",
-            "link": "https://www.britannica.com/topic/coffee",
-            "displayed_link": "https://www.britannica.com › ... › Food",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwKPmwLQGwLQGwLQGsAOWgcTXZEaIlXdpMyWn+Bma9uiKGVqbypuskALmLM1t/g5+y0w9Dy9fj///8H8PJTAAAABXRSTlMAILD/6JrywKcAAAGISURBVHgBhZPhjishCIVnawEQRBze/10vmTaZuO3N+kc5fJ4QlOP4ebT/rsdP5Z+bBLiFz59ju49IjBvyOG4DEOGuyl0QbovjzhN16UKdjOW2uAHQTtiIAckUvgBNVKyT6qjDNwBIfQa2GcD8DfC+xGa3tWQM/wTEkENphvBJ0gl+AxiGs+tYqtH6KR8OwDZFT6KzF8hwA++KZfA0CKbAHjzoUkHaAUVfQY/eTdSotrArDV3hAMrVi0AzpMQIT4YioYGNFDiaZ57csMCglAhMnkmAyGemVw24MnMOB4ppaoPHONl9zZIXFoAF1uoOqNLgajm4XeLZCnifczYofS5zAJwvrUMBr6hsVmugJb7yJeR4N8qtohE5HfhMBZ85RyHmbwDAKtRIdT6rQM3omWlwtxpWCTSjcQEYk+vC8nYDDbhsJbQA0pDIybA/FrjMJQWkKq6JDp8/ClRQM7URw9c/2aBBzzRvd3oH2tW04Zt0PDdgZM4NeO6j55F5bsDj1/CCO+zD++f4/wPoVR1v3hUTLgAAAABJRU5ErkJggg==",
-            "source": "Britannica",
-            "snippet": "Coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant of African origin. Coffee is one of the ...",
-            "highlighted_keywords": [
-              "Coffee",
-              "coffee",
-              "Coffee"
-            ],
             "rank": 6,
             "page_rank": 6
           },
           {
-            "title": "coffee | All | Search",
-            "link": "https://www.foodcity.com/search/all/?searchType=All&Search=coffee&resetSearch=1",
-            "displayed_link": "https://www.foodcity.com › search › all › Search=coffee",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEUAesIAc78Ad8EAeMEAdcCoyeV7rdgegsUAbb0Ab74Acr86jMmSu97////g7PbO3+++1uu30ejY5vPz+Puvy+VGkcuEstoAZ7sRfsRjn9IAarwyh8iCstqcv+Dr8/nH2+1tpdSuJoBUAAAAxUlEQVR4Ab3PBW7EMAAAQfPFsGE8/v8rKwsOnFTcriAwRvG3SfV+16Yw606VDznvY/pW5YC6abu2qaEP4is/8G6U5bq8SwWqiRx2HmE24rsKYBA+LOsefQNEGTdql0qUI/TnywasV1Vigpu8O7q4TrpAM8ODeuSkdLYdQt9hMh0s2wyD5SL3Ki10S32lmU87DQ+4V9oNsMdqAC5qjXVrStMXyHfR2ofD88BQiaP8ndxTHapLYw93f4jKSO+nx9OI31JB/EM/FGgMnoZv/8MAAAAASUVORK5CYII=",
-            "source": "Food City",
-            "snippet": "Coffee Co. Mild Mild Roast Breakfast Blend 100% Arabica Ground Coffee 12 oz. Free APF Artificial Preservatives. Decaffeinated Ground Light Roast Coffee 23 oz. ...",
+            "title": "Purity Coffee | Shop High Antioxidant Organic Coffee Online",
+            "link": "https://puritycoffee.com/?srsltid=AfmBOopv47ckgkNK_WgK5WCOuXhUXrVH7jDdWKdn6GpStGReNtsiJNvY",
+            "displayed_link": "https://puritycoffee.com",
+            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEVHcEwAqKIAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKMAqKOUxb52AAAAEHRSTlMABhEjX6HJ3v/68LKLSHU2r1raSQAAAORJREFUeAFjgABBRQEGBDAJKwsxgPNUMmZ0dJQoQHlMkR2dKzs6AqBc7s72I1eOd/ZAuS9m7BdgkN8x6wNE7YpuBWZfAXOoar7OYsaIjlqWGcUQrR0HRDtmdSuvqAdz1Tsdrne8jYZxzTs/eLYx2PICFUO4F7zaGRikOzaAuWogxUHMkTMcwFzWjgDRzq6qzjaIK1hm1jNldHR0FECdXNEqoFO1vAbmRY+ZBxlsfeEe5O5Yh+x55oyuAwxI4FvHbAYU6RkbkPnaML9D7drRboDMV2u/gKJ7+gcGZHBcAYWry4ANAAAooUYYhwCehwAAAABJRU5ErkJggg==",
+            "source": "Purity Coffee",
+            "snippet": "Shop Purity Coffee online today. Explore organic, specialty grade coffee that is purity tested, antioxidant rich and crafted for a cleaner cup at Purity ...",
             "highlighted_keywords": [
-              "100% Arabica Ground Coffee 12 oz"
-            ],
-            "rank": 7,
-            "page_rank": 7
-          },
-          {
-            "title": "Office Coffee Service Refreshments | Discount Coffee Ships ...",
-            "link": "https://www.discountcoffee.com/",
-            "displayed_link": "https://www.discountcoffee.com",
-            "favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVR4AZXTQ4AgIAAAwLNt63da27Zt27Zt27Zt27ZtW63tR67JNwAAl4bGhvq/i4uLD89quxIQ5uki72Og4bq+vn7zUmC709Dg4Pu8zAziKC9XeRd1uVBTRsIhL2Md2/aCTKqFqck35wKVZSVITvIi8fq0uBNmfIzlnnpqHnH+XhJZkSE8NVEBUumW2h6ry0sPzwQSw4J4HWnQF2w5qRrz4qJYpgZ6f+2saHXl/uzI4NfZsZGPF56BITX2qCs5Aojw8ZAoD3JTW1tZuX+y84WAg5JEhDslEjBhJmkvy8/DWV1dvX0tYHZ29kmArYWhJQP+sC0l6ooVH0OFp4GGc0ZiHN3UxMSrsbZGmPW10+gpcWKrc3JkGIevgbqbJSPBoAsFEjDjpq0tSoxlzLU3cjyJnLms4aYapEwbA+eB9tY/FgLMxV7UyCAxJoox3VTdb2589OOVHlJrRjxHfU4alS4XXYWtvFjExPj4yxI3C+vVpcVHFwJDQ4MfCrKzCIpzs/HLiwqwy/Nz8atLijDzU5OpclMSacuKCjHm5+cfnQskRUcyOlMhARtSeGBLhrCbbgUbUoR1O3LEdQ0qnBEzCf7kc4HG+vq/VpSoi3YkcMCeFP4g2G0Fp60DNdZQtdFnIu268Axc9dSdXSgQgcMRwGlrNZaUaEvG3AyV5YUFmBcCW3t86GNpYmpIjjprTgwPjIgRVmzkxSPq6+ogT/7ITTiatbGTgu8/AAAAAElFTkSuQmCC",
-            "source": "DiscountCoffee.com",
-            "snippet": "DiscountCoffee.com Office Coffee Service – Buy name brand coffee, tea, creamer,. Add $59 for. Fast & FREE Shipping. FREE ...Read more",
-            "highlighted_keywords": [
-              "Office Coffee Service"
+              "Explore organic, specialty grade coffee"
             ],
             "rich_snippet": {
               "bottom": {
-                "detected_extensions": {
-                  "price_from": "$5",
-                  "price_to": "$109",
-                  "currency": "$"
-                },
+                "detected_extensions": {},
                 "extensions": [
-                  "$5 to $109",
-                  "Free delivery over $59",
+                  "Free delivery over $64.80",
                   "30-day returns"
                 ]
               }
             },
+            "rank": 7,
+            "page_rank": 7
+          },
+          {
+            "title": "National Coffee Association",
+            "link": "https://www.ncausa.org/",
+            "displayed_link": "https://www.ncausa.org",
+            "source": "National Coffee Association",
+            "snippet": "Established in 1911, the National Coffee Association of USA is the oldest trade association representing the $343 billion U.S. coffee industry.",
+            "highlighted_keywords": [
+              "is the oldest trade association representing the $343 billion U.S. coffee industry"
+            ],
             "rank": 8,
             "page_rank": 8
           }
@@ -210,28 +245,28 @@
             "link": "https://www.google.com/search?gl=us&q=Coffee+types"
           },
           {
+            "query": "Coffee powder",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
+          },
+          {
             "query": "Coffee brands",
             "link": "https://www.google.com/search?gl=us&q=Coffee+brands"
           },
           {
-            "query": "Coffee beans",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+beans"
+            "query": "Coffee NESCAFÉ",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
+          },
+          {
+            "query": "Coffee Pic",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+Pic"
           },
           {
             "query": "Coffee name",
             "link": "https://www.google.com/search?gl=us&q=Coffee+name"
           },
           {
-            "query": "Coffee benefits",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+benefits"
-          },
-          {
-            "query": "Coffee powder",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+powder"
-          },
-          {
-            "query": "Coffee NESCAFÉ",
-            "link": "https://www.google.com/search?gl=us&q=Coffee+NESCAFÉ"
+            "query": "Coffee starbucks",
+            "link": "https://www.google.com/search?gl=us&q=Coffee+starbucks"
           }
         ],
         "dmca_message": {
@@ -240,23 +275,23 @@
         },
         "pagination": {
           "current": "1",
-          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6519816469fe80b0&gl=us&hl=en&ei=mr0_aqSWFK7dptQPnvfawAg&start=10&sa=N&sstk=AU9db-AxVM4ko4Mf7Z14tA9bK0y3N_LjBzM_07QiwMdPLM5_wonEaAWPIVC8jq6mYH9o4T9PFi1rJLsB9IM30M3oHN7nVe__QQ9DKQ&ved=2ahUKEwiky_DWsaeVAxWurokEHZ67FogQ8NMDegQIWhAW",
+          "next": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f7c1c784a1c56cc1&gl=us&hl=en&ei=qcs_aoGZA_SjptQPnNO8oQ8&start=10&sa=N&sstk=AU9db-CxP9TID0Yebd6xx112HZyU0Scc9cEGo3NbhORkM_AGbw9DYTM55GtogvwKnWbUWLuDaEUm3ZygvgKgsGBTPpcOzFHDwVgw8w&ved=2ahUKEwjBkfGKv6eVAxX0kYkEHZwpL_QQ8NMDegQIVxAW",
           "page_no": {
-            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6519816469fe80b0&gl=us&hl=en&ei=mr0_aqSWFK7dptQPnvfawAg&start=10&sa=N&sstk=AU9db-AxVM4ko4Mf7Z14tA9bK0y3N_LjBzM_07QiwMdPLM5_wonEaAWPIVC8jq6mYH9o4T9PFi1rJLsB9IM30M3oHN7nVe__QQ9DKQ&ved=2ahUKEwiky_DWsaeVAxWurokEHZ67FogQ8tMDegQIWhAE",
-            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6519816469fe80b0&gl=us&hl=en&ei=mr0_aqSWFK7dptQPnvfawAg&start=20&sa=N&sstk=AU9db-AxVM4ko4Mf7Z14tA9bK0y3N_LjBzM_07QiwMdPLM5_wonEaAWPIVC8jq6mYH9o4T9PFi1rJLsB9IM30M3oHN7nVe__QQ9DKQ&ved=2ahUKEwiky_DWsaeVAxWurokEHZ67FogQ8tMDegQIWhAG",
-            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6519816469fe80b0&gl=us&hl=en&ei=mr0_aqSWFK7dptQPnvfawAg&start=30&sa=N&sstk=AU9db-AxVM4ko4Mf7Z14tA9bK0y3N_LjBzM_07QiwMdPLM5_wonEaAWPIVC8jq6mYH9o4T9PFi1rJLsB9IM30M3oHN7nVe__QQ9DKQ&ved=2ahUKEwiky_DWsaeVAxWurokEHZ67FogQ8tMDegQIWhAI",
-            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6519816469fe80b0&gl=us&hl=en&ei=mr0_aqSWFK7dptQPnvfawAg&start=40&sa=N&sstk=AU9db-AxVM4ko4Mf7Z14tA9bK0y3N_LjBzM_07QiwMdPLM5_wonEaAWPIVC8jq6mYH9o4T9PFi1rJLsB9IM30M3oHN7nVe__QQ9DKQ&ved=2ahUKEwiky_DWsaeVAxWurokEHZ67FogQ8tMDegQIWhAK",
-            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6519816469fe80b0&gl=us&hl=en&ei=mr0_aqSWFK7dptQPnvfawAg&start=50&sa=N&sstk=AU9db-AxVM4ko4Mf7Z14tA9bK0y3N_LjBzM_07QiwMdPLM5_wonEaAWPIVC8jq6mYH9o4T9PFi1rJLsB9IM30M3oHN7nVe__QQ9DKQ&ved=2ahUKEwiky_DWsaeVAxWurokEHZ67FogQ8tMDegQIWhAM",
-            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6519816469fe80b0&gl=us&hl=en&ei=mr0_aqSWFK7dptQPnvfawAg&start=60&sa=N&sstk=AU9db-AxVM4ko4Mf7Z14tA9bK0y3N_LjBzM_07QiwMdPLM5_wonEaAWPIVC8jq6mYH9o4T9PFi1rJLsB9IM30M3oHN7nVe__QQ9DKQ&ved=2ahUKEwiky_DWsaeVAxWurokEHZ67FogQ8tMDegQIWhAO",
-            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6519816469fe80b0&gl=us&hl=en&ei=mr0_aqSWFK7dptQPnvfawAg&start=70&sa=N&sstk=AU9db-AxVM4ko4Mf7Z14tA9bK0y3N_LjBzM_07QiwMdPLM5_wonEaAWPIVC8jq6mYH9o4T9PFi1rJLsB9IM30M3oHN7nVe__QQ9DKQ&ved=2ahUKEwiky_DWsaeVAxWurokEHZ67FogQ8tMDegQIWhAQ",
-            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6519816469fe80b0&gl=us&hl=en&ei=mr0_aqSWFK7dptQPnvfawAg&start=80&sa=N&sstk=AU9db-AxVM4ko4Mf7Z14tA9bK0y3N_LjBzM_07QiwMdPLM5_wonEaAWPIVC8jq6mYH9o4T9PFi1rJLsB9IM30M3oHN7nVe__QQ9DKQ&ved=2ahUKEwiky_DWsaeVAxWurokEHZ67FogQ8tMDegQIWhAS",
-            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=6519816469fe80b0&gl=us&hl=en&ei=mr0_aqSWFK7dptQPnvfawAg&start=90&sa=N&sstk=AU9db-AxVM4ko4Mf7Z14tA9bK0y3N_LjBzM_07QiwMdPLM5_wonEaAWPIVC8jq6mYH9o4T9PFi1rJLsB9IM30M3oHN7nVe__QQ9DKQ&ved=2ahUKEwiky_DWsaeVAxWurokEHZ67FogQ8tMDegQIWhAU"
+            "2": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f7c1c784a1c56cc1&gl=us&hl=en&ei=qcs_aoGZA_SjptQPnNO8oQ8&start=10&sa=N&sstk=AU9db-CxP9TID0Yebd6xx112HZyU0Scc9cEGo3NbhORkM_AGbw9DYTM55GtogvwKnWbUWLuDaEUm3ZygvgKgsGBTPpcOzFHDwVgw8w&ved=2ahUKEwjBkfGKv6eVAxX0kYkEHZwpL_QQ8tMDegQIVxAE",
+            "3": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f7c1c784a1c56cc1&gl=us&hl=en&ei=qcs_aoGZA_SjptQPnNO8oQ8&start=20&sa=N&sstk=AU9db-CxP9TID0Yebd6xx112HZyU0Scc9cEGo3NbhORkM_AGbw9DYTM55GtogvwKnWbUWLuDaEUm3ZygvgKgsGBTPpcOzFHDwVgw8w&ved=2ahUKEwjBkfGKv6eVAxX0kYkEHZwpL_QQ8tMDegQIVxAG",
+            "4": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f7c1c784a1c56cc1&gl=us&hl=en&ei=qcs_aoGZA_SjptQPnNO8oQ8&start=30&sa=N&sstk=AU9db-CxP9TID0Yebd6xx112HZyU0Scc9cEGo3NbhORkM_AGbw9DYTM55GtogvwKnWbUWLuDaEUm3ZygvgKgsGBTPpcOzFHDwVgw8w&ved=2ahUKEwjBkfGKv6eVAxX0kYkEHZwpL_QQ8tMDegQIVxAI",
+            "5": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f7c1c784a1c56cc1&gl=us&hl=en&ei=qcs_aoGZA_SjptQPnNO8oQ8&start=40&sa=N&sstk=AU9db-CxP9TID0Yebd6xx112HZyU0Scc9cEGo3NbhORkM_AGbw9DYTM55GtogvwKnWbUWLuDaEUm3ZygvgKgsGBTPpcOzFHDwVgw8w&ved=2ahUKEwjBkfGKv6eVAxX0kYkEHZwpL_QQ8tMDegQIVxAK",
+            "6": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f7c1c784a1c56cc1&gl=us&hl=en&ei=qcs_aoGZA_SjptQPnNO8oQ8&start=50&sa=N&sstk=AU9db-CxP9TID0Yebd6xx112HZyU0Scc9cEGo3NbhORkM_AGbw9DYTM55GtogvwKnWbUWLuDaEUm3ZygvgKgsGBTPpcOzFHDwVgw8w&ved=2ahUKEwjBkfGKv6eVAxX0kYkEHZwpL_QQ8tMDegQIVxAM",
+            "7": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f7c1c784a1c56cc1&gl=us&hl=en&ei=qcs_aoGZA_SjptQPnNO8oQ8&start=60&sa=N&sstk=AU9db-CxP9TID0Yebd6xx112HZyU0Scc9cEGo3NbhORkM_AGbw9DYTM55GtogvwKnWbUWLuDaEUm3ZygvgKgsGBTPpcOzFHDwVgw8w&ved=2ahUKEwjBkfGKv6eVAxX0kYkEHZwpL_QQ8tMDegQIVxAO",
+            "8": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f7c1c784a1c56cc1&gl=us&hl=en&ei=qcs_aoGZA_SjptQPnNO8oQ8&start=70&sa=N&sstk=AU9db-CxP9TID0Yebd6xx112HZyU0Scc9cEGo3NbhORkM_AGbw9DYTM55GtogvwKnWbUWLuDaEUm3ZygvgKgsGBTPpcOzFHDwVgw8w&ved=2ahUKEwjBkfGKv6eVAxX0kYkEHZwpL_QQ8tMDegQIVxAQ",
+            "9": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f7c1c784a1c56cc1&gl=us&hl=en&ei=qcs_aoGZA_SjptQPnNO8oQ8&start=80&sa=N&sstk=AU9db-CxP9TID0Yebd6xx112HZyU0Scc9cEGo3NbhORkM_AGbw9DYTM55GtogvwKnWbUWLuDaEUm3ZygvgKgsGBTPpcOzFHDwVgw8w&ved=2ahUKEwjBkfGKv6eVAxX0kYkEHZwpL_QQ8tMDegQIVxAS",
+            "10": "https://www.google.com/search?q=coffee&safe=off&sca_esv=f7c1c784a1c56cc1&gl=us&hl=en&ei=qcs_aoGZA_SjptQPnNO8oQ8&start=90&sa=N&sstk=AU9db-CxP9TID0Yebd6xx112HZyU0Scc9cEGo3NbhORkM_AGbw9DYTM55GtogvwKnWbUWLuDaEUm3ZygvgKgsGBTPpcOzFHDwVgw8w&ved=2ahUKEwjBkfGKv6eVAxX0kYkEHZwpL_QQ8tMDegQIVxAU"
           }
         }
       }
     }
   },
-  "requestId": "102400d8-f73f-480c-a3a9-d1cbc9a88e98",
-  "timestamp": 1782565202808,
-  "recordTime": "2026-06-27 21:00:02"
+  "requestId": "fd7e10b7-e8b7-4b06-9971-b437a3f0f34e",
+  "timestamp": 1782567603410,
+  "recordTime": "2026-06-27 21:40:03"
 }
