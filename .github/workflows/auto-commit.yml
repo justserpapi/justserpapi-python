@@ -26,8 +26,23 @@ jobs:
 
       - name: Auto commit
         run: |
+          set -euo pipefail
+
           git config --local user.name "Anonymous Committer"
           git config --local user.email "anonymous@users.noreply.github.com"
-          git pull --ff-only origin main
-          git commit --allow-empty -m "chore: auto empty commit at $(date)"
-          git push origin HEAD:main
+
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            git commit --allow-empty -m "chore: auto empty commit at $(date -u)"
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Push raced with another update to main; retrying in $((attempt * 5)) seconds..."
+            sleep $((attempt * 5))
+          done
+
+          echo "Failed to push auto commit after 5 attempts."
+          exit 1
