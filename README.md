@@ -154,7 +154,6 @@ The API list below is generated from OpenAPI and shows the current public API ca
 
 - [Google Trends Search API](https://docs.justserpapi.com/api/v1/google/trends/search?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
 - [Google Trends Autocomplete API](https://docs.justserpapi.com/api/v1/google/trends/autocomplete?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
-- [Google Trends Trending Now API](https://docs.justserpapi.com/api/v1/google/trends/trending-now?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_api_list)
 
 ### Google Shopping API
 
