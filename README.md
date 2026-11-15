@@ -29,9 +29,9 @@ The documentation center helps you browse endpoint health, versioned API paths, 
 
 [![JustSERPAPI documentation overview](docs/images/readme/api-docs-en.jpg)](https://docs.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_docs_image)
 
-The console provides API key management, subscription status, credit visibility, request logs, usage trends, and credit consumption analytics.
+Sign in to the console to access API key management, subscription status, credit visibility, request logs, usage trends, and credit consumption analytics.
 
-[![JustSERPAPI console overview](docs/images/readme/console-en.jpg)](https://dashboard.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_dashboard_image)
+[![JustSERPAPI console sign-in form](docs/images/readme/console-en.jpg)](https://dashboard.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_dashboard_image)
 
 ## Installation
 
