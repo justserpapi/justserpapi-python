@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_logo">
-    <img src="https://justserpapi.com/logo/whiteBgColor.webp" alt="JustSerpAPI Logo" width="200">
+    <img src="https://justserpapi.com/logo/justserpapi-brand.svg" alt="JustSERPAPI Logo" width="200">
   </a>
 </p>
 
-<h1 align="center">JustSerpAPI Python SDK</h1>
+<h1 align="center">JustSERPAPI Python SDK</h1>
 
 <p align="center">
   <a href="https://pypi.org/project/justserpapi/">
@@ -21,17 +21,17 @@
   </a>
 </p>
 
-OpenAPI-driven Python SDK for [JustSerpAPI](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme) with a stable high-level `Client` as the public entrypoint.
+OpenAPI-driven Python SDK for [JustSERPAPI](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme) with a stable high-level `Client` as the public entrypoint.
 
 ## Platform Overview
 
 The documentation center helps you browse endpoint health, versioned API paths, request parameters, and SERP-specific usage notes.
 
-[![JustSerpAPI documentation overview](docs/images/readme/api-docs-en.jpg)](https://docs.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_docs_image)
+[![JustSERPAPI documentation overview](docs/images/readme/api-docs-en.jpg)](https://docs.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_docs_image)
 
 The console provides API key management, subscription status, credit visibility, request logs, usage trends, and credit consumption analytics.
 
-[![JustSerpAPI console overview](docs/images/readme/console-en.jpg)](https://dashboard.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_dashboard_image)
+[![JustSERPAPI console overview](docs/images/readme/console-en.jpg)](https://dashboard.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_python&utm_content=repo_readme_dashboard_image)
 
 ## Installation
 

@@ -1,4 +1,4 @@
-"""Runtime configuration for the JustSerpAPI SDK."""
+"""Runtime configuration for the JustSERPAPI SDK."""
 
 
 import copy

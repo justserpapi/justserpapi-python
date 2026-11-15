@@ -1,6 +1,6 @@
 # coding: utf-8
 
-"""HTTP transport helpers for the low-level JustSerpAPI client."""
+"""HTTP transport helpers for the low-level JustSERPAPI client."""
 
 
 import io

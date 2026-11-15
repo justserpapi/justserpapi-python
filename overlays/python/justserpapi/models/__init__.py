@@ -2,7 +2,7 @@
 
 # flake8: noqa
 
-"""Model exports for the JustSerpAPI SDK."""
+"""Model exports for the JustSERPAPI SDK."""
 
 from justserpapi.models.responses import AutocompleteSuggestion as AutocompleteSuggestion
 from justserpapi.models.responses import BasePayloadModel as BasePayloadModel

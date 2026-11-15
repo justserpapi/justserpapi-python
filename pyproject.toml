@@ -1,12 +1,12 @@
 [project]
 name = "justserpapi"
 dynamic = ["version"]
-description = "Professional Python SDK for JustSerpAPI"
+description = "Professional Python SDK for JustSERPAPI"
 authors = [
-  {name = "JustSerpAPI Team", email = "support@justserpapi.com"},
+  {name = "JustSERPAPI Team", email = "support@justserpapi.com"},
 ]
 readme = "README.md"
-keywords = ["OpenAPI", "OpenAPI-Generator", "JustSerpAPI", "SERP"]
+keywords = ["OpenAPI", "OpenAPI-Generator", "JustSERPAPI", "SERP"]
 requires-python = ">=3.9"
 license = { text = "MIT" }
 classifiers = [

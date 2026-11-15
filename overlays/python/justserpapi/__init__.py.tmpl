@@ -2,7 +2,7 @@
 
 # flake8: noqa
 
-"""JustSerpAPI Python SDK."""
+"""JustSERPAPI Python SDK."""
 
 from justserpapi._version import __version__
 

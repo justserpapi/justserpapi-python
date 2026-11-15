@@ -1,8 +1,8 @@
 {
   "service": {
     "name": "justserpapi",
-    "display_name": "JustSerpAPI",
-    "description": "OpenAPI-first Python SDK release tooling for JustSerpAPI.",
+    "display_name": "JustSERPAPI",
+    "description": "OpenAPI-first Python SDK release tooling for JustSERPAPI.",
     "default_server_url": "https://api.justserpapi.com"
   },
   "spec": {

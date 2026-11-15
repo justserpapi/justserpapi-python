@@ -618,6 +618,12 @@ def success_responses(operation: Dict[str, Any]) -> Set[str]:
 def generate_command(args: argparse.Namespace, manifest: Dict[str, Any]) -> None:
     spec_path = resolve_spec_path(manifest, args.spec)
     spec = load_spec(spec_path)
+    info = spec.get("info", {})
+    for field in ("title", "description"):
+        if isinstance(info.get(field), str):
+            info[field] = re.sub(
+                r"JustSerpAPI|Just Serp API|Just SERP API", "JustSERPAPI", info[field]
+            )
     version = spec_version(spec)
     languages = ["python"]
     workspace = resolve_path(
@@ -672,6 +678,8 @@ def generate_language(
         temp_dir = Path(temp_dir_name)
         rendered_config_path = temp_dir / ("%s-config.json" % language)
         render_text_file(config_template_path, rendered_config_path, context)
+        rendered_spec_path = temp_dir / "openapi.json"
+        write_text(rendered_spec_path, json.dumps(spec, ensure_ascii=False) + "\n")
 
         command = [
             "java",
@@ -681,7 +689,7 @@ def generate_language(
             "-g",
             language_cfg["generator"],
             "-i",
-            str(spec_path),
+            str(rendered_spec_path),
             "-o",
             str(output_dir),
             "-c",
@@ -825,7 +833,7 @@ def render_python_high_level_client(spec: Dict[str, Any], context: Dict[str, str
 
     return "\n".join(
         [
-            '"""High-level JustSerpAPI client generated from OpenAPI."""',
+            '"""High-level JustSERPAPI client generated from OpenAPI."""',
             "",
             "from __future__ import annotations",
             "",
@@ -888,7 +896,7 @@ def render_python_high_level_client(spec: Dict[str, Any], context: Dict[str, str
             "",
             *resource_classes,
             "class Client:",
-            '    """High-level JustSerpAPI SDK entrypoint."""',
+            '    """High-level JustSERPAPI SDK entrypoint."""',
             "",
             "    def __init__(",
             "        self,",

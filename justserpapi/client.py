@@ -1,4 +1,4 @@
-"""High-level JustSerpAPI client generated from OpenAPI."""
+"""High-level JustSERPAPI client generated from OpenAPI."""
 
 from __future__ import annotations
 
@@ -517,7 +517,7 @@ class GoogleResource(_BaseResource):
 
 
 class Client:
-    """High-level JustSerpAPI SDK entrypoint."""
+    """High-level JustSERPAPI SDK entrypoint."""
 
     def __init__(
         self,
